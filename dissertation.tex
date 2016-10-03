@@ -6,6 +6,17 @@
 \usepackage{\ATLASLATEXPATH atlasunit}
 \usepackage{\ATLASLATEXPATH Xhh4b-defs}
 
+%other use packages
+\usepackage{multirow,bigdelim}
+\usepackage{bm}
+\usepackage{dcolumn}
+\usepackage{xspace}
+\RequirePackage{booktabs}
+\usepackage{rotating}
+\usepackage{subcaption}
+\usepackage{bbding}
+\usepackage{notoccite}
+\usepackage{lineno}
 
 
 
@@ -13,18 +24,16 @@
 
 % the front matter
 \input{frontmatter/personalize}
-% \maketitle
-% \copyrightpage
-\frontmatter
-\setstretch{\dnormalspacing}
-% \abstractpage
+\maketitle
+\copyrightpage
+\setstretch{1.2}
+\abstractpage
 \tableofcontents
-%\authorlist
-% \listoffigures
-% \dedicationpage
-% \acknowledgments
-
-% \doublespacing
+\listoffigures
+\listoftables
+\dedicationpage
+\acknowledgments
+\doublespacing
 
 % include each chapter...
 %\include{chapters/preintroduction}
@@ -44,14 +53,14 @@
 
 \setstretch{\dnormalspacing}
 
-% the back matter
-\backmatter
+\begin{appendices}
+\include{chapters/appendixA}
+\end{appendices}
 
-% \clearpage
-% \bibliography{references}
-% \addcontentsline{toc}{chapter}{References}
-% \bibliographystyle{apalike2}
-
-% \include{endmatter/colophon}
+\setstretch{1.2}
+\clearpage
+\addcontentsline{toc}{chapter}{References}
+\bibliography{references}
+\bibliographystyle{unsrtnat}
 
 \end{document}
