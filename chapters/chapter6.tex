@@ -6,6 +6,42 @@ Nulla facilisi. In vel sem. Morbi id urna in diam dignissim feugiat. Proin moles
 
 \chapter{Event Selection}
 
+
+\section{Optimization Strategy}
+
+\paragraph{}
+To improve the analysis, a quantity which defines the sensitivity of analysis is maximized. This is usually described as $\frac{S}{\sqrt{B}}$, when no knowledge of the model cross section is available, or $\frac{S}{\sqrt{S + B}}$, if the signal cross section is known. These parametrizations have limitations, particularly when the signal yield and the number of estiamted background are both small. A better parametrization for low signal strengh is $\frac{S}{\sqrt{1 + B}}$, where the extra $\sqrt{1 + B}$ accounts for poisson fluctuations.
+
+\paragraph{}
+For this analysis, two methods are used: one is calculate the number of signal and backgrounds within $68\%$ of the signal \mhh mass window, the other is to implement the full signal and background predicions after smoothing and compare the asymptotic expected exclusion limits. Both methods yield comparable results.
+
+\paragraph{}
+To avoid bias during the optimzation process, data's signal regions are blinded.
+
+
 \section{$b$ tagging}
 \paragraph{}
 \b-tagging, which is the identification of the \b hadron,  ~\cite{Reco-btag-2016} is the core and main limiting factor of this analysis. Because of the relatively long lifetime, it is possible to tag the \b hadron using the inner detector informations. A higher \b-tagging efficiency will increase the signal selection efficiency, while a lower \b-tagging fake rate will reduce the background like $gg \to c\bar{c}$ in the signal regions.
+
+
+\section{Signal Efficiency}
+
+\paragraph{}
+Acceptance referes to purely geometric fiducial volume of the detector. Efficiency refers to purely detector effectivenss in finding objects. The final value in the study is Acceptance $\times$ Efficiency, where both effects are considered.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

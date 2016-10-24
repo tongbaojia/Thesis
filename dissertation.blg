@@ -16,44 +16,44 @@ A level-1 auxiliary file: chapters/conclusion.aux
 A level-1 auxiliary file: chapters/appendixA.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-You've used 1 entry,
+You've used 2 entries,
             2481 wiz_defined-function locations,
-            574 strings with 4882 characters,
-and the built_in function-call counts, 414 in all, are:
-= -- 35
-> -- 15
+            584 strings with 5151 characters,
+and the built_in function-call counts, 830 in all, are:
+= -- 69
+> -- 42
 < -- 1
-+ -- 6
-- -- 4
-* -- 30
-:= -- 71
-add.period$ -- 4
-call.type$ -- 1
-change.case$ -- 2
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 19
-empty$ -- 38
-format.name$ -- 6
-if$ -- 84
++ -- 16
+- -- 12
+* -- 66
+:= -- 143
+add.period$ -- 9
+call.type$ -- 2
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 2
+duplicate$ -- 38
+empty$ -- 72
+format.name$ -- 15
+if$ -- 170
 int.to.chr$ -- 1
-int.to.str$ -- 2
-missing$ -- 1
-newline$ -- 14
-num.names$ -- 3
-pop$ -- 6
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 21
+num.names$ -- 6
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 1
+purify$ -- 2
 quote$ -- 0
-skip$ -- 13
+skip$ -- 23
 stack$ -- 0
-substring$ -- 20
-swap$ -- 2
+substring$ -- 34
+swap$ -- 4
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 7
+type$ -- 14
 warning$ -- 0
-while$ -- 3
+while$ -- 6
 width$ -- 0
-write$ -- 22
+write$ -- 39

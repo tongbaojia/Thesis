@@ -1,4 +1,5 @@
 \contentsline {chapter}{\numberline {0}Introduction}{1}{chapter.0}
+\contentsline {paragraph}{}{1}{chapter.0}
 \contentsline {chapter}{\numberline {1}Motivation for searches beyond the Standard Model}{2}{chapter.1}
 \contentsline {section}{\numberline {1.1}the Standard Model}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problems with the Standard Model}{2}{section.1.2}
@@ -8,14 +9,28 @@
 \contentsline {section}{\numberline {2.2}Performance}{3}{section.2.2}
 \contentsline {chapter}{\numberline {3}Eyes of giant--The ATLAS Detector}{4}{chapter.3}
 \contentsline {chapter}{\numberline {4}Game of Jigsaw--Reconstruction}{5}{chapter.4}
-\contentsline {chapter}{\numberline {5}Censor of work--Data Quality}{6}{chapter.5}
-\contentsline {chapter}{\numberline {6}Event Selection}{7}{chapter.6}
-\contentsline {section}{\numberline {6.1}$b$ tagging}{7}{section.6.1}
-\contentsline {paragraph}{}{7}{section.6.1}
-\contentsline {chapter}{\numberline {7}Background Estimation}{8}{chapter.7}
-\contentsline {chapter}{\numberline {8}Systematics}{9}{chapter.8}
-\contentsline {chapter}{\numberline {9}Result}{10}{chapter.9}
-\contentsline {chapter}{\numberline {10}Intepretation}{11}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusion}{12}{chapter.11}
-\contentsline {chapter}{Appendix \numberline {A}Some extra stuff}{13}{Appendix.1.A}
-\contentsline {chapter}{References}{14}{Appendix.1.A}
+\contentsline {section}{\numberline {4.1}Introduction to objects}{5}{section.4.1}
+\contentsline {paragraph}{}{5}{section.4.1}
+\contentsline {paragraph}{}{5}{section.4.1}
+\contentsline {paragraph}{}{5}{section.4.1}
+\contentsline {paragraph}{}{6}{section.4.1}
+\contentsline {chapter}{\numberline {5}Censor of work--Data Quality}{7}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data Flow in ATLAS}{7}{section.5.1}
+\contentsline {section}{\numberline {5.2}Online Monitoring}{7}{section.5.2}
+\contentsline {section}{\numberline {5.3}Offline Monitoring}{7}{section.5.3}
+\contentsline {chapter}{\numberline {6}Event Selection}{8}{chapter.6}
+\contentsline {section}{\numberline {6.1}Optimization Strategy}{8}{section.6.1}
+\contentsline {paragraph}{}{8}{section.6.1}
+\contentsline {paragraph}{}{8}{section.6.1}
+\contentsline {paragraph}{}{9}{section.6.1}
+\contentsline {section}{\numberline {6.2}$b$ tagging}{9}{section.6.2}
+\contentsline {paragraph}{}{9}{section.6.2}
+\contentsline {chapter}{\numberline {7}Background Estimation}{10}{chapter.7}
+\contentsline {chapter}{\numberline {8}Systematics}{11}{chapter.8}
+\contentsline {chapter}{\numberline {9}Result}{12}{chapter.9}
+\contentsline {chapter}{\numberline {10}Intepretation}{13}{chapter.10}
+\contentsline {paragraph}{}{13}{chapter.10}
+\contentsline {paragraph}{}{13}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusion}{14}{chapter.11}
+\contentsline {chapter}{Appendix \numberline {A}Some extra stuff}{15}{Appendix.1.A}
+\contentsline {chapter}{References}{16}{Appendix.1.A}
