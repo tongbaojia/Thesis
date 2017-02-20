@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  19 FEB 2017 23:30
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  19 FEB 2017 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1163,31 +1163,31 @@ LaTeX Info: Redefining \\ on input line 3056.
 (./chapters/conclusion.aux) (./chapters/appendixA.aux))
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 24.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1224,9 +1224,9 @@ LaTeX Font Info:    ... okay on input line 23.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 23.
+LaTeX Info: Redefining \selectfont on input line 24.
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 24.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1236,9 +1236,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count168
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
 
 (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write3
@@ -1247,21 +1247,22 @@ LaTeX Info: Redefining \nameref on input line 23.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
+Package caption Info: We need package `ragged2e' on input line 24.
  (./frontmatter/personalize.tex)
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 27.
-LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+(Font)              scaled to size 24.88pt on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 27.
+(Font)              scaled to size 12.0pt on input line 28.
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1271,14 +1272,14 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 28.
+(Font)              scaled to size 10.95pt on input line 29.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 28.
+(Font)              scaled to size 10.95pt on input line 29.
  [2]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 30.
+(Font)              scaled to size 17.28pt on input line 31.
  (./frontmatter/abstract.tex) [3]
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 31.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 32.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -1296,29 +1297,232 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [5] (./dissertation.lof)
+ [5] (./dissertation.lof
+Overfull \hbox (8.91682pt too wide) in paragraph at lines 9--9
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the sideband region after re- 
+ []
+
+
+Overfull \hbox (11.24551pt too wide) in paragraph at lines 9--9
+ \EU1/EBGaramond(2)/bx/n/10.95 quiring 4 $[]$-tags. The normalization agrees by
+ construction, and the shapes are a feature 
+ []
+
+
+Overfull \hbox (6.17932pt too wide) in paragraph at lines 10--10
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the sideband region af- 
+ []
+
+
+Overfull \hbox (1.55476pt too wide) in paragraph at lines 10--10
+ \EU1/EBGaramond(2)/bx/n/10.95 ter requiring 4 $[]$-tags. The normalization agr
+ees by construction, and the shapes are a 
+ []
+
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 9.35316pt on input line 11.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 11.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 11.
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 11--11
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 11--11
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (7.64297pt too wide) in paragraph at lines 11--11
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the sideband region after requirin
+g 4 $[]$-tags. Third row shows the $[][]$ be- 
+ []
+
+
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 11--11
+ \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
+ed to the leading (left) and sub-leading (right) 
+ []
+
+
+Overfull \hbox (14.83708pt too wide) in paragraph at lines 11--11
+ \EU1/EBGaramond(2)/bx/n/10.95 large-$[]$ jet. The normalization agrees by cons
+truction, and the shapes are a feature of the 
+ []
+
+
+Overfull \hbox (7.00056pt too wide) in paragraph at lines 12--12
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the sideband region after 
+ []
+
+
+Overfull \hbox (5.03687pt too wide) in paragraph at lines 12--12
+ \EU1/EBGaramond(2)/bx/n/10.95 requiring 4 $[]$-tags. The normalization agrees 
+by construction, and the shapes are a fea- 
+ []
+
+
+Overfull \hbox (8.91682pt too wide) in paragraph at lines 13--13
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the sideband region after re- 
+ []
+
+
+Overfull \hbox (9.9315pt too wide) in paragraph at lines 13--13
+ \EU1/EBGaramond(2)/bx/n/10.95 quiring 3 $[]$-tags. The normalization agrees by
+ construction, and the shapes are a feature 
+ []
+
+
+Overfull \hbox (6.17932pt too wide) in paragraph at lines 14--14
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the sideband region af- 
+ []
+
+
+Overfull \hbox (0.24075pt too wide) in paragraph at lines 14--14
+ \EU1/EBGaramond(2)/bx/n/10.95 ter requiring 3 $[]$-tags. The normalization agr
+ees by construction, and the shapes are a 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 15--15
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 15--15
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (6.32896pt too wide) in paragraph at lines 15--15
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the sideband region after requirin
+g 3 $[]$-tags. Third row shows the $[][]$ be- 
+ []
+
+
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 15--15
+ \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
+ed to the leading (left) and sub-leading (right) 
+ []
+
+
+Overfull \hbox (14.83708pt too wide) in paragraph at lines 15--15
+ \EU1/EBGaramond(2)/bx/n/10.95 large-$[]$ jet. The normalization agrees by cons
+truction, and the shapes are a feature of the 
+ []
+
+
+Overfull \hbox (7.00056pt too wide) in paragraph at lines 16--16
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the sideband region after 
+ []
+
+
+Overfull \hbox (3.72285pt too wide) in paragraph at lines 16--16
+ \EU1/EBGaramond(2)/bx/n/10.95 requiring 3 $[]$-tags. The normalization agrees 
+by construction, and the shapes are a fea- 
+ []
+
+[6
+
+]
+Overfull \hbox (8.91682pt too wide) in paragraph at lines 17--17
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the sideband region after re- 
+ []
+
+
+Overfull \hbox (16.52339pt too wide) in paragraph at lines 17--17
+ \EU1/EBGaramond(2)/bx/n/10.95 quiring 2 $[]$-tags split. The normalization agr
+ees by construction, and the shapes are a fea- 
+ []
+
+
+Overfull \hbox (6.17932pt too wide) in paragraph at lines 18--18
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the sideband region af- 
+ []
+
+
+Overfull \hbox (14.38814pt too wide) in paragraph at lines 18--18
+ \EU1/EBGaramond(2)/bx/n/10.95 ter requiring 2 $[]$-tags split. The normalizati
+on agrees by construction, and the shapes are 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 19--19
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (11.95724pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the sideband region after requirin
+g 2 $[]$-tags split. Third row shows the $[][]$ 
+ []
+
+
+Overfull \hbox (1.74457pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(2)/bx/n/10.95 between two leading small-$[]$ track-jets associ
+ated to the leading (left) and sub-leading 
+ []
+
+
+Overfull \hbox (3.39435pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(2)/bx/n/10.95 (right) large-$[]$ jet. The normalization agrees
+ by construction, and the shapes are a fea- 
+ []
+
+
+Overfull \hbox (7.00056pt too wide) in paragraph at lines 20--20
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the sideband region after 
+ []
+
+
+Overfull \hbox (0.85394pt too wide) in paragraph at lines 20--20
+ \EU1/EBGaramond(2)/bx/n/10.95 requiring 2 $[]$-tags split. The normalization a
+grees by construction, and the shapes are 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [6
-
-] (./dissertation.lot)
+ [7] (./dissertation.lot)
 \tf@lot=\write6
 \openout6 = `dissertation.lot'.
 
- [7
+ [8
+
+] (./frontmatter/dedication.tex) [9
 
 ]
-(./frontmatter/dedication.tex) [8
-
-] (./frontmatter/thanks.tex) [9
+(./frontmatter/thanks.tex) [10
 
 
 ]
 \openout2 = `chapters/introduction.aux'.
 
-
-(./chapters/introduction.tex
+ (./chapters/introduction.tex
 Chapter 0.
 ) [1
 
@@ -1367,17 +1571,10 @@ Chapter 4.
 
 
 ]
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 32.
-
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
 (Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 32.
 
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 32.
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 32.
 
 Overfull \hbox (2.40796pt too wide) in paragraph at lines 38--39
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Tracks reconstruction, see [][]note[][]. 
@@ -1416,16 +1613,297 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (./chapters/chapter7.tex
 Chapter 7.
-) [11
+
+LaTeX Warning: Reference `sec:boosted-SBCR' on page 11 undefined on input line 
+19.
+
+
+LaTeX Warning: Reference `tab:yields4b' on page 11 undefined on input line 19.
+
+
+LaTeX Warning: Reference `tab:yields3b' on page 11 undefined on input line 19.
+
+[11
 
 
 
 ]
+File: ./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Pt_m_1.pdf Gr
+aphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Pt_m_1.pdf" 
+>
+File: ./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Mass_s.pdf Gr
+aphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Mass_s.pdf" 
+>
+File: ./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Eta.pdf Graph
+ic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Eta.pdf" >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Phi.pdf Graph
+ic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_Phi.pdf" >
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 33.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
+(Font)              scaled to size 9.5907pt on input line 33.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
+(Font)              scaled to size 7.99225pt on input line 33.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 9.71375pt on input line 33.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 8.09479pt on input line 33.
+File: ./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Pt_m_1.pdf Gr
+aphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Pt_m_1.pdf" 
+>
+File: ./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Mass_s.pdf Gr
+aphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Mass_s.pdf" 
+>
+File: ./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Eta.pdf Graph
+ic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Eta.pdf" >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Phi.pdf Graph
+ic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_Phi.pdf" >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_trk0_Pt.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_trk0_Pt.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_trk1_Pt.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_trk1_Pt.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_trk0_Pt.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_trk0_Pt.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_trk1_Pt.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_trk1_Pt.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_trk_dr.pdf Gr
+aphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_leadHCand_trk_dr.pdf" 
+>
+File: ./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_trk_dr.pdf Gr
+aphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_sublHCand_trk_dr.pdf" 
+>
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 8.54172pt on input line 57.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 5.66635pt on input line 57.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 4.0474pt on input line 57.
+File: ./figures/boosted/Control/Moriond_FourTag_Control_mHH_l_1.pdf Graphic fil
+e (type QTm)
+ <use  "./figures/boosted/Control/Moriond_FourTag_Control_mHH_l_1.pdf" >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_hCandDr.pdf Graphic fil
+e (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_hCandDr.pdf" >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_hCandDeta.pdf Graphic f
+ile (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_hCandDeta.pdf" >
+File: ./figures/boosted/Control/Moriond_FourTag_Control_hCandDphi.pdf Graphic f
+ile (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_FourTag_Control_hCandDphi.pdf" >
+[12] [13] [14] [15] [16]
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Pt_m_1.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Pt_m_1.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Mass_s.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Mass_s.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Eta.pdf Grap
+hic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Eta.pdf" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Phi.pdf Grap
+hic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_Phi.pdf" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Pt_m_1.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Pt_m_1.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Mass_s.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Mass_s.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Eta.pdf Grap
+hic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Eta.pdf" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Phi.pdf Grap
+hic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_Phi.pdf" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_trk0_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_trk0_Pt.pdf
+" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_trk1_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_trk1_Pt.pdf
+" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_trk0_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_trk0_Pt.pdf
+" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_trk1_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_trk1_Pt.pdf
+" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_trk_dr.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_leadHCand_trk_dr.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_trk_dr.pdf G
+raphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_sublHCand_trk_dr.pdf"
+ >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_mHH_l_1.pdf Graphic fi
+le (type QTm)
+ <use  "./figures/boosted/Control/Moriond_ThreeTag_Control_mHH_l_1.pdf" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_hCandDr.pdf Graphic fi
+le (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_hCandDr.pdf" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_hCandDeta.pdf Graphic 
+file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_hCandDeta.pdf" >
+File: ./figures/boosted/Control/Moriond_ThreeTag_Control_hCandDphi.pdf Graphic 
+file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_ThreeTag_Control_hCandDphi.pdf" >
+[17
+
+] [18] [19] [20]
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Pt_m_1.p
+df Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Pt_m_1.
+pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Mass_s.p
+df Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Mass_s.
+pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Eta.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Eta.pdf
+" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Phi.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_Phi.pdf
+" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Pt_m_1.p
+df Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Pt_m_1.
+pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Mass_s.p
+df Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Mass_s.
+pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Eta.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Eta.pdf
+" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Phi.pdf 
+Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_Phi.pdf
+" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_trk0_Pt.
+pdf Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_trk0_Pt
+.pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_trk1_Pt.
+pdf Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_trk1_Pt
+.pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_trk0_Pt.
+pdf Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_trk0_Pt
+.pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_trk1_Pt.
+pdf Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_trk1_Pt
+.pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_trk_dr.p
+df Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_leadHCand_trk_dr.
+pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_trk_dr.p
+df Graphic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_sublHCand_trk_dr.
+pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_mHH_l_1.pdf Graphi
+c file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_mHH_l_1.pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_hCandDr.pdf Graphi
+c file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_hCandDr.pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_hCandDeta.pdf Grap
+hic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_hCandDeta.pdf" >
+File: ./figures/boosted/Control/Moriond_TwoTag_split_Control_hCandDphi.pdf Grap
+hic file (type QTm)
+
+<use  "./figures/boosted/Control/Moriond_TwoTag_split_Control_hCandDphi.pdf" >)
+[21
+
+] [22] [23] [24]
 \openout2 = `chapters/chapter8.aux'.
 
  (./chapters/chapter8.tex
 Chapter 8.
-) [12
+) [25
 
 
 
@@ -1434,7 +1912,7 @@ Chapter 8.
 
  (./chapters/chapter9.tex
 Chapter 9.
-) [13
+) [26
 
 
 
@@ -1443,16 +1921,16 @@ Chapter 9.
 
  (./chapters/chapter10.tex
 Chapter 10.
-[14
+[27
 
 
 
-]) [15]
+]) [28]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 11.
-) [16
+) [29
 
 
 
@@ -1461,7 +1939,7 @@ Chapter 11.
 
  (./chapters/appendixA.tex
 Appendix A.
-) [17
+) [30
 
 
 
@@ -1469,33 +1947,36 @@ Appendix A.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 11.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
- [18
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
+ [31
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./dissertation.aux
 (./chapters/introduction.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
 (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux)
 (./chapters/chapter8.aux) (./chapters/chapter9.aux) (./chapters/chapter10.aux)
 (./chapters/conclusion.aux) (./chapters/appendixA.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 66.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 66.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 67.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 25907 strings out of 493706
- 469270 string characters out of 6145769
- 532878 words of memory out of 5000000
- 28798 multiletter control sequences out of 15000+600000
- 24730 words of font info for 140 fonts, out of 8000000 for 9000
+ 26090 strings out of 493706
+ 477428 string characters out of 6145769
+ 539849 words of memory out of 5000000
+ 28901 multiletter control sequences out of 15000+600000
+ 27977 words of font info for 167 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,11n,104p,10522b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,104p,10522b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (27 pages).
+Output written on dissertation.pdf (41 pages).

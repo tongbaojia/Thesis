@@ -35,13 +35,17 @@
 \contentsline {paragraph}{}{10}{section.6.3}
 \contentsline {chapter}{\numberline {7}Background Estimation}{11}{chapter.7}
 \contentsline {section}{\numberline {7.1}Background composition}{11}{section.7.1}
-\contentsline {chapter}{\numberline {8}Systematics}{12}{chapter.8}
-\contentsline {chapter}{\numberline {9}Result}{13}{chapter.9}
-\contentsline {chapter}{\numberline {10}Intepretation}{14}{chapter.10}
-\contentsline {paragraph}{}{14}{chapter.10}
-\contentsline {paragraph}{}{14}{chapter.10}
-\contentsline {paragraph}{}{14}{chapter.10}
-\contentsline {paragraph}{}{15}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusion}{16}{chapter.11}
-\contentsline {chapter}{Appendix \numberline {A}Some extra stuff}{17}{Appendix.1.A}
-\contentsline {chapter}{References}{18}{Appendix.1.A}
+\contentsline {section}{\numberline {7.2}Sideband Region Distributions}{11}{section.7.2}
+\contentsline {section}{\numberline {7.3}Control Region Distributions}{11}{section.7.3}
+\contentsline {paragraph}{}{11}{section.7.3}
+\contentsline {section}{\numberline {7.4}Signal Region Predictions}{21}{section.7.4}
+\contentsline {chapter}{\numberline {8}Systematics}{25}{chapter.8}
+\contentsline {chapter}{\numberline {9}Result}{26}{chapter.9}
+\contentsline {chapter}{\numberline {10}Intepretation}{27}{chapter.10}
+\contentsline {paragraph}{}{27}{chapter.10}
+\contentsline {paragraph}{}{27}{chapter.10}
+\contentsline {paragraph}{}{27}{chapter.10}
+\contentsline {paragraph}{}{28}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusion}{29}{chapter.11}
+\contentsline {chapter}{Appendix \numberline {A}Some extra stuff}{30}{Appendix.1.A}
+\contentsline {chapter}{References}{31}{Appendix.1.A}
