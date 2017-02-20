@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 FEB 2017 02:34
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  19 FEB 2017 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1311,10 +1311,10 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 ]
 (./frontmatter/dedication.tex) [8
 
-] (./frontmatter/thanks.tex [9
+] (./frontmatter/thanks.tex) [9
 
 
-]) [10]
+]
 \openout2 = `chapters/introduction.aux'.
 
 
@@ -1368,18 +1368,18 @@ Chapter 4.
 
 ]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 30.
+(Font)              scaled to size 9.35316pt on input line 32.
 
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 30.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 32.
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 30.
+(Font)              scaled to size 8.0pt on input line 32.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 30.
+(Font)              scaled to size 6.0pt on input line 32.
 
-Overfull \hbox (2.40796pt too wide) in paragraph at lines 36--37
+Overfull \hbox (2.40796pt too wide) in paragraph at lines 38--39
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Tracks reconstruction, see [][]note[][]. 
 The first step is creating clusters based on pixel and SCT meausred 
  []
@@ -1388,23 +1388,6 @@ The first step is creating clusters based on pixel and SCT meausred
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
 Chapter 5.
 ) [8
 
@@ -1414,23 +1397,6 @@ Chapter 5.
 \openout2 = `chapters/chapter6.aux'.
 
  (./chapters/chapter6.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
 Chapter 6.
 [9
 
@@ -1449,23 +1415,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 \openout2 = `chapters/chapter7.aux'.
 
  (./chapters/chapter7.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
 Chapter 7.
 ) [11
 
@@ -1475,23 +1424,6 @@ Chapter 7.
 \openout2 = `chapters/chapter8.aux'.
 
  (./chapters/chapter8.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
 Chapter 8.
 ) [12
 
@@ -1501,23 +1433,6 @@ Chapter 8.
 \openout2 = `chapters/chapter9.aux'.
 
  (./chapters/chapter9.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
 Chapter 9.
 ) [13
 
@@ -1527,23 +1442,6 @@ Chapter 9.
 \openout2 = `chapters/chapter10.aux'.
 
  (./chapters/chapter10.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
 Chapter 10.
 [14
 
@@ -1594,10 +1492,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  25907 strings out of 493706
  469270 string characters out of 6145769
- 532880 words of memory out of 5000000
+ 532878 words of memory out of 5000000
  28798 multiletter control sequences out of 15000+600000
  24730 words of font info for 140 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  60i,11n,104p,10522b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (28 pages).
+Output written on dissertation.pdf (27 pages).
