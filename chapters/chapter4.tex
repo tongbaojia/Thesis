@@ -1,6 +1,6 @@
 %!TEX root = ../dissertation.tex
 \begin{savequote}[75mm]
-Nulla facilisi. In vel sem. Morbi id urna in diam dignissim feugiat. Proin molestie tortor eu velit. Aliquam erat volutpat. Nullam ultrices, diam tempus vulputate egestas, eros pede varius leo.
+I hate my life.
 \qauthor{Quoteauthor Lastname}
 \end{savequote}
 
@@ -15,7 +15,31 @@ Leptons are rare in proton-proton collisions. Less than $1\%$ of the total track
 Electrons are maximal inoizing in the tracking system. They get absorbed completely in ECAL nd leaves no signature in the HCAL.
 
 \paragraph{}
-Muons are special for leaving minimally ionizing signatures in the detector. They usually penetrate the calorimeter and form tracks in the Muon Spetrometer. This is useful for reducing the generate rate of events, hence for triggering. They are also very clean in reconstruction and have exceelnt resolutions up to 1 TeV.
+Muons are special for leaving minimally ionizing signatures in the detector. They usually penetrate the calorimeter and form tracks in the Muon Spetrometer. This is useful for reducing the generate rate of events, hence for triggering. They are also very clean in reconstruction and have exceelnt resolutions up to 1 TeV. Material and station information, see \href{https://cds.cern.ch/record/2252613/files/ATL-COM-MUON-2017-005.pdf}{note}.
+
+
 
 \paragraph{}
-Jet mass, see \href{https://cds.cern.ch/record/2200211/files/ATLAS-CONF-2016-035.pdf}.
+%Melissa asked me this question on Feb 13, 2017.
+Jet mass, see \href{https://cds.cern.ch/record/2200211/files/ATLAS-CONF-2016-035.pdf}{note}. Jet mass is one of the best tools for distinguishing massive particle decays from QCD background. Jets are trimmed by re-clustering the constituents fo the jet into subjets. $k_t$ algorithm with $R_{sub} = 0.2$ is used, and if the subjets has $p_T$ less than $5\%$ of the original jet $p_T$, the constituent is removed. \textbf{The calorimeter-based jet mass ($m^{calo}$)}, with clorimeter-cell cluster constituents $i$ with energy $E_i$, momentum $\vec{p}_i (|\vec{p}_i| = E_i)$ is defined as:
+\begin{equation}
+m^{calo} = \sqrt{(\sum_i E_i)^2 - (\sum_i p_i)^2}
+\end{equation}
+For a boosted massive particle, the angular spread in the decay products scales as $\frac{1}{p_T}$. For highly boosted cases, the spread could be comparable with the $0.1\time0.1$ calorimeter granularity. Tracking information can be used to maintain performance beyond this. \textbf{The track-assited jet mass ($m^{TA}$)} is defined as:
+\begin{equation}
+m^{TA} = \frac{p_{T}^{calo}}{p_{T}^{track}} \times m^{track}
+\end{equation}
+where $p_{T}^{calo}$ is the calorimeter measurement, $p_{T}^{track}$ is the four-vector sum of tracks associated to the large-radius calorimetere jet, and $m^{track}$ is the invariant mass of this four-vector sum(the track mass is set to $m_{\pi}$). This ratio corrects for charged-to-neutral fluctuations, thus improve the resolution with respect to track-only jet mass.
+
+\paragraph{Need to insert a figure here.}
+
+
+\paragraph{}
+Tracks reconstruction, see \href{https://cds.cern.ch/record/2244610/files/PERF-2015-08-01.pdf}{note}. The first step is creating clusters based on pixel and SCT meausred energy deposits, which are space-points. Then three space-points form a seed, and tey are cobmined to build track candidates using a Kalman filter. After ambiguity solving, an artificial neural network is trained and used to identy merged clusters. The last step is a high resolution fit, which is CPU intensive. The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. $Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm.
+
+\paragraph{}
+$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}.
+\paragraph{}
+The increase of tracks from fragmentation in the high jet $p_T$ region is the main reason for the performance
+degradation. As the jet $p_T$ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for b and c jets slighly decreases with jet $p_T$.
+

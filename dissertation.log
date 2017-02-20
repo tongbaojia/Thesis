@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  21 OCT 2016 13:32
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 FEB 2017 02:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1361,29 +1361,30 @@ Chapter 3.
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 Nulla facilisi. In vel sem. Morbi id urna in diam 
-dig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 nissim feugiat. Proin molestie tortor eu velit. Aliq
-uam
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 erat volutpat. Nullam ultrices, diam tempus vulputat
-e
- []
-
 Chapter 4.
 [5
 
 
 
-]) [6]
+]
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 9.35316pt on input line 30.
+
+
+LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 30.
+
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 30.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 30.
+
+Overfull \hbox (2.40796pt too wide) in paragraph at lines 36--37
+[] [][] \EU1/EBGaramond(2)/bx/n/10.95 Tracks reconstruction, see [][]note[][]. 
+The first step is creating clusters based on pixel and SCT meausred 
+ []
+
+[6]) [7]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
@@ -1405,7 +1406,7 @@ e
  []
 
 Chapter 5.
-) [7
+) [8
 
 
 
@@ -1431,7 +1432,7 @@ e
  []
 
 Chapter 6.
-[8
+[9
 
 
 
@@ -1444,9 +1445,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 22.
 
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 24.
-) [9]
+) [10]
 \openout2 = `chapters/chapter7.aux'.
 
  (./chapters/chapter7.tex
@@ -1468,7 +1467,7 @@ e
  []
 
 Chapter 7.
-) [10
+) [11
 
 
 
@@ -1494,7 +1493,7 @@ e
  []
 
 Chapter 8.
-) [11
+) [12
 
 
 
@@ -1520,7 +1519,7 @@ e
  []
 
 Chapter 9.
-) [12
+) [13
 
 
 
@@ -1546,24 +1545,16 @@ e
  []
 
 Chapter 10.
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 10.
-
-LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 10.
-
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 10.
-) [13
+[14
 
 
 
-]
+]) [15]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 11.
-) [14
+) [16
 
 
 
@@ -1572,7 +1563,7 @@ Chapter 11.
 
  (./chapters/appendixA.tex
 Appendix A.
-) [15
+) [17
 
 
 
@@ -1581,7 +1572,7 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 11.
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
- [16
+ [18
 
 
 
@@ -1601,12 +1592,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25904 strings out of 493706
- 469237 string characters out of 6145769
- 530374 words of memory out of 5000000
- 28795 multiletter control sequences out of 15000+600000
+ 25907 strings out of 493706
+ 469270 string characters out of 6145769
+ 532880 words of memory out of 5000000
+ 28798 multiletter control sequences out of 15000+600000
  24730 words of font info for 140 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,11n,104p,10522b,395s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,104p,10522b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (26 pages).
+Output written on dissertation.pdf (28 pages).
