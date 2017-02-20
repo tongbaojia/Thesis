@@ -2,4 +2,6 @@
 *started 2015, Aug 3*
 
 *to make bib work*
-compile with LaTeX, BibTeX, LaTeX and then LaTeX again to get full-correct reference numbers.
+或许你看不懂中文。
+Well, this is part of the point.
+
