@@ -38,7 +38,8 @@ where $p_{T}^{calo}$ is the calorimeter measurement, $p_{T}^{track}$ is the four
 Tracks reconstruction, see \href{https://cds.cern.ch/record/2244610/files/PERF-2015-08-01.pdf}{note}. The first step is creating clusters based on pixel and SCT meausred energy deposits, which are space-points. Then three space-points form a seed, and tey are cobmined to build track candidates using a Kalman filter. After ambiguity solving, an artificial neural network is trained and used to identy merged clusters. The last step is a high resolution fit, which is CPU intensive. The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. $Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm.
 
 \paragraph{}
-$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}.
+$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentagion of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}.
+
 \paragraph{}
 The increase of tracks from fragmentation in the high jet $p_T$ region is the main reason for the performance
 degradation. As the jet $p_T$ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for b and c jets slighly decreases with jet $p_T$.
