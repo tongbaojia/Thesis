@@ -7,4 +7,21 @@ Run.
 \chapter{Machine of discovery--The Large Hadron Collider}
 
 \section{Design}
+\paragraph{}
+The deflection angle $d\theta$, with radius $\rho(s)$ of a particle with charge $Ze$ and momentum $p$ in a magnetic field $B(s)$ is (see this \href{https://indico.cern.ch/event/626458/contributions/2529616/attachments/1434511/2205263/LHC-Ecal.ATLAS-plenary.Mar17.pdf}{talk}):
+\begin{equation}
+d\theta = \frac{ds}{\rho(s)} = \frac{ZeB(s)ds}{p}
+\end{equation}
+Ingerate this over the circumference:
+\begin{equation}
+\oint_C d\theta = 2\pi = \frac{Ze}{p} \oint_C B(s)ds
+\end{equation}
+Thus the momemtum is:
+\begin{equation}
+p = \frac{Ze}{2\pi}\oint_C B(s)ds = Z \times 44.7[\frac{MeV}{cTm}] \oint_C B(s)ds
+\end{equation}
+Given LHC has 1232 14.2m long dipoles with B field 8.33 T, we have p is $7.0$ TeV/c.
+
 \section{Performance}
+\paragraph{} 
+Above injection energy the relative beam energy uncertainty is $0.1\%$, fully correlated between the 2 beams. No correction must be applied to the online energy values. Energy and uncertainty are determined by the magnetic model, see \href{https://indico.cern.ch/event/626458/contributions/2529616/attachments/1434511/2205263/LHC-Ecal.ATLAS-plenary.Mar17.pdf}{talk}.

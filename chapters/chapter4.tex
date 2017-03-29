@@ -4,20 +4,26 @@ I hate my life.
 \qauthor{Tony}
 \end{savequote}
 
-\chapter{Game of Jigsaw--Reconstruction}
+\chapter{Reconstruction of Objects}
 
-\section{Introduction to objects}
-
+%%%%%%%%%%%%%%
+\section{Leptons}
 \paragraph{}
 Leptons are rare in proton-proton collisions. Less than $1\%$ of the total tracks are made from leptons, and these are often related to very interesting physics processes, especially invovling the electroweak forces.
 
 \paragraph{}
-Electrons are maximal inoizing in the tracking system. They get absorbed completely in ECAL nd leaves no signature in the HCAL.
+Electrons are maximal inoizing in the tracking system. They get absorbed completely in ECAL nd leaves no signature in the HCAL. The amplified, shaped and sampled raw signal from each calorimeter cell is converted into the energy deposited. $3\times 7$ cells in the barral middle layer or $ 5 \times 5$ in the endcap middle layer are clusted together. If the cluster has no associated tracks, it is an "unconverted photon"; if it is matched to a pair of oppositely charged tracks, it is a "converted photon". A cluster matched to one track could be a converted photon, and the discrimination from electrons comes from the number of hits from the innermost layers of pixel detector. The calibration uses a multivariate regression algorithm, and validated in data using $Z \to ee$ events, see \href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2016-015/}{note}.
 
 \paragraph{}
 Muons are special for leaving minimally ionizing signatures in the detector. They usually penetrate the calorimeter and form tracks in the Muon Spetrometer. This is useful for reducing the generate rate of events, hence for triggering. They are also very clean in reconstruction and have exceelnt resolutions up to 1 TeV. Material and station information, see \href{https://cds.cern.ch/record/2252613/files/ATL-COM-MUON-2017-005.pdf}{note}.
 
+\paragraph{}
+For Tau ID, see this \href{https://cds.cern.ch/record/2248454/files/ATLAS-COM-CONF-2017-015.pdf}{note}
 
+%%%%%%%%%%%%%%
+\section{Jets}
+\paragraph{}
+Jets are reconstructe dusing local topocluster weighting \href{https://arxiv.org/abs/1603.02934}{(LCW)} alorighm. 
 
 \paragraph{}
 %Melissa asked me this question on Feb 13, 2017.
@@ -33,14 +39,26 @@ where $p_{T}^{calo}$ is the calorimeter measurement, $p_{T}^{track}$ is the four
 
 \paragraph{Need to insert a figure here.}
 
+%%%%%%%%%%%%%%
+\section{Flavor Tagging}
+\paragraph{}
+Tracks reconstruction, see \href{https://cds.cern.ch/record/2254947/files/PERF-2015-08-002.pdf}{this great note}. The first step is creating clusters based on pixel and SCT meausred energy deposits, which are space-points. Then three space-points form a seed, and tey are cobmined to build track candidates using a Kalman filter. After ambiguity solving, an artificial neural network is trained and used to identy merged clusters. The last step is a high resolution fit, which is CPU intensive. The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. $Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm. Interestingly, the performance of track reconstruction is highly dependent on the momentum of the particle. With higher boost, the decay tracks have smaller seperations in the inner detector, hindering the resolving cluster process, and thus degrading the track identification efficiency. For a 1 TeV $B_{0}$, the reconstruction track effieincy is $83\%$, compared to $95\%$ for a 200 GeV $B_{0}$.
 
 \paragraph{}
-Tracks reconstruction, see \href{https://cds.cern.ch/record/2244610/files/PERF-2015-08-01.pdf}{note}. The first step is creating clusters based on pixel and SCT meausred energy deposits, which are space-points. Then three space-points form a seed, and tey are cobmined to build track candidates using a Kalman filter. After ambiguity solving, an artificial neural network is trained and used to identy merged clusters. The last step is a high resolution fit, which is CPU intensive. The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. $Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm.
+$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentagion of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}. $b$-jet calibration is done using $t\top{t}$ events, as can be seen in \href{https://indico.cern.ch/event/622490/contributions/2510894/attachments/1425202/2191220/ttbar_PDF_Calibration_MVA_Training_Approval_140317.pdf}{Likelihood talk} and \href{https://cds.cern.ch/record/1538335/files/ATL-COM-PHYS-2013-395.pdf}{Matrix method and Likelihood note} or a Tag-and-Probe using semi-leptonic $t\top{t}$ events.
 
 \paragraph{}
-$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentagion of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}.
+There are 3 taggers in MV2 family, MV2c00, MV2c10, MV2c20 depending on their charm composition in training: $MV2c00->0\%$ c-fraction in the training, $MV2c10->7\%$ c-fraction in the training and $MV2c20->15\%$ c-fraction in the training. See \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2}{twiki}.
 
 \paragraph{}
-The increase of tracks from fragmentation in the high jet $p_T$ region is the main reason for the performance
-degradation. As the jet $p_T$ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for b and c jets slighly decreases with jet $p_T$.
+Vertex reconstruction and resolution, can be seen in this \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-026/}{note}.
+
+
+\paragraph{}
+The increase of tracks from fragmentation in the high jet $p_T$ region is the main reason for the performance degradation. As the jet $p_T$ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for b and c jets slighly decreases with jet $p_T$.
+
+
+\section{Boosted Object Tagging}
+\paragraph{}
+Although this work doesn't depend on specific boosted W/Z/H/Top taggers, many analysises adopt them and improve search sensitivities. For machine learning techiniques applied, see this \href{https://cds.cern.ch/record/2242830/files/ATL-COM-PHYS-2017-031.pdf}{W/Top tagger using BDT/DNN}
 

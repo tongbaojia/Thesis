@@ -7,6 +7,12 @@ Pick the berry.
 \chapter{Event Selection}
 
 
+
+\section{Trigger Selection}
+\paragraph{}
+See \href{https://arxiv.org/pdf/1611.09661.pdf}{6.4.3} for the 2015 trigger. In data and simulation, there is a small offset in the effciency curves for the threshold. The trigger $HLT\_j360\_a10\_lcw\_sub$, where topo-cluster jets with local calibration weights and pile-up subtraction, is used.
+
+
 \section{Optimization Strategy}
 \paragraph{}
 To improve the analysis, a quantity which defines the sensitivity of analysis is maximized. Techicially, the optimal sensitivity is described as $\sqrt{2((S+B)\ln{1 + \frac{S}{B}} - S}$, see \href{https://www.pp.rhul.ac.uk/~cowan/stat/notes/SigCalcNote.pdf}{note}. This is usually considered at the $S << B$ limit and simplified as $\frac{S}{\sqrt{B}}$, when no knowledge of the model cross section is available, or $\frac{S}{\sqrt{S + B}}$, if the signal cross section is known. These parametrizations have limitations, particularly when the signal yield and the number of estiamted background are both small. A better parametrization for low signal strengh is $\frac{S}{\sqrt{1 + B}}$, where the extra $\sqrt{1 + B}$ accounts for poisson fluctuations. For a discussion of p-values, please see this \href{https://arxiv.org/pdf/hep-ex/0208005.pdf}{note}.
@@ -24,7 +30,6 @@ To avoid bias during the optimzation process, data's signal regions are blinded.
 
 
 \section{Signal Efficiency}
-
 \paragraph{}
 Acceptance referes to purely geometric fiducial volume of the detector. Efficiency refers to purely detector effectivenss in finding objects. The final value in the study is Acceptance $\times$ Efficiency, where both effects are considered.
 
