@@ -1,0 +1,35 @@
+\paragraph{}
+Higgs boson candidates are reconstructed using \\
+ \verb|AntiKt10LCTopoTrimmedPtFrac5SmallR20Jets|. 
+ For these jets, the constituent clusters are ``locally calibrated'' \cite{Aad:2011he} and formed into jets using a distance parameter of $R=1.0$. These jets are then trimmed \cite{Krohn2010} to remove energy deposits from pile-up and the underlying event, by reclustering the $R=1.0$ jet with the \kt algorithm into smaller $R=0.2$ subjets and removing those subjets with $\pt^{\rm{subjet}}/\pt^{\rm{jet}} < 0.05$, where $\pt^{\rm{subjet}}$ is the transverse momentum of the subjet and $\pt^{\rm{jet}}$ that of the original jet. The resulting trimmed $R=1.0$ jet is then calibrated using the \verb|EtaJES| calibration sequence with the configuration \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/ApplyJetCalibration2016}{file}: \\ \verb|JES_MC15recommendation_FatJet_Nov2016_QCDCombinationUncorrelatedWeights.config|.
+
+\paragraph{}
+The mass of the large-R jet is calculated from tracking as well as calorimeter information (so-called \emph{combined mass})~\cite{ATLAS-CONF-2016-035}, leading to an improved jet mass resolution compared to the calorimeter mass alone. For example, at 2~TeV truth jet $p_T$, the gain in resolution of the mass response (reco mass devided by truth jet mass) is about 12\%. The impact on the boosted analysis can be found in Appendix ~\ref{sec:app-optimization-cbmass}.
+
+\paragraph{}
+The calorimeter-based jet mass, $m^{calo}$, is computed from the calorimeter cell cluster constituents $i$ with energy $E_i$ and momentum $p_i$ as follows:
+\begin{equation}
+m^{calo} = \sqrt{\left(\sum_{i\in J}E_i\right)^2-\left(\sum_{i\in J}\vec{p}_i\right)^2}.
+\end{equation}
+
+\paragraph{}
+The track-assisted jet mass, $m^{TA}$, is defined as:
+\begin{equation}
+m^{TA} = \frac{p_T^{calo}}{p_T^{track}} \cdot m^{track}.
+\end{equation}
+where $p_{T}^{calo}$ is the transverse momentum of the large-R calorimeter jet, $p_{T}^{track}$ is the transverse momentum of the four-vector sum of tracks associated to the large-R calorimeter jet, and $m^{track}$ is the invariant mass of this four-vector sum.
+
+\paragraph{}
+The two mass definitions are only weakly correlated with each other, therefore they can be linearily combined to the combined mass, $m^{comb}$, by weighting the components with $w$:
+\begin{equation}
+m^{comb} = w\cdot m^{calo}+(1-w)\cdot m^{TA}.
+\end{equation}
+The weight is determined for each large-R jet from the resolution functions of the calibrated track and calo mass terms.
+
+\paragraph{}
+Jets containing $b$-hadrons are identified (``b-tagged'') using the MV2c10 algorithm in software release 20.7 \cite{ATL-PHYS-PUB-2015-022}. The algorithm runs on \akt $R=0.2$ jets which are created from charged particle tracks \cite{ATL-PHYS-PUB-2014-013,ATL-PHYS-PUB-2015-035}. Track-based jets (called ``track jets'') can be chosen to originate from the primary vertex, and may be calibrated down to a smaller distance parameter and lower \pt\ than calorimeter jets without suffering from a large fake rate due to pileup interactions in the event or resolution effects (as in the calorimeter based jets). The b-tagging algorithm is applied to tracks with loose impact parameter (IP) constraints in a region of interest around each track jet axis, enabling the secondary vertex from the b-hadron decay to be reconstructed. These track-jets are then matched to the $R=1.0$ jet used to reconstruct the Higgs boson candidates by the ghost association algorithm~\cite{Cacciari:2007fd}. The 70\% b-tagging working point is used for both consistence with the resolved analysis and better exclusion limits. For optimization, see Appendix ~\ref{sec:app-optimization-btagging}.
+
+\paragraph{}
+Muons are reconstructed by combining measurements from the inner tracking and muon spectrometer systems, and are required to satisfy medium or tight muon identification quality criteria. %\cite{PERF-2014-05}.
+These are used to correct the jet four-momenta for the energy lost in semi-leptonic $b$-decay. If a muon with $\pt > 4$\,GeV and $|\eta | < 2.5$ can be $\DR$-matched to a $b$-tagged jet with the requirement that $\DR < 0.4$, then the four-momentum of the muon is added to that of the jet. The jet four-momenta is corrected, excluding the expected energy deposited by the muon in the calorimeter. It should be noted that these muons are only used for corrected the jet energy after $b$-tagged has been performed, and are not used for $b$-hadron identification.
+

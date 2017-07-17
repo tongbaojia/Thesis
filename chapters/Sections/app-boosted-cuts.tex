@@ -1,0 +1,107 @@
+\newcommand{\boostedcutsfigpath}{figures/boosted/Appendix-Cuts/}
+
+\section{Possible Future Additional Cuts}
+
+This section is not going to be applied in the ICHEP results but will be used as a reference for 2017 Moriond Studies.
+
+\subsection{ Trackjet $\Delta$R Cut}
+
+Theoretically, the value of $\Delta R$ between the 2 $b$ quarks that decay from a higgs should be roughly $\Delta R = \frac{2 m_H}{pT}$ where $pT$ is the transverse momentum of the Higgs and $m_H$ is the mass of the Higgs. Although in practice this formula is not exact, on average the $\Delta R$ between the two b's does decrease with increasing $pT$ at a rate of about $1/pT$, as shown in figure \ref{fig:app-cut-bdR}. We propose adding a cut that ensures that the $\Delta R$ between the two trackjets follows this distribution. This cut effectively cuts on the mass of the parent higgs particle, and is able to do so independently of the energy scale of the trackjets. One complication to this cut is that at high $pT$, the b-quarks tend to start appearing in the same track jet, and thus doing a cut in this regime on the leading and subleading trackjets would no longer identify b's very well. Thus, we limit this cut to those cases where $pT < 1$TeV. 
+
+We define the cut as: $ abs( \frac{2 m }{pT} - \Delta R) < \delta$, where $\Delta R$ is between the two trackjets, and $m$ and $\delta$ are free parameters to be optimized. Based on figure \ref{fig:app-cut-rocplots}, we take $m = 142.5$, $\delta = .125$ for the leading large R jet, and $m = 132.5$. $\delta = .125$ for the subleading large R jet. As shown in figure \ref{fig:app-cut-significance-77}, this results in an improvement in the significance of about $10-15\%$ in the boosted regime (RSG Mass $> 1$TeV).
+
+However, adding this cut on top of the $77 \%$ working point for $Mv2c10$ leads to very low statistics: there is only one event in the 4tag control region in 6.6 $fb^{-1}$ of 2015 and 2016 data. Therefore, we suggest using this cut in conjunction with switching to the $85  \%$ working point. The significance of this combined update is given in \ref{fig:app-cut-significance-85}. 
+
+These two updates together give good stats in the control and sideband regions. However, even after using the reweighing procedure from ICHEP, there is not good agreement between background predictions and data in the various control regions, as shown in figure \ref{fig:app-cut-control-Mhh}. To incorporate this cut we would likely have to change the reweighting procedure.
+
+\begin{figure}[htbp]
+\begin{center}
+%\includegraphics[scale=.4]{\boostedcutsfigpath bdR.pdf}
+\caption{Monte Carlo results on the $\Delta R$ between the truth b's as a result of a Higgs decay (b0 and b1). Lines are drawn at the diameter of large-R (Higgs) jets for the resolved ($\Delta R = 0.8$) and boosted ($\Delta R = 2.0$) analyses.}
+\label{fig:app-cut-bdR}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp!]
+\begin{center}
+%\subfloat[Leading Higgs]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath roc_plot_scaled_lead.pdf} }}
+\qquad
+%\subfloat[Subleading Higgs]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath roc_plot_scaled_sublead.pdf} }}
+\caption{ROC plot for values of $m \in \{ 112.5, 162.5\}$ and $\delta \in \{0 , 0.5 \}$ for track jets in the subleading and leading large R jets. Signal generated from MC on RSG for masses between $1$ and $2$ TeV.}
+\label{fig:app-cut-rocplots}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+%\includegraphics[scale=.4]{\boostedcutsfigpath significance.pdf}
+\caption{Significance of the analysis with the cut v. without.}
+\label{fig:app-cut-significance-77}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+%\includegraphics[scale=.4]{\boostedcutsfigpath significance-b85.pdf}
+\caption{Significance of the analysis with the cut and switching to the $85\%$ working point v. without.}
+\label{fig:app-cut-significance-85}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+\begin{center}
+%\subfloat[4 tag region]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath 4tag_mhh.png} }}
+\qquad
+%\subfloat[3 tag region]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath 3tag_mhh.png} }}
+\qquad
+%\subfloat[2 tag split region]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath 2tag_mhh.png} }}
+
+\caption{Distribution of dijet mass in each of the control regions after reweighting.}
+\label{fig:app-cut-control-Mhh}
+\end{center}
+\end{figure}
+
+\subsection{Large-R Jet $\Delta\eta$ Cut}
+
+Currently, in the $HH\to 4b$ analysis, there is a cut on events that have a $\Delta \eta$ between the two jets larger than $1.7$. As shown in figure \ref{fig:app-cut-deltaeta}, this cut does a good job excluding background and excluding events with an anomalously high $\Delta \eta$. Additionally, it is clear from figure \ref{fig:app-cut-deltaeta} that there is little variation of $\Delta\eta$ with the mass of the truth particle, so a mass dependent cut would not be helpful.
+
+\begin{figure}[htbp]
+\begin{center}
+%\includegraphics[scale=.4]{\boostedcutsfigpath deta.pdf}
+\caption{Comparison of $\Delta\eta$ for largeR jets between signal (RSG) and data. Line is drawn at $\Delta\eta = 1.7$, the current value of the cut in the $HH \to 4b$ analysis.}
+\label{fig:app-cut-deltaeta}
+\end{center}
+\end{figure}
+
+\subsection{Lead Trackjet $pT$ Cut}
+
+Another possible cut to add to the $HH \to 4b$ analysis would be on the $pT$ of the leading trackjet inside each large R jet. In the regime where the b's start merging into one trackjet, the momentum of both particles from the Higgs decay are concentrated in the lead trackjet, so this trackjet should have a higher percentage of the total momentum from the large R jet. More b's merge where the higgs $pT$ is high and inside the 2tag-split region, so we would expect the leading trackjet $pT$ ratio to be higher to be higher in these areas.
+
+As shown in figure \ref{fig:app-cut-ptratio-all}, when looking at all signal regions, the distributions of the leading trackjet $pT$ ratio in MC are not different enough from those in data to be able to place a cut. When just looking at the 2tag region (in figure \ref{fig:app-cut-ptratio-2tag}), we do see that comparatively more of the MC events have high $pT$ ratios, but still not enough for a cut to be successful. Note that sometimes the ratio of the trackjet $pT$ to the large-R jet $pT$ is bigger than 1 due to mis-measurements in the detector.
+
+\begin{figure}[htbp!]
+\begin{center}
+%\subfloat[Monte Carlo (Signal Region)]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath ptratio-alltag-mc.pdf} }}
+\qquad
+%\subfloat[Data (Inclusive)]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath ptratio-alltag-data.pdf} }}
+\caption{Ratio of large-R jet $pT$ contained in leading trackjet vs. large-R jet $pT$. Monte Carlo plots are generated by a series of different RSG masses between 1 and 3TeV and contain events only from the jet mass signal region. Data covers $6.69$ $fb^{-1}$ from 2015 and 2016 and contains events from all jet mass regions. Both plots have events for all b-tag regions.}
+\label{fig:app-cut-ptratio-all}
+\end{center}
+\end{figure}
+
+\begin{figure}[htbp!]
+\begin{center}
+%\subfloat[Monte Carlo (Signal Region)]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath ptratio-2tag-mc.pdf} }}
+\qquad
+%\subfloat[Data (Inclusive)]{{%\includegraphics[angle=270, width=5.5cm]{\boostedcutsfigpath ptratio-2tag-data.pdf} }}
+\caption{Ratio of large-R jet $pT$ contained in leading trackjet vs. large-R jet $pT$. Monte Carlo plots are generated by a series of different RSG masses between 1 and 3TeV and contain events only from the jet mass signal region. Data covers $6.69$ $fb^{-1}$ from 2015 and 2016 and contains events from all jet mass regions. Both plots have events only from the 2 tag split b-tag region.}
+\label{fig:app-cut-ptratio-2tag}
+\end{center}
+\end{figure}
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+\section{Boosted Debug Stream Check} %updated June 6 2017
+\label{app:boosted-debug-stream}
+\paragraph{}
+To make sure no events are ignored, the 2015 and 2016 debug stream data is also analyzed. The list of 2016 debug stream samples are:
+\noindent
+\\
+{\scriptsize
+\verb|data15_13TeV.00279928.debugrec_hlt.merge.DAOD_EXOT8.g49_r7562_ContE_p2982|\\
+\verb|data15_13TeV.00267639.debugrec_hlt.merge.DAOD_EXOT8.g17_r7600_ContA_p2982|\\
+\verb|data15_13TeV.00281411.debugrec_hlt.merge.DAOD_EXOT8.g49_r7562_ContH_p2982|\\
+\verb|data15_13TeV.00280368.debugrec_hlt.merge.DAOD_EXOT8.g49_r7562_ContF_p2982|\\
+\verb|data15_13TeV.00281075.debugrec_hlt.merge.DAOD_EXOT8.g49_r7562_ContG_p2982|\\
+\verb|data15_13TeV.00284484.debugrec_hlt.merge.DAOD_EXOT8.g49_r7562_ContJ_p2982|\\
+\verb|data15_13TeV.00271744.debugrec_hlt.merge.DAOD_EXOT8.g49_r7600_ContC_p2982|\\
+\verb|data15_13TeV.00276954.debugrec_hlt.merge.DAOD_EXOT8.g49_r7562_ContD_p2982|\\
+\verb|data16_13TeV.00310216.debugrec_hlt.merge.DAOD_EXOT8.g53_f750_m1689_ContH_p2982|\\
+\verb|data16_13TeV.00300908.debugrec_hlt.merge.DAOD_EXOT8.g53_f711_m1620_ContB_p2982|\\
+\verb|data16_13TeV.00302393.debugrec_hlt.merge.DAOD_EXOT8.g53_f716_m1620_ContC_p2982|\\
+\verb|data16_13TeV.00303560.debugrec_hlt.merge.DAOD_EXOT8.g53_f716_m1620_ContD_p2982|\\
+\verb|data16_13TeV.00303892.debugrec_hlt.merge.DAOD_EXOT8.g53_f716_m1620_ContE_p2982|\\
+\verb|data16_13TeV.00311481.debugrec_hlt.merge.DAOD_EXOT8.g53_f758_m1710_ContL_p2982|\\
+\verb|data16_13TeV.00304494.debugrec_hlt.merge.DAOD_EXOT8.g53_f716_m1620_ContF_p2982|\\
+\verb|data16_13TeV.00309759.debugrec_hlt.merge.DAOD_EXOT8.g53_f750_m1689_ContK_p2982|\\
+\verb|data16_13TeV.00306657.debugrec_hlt.merge.DAOD_EXOT8.g53_f735_m1659_ContG_p2982|\\
+\verb|data16_13TeV.00308084.debugrec_hlt.merge.DAOD_EXOT8.g53_f741_m1673_ContI_p2982|\\
+\verb|data16_13TeV.00299390.debugrec_hlt.merge.DAOD_EXOT8.g49_f701_m1594_ContA_p2982|
+}
+
+\paragraph{}
+Trigger requirement is waived for this test. The cutflow table for 2015 and 2016is shown respectively in Table~\ref{tab:boosted-15debug-cutflow} and ~\ref{tab:boosted-16debug-cutflow}. Comparing this with Table~\ref{boosted-cutflow}, debug stream contribution to background estimation and signal yield should be zero. After unblinding, this table is double checkedno events show up in signal region as expected.
+
+\begin{table}[htbp!]
+\begin{center}
+\begin{tabular}{c|c|c|c|c}
+Cut & Data \\
+\hline
+Initial & 1639  \\
+Pass GRL & 890 \\
+Pass trigger & 890 \\
+N(fiducial large-R jets)$\geq 2$) & 591 \\
+leading large-R jet $p_{T}>450$ GeV & 504 \\
+$|\Delta\eta(JJ)|<1.7$ & 370 \\
+Pass at least 2 bjets & 18 \\
+\hline
+2 b oneside, $X_{hh}<1.6$ & 1 \\
+2 b oneside, $X_{hh}>1.6$ and $R_{hh}<33$ & 1 \\
+2 b oneside, $R_{hh}>33$ & 11 \\
+\hline
+\hline
+2 b split, $X_{hh}<1.6$ & 0 \\
+2 b split, $X_{hh}>1.6$ and $R_{hh}<33$ & 0 \\
+2 b split, $R_{hh}>33$ & 5 \\
+\hline
+\hline
+3 b-tags, $X_{hh}<1.6$ & 0 \\
+3 b-tags, $X_{hh}>1.6$ and $R_{hh}<33$ & 0 \\
+3 b-tags, $R_{hh}>33$ & 0 \\
+\hline
+4 b-tags, $X_{hh}<1.6$ & 0 \\
+4 b-tags, $X_{hh}>1.6$ and $R_{hh}<33$ & 0 \\
+4 b-tags, $R_{hh}>33$ & 0 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Cutflow of debug stream data in 2015. No events found in signal regions.}
+\label{tab:boosted-15debug-cutflow}
+\end{table}
+
+\begin{table}[htbp!]
+\begin{center}
+\begin{tabular}{c|c|c|c|c}
+Cut & Data \\
+\hline
+Initial & 68  \\
+Pass GRL & 63 \\
+Pass trigger & 63 \\
+N(fiducial large-R jets)$\geq 2$) & 63 \\
+leading large-R jet $p_{T}>450$ GeV & 32 \\
+$|\Delta\eta(JJ)|<1.7$ & 15 \\
+Pass at least 2 bjets & 0 \\
+\hline
+2 b oneside, $X_{hh}<1.6$ & 0 \\
+2 b oneside, $X_{hh}>1.6$ and $R_{hh}<33$ & 0 \\
+2 b oneside, $R_{hh}>33$ & 0 \\
+\hline
+\hline
+2 b split, $X_{hh}<1.6$ & 0 \\
+2 b split, $X_{hh}>1.6$ and $R_{hh}<33$ & 0 \\
+2 b split, $R_{hh}>33$ & 0 \\
+\hline
+\hline
+3 b-tags, $X_{hh}<1.6$ & 0 \\
+3 b-tags, $X_{hh}>1.6$ and $R_{hh}<33$ & 0 \\
+3 b-tags, $R_{hh}>35.8$ & 0 \\
+\hline
+4 b-tags, $X_{hh}<1.6$ & 0 \\
+4 b-tags, $X_{hh}>1.6$ and $R_{hh}<33$ & 0 \\
+4 b-tags, $R_{hh}>33$ & 0 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Cutflow of debug stream data in 2016. No events found in signal regions.}
+\label{tab:boosted-16debug-cutflow}
+\end{table}

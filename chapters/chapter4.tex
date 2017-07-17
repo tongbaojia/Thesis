@@ -26,6 +26,9 @@ For Tau ID, see this \href{https://cds.cern.ch/record/2248454/files/ATLAS-COM-CO
 Jets are reconstructe dusing local topocluster weighting \href{https://arxiv.org/abs/1603.02934}{(LCW)} alorighm. 
 
 \paragraph{}
+As a sidenote, there can be quark initiated jets and gluon initiated jets. Gluons carry both a color and anti-color charge, and quarks only carry a single color charge. This causes the slplitting functions for gluon radiation off a gluon and a gluon radiation off a quark differ by a factor of $9/4$. As a result, quark jets have less constituents than gluon jets. Therefore, the number of charged tracks within the jet could help to distinguish a quark jet from a gluon jet, see \href{https://cds.cern.ch/record/2253972/files/ATL-COM-PHYS-2017-196.pdf}{note}. 
+
+\paragraph{}
 %Melissa asked me this question on Feb 13, 2017.
 Jet mass, see \href{https://cds.cern.ch/record/2200211/files/ATLAS-CONF-2016-035.pdf}{note}. Jet mass is one of the best tools for distinguishing massive particle decays from QCD background. Jets are trimmed by re-clustering the constituents fo the jet into subjets. $k_t$ algorithm with $R_{sub} = 0.2$ is used, and if the subjets has $p_T$ less than $5\%$ of the original jet $p_T$, the constituent is removed. \textbf{The calorimeter-based jet mass ($m^{calo}$)}, with clorimeter-cell cluster constituents $i$ with energy $E_i$, momentum $\vec{p}_i (|\vec{p}_i| = E_i)$ is defined as:
 \begin{equation}
@@ -51,11 +54,20 @@ $b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-201
 There are 3 taggers in MV2 family, MV2c00, MV2c10, MV2c20 depending on their charm composition in training: $MV2c00->0\%$ c-fraction in the training, $MV2c10->7\%$ c-fraction in the training and $MV2c20->15\%$ c-fraction in the training. See \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2}{twiki}.
 
 \paragraph{}
-Vertex reconstruction and resolution, can be seen in this \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-026/}{note}.
+Vertex reconstruction and resolution, can be seen in this \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-026/}{note}. Track resolution can be seen in this \href{https://cds.cern.ch/record/2110140/files/ATL-PHYS-PUB-2015-051.pdf}{note}. In Run2, the $d_0$ resolution is about 10 $\mu m$ and $z_0$ is about $50 \mu m$, both decreases as a function of track momentum.
 
 
 \paragraph{}
 The increase of tracks from fragmentation in the high jet $p_T$ region is the main reason for the performance degradation. As the jet $p_T$ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for b and c jets slighly decreases with jet $p_T$.
+
+\paragraph{}
+See the reference \href{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/BTaggingPaperRecommendations}{here}. Operating points are defined by a single cut value on the discriminant output distribution and are chosen to provide a specific b-jet efficiency on an inclusive ttbar sample. The $77\%$ working point has a rejection factor of 6 and of 134 on charm and light-jets, respectively. (More information on the working points can be extracted from Table 2 and the related section in ATL-PHYS-PUB-2016-012).
+
+\paragraph{}
+Correction factors are applied to the simulated event samples to compensate for differences between data and simulation in the b-tagging efficiency for b, c and light-jets. The correction for b-jets is derived from ttbar events with final states containing two leptons, and the corrections are consistent with unity with uncertainties at the level of a few percent over most of the jet pT range.
+
+\paragraph{}
+Uncertainties on the correction factors for the b-tagging identification response are applied to the simulated event samples by looking at dedicated flavour-enriched samples in data. An additional term is included to extrapolate the measured uncertainties to the \textbf{high-pT} region of interest. This term is calculated from simulated events by considering variations on the quantities affecting the b-tagging performance such as the impact parameter resolution, percentage of poorly measured tracks, description of the detector material, and track multiplicity per jet. The dominant effect on the uncertainty when extrapolating to high-pT is related to the different tagging efficiency when smearing the track impact parameters based on the resolution measured in data and simulation.
 
 
 \section{Boosted Object Tagging}

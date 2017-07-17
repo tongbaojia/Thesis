@@ -1,0 +1,13 @@
+\section{Description of selection optimization method}
+\label{sec:app-selection-optimization}
+To study the effect of different selections, a signal signficance is estimated for RSG c=$1.0$ sample. A full analysis is run with the difference selection, including a seperate $\mu_{qcd}$ and $\alpha_{t\bar{t}}$ estimate. Then, for each signal sample's singal region, with the background prediction, the significance is estimated by first finding the maximum bin in the signal dijet mass distribution. Then, a window is selected around the maximum bin, where there are $68\%$ of the total events within the mass windows. The total number of events is integrated within that window, for both the signal sample as $N_{signal}$ and the background estimation as $N_{bkg}$, and then the sensitivity/significance is defined to be $\frac{N_{signal}}{1 + \sqrt{N_{bkg}}}$.
+
+To gain a comparison, the result is compared with the default selections as documented in the note. An example is shown in Figure ~\ref{fig:app-selection-optimization}.
+
+\begin{figure*}[htbp!]
+\begin{center}
+%\includegraphics[angle=270, width=0.48\textwidth]{./figures/boosted/SigEff/b77_relsig_0_3100_1.pdf}
+  \caption{An example of significance comparison plot. On the top pad, the x-axis is for differnt RSG masses, while the y-axis is plotting the estimated significance. The black dot is for the 2$b$s signal region with the specified selection, the red square is for the 3$b$ signal region, and the green star is for the 4$b$ signal region. The red cross is the quaratic sum of the three signal regions above. And the black circile is the default selection total combined significance in this note. At the bottom pad, the x-axis is for differnt RSG masses, while the y-axis is plotting the combined estimated significance ratio of the specified selection to the refernce selection. In this case, $77\%$ working point study is compared to the reference, which has the same $b$-tagging working point. Hence all the ratios are 1.}
+  \label{fig:app-selection-optimization}
+\end{center}
+\end{figure*}
