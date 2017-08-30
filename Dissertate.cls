@@ -10,7 +10,7 @@
 % --------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{Dissertate}[2014/03/25 v2.0 Dissertate Class]
+\ProvidesClass{Dissertate}[2017/03/25 v2.0 Dissertate Class]
 \LoadClass[12pt, oneside, letterpaper]{book}
 
 %
@@ -233,7 +233,7 @@
 	\newpage
 	\thispagestyle{empty}
 	\vspace*{\fill}
-	\scshape \noindent \small \copyright \small 2014\hspace{3pt}-- \theauthor \\
+	\scshape \noindent \small \copyright \small 2017-2018\hspace{3pt}-- \theauthor \\
 	\noindent all rights reserved.
 	\vspace*{\fill}
 	\newpage

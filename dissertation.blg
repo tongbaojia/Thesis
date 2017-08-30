@@ -3,57 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
-A level-1 auxiliary file: chapters/chapter2.aux
-A level-1 auxiliary file: chapters/chapter3.aux
-A level-1 auxiliary file: chapters/chapter4.aux
-A level-1 auxiliary file: chapters/chapter5.aux
-A level-1 auxiliary file: chapters/chapter6.aux
-A level-1 auxiliary file: chapters/chapter7.aux
-A level-1 auxiliary file: chapters/chapter8.aux
-A level-1 auxiliary file: chapters/chapter9.aux
-A level-1 auxiliary file: chapters/chapter10.aux
-A level-1 auxiliary file: chapters/conclusion.aux
-A level-1 auxiliary file: chapters/appendixA.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-You've used 2 entries,
+Warning--empty publisher in Griffiths
+Warning--empty publisher in Tully
+You've used 4 entries,
             2481 wiz_defined-function locations,
-            584 strings with 5151 characters,
-and the built_in function-call counts, 830 in all, are:
-= -- 69
-> -- 42
-< -- 1
-+ -- 16
-- -- 12
-* -- 66
-:= -- 143
-add.period$ -- 9
-call.type$ -- 2
-change.case$ -- 4
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 38
-empty$ -- 72
+            581 strings with 4966 characters,
+and the built_in function-call counts, 1203 in all, are:
+= -- 96
+> -- 36
+< -- 4
++ -- 18
+- -- 10
+* -- 68
+:= -- 198
+add.period$ -- 14
+call.type$ -- 4
+change.case$ -- 5
+chr.to.int$ -- 4
+cite$ -- 6
+duplicate$ -- 76
+empty$ -- 128
 format.name$ -- 15
-if$ -- 170
+if$ -- 253
 int.to.chr$ -- 1
-int.to.str$ -- 3
-missing$ -- 2
-newline$ -- 21
-num.names$ -- 6
-pop$ -- 11
+int.to.str$ -- 5
+missing$ -- 7
+newline$ -- 30
+num.names$ -- 12
+pop$ -- 43
 preamble$ -- 1
-purify$ -- 2
+purify$ -- 4
 quote$ -- 0
-skip$ -- 23
+skip$ -- 43
 stack$ -- 0
-substring$ -- 34
-swap$ -- 4
+substring$ -- 26
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 14
-warning$ -- 0
-while$ -- 6
+type$ -- 19
+warning$ -- 2
+while$ -- 9
 width$ -- 0
-write$ -- 39
+write$ -- 58
+(There were 2 warnings)
