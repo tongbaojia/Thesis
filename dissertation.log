@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  29 AUG 2017 17:58
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  1 SEP 2017 15:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1068,51 +1068,28 @@ Package: quotchap 2012/10/20 v1.1 Decorative Chapter Headings with Quotes
 Package hyperref Info: Option `colorlinks' set `true' on input line 196.
 )
 (./latex/atlasunit.sty) (./latex/Xhh4b-defs.sty)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen180
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/multirow/bigdelim.sty)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2014/10/28 v1.1c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup12
-\symboldletters=\mathgroup13
-\symboldsymbols=\mathgroup14
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
-LaTeX Info: Redefining \bm on input line 207.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/dcolumn.sty
-Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen181
-\extrarowheight=\dimen182
-\NC@list=\toks25
-\extratabsurround=\skip115
-\backup@length=\skip116
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
-)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen183
-\lightrulewidth=\dimen184
-\cmidrulewidth=\dimen185
-\belowrulesep=\dimen186
-\belowbottomsep=\dimen187
-\aboverulesep=\dimen188
-\abovetopsep=\dimen189
-\cmidrulesep=\dimen190
-\cmidrulekern=\dimen191
-\defaultaddspace=\dimen192
+\heavyrulewidth=\dimen180
+\lightrulewidth=\dimen181
+\cmidrulewidth=\dimen182
+\belowrulesep=\dimen183
+\belowbottomsep=\dimen184
+\aboverulesep=\dimen185
+\abovetopsep=\dimen186
+\cmidrulesep=\dimen187
+\cmidrulekern=\dimen188
+\defaultaddspace=\dimen189
 \@cmidla=\count154
 \@cmidlb=\count155
-\@aboverulesep=\dimen193
-\@belowrulesep=\dimen194
+\@aboverulesep=\dimen190
+\@belowrulesep=\dimen191
 \@thisruleclass=\count156
 \@lastruleclass=\count157
-\@thisrulewidth=\dimen195
+\@thisrulewidth=\dimen192
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
@@ -1121,81 +1098,44 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count158
-\rotFPtop=\skip117
-\rotFPbot=\skip118
+\rotFPtop=\skip115
+\rotFPbot=\skip116
 \rot@float@box=\box46
-\rot@mess@toks=\toks26
+\rot@mess@toks=\toks25
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count159
 \c@subtable=\count160
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/bbding/bbding.sty
-Package: bbding 1999/04/15 v1.01 Dingbats symbols
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/notoccite/notoccite.sty
-Package: notoccite 2000/07/20
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
-\linenopenalty=\count161
-\output=\toks27
-\linenoprevgraf=\count162
-\linenumbersep=\dimen196
-\linenumberwidth=\dimen197
-\c@linenumber=\count163
-\c@pagewiselinenumber=\count164
-\c@LN@truepage=\count165
-\c@internallinenumber=\count166
-\c@internallinenumbers=\count167
-\quotelinenumbersep=\dimen198
-\bframerule=\dimen199
-\bframesep=\dimen200
-\bframebox=\box47
-LaTeX Info: Redefining \\ on input line 3056.
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2008/02/07
-
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz)
-\FV@CodeLineNo=\count168
-\FV@InFile=\read3
-\FV@TabBox=\box48
-\c@FancyVerbLine=\count169
-\FV@StepNumber=\count170
-\FV@OutFile=\write3
-) (./dissertation.aux (./chapters/introduction.aux)
-(./chapters/chapter1.aux))
+(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux))
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 22.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 21.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 21.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1232,9 +1172,9 @@ LaTeX Font Info:    ... okay on input line 22.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 22.
-\AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring ON on input line 22.
+LaTeX Info: Redefining \selectfont on input line 21.
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring ON on input line 21.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1242,34 +1182,34 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
 
 (./dissertation.out) (./dissertation.out)
-\@outlinefile=\write4
-\openout4 = `dissertation.out'.
+\@outlinefile=\write3
+\openout3 = `dissertation.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (./frontmatter/personalize.tex)
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 26.
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+(Font)              scaled to size 24.88pt on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 26.
+(Font)              scaled to size 12.0pt on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
@@ -1279,14 +1219,14 @@ File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
 
 ]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 27.
+(Font)              scaled to size 10.95pt on input line 26.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 27.
+(Font)              scaled to size 10.95pt on input line 26.
  [2]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 29.
+(Font)              scaled to size 17.28pt on input line 28.
  (./frontmatter/abstract.tex) [3]
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 30.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 29.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -1299,8 +1239,8 @@ LaTeX Font Warning: Font shape `EU1/EBGaramond(2)/bx/n' undefined
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 )
-\tf@toc=\write5
-\openout5 = `dissertation.toc'.
+\tf@toc=\write4
+\openout4 = `dissertation.toc'.
 
  [4
 
@@ -1308,14 +1248,14 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 3.
 )
-\tf@lof=\write6
-\openout6 = `dissertation.lof'.
+\tf@lof=\write5
+\openout5 = `dissertation.lof'.
 
  [5
 
 ] (./dissertation.lot)
-\tf@lot=\write7
-\openout7 = `dissertation.lot'.
+\tf@lot=\write6
+\openout6 = `dissertation.lot'.
 
  [6
 
@@ -1373,32 +1313,53 @@ LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.09479pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 5.66635pt on input line 22.
- [3]) [4] (./dissertation.bbl
+ [3]
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 8.0pt on input line 53.
+
+
+Package natbib Warning: Citation `Djouadi' on page 4 undefined on input line 53
+.
+
+
+Overfull \hbox (0.80928pt too wide) in paragraph at lines 53--54
+[] [][] \EU1/EBGaramond(2)/bx/n/10.95 Di-Higgs decay is the combination of sing
+le Higgs decays. The partile width for Higgs to fermions 
+ []
+
+
+Overfull \hbox (78.9001pt too wide) detected at line 63
+[][][][]
+ []
+
+) [4] (./dissertation.bbl
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 10.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
- [5
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+[5
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
-
-(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
+ (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 64.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 26239 strings out of 493706
- 474462 string characters out of 6145769
- 529924 words of memory out of 5000000
- 29174 multiletter control sequences out of 15000+600000
- 27945 words of font info for 163 fonts, out of 8000000 for 9000
+ 25345 strings out of 493706
+ 460976 string characters out of 6145769
+ 520129 words of memory out of 5000000
+ 28327 multiletter control sequences out of 15000+600000
+ 18738 words of font info for 133 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  60i,11n,104p,10522b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 
