@@ -1,52 +1,77 @@
-\textbf{THIS SECTION IS STILL TO BE UPDATED}
-\paragraph{}
-The effect of the following theoretical uncertainties on the signal acceptance and efficiency have been evaluated: uncertainties in the parton density functions; uncertainties due to missing higher order terms in the matrix element; uncertainties in the modelling of the underlying event (including multi-parton interactions), of hadronic showers and of initial and final state radiation. All of the uncertainties are evaluated for the Bulk RS $c=1.0$ benchmark model. These have been evaluated in exactly the same way as for the resolved analysis.%, as described in Section \ref{sec:theorysyst-resolved}.
+%%\paragraph{}
+The theoretical uncertainties on the acceptance times efficiency ($A\times\varepsilon$) are evaluated by analysis of specially-generated, particle-level signal samples. The generation of these samples follows the configuration of the baseline samples, but with modifications to probe the following theoretical uncertainties: uncertainties in the parton density functions; uncertainties due to missing higher order terms in the matrix elements; and uncertainties in the modelling of the underlying event (including multi-parton interactions), of hadronic showers and of initial and final state radiation. Each of the signals is tested.
 
-\paragraph{}
-To evaluate the potential effect of missing higher order terms in the matrix element, the renormalisation and factorisation scales used in the signal generation were varied coherently by factors of $0.5\times$ and $2\times$. 
-%The effect is shown as function of graviton mass in Figure \ref{fig:BoostedScaleVar}. 
-The shift induced by doubling the scales is consistent with zero across the full mass range, however halving the scales results in a constant -1\% shift. % ($p(\chi^2, n_{d.o.f.}) = 0.21$ and 0.30). 
+%%\paragraph{}
+The estimation of the theoretical uncertainties is performed using a Rivet-based analysis, which replicates the full analysis selection outlined in Section \ref{sec:selection}. The most important detector effects -- b-tagging efficiency and jet mass resolution -- are emulated. Jet mass resolution is emulated by smearing the particle-level $R=1.0$ jet masses, using the resolutions estimated in \cite{ATLAS-CONF-2016-035}. B-tagging efficiency is treated using a truth-tagging approach, which weights events according to the combinatoric probabilities of which jets are b-tagged, using the measured b-tagging efficiencies from the CDI file. 
 
-% \begin{figure*}
-% \begin{center}
-% %%\includegraphics[angle=270, width=0.68\textwidth]{figures/boosted/Syst_Theory/ScaleVar_4Tag.pdf}
-% \caption{The fractional change of the signal acceptance due to coherent variation of the renormalisation and factorisation scale as a function of resonance mass is shown as the triangles. Zeroth-order fits to these points are also shown as the solid lines.}\label{fig:BoostedScaleVar}
-% \end{center}
-% \end{figure*}
-
-\paragraph{}
-Uncertainties due to modelling of the parton shower and the underlying event (including multi-parton interactions) are evaluated by varying the parameters of the A14 Pythia 8 tune used in the simulation of the graviton signal samples. Ten ``eigentune'' variations are produced for each mass point. These variations, along the principal directions of the covariance matrix at the A14 tune minimum as described in Ref. \cite{ATL-PHYS-PUB-2014-021}, provide good coverage of the experimental and modelling uncertainties implicit in the tuning. Variation 1 is influenced mainly by underlying event effects; variation 2 by jet structure; and variations 3a-3c are mainly influenced by extra jet production. 
-%Figures \ref{fig:A14Var1and2} and Figures \ref{fig:A14Var3} show the impact of these variations on the signal acceptance.
+%%\paragraph{}
+Reasonable agreement is observed between the acceptance times efficiency of the particle-level analysis and of the full, reconstruction-level analysis when measured on independent samples generated using the same configuration (Figure \ref{fig:AccxEff_truthVsReco}), although there are clearly discrepancies. Perfect agreement is not necessary, since the theoretical uncertainties will be calculated using the relative change in $A\times\varepsilon$ between variations of the signal sample, as measured by the Rivet-based analysis.
 
 % \begin{figure*}
 % \begin{center}
-% %\subfloat[]{%\includegraphics[angle=270, width=0.48\textwidth]{figures/boosted/Syst_Theory/A14_Var1.pdf}}
-% %\subfloat[]{%\includegraphics[angle=270, width=0.48\textwidth]{figures/boosted/Syst_Theory/A14_Var2.pdf}}
-% \caption{Fractional change of the signal acceptance due to the variation of A14 tune parameters as a function of resonance mass. (a) shows the impact of eigentune variation 1, while (b) shows the impact of eigentune variation 2. For each variation, the positive and negative shifts are depicted as upward or downward facing triangles respectively. Fits to these points are shown as solid lines. \textbf{TO BE UPDATED} }
-% \label{fig:BoostedA14Var1and2}
+% \subfloat[]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_BulkRSGKKc1TruthVsReco.pdf}\hspace{5mm}}
+% \subfloat[]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_BulkRSGKKc1TruthVsReco.pdf}\hspace{5mm}}
+% \subfloat[]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_BulkRSGKKc1TruthVsReco.pdf}\hspace{5mm}}
+% \caption{Acceptance times efficiency measured in the particle-level analysis (open circles) and full, reconstruction-level analysis (filled circles) for the graviton in the Bulk-RS model with $c=1$. (a) shows the 2-tag-split selection; (b) shows the 3-tag selection; and (c) shows the 4-tag selection}
+% \label{fig:AccxEff_truthVsReco}
 % \end{center}
 % \end{figure*}
+
+%%\paragraph{}
+To evaluate the potential effect of missing higher order terms in the matrix element, the renormalisation and factorisation scales used in the signal generation were varied coherently by factors of $0.5\times$ and $2\times$ for the signals. The effect is shown as function of resonance mass in Figure \ref{fig:scaleVar}.
 
 % \begin{figure*}
 % \begin{center}
-% %\subfloat[]{%\includegraphics[angle=270, width=0.48\textwidth]{figures/boosted/Syst_Theory/A14_Var3a.pdf}}
-% %\subfloat[]{%\includegraphics[angle=270, width=0.48\textwidth]{figures/boosted/Syst_Theory/A14_Var3b.pdf}}\\
-% %\subfloat[]{%\includegraphics[angle=270, width=0.48\textwidth]{figures/boosted/Syst_Theory/A14_Var3c.pdf}}
-% \caption{Fractional change of the signal acceptance due to the variation of A14 tune parameters as a function of resonance mass. (a) shows the impact of eigentune variation 3a, while (b) shows the impact of eigentune variation 3b and (c) variation 3c. For each variation, the positive and negative shifts are depicted as upward or downward facing triangles respectively. Fits to these points are shown as solid lines. \textbf{TO BE UPDATED} }
-% \label{fig:BoostedA14Var3}
+% \subfloat[2-Tag-Split: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_BulkRSGKKc1_Scale_ratio.pdf}\hspace{5mm}}
+% \subfloat[2-Tag-Split: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_BulkRSGKKc2_Scale_ratio.pdf}\hspace{5mm}}
+% \subfloat[2-Tag-Split: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_Scalar_Scale_ratio.pdf}\hspace{5mm}}\\
+% \subfloat[3-Tag: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_BulkRSGKKc1_Scale_ratio.pdf}\hspace{5mm}}
+% \subfloat[3-Tag: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_BulkRSGKKc2_Scale_ratio.pdf}\hspace{5mm}}
+% \subfloat[3-Tag: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_Scalar_Scale_ratio.pdf}\hspace{5mm}}\\
+% \subfloat[4-Tag: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_BulkRSGKKc1_Scale_ratio.pdf}\hspace{5mm}}
+% \subfloat[4-Tag: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_BulkRSGKKc2_Scale_ratio.pdf}\hspace{5mm}}
+% \subfloat[4-Tag: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_Scalar_Scale_ratio.pdf}\hspace{5mm}}
+% \caption{Ratio of acceptance times efficiency measured in the scale-varied samples over the baseline sample. The upward-pointing triangles correspond to doubling both the renormalisation and factorisation scales, while the downward-pointing triangles correspond to halving them. The polynomial fits shown as solid lines are used to assign the corresponding systematic variation in the final statistical analysis.}
+% \label{fig:scaleVar}
 % \end{center}
 % \end{figure*}
 
-\paragraph{}
-A14 tune variations 1 does not have a significant effect on the signal acceptance. Variation 2 has an asymmetric impact on the acceptance that is quadratically dependent on the resonance mass, reaching +4\% and -8\% at $\mGrav=3$\,TeV. Variation 3a is consistent with zero shift for all masses when the downward variation is applied, while the upward variation leads to a signal acceptance uncertainty which is quadratic in \mGrav reaching $-8\%$ for $\mGrav=3$\,TeV. Variation 3b is again asymmetric with quadratic behaviour, with the upward variation reaching $+2\%$ and the downward variation $-6\%$ at $\mGrav=3$\,TeV. Variation 3c is symmetric, with the corresponding acceptance uncertainty $\pm 2\%$ for all masses. These uncertainties will be considered in the statistical analysis.
+%\paragraph{}
+Uncertainties due to modelling of the parton shower and the underlying event (including multi-parton interactions) are evaluated by switching the MC generator used. For the Bulk RS graviton samples, this means switching from Pythia 8 to Herwig++, while for the scalar and non-resonant it is Herwig++ to Pythia 8. Figure \ref{fig:showerVar} shows the impact of these variations on the signal acceptance.
 
-\paragraph{}
-The PDF uncertainty is evaluated using the 100 NNPDF 2.3 LO replicas, as in the resolved analysis. 
-%The calculated PDF uncertainty is shown in Figure \ref{fig:BoostedPDFUnc} as upward and downward shifts from unity. 
-In this case, the uncertainty in acceptance due to PDF uncertainties is grows to $\pm3\%$ at the very highest masses considered for the boosted analysis. %For this reason, it is neglected in the statistical analysis described in Section \ref{sec:statistical-analysis}.
 % \begin{figure*}
 % \begin{center}
-% %%\includegraphics[angle=270, width=0.68\textwidth]{figures/boosted/Syst_Theory/Boosted_PDFUncertaintyGraph.pdf}
-% \caption{The fractional uncertainty on the acceptance due to PDF uncertainties as a function of resonance mass is shown as the triangles. A quadratic fit to these points is also shown as the solid line. \textbf{TO BE UPDATED} }\label{fig:BoostedPDFUnc}
+% \subfloat[2-Tag-Split: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_BulkRSGKKc1_Shower_ratio.pdf}\hspace{5mm}}
+% \subfloat[2-Tag-Split: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_BulkRSGKKc2_Shower_ratio.pdf}\hspace{5mm}}
+% \subfloat[2-Tag-Split: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_Scalar_Shower_ratio.pdf}\hspace{5mm}}\\
+% \subfloat[3-Tag: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_BulkRSGKKc1_Shower_ratio.pdf}\hspace{5mm}}
+% \subfloat[3-Tag: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_BulkRSGKKc2_Shower_ratio.pdf}\hspace{5mm}}
+% \subfloat[3-Tag: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_Scalar_Shower_ratio.pdf}\hspace{5mm}}\\
+% \subfloat[4-Tag: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_BulkRSGKKc1_Shower_ratio.pdf}\hspace{5mm}}
+% \subfloat[4-Tag: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_BulkRSGKKc2_Shower_ratio.pdf}\hspace{5mm}}
+% \subfloat[4-Tag: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_Scalar_Shower_ratio.pdf}\hspace{5mm}}
+% \caption{Ratio of acceptance times efficiency measured in the shower-varied samples over the baseline sample shown as open circles. The polynomial fits shown as solid lines are used to assign the corresponding systematic variation in the final statistical analysis.}
+% \label{fig:showerVar}
 % \end{center}
 % \end{figure*}
+
+%%\paragraph{}
+PDF uncertainties are evaluated using the PDF4LHC15\_nlo\_mc set, which combines CT14, MMHT14 and NNPDF3.0 PDF sets \cite{0954-3899-43-2-023001}. The uncertainty is evaluated by calculating the acceptance for each PDF replica. The standard deviation of these acceptance values divided by the baseline acceptance is taken as the PDF uncertainty. For each mass point the distribution of these ratio is compatible with a Gaussian centred on one. The calculated PDF uncertainty is shown in Figure \ref{fig:pdfVar} as upward and downward shifts from unity. The uncertainty in acceptance due to PDF uncertainties is less than $\pm1\%$ across the full mass range considered for the analysis. For this reason, it is neglected in the statistical analysis described in Section \ref{sec:statistical-analysis}.
+
+% \begin{figure*}
+% \begin{center}
+% \subfloat[2-Tag-Split: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_BulkRSGKKc1_PDF_ratio.pdf}\hspace{5mm}}
+% \subfloat[2-Tag-Split: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_BulkRSGKKc2_PDF_ratio.pdf}\hspace{5mm}}
+% \subfloat[2-Tag-Split: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_2Tag_Scalar_PDF_ratio.pdf}\hspace{5mm}}\\
+% \subfloat[3-Tag: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_BulkRSGKKc1_PDF_ratio.pdf}\hspace{5mm}}
+% \subfloat[3-Tag: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_BulkRSGKKc2_PDF_ratio.pdf}\hspace{5mm}}
+% \subfloat[3-Tag: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_3Tag_Scalar_PDF_ratio.pdf}\hspace{5mm}}\\
+% \subfloat[4-Tag: bulk RS c=1]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_BulkRSGKKc1_PDF_ratio.pdf}\hspace{5mm}}
+% \subfloat[4-Tag: bulk RS c=2]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_BulkRSGKKc2_PDF_ratio.pdf}\hspace{5mm}}
+% \subfloat[4-Tag: scalar]{\includegraphics[width=0.3\textwidth, clip]{figures/boosted/Syst_MC/Boosted_4Tag_Scalar_PDF_ratio.pdf}\hspace{5mm}}
+% \caption{Ratio of acceptance times efficiency measured in the PDF-varied samples over the baseline sample shown as open circles. Given the consistency with unity, no PDF-uncertainty will be assigned.}
+% \label{fig:pdfVar}
+% \end{center}
+% \end{figure*}
+
+These uncertainties are implemented in the final statistical analysis as normalisation uncertainties on the signals, with the value taken from the polynomial fit. This smooths out statistical fluctuations and allows interpolation between the generated mass points, if needed.

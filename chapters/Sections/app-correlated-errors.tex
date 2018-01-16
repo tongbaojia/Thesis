@@ -1,19 +1,19 @@
 \section{Correlated Error Propagation}
 \label{app:correrr}
-\paragraph{}
+%%\paragraph{}
 In several instances, we fit distributions with multiple parameters, and the resulting parameter errors are found to be correlated.  When propagating uncertainties, this implies that the errors of the correlated parameters of the fit can not be varied independently to estimate the uncertainty.  
 
-\paragraph{}
+%%\paragraph{}
 To handle the correlated error propagation, we make use of the fact that the covariance matrix of the fit parameters is a symmetric matrix and can be diagonalized by unitary congruence.  Specifically, if the fit has two parameters and we write the fit parameters as a vector, $a = (a_1,\ a_2)$, and covariance matrix of $a$ is $C$ where $C_{ij} = Cov(a_i,\ a_j)$, then we can decompose $C$ as:
 \begin{equation}
 C = U \Lambda U^{T}
 \end{equation}
 where $U$ is a unitary matrix whose columns are the eigenvectors of $C$ and $\Lambda = Diag(\lambda_{1},\ \lambda_{2})$ is a real diagonal matrix whose entries are the eigenvalues of $C$.
 
-\paragraph{}
+%%\paragraph{}
 If we were project the vector $a$ along the direction of the eigenvectors, i.e. $a \to a^{\prime} = U^{T}a$, then the resulting eigenvalues would be uncorrelated because $C \to C^{\prime} = U^{T} C U = \Lambda$.   Thus we could vary the values of $a^{\prime}_{i}$ independently by $\pm \lambda_i$ to propagate the uncertainty.  To return to the original space of $a$, we simply need to rotate the system back with the $U$ matrix.  
 
-\paragraph{}
+%%\paragraph{}
 This set of operations can be simplified.  Let $l_1 = (\lambda_1,\ 0)^T$ and $l_2 = (0,\ \lambda_2)^T$, then a variation of the correlated parameters takes the form,
 \begin{equation}
 a \to U( a^{\prime} \pm l_i) = U( U^{T} a \pm l_i) = a \pm U l_{i}

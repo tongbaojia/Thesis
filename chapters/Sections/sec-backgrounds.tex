@@ -2,13 +2,13 @@
 
 \subsection{Overview}
 
-\paragraph{}
+%%\paragraph{}
 The primary backgrounds to this analysis in the four $b$-jet signal region, in order of size, are QCD multi-jet production ($\sim 95\%$), $t\bar{t}$ ($\sim 5\%$), and $Z$+jets ($< 1\%$), where the percentages are the expected fraction of the background coming from each source. In the three $b$-jet signal region, the fractions are QCD ($\sim 90\%$), $t\bar{t}$ ($\sim 10\%$), and $Z$+jets ($< 1\%$).  In the two $b$-jet split signal region, the fractions are QCD ($\sim 80\%$), $t\bar{t}$ ($\sim 20\%$), and $Z$+jets ($< 1\%$).
 
-\paragraph{}
+%%\paragraph{}
 QCD is by far the dominant background. However, there is no reliable, high-statistics Monte Carlo simulation sample in this region of phase space (i.e with three or four $b$-jets collected into two high-$p_{T}$ large radius jets) and thus a data-driven background estimation is needed. (See Appendix ~\ref{app:muqcd-study}.) For the \ttbar background, Monte Carlo simulation samples of reasonable size are available, and thus can be used to guide an estimation of this background. The $Z$+jets background is small enough that we will rely on the Monte Carlo simulation of $Z$+heavy flavor jets. $ZZ\to b\bar{b}b\bar{b}$ has been estimated to be completely negligible using a particle-level analysis, with less than one event expected after three $b$-tags are required, which will be further heavily suppressed by the $X_{hh}$ requirement.
 
-\paragraph{}
+%%\paragraph{}
 The QCD background prediction relies on finding a region which is similar enough in event properties that it can be used to estimate the shapes of the expected QCD background.  This region is identical to the signal region defined by the full selection, with the exception that the events must have \textbf{less} $b$-tagged track jets:
 \begin{itemize}
 \item For the 2$b$s category, the 1$b$ sample is used for modeling.
@@ -16,7 +16,7 @@ The QCD background prediction relies on finding a region which is similar enough
 \end{itemize}
 To prevent differences in the number of track jets from biasing the dijet mass distribution, the $1b$-tagged region requires that each large-$R$ jet has at least one track jet (to model $2bs$, ie. 2$b$ tag split). Similarly, the $2b$-tagged region requires that one large-$R$ jet has at least one track jet and the other one has at least two track jets (to model $3b$), and each large-$R$ jet has at least two track jets (to model $4b$).
 
-\paragraph{}
+%%\paragraph{}
 However, this less $b$-tagged region only supplies the shapes of the expected background and not the total yield, and a second control sample, which we denote the \textit{Sideband} region, is used to estimate the yield. The Sideband is obtained by doing the full analysis selection, except instead of the $X_{hh}$ cut an alternative criteria on the large radius jet masses is used, that $33 < R_{hh} $ and $R_{hh}^{\text{high}} < 58$~\GeV. To validate this approach, a third region, which we denote the \textit{Control} region, is centered on the signal region in the plane of the two large radius jet masses but does not include the signal region, such that $R_{hh} < 33$~\GeV.  The control region is used to validate the background estimations before unblinding. The control and sideband regions are optimized, as shown in the following sections, to accurately estimate the rate of the QCD background (and thus allow for an extrapolation from the $1b$/$2b$ estimate to a prediction in the $4b/3b/2bs$  signal regions), whilst giving a control region which has kinematic properties similar to that of the signal region. 
 
 
@@ -25,27 +25,27 @@ However, this less $b$-tagged region only supplies the shapes of the expected ba
 
 
 
-\paragraph{}
+%%\paragraph{}
 The $t\bar{t}$ background shape is taken from MC. A data-based estimation of the $t\bar{t}$ background yield is performed simultaneously with the QCD background yield estimation, by means of a binned likelihood fit.
 In the plane of the two leading large radius jet masses, the main contribution of the $t\bar{t}$ background lies in the Sideband region. The data distribution in the Sideband region of the leading-$p_{T}$ large radius jet mass is fit simultaneously with the QCD shape estimate (from the less $b$-tagged sample) and with the $t\bar{t}$ Monte Carlo shape. This fit is done separately in the 4$b$, 3$b$, and 2$b$s Sideband regions.
 From this fit, two terms are determined simultanously: $\mu_{QCD}$ and $\alpha_{tt}$. $\mu_{QCD}$ is the ratio of the QCD event yield in the 2bs/3b/4b regions to the amount in each corresponding less b-tagged region. $\alpha_{tt}$ is the ratio of the fitted ttbar event yield to the yield predicted from ttbar MC.
 These two numbers are then used as multiplicative constants in other regions of the mass plane (i.e. the Control or Signal regions) to extrapolate from the rates of the less $b$-tagged regions to predictions of rates in the 2bs/3/4 $b$-tagged regions, for estimating the amount of QCD, and to correct the rate of $t\bar{t}$ production wrt. MC. Hence, the underlying assumption is that these scale factors are roughly constant over the 2D large-R jet mass plane for Sideband/Control/Signal regions, which has been verified by perfoming these fits in small bins across the 2D mass plane. This is shown in Appendix ~\ref{app:muqcd-study}. The correction factors are derived separately for the 4$b$, 3$b$, and 2$b$s regions.
 
-\paragraph{}
+%%\paragraph{}
 In this section, we describe this approach in more detail and show its validation in data.
 
 
 \subsection{Definition of the sideband and control regions (SB, CR)}
 \label{sec:boosted-SBCR}
 
-\paragraph{}
+%%\paragraph{}
 
 The definitions of the SB, CR, and SR in the leading ($m^{\rm lead}_{\rm J}$) and sub-leading ($m^{\rm subl}_{\rm J}$) large-$R$ jet mass plane are found in Table~\ref{tab:boosted-sbcr-constraints}. These regions can be seen in the leading and sub-leading large-$R$ jet mass plane in Figure~\ref{fig:boosted-region-def}. As a reminder, the definition of $X_{hh}$, $R_{hh} $ and $R_{hh}^{\text{high}}$ are:
 
 \begin{equation}
-X_{hh} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{124 GeV}}{\sigma\left(m^{\rm lead}_{\rm J}\right)}\right)^2 + \left(\frac{m^{\rm subl}_{\rm J}-  \text{115 GeV}}{\sigma\left(m^{\rm subl}_{\rm J}\right)}\right)^2}, \\
-R_{hh} = \sqrt{ (m^{\rm lead}_{\rm J} - 124)^2 + (m^{\rm subl}_{\rm J} - 115)^2 }, \\
-R_{hh}^{\text{high}} = \sqrt{ (m^{\rm lead}_{\rm J} - 134)^2 + (m^{\rm subl}_{\rm J} - 125)^2 }.
+X_{hh} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{124 GeV}}{\sigma\left(m^{\rm lead}_{\rm J}\right)}\right)^2 + \left(\frac{m^{\rm subl}_{\rm J}-  \text{115 GeV}}{\sigma\left(m^{\rm subl}_{\rm J}\right)}\right)^2}
+R_{hh} = \sqrt{ (m^{\rm lead}_{\rm J} - 124)^2 + (m^{\rm subl}_{\rm J} - 115)^2 }
+R_{hh}^{\text{high}} = \sqrt{ (m^{\rm lead}_{\rm J} - 134)^2 + (m^{\rm subl}_{\rm J} - 125)^2 }
 \end{equation}
 
 \begin{table}[htbp!]
@@ -65,16 +65,16 @@ R_{hh}^{\text{high}} = \sqrt{ (m^{\rm lead}_{\rm J} - 134)^2 + (m^{\rm subl}_{\r
 
 \begin{figure*}[htbp!]
 \begin{center}
-  \includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Other/Sideband_OneTag_mH0H1.pdf}
-  \includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Other/Control_OneTag_mH0H1.pdf}\\
-  \includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Other/Sideband_TwoTag_mH0H1.pdf}
-  \includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Other/Control_TwoTag_mH0H1.pdf}
+  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/Sideband_OneTag_mH0H1.pdf}
+  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/Control_OneTag_mH0H1.pdf}\\
+  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/Sideband_TwoTag_mH0H1.pdf}
+  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/Control_TwoTag_mH0H1.pdf}
   \caption{$m_J^{lead}$ vs. $m_J^{subl}$ in data in the 1$b$-tag (top) and 2$b$-tag (bottom) selection, the plots show the boundary between the Sideband (left) and Control (right) regions.}
   \label{fig:boosted-region-def}
 \end{center}
 \end{figure*}
 
-\paragraph{}
+%%\paragraph{}
 The CR is chosen to be as close as possible to the signal region, thus allows a good test for the background predictions, avoids the top mass peak around 175 GeV, and still gives reasonably statistics.  The SB definition is optimized so as to also be a reasonable proxy for the events contained in the CR and SR. Being farther from the SR means that the exact kinematics will not be the same, but one can avoid very large and very small mass jets not present in the SR by appropriate choice of SB.   The optimization of teh CR and SB definitiona can be found in Appendix~\ref{app:SB-optimization}. The choice of SB's impact on the predicted QCD background normalization, which is derived from the SB, can be found in Appendix~\ref{app:muqcd-study}.
 
 
@@ -82,14 +82,14 @@ The CR is chosen to be as close as possible to the signal region, thus allows a 
 \subsection{QCD multi-jets}
 \label{sec:boosted-qcd}
 
-\paragraph{}
+%%\paragraph{}
 The QCD multi-jets prediction relies on finding a region which is similar enough in event properties so that it can be used to estimate the shapes of the expected background. This region is defined to be identical to the signal region except requiring both of the large-$R$ jets to pass the $\geq 2$( like in $4b$) or $\geq 1/2$ (like in $3b$) or $\geq 1$(like in $2b$ split) track jet requirement, but have two or one associated $b$-tagged track jets only on one of the large-$R$ jets. However, this $1b/2b$ region only provides shapes of the expected background and not the total yield. 
 
-\paragraph{}
+%%\paragraph{}
 It should be noted that the $1b/2b$ region is orthogonal to the $4b/3b/2bs$ signal regions. In addition, the MC predicted $t\bar{t}$ events in the $1b/2b$ regions are subtracted from the data to produce the $1b/2b$ QCD estimation. This procedure follows closely the method used in Run 1 and also used in the resolved analysis, but requiring $1b$-tag for the $2bs$ background estimation.
 
 \label{par:boosted-qcd-2bseperate}
-\paragraph{} It should also be noted that the $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for 3$b$ and 4$b$ background estimations. This ensures the shape estimations of 3$b$ and 4$b$ QCD estimates are uncorrelated. 
+%%\paragraph{} It should also be noted that the $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for 3$b$ and 4$b$ background estimations. This ensures the shape estimations of 3$b$ and 4$b$ QCD estimates are uncorrelated. 
 
 It should also be noted that the resolved veto will impact the 4$b$ background estimation.  Specifically, 2$b$ events are excluded when they have at least two resolved jets that are $b$ tagged (passing resolved $70\%$ working point) and passing the resolved $Xhh < 1.6$ cut if using two other non b-tagged resolved jets to make the Higgs candidates. This ensures that a similar sculpting effect is reflected in the background estimation, and a check for this can be found in Appendix ~\ref{app:resveto}.
 
@@ -98,10 +98,10 @@ Given the $1b/2b$ samples, which predict shapes for the QCD background, the norm
 It should be noted that there can be kinematic differences between the  $1b/2b$ samples and the $4b/3b/2bs$ regions.  Thus a kinematic reweighting is applied to correct for such differences, as described in Section~\ref{sec:boosted-reweight}.
 
 
-%\paragraph{} 
+%%%\paragraph{} 
 %This background estimation is contingent on the idea that the 0$b$ sample QCD shape is a good estimate of $4/3/2bs$ samples QCD shapes. In addition, the use %of the SB region to estimate the background normalization relies on the SB to also accurately describe the normalization in the CR and SR regions.  The %purpose of the CR is thus to test both of these hypotheses. 
 
-%\paragraph{} 
+%%%\paragraph{} 
 %While the normalizations of the $4b/3b/2bs$ split QCD predictions will be different, as they use events in the respective $4b$, $3b$, $2bs$ SB regions to set the normalizations, the shape estimates for the $4b/3b/2bs$  QCD predictions will be similar as they are both derived from the $1b/2b$ sample but only differ based on the number of $b$-tagged track jets required in each \largeR\ jet.
 
 
@@ -121,18 +121,18 @@ It should be noted that there can be kinematic differences between the  $1b/2b$ 
 \subsection{\ttbar background}
 \label{sec:boosted-ttbar}
 
-\paragraph{}
+%%\paragraph{}
 The number of \ttbar\ events in the signal region coming mainly from the all-hadronic decay mode (with a smaller contribution from the leptonic + jets decay mode) comprises of  around 5-20\%  of the inclusive total background in the $4b/3b/2bs$ regions due to the high \pt\ threshold imposed on the leading \largeR calorimeter jet. In addition, the normalization and the shape of \ttbar\ events in the sideband region can affect the QCD estimate described in the previous section.
 
-\paragraph{}
+%%\paragraph{}
 For the normalization of the $t\bar{t}$ background, we start with the MC prediction estimated by scaling the MC sample by the cross section and luminosity, and then applying the boosted event selection.  To account for possible differences between data and MC, a normalization scaling factor  is derived from a fit to data in the sideband region.  Although estimated in the SB, this normalization scaling factor will be applied also in the CR and SR.  Separate fits are done in the $4b/3b/2bs$  SB, thus deriving separate normalization scaling factor for the $4b/3b/2bs$ samples. For the shape of the $t\bar{t}$ background, no data driven methods were identified, and thus the MC shape is used.  
 
-\paragraph{}
+%%\paragraph{}
 However, it should be noted that in the $4b$ and $3b$ signal region, there were not sufficient MC statistics to get a reasonable shape estimate.  As a result, in the $4b$ and $3b$ signal region,  the $2bs$ shapes will be used (but the normalization will still be that estimated for the $4b$/$3b$ sample). Since the same shape is used for the $4b/3b/2bs$ SR predictions of $t\bar{t}$, the shape systematics are considered correlated in the final results and limit setting. A comparison between the $4b/3b/2bs$ shapes for the di-large-$R$-jet mass distributions (the final discriminant) in the SR can be found in Figure~\ref{fig:ttshapeComp}.  As we can see, the shapes are compatible, with the $4b$ having much larger statistical uncertainties.  Differences between these distributions will be used as a systematic, as described in Section~\ref{sec:systematics}.
 
 \begin{figure}[htbp!]
 \begin{center}
-  \includegraphics[angle=270, width=0.5\textwidth]{figures/boosted/Other/ttbar_compare_mHH_l.pdf}
+  \includegraphics[width=0.5\textwidth,angle=-90]{figures/boosted/Other/ttbar_compare_mHH_l.pdf}
 \caption{comparison between the $2b$, $3b$, and $4b$ shapes for the di-large-$R$-jet mass distributions (the final discriminant) in the SR.}
 \label{fig:ttshapeComp}
 \end{center}
@@ -148,20 +148,20 @@ However, it should be noted that in the $4b$ and $3b$ signal region, there were 
 \subsection{Fitting procedure for QCD and \ttbar\ normalization}
 \label{sec:ttbarnorm}
 
-\paragraph{}
+%%\paragraph{}
 The number of 4$b$/3$b$/2$b$s events in data observed in a given region (SB / CR / SR) can be described as:
 \begin{eqnarray}\label{eq:fitparams}
 N^{\nu_b}_{\text{data}} = \mu_{\text{qcd}}^{\nu_b} N^{xb}_{\text{qcd}} + \alpha_{t\bar{t}}^{\nu_b} N^{\nu_b}_{t\bar{t}} + N^{\nu_b}_{Z+jets}
 \end{eqnarray}
 where $\nu_b$ is the number of $b$-tagged track jets required, x is 1 for 2$b$s and 2 for 3$b$ and 4$b$. \muqcd\ is essentially an estimate of the ratio of the number of  QCD events with $\nu_b$ $b$-tagged track jets, to the number of $1b/2b$ QCD events, while the \ttbar\ normalization parameter $\alpha_{t\bar{t}}$\, applied after the \ttbar\ is scaled to the total integrated luminosity, is a correction to the MC prediction in this phase space. The same equation can be applied to the 4$b$/3$b$/2$b$s region (replacing $\nu_b$ by 4b/3b/2s $b$ in Equation~\ref{eq:fitparams}).   
 
-\paragraph{}
+%%\paragraph{}
 In order to constrain the QCD and \ttbar\ background normalizations using data, a simultaneous fit is applied to extract both the \ttbar\ normalization with respect to the yields from simulation and the number of $1b/2b$ data events for the QCD background.  These scaling parameters are determined independently for the $4b/3b/2s$ signal regions. But as the procedure is the same for those three signal regions, we denote these scaling factors simply \muqcd and $\alpha_{t\bar{t}}$ in the following text.
 
-\paragraph{}
-A binned maximum likelihood fit is employed to find the values of \muqcd and $\alpha_{t\bar{t}}$, as well as the correlation between the two parameters. The fit is performed on the leading-\pt\ jet mass spectrum in the sideband region, as it has the best separation between QCD and \ttbar\ shapes. Due to the \pt$>450$ GeV cut imposed on the leading \largeR jet, the hadronic top quark is likely to be fully reconstructed inside of the \largeR jet and the leading jet mass in the \ttbar\ sample has a clean peak around $M=170$ GeV in the sideband region.
+%%\paragraph{}
+A binned maximum likelihood fit is employed to find the values of \muqcd and $\alpha_{t\bar{t}}$, as well as the correlation between the two parameters. The fit is performed on the leading-\pt\ jet mass spectrum in the sideband region, as it has the best separation between QCD and \ttbar\ shapes. Due to the \pt $>450$ GeV cut imposed on the leading \largeR jet, the hadronic top quark is likely to be fully reconstructed inside of the \largeR jet and the leading jet mass in the \ttbar\ sample has a clean peak around $M=170$ GeV in the sideband region.
 
-\paragraph{}
+%%\paragraph{}
 The values of \muqcd and $\alpha_{t\bar{t}}$ as estimated by the fits in the $4b/3b/2bs$ sideband regions can be found in Table~\ref{tab:bkgfit}, along with the correlation of the fitted parameters $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\mu_{qcd},\ \alpha_{t\bar{t}})}{\sigma_{\mu_{qcd}}\sigma_{\alpha_{t\bar{t}}} }$. \muqcd and $\alpha_{t\bar{t}}$ are approximately 70\% negatively correlated, which is not surprising as they are the only two components fit to the data distribution and their sum needs to predict the SB total event count.
 
 \begin{table}[htbp!]
@@ -172,16 +172,16 @@ The values of \muqcd and $\alpha_{t\bar{t}}$ as estimated by the fits in the $4b
 \end{center}
 \end{table}
 
-\paragraph{}
+%%\paragraph{}
 Figure~\ref{fig:ttbar-fit} shows the post-fit spectrum of the leading \largeR calorimeter jet mass in the 4$b$/3$b$/2$b$s sideband regions. The normalization of \ttbar\ is 
 constrained by the top quark mass peak around 170~GeV. The shapes of the data is also well modeled by the predicted background. The fitting errors on \muqcd and 
 $\alpha_{t\bar{t}}$ are applied as systematic uncertainties taking into account their correlation. This will be explained in more detail in the systematics section.
 
 \begin{figure}[htbp!]
 \begin{center}
- \includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Fit/fitNorm_i4.pdf}\\
- \includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Fit/fitNorm_i3.pdf}\\
- \includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Fit/fitNorm_i2s.pdf}\\
+ \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i4.pdf}\\
+ \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i3.pdf}\\
+ \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i2s.pdf}\\
 \caption{Simultaneous fit of \muqcd and \alphatt in 4$b$ (top) and 3$b$ (middle) and $2b$ (bottom) sideband region using leading \largeR calorimeter jet mass spectrum.}
 \label{fig:ttbar-fit}
 \end{center}
@@ -207,29 +207,29 @@ $\alpha_{t\bar{t}}$ are applied as systematic uncertainties taking into account 
 \subsection{Predictions in the sideband region (SB)}
 \label{sec:boosted-sb}
 
-\paragraph{}
+%%\paragraph{}
 This section shows comparisons of data with the prediction of QCD multi-jets and \ttbar in the sideband region (SB), which is identical to the signal region (SR) except the large-$R$ jets are required to have masses far from the Higgs mass. The definition of the sideband and control regions is discussed in Section~\ref{sec:boosted-SBCR}. The predicted and observed event yields are summarized in Tables~\ref{tab:yields4b} and~\ref{tab:yields3b}.
 
-\paragraph{}
+%%\paragraph{}
 Figures~\ref{fig:boosted-4b-sideband-ak10-lead}, \ref{fig:boosted-4b-sideband-ak10-subl}, \ref{fig:boosted-4b-sideband-ak2},  and \ref{fig:boosted-4b-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 4$b$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
 
-\paragraph{}
+%%\paragraph{}
 Figures~\ref{fig:boosted-3b-sideband-ak10-lead}, \ref{fig:boosted-3b-sideband-ak10-subl}, \ref{fig:boosted-3b-sideband-ak2},  and \ref{fig:boosted-3b-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 3$b$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
 
-\paragraph{}
+%%\paragraph{}
 Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-ak10-subl}, \ref{fig:boosted-2bs-sideband-ak2},  and \ref{fig:boosted-2bs-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 2$bs$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
-% \paragraph{}
+% %%\paragraph{}
 % No corrections to the prediction in the SB are obviously needed. One hypothesis for this behavior is that the large-$R$ jet trigger used in the boosted category has negligible dependence on the $b$-tag multiplicity of the event, hence extrapolating from the $1/2b$ region to the 2,3,4$b$ region is straightforward. On the other hand, the resolved analysis relies on $b$-jet triggers, which can have dependence on the $b$-tag multiplicity.
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Phi.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the sideband region after requiring 4 $b$-tags. The normalization agrees by construction, and the shapes are a feature of the prediction.}
   \label{fig:boosted-4b-sideband-ak10-lead}
 \end{center}
@@ -237,10 +237,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Phi.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the sideband region after requiring 4 $b$-tags. The normalization agrees by construction, and the shapes are a feature of the prediction.}
   \label{fig:boosted-4b-sideband-ak10-subl}
 \end{center}
@@ -248,12 +248,12 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk_dr.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk_dr.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the sideband region after requiring 4 $b$-tags. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet. The normalization agrees by construction, and the shapes are a feature of the prediction. }
   \label{fig:boosted-4b-sideband-ak2}
 \end{center}
@@ -262,10 +262,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_mHH_l_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_hCandDr.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_hCandDeta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_FourTag_Sideband_hCandDphi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_mHH_l_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_hCandDr.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_hCandDeta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_hCandDphi.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the sideband region after requiring 4 $b$-tags. The normalization agrees by construction, and the shapes are a feature of the prediction. }
   \label{fig:boosted-4b-sideband-ak10-system}
 \end{center}
@@ -275,10 +275,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Phi.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the sideband region after requiring 3 $b$-tags. The normalization agrees by construction, and the shapes are a feature of the prediction.}
   \label{fig:boosted-3b-sideband-ak10-lead}
 \end{center}
@@ -286,10 +286,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Phi.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the sideband region after requiring 3 $b$-tags. The normalization agrees by construction, and the shapes are a feature of the prediction.}
   \label{fig:boosted-3b-sideband-ak10-subl}
 \end{center}
@@ -297,12 +297,12 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk_dr.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk_dr.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the sideband region after requiring 3 $b$-tags. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet. The normalization agrees by construction, and the shapes are a feature of the prediction. }
   \label{fig:boosted-3b-sideband-ak2}
 \end{center}
@@ -311,10 +311,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_mHH_l_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDr.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDeta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDphi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_mHH_l_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDr.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDeta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDphi.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the sideband region after requiring 3 $b$-tags. The normalization agrees by construction, and the shapes are a feature of the prediction. }
   \label{fig:boosted-3b-sideband-ak10-system}
 \end{center}
@@ -324,10 +324,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Phi.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the sideband region after requiring 2 $b$-tags split. The normalization agrees by construction, and the shapes are a feature of the prediction.}
   \label{fig:boosted-2bs-sideband-ak10-lead}
 \end{center}
@@ -335,10 +335,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Phi.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the sideband region after requiring 2 $b$-tags split. The normalization agrees by construction, and the shapes are a feature of the prediction.}
   \label{fig:boosted-2bs-sideband-ak10-subl}
 \end{center}
@@ -346,12 +346,12 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk_dr.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk_dr.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the sideband region after requiring 2 $b$-tags split. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet. The normalization agrees by construction, and the shapes are a feature of the prediction. }
   \label{fig:boosted-2bs-sideband-ak2}
 \end{center}
@@ -360,10 +360,10 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_mHH_l_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDr.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDeta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDphi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_mHH_l_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDr.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDeta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDphi.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the sideband region after requiring 2 $b$-tags split. The normalization agrees by construction, and the shapes are a feature of the prediction. }
   \label{fig:boosted-2bs-sideband-ak10-system}
 \end{center}
@@ -390,10 +390,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_leadHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_leadHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_leadHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_leadHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_Phi.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the control region after requiring 4 $b$-tags. }
   \label{fig:boosted-4b-control-ak10-lead}
 \end{center}
@@ -401,10 +401,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_sublHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_sublHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_sublHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_sublHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_Phi.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the control region after requiring 4 $b$-tags. }
   \label{fig:boosted-4b-control-ak10-subl}
 \end{center}
@@ -412,12 +412,12 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_leadHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_sublHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_leadHCand_trk_dr.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_sublHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_trk_dr.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the control region after requiring 4 $b$-tags. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet.  }
   \label{fig:boosted-4b-control-ak2}
 \end{center}
@@ -426,10 +426,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_mHH_l_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_hCandDr.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_hCandDeta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_FourTag_Control_hCandDphi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_mHH_l_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_hCandDr.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_hCandDeta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_hCandDphi.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the control region after requiring 4 $b$-tags.  }
   \label{fig:boosted-4b-control-ak10-system}
 \end{center}
@@ -439,10 +439,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Phi.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the control region after requiring 3 $b$-tags. }
   \label{fig:boosted-3b-control-ak10-lead}
 \end{center}
@@ -450,10 +450,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Phi.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the control region after requiring 3 $b$-tags. }
   \label{fig:boosted-3b-control-ak10-subl}
 \end{center}
@@ -461,12 +461,12 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk_dr.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk_dr.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the control region after requiring 3 $b$-tags. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet.  }
   \label{fig:boosted-3b-control-ak2}
 \end{center}
@@ -475,10 +475,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_mHH_l_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_hCandDr.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_hCandDeta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_ThreeTag_Control_hCandDphi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_mHH_l_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_hCandDr.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_hCandDeta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_hCandDphi.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the control region after requiring 3 $b$-tags.  }
   \label{fig:boosted-3b-control-ak10-system}
 \end{center}
@@ -488,10 +488,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Phi.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the control region after requiring 2 $b$-tags split. }
   \label{fig:boosted-2bs-control-ak10-lead}
 \end{center}
@@ -499,10 +499,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Pt_m_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Mass_s.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Eta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Phi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Pt_m_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Mass_s.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Eta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Phi.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the control region after requiring 2 $b$-tags split. }
   \label{fig:boosted-2bs-control-ak10-subl}
 \end{center}
@@ -510,12 +510,12 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk1_Pt.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk_dr.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk1_Pt.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk_dr.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk_dr.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the control region after requiring 2 $b$-tags split. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet.  }
   \label{fig:boosted-2bs-control-ak2}
 \end{center}
@@ -524,10 +524,10 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_mHH_l_1.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_hCandDr.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_hCandDeta.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Control/b77_TwoTag_split_Control_hCandDphi.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_mHH_l_1.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_hCandDr.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_hCandDeta.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_hCandDphi.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the control region after requiring 2 $b$-tags split.  }
   \label{fig:boosted-2bs-control-ak10-system}
 \end{center}
@@ -554,10 +554,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Pt_m_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Mass_s_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Eta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Phi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Pt_m_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Mass_s_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Eta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Phi_blind.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the signal region after requiring 4 $b$-tags. Data is blinded, and will be added after unblinding.}
   \label{fig:boosted-4b-signal-blind-ak10-lead}
 \end{center}
@@ -565,10 +565,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Pt_m_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Mass_s_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Eta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Phi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Pt_m_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Mass_s_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Eta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Phi_blind.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the signal region after requiring 4 $b$-tags. Data is blinded, and will be added after unblinding.}
   \label{fig:boosted-4b-signal-blind-ak10-subl}
 \end{center}
@@ -576,12 +576,12 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk0_Pt_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk1_Pt_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk0_Pt_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk1_Pt_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk_dr_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk_dr_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk0_Pt_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk1_Pt_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk0_Pt_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk1_Pt_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk_dr_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk_dr_blind.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the signal region after requiring 4 $b$-tags. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet. Data is blinded, and will be added after unblinding. }
   \label{fig:boosted-4b-signal-blind-ak2}
 \end{center}
@@ -590,10 +590,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_mHH_l_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_hCandDr_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_hCandDeta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_FourTag_Signal_hCandDphi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_mHH_l_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_hCandDr_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_hCandDeta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_FourTag_Signal_hCandDphi_blind.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the signal region after requiring 4 $b$-tags. Data is blinded, and will be added after unblinding. }
   \label{fig:boosted-4b-signal-blind-ak10-system}
 \end{center}
@@ -603,10 +603,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Pt_m_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Mass_s_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Eta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Phi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Pt_m_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Mass_s_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Eta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Phi_blind.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the signal region after requiring 3 $b$-tags. Data is blinded, and will be added after unblinding.}
   \label{fig:boosted-3b-signal-blind-ak10-lead}
 \end{center}
@@ -614,10 +614,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Pt_m_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Mass_s_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Eta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Phi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Pt_m_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Mass_s_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Eta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Phi_blind.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the signal region after requiring 3 $b$-tags. Data is blinded, and will be added after unblinding.}
   \label{fig:boosted-3b-signal-blind-ak10-subl}
 \end{center}
@@ -625,12 +625,12 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk0_Pt_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk1_Pt_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk0_Pt_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk1_Pt_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk_dr_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk_dr_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk0_Pt_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk1_Pt_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk0_Pt_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk1_Pt_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk_dr_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk_dr_blind.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the signal region after requiring 3 $b$-tags. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet. Data is blinded, and will be added after unblinding. }
   \label{fig:boosted-3b-signal-blind-ak2}
 \end{center}
@@ -639,10 +639,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_mHH_l_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_hCandDr_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_hCandDeta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_ThreeTag_Signal_hCandDphi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_mHH_l_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_hCandDr_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_hCandDeta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_ThreeTag_Signal_hCandDphi_blind.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the signal region after requiring 3 $b$-tags. Data is blinded, and will be added after unblinding. }
   \label{fig:boosted-3b-signal-blind-ak10-system}
 \end{center}
@@ -652,10 +652,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Pt_m_1_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Mass_s_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Eta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Phi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Pt_m_1_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Mass_s_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Eta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Phi_blind.pdf}
   \caption{Kinematics of the lead large-$R$ jet in data and prediction in the signal region after requiring 2 $b$-tags split. Data is blinded, and will be added after unblinding.}
   \label{fig:boosted-2bs-signal-blind-ak10-lead}
 \end{center}
@@ -663,10 +663,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Pt_m_1_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Mass_s_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Eta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Phi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Pt_m_1_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Mass_s_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Eta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Phi_blind.pdf}
   \caption{Kinematics of the sub-lead large-$R$ jet in data and prediction in the signal region after requiring 2 $b$-tags split. Data is blinded, and will be added after unblinding.}
   \label{fig:boosted-2bs-signal-blind-ak10-subl}
 \end{center}
@@ -674,12 +674,12 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk0_Pt_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk1_Pt_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk0_Pt_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk1_Pt_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk_dr_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk_dr_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk0_Pt_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk1_Pt_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk0_Pt_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk1_Pt_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk_dr_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk_dr_blind.pdf}
   \caption{First two rows show the kinematics of the lead (left) and sub-lead (right) small-$R$ track jets associated to the lead (first-row) and sub-lead (second-row) large-$R$ jet in data and prediction in the signal region after requiring 2 $b$-tags split. Third row shows the $\Delta R$ between two leading small-$R$ track-jets associated to the leading (left) and sub-leading (right) large-$R$ jet. Data is blinded, and will be added after unblinding. }
   \label{fig:boosted-2bs-signal-blind-ak2}
 \end{center}
@@ -688,10 +688,10 @@ Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signa
 
 \begin{figure*}[htbp!]
 \begin{center}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_mHH_l_1_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDr_blind.pdf}\\
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDeta_blind.pdf}
-\includegraphics[angle=270, width=0.45\textwidth]{./figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_mHH_l_1_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDr_blind.pdf}\\
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDeta_blind.pdf}
+\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi_blind.pdf}
   \caption{Kinematics of the large-$R$ jet system in data and prediction in the signal region after requiring 2 $b$-tags split. Data is blinded, and will be added after unblinding. }
   \label{fig:boosted-2bs-signal-blind-ak10-system}
 \end{center}
