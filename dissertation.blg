@@ -2,50 +2,50 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/introduction.aux
-A level-1 auxiliary file: chapters/chapter1.aux
+A level-1 auxiliary file: chapters/chapter3.aux
+A level-1 auxiliary file: chapters/conclusion.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-Warning--empty publisher in Griffiths
-Warning--empty publisher in Tully
+Warning--I didn't find a database entry for "Aaboud:2016xco"
 You've used 4 entries,
             2481 wiz_defined-function locations,
-            581 strings with 4966 characters,
-and the built_in function-call counts, 1203 in all, are:
-= -- 96
-> -- 36
+            585 strings with 5132 characters,
+and the built_in function-call counts, 1195 in all, are:
+= -- 111
+> -- 28
 < -- 4
-+ -- 18
-- -- 10
-* -- 68
-:= -- 198
-add.period$ -- 14
++ -- 16
+- -- 8
+* -- 67
+:= -- 202
+add.period$ -- 16
 call.type$ -- 4
-change.case$ -- 5
+change.case$ -- 8
 chr.to.int$ -- 4
-cite$ -- 6
-duplicate$ -- 76
-empty$ -- 128
-format.name$ -- 15
-if$ -- 253
+cite$ -- 4
+duplicate$ -- 70
+empty$ -- 120
+format.name$ -- 12
+if$ -- 249
 int.to.chr$ -- 1
 int.to.str$ -- 5
-missing$ -- 7
-newline$ -- 30
+missing$ -- 2
+newline$ -- 32
 num.names$ -- 12
-pop$ -- 43
+pop$ -- 28
 preamble$ -- 1
 purify$ -- 4
 quote$ -- 0
-skip$ -- 43
+skip$ -- 40
 stack$ -- 0
-substring$ -- 26
-swap$ -- 8
+substring$ -- 35
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 19
-warning$ -- 2
-while$ -- 9
+type$ -- 28
+warning$ -- 0
+while$ -- 10
 width$ -- 0
-write$ -- 58
-(There were 2 warnings)
+write$ -- 65
+(There was 1 warning)

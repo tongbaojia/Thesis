@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  1 SEP 2017 15:37
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  5 MAR 2018 09:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,7 +1108,8 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count159
 \c@subtable=\count160
 )
-(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux))
+(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter3.aux)
+(./chapters/conclusion.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1244,10 +1245,7 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 
  [4
 
-] (./dissertation.lof
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-)
+] (./dissertation.lof)
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
@@ -1271,13 +1269,120 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 
 (./chapters/introduction.tex
 Chapter 0.
-) [1
+[1
 
 
 ]
-\openout2 = `chapters/chapter1.aux'.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 27.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 8.0pt on input line 27.
 
- (./chapters/chapter1.tex
+
+Package natbib Warning: Citation `Aad:2012tfa' on page 2 undefined on input lin
+e 27.
+
+
+Package natbib Warning: Citation `Chatrchyan201230' on page 2 undefined on inpu
+t line 27.
+
+
+Package natbib Warning: Citation `Agashe:2007zd' on page 2 undefined on input l
+ine 27.
+
+
+Package natbib Warning: Citation `Fitzpatrick' on page 2 undefined on input lin
+e 27.
+
+
+Package natbib Warning: Citation `PhysRevD.8.1226' on page 2 undefined on input
+ line 27.
+
+
+Package natbib Warning: Citation `Branco:2011iw' on page 2 undefined on input l
+ine 27.
+
+
+Package natbib Warning: Citation `PhysRevD.86.095023' on page 2 undefined on in
+put line 27.
+
+
+Package natbib Warning: Citation `Grober:2010yv' on page 2 undefined on input l
+ine 27.
+
+
+Package natbib Warning: Citation `Contino:2012xk' on page 2 undefined on input 
+line 27.
+
+
+Package natbib Warning: Citation `EXOT-2015-11' on page 2 undefined on input li
+ne 29.
+
+
+Package natbib Warning: Citation `CMS-B2G-16-026' on page 2 undefined on input 
+line 29.
+
+
+Package natbib Warning: Citation `CMS-HIG-14-013' on page 2 undefined on input 
+line 29.
+
+
+Package natbib Warning: Citation `Aad:2015uka' on page 2 undefined on input lin
+e 29.
+
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 9.35316pt on input line 29.
+
+LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 29.
+
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 29.
+
+Package natbib Warning: Citation `HIGG-2013-29' on page 2 undefined on input li
+ne 29.
+
+
+Package natbib Warning: Citation `HIGG-2013-33' on page 2 undefined on input li
+ne 29.
+
+
+Package natbib Warning: Citation `CMS-HIG-17-002' on page 2 undefined on input 
+line 29.
+
+
+Package natbib Warning: Citation `CMSHIG17006' on page 2 undefined on input lin
+e 29.
+
+
+Package natbib Warning: Citation `Khachatryan:2016sey' on page 2 undefined on i
+nput line 29.
+
+
+Package natbib Warning: Citation `Khachatryan:2014jya' on page 2 undefined on i
+nput line 29.
+
+
+Overfull \hbox (6.07236pt too wide) in paragraph at lines 29--30
+[]\EU1/EBGaramond(2)/bx/n/10.95 Previous searches for Higgs boson pair producti
+on have all yielded null results. In the $[][][][]$channel, 
+ []
+
+
+Overfull \hbox (6.64651pt too wide) in paragraph at lines 29--30
+\EU1/EBGaramond(2)/bx/n/10.95 ATLAS searched for both non-resonant and resonant
+ production in the mass range of 400–3000 GeV 
+ []
+
+[2]
+
+Package natbib Warning: Citation `EXOT-2015-11' on page 3 undefined on input li
+ne 33.
+
+[3]) [4]
+\openout2 = `chapters/chapter3.aux'.
+
+ (./chapters/chapter3.tex
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sl' in size <10> not availa
 ble
 (Font)              Font shape `EU1/EBGaramond(2)/m/it' tried instead on input 
@@ -1286,67 +1391,45 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 2.
 
 Chapter 1.
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 14.
-
-LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 14.
-
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 14.
-[2
-
-
-
-]
-File: figures/theory/SM.png Graphic file (type QTm)
- <use  "figures/theory/SM.png" >
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 22.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 9.5907pt on input line 22.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 7.99225pt on input line 22.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 9.71375pt on input line 22.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.09479pt on input line 22.
-LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 5.66635pt on input line 22.
- [3]
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 53.
-
-
-Package natbib Warning: Citation `Djouadi' on page 4 undefined on input line 53
-.
-
-
-Overfull \hbox (0.80928pt too wide) in paragraph at lines 53--54
-[] [][] \EU1/EBGaramond(2)/bx/n/10.95 Di-Higgs decay is the combination of sing
-le Higgs decays. The partile width for Higgs to fermions 
- []
-
-
-Overfull \hbox (78.9001pt too wide) detected at line 63
-[][][][]
- []
-
-) [4] (./dissertation.bbl
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 10.
-)
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
 [5
 
 
 
 ]
+Overfull \hbox (19.76367pt too wide) in paragraph at lines 30--34
+[] [][] \EU1/EBGaramond(2)/bx/n/10.95 Lead/liquid-argon (LAr) sampling calorime
+ters provide EM energy measurements. A steel/scintillator- 
+ []
+
+[6]) [7]
+\openout2 = `chapters/conclusion.aux'.
+
+ (./chapters/conclusion.tex
+Chapter 2.
+
+Package natbib Warning: Citation `Aaboud:2016xco' on page 8 undefined on input 
+line 6.
+
+[8
+
+
+
+]) [9] (./dissertation.bbl
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 11.
+)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+[10
+
+
+
+]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
- (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux))
+ (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter3.aux) (.
+/chapters/conclusion.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 64.
 
@@ -1355,12 +1438,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25345 strings out of 493706
- 460976 string characters out of 6145769
- 520129 words of memory out of 5000000
- 28327 multiletter control sequences out of 15000+600000
- 18738 words of font info for 133 fonts, out of 8000000 for 9000
+ 25326 strings out of 493706
+ 460373 string characters out of 6145769
+ 522139 words of memory out of 5000000
+ 28324 multiletter control sequences out of 15000+600000
+ 17359 words of font info for 116 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,11n,104p,10522b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,104p,10522b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (13 pages).
+Output written on dissertation.pdf (18 pages).

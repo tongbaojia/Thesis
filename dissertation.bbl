@@ -5,26 +5,28 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Griffiths(2008)]{Griffiths}
-David Griffiths.
-\newblock \emph{{Introduction to elementary particles}}.
-\newblock 2008.
+\bibitem[{ATLAS Collaboration}(2008)]{PERF-2007-01}
+{ATLAS Collaboration}.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
 
-\bibitem[Tully(2011)]{Tully}
-Christopher~G. Tully.
-\newblock \emph{{Elementary particle physics in a nutshell}}.
-\newblock 2011.
+\bibitem[{ATLAS Collaboration}(2010)]{Capeans:1291633}
+{ATLAS Collaboration}.
+\newblock {ATLAS Insertable B-Layer Technical Design Report}.
+\newblock CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
+\newblock URL \url{https://cds.cern.ch/record/1291633}.
 
-\bibitem[Patrignani et~al.(2016)]{Pdg}
-C.~Patrignani et~al.
-\newblock {Review of Particle Physics}.
-\newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
-\newblock \doi{10.1088/1674-1137/40/10/100001}.
+\bibitem[{ATLAS Collaboration}(2015)]{ATL-PHYS-PUB-2015-022}
+{ATLAS Collaboration}.
+\newblock {Expected performance of the ATLAS $b$-tagging algorithms in Run-2}.
+\newblock {ATL-PHYS-PUB-2015-022}, 2015.
+\newblock URL \url{https://cds.cern.ch/record/2037697}.
 
-\bibitem[Schwartz(2014)]{Schwartz}
-Matthew~D. Schwartz.
-\newblock \emph{{Quantum Field Theory and the Standard Model}}.
-\newblock Cambridge University Press, 2014.
-\newblock ISBN 1107034736, 9781107034730.
+\bibitem[{ATLAS Collaboration}(2017)]{ATLAS-TRIGGER}
+{ATLAS Collaboration}.
+\newblock {Performance of the ATLAS Trigger System in 2015}.
+\newblock \emph{Eur. Phys. J. C}, 77:\penalty0 317, 2017.
+\newblock \doi{10.1140/epjc/s10052-017-4852-3}.
 
 \end{thebibliography}

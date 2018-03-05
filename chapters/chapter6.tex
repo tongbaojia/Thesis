@@ -6,31 +6,12 @@ Pick the berry.
 
 \chapter{Event Selection}
 \label{sec:selection}
+\input{chapters/Sections/sec-object-definitions}
+
 \input{chapters/Sections/sec-event-selection}
 
-\section{Trigger Selection}
-\paragraph{}
-See \href{https://arxiv.org/pdf/1611.09661.pdf}{6.4.3} for the 2015 trigger. In data and simulation, there is a small offset in the effciency curves for the threshold. The trigger $HLT\_j360\_a10\_lcw\_sub$, where topo-cluster jets with local calibration weights and pile-up subtraction, is used.
+% \paragraph{}
+% To improve the analysis, a quantity which defines the sensitivity of analysis is maximized. Techicially, the optimal sensitivity is described as $\sqrt{2((S+B)\ln{1 + \frac{S}{B}} - S}$, see \href{https://www.pp.rhul.ac.uk/~cowan/stat/notes/SigCalcNote.pdf}{note}. This is usually considered at the $S << B$ limit and simplified as $\frac{S}{\sqrt{B}}$, when no knowledge of the model cross section is available, or $\frac{S}{\sqrt{S + B}}$, if the signal cross section is known. These parametrizations have limitations, particularly when the signal yield and the number of estiamted background are both small. A better parametrization for low signal strengh is $\frac{S}{\sqrt{1 + B}}$, where the extra $\sqrt{1 + B}$ accounts for poisson fluctuations. For a discussion of p-values, please see this \href{https://arxiv.org/pdf/hep-ex/0208005.pdf}{note}.
 
-
-\section{Optimization Strategy}
-\paragraph{}
-To improve the analysis, a quantity which defines the sensitivity of analysis is maximized. Techicially, the optimal sensitivity is described as $\sqrt{2((S+B)\ln{1 + \frac{S}{B}} - S}$, see \href{https://www.pp.rhul.ac.uk/~cowan/stat/notes/SigCalcNote.pdf}{note}. This is usually considered at the $S << B$ limit and simplified as $\frac{S}{\sqrt{B}}$, when no knowledge of the model cross section is available, or $\frac{S}{\sqrt{S + B}}$, if the signal cross section is known. These parametrizations have limitations, particularly when the signal yield and the number of estiamted background are both small. A better parametrization for low signal strengh is $\frac{S}{\sqrt{1 + B}}$, where the extra $\sqrt{1 + B}$ accounts for poisson fluctuations. For a discussion of p-values, please see this \href{https://arxiv.org/pdf/hep-ex/0208005.pdf}{note}.
-
-\paragraph{}
-For this analysis, two methods are used: one is calculate the number of signal and backgrounds within $68\%$ of the signal \mhh mass window, the other is to implement the full signal and background predicions after smoothing and compare the asymptotic expected exclusion limits. Both methods yield comparable results.
-
-\paragraph{}
-To avoid bias during the optimzation process, data's signal regions are blinded.
-
-
-\section{$b$ tagging}
-\paragraph{}
-\b-tagging, which is the identification of the \b hadron,  ~\cite{Reco-btag-2016} is the core and main limiting factor of this analysis. Because of the relatively long lifetime, it is possible to tag the \b hadron using the inner detector informations. A higher \b-tagging efficiency will increase the signal selection efficiency, while a lower \b-tagging fake rate will reduce the background like $gg \to c\bar{c}$ in the signal regions.
-
-
-\section{Signal Efficiency}
-\paragraph{}
-Acceptance referes to purely geometric fiducial volume of the detector. Efficiency refers to purely detector effectivenss in finding objects. The final value in the study is Acceptance $\times$ Efficiency, where both effects are considered.
-
-
+% \paragraph{}
+% For this analysis, two methods are used: one is calculate the number of signal and backgrounds within $68\%$ of the signal \mhh mass window, the other is to implement the full signal and background predicions after smoothing and compare the asymptotic expected exclusion limits. Both methods yield comparable results.
