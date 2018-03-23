@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  5 MAR 2018 09:52
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 MAR 2018 16:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,8 +1108,9 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count159
 \c@subtable=\count160
 )
-(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter3.aux)
-(./chapters/conclusion.aux))
+(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
+(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/conclusion.aux)
+)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1132,8 +1133,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 21.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 21.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -1196,6 +1196,7 @@ LaTeX Info: Redefining \nameref on input line 21.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
+Package caption Info: We need package `ragged2e' on input line 21.
  (./frontmatter/personalize.tex)
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 25.
@@ -1245,7 +1246,28 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 
  [4
 
-] (./dissertation.lof)
+] (./dissertation.lof
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 3.
+
+Overfull \hbox (15.2396pt too wide) in paragraph at lines 5--5
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 A schematic view of the LHC ring$[]$.
+ LINAC2, Booster, PS, SPS, and LHC accelerate the 
+ []
+
+
+Overfull \hbox (15.96495pt too wide) in paragraph at lines 5--5
+ \EU1/EBGaramond(2)/bx/n/10.95 protons in order. Four main experiments are loca
+ted at interaction points along the ring. 
+ []
+
+
+Overfull \hbox (8.35834pt too wide) in paragraph at lines 5--5
+ \EU1/EBGaramond(2)/bx/n/10.95 ATLAS and CMS are general purpose experiments, w
+hile ALICE focuses on heavy ion 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
@@ -1257,24 +1279,21 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 
  [6
 
-]
-(./frontmatter/dedication.tex) [7
+] (./frontmatter/dedication.tex) [7
 
-] (./frontmatter/thanks.tex) [8
+]
+(./frontmatter/thanks.tex) [8
 
 
 ]
 \openout2 = `chapters/introduction.aux'.
 
-
-(./chapters/introduction.tex
+ (./chapters/introduction.tex
 Chapter 0.
 [1
 
 
 ]
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 27.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 (Font)              scaled to size 8.0pt on input line 27.
 
@@ -1380,9 +1399,9 @@ Package natbib Warning: Citation `EXOT-2015-11' on page 3 undefined on input li
 ne 33.
 
 [3]) [4]
-\openout2 = `chapters/chapter3.aux'.
+\openout2 = `chapters/chapter1.aux'.
 
- (./chapters/chapter3.tex
+ (./chapters/chapter1.tex
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sl' in size <10> not availa
 ble
 (Font)              Font shape `EU1/EBGaramond(2)/m/it' tried instead on input 
@@ -1391,45 +1410,134 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 2.
 
 Chapter 1.
+File: figures/theory/SM.png Graphic file (type QTm)
+<use  "figures/theory/SM.png" >
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 12.0pt on input line 22.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
+(Font)              scaled to size 9.5907pt on input line 22.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
+(Font)              scaled to size 7.99225pt on input line 22.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 9.71375pt on input line 22.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 8.09479pt on input line 22.
+LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
+(Font)              scaled to size 5.66635pt on input line 22.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [5
 
 
 
+] [6] [7]
+Overfull \hbox (0.80928pt too wide) in paragraph at lines 66--67
+[] [][] \EU1/EBGaramond(2)/bx/n/10.95 Di-Higgs decay is the combination of sing
+le Higgs decays. The partile width for Higgs to fermions 
+ []
+
+
+Overfull \hbox (78.9001pt too wide) detected at line 76
+[][][][]
+ []
+
+) [8]
+\openout2 = `chapters/chapter2.aux'.
+
+ (./chapters/chapter2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\EU1/EBGaramond(2)/m/it/10 A man who procrastinates in his choosing will inev
+itably
+ []
+
+Chapter 2.
+[9
+
+
+
+] [10]
+Overfull \hbox (0.48906pt too wide) in paragraph at lines 59--61
+\EU1/EBGaramond(2)/bx/n/10.95 where, $[]$ is the number of interactions per bun
+ch crossing. At each bunch crossing, multiple proton- 
+ []
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
+
+[11]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 66.
+
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 73.
+
+Missing character: There is no − in font cmr8!
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 10.25006pt on input line 78.
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
+(Font)              scaled to size 10.25006pt on input line 78.
+
+Overfull \hbox (5.91153pt too wide) in alignment at lines 68--83
+[] [] [] []
+ []
+
+[12]
+File: figures/detector/Cern-Accelerator-Complex.jpg Graphic file (type QTm)
+ <use  "figures/detector/Cern-Accelerator-Complex.jpg" >) [13]
+\openout2 = `chapters/chapter3.aux'.
+
+
+(./chapters/chapter3.tex
+Chapter 3.
+
+Overfull \hbox (2.65541pt too wide) in paragraph at lines 10--18
+[] [][] \EU1/EBGaramond(2)/bx/n/10.95 The ATLAS experiment$[]$ at the LHC is a 
+multipurpose particle detector with a forward-backward 
+ []
+
+[14
+
+
+
 ]
-Overfull \hbox (19.76367pt too wide) in paragraph at lines 30--34
+Overfull \hbox (19.76367pt too wide) in paragraph at lines 29--34
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Lead/liquid-argon (LAr) sampling calorime
 ters provide EM energy measurements. A steel/scintillator- 
  []
 
-[6]) [7]
+[15]) [16]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
-Chapter 2.
+Chapter 4.
 
-Package natbib Warning: Citation `Aaboud:2016xco' on page 8 undefined on input 
-line 6.
+Package natbib Warning: Citation `Aaboud:2016xco' on page 17 undefined on input
+ line 10.
 
-[8
+[17
 
 
 
-]) [9] (./dissertation.bbl
+]) [18] (./dissertation.bbl
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 11.
-)
+ [19
+
+
+
+])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
-[10
-
-
-
-]
+[20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
- (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter3.aux) (.
-/chapters/conclusion.aux))
+ (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux) (.
+/chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/conclusion.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 64.
 
@@ -1438,12 +1546,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25326 strings out of 493706
- 460373 string characters out of 6145769
- 522139 words of memory out of 5000000
- 28324 multiletter control sequences out of 15000+600000
- 17359 words of font info for 116 fonts, out of 8000000 for 9000
+ 25448 strings out of 493706
+ 462888 string characters out of 6145769
+ 524463 words of memory out of 5000000
+ 28405 multiletter control sequences out of 15000+600000
+ 18746 words of font info for 134 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,11n,104p,10522b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,104p,10522b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (18 pages).
+Output written on dissertation.pdf (28 pages).
