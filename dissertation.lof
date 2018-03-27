@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Fermions and bosons of the Standard Model and their properties\nobreakspace {}\cite {Pdg}.\relax }}{6}{figure.caption.6}
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A schematic view of the LHC ring\nobreakspace {}\cite {LHCReview}. LINAC2, Booster, PS, SPS, and LHC accelerate the protons in order. Four main experiments are located at interaction points along the ring. ATLAS and CMS are general purpose experiments, while ALICE focuses on heavy ion collisions and LHC$b$ is dedicated to $B$ physics.\relax }}{13}{figure.caption.8}
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Fermions and bosons of the Standard Model and their properties\nobreakspace {}\cite {Pdg}, where all the values are measured experimentally.\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Feynman diagrams contributing to di-Higgs production via gluon fusion, through a $t$ or $b$ quark loop, at leading order. Only the right hand plot probes ${"λ}_{hhh}$.\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Total cross sections (y-axis) at the LO and NLO in QCD for di-Higgs production channels, at the $\sqrt {s} = 14$ TeV LHC as a function of the self-interaction coupling ${"λ}$ (x-axis) . The dashed (solid) lines and light- (dark-) colour bands correspond to the LO (NLO) results and to the scale and PDF uncertainties added linearly. The SM values of the cross sections are obtained at ${\begingroup \rm {"λ}\endgroup \over \rm {"λ}_{\rm SM}} = 1$.\relax }}{8}{figure.caption.8}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Total cross sections (y-axis) at the NLO in QCD for the six largest di-Higgs production channels at p-p colliders at different energy (x-axis). The thickness of the lines corresponds to the scale and PDF uncertainties added linearly.\relax }}{8}{figure.caption.9}
 \addvspace {10\p@ }
