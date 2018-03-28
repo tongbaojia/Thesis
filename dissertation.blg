@@ -12,9 +12,6 @@ Warning--I didn't find a database entry for "Agashe:2007zd"
 Warning--I didn't find a database entry for "Fitzpatrick"
 Warning--I didn't find a database entry for "PhysRevD.8.1226"
 Warning--I didn't find a database entry for "Branco:2011iw"
-Warning--I didn't find a database entry for "PhysRevD.86.095023"
-Warning--I didn't find a database entry for "Grober:2010yv"
-Warning--I didn't find a database entry for "Contino:2012xk"
 Warning--I didn't find a database entry for "EXOT-2015-11"
 Warning--I didn't find a database entry for "CMS-B2G-16-026"
 Warning--I didn't find a database entry for "CMS-HIG-14-013"
@@ -35,45 +32,45 @@ Warning--I didn't find a database entry for "Aaboud:2016xco"
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
-You've used 9 entries,
+You've used 12 entries,
             2481 wiz_defined-function locations,
-            671 strings with 6695 characters,
-and the built_in function-call counts, 3103 in all, are:
-= -- 248
-> -- 149
-< -- 7
-+ -- 62
-- -- 44
-* -- 219
-:= -- 523
-add.period$ -- 34
-call.type$ -- 9
-change.case$ -- 15
-chr.to.int$ -- 9
-cite$ -- 12
-duplicate$ -- 170
-empty$ -- 293
-format.name$ -- 55
-if$ -- 648
+            689 strings with 7080 characters,
+and the built_in function-call counts, 4182 in all, are:
+= -- 347
+> -- 194
+< -- 10
++ -- 80
+- -- 56
+* -- 294
+:= -- 697
+add.period$ -- 46
+call.type$ -- 12
+change.case$ -- 21
+chr.to.int$ -- 12
+cite$ -- 15
+duplicate$ -- 227
+empty$ -- 395
+format.name$ -- 75
+if$ -- 882
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 12
-newline$ -- 60
-num.names$ -- 27
-pop$ -- 77
+int.to.str$ -- 13
+missing$ -- 15
+newline$ -- 78
+num.names$ -- 36
+pop$ -- 95
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 12
 quote$ -- 0
-skip$ -- 97
+skip$ -- 133
 stack$ -- 0
-substring$ -- 84
-swap$ -- 17
+substring$ -- 126
+swap$ -- 23
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 75
 warning$ -- 3
-while$ -- 23
+while$ -- 32
 width$ -- 0
-write$ -- 131
-(There were 29 warnings)
+write$ -- 176
+(There were 26 warnings)

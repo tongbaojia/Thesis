@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,6 +10,24 @@ C.~Patrignani et~al.
 \newblock {Review of Particle Physics}.
 \newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
 \newblock \doi{10.1088/1674-1137/40/10/100001}.
+
+\bibitem[Kribs and Martin(2012)]{PhysRevD.86.095023}
+Graham~D. Kribs and Adam Martin.
+\newblock Enhanced di-higgs production through light colored scalars.
+\newblock \emph{Phys. Rev. D}, 86:\penalty0 095023, 2012.
+\newblock \doi{10.1103/PhysRevD.86.095023}.
+
+\bibitem[Gr\"{o}ber and M\"{u}hlleitner(2011)]{Grober:2010yv}
+R.~Gr\"{o}ber and M.~M\"{u}hlleitner.
+\newblock {Composite Higgs boson pair production at the LHC}.
+\newblock \emph{JHEP}, 06:\penalty0 020, 2011.
+\newblock \doi{10.1007/JHEP06(2011)020}.
+
+\bibitem[Contino et~al.(2012)]{Contino:2012xk}
+Roberto Contino et~al.
+\newblock {Anomalous couplings in double Higgs production}.
+\newblock \emph{JHEP}, 08:\penalty0 154, 2012.
+\newblock \doi{10.1007/JHEP08(2012)154}.
 
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.

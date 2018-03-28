@@ -8,25 +8,24 @@
 \contentsline {paragraph}{}{5}{section.1.1}
 \contentsline {paragraph}{}{5}{figure.caption.6}
 \contentsline {paragraph}{}{7}{equation.1.1.1}
-\contentsline {section}{\numberline {1.2}Standard Model di-Higgs at the LHC}{7}{section.1.2}
+\contentsline {section}{\numberline {1.2}Standard Model di-Higgs production}{7}{section.1.2}
+\contentsline {paragraph}{}{7}{section.1.2}
 \contentsline {paragraph}{}{7}{figure.caption.7}
 \contentsline {paragraph}{}{7}{figure.caption.8}
-\contentsline {paragraph}{}{7}{figure.caption.9}
-\contentsline {section}{\numberline {1.3}Beyond the Standard Model Physics di-Higgs at the LHC}{9}{section.1.3}
-\contentsline {paragraph}{}{9}{section.1.3}
-\contentsline {paragraph}{}{9}{section.1.3}
-\contentsline {paragraph}{}{9}{section.1.3}
-\contentsline {paragraph}{}{9}{section.1.3}
-\contentsline {paragraph}{}{10}{section.1.3}
-\contentsline {paragraph}{}{10}{section.1.3}
-\contentsline {paragraph}{}{10}{section.1.3}
-\contentsline {paragraph}{}{11}{section.1.3}
-\contentsline {paragraph}{}{11}{section.1.3}
-\contentsline {paragraph}{}{11}{section.1.3}
-\contentsline {section}{\numberline {1.4}Di-Higgs Decay}{11}{section.1.4}
-\contentsline {paragraph}{}{11}{section.1.4}
-\contentsline {section}{\numberline {1.5}LHC search perspectives}{12}{section.1.5}
-\contentsline {paragraph}{}{12}{section.1.5}
+\contentsline {section}{\numberline {1.3}Beyond the Standard Model Physics di-Higgs production}{8}{section.1.3}
+\contentsline {paragraph}{}{8}{section.1.3}
+\contentsline {paragraph}{}{9}{figure.caption.9}
+\contentsline {paragraph}{}{9}{figure.caption.10}
+\contentsline {paragraph}{}{9}{figure.caption.10}
+\contentsline {paragraph}{}{10}{figure.caption.10}
+\contentsline {paragraph}{}{11}{figure.caption.10}
+\contentsline {paragraph}{}{11}{figure.caption.10}
+\contentsline {paragraph}{}{11}{figure.caption.10}
+\contentsline {paragraph}{}{12}{figure.caption.10}
+\contentsline {paragraph}{}{12}{figure.caption.10}
+\contentsline {section}{\numberline {1.4}Di-Higgs Decay}{12}{section.1.4}
+\contentsline {paragraph}{}{12}{section.1.4}
+\contentsline {section}{\numberline {1.5}LHC previous search results}{12}{section.1.5}
 \contentsline {paragraph}{}{12}{section.1.5}
 \contentsline {chapter}{\numberline {2}Conclusion}{13}{chapter.2}
 \contentsline {paragraph}{}{13}{chapter.2}
