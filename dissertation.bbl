@@ -1,15 +1,34 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Patrignani et~al.(2016)]{Pdg}
-C.~Patrignani et~al.
-\newblock {Review of Particle Physics}.
-\newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
-\newblock \doi{10.1088/1674-1137/40/10/100001}.
+\bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{Agashe:2007zd}
+Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
+\newblock {Warped gravitons at the CERN LHC and beyond}.
+\newblock \emph{Phys. Rev. D}, 76:\penalty0 036006, 2007.
+\newblock \doi{10.1103/PhysRevD.76.036006}.
+
+\bibitem[Fitzpatrick et~al.(2007)Fitzpatrick, Kaplan, Randall, and
+  Wang]{Fitzpatrick}
+Liam Fitzpatrick, Jared Kaplan, Lisa Randall, and Lian-Tao Wang.
+\newblock Searching for the {Kaluza-Klein} graviton in bulk {RS} models.
+\newblock \emph{JHEP}, 09:\penalty0 013, 2007.
+\newblock \doi{10.1088/1126-6708/2007/09/013}.
+
+\bibitem[Lee(1973)]{PhysRevD.8.1226}
+T.~D. Lee.
+\newblock A theory of spontaneous $t$ violation.
+\newblock \emph{Phys. Rev. D}, 8:\penalty0 1226--1239, Aug 1973.
+\newblock \doi{10.1103/PhysRevD.8.1226}.
+
+\bibitem[Branco et~al.(2012)]{Branco:2011iw}
+G.C. Branco et~al.
+\newblock {Theory and phenomenology of two-Higgs-doublet models}.
+\newblock \emph{Phys. Rept.}, 516:\penalty0 1, 2012.
+\newblock \doi{10.1016/j.physrep.2012.02.002}.
 
 \bibitem[Kribs and Martin(2012)]{PhysRevD.86.095023}
 Graham~D. Kribs and Adam Martin.
@@ -28,6 +47,36 @@ Roberto Contino et~al.
 \newblock {Anomalous couplings in double Higgs production}.
 \newblock \emph{JHEP}, 08:\penalty0 154, 2012.
 \newblock \doi{10.1007/JHEP08(2012)154}.
+
+\bibitem[{ATLAS Collaboration}(2016)]{EXOT-2015-11}
+{ATLAS Collaboration}.
+\newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
+  final state using proton--proton collisions at $\sqrt{s} = 13\;\mbox{TeV}$
+  with the ATLAS detector}.
+\newblock \emph{Phys. Rev. D}, 94:\penalty0 052002, 2016.
+\newblock \doi{10.1103/PhysRevD.94.052002}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{a}})]{Aad:2015uka}
+{ATLAS Collaboration}.
+\newblock {Search for Higgs boson pair production in the $b\bar{b}b\bar{b}$
+  final state from pp collisions at $\sqrt{s} = 8$ TeV with the ATLAS
+  detector}.
+\newblock \emph{Eur. Phys. J. C}, 75:\penalty0 412, 2015{\natexlab{a}}.
+\newblock \doi{10.1140/epjc/s10052-015-3628-x}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{HIGG-2013-29}
+{ATLAS Collaboration}.
+\newblock {Search for Higgs Boson Pair Production in the $\gamma\gamma
+  b\bar{b}$ Final State Using $pp$ Collision Data at $\sqrt{s} = 8\;\mbox{TeV}$
+  from the ATLAS Detector}.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 081802, 2015{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevLett.114.081802}.
+
+\bibitem[Patrignani et~al.(2016)]{Pdg}
+C.~Patrignani et~al.
+\newblock {Review of Particle Physics}.
+\newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
+\newblock \doi{10.1088/1674-1137/40/10/100001}.
 
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.
@@ -83,5 +132,105 @@ Graham~D. Kribs, Andreas Maier, Heidi Rzehak, Michael Spannowsky, and Philip
   boson self-interaction}.
 \newblock \emph{Phys. Rev.}, D95\penalty0 (9):\penalty0 093004, 2017.
 \newblock \doi{10.1103/PhysRevD.95.093004}.
+
+\bibitem[{W.J. Stirling}(2013)]{LumiRatio}
+{W.J. Stirling}.
+\newblock {7/8 and 13/8 TeV LHC luminosity ratios}.
+\newblock 2013.
+\newblock URL
+  \url{http://www.hep.ph.ic.ac.uk/~wstirlin/plots/lhclumi7813_2013_v0.pdf}.
+
+\bibitem[Aad et~al.(2015)]{Aad:2015xja}
+Georges Aad et~al.
+\newblock {Searches for Higgs boson pair production in the $hh\to bb\tau\tau,
+  \gamma\gamma WW^*, \gamma\gamma bb, bbbb$ channels with the ATLAS detector}.
+\newblock \emph{Phys. Rev.}, D92:\penalty0 092004, 2015.
+\newblock \doi{10.1103/PhysRevD.92.092004}.
+
+\bibitem[Evans and Bryant(2008)]{LHCPaper}
+Lyndon~R Evans and Philip Bryant.
+\newblock {LHC Machine}.
+\newblock \emph{J. Instrum.}, 3:\penalty0 S08001. 164 p, 2008.
+\newblock URL \url{https://cds.cern.ch/record/1129806}.
+\newblock This report is an abridged version of the LHC Design Report
+  (CERN-2004-003).
+
+\bibitem[Evans(2011)]{LHCReview}
+Lyndon Evans.
+\newblock {The Large Hadron Collider}.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 61\penalty0
+  (1):\penalty0 435--466, 2011.
+\newblock \doi{10.1146/annurev-nucl-102010-130438}.
+
+\bibitem[{ATLAS Collaboration}(2011)]{lumi-paper}
+{ATLAS Collaboration}.
+\newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
+  Using the ATLAS Detector at the LHC}.
+\newblock \emph{Eur.~Phys.~J.}, C 71:\penalty0 1630, 2011.
+\newblock \doi{10.1140/epjc/s10052-011-1630-5}.
+
+\bibitem[{Paul Collier for the LHC team}(2015)]{LHC_2015}
+{Paul Collier for the LHC team}.
+\newblock {LHC Machine Status}.
+\newblock {CERN Resource Review Board}, 2015.
+\newblock URL
+  \url{https://cds.cern.ch/record/2063924/files/CERN-RRB-2015-119.PDF}.
+
+\bibitem[{Giulia Papotti for the LHC team}(2016)]{LHC_2016}
+{Giulia Papotti for the LHC team}.
+\newblock {LHC Machine Status Report}.
+\newblock {CERN Resource Review Board}, 2016.
+\newblock URL
+  \url{https://indico.cern.ch/event/563488/contributions/2277292/attachments/1340292/2019570/20160921_LHCC.pdf}.
+
+\bibitem[{ATLAS Collaboration}(2008{\natexlab{a}})]{ATLASPaper}
+{ATLAS Collaboration}.
+\newblock {The ATLAS experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008{\natexlab{a}}.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
+
+\bibitem[{CMS Collaboration}(2008)]{CMSPaper}
+{CMS Collaboration}.
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08004,
+  2008.
+\newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
+
+\bibitem[Collaoration(2008)]{LHCbPaper}
+LHCb Collaoration.
+\newblock {The LHCb Detector at the LHC}.
+\newblock \emph{JINST}, 3:\penalty0 S08005, 2008.
+\newblock \doi{10.1088/1748-0221/3/08/S08005}.
+
+\bibitem[{ALICE Collaboration}(2008)]{ALICEPaper}
+{ALICE Collaboration}.
+\newblock {The ALICE experiment at the CERN LHC}.
+\newblock \emph{Journal of Instrumentation}, 3\penalty0 (08):\penalty0 S08002,
+  2008.
+\newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08002}.
+
+\bibitem[{ATLAS Collaboration}(2008{\natexlab{b}})]{PERF-2007-01}
+{ATLAS Collaboration}.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock \emph{JINST}, 3:\penalty0 S08003, 2008{\natexlab{b}}.
+\newblock \doi{10.1088/1748-0221/3/08/S08003}.
+
+\bibitem[{ATLAS Collaboration}(2010)]{Capeans:1291633}
+{ATLAS Collaboration}.
+\newblock {ATLAS Insertable B-Layer Technical Design Report}.
+\newblock CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
+\newblock URL \url{https://cds.cern.ch/record/1291633}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{c}})]{ATL-PHYS-PUB-2015-022}
+{ATLAS Collaboration}.
+\newblock {Expected performance of the ATLAS $b$-tagging algorithms in Run-2}.
+\newblock {ATL-PHYS-PUB-2015-022}, 2015{\natexlab{c}}.
+\newblock URL \url{https://cds.cern.ch/record/2037697}.
+
+\bibitem[{ATLAS Collaboration}(2017)]{ATLAS-TRIGGER}
+{ATLAS Collaboration}.
+\newblock {Performance of the ATLAS Trigger System in 2015}.
+\newblock \emph{Eur. Phys. J. C}, 77:\penalty0 317, 2017.
+\newblock \doi{10.1140/epjc/s10052-017-4852-3}.
 
 \end{thebibliography}

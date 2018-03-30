@@ -3,74 +3,64 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: dissertation.aux
 A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
+A level-1 auxiliary file: chapters/chapter2.aux
+A level-1 auxiliary file: chapters/chapter3.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
 Warning--I didn't find a database entry for "Aad:2012tfa"
 Warning--I didn't find a database entry for "Chatrchyan201230"
-Warning--I didn't find a database entry for "Agashe:2007zd"
-Warning--I didn't find a database entry for "Fitzpatrick"
-Warning--I didn't find a database entry for "PhysRevD.8.1226"
-Warning--I didn't find a database entry for "Branco:2011iw"
-Warning--I didn't find a database entry for "EXOT-2015-11"
 Warning--I didn't find a database entry for "CMS-B2G-16-026"
 Warning--I didn't find a database entry for "CMS-HIG-14-013"
-Warning--I didn't find a database entry for "Aad:2015uka"
-Warning--I didn't find a database entry for "HIGG-2013-29"
 Warning--I didn't find a database entry for "HIGG-2013-33"
 Warning--I didn't find a database entry for "CMS-HIG-17-002"
 Warning--I didn't find a database entry for "CMSHIG17006"
 Warning--I didn't find a database entry for "Khachatryan:2016sey"
 Warning--I didn't find a database entry for "Khachatryan:2014jya"
-Warning--I didn't find a database entry for "RSG1"
-Warning--I didn't find a database entry for "RSG_LHC"
-Warning--I didn't find a database entry for "HH_2HDM"
-Warning--I didn't find a database entry for "2HDM2"
-Warning--I didn't find a database entry for "2HDM3"
-Warning--I didn't find a database entry for "HiggsNewPhysics"
 Warning--I didn't find a database entry for "Aaboud:2016xco"
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
-You've used 12 entries,
+Warning--empty note in LumiRatio
+You've used 34 entries,
             2481 wiz_defined-function locations,
-            689 strings with 7080 characters,
-and the built_in function-call counts, 4182 in all, are:
-= -- 347
-> -- 194
-< -- 10
-+ -- 80
-- -- 56
-* -- 294
-:= -- 697
-add.period$ -- 46
-call.type$ -- 12
-change.case$ -- 21
-chr.to.int$ -- 12
-cite$ -- 15
-duplicate$ -- 227
-empty$ -- 395
-format.name$ -- 75
-if$ -- 882
-int.to.chr$ -- 1
-int.to.str$ -- 13
-missing$ -- 15
-newline$ -- 78
-num.names$ -- 36
-pop$ -- 95
+            808 strings with 10375 characters,
+and the built_in function-call counts, 11421 in all, are:
+= -- 1027
+> -- 412
+< -- 30
++ -- 189
+- -- 118
+* -- 788
+:= -- 1883
+add.period$ -- 135
+call.type$ -- 34
+change.case$ -- 65
+chr.to.int$ -- 31
+cite$ -- 38
+duplicate$ -- 618
+empty$ -- 1106
+format.name$ -- 163
+if$ -- 2421
+int.to.chr$ -- 4
+int.to.str$ -- 35
+missing$ -- 32
+newline$ -- 211
+num.names$ -- 102
+pop$ -- 222
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 34
 quote$ -- 0
-skip$ -- 133
+skip$ -- 357
 stack$ -- 0
-substring$ -- 126
-swap$ -- 23
+substring$ -- 465
+swap$ -- 71
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 75
-warning$ -- 3
-while$ -- 32
+type$ -- 229
+warning$ -- 4
+while$ -- 94
 width$ -- 0
-write$ -- 176
-(There were 26 warnings)
+write$ -- 502
+(There were 14 warnings)
