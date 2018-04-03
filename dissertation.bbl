@@ -1,9 +1,29 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{37}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Patrignani et~al.(2016)]{Pdg}
+C.~Patrignani et~al.
+\newblock {Review of Particle Physics}.
+\newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
+\newblock \doi{10.1088/1674-1137/40/10/100001}.
+
+\bibitem[{W.J. Stirling}(2013)]{LumiRatio}
+{W.J. Stirling}.
+\newblock {7/8 and 13/8 TeV LHC luminosity ratios}.
+\newblock 2013.
+\newblock URL
+  \url{http://www.hep.ph.ic.ac.uk/~wstirlin/plots/lhclumi7813_2013_v0.pdf}.
+
+\bibitem[Evans(2011)]{LHCReview}
+Lyndon Evans.
+\newblock {The Large Hadron Collider}.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 61\penalty0
+  (1):\penalty0 435--466, 2011.
+\newblock \doi{10.1146/annurev-nucl-102010-130438}.
 
 \bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{Agashe:2007zd}
 Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
@@ -72,12 +92,6 @@ Roberto Contino et~al.
 \newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 081802, 2015{\natexlab{b}}.
 \newblock \doi{10.1103/PhysRevLett.114.081802}.
 
-\bibitem[Patrignani et~al.(2016)]{Pdg}
-C.~Patrignani et~al.
-\newblock {Review of Particle Physics}.
-\newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
-\newblock \doi{10.1088/1674-1137/40/10/100001}.
-
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.
 \newblock \emph{{Introduction to elementary particles}}.
@@ -133,12 +147,11 @@ Graham~D. Kribs, Andreas Maier, Heidi Rzehak, Michael Spannowsky, and Philip
 \newblock \emph{Phys. Rev.}, D95\penalty0 (9):\penalty0 093004, 2017.
 \newblock \doi{10.1103/PhysRevD.95.093004}.
 
-\bibitem[{W.J. Stirling}(2013)]{LumiRatio}
-{W.J. Stirling}.
-\newblock {7/8 and 13/8 TeV LHC luminosity ratios}.
-\newblock 2013.
-\newblock URL
-  \url{http://www.hep.ph.ic.ac.uk/~wstirlin/plots/lhclumi7813_2013_v0.pdf}.
+\bibitem[Cavaliere and Facini(2016)]{Cavaliere:2203605}
+Viviana Cavaliere and Gabriel Facini.
+\newblock {Summary of Limits on BSM Models from Diboson Searches}.
+\newblock Technical Report ATL-COM-PHYS-2016-1071, CERN, Geneva, Sep 2016.
+\newblock URL \url{https://cds.cern.ch/record/2203605}.
 
 \bibitem[Aad et~al.(2015)]{Aad:2015xja}
 Georges Aad et~al.
@@ -154,34 +167,6 @@ Lyndon~R Evans and Philip Bryant.
 \newblock URL \url{https://cds.cern.ch/record/1129806}.
 \newblock This report is an abridged version of the LHC Design Report
   (CERN-2004-003).
-
-\bibitem[Evans(2011)]{LHCReview}
-Lyndon Evans.
-\newblock {The Large Hadron Collider}.
-\newblock \emph{Annual Review of Nuclear and Particle Science}, 61\penalty0
-  (1):\penalty0 435--466, 2011.
-\newblock \doi{10.1146/annurev-nucl-102010-130438}.
-
-\bibitem[{ATLAS Collaboration}(2011)]{lumi-paper}
-{ATLAS Collaboration}.
-\newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
-  Using the ATLAS Detector at the LHC}.
-\newblock \emph{Eur.~Phys.~J.}, C 71:\penalty0 1630, 2011.
-\newblock \doi{10.1140/epjc/s10052-011-1630-5}.
-
-\bibitem[{Paul Collier for the LHC team}(2015)]{LHC_2015}
-{Paul Collier for the LHC team}.
-\newblock {LHC Machine Status}.
-\newblock {CERN Resource Review Board}, 2015.
-\newblock URL
-  \url{https://cds.cern.ch/record/2063924/files/CERN-RRB-2015-119.PDF}.
-
-\bibitem[{Giulia Papotti for the LHC team}(2016)]{LHC_2016}
-{Giulia Papotti for the LHC team}.
-\newblock {LHC Machine Status Report}.
-\newblock {CERN Resource Review Board}, 2016.
-\newblock URL
-  \url{https://indico.cern.ch/event/563488/contributions/2277292/attachments/1340292/2019570/20160921_LHCC.pdf}.
 
 \bibitem[{ATLAS Collaboration}(2008{\natexlab{a}})]{ATLASPaper}
 {ATLAS Collaboration}.
@@ -209,6 +194,27 @@ LHCb Collaoration.
   2008.
 \newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08002}.
 
+\bibitem[{ATLAS Collaboration}(2011)]{lumi-paper}
+{ATLAS Collaboration}.
+\newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
+  Using the ATLAS Detector at the LHC}.
+\newblock \emph{Eur.~Phys.~J.}, C 71:\penalty0 1630, 2011.
+\newblock \doi{10.1140/epjc/s10052-011-1630-5}.
+
+\bibitem[{Paul Collier for the LHC team}(2015)]{LHC_2015}
+{Paul Collier for the LHC team}.
+\newblock {LHC Machine Status}.
+\newblock {CERN Resource Review Board}, 2015.
+\newblock URL
+  \url{https://cds.cern.ch/record/2063924/files/CERN-RRB-2015-119.PDF}.
+
+\bibitem[{Giulia Papotti for the LHC team}(2016)]{LHC_2016}
+{Giulia Papotti for the LHC team}.
+\newblock {LHC Machine Status Report}.
+\newblock {CERN Resource Review Board}, 2016.
+\newblock URL
+  \url{https://indico.cern.ch/event/563488/contributions/2277292/attachments/1340292/2019570/20160921_LHCC.pdf}.
+
 \bibitem[{ATLAS Collaboration}(2008{\natexlab{b}})]{PERF-2007-01}
 {ATLAS Collaboration}.
 \newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
@@ -227,10 +233,24 @@ LHCb Collaoration.
 \newblock {ATL-PHYS-PUB-2015-022}, 2015{\natexlab{c}}.
 \newblock URL \url{https://cds.cern.ch/record/2037697}.
 
+\bibitem[Aaboud et~al.(2017)]{Aaboud:2017pjd}
+Morad Aaboud et~al.
+\newblock {Study of the material of the ATLAS inner detector for Run 2 of the
+  LHC}.
+\newblock \emph{JINST}, 12\penalty0 (12):\penalty0 P12009, 2017.
+\newblock \doi{10.1088/1748-0221/12/12/P12009}.
+
 \bibitem[{ATLAS Collaboration}(2017)]{ATLAS-TRIGGER}
 {ATLAS Collaboration}.
 \newblock {Performance of the ATLAS Trigger System in 2015}.
 \newblock \emph{Eur. Phys. J. C}, 77:\penalty0 317, 2017.
 \newblock \doi{10.1140/epjc/s10052-017-4852-3}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{d}})]{Lumi_Run2}
+{ATLAS Collaboration}.
+\newblock {ATLAS Luminosity Public Results, Run 2}.
+\newblock 2015{\natexlab{d}}.
+\newblock URL
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
 
 \end{thebibliography}

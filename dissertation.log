@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  29 MAR 2018 23:03
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  3 APR 2018 01:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1250,7 +1250,7 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 3.
 
-Overfull \hbox (10.00385pt too wide) in paragraph at lines 3--3
+Overfull \hbox (7.79584pt too wide) in paragraph at lines 3--3
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Fermions and bosons of the Standard M
 odel and their properties$[]$, where all the values 
  []
@@ -1325,7 +1325,7 @@ dded linearly. The SM values of the cross
  []
 
 
-Overfull \hbox (26.9573pt too wide) in paragraph at lines 8--8
+Overfull \hbox (22.87732pt too wide) in paragraph at lines 8--8
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Parton luminosity ratios as a functio
 n of resonance mass $[][]$ for $[][]\OML/cmm/m/it/10.95 =[]$ \EU1/EBGaramond(2)
 /bx/n/10.95 TeV$[]$. For a $[]$ TeV$[]$, 
@@ -1357,30 +1357,36 @@ aramond(2)/bx/n/10.95 and $\OMS/cmsy/m/n/10.95 ^^F[][]$ \EU1/EBGaramond(2)/bx/n
  []
 
 
-Overfull \hbox (2.16345pt too wide) in paragraph at lines 12--12
+Overfull \hbox (14.35959pt too wide) in paragraph at lines 12--12
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 A schematic view of the LHC ring$[]$.
- LINAC2, Booster, PS, SPS, and LHC accelerate 
+ LINAC2, Booster, PS, SPS, and LHC accelerate the 
  []
 
 
-Overfull \hbox (9.8877pt too wide) in paragraph at lines 12--12
- \EU1/EBGaramond(2)/bx/n/10.95 the protons in order. Four main experiments are 
-located at interaction points along the 
+Overfull \hbox (15.96495pt too wide) in paragraph at lines 12--12
+ \EU1/EBGaramond(2)/bx/n/10.95 protons in order. Four main experiments are loca
+ted at interaction points along the ring. 
  []
 
 
-Overfull \hbox (14.60713pt too wide) in paragraph at lines 12--12
- \EU1/EBGaramond(2)/bx/n/10.95 ring. ATLAS and CMS are general purpose experime
-nts, while ALICE focuses on heavy 
+Overfull \hbox (8.35834pt too wide) in paragraph at lines 12--12
+ \EU1/EBGaramond(2)/bx/n/10.95 ATLAS and CMS are general purpose experiments, w
+hile ALICE focuses on heavy ion 
+ []
+
+[5
+
+]
+Overfull \hbox (2.5658pt too wide) in paragraph at lines 16--16
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Cumulative luminosity versus time del
+ivered to (green) and recorded by ATLAS (yel- 
  []
 
 )
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [5
-
-] [6] (./dissertation.lot)
+ [6] (./dissertation.lot)
 \tf@lot=\write6
 \openout6 = `dissertation.lot'.
 
@@ -1520,125 +1526,132 @@ File: figures/theory/BSM_HH_X.pdf Graphic file (type QTm)
  <use  "figures/theory/BSM_HH_X.pdf" >
 [9]
 File: figures/theory/HH_lam.png Graphic file (type QTm)
- <use  "figures/theory/HH_lam.png" > [10]
+ <use  "figures/theory/HH_lam.png" > [10] [11]
 File: figures/theory/lhclumi7813_2013_v1.pdf Graphic file (type QTm)
 
 <use  "figures/theory/lhclumi7813_2013_v1.pdf" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \hbox (1.66702pt too wide) in paragraph at lines 171--172
+Overfull \hbox (1.66702pt too wide) in paragraph at lines 177--178
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Generally, it is easy theoretically for n
 ew heavy resonance particles to interact with the SM through 
  []
 
-[11]
+[12]
 File: figures/theory/HH_BR.png Graphic file (type QTm)
  <use  "figures/theory/HH_BR.png" >
+File: figures/theory/Run1_ATLAS.pdf Graphic file (type QTm)
+
+<use  "figures/theory/Run1_ATLAS.pdf" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12] [13]
-File: figures/theory/Run1_ATLAS.pdf Graphic file (type QTm)
- <use  "figures/theory/Run1_ATLAS.pdf" >) [14] [15]
+[13] [14]) [15]
 \openout2 = `chapters/chapter2.aux'.
 
-
-(./chapters/chapter2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 A man who procrastinates in his choosing will inev
-itably
- []
-
+ (./chapters/chapter2.tex
 Chapter 2.
+File: figures/detector/Cern-Accelerator-Complex.jpg Graphic file (type QTm)
+<use  "figures/detector/Cern-Accelerator-Complex.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [16
 
 
 
 ] [17]
-Overfull \hbox (0.48906pt too wide) in paragraph at lines 59--61
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 59.
+
+
+Overfull \hbox (0.48906pt too wide) in paragraph at lines 57--60
 \EU1/EBGaramond(2)/bx/n/10.95 where, $[]$ is the number of interactions per bun
 ch crossing. At each bunch crossing, multiple proton- 
  []
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 64.
-
-[18]
-
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 66.
+               Default added (so using `tbp') on input line 62.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 73.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 69.
 
 Missing character: There is no − in font cmr8!
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 78.
+(Font)              scaled to size 10.25006pt on input line 74.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 10.25006pt on input line 78.
+(Font)              scaled to size 10.25006pt on input line 74.
 
-Overfull \hbox (5.91153pt too wide) in alignment at lines 68--83
+Overfull \hbox (8.89471pt too wide) in alignment at lines 64--79
 [] [] [] []
  []
 
-[19]
-File: figures/detector/Cern-Accelerator-Complex.jpg Graphic file (type QTm)
- <use  "figures/detector/Cern-Accelerator-Complex.jpg" >) [20]
-\openout2 = `chapters/chapter3.aux'.
+File: figures/detector/ATLAS.jpg Graphic file (type QTm)
+<use  "figures/detector/ATLAS.jpg" > [18] [19] [20]
+File: figures/detector/ID_rzmap.png Graphic file (type QTm)
 
+<use  "figures/detector/ID_rzmap.png" >
+File: figures/detector/ID_data_map_XY.png Graphic file (type QTm)
 
-(./chapters/chapter3.tex
-Chapter 3.
+<use  "figures/detector/ID_data_map_XY.png" > [21]
+File: figures/detector/MS_rz.png Graphic file (type QTm)
 
-Overfull \hbox (2.54341pt too wide) in paragraph at lines 10--18
-[] [][] \EU1/EBGaramond(2)/bx/n/10.95 The ATLAS experiment$[]$ at the LHC is a 
-multipurpose particle detector with a forward-backward 
+<use  "figures/detector/MS_rz.png" >
+File: figures/detector/MS_phi.png Graphic file (type QTm)
+ <use  "figures/detector/MS_phi.png" >
+[22]
+File: figures/detector/Lumi_2015.pdf Graphic file (type QTm)
+ <use  "figures/detector/Lumi_2015.pdf" >
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 194--195
+[][] 
  []
 
-[21
+File: figures/detector/Lumi_2016.pdf Graphic file (type QTm)
+<use  "figures/detector/Lumi_2016.pdf" >
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 203--204
+[][] 
+ []
+
+) [23]
+\openout2 = `chapters/chapter3.aux'.
+
+ (./chapters/chapter3.tex
+Chapter 3.
+) [24
 
 
 
 ]
-Overfull \hbox (19.76367pt too wide) in paragraph at lines 29--34
-[] [][] \EU1/EBGaramond(2)/bx/n/10.95 Lead/liquid-argon (LAr) sampling calorime
-ters provide EM energy measurements. A steel/scintillator- 
- []
-
-[22]) [23]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
 Chapter 4.
 
-Package natbib Warning: Citation `Aaboud:2016xco' on page 24 undefined on input
+Package natbib Warning: Citation `Aaboud:2016xco' on page 25 undefined on input
  line 10.
 
-[24
+[25
 
 
 
-]) [25] (./dissertation.bbl
+]) [26] (./dissertation.bbl
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 11.
- [26
+ [27
 
 
 
 ]
-Underfull \hbox (badness 1997) in paragraph at lines 144--149
+Underfull \hbox (badness 1997) in paragraph at lines 157--162
 []\EU1/EBGaramond(2)/bx/n/10.95 Georges Aad et al.  Searches for Higgs boson pa
 ir production in the $[][] \OMS/cmsy/m/n/10.95 ! 
  []
 
-[27])
+[28] [29])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-[28]
+[30]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
  (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux) (.
 /chapters/chapter2.aux) (./chapters/chapter3.aux)
@@ -1651,12 +1664,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25559 strings out of 493706
- 465467 string characters out of 6145769
- 531059 words of memory out of 5000000
- 28497 multiletter control sequences out of 15000+600000
+ 25600 strings out of 493706
+ 466223 string characters out of 6145769
+ 533929 words of memory out of 5000000
+ 28531 multiletter control sequences out of 15000+600000
  18818 words of font info for 143 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,13n,104p,10522b,591s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,13n,104p,10522b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (38 pages).
+Output written on dissertation.pdf (40 pages).

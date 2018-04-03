@@ -18,49 +18,50 @@ Warning--I didn't find a database entry for "CMSHIG17006"
 Warning--I didn't find a database entry for "Khachatryan:2016sey"
 Warning--I didn't find a database entry for "Khachatryan:2014jya"
 Warning--I didn't find a database entry for "Aaboud:2016xco"
+Warning--empty note in LumiRatio
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
-Warning--empty note in LumiRatio
-You've used 34 entries,
+Warning--empty note in Lumi_Run2
+You've used 37 entries,
             2481 wiz_defined-function locations,
-            808 strings with 10375 characters,
-and the built_in function-call counts, 11421 in all, are:
-= -- 1027
-> -- 412
-< -- 30
-+ -- 189
-- -- 118
-* -- 788
-:= -- 1883
-add.period$ -- 135
-call.type$ -- 34
-change.case$ -- 65
-chr.to.int$ -- 31
-cite$ -- 38
-duplicate$ -- 618
-empty$ -- 1106
-format.name$ -- 163
-if$ -- 2421
-int.to.chr$ -- 4
-int.to.str$ -- 35
-missing$ -- 32
-newline$ -- 211
-num.names$ -- 102
-pop$ -- 222
+            827 strings with 10864 characters,
+and the built_in function-call counts, 12335 in all, are:
+= -- 1115
+> -- 449
+< -- 34
++ -- 206
+- -- 128
+* -- 854
+:= -- 2039
+add.period$ -- 147
+call.type$ -- 37
+change.case$ -- 71
+chr.to.int$ -- 33
+cite$ -- 42
+duplicate$ -- 664
+empty$ -- 1181
+format.name$ -- 179
+if$ -- 2610
+int.to.chr$ -- 5
+int.to.str$ -- 38
+missing$ -- 33
+newline$ -- 229
+num.names$ -- 111
+pop$ -- 236
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 37
 quote$ -- 0
-skip$ -- 357
+skip$ -- 386
 stack$ -- 0
-substring$ -- 465
-swap$ -- 71
-text.length$ -- 0
+substring$ -- 489
+swap$ -- 78
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 229
-warning$ -- 4
-while$ -- 94
+type$ -- 250
+warning$ -- 5
+while$ -- 101
 width$ -- 0
-write$ -- 502
-(There were 14 warnings)
+write$ -- 546
+(There were 15 warnings)
