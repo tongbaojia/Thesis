@@ -1,11 +1,17 @@
 \subsection{Dataset}
 
-%%\paragraph{}
-The studies presented in this note are based on the 2015 and 2016 dataset at $\sqrt{s}=13$~TeV recorded by the ATLAS experiment~\cite{detPaper}. Jet triggers were used to select the data (details below). The analysis also ran over the 2015 and the 2016 debug stream, in which no events that pass the full event selection were found. The 2015 dataset corresponds to a total integrated luminosity of 3.2\, fb$^{-1}$, and the 2016 dataset corresponds to a total integrated luminosity of 32.9\, fb$^{-1}$. The total luminosity is 36.1\, fb$^{-1}$.
+\paragraph{}
+This analysis is performed on two LHC $pp$ collision datasets at $\sqrt{s} = 13$~\TeV~ recorded by the ATLAS experiment. Data were collected during stable beam conditions and when all relevant detector systems were functional. The integrated luminosity of the dataset collected during 2015 was measured to be 3.2~\ifb.  The second dataset was collected during 2016 and corresponds to an integrated luminosity of 24.3~\ifb\ for the resolved analysis and 32.9~\ifb\ for the boosted analysis.
+
+%The difference in integrated luminosity between the two analyses results from the choices of triggers. In the resolved analysis, a combination of $b$-jet triggers is used. Events were required to feature either one $b$-tagged jet~\cite{btaggingRun2, Aad:2015ydr} with transverse momentum $\pt>225$~\GeV, or two $b$-tagged jets, either both satisfying $\pt>35$~\GeV\ or both satisfying $\pt>55$~\GeV, with different requirements on the $b$-tagging. Some triggers required additional non-$b$-tagged jets. Due to a change in the online $b$-tagging algorithm between 2015 and 2016, the two datasets are treated independently until they are combined in the final statistical analysis. After the selection described in Section~\ref{sec:resolved}, this combination of triggers is estimated to be 65\% efficient for simulated signals with a Higgs boson pair invariant mass, $m_{HH}$, of 280~\GeV, rising to 100\% efficiency for resonance masses greater than 600~\GeV. During 2016 data-taking, a fraction of the data was affected by an inefficiency in the online vertex reconstruction, which reduced the efficiency of the algorithms used to identify $b$-jets; those events were not retained for further analysis. This reduces the integrated luminosity of the 2016 dataset for the resolved analysis to 24.3 \ifb. In the boosted analysis, events were selected from the 2015 dataset using a trigger that required a single \akt jet~\cite{Cacciari:2008gp} with radius parameter $R=1.0$ and with $\pt > 360$~\GeV. In 2016, a similar trigger was used but with a higher threshold of $\pt > 420$~\GeV. The efficiency of these triggers is 100\% for simulated signals passing the jet requirements described in Section~\ref{sec:boosted}, so the 2015 and 2016 datasets were combined into one dataset. 
+
+
 
 %%\paragraph{}
-The analysis is based on EXOT8 derivations of the xAOD, the contents of which can be found at \href{https://svnweb.cern.ch/trac/atlasoff/browser/PhysicsAnalysis/DerivationFramework/DerivationFrameworkExotics/trunk/share/EXOT8.py}{DerivationFrameworkExotics/EXOT8}. The 20.7.8.7 derivation cache was used in the analysis, which corresponds to \texttt{DerivationFrameworkExotics-00-03-86} and $p$-tags \texttt{p2950}. The boosted slimming keeps events with at least two large-$R$ jets with \pt~$>$200 GeV. 
-%In the derivationt here is another cut requiring there are at least two trackjets with MV2c10 score greater than -10. Because there is no pT cut, this requirement is almost always passed--events doesn't pass this hints the large-R jet has one and only one tracking activities, which is also probably a good idea to keep it out. However, this should be modified in the future.
+Jet triggers were used to select the data (details below). The analysis also ran over the 2015 and the 2016 debug stream, in which no events that pass the full event selection were found. The 2015 dataset corresponds to a total integrated luminosity of 3.2\, fb$^{-1}$, and the 2016 dataset corresponds to a total integrated luminosity of 32.9\, fb$^{-1}$. The total luminosity is 36.1\, fb$^{-1}$.
+
+\paragraph{}
+The data is further skimmed into the Derived Analysis Object Data (DAOD). The ATLAS offline software 20.7.8.7 derivation cache was used, with version $p$-tags \textit{p2950}. The boosted slimming keeps events with at least two large-$R$ jets with \pt~$>$200 GeV.
 
 %%\paragraph{}
 The studies presented currently in the main context of this note are extended to incorporate 2016 data. In this note, the reconstruction of both the 2015 and 2016 datasets are performed using software release 20.7. Simulated data samples from the mc15c campaign are be used, corresponding to $p$-tags \texttt{p2952-p2949}.
@@ -44,12 +50,42 @@ The current 2016 data sets are:
 }
 
 
-\clearpage
 \subsection{Simulated signal and background samples}
+
+% Simulated Monte Carlo (MC) event samples are used in this analysis to model signal production and
+% the background from \ttbar. The dominant multi-jet background is modelled using data-driven techniques, as described in Sections~\ref{sec:resolvedBKG} and~\ref{sec:boostedBackground}.
+
+% Signal \Gtohhb\ events were generated at leading order (LO) with \MGamcatnlo~2.2.2~\cite{MGaMCatNLO} interfaced with \PYTHIA~8.186~\cite{Sjostrand:2007gs} for parton-showering, hadronization and underlying-event simulation. The NNPDF2.3 LO
+% parton distribution function (PDF) set~\cite{Ball:2012cx} was used for both \MGamcatnlo and \PYTHIA. The A14 set of tuned underlying-event parameters~\cite{ATL-PHYS-PUB-2014-021} was used. These signal samples were generated with $\kMPl = 1$ or 2, where $k$ is the curvature of the warped extra dimension and $\overline{M}_{\mathrm{Pl}} = 2.4 \times 10^{18}$~\GeV\ is the effective four-dimensional Planck scale.
+
+% $gg\to$ Scalar \tohhb\ events were generated at LO in QCD with \MGamcatnlo~2.2.3 interfaced with \textsc{Herwig++}~\cite{Bahr:2008pv} for parton-showering, hadronization and simulation of the underlying event. CT10~\cite{Lai:2010vv} PDF sets were used for \MGamcatnlo and CTEQ6L1~\cite{cteq6l1} for \textsc{Herwig++}. The UE-EE-5-CTEQ6L1 set of tuned underlying-event parameters \cite{Seymour:2013qka} was used. No specific model was considered for computing the scalar signal cross sections.
+
+% For the evaluation of theoretical uncertainties in the signal modeling, samples were produced with variations of the factorization and renormalization scales, PDF sets (following the prescription from Ref.~\cite{pdfs}) and shower generator. For the latter, scalar (spin-2) samples were produced that are interfaced to \PYTHIA~8.186 rather than \textsc{Herwig++} (and vice versa).
+
+% % (i.e. switching \PYTHIA to \textsc{Herwig++} or vice versa). %.
+
+% The decay widths of these three resonance models differ. The scalar signals were generated with a width of 1~\GeV, allowing a study of generic narrow-width scalar signals. The widths of the graviton signals depend on the resonance mass and the value of $\kMPl$.
+% % They range from 8~\GeV\ (33~\GeV) at low mass to 187~\GeV\ (749~\GeV) at the highest mass for $\kMPl=1$ ($\kMPl=2$).
+% Relative to the resonance mass, they range from 3\% (6\%) at low mass to 13\% (25\%) at the highest mass for $\kMPl=1$ ($\kMPl=2$).
+% The graviton samples were normalized using cross sections from Ref.~\cite{carvalho}.
+
+% Resonant signal samples for the scalar and $\kMPl=1$ models were produced in 10~\GeV\ steps between 260 and 300~\GeV, in 100~\GeV\ steps up to 1600~\GeV, in 200~\GeV\ steps up to 2000~\GeV, and in 250~\GeV\ steps up to 3000~\GeV. Signal samples for the $\kMPl=2$ model were produced with the same spacings but omitting the masses of 270~\GeV, 290~\GeV\ and 2750~\GeV\ due to the larger generated width.
+
+% SM non-resonant production of Higgs boson pairs via the gluon--gluon fusion process was simulated at NLO with \MGamcatnlo, using form factors for the top-quark loop from HPAIR~\cite{PhysRevD.58.115012, Plehn199646}. The simulated events were reweighted to reproduce the \mhh spectrum obtained in Refs.~\cite{Borowka:2016ehy, Borowka:2016ypz}, which calculated the process at NLO in QCD while fully accounting for the top-quark mass. The cross section times branching ratio to the \fourb\ final state, evaluated at next-to-next-to-leading order (NNLO) with the summation of logarithms at next-to-next-leading-logarithm (NNLL) accuracy and including top-quark mass effects at NLO is $11.3^{+0.9}_{-1.0}$~fb~{\cite{Borowka:2016ehy}. The uncertainty includes the effects due to renormalization and factorization scales, PDF set, $\alpha_{\mathrm{S}}$, and the \hbb\ branching ratio. In all signal samples, the mass of the Higgs boson ($m_H$) was set to 125~\GeV.
+
+% Interference effects between \HH resonant production (i.e. through graviton or scalar decay) and SM non-resonant \HH production are not included in the simulated samples.
+
+% The generation of \ttbar\ events was performed with \powhegbox\ v1~\cite{Alioli:2010xd} using the CT10 PDF set. The parton shower, hadronization, and the underlying event were simulated using \PYTHIA~6.428~\cite{Sjostrand:2006za} with the CTEQ6L1 PDF set and the corresponding Perugia 2012 set of tuned underlying-event parameters~\cite{Skands:2010ak}. The top-quark mass was set to 172.5~\GeV{}. Higher-order corrections to the \ttbar\ cross section were computed with Top++~2.0~\cite{Czakon:20142930}. These incorporate NNLO corrections in QCD, including resummation of NNLL soft gluon terms.
+
+% The $Z$+jets sample was generated using \PYTHIA~8.186 with the NNPDF2.3 LO PDF set.
+
+% For all simulated samples, charm-hadron and bottom-hadron decays were handled by {\textsc{EvtGen}} 1.2.0~\cite{EvtGen}. To simulate the impact of multiple $pp$ interactions that occur within the same or nearby bunch crossings (pile-up), minimum-bias events generated with \PYTHIA~8 using the A2 set of tuned parameters~\cite{MC12AU2} were overlaid on the hard-scatter event. The detector response was simulated with \GEANT~4~\cite{Agostinelli:2002hh, Aad:2010ah} and the events were processed with the same reconstruction software as that used for the data. 
+
+
 %%\paragraph{}
-All MC samples used in this analysis are produced with full simulation, with additional \pileup interactions in each simulated event 
+All MC samples used in this analysis are produced with full simulation, with additional pileup interactions in each simulated event 
 modeled by adding multiple soft $pp$ collisions
-generated by \Pythia~8.165~\cite{pythia8} with the MSTW2008 LO PDF and AU2 tune~\cite{MC12AU2}.  After event generation and the addition of \pileup, 
+generated by Pythia~8.165~\cite{pythia8} with the MSTW2008 LO PDF and AU2 tune~\cite{MC12AU2}.  After event generation and the addition of pileup, 
 the response of the ATLAS detector to particles
 passing through the detector elements is simulated with the GEANT4 toolkit~\cite{Geant4,simulation}
 and events are reconstructed using the same software used to reconstruct events in data.
@@ -68,7 +104,7 @@ and events are reconstructed using the same software used to reconstruct events 
 Two benchmark resonant signal models are considered: a spin-2 graviton within a Bulk Randall-Sundrum Kaluza-Klein model and a spin-0 heavy neutral Higgs boson within a 2HDM model. 
 
 %%\paragraph{}
-The Bulk RS KK graviton signal samples have been generated for 20 mass points from 300 to 3000\,GeV using the \Madgraph generator\cite{MG5aMCatNLO} with the NNPDF2.3 LO PDF~\cite{Ball:2012cx} and the A14 tune \cite{ATL-PHYS-PUB-2014-021}, and hadronic showers are produced in \Pythia8.  For all signal samples, the Higgs mass has been set to 125.0 GeV. The cross-section times branching ratio values are reported in Tables \ref{tab:signal_c10_xsec} and \ref{tab:signal_c20_xsec}, setting $c \equiv k/\bar{M}_P$ to 1.0 and 2.0, respectively.  The names of signal datasets are listed in Appendix~\ref{app:signal-samples}. Concerning the level of freedom in his model, Kaustubh Agashe~\cite{Agashe} suggested that $c$ cannot be increased much beyond two.
+The Bulk RS KK graviton signal samples have been generated for 20 mass points from 300 to 3000\,GeV using the Madgraph generator\cite{MG5aMCatNLO} with the NNPDF2.3 LO PDF~\cite{Ball:2012cx} and the A14 tune \cite{ATL-PHYS-PUB-2014-021}, and hadronic showers are produced in Pythia8.  For all signal samples, the Higgs mass has been set to 125.0 GeV. The cross-section times branching ratio values are reported in Tables \ref{tab:signal_c10_xsec} and \ref{tab:signal_c20_xsec}, setting $c \equiv k/\bar{M}_P$ to 1.0 and 2.0, respectively.  The names of signal datasets are listed in Appendix~\ref{app:signal-samples}. Concerning the level of freedom in his model, Kaustubh Agashe~\cite{Agashe} suggested that $c$ cannot be increased much beyond two.
 
 %%\paragraph{}
 For signal kinematic distributions, see Appendix~\ref{app:signal-dist}.
@@ -140,8 +176,8 @@ as a function of the graviton mass.}
 \end{table}
 
 %%\paragraph{}
-The heavy Higgs boson samples have been generated for the same 20 mass points from 300 to 3000\,GeV using the \Madgraph generator\cite{MG5aMCatNLO} with the 
-CT10 PDF set. Hadronic showers are produced in \herwigpp using CTEQ6L1 and the UEEE5 event tune. 
+The heavy Higgs boson samples have been generated for the same 20 mass points from 300 to 3000\,GeV using the Madgraph generator\cite{MG5aMCatNLO} with the 
+CT10 PDF set. Hadronic showers are produced in herwigpp using CTEQ6L1 and the UEEE5 event tune. 
 For all signal samples, the Higgs boson mass has been set to 125.0 GeV. The width of the heavy Higgs boson, $\Gamma_H$, has been set to 1 GeV. This is because the width is dependent on 2HDM parameters. In Run-1, limits were set based on parameterised signal mass distributions with a representative range of widths.
 %%\paragraph{}
 To illustrate the properties of the $H$, a phase-space point \cba = 0.2, \tanb = 1 has been chosen within a Type-2 2HDM. The heavy Higgs boson partners' ($H, A, H^{\pm}$) masses are set such that $m_H = m_A = m_{H^{\pm}}$. The potential parameter that mixes the two Higgs doublets, $m_{12}$, is fixed such that $m_{12}^2 = m_A^2\tanb/(1+\tan^2\beta)$. This phase-space point has not been excluded by coupling measurements of the observed SM-like Higgs boson and is on the cusp of the observed 95\% C.L. exclusion of the Run 1 \Htohhb analysis. The relevant 2HDM properties are obtained from the HBSM group's ntuple for $\sqrt{s} = 13$\,TeV, version 1.6.3 \cite{HBSMNtuple}. They are reported in Table \ref{tab:signal_2hdm_xsec}.
@@ -166,7 +202,7 @@ DSID & $m_H$ (GeV) & $\Gamma_H$ (GeV) & $\sigma\times$Br($H\to hh \to b\bar{b}$)
 343407 & 1500 & 280 & $6.87569\times10^{-4}$ & 0.624 &  - \\
 \hline
 \end{tabular}
-\caption{Heavy Higgs boson properties for Type-2 2HDM with \cba = 0.2 and \tanb = 1. \BrHhh, \Brhbb and $\Gamma_H$ are parameter-dependent. The MC samples were generated with $\Gamma_H = 1$\,GeV.}
+\caption{Heavy Higgs boson properties for Type-2 2HDM with \cba = 0.2 and \tanb = 1. \BrHhh, \Brhbb and $\Gamma_H$ are parameter-dependent. The MC samples were generated with $\Gamma_H = 1$ \GeV.}
 \label{tab:signal_2hdm_xsec}
 \end{center}
 \end{table}
@@ -183,8 +219,8 @@ DSID & $m_H$ (GeV) & $\Gamma_H$ (GeV) & $\sigma\times$Br($H\to hh \to b\bar{b}$)
 \clearpage
 \subsubsection{Background simulation}
 %%\paragraph{}
-While the dominant QCD multijet background (about 90\% of the total) was estimated in data, a \Pythia~\cite{pythia8} dijet sample was used to understand the physical processes contributing to this background and characteristics of the event selection. The usefulness of this background sample is limited by the generated number of events, given the high background rejection factors of the analysis selection. The dijet samples are listed below.
-\\ \\
+While the dominant QCD multijet background (about 90\% of the total) was estimated in data, a Pythia~\cite{pythia8} dijet sample was used to understand the physical processes contributing to this background and characteristics of the event selection. The usefulness of this background sample is limited by the generated number of events, given the high background rejection factors of the analysis selection. The dijet samples are listed below.
+
 \noindent
 {\scriptsize
 \verb|mc15_13TeV.361020.Pythia8EvtGen_A14NNPDF23LO_jetjet_JZ0W.merge.DAOD_EXOT8.e3569_s2576_s2132_r7725_r7676_p2949|\\
@@ -214,8 +250,8 @@ While the dominant QCD multijet background (about 90\% of the total) was estimat
 %\end{figure}
 
 %%\paragraph{}
-The \ttbar\ background is modeled using large all-hadronic and non-all-hadronic decay mode samples that have both been generated with \Powheg~\cite{powheg} and showered with \Pythia~\cite{pythia8}. The top mass in both samples is set to 172.5 GeV. Samples inclusive in $m_{tt}$ are listed here:
-\\ \\
+The \ttbar\ background is modeled using large all-hadronic and non-all-hadronic decay mode samples that have both been generated with Powheg~\cite{powheg} and showered with Pythia~\cite{pythia8}. The top mass in both samples is set to 172.5 GeV. Samples inclusive in $m_{tt}$ are listed here:
+
 \noindent
 {\scriptsize
 \verb|mc15_13TeV.410000.PowhegPythiaEvtGen_P2012_ttbar_hdamp172p5_nonallhad.merge.DAOD_EXOT8.e3698_s2608_s2183_r7725_r7676_p2949|\\
@@ -225,7 +261,7 @@ The \ttbar\ background is modeled using large all-hadronic and non-all-hadronic 
 The prediction of the \ttbar\ MC samples are normalized to the NNLO+NLL predicted inclusive \ttbar\ cross-section of
 1821.87 pb multiplied by the all-hadronic branching ratio of 0.457 and non-all-hadronic of 0.543 as appropriate~\cite{TTbarXSec}. 
 
-In order to keep statistical fluctuations small across the dijet mass spectrum, especially for large values of $m_{tt}$, additional \ttbar samples are generated in slices of \ttbar invariant mass. Those samples are listed in Table \ref{tab:tt}. The cross-section of the \ttbar process is normalized to NNLO+NNLL in QCD, as calculated by \textsc{Top++} 2.0 \cite{Czakon:2011xx}. The \POWHEG \textsc{hdamp} parameter \cite{ATL-PHYS-PUB-2014-005} is set to the top mass, taken as $m_{t} = 172.5$~GeV. Overlap with the inclusive ttbar samples is removed by a cut on the truth value of $m_{tt}$ at the analysis level.
+In order to keep statistical fluctuations small across the dijet mass spectrum, especially for large values of $m_{tt}$, additional \ttbar samples are generated in slices of \ttbar invariant mass. Those samples are listed in Table \ref{tab:tt}. The cross-section of the \ttbar process is normalized to NNLO+NNLL in QCD, as calculated by \textsc{Top++} 2.0 \cite{Czakon:2011xx}. The POWHEG \textsc{hdamp} parameter \cite{ATL-PHYS-PUB-2014-005} is set to the top mass, taken as $m_{t} = 172.5$~GeV. Overlap with the inclusive ttbar samples is removed by a cut on the truth value of $m_{tt}$ at the analysis level.
  
 \begin{table}[!htb]
 \begin{small}
@@ -233,17 +269,17 @@ In order to keep statistical fluctuations small across the dijet mass spectrum, 
 \begin{tabular}{|c|l|c|c|c|c|r|}
         \hline
         DS ID & Process & Generator & $\sigma\times\text{BR}$ [nb] & $k$-factor & $\epsilon_{\text{filter}}$ & Events \\ \hline		
-303722	& all-had \ttbar, $1.1 < m_{t\bar{t}} < 1.3$~TeV & \POWHEG + \PYTHIA6	&	$0.69625$ & 1.0 & 0.003958 &  513000 \\
-303723	& all-had \ttbar, $1.3 < m_{t\bar{t}} < 1.5$~TeV & \POWHEG + \PYTHIA6	&	$0.69624$ & 1.0 & 0.001634 &  226000 \\
-303724	& all-had \ttbar, $1.5 < m_{t\bar{t}} < 1.7$~TeV & \POWHEG + \PYTHIA6	&	$0.69622$ & 1.0 & 0.000723 &  100000 \\
-303725	& all-had \ttbar, $1.7 < m_{t\bar{t}} < 2.0$~TeV & \POWHEG + \PYTHIA6	&	$0.69624$ & 1.0 & 0.000438 &  71000 \\
-303726	& all-had \ttbar, $2.0 < m_{t\bar{t}} < 14$~TeV & \POWHEG + \PYTHIA6	&	$0.69624$ & 1.0 & 0.000259 &  44000 \\
+303722	& all-had \ttbar, $1.1 < m_{t\bar{t}} < 1.3$~TeV & POWHEG + PYTHIA6	&	$0.69625$ & 1.0 & 0.003958 &  513000 \\
+303723	& all-had \ttbar, $1.3 < m_{t\bar{t}} < 1.5$~TeV & POWHEG + PYTHIA6	&	$0.69624$ & 1.0 & 0.001634 &  226000 \\
+303724	& all-had \ttbar, $1.5 < m_{t\bar{t}} < 1.7$~TeV & POWHEG + PYTHIA6	&	$0.69622$ & 1.0 & 0.000723 &  100000 \\
+303725	& all-had \ttbar, $1.7 < m_{t\bar{t}} < 2.0$~TeV & POWHEG + PYTHIA6	&	$0.69624$ & 1.0 & 0.000438 &  71000 \\
+303726	& all-had \ttbar, $2.0 < m_{t\bar{t}} < 14$~TeV & POWHEG + PYTHIA6	&	$0.69624$ & 1.0 & 0.000259 &  44000 \\
 
-301528	& nonall-had \ttbar, $1.1 < m_{t\bar{t}} < 1.3$~TeV & \POWHEG + \PYTHIA6	&	$0.69625$ & 1.0 & 0.00471933 &  544000 \\
-301529	& nonall-had \ttbar, $1.3 < m_{t\bar{t}} < 1.5$~TeV & \POWHEG + \PYTHIA6	&	$0.69625$ & 1.0 & 0.00194400 &  229000 \\
-301530	& nonall-had \ttbar, $1.5 < m_{t\bar{t}} < 1.7$~TeV & \POWHEG + \PYTHIA6	&	$0.69623$ & 1.0 & 0.00086308 &  99000 \\
-301531	& nonall-had \ttbar, $1.7 < m_{t\bar{t}} < 2.0$~TeV & \POWHEG + \PYTHIA6	&	$0.69624$ & 1.0 & 0.00051910 &  74000 \\
-301532	& nonall-had \ttbar, $2.0 < m_{t\bar{t}} < 14$~TeV & \POWHEG + \PYTHIA6	&	$0.69625$ & 1.0 & 0.00030919 &  44000 \\
+301528	& nonall-had \ttbar, $1.1 < m_{t\bar{t}} < 1.3$~TeV & POWHEG + PYTHIA6	&	$0.69625$ & 1.0 & 0.00471933 &  544000 \\
+301529	& nonall-had \ttbar, $1.3 < m_{t\bar{t}} < 1.5$~TeV & POWHEG + PYTHIA6	&	$0.69625$ & 1.0 & 0.00194400 &  229000 \\
+301530	& nonall-had \ttbar, $1.5 < m_{t\bar{t}} < 1.7$~TeV & POWHEG + PYTHIA6	&	$0.69623$ & 1.0 & 0.00086308 &  99000 \\
+301531	& nonall-had \ttbar, $1.7 < m_{t\bar{t}} < 2.0$~TeV & POWHEG + PYTHIA6	&	$0.69624$ & 1.0 & 0.00051910 &  74000 \\
+301532	& nonall-had \ttbar, $2.0 < m_{t\bar{t}} < 14$~TeV & POWHEG + PYTHIA6	&	$0.69625$ & 1.0 & 0.00030919 &  44000 \\
 \hline
 
 \end{tabular}

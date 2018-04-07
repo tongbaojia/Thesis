@@ -1,4 +1,4 @@
-\begin{thebibliography}{37}
+\begin{thebibliography}{50}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -24,6 +24,20 @@ Lyndon Evans.
 \newblock \emph{Annual Review of Nuclear and Particle Science}, 61\penalty0
   (1):\penalty0 435--466, 2011.
 \newblock \doi{10.1146/annurev-nucl-102010-130438}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{a}})]{Lumi_Run2}
+{ATLAS Collaboration}.
+\newblock {ATLAS Luminosity Public Results, Run 2}.
+\newblock 2015{\natexlab{a}}.
+\newblock URL
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
+
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{a}})]{ATLAS-CONF-2016-035}
+{ATLAS Collaboration}.
+\newblock {Jet mass reconstruction with the ATLAS Detector in early Run~2
+  data}.
+\newblock {ATLAS-CONF-2016-035}, 2016{\natexlab{a}}.
+\newblock URL \url{https://cds.cern.ch/record/2200211}.
 
 \bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{Agashe:2007zd}
 Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
@@ -68,28 +82,28 @@ Roberto Contino et~al.
 \newblock \emph{JHEP}, 08:\penalty0 154, 2012.
 \newblock \doi{10.1007/JHEP08(2012)154}.
 
-\bibitem[{ATLAS Collaboration}(2016)]{EXOT-2015-11}
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{b}})]{EXOT-2015-11}
 {ATLAS Collaboration}.
 \newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
   final state using proton--proton collisions at $\sqrt{s} = 13\;\mbox{TeV}$
   with the ATLAS detector}.
-\newblock \emph{Phys. Rev. D}, 94:\penalty0 052002, 2016.
+\newblock \emph{Phys. Rev. D}, 94:\penalty0 052002, 2016{\natexlab{b}}.
 \newblock \doi{10.1103/PhysRevD.94.052002}.
 
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{a}})]{Aad:2015uka}
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{Aad:2015uka}
 {ATLAS Collaboration}.
 \newblock {Search for Higgs boson pair production in the $b\bar{b}b\bar{b}$
   final state from pp collisions at $\sqrt{s} = 8$ TeV with the ATLAS
   detector}.
-\newblock \emph{Eur. Phys. J. C}, 75:\penalty0 412, 2015{\natexlab{a}}.
+\newblock \emph{Eur. Phys. J. C}, 75:\penalty0 412, 2015{\natexlab{b}}.
 \newblock \doi{10.1140/epjc/s10052-015-3628-x}.
 
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{HIGG-2013-29}
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{c}})]{HIGG-2013-29}
 {ATLAS Collaboration}.
 \newblock {Search for Higgs Boson Pair Production in the $\gamma\gamma
   b\bar{b}$ Final State Using $pp$ Collision Data at $\sqrt{s} = 8\;\mbox{TeV}$
   from the ATLAS Detector}.
-\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 081802, 2015{\natexlab{b}}.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 081802, 2015{\natexlab{c}}.
 \newblock \doi{10.1103/PhysRevLett.114.081802}.
 
 \bibitem[Griffiths(2008)]{Griffiths}
@@ -227,10 +241,10 @@ LHCb Collaoration.
 \newblock CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
 \newblock URL \url{https://cds.cern.ch/record/1291633}.
 
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{c}})]{ATL-PHYS-PUB-2015-022}
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{d}})]{ATL-PHYS-PUB-2015-022}
 {ATLAS Collaboration}.
 \newblock {Expected performance of the ATLAS $b$-tagging algorithms in Run-2}.
-\newblock {ATL-PHYS-PUB-2015-022}, 2015{\natexlab{c}}.
+\newblock {ATL-PHYS-PUB-2015-022}, 2015{\natexlab{d}}.
 \newblock URL \url{https://cds.cern.ch/record/2037697}.
 
 \bibitem[Aaboud et~al.(2017)]{Aaboud:2017pjd}
@@ -240,17 +254,87 @@ Morad Aaboud et~al.
 \newblock \emph{JINST}, 12\penalty0 (12):\penalty0 P12009, 2017.
 \newblock \doi{10.1088/1748-0221/12/12/P12009}.
 
-\bibitem[{ATLAS Collaboration}(2017)]{ATLAS-TRIGGER}
+\bibitem[{ATLAS Collaboration}(2017{\natexlab{a}})]{ATLAS-TRIGGER}
 {ATLAS Collaboration}.
 \newblock {Performance of the ATLAS Trigger System in 2015}.
-\newblock \emph{Eur. Phys. J. C}, 77:\penalty0 317, 2017.
+\newblock \emph{Eur. Phys. J. C}, 77:\penalty0 317, 2017{\natexlab{a}}.
 \newblock \doi{10.1140/epjc/s10052-017-4852-3}.
 
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{d}})]{Lumi_Run2}
+\bibitem[{ATLAS Collaboration}(2017{\natexlab{b}})]{PERF-2014-07}
 {ATLAS Collaboration}.
-\newblock {ATLAS Luminosity Public Results, Run 2}.
-\newblock 2015{\natexlab{d}}.
-\newblock URL
-  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
+\newblock {Topological cell clustering in the ATLAS calorimeters and its
+  performance in LHC Run~1}.
+\newblock \emph{Eur. Phys. J. C}, 77:\penalty0 490, 2017{\natexlab{b}}.
+\newblock \doi{10.1140/epjc/s10052-017-5004-5}.
+
+\bibitem[Cacciari et~al.(2008)Cacciari, Salam, and Soyez]{Cacciari:2008gn}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock {The catchment area of jets}.
+\newblock \emph{JHEP}, 04:\penalty0 005, 2008.
+\newblock \doi{10.1088/JHEP04(2008)05}.
+
+\bibitem[{ATLAS Collaboration}(2013{\natexlab{a}})]{Aad:2011he}
+{ATLAS Collaboration}.
+\newblock {Jet energy measurement with the ATLAS detector in proton-proton
+  collisions at $\sqrt{s}=7$\,\TeV}.
+\newblock \emph{Eur. Phys. J. C}, 73:\penalty0 2304, 2013{\natexlab{a}}.
+\newblock \doi{10.1140/epjc/s10052-013-2304-2}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{e}})]{ATL-PHYS-PUB-2015-015}
+{ATLAS Collaboration}.
+\newblock {Jet Calibration and Systematic Uncertainties for Jets Reconstructed
+  in the ATLAS Detector at $\sqrt{s} = 13\;\mbox{TeV}$}.
+\newblock {ATL-PHYS-PUB-2015-015}, 2015{\natexlab{e}}.
+\newblock URL \url{https://cds.cern.ch/record/2037613}.
+
+\bibitem[Krohn et~al.(2010)Krohn, Thaler, and Wang]{Krohn2010}
+D.~Krohn, J.~Thaler, and L.-T. Wang.
+\newblock {Jet trimming}.
+\newblock \emph{JHEP}, 02:\penalty0 084, 2010.
+\newblock \doi{10.1007/JHEP02(2010)084}.
+
+\bibitem[Ellis and Soper(1993)]{Ellis:1993tq}
+Stephen~D. Ellis and Davison~E. Soper.
+\newblock {Successive combination jet algorithm for hadron collisions}.
+\newblock \emph{Phys. Rev. D}, 48:\penalty0 3160, 1993.
+\newblock \doi{10.1103/PhysRevD.48.3160}.
+
+\bibitem[{ATLAS Collaboration}(2013{\natexlab{b}})]{PERF-2012-02}
+{ATLAS Collaboration}.
+\newblock {Performance of jet substructure techniques for large-$R$ jets in
+  proton--proton collisions at $\sqrt{s} = 7\;\mbox{TeV}$ using the ATLAS
+  detector}.
+\newblock \emph{JHEP}, 09:\penalty0 076, 2013{\natexlab{b}}.
+\newblock \doi{10.1007/JHEP09(2013)076}.
+
+\bibitem[ATL(2016)]{ATLAS-CONF-2016-024}
+{Electron efficiency measurements with the ATLAS detector using the 2015 LHC
+  proton-proton collision data}.
+\newblock Technical Report ATLAS-CONF-2016-024, CERN, Geneva, Jun 2016.
+\newblock URL \url{http://cds.cern.ch/record/2157687}.
+
+\bibitem[ATL(2017)]{ATLAS-CONF-2017-029}
+{Measurement of the tau lepton reconstruction and identification performance in
+  the ATLAS experiment using $pp$ collisions at $\sqrt{s}=13~{\rm TeV}$}.
+\newblock Technical Report ATLAS-CONF-2017-029, CERN, Geneva, May 2017.
+\newblock URL \url{http://cds.cern.ch/record/2261772}.
+
+\bibitem[Aad et~al.(2016)]{Aad:2016jkr}
+Georges Aad et~al.
+\newblock {Muon reconstruction performance of the ATLAS detector in
+  proton–proton collision data at $\sqrt{s}$ =13 TeV}.
+\newblock \emph{Eur. Phys. J.}, C76\penalty0 (5):\penalty0 292, 2016.
+\newblock \doi{10.1140/epjc/s10052-016-4120-y}.
+
+\bibitem[Richter(2014)]{Richter:2014pga}
+Burton Richter.
+\newblock {High Energy Colliding Beams; What Is Their Future?}
+\newblock \emph{Rev. Accel. Sci. Tech.}, 7:\penalty0 1--8, 2014.
+\newblock \doi{10.1142/9789814651493_0001, 10.1142/S1793626814300011}.
+
+\bibitem[Hawking and Kane(2018)]{Hawking:2018tcn}
+Stephen Hawking and Gordon Kane.
+\newblock {Should China build the Great Collider?}
+\newblock 2018.
 
 \end{thebibliography}

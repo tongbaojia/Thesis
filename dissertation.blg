@@ -5,6 +5,7 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
@@ -17,51 +18,58 @@ Warning--I didn't find a database entry for "CMS-HIG-17-002"
 Warning--I didn't find a database entry for "CMSHIG17006"
 Warning--I didn't find a database entry for "Khachatryan:2016sey"
 Warning--I didn't find a database entry for "Khachatryan:2014jya"
+Warning--I didn't find a database entry for "PERF-2015-10"
+Warning--I didn't find a database entry for "btaggingRun2"
+Warning--I didn't find a database entry for "Aad:2015ydr"
+Warning--I didn't find a database entry for "Cacciari:2008gp"
 Warning--I didn't find a database entry for "Aaboud:2016xco"
 Warning--empty note in LumiRatio
+Warning--empty note in Lumi_Run2
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
-Warning--empty note in Lumi_Run2
-You've used 37 entries,
+Warning--empty author in ATLAS-CONF-2016-024
+Warning--empty author in ATLAS-CONF-2017-029
+Warning--empty journal in Hawking:2018tcn
+You've used 50 entries,
             2481 wiz_defined-function locations,
-            827 strings with 10864 characters,
-and the built_in function-call counts, 12335 in all, are:
-= -- 1115
-> -- 449
-< -- 34
-+ -- 206
-- -- 128
-* -- 854
-:= -- 2039
-add.period$ -- 147
-call.type$ -- 37
-change.case$ -- 71
-chr.to.int$ -- 33
-cite$ -- 42
-duplicate$ -- 664
-empty$ -- 1181
-format.name$ -- 179
-if$ -- 2610
-int.to.chr$ -- 5
-int.to.str$ -- 38
-missing$ -- 33
-newline$ -- 229
-num.names$ -- 111
-pop$ -- 236
+            914 strings with 13128 characters,
+and the built_in function-call counts, 16321 in all, are:
+= -- 1484
+> -- 578
+< -- 45
++ -- 272
+- -- 164
+* -- 1139
+:= -- 2678
+add.period$ -- 196
+call.type$ -- 50
+change.case$ -- 97
+chr.to.int$ -- 42
+cite$ -- 60
+duplicate$ -- 896
+empty$ -- 1572
+format.name$ -- 231
+if$ -- 3462
+int.to.chr$ -- 9
+int.to.str$ -- 51
+missing$ -- 42
+newline$ -- 304
+num.names$ -- 144
+pop$ -- 321
 preamble$ -- 1
-purify$ -- 37
+purify$ -- 50
 quote$ -- 0
-skip$ -- 386
+skip$ -- 510
 stack$ -- 0
-substring$ -- 489
-swap$ -- 78
-text.length$ -- 1
+substring$ -- 595
+swap$ -- 112
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 250
-warning$ -- 5
-while$ -- 101
+type$ -- 341
+warning$ -- 8
+while$ -- 131
 width$ -- 0
-write$ -- 546
-(There were 15 warnings)
+write$ -- 733
+(There were 22 warnings)

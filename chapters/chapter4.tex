@@ -1,75 +1,20 @@
 %!TEX root = ../dissertation.tex
 \begin{savequote}[75mm]
-“A picture is worth a thousand swords.”
-\qauthor{Tony}
+Ugliness is in a way superior to beauty because it lasts.
+\qauthor{Serge Gainsbourg}
 \end{savequote}
-
-\chapter{Reconstruction of Objects}
-
 %%%%%%%%%%%%%%
-\section{Leptons}
-\paragraph{}
-Leptons are rare in proton-proton collisions. Less than $1\%$ of the total tracks are made from leptons, and these are often related to very interesting physics processes, especially invovling the electroweak forces. Hence leptons are ideal for triggering.
+\chapter{Data and Simulation}
+%\input{chapters/Sections/sec-data-mc}
+
+\subsection{Data}
 
 \paragraph{}
-Electrons are maximal inoizing in the tracking system. They get absorbed completely in ECAL nd leaves no signature in the HCAL. The amplified, shaped and sampled raw signal from each calorimeter cell is converted into the energy deposited. $3\times 7$ cells in the barral middle layer or $ 5 \times 5$ in the endcap middle layer are clusted together. If the cluster has no associated tracks, it is an "unconverted photon"; if it is matched to a pair of oppositely charged tracks, it is a "converted photon". A cluster matched to one track could be a converted photon, and the discrimination from electrons comes from the number of hits from the innermost layers of pixel detector. The calibration uses a multivariate regression algorithm, and validated in data using $Z \to ee$ events, see \href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2016-015/}{note}.
+This analysis is performed on two LHC $pp$ collision datasets at $\sqrt{s} = 13$~\TeV~ recorded by the ATLAS experiment. Data were collected during stable beam conditions and when all relevant detector systems were functional. A Good Run List (GRL) is generated after gathering online and offline data quality reviews of the dataset after reconstruction. Typically, any $> 10\%$ defect in any detector subsystem makes the corresponding Lumibloks (LB) fail the GRL requirement. The integrated luminosity of the 2015 dataset passing the GRL is 3.2~\ifb, and the 2016 dataset passing a different GRL is 32.9~\ifb. These values are about $82\%$ and $92\%$ of the data ATLAS recorded, in Figure~\ref{fig:Lumi}.
+
 
 \paragraph{}
-Muons are special for leaving minimally ionizing signatures in the detector. They usually penetrate the calorimeter and form tracks in the Muon Spetrometer. This is useful for reducing the generate rate of events, hence for triggering. They are also very clean in reconstruction and have exceelnt resolutions up to 1 TeV. Material and station information, see \href{https://cds.cern.ch/record/2252613/files/ATL-COM-MUON-2017-005.pdf}{note}.
+In the resolved analysis, a combination of $b$-jet triggers is used. Events were required to feature either one $b$-tagged jet~\cite{btaggingRun2, Aad:2015ydr} with transverse momentum \pt$>225$~\GeV, or two $b$-tagged jets, either both satisfying \pt$>35$~\GeV\ or both satisfying \pt$>55$~\GeV, with different requirements on the $b$-tagging. Some triggers required additional non-$b$-tagged jets. Due to a change in the online $b$-tagging algorithm between 2015 and 2016, the two datasets are treated independently until they are combined in the final statistical analysis. After the selection described in Section~\ref{sec:resolved}, this combination of triggers is estimated to be 65\% efficient for simulated signals with a Higgs boson pair invariant mass, $m_{HH}$, of 280~\GeV, rising to 100\% efficiency for resonance masses greater than 600~\GeV. During 2016 data-taking, a fraction of the data was affected by an inefficiency in the online vertex reconstruction, which reduced the efficiency of the algorithms used to identify $b$-jets; those events were not retained for further analysis. This reduces the integrated luminosity of the 2016 dataset for the resolved analysis to 24.3 \ifb.
 
 \paragraph{}
-For Tau ID, see this \href{https://cds.cern.ch/record/2248454/files/ATLAS-COM-CONF-2017-015.pdf}{note}
-
-%%%%%%%%%%%%%%
-\section{Jets}
-\paragraph{}
-Jets are reconstructe dusing local topocluster weighting \href{https://arxiv.org/abs/1603.02934}{(LCW)} alorighm. 
-
-\paragraph{}
-As a sidenote, there can be quark initiated jets and gluon initiated jets. Gluons carry both a color and anti-color charge, and quarks only carry a single color charge. This causes the slplitting functions for gluon radiation off a gluon and a gluon radiation off a quark differ by a factor of $9/4$. As a result, quark jets have less constituents than gluon jets. Therefore, the number of charged tracks within the jet could help to distinguish a quark jet from a gluon jet, see \href{https://cds.cern.ch/record/2253972/files/ATL-COM-PHYS-2017-196.pdf}{note}. 
-
-\paragraph{}
-%Melissa asked me this question on Feb 13, 2017.
-Jet mass, see \href{https://cds.cern.ch/record/2200211/files/ATLAS-CONF-2016-035.pdf}{note}. Jet mass is one of the best tools for distinguishing massive particle decays from QCD background. Jets are trimmed by re-clustering the constituents fo the jet into subjets. $k_t$ algorithm with $R_{sub} = 0.2$ is used, and if the subjets has $p_T$ less than $5\%$ of the original jet $p_T$, the constituent is removed. \textbf{The calorimeter-based jet mass ($m^{calo}$)}, with clorimeter-cell cluster constituents $i$ with energy $E_i$, momentum $\vec{p}_i (|\vec{p}_i| = E_i)$ is defined as:
-\begin{equation}
-m^{calo} = \sqrt{(\sum_i E_i)^2 - (\sum_i p_i)^2}
-\end{equation}
-For a boosted massive particle, the angular spread in the decay products scales as $\frac{1}{p_T}$. For highly boosted cases, the spread could be comparable with the $0.1\time0.1$ calorimeter granularity. Tracking information can be used to maintain performance beyond this. \textbf{The track-assited jet mass ($m^{TA}$)} is defined as:
-\begin{equation}
-m^{TA} = \frac{p_{T}^{calo}}{p_{T}^{track}} \times m^{track}
-\end{equation}
-where $p_{T}^{calo}$ is the calorimeter measurement, $p_{T}^{track}$ is the four-vector sum of tracks associated to the large-radius calorimetere jet, and $m^{track}$ is the invariant mass of this four-vector sum(the track mass is set to $m_{\pi}$). This ratio corrects for charged-to-neutral fluctuations, thus improve the resolution with respect to track-only jet mass.
-
-\paragraph{Need to insert a figure here.}
-
-%%%%%%%%%%%%%%
-\section{Flavor Tagging}
-\paragraph{}
-Tracks reconstruction, see \href{https://cds.cern.ch/record/2254947/files/PERF-2015-08-002.pdf}{this great note}. The first step is creating clusters based on pixel and SCT meausred energy deposits, which are space-points. Then three space-points form a seed, and tey are cobmined to build track candidates using a Kalman filter. After ambiguity solving, an artificial neural network is trained and used to identy merged clusters. The last step is a high resolution fit, which is CPU intensive. The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. $Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm. Interestingly, the performance of track reconstruction is highly dependent on the momentum of the particle. With higher boost, the decay tracks have smaller seperations in the inner detector, hindering the resolving cluster process, and thus degrading the track identification efficiency. For a 1 TeV $B_{0}$, the reconstruction track effieincy is $83\%$, compared to $95\%$ for a 200 GeV $B_{0}$.
-
-\paragraph{}
-$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentagion of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}. $b$-jet calibration is done using $t\top{t}$ events, as can be seen in \href{https://indico.cern.ch/event/622490/contributions/2510894/attachments/1425202/2191220/ttbar_PDF_Calibration_MVA_Training_Approval_140317.pdf}{Likelihood talk} and \href{https://cds.cern.ch/record/1538335/files/ATL-COM-PHYS-2013-395.pdf}{Matrix method and Likelihood note} or a Tag-and-Probe using semi-leptonic $t\top{t}$ events.
-
-\paragraph{}
-There are 3 taggers in MV2 family, MV2c00, MV2c10, MV2c20 depending on their charm composition in training: $MV2c00->0\%$ c-fraction in the training, $MV2c10->7\%$ c-fraction in the training and $MV2c20->15\%$ c-fraction in the training. See \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2}{twiki}.
-
-\paragraph{}
-Vertex reconstruction and resolution, can be seen in this \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-026/}{note}. Track resolution can be seen in this \href{https://cds.cern.ch/record/2110140/files/ATL-PHYS-PUB-2015-051.pdf}{note}. In Run2, the $d_0$ resolution is about 10 $\mu m$ and $z_0$ is about $50 \mu m$, both decreases as a function of track momentum.
-
-\paragraph{}
-The increase of tracks from fragmentation in the high jet $p_T$ region is the main reason for the performance degradation. As the jet $p_T$ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for b and c jets slighly decreases with jet $p_T$.
-
-\paragraph{}
-See the reference \href{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/BTaggingPaperRecommendations}{here}. Operating points are defined by a single cut value on the discriminant output distribution and are chosen to provide a specific b-jet efficiency on an inclusive ttbar sample. The $77\%$ working point has a rejection factor of 6 and of 134 on charm and light-jets, respectively. (More information on the working points can be extracted from Table 2 and the related section in ATL-PHYS-PUB-2016-012).
-
-\paragraph{}
-Correction factors are applied to the simulated event samples to compensate for differences between data and simulation in the b-tagging efficiency for b, c and light-jets. The correction for b-jets is derived from ttbar events with final states containing two leptons, and the corrections are consistent with unity with uncertainties at the level of a few percent over most of the jet pT range.
-
-\paragraph{}
-Uncertainties on the correction factors for the b-tagging identification response are applied to the simulated event samples by looking at dedicated flavour-enriched samples in data. An additional term is included to extrapolate the measured uncertainties to the \textbf{high-pT} region of interest. This term is calculated from simulated events by considering variations on the quantities affecting the b-tagging performance such as the impact parameter resolution, percentage of poorly measured tracks, description of the detector material, and track multiplicity per jet. The dominant effect on the uncertainty when extrapolating to high-pT is related to the different tagging efficiency when smearing the track impact parameters based on the resolution measured in data and simulation.
-
-
-\section{Boosted Object Tagging}
-\paragraph{}
-Although this work doesn't depend on specific boosted W/Z/H/Top taggers, many analysises adopt them and improve search sensitivities. For machine learning techiniques applied, see this \href{https://cds.cern.ch/record/2242830/files/ATL-COM-PHYS-2017-031.pdf}{W/Top tagger using BDT/DNN}
-
+In the boosted analysis, events were selected from the 2015 dataset using a trigger that required a single anti-$k_t$ jet~\cite{Cacciari:2008gp} with radius parameter $R=1.0$ and with \pt$> 360$~\GeV. In 2016, a similar trigger was used but with a higher threshold of \pt$> 420$~\GeV. The efficiency of these triggers is 100\% for simulated signals passing the jet requirements described in Section~\ref{sec:boosted}, so the 2015 and 2016 datasets were combined into one dataset. 

@@ -56,8 +56,15 @@ The instantaneous luminosity can also be written as the ratio of the rate of ine
 L = \frac{R_{\rm inel}}{\sigma_{\rm inel}} = \frac{\mu n_b f_{\rm rev}}{\sigma_{\rm inel}}
 \end{equation}
 where, $\mu$ is the number of interactions per bunch crossing. At each bunch crossing, multiple proton-proton collide, and the collisions without the highest center of mass energy are called ``pileup" interactions.
-The target peak instantaneous luminosity for both the ATLAS and CMS experiments is $L=10^{34}~\text{cm}^{-2}\text{s}^{-1}$~\cite{LHCPaper}, which is already exceeded in 2016. This is partly due to the rising number of ``pileup" interactions. The main parameters of the LHC beam and performance are shown in Table~\ref{Ch2:tab-lhc}. 
+The target peak instantaneous luminosity for both the ATLAS and CMS experiments is $L=10^{34}~\text{cm}^{-2}\text{s}^{-1}$~\cite{LHCPaper}, which is already exceeded in 2016. This is partly due to the rising number of ``pileup" interactions, shown in Figure~\ref{fig:Mu_2015_2016}. The main parameters of the LHC beam and performance are shown in Table~\ref{Ch2:tab-lhc}. 
 
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.5\textwidth,angle=-90]{figures/detector/Mu_2015_2016}
+   \caption{The luminosity-weighted distribution of the mean number of interactions per crossing for the 2015 and 2016 pp collision data at $13$ \TeV centre-of-mass energy.~\cite{Lumi_Run2}}
+  \label{fig:Mu_2015_2016}
+\end{figure}
 %At the nominal LHC conditions, the beam energy is about 360 MegaJoules, and the LHC in total consumes 115 MegaWatt of power.
 \begin{table}[]
 \centering
@@ -72,7 +79,7 @@ $f_{\rm rev}$ [kHz]    &     $11245$  & $11245$  & $11245$ \\
 $n_b$  [$10^{11}$ p/bunch]   & $1.15$ &  $1.15$ & $1.12$\\
 $N_b$  [bunch]         & $2808$   &      $1825$ &      $2220$\\
 $\epsilon_n$  [mm mrad]        & $3.5$ &  $3.5$  & $2$\\
-$\beta^*$   [cm]         & $55$  &   $80$-$40$  & $40$\\
+$\beta^*$   [cm]         & $55$  &   $20$-$40$  & $40$\\
 $F$        &      $0.84$  & $0.84$  &  $0.59$ \\
 $\langle \mu \rangle$ & $19$ & $13$ & $41$ \\ \hline
 \hline            
@@ -184,7 +191,7 @@ This is followed by a software-based high-level trigger (HLT) that reduces the a
 To avoid too high accept rates for certain triggers, the triggers are often prescaled, which means the accepted events get rejected at the prescale. For example, a prescale of two means only every second event passing all trigger conditions gets accepted. 
 
 \paragraph{}
-Over 2015 and 2016, both the LHC and the ATLAS performed outstandingly ~\cite{Lumi_Run2}. The total data recording efficiency for ATLAS is around $92\%$.
+Over 2015 and 2016, both the LHC and the ATLAS performed outstandingly ~\cite{Lumi_Run2}. The total data recording efficiency for ATLAS is around $92\%$, shown in Figure~\ref{fig:Lumi}.
 
 \begin{figure}[h!]
 \centering
@@ -207,6 +214,8 @@ Over 2015 and 2016, both the LHC and the ATLAS performed outstandingly ~\cite{Lu
 \caption{Cumulative luminosity versus time delivered to (green) and recorded by ATLAS (yellow) during stable beams for pp collisions at $13$ \TeV centre-of-mass energy.}
 \label{fig:Lumi}
 \end{figure}
+
+
 % \paragraph{}
 % For further trigger information, see \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/TRIG-2016-01/}{2015 note} and \href{https://cds.cern.ch/record/2242069/files/ATL-DAQ-PUB-2017-001.pdf}{2016 updates}.
 
