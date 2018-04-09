@@ -26,7 +26,6 @@ Each pp collision generate multiple vertices, and they reconstructed from the av
 The primary vertex (PV), or the hard-scatter vertex, is selected as the one with the largest $\sum p_T^2$, where the sum is over all tracks with transverse momentum $p_T > 0.4$ \GeV that are associated with the vertex. 
 Most physics objects are required to be consistent with the primary vertex.
 
-
 %%%%%%%%%%%%%%
 \section{Jets}
 \paragraph{}
@@ -50,11 +49,12 @@ Jets are reconstructed using the \akt algorithm with different values of the rad
  %Quality criteria are applied to the jets, and events with jets consistent with noise in the calorimeter or non-collision backgrounds are vetoed~\cite{jetcleanATLAS}.
 
 \subsection{Large-\R jets}
+%% If add plots, use 
+%% https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2017-063/
 \paragraph{}
 The jets with $R=1.0$ (``large-\R jets'') are built from locally calibrated~\cite{Aad:2011he} topological clusters. They are trimmed~\cite{Krohn2010} to minimize the impact of energy deposits from pile-up interactions. 
 Trimming proceeds by reclustering the jet with the \kt algorithm~\cite{Ellis:1993tq} into $R = 0.2$ subjets and then removing those subjets with $p_T^{\mathrm{subjet}}/p_T^{\mathrm{jet}} < 0.05$, where $p_T^{\mathrm{subjet}}$ is the transverse momentum of the subjet and $p_T^{\mathrm{jet}}$ that of the original jet. 
 The energy and mass scales of the trimmed jets are then calibrated using \pt- and $\eta$-dependent calibration factors derived from simulation~\cite{PERF-2012-02}.
-
 
 %Melissa asked me this question on Feb 13, 2017.
 \paragraph{}
@@ -65,13 +65,35 @@ m^{calo} = \sqrt{\left(\sum_{i\in J}E_i\right)^2-\left(\sum_{i\in J}\vec{p}_i\ri
 
 \paragraph{}
 For a boosted massive particle, the angular spread in the decay products scales as $\frac{1}{p_T}$. 
-For highly boosted cases, the spread could be comparable with the $\eta\time\phi \sim 0.1\time0.1$ calorimeter granularity. 
+For highly boosted cases, the spread could be comparable with the $\eta\times\phi \sim 0.1\times0.1$ calorimeter granularity. 
 Tracking information can be used to maintain performance beyond this granularity limit.
 The track-assisted jet mass, $m^{TA}$, is defined as:
 \begin{equation}
 m^{TA} = \frac{p_T^{calo}}{p_T^{track}} \cdot m^{track}.
 \end{equation}
 where $p_{T}^{calo}$ is the transverse momentum of the large-R calorimeter jet, $p_{T}^{track}$ is the transverse momentum of the four-vector sum of tracks associated to the large-R calorimeter jet, and $m^{track}$ is the invariant mass of this four-vector sum. This ratio corrects for charged-to-neutral fluctuations, and there improves the resolution with respect to track-only jet mass.
+
+\begin{figure}[h!]
+  \centering
+  \captionsetup{justification=centering}
+	\hspace{-2cm}
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/object/Jet_mass}
+        \caption{2015}
+        \label{fig:Jet_mass_dist}
+    \end{subfigure}
+    \quad
+    \quad
+    \quad
+    \quad
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/object/Jet_mass_resolution}
+        \caption{2016}
+        \label{fig:Jet_mass_resolution}
+    \end{subfigure}
+   \caption{Uncalibrated (dashed line) and calibrated (solid line) reconstructed jet mass distribution ~\ref{fig:Jet_mass_dist}, and the jet mass resolution vs jet \pt ~\ref{fig:Jet_mass_resolution} for calorimeter-based jet mass, mcalo (red), track-assisted jet mass mTA (black) and the invariant mass of four-vector sum of tracks associated to the large-radius calorimeter jet mtrack (blue) for W/Z-jets~\cite{ATLAS-CONF-2016-035}.}
+  \label{fig:Jet_mass}
+\end{figure}
 
 \paragraph{}
 The two mass definitions are only weakly correlated with each other, therefore they can be linearily combined to the combined mass, $m^{comb}$, by weighting the components with $w$:
@@ -81,13 +103,109 @@ m^{comb} = w\cdot m^{calo}+(1-w)\cdot m^{TA}.
 The weight is determined for each large-R jet from the resolution functions of the calibrated track and calo mass terms.
 This leads to a smaller mass resolution and better estimate of the median mass value than obtained using only calorimeter energy clusters, as shown in Figure~\ref{fig:Jet_mass}.
 
+\subsection{Track Jets}
+\paragraph{}
+ID track is made first by creating clusters based on PIXEL and SCT meausred energy deposits, which are called space-points. 
+Three space-points form a seed, and the seeds are cobmined to build track candidates using a Kalman filter. 
+After ambiguity solving, an artificial neural network is trained and used to identy merged clusters. 
+The last step is a high resolution fit, which is CPU intensive. 
+The tracks are required to have $p_T > 0.4$ \GeV~ and $|\eta| <$ 2.5, to have at least 1 PIXEL hit and 6 SCT hits, and to be tightly matched to the primary vertex. 
+%The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. 
+%$Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm. 
+The performance of track reconstruction is highly dependent on the momentum of the particle. 
+With higher boost, the decay tracks have smaller seperations in the inner detector, hindering the resolving cluster process, and thus degrading the track identification efficiency. 
+For a $1$ \TeV~ $b$-hadron, the reconstruction track effieincy is $83\%$, compared to $95\%$ for a $200$ \GeV~ $b$-hadron ~\cite{Aaboud:2017all}.
+
+\paragraph{}
+Track jets are essentially custered tracks left by charged hadrons. 
+They are reconstructed from ID tracks using the \akt algorithm with $R=0.2$. 
+Once the track jet axis is determined, a second step of track association is performed to select tracks with looser impact parameter requirements in order to collect the tracks needed for effectively running the b-tagging algorithms.
+Only track jets with at least two tracks are considered.
+They are also required to have $p_T > 10$ \GeV~ and $|\eta| <$ 2.5 to supress trackjets from light flavors.
+
+\paragraph{}
+Trakck jets are associated to large-\R jets using Ghost-Association.
+``Ghosts" are track jet 4-vectors, with each track jet's \pt set to an infinitestimal amount, essentially keeping only the direction of the 4-vector.
+This ensures that Large-\R jets reconstruction is not altered by the ghosts when the calorimeter clusters plus ghosts are reclustered.
+The reclustering is then performed using the \akt algorithm with $R=1.0$ .
+The calorimeter jets after reclustering are identical to the parents of the trimmed jets used in this analysis, with the addition of the associated track jets retained as constituents.
+In addition, if trimming is subsequently performed on this reclustered jet, the track jets corresponding to the ghosts that survive the trimming procedure (and thus are clustered into one of the surviving subjets) are the track jets ghost-associated to the trimmed jet.
+The small radius parameter of the track-jets enables two nearby $b$-hadrons to be identified when their \DR separation is small, which is beneficial when reconstructing high-\pt Higgs boson candidates.
+
+%%%%%%%%%%%%%%
+\section{Boost}
+\paragraph{}
+The thesis focuses on searching for \TeV scale resonance decaying into di-Higgs and then to \bbbb. It is important to fully reconstruct the decaying object. The angular seperation between the \bb, \drbb, scales roughly as $\frac{2m_H}{p_{H}}$, for a Higgs with momentum $p_{H}$ decaying into \bb. This means for a $1.5$ \TeV resonance \Grav, produced at rest, the two Higgs with each roughly $625$ \GeV momentum, and the \drbb is around $0.4$. Similarly, for a $3$ \TeV resonace, the $2.75$ \TeV resonance, \drbb is around $0.2$.
+
+\paragraph{}
+The \drbb limits the object in the analysis. Therefore, two analysis are used to reconstruct the Higgs bosons. The resolved analysis is used for \hh systems in which the Higgs bosons have Lorentz boosts low enough that four $R=0.4$ $b$-jets can be reconstructed. The boosted analysis is used for those \hh systems in which the Higgs bosons have higher Lorentz boosts, which prevents the Higgs boson decay products from being resolved in the detector as separate \bjets. Instead, each Higgs boson candidate consists of a single large-radius jet, and the presence of $b$-quarks is inferred using smaller-radius jets built from charged-particle tracks. This thesis will be focusing on the boosted analysis.
+
+%%%%%%%%%%%%%%
+\section{Flavor Tagging}
+\paragraph{}
+Jets are formed from partons with different flavors. 
+Identifying the flavor of a jet is called flavor tagging. 
+Jets originaing from a $b$-quark is refered as a $b$-jet, from a $c$-quark is refered as a $c$-jet, and from a other quarks other than the $t$-quark is refered as a light jet.
+$b$-tagging is particularly useful for this analysis, since there are \bbbb in the final state. 
+
+\paragraph{}
+$B$-hadrons have a lifetime on the order of $10^{-12}$ seconds, which makes a $c\tau$ of $0.5\,\rm mm$~\cite{Pdg}. 
+This results in a displaced decay vertex, and it can be identified in vertex reconstruction. 
+This allows $b$-jets to be distinguished from other flavors of jets theoretically.
+
+\paragraph{}
+ATLAS uses three different basic $b$-tagging alorithms, that provides complementary information:
+\begin{itemize}
+	\item Impact parameter (IP) based algorithm); it uses the transverse and longitudinal impact parameters $d_0$ and $z_0$ of the tracks inside a jet to determine their consistency with the primary vertex. It then uses two or three dimensional templates for light flavor, $c$, and $b$ jets and evaluate the likelihood of the jet coming from each of these types.
+	\item Inclusive secondary vertex (SV) reconstruction algorithm; it uses tracks inside the jet to fit for vertices that are displaced from the primary vertex.
+	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF); it reconstructs the full flight path of the $b$ by looking for multiple displaced vertices along the same direction.
+\end{itemize}
+ 
 \begin{figure}[h!]
-  \centering
-  \captionsetup{justification=centering}
-  \includegraphics[width=0.5\textwidth,angle=-90]{figures/object/Jet_mass}
-   \caption{Uncalibrated (dashed line) and calibrated (solid line) reconstructed jet mass distribution for calorimeter-based jet mass, mcalo (red), track-assisted jet mass mTA (black) and the invariant mass of four-vector sum of tracks associated to the large-radius calorimeter jet mtrack (blue) for W/Z-jets~\cite{ATLAS-CONF-2016-035}.}
-  \label{fig:Jet_mass}
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/b_sv}
+        \caption{Secondary vertex reconstruction rate as a function of jet \pt.}
+        \label{fig:obj_b_sv}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/b_mv2}
+        \caption{MV2c10 BDT output for different jets.}
+        \label{fig:obj_b_mv2}
+    \end{subfigure}
+\caption{Secondary vertex reconstruction rate and Mv2c10 output for b-jets (solid blue), c-jets (dashed green) and light-jets (dotted red) evaluated with simulated \ttbar~ events.}
+\label{fig:obj_btag}
 \end{figure}
+
+\paragraph{}
+%%https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2
+Jets containing $b$-hadrons are identified using a score value computed from a boosted decision tree(BDT) algorithm \emph{MV2c10}~\cite{btaggingRun2, Aad:2015ydr}, which makes use of observables provided by three algorithms above. The \emph{MV2c10} algorithm is trained on a sample with charm composition of $7\%$. It is applied to a set of charged-particle tracks that satisfy quality and impact parameter criteria and are matched to each jet. 
+%There are 3 taggers in MV2 family: \emph{MV2c00}, \emph{MV2c10}, \emph{MV2c20} depending on their charm composition in training. MV2c00$->0\%$ c-fraction in the training, MV2c10$->7\%$ c-fraction in the training and MV2c20$->15\%$ c-fraction in the training.
+
+\paragraph{}
+The $b$-tagging requirements of both the resolved and the boosted analyses use working points that lead to an efficiency of 70\% for $b$-jets with \pt > 20~\GeV\ when evaluated in a sample of simulated \ttbar events. This working point corresponds to a rejection rate of jets originating from $u$-, $d$- or $s$-quarks or gluons of 380 for the jets with $R=0.4$ and 120 for the track-jets. The rejection of jets from $c$-quarks is 12 for the $R=0.4$ jets and 7.1 for the track-jets.
+
+\paragraph{}
+In the boosted analysis, the track-jets have a wider \pt range, between $50-400$~\GeV, and the same working point leads to $b$-tagging efficiencies varying from $40\%$ at low \pt, to $80\%$ for \pt values of about $150$~\GeV, to $60\%$ at high \pt.
+The increase of tracks from fragmentation in the high jet \pt~ region is the main reason for the performance degradation. As the jet \pt~ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for $b$ and $c$ jets slighly decreases with jet \pt.
+
+%\paragraph{}
+%$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentagion of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}. 
+
+%Vertex reconstruction and resolution, can be seen in this \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-026/}{note}. Track resolution can be seen in this \href{https://cds.cern.ch/record/2110140/files/ATL-PHYS-PUB-2015-051.pdf}{note}. In Run2, the $d_0$ resolution is about 10 $\mu m$ and $z_0$ is about $50 \mu m$, both decreases as a function of track momentum.
+
+%\paragraph{}
+%See the reference \href{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/BTaggingPaperRecommendations}{here}. Operating points are defined by a single cut value on the discriminant output distribution and are chosen to provide a specific $b$-jet efficiency on an inclusive ttbar sample. (More information on the working points can be extracted from Table 2 and the related section in ATL-PHYS-PUB-2016-012).
+
+\paragraph{}
+$b$-jet calibration is done using $t\top{t}$ events.
+%as can be seen in \href{https://indico.cern.ch/event/622490/contributions/2510894/attachments/1425202/2191220/ttbar_PDF_Calibration_MVA_Training_Approval_140317.pdf}{Likelihood talk} and \href{https://cds.cern.ch/record/1538335/files/ATL-COM-PHYS-2013-395.pdf}{Matrix method and Likelihood note} or a Tag-and-Probe using semi-leptonic $t\top{t}$ events.
+Correction factors are applied to the simulated event samples to compensate for differences between data and simulation in the b-tagging efficiency for $b$, $c$ and light-jets. The correction for $b$-jets is derived from ttbar events with final states containing two leptons, and the corrections are consistent with unity with uncertainties at the level of a few percent over most of the jet \pt~ range.
+
+\paragraph{}
+Uncertainties on the correction factors for the b-tagging identification response are applied to the simulated event samples by looking at dedicated flavour-enriched samples in data. An additional term is included to extrapolate the measured uncertainties to the \textbf{high-pT} region of interest. This term is calculated from simulated events by considering variations on the quantities affecting the b-tagging performance such as the impact parameter resolution, percentage of poorly measured tracks, description of the detector material, and track multiplicity per jet. The dominant effect on the uncertainty when extrapolating to high-pT is related to the different tagging efficiency when smearing the track impact parameters based on the resolution measured in data and simulation.
 
 %%%%%%%%%%%%%%
 \section{Leptons}
@@ -101,33 +219,8 @@ Hadronic tau decays are composed of a tau neutrino and one or three charged pion
 Neutrinos are infered from the missing transverse momentum (MET), or $E_T^{miss}$. Neutrios do not interact with the ALTAS. Their presence can only be deduced from the conservation of transverse momentum in each collison, as the incoming protons have no net momentum in the transverse plane. MET is calculated as the negative vectorial sum of the \pt of all fully reconstructed and calibrated physics objects. This procedure includes a “soft term”, which is calculated using the ID tracks that originate from the primary vertex but are not associated with reconstructed objects. MET is not used in this thesis.
 
 \paragraph{}
-Muons are identified by matching ID tracks with reconstructed MS tracks~\cite{Aad:2016jkr}. For this thesis, muons must have $p_T > 4~\GeV$, $|\eta| < 2.5$ and to satisfy ``medium'' muon identification criteria~\cite{PERF-2015-10}. If a muon is within $\DR = 0.4$ (0.2) of a jet used for $b$-tagging in the resolved (boosted) analysis, their four-momentum is added to the calorimeter-based jet's four-momentum to partially account for the energy lost in semileptonic $b$-hadron decays. 
+Muons are identified by matching ID tracks with reconstructed MS tracks~\cite{Aad:2016jkr}. For this thesis, muons must have $p_T > 4~\GeV$, $|\eta| < 2.5$ and to satisfy ``medium'' muon identification criteria~\cite{Aad:2016jkr}. If a muon is within $\DR = 0.4$ (0.2) of a jet used for $b$-tagging in the resolved (boosted) analysis, their four-momentum is added to the calorimeter-based jet's four-momentum to partially account for the energy lost in semileptonic $b$-hadron decays.
 
-%%%%%%%%%%%%%%
-\section{Flavor Tagging}
-\paragraph{}
-Tracks reconstruction, see \href{https://cds.cern.ch/record/2254947/files/PERF-2015-08-002.pdf}{this great note}. The first step is creating clusters based on pixel and SCT meausred energy deposits, which are space-points. Then three space-points form a seed, and tey are cobmined to build track candidates using a Kalman filter. After ambiguity solving, an artificial neural network is trained and used to identy merged clusters. The last step is a high resolution fit, which is CPU intensive. The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. $Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm. Interestingly, the performance of track reconstruction is highly dependent on the momentum of the particle. With higher boost, the decay tracks have smaller seperations in the inner detector, hindering the resolving cluster process, and thus degrading the track identification efficiency. For a 1 TeV $B_{0}$, the reconstruction track effieincy is $83\%$, compared to $95\%$ for a 200 GeV $B_{0}$.
-
-\paragraph{}
-$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentagion of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}. $b$-jet calibration is done using $t\top{t}$ events, as can be seen in \href{https://indico.cern.ch/event/622490/contributions/2510894/attachments/1425202/2191220/ttbar_PDF_Calibration_MVA_Training_Approval_140317.pdf}{Likelihood talk} and \href{https://cds.cern.ch/record/1538335/files/ATL-COM-PHYS-2013-395.pdf}{Matrix method and Likelihood note} or a Tag-and-Probe using semi-leptonic $t\top{t}$ events.
-
-\paragraph{}
-There are 3 taggers in MV2 family, MV2c00, MV2c10, MV2c20 depending on their charm composition in training: $MV2c00->0\%$ c-fraction in the training, $MV2c10->7\%$ c-fraction in the training and $MV2c20->15\%$ c-fraction in the training. See \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2}{twiki}.
-
-\paragraph{}
-Vertex reconstruction and resolution, can be seen in this \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-026/}{note}. Track resolution can be seen in this \href{https://cds.cern.ch/record/2110140/files/ATL-PHYS-PUB-2015-051.pdf}{note}. In Run2, the $d_0$ resolution is about 10 $\mu m$ and $z_0$ is about $50 \mu m$, both decreases as a function of track momentum.
-
-\paragraph{}
-The increase of tracks from fragmentation in the high jet $p_T$ region is the main reason for the performance degradation. As the jet $p_T$ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction effieincy for b and c jets slighly decreases with jet $p_T$.
-
-\paragraph{}
-See the reference \href{https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/BTaggingPaperRecommendations}{here}. Operating points are defined by a single cut value on the discriminant output distribution and are chosen to provide a specific b-jet efficiency on an inclusive ttbar sample. The $77\%$ working point has a rejection factor of 6 and of 134 on charm and light-jets, respectively. (More information on the working points can be extracted from Table 2 and the related section in ATL-PHYS-PUB-2016-012).
-
-\paragraph{}
-Correction factors are applied to the simulated event samples to compensate for differences between data and simulation in the b-tagging efficiency for b, c and light-jets. The correction for b-jets is derived from ttbar events with final states containing two leptons, and the corrections are consistent with unity with uncertainties at the level of a few percent over most of the jet pT range.
-
-\paragraph{}
-Uncertainties on the correction factors for the b-tagging identification response are applied to the simulated event samples by looking at dedicated flavour-enriched samples in data. An additional term is included to extrapolate the measured uncertainties to the \textbf{high-pT} region of interest. This term is calculated from simulated events by considering variations on the quantities affecting the b-tagging performance such as the impact parameter resolution, percentage of poorly measured tracks, description of the detector material, and track multiplicity per jet. The dominant effect on the uncertainty when extrapolating to high-pT is related to the different tagging efficiency when smearing the track impact parameters based on the resolution measured in data and simulation.
 
 
 %Although this work doesn't depend on specific boosted W/Z/H/Top taggers, many analysises adopt them and improve search sensitivities. For machine learning techiniques applied, see this \href{https://cds.cern.ch/record/2242830/files/ATL-COM-PHYS-2017-031.pdf}{W/Top tagger using BDT/DNN}
