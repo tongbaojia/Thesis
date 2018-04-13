@@ -7,14 +7,94 @@ Ugliness is in a way superior to beauty because it lasts.
 \chapter{Data and Simulation}
 %\input{chapters/Sections/sec-data-mc}
 
-\subsection{Data}
+\section{Data}
 
 \paragraph{}
-This analysis is performed on two LHC $pp$ collision datasets at $\sqrt{s} = 13$~\TeV~ recorded by the ATLAS experiment. Data were collected during stable beam conditions and when all relevant detector systems were functional. A Good Run List (GRL) is generated after gathering online and offline data quality reviews of the dataset after reconstruction. Typically, any $> 10\%$ defect in any detector subsystem makes the corresponding Lumibloks (LB) fail the GRL requirement. The integrated luminosity of the 2015 dataset passing the GRL is 3.2~\ifb, and the 2016 dataset passing a different GRL is 32.9~\ifb. These values are about $82\%$ and $92\%$ of the data ATLAS recorded, in Figure~\ref{fig:Lumi}.
-
-
-\paragraph{}
-In the resolved analysis, a combination of $b$-jet triggers is used. Events were required to feature either one $b$-tagged jet~\cite{btaggingRun2, Aad:2015ydr} with transverse momentum \pt$>225$~\GeV, or two $b$-tagged jets, either both satisfying \pt$>35$~\GeV\ or both satisfying \pt$>55$~\GeV, with different requirements on the $b$-tagging. Some triggers required additional non-$b$-tagged jets. Due to a change in the online $b$-tagging algorithm between 2015 and 2016, the two datasets are treated independently until they are combined in the final statistical analysis. After the selection described in Section~\ref{sec:resolved}, this combination of triggers is estimated to be 65\% efficient for simulated signals with a Higgs boson pair invariant mass, $m_{HH}$, of 280~\GeV, rising to 100\% efficiency for resonance masses greater than 600~\GeV. During 2016 data-taking, a fraction of the data was affected by an inefficiency in the online vertex reconstruction, which reduced the efficiency of the algorithms used to identify $b$-jets; those events were not retained for further analysis. This reduces the integrated luminosity of the 2016 dataset for the resolved analysis to 24.3 \ifb.
+This analysis uses 2015 and 2016 LHC $pp$ collision datasets at $\sqrt{s} = 13$~\TeV~ recorded by the ATLAS experiment. Data were collected during stable beam conditions and when all relevant detector systems were functional. A Good Run List (GRL) is generated after gathering online and offline data quality reviews of the dataset after reconstruction. Typically, any $> 10\%$ defect in any detector subsystem makes the corresponding Lumiblocks (LB) fail the GRL requirement. The integrated luminosity of the 2015 dataset passing the GRL is 3.2~\ifb, and the 2016 dataset passing a different GRL is 32.9~\ifb. These values are about $82\%$ and $92\%$ of the data ATLAS recorded, in Figure~\ref{fig:Lumi}.
 
 \paragraph{}
-In the boosted analysis, events were selected from the 2015 dataset using a trigger that required a single anti-$k_t$ jet~\cite{Cacciari:2008gp} with radius parameter $R=1.0$ and with \pt$> 360$~\GeV. In 2016, a similar trigger was used but with a higher threshold of \pt$> 420$~\GeV. The efficiency of these triggers is 100\% for simulated signals passing the jet requirements described in Section~\ref{sec:boosted}, so the 2015 and 2016 datasets were combined into one dataset. 
+In the resolved analysis, a combination of $b$-jet triggers is used. Events are required to feature either one $b$-tagged jet with transverse momentum \pt$>225$~\GeV, or two $b$-tagged jets, either both satisfying \pt$>35$~\GeV~ or both satisfying \pt$>55$~\GeV, with different requirements on the $b$-tagging. Some triggers require additional non-$b$-tagged jets. Due to a change in the online $b$-tagging algorithm between 2015 and 2016, the two datasets are treated independently until they are combined in the final statistical analysis. After the selection described later, this combination of triggers is estimated to be 65\% efficient for simulated signals with a Higgs boson pair invariant mass, $m_{HH}$, of $280$~\GeV~, rising to $100\%$ efficiency for resonance masses greater than $600$ \GeV~. 
+
+\paragraph{}
+During 2016 data-taking, a fraction of the data was affected by a bug.
+The movement of beam spot was not accounted for in the online vertex reconstruction.
+This reduced the efficiency of the algorithms used to identify $b$-jets. 
+This reduces the integrated luminosity of the 2016 dataset for the resolved analysis to $24.3$ \ifb.
+
+\paragraph{}
+In the boosted analysis, events were selected from the 2015 dataset using a trigger that required a single anti-$k_t$ jet with radius parameter $R=1.0$ and with \pt~$>360$~\GeV. In 2016, a similar trigger was used but with a higher threshold of \pt~$>420$~\GeV. The efficiency of these triggers is 100\% for simulated signals passing the jet requirements as described later, so the 2015 and 2016 datasets were combined into one dataset. 
+
+\paragraph{}
+The data is further skimmed into the Derived Analysis Object Data (DAOD). The ATLAS offline software 20.7.8.7 derivation cache is used, with version $p$-tags \textit{p2950}. The boosted slimming keeps events with at least two large-\R jets with \pt~$>200$ \GeV. The final input data file has name format: $dataYR\_13TeV.periodPR.physics\_Main.PhysCont.DAOD\_EXOT8.grpYR\_v01\_p2950$, where YR is $15$ and PR is DEFGHJ for 2015 data, and YR is $16$ and PR is ABCDEFGIKL for 2016 data.
+
+
+\section{MC}
+\paragraph{}
+All Monte Carlo (MC) samples used in this analysis are produced with full simulation.
+For all simulated samples, charm-hadron and bottom-hadron decays were handled by {\textsc{EvtGen}} 1.2.0~\cite{EvtGen}. 
+To simulate the impact of multiple $pp$ interactions that occur within the same or nearby bunch crossings (pile-up), minimum-bias events generated with \pythia~8~\cite{Sjostrand:2006za} using the A2 set of tuned parameters~\cite{MC12AU2} were overlaid on the hard-scatter event. 
+The detector response was simulated with GEANT~4~\cite{Agostinelli:2002hh, Aad:2010ah} and the events were processed with the same reconstruction software as that used for the data.  
+Simulated data samples from the ATLAS MC15c campaign are be used, corresponding to $p$-tags \texttt{p2952-p2949}.
+
+\subsection{Backgrounds}
+\paragraph{}
+A very small fraction of the background arises from $Z$ + jets events. The $Z$+jets sample was generated using \pythia~8.186 with the NNPDF2.3 LO PDF set.
+
+\paragraph{}
+The \ttbar\ background is modeled using large all-hadronic and non-all-hadronic samples that have both been generated with \powhegbox\ v1~\cite{Alioli:2010xd} using the CT10 PDF set. 
+The parton shower, hadronization, and the underlying event were simulated using \pythia~6.428 with the CTEQ6L1 PDF set and the corresponding Perugia 2012 set of tuned underlying-event parameters~\cite{Skands:2010ak}.
+The $t$-quark mass in both samples is set to $172.5$ \GeV~.
+Higher-order corrections to the \ttbar\ cross section were computed with Top++~2.0~\cite{Czakon:20142930}. These incorporate NNLO corrections in QCD, including resummation of NNLL soft gluon terms.
+The \ttbar\ MC samples are normalized to the NNLO+NLL predicted inclusive \ttbar\ cross-section of
+$1821.87$ pb multiplied by the all-hadronic branching ratio of $0.457$ and non-all-hadronic of $0.543$.
+
+\paragraph{}
+In order to keep statistical fluctuations small across the dijet invariant mass spectrum, especially for large values of $m_{tt}$, additional \ttbar~ samples are generated in slices of \ttbar~ invariant mass. The cross-section of the \ttbar~ process is normalized to NNLO+NNLL in QCD, as calculated by \textsc{Top++} 2.0. Overlap with the inclusive \ttbar~ samples is removed by a fixed cut on the truth value of $m_{tt}$ at $1100$ \GeV.
+
+\paragraph{}
+A \pythia~ dijet sample is used to understand the physical processes contributing to the multi-jet background and characteristics of the event selection. This MC sample is generated without a heavy flavor filter, hence is limited by the total generated number of events, given the high background rejection factors of the analysis selection.
+
+\section{Signal}
+\paragraph{}
+In all signal samples, the mass of the Higgs boson ($m_H$) was set to 125~\GeV. 
+The signal MC contains truth information, like the two Higgs and the b quark four-momentum before detector interactions. 
+This enables a $\Delta R$ truth matching between the reconstructed objects and the Higgs.
+
+\paragraph{}
+SM non-resonant production of Higgs boson pairs via the gluon--gluon fusion process was simulated at NLO with \texttt{MG5\_aMC@NLO}, using form factors for the top-quark loop from HPAIR~\cite{PhysRevD.58.115012, Plehn199646}. The simulated events were reweighted to reproduce the \mhh spectrum obtained~\cite{Borowka:2016ehy, Borowka:2016ypz}, which calculated the process at NLO in QCD while fully accounting for the top-quark mass. 
+Interference effects between di-Higgs resonant production and SM non-resonant di-Higgs production are not included in the simulated samples. 
+%The cross section times branching ratio to the \fourb\ final state is $11.3^{+0.9}_{-1.0}$~fb~{\cite{Borowka:2016ehy}.
+%The uncertainty includes the effects due to renormalization and factorization scales, PDF set, $\alpha_{\mathrm{S}}$, and the \hbb\ branching ratio. 
+
+\paragraph{}
+Signal \Gtohhb\ events were generated at leading order (LO) with \texttt{MG5\_aMC@NLO}~2.2.2~\cite{MGaMCatNLO} interfaced with \pythia~8.186 for parton-showering, hadronization and underlying-event simulation. 
+The NNPDF2.3 LO parton distribution function (PDF) set~\cite{Ball:2012cx} was used for both \texttt{MG5\_aMC@NLO} and \pythia. 
+The A14 set of tuned underlying-event parameters was used. 
+These signal samples were generated with $\kMPl = 1$ or $2$.
+Relative to the resonance mass, widths of the graviton signals range from 3\% (at low mass) to 13\% (at the highest mass) for $\kMPl=1$, and $6\%$ to $25\%$ for $\kMPl=2$.
+The graviton samples were normalized using fixed cross sections~\cite{carvalho}.
+
+\paragraph{}
+Signal 2HDM Scalar \tohhb\ events were generated at LO in QCD with \texttt{MG5\_aMC@NLO}~2.2.3 interfaced with \textsc{Herwig++}~\cite{Bahr:2008pv} for parton-showering, hadronization and simulation of the underlying event. CT10~\cite{Lai:2010vv} PDF sets were used for \texttt{MG5\_aMC@NLO} and CTEQ6L1~\cite{cteq6l1} for \textsc{Herwig++}.
+The UE-EE-5-CTEQ6L1 set of tuned underlying-event parameters \cite{Seymour:2013qka} was used. 
+The scalar signals were generated with a width of $1$~\GeV, which represent generic narrow-width scalar signals. 
+Because the width and branching ratios depend on 2HDM parameters, each mass point generated with this fixed width corresponds to a different point in the 2HDM parameter phase space.
+%No specific model was considered for computing the scalar signal cross sections.
+
+%For the evaluation of theoretical uncertainties in the signal modeling, samples were produced with variations of the factorization and renormalization scales, PDF sets (following the prescription from Ref.~\cite{pdfs}) and shower generator. For the latter, scalar (spin-2) samples were produced that are interfaced to \PYTHIA~8.186 rather than \textsc{Herwig++} (and vice versa).
+
+\paragraph{}
+Resonant signal samples for the scalar and $\kMPl=1$ models were produced in $10$~\GeV\ steps between $260$ and $300$~\GeV, in $100$~\GeV\ steps up to $1600$~\GeV, in $200$~\GeV\ steps up to $2000$~\GeV, and in $250$~\GeV\ steps up to $3000$~\GeV. Signal samples for the $\kMPl=2$ model were produced with the same spacings but omitting the masses of $270$~\GeV, $290$~\GeV\ and $2750$~\GeV\ due to the larger generated width. Unless specified, the MC signal sample used as benchmark is $\kMPl=1$ \Grav, due to its width is medium among the three signal models.
+
+
+
+
+
+
+
+
+
+
+
+
+

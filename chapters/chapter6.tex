@@ -4,14 +4,55 @@ Even in the darkest night. Stars and angels still shine bright.
 \qauthor{Bear}
 \end{savequote}
 
-\chapter{Event Selection}
-\label{sec:selection}
-\input{chapters/Sections/sec-object-definitions}
 
-\input{chapters/Sections/sec-event-selection}
+\chapter{Background Estimation}
+\section{Background Estimation}
+\label{sec:backgrounds}
+%use the internal note structure
 
-% \paragraph{}
-% To improve the analysis, a quantity which defines the sensitivity of analysis is maximized. Techicially, the optimal sensitivity is described as $\sqrt{2((S+B)\ln{1 + \frac{S}{B}} - S}$, see \href{https://www.pp.rhul.ac.uk/~cowan/stat/notes/SigCalcNote.pdf}{note}. This is usually considered at the $S << B$ limit and simplified as $\frac{S}{\sqrt{B}}$, when no knowledge of the model cross section is available, or $\frac{S}{\sqrt{S + B}}$, if the signal cross section is known. These parametrizations have limitations, particularly when the signal yield and the number of estiamted background are both small. A better parametrization for low signal strengh is $\frac{S}{\sqrt{1 + B}}$, where the extra $\sqrt{1 + B}$ accounts for poisson fluctuations. For a discussion of p-values, please see this \href{https://arxiv.org/pdf/hep-ex/0208005.pdf}{note}.
+\paragraph{}
+A similar circular variable can be defined in the two-dimensional mass plane, $R_{hh}$. The circular region $R_{hh}$ has the same central values as $X_{hh}$, but without resolution terms in the denominators and is defined as:
+\begin{equation}
+\label{eq:boosted_RhhDef}
+R_{hh} = \sqrt{\left(m^{\rm lead}_{\rm J} - \text{124 GeV}\right)^2 + \left(m^{\rm subl}_{\rm J} - \text{115 GeV}\right)^2}
+\end{equation}
+The region defined by $1.6 < X_{hh}$ and $R_{hh} < 33$ is the control region. It will be discussed in Section~\ref{sec:boosted-qcd}.
+The cut value was optimized to allow for a reasonable sized sample (twice the statistics as the signal region) in the control region with kinematics similar to the signal region, and avoiding the large contributions of the \ttbar~ sample when the large-\R jets have a mass near the top quark mass (with $m_J > 160$~\GeV).
 
-% \paragraph{}
-% For this analysis, two methods are used: one is calculate the number of signal and backgrounds within $68\%$ of the signal \mhh mass window, the other is to implement the full signal and background predicions after smoothing and compare the asymptotic expected exclusion limits. Both methods yield comparable results.
+\paragraph{}
+Similarly, $R_{hh}^{\text{high}}$, the circular region that has the shifted central values up by 10 $GeV$ is defined using the variable:\begin{equation}
+\label{eq:boosted_RhhhighDef}
+R_{hh}^{\text{high}} = \sqrt{\left(m^{\rm lead}_{\rm J} - \text{134 GeV}\right)^2 + \left(m^{\rm subl}_{\rm J} - \text{125 GeV}\right)^2}
+\end{equation}
+
+\paragraph{}
+In Run-1, and in the the 2015 analysis, the sideband was defined to be all events not in the signal or control regions. However, the kinematics of events with very large and very small large-R jet masses may not be the same as those within the signal region.
+To avoid biasing effects from extremely low mass or extremely high mass large-$R$ jets, the sideband region is also redesigned to be like the control region, but at $R_{hh} > 33$ and $R_{hh}^{\text{high}} < 58$.
+The shift upwards helps to capture enough $t\bar{t}$ events in the normalization estimates, as described in Section ~\ref{sec:ttbarnorm}.
+
+%%\paragraph{}
+The values of the $X_{hh}$ and $R_{hh}$ variables can be seen graphically in Figure~\ref{fig:boosted-regiondef-cartoons}.
+\begin{figure}[htbp!]
+\begin{center}
+  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/cartoon-xhh.pdf}
+  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/cartoon-rhh.pdf}
+  \caption{Values of the $X_{hh}$ and $R_{hh}$ variables, which are shapes in the two-dimensional plane of the large-R jet masses used to defined signal, control, and sideband regions. For both variables, a smaller value indicates the jets are closer to the Higgs mass. }
+  \label{fig:boosted-regiondef-cartoons}
+\end{center}
+\end{figure}
+
+The number of events in the control region and sideband region as a function of Resonance mass is shown in Figure~\ref{fig:boosted-selection-region-efficiency}. For 2$b$s, 3$b$ and 4$b$, each region has the number of events decrease from signal region to control region to sideband regions.
+
+\begin{figure*}
+\begin{center}
+\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_2b_lst_Moriond_Efficiency_PreSel.pdf}
+\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_3b_lst_Moriond_Efficiency_PreSel.pdf} \\
+\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_4b_lst_Moriond_Efficiency_PreSel.pdf}
+\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf} \\
+  \caption{Detailed signal efficiency in different signal/control/sideband regions as in 2$b$s (top left, 3$b$ (top right), 4$b$ (bottom left) and inclusive b-tagged regions, which incluse 2$b$, 1$b$ and 0$b$ as well, (bottom right) as a function of signal resonance mass hypothesis for selection cuts. The efficiencies are relative to the total number of events in the preselection.}
+  \label{fig:boosted-selection-region-efficiency}
+\end{center}
+\end{figure*}
+
+
+\input{chapters/Sections/sec-backgrounds}

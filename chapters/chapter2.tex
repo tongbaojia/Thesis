@@ -7,7 +7,7 @@ Pain teaches lessons no scholar can.
 
 \chapter{LHC and ATLAS}
 \paragraph{}
-The Large Hadron Collider (LHC) is a proton-proton collider at the European Organization for Nuclear Research (CERN) laboratory in Geneva, Switzerland~\cite{LHCPaper}.  ATLAS (A Toroidal LHC ApparatuS), CMS (the Compact Muon Solenoid), ALICE (A Large Ion Collider Experiment), and LHC$b$~\cite{ATLASPaper, CMSPaper, LHCbPaper, ALICEPaper} are the four main experiments. They are located at the Interaction points(IPs) of the accelerator. Figure~\ref{fig:LHC} shows a schematic of the LHC ring and its experiments. 
+The Large Hadron Collider (LHC) is a proton-proton ($pp$) collider at the European Organization for Nuclear Research (CERN) laboratory in Geneva, Switzerland~\cite{LHCPaper}.  ATLAS (A Toroidal LHC ApparatuS), CMS (the Compact Muon Solenoid), ALICE (A Large Ion Collider Experiment), and LHC$b$ (Large Hadron Collider beauty experiment) ~\cite{ATLASPaper, CMSPaper, LHCbPaper, ALICEPaper} are the four main experiments. They are located at the Interaction points(IPs) of the accelerator. Figure~\ref{fig:LHC} shows a schematic of the LHC ring and its experiments. 
 
 \begin{figure}[h!]
   \centering
@@ -20,18 +20,18 @@ The Large Hadron Collider (LHC) is a proton-proton collider at the European Orga
 \section{The Large Hadron Collider}
 \label{sec:LHC}
 \paragraph{}
-Protons accelerated in the LHC are from a red bottle of hydrogen gas. The whole acceleration takes around 25 minutes:
+Protons accelerated in the LHC are from a red bottle of hydrogen gas. The whole acceleration takes around 25 minutes in multiple steps:
 \begin{itemize}
 \item An electric field strips the electrons from the hydrogen to create protons; 
-\item A linear particle accelerator, Linac 2, accelerates the protons to 50 MeV; 
-\item The Proton Synchrotron Booster (PSB) accelerates the protons to 1.4 GeV;
-\item The Proton Synchrotron (PS) accelerates the protons to 25 GeV; 
-\item The Super Proton Synchrotron (SPS) accelerates the protons to 450 GeV; it sends the protons in bunch trains;
-\item The $16.7$ kilometers LHC accelerates the protons in a series of Radio Frequency cavities to the final TeV energies. The LHC uses 1232 Niobium Titanium magnetic dipole for steering the protons. They are cooled by superfluid helium to $1.9$ Kelvin, and can generate $8.33$ Tesla magnetic field.
+\item A linear particle accelerator, Linac 2, accelerates the protons to 50 \MeV; 
+\item The Proton Synchrotron Booster (PSB) accelerates the protons to 1.4 \GeV;
+\item The Proton Synchrotron (PS) accelerates the protons to 25 \GeV; 
+\item The Super Proton Synchrotron (SPS) accelerates the protons to 450 \GeV; it sends the protons in bunch trains;
+\item The $16.7$ kilometers LHC accelerates the protons in a series of Radio Frequency cavities to the final \TeV~ energies. The LHC uses 1232 Niobium Titanium magnetic dipole for steering the protons. The magnets are cooled by superfluid helium to $1.9$ Kelvin, and can generate $8.33$ Tesla magnetic field.
 \end{itemize}
 
 \paragraph{} 
-In proton-proton collisions, the rate of a certain physics process $R_{\rm phy} = L\sigma$, where $L$ ($m^{-2}s^{-1}$) is the instantaneous luminosity, and $\sigma$ ($m^2$) the cross section of physics process (like di-Higgs' $\sigma$~\ref{par:diHiggs-crosssection}). For a Gaussian beam profile, the instantaneous luminosity is defined in Eq\ref{Ch2:eq-lumi} ~\cite{LHCReview}:
+In proton-proton collisions, the rate of a certain physics process $R_{\rm phy} = L\sigma$, where $L$ ($m^{-2}s^{-1}$) is the instantaneous luminosity, and $\sigma$ ($m^2$) the cross section of physics process (like di-Higgs' $\sigma$, ~\ref{par:diHiggs-crosssection}). For a Gaussian beam profile, the instantaneous luminosity is defined in Eq\ref{Ch2:eq-lumi} ~\cite{LHCReview}:
 %
 \begin{equation}
 \label{Ch2:eq-lumi}
@@ -62,7 +62,7 @@ The target peak instantaneous luminosity for both the ATLAS and CMS experiments 
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=0.5\textwidth,angle=-90]{figures/detector/Mu_2015_2016}
-   \caption{The luminosity-weighted distribution of the mean number of interactions per crossing for the 2015 and 2016 pp collision data at $13$ \TeV centre-of-mass energy.~\cite{Lumi_Run2}}
+   \caption{The luminosity-weighted distribution of the mean number of interactions per crossing for the 2015 and 2016 $pp$ collision data at $13$ \TeV centre-of-mass energy.~\cite{Lumi_Run2}}
   \label{fig:Mu_2015_2016}
 \end{figure}
 %At the nominal LHC conditions, the beam energy is about 360 MegaJoules, and the LHC in total consumes 115 MegaWatt of power.
@@ -92,6 +92,11 @@ $\langle \mu \rangle$ & $19$ & $13$ & $41$ \\ \hline
 \section{A Toroidal LHC ApparatuS}
 \label{sec:ATLAS}
 
+\paragraph{}
+The ATLAS experiment~\cite{PERF-2007-01} at the LHC is a general-purpose particle detector with a near $4\pi$ coverage in solid angle and a forward-backward symmetric cylindrical geometry. 
+The ATLAS detector (Figure~\ref{fig:ATLAS}) consists of an inner tracking detector (ID) surrounded by a $2.3$ m diameter thin superconducting solenoid providing a 2T axial magnetic field, electromagnetic (EM) and hadronic calorimeters, and a muon spectrometer (MS). Three extra air-core toroid magnets generate the magnetic field in the MS. 
+%with $1.5$ to $5.5 ~\textrm{T} \cdot\textrm{m}$ of bending power at $0<|\eta|<1.4$ and approximately $1$ to $7.5 ~\textrm{T} \cdot\textrm{m}$ in the endcap region of $1.6 < |\eta| < 2.7$.
+
 \begin{figure}[h!]
   \centering
   \captionsetup{justification=centering}
@@ -100,10 +105,6 @@ $\langle \mu \rangle$ & $19$ & $13$ & $41$ \\ \hline
   \label{fig:ATLAS}
 \end{figure}
 
-\paragraph{}
-The ATLAS experiment~\cite{PERF-2007-01} at the LHC is a general-purpose particle detector with a near $4\pi$ coverage in solid angle and a forward-backward symmetric cylindrical geometry. 
-The ATLAS detector (Figure~\ref{fig:ATLAS}) consists of an inner tracking detector (ID) surrounded by a $2.3$ m diameter thin superconducting solenoid providing a 2T axial magnetic field, electromagnetic (EM) and hadronic calorimeters, and a muon spectrometer (MS). Three extra air-core toroid magnets generate the magnetic field in the MS. 
-%with $1.5$ to $5.5 ~\textrm{T} \cdot\textrm{m}$ of bending power at $0<|\eta|<1.4$ and approximately $1$ to $7.5 ~\textrm{T} \cdot\textrm{m}$ in the endcap region of $1.6 < |\eta| < 2.7$.
 %%%%%%%%%%%%%%
 \subsection{Coordinate System}
 \label{sec:ATLAS-coord}
@@ -111,10 +112,11 @@ The ATLAS detector (Figure~\ref{fig:ATLAS}) consists of an inner tracking detect
 ATLAS uses a right-handed coordinate system with its origin at the nominal IP in the center of the detector and the $z$-axis along the beam pipe.
 The $x$-axis points from the IP to the center of the LHC ring, the $y$-axis points towards the sky, and the $z$-axis points straight(like bridges) towards the Geneva airport(A side), back from the Charlie pub in France(C side).
 Cylindrical coordinates $(r,\phi)$ are used in the transverse plane, $\phi$ being the azimuthal angle around the $z$-axis.
-The pseudorapidity is defined in terms of the polar angle $\theta$ as $\eta = -\ln \tan(\theta/2)$. It is the massless approximation of rapidity, the angle parameterizing special relativity's boosts. Most hadron productions are roughly constant in $\eta$, and for two massless particles travelling in different directions, their difference in $\Delta \eta$ is invariant. 
+The pseudorapidity is defined in terms of the polar angle $\theta$ as $\eta = -\ln \tan(\theta/2)$. It is the massless approximation of rapidity, the angle parameterizing special relativity's boosts. Most hadron productions are roughly constant in $\eta$, and for two massless particles traveling in different directions, their difference in $\Delta \eta$ is invariant. 
 Therefore, angular distance is measured in units of $\Delta R = \sqrt{(\Delta\eta)^{2} + (\Delta\phi)^{2}}$.
 \paragraph{}
-The region with $\eta \sim 0$ is called ``central", consisting of the ``barrel" elements, surrounding the beam line cylindrically. At high $|\eta| > 2.5$, the region is refered to as ``forward", where ``endcap" detector elements are arranged as disks perpendicular to the beam line.
+The region with $|\eta| < 1.5$ is called ``central". It consists of the ``barrel" elements, surrounding the beam line cylindrically. For $|\eta| > 1.5$, the region is called ``endcap", and the detector elements are arranged as disks perpendicular to the beam line. At high $|\eta| > 2.5$, the region is referred to as ``forward".
+
 %%%%%%%%%%%%%%
 \subsection{Inner Detector}
 \paragraph{}
@@ -129,7 +131,7 @@ Figure~\ref{fig:Det_ID_rz} ~\cite{Aaboud:2017pjd} shows the $R$-$z$ distribution
 \begin{figure}[h!]
 \centering
 \captionsetup{justification=centering}
-    \begin{subfigure}[b]{0.5\textwidth}
+    \begin{subfigure}[b]{0.6\textwidth}
         \includegraphics[width=\textwidth]{figures/detector/ID_rzmap}
         \caption{The $R$-$z$ distribution of material's differential number of radiation lengths, $\frac{\Delta N_{X_0}}{\Delta r}$}
         \label{fig:Det_ID_rz}
@@ -149,10 +151,11 @@ Figure~\ref{fig:Det_ID_rz} ~\cite{Aaboud:2017pjd} shows the $R$-$z$ distribution
 \subsection{Calorimeter}
 \paragraph{}
 Lead/liquid-argon (LAr) finely segmented sampling calorimeters provide EM energy measurements. 
-A steel/scintillator-tile hadronic calorimeter (HCal) covers the central pseudorapidity range ($|\eta| < 1.7$).
+A steel/scintillator-tile hadronic calorimeter covers the central pseudorapidity range ($|\eta| < 1.7$).
 The endcap and forward regions are instrumented with copper/tungsten and LAr calorimeters for both the EM and hadronic energy measurements up to $|\eta| = 4.9$. The calorimeters also provide basic EM/Hadronic trigger information, with fast analogue summing in coarse granularity.
 \paragraph{}
 EM calorimeter (ECal) is designed to have $>22$ radiation lengths in the barrel and $> 24$ in the endcap. It provides EM measurement with $\sigma_E/E = 10\%/\sqrt{E} \oplus 0.7\%$. The hadronic calorimeter (HCal) has approximately $9.7$ interaction length in the barrel and $10$ in the endcap. HCal provides hadronic measurement with $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ in the Barrel and Endcap regions, and $\sigma_E/E = 100\%/\sqrt{E} \oplus 10\%$  in the forward region.
+
 %%%%%%%%%%%%%%
 \subsection{MuonSpectrometer}
 
@@ -211,7 +214,7 @@ Over 2015 and 2016, both the LHC and the ATLAS performed outstandingly ~\cite{Lu
         \caption{2016}
         \label{fig:Lumi_2016}
     \end{subfigure}
-\caption{Cumulative luminosity versus time delivered to (green) and recorded by ATLAS (yellow) during stable beams for pp collisions at $13$ \TeV centre-of-mass energy.}
+\caption{Cumulative luminosity vs. time delivered to (green) and recorded by ATLAS (yellow) during stable beams for $pp$ collisions at $13$ \TeV centre-of-mass energy.}
 \label{fig:Lumi}
 \end{figure}
 

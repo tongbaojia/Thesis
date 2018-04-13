@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  8 APR 2018 23:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  12 APR 2018 22:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,9 +1108,7 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count159
 \c@subtable=\count160
 )
-(./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
-(./chapters/conclusion.aux))
+(./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1194,11 +1192,14 @@ LaTeX Info: Redefining \nameref on input line 21.
 \@outlinefile=\write3
 \openout3 = `dissertation.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package caption Info: We need package `ragged2e' on input line 21.
- (./frontmatter/personalize.tex)
+(./frontmatter/personalize.tex)
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 25.
 LaTeX Font Info:    Try loading font information for U+msa on input line 25.
@@ -1234,205 +1235,41 @@ LaTeX Font Info:    Try loading font information for T1+ppl on input line 29.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-(./dissertation.toc
 
-LaTeX Font Warning: Font shape `EU1/EBGaramond(2)/bx/n' undefined
-(Font)              using `EU1/EBGaramond(2)/m/n' instead on input line 1.
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 1.
-)
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
- [4
+[4
 
-] (./dissertation.lof
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
+]
 
-Overfull \hbox (7.79584pt too wide) in paragraph at lines 3--3
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Fermions and bosons of the Standard M
-odel and their properties$[]$, where all the values 
- []
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
 
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 4.
-
-LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 4.
-
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 4.
-
-Overfull \hbox (11.57765pt too wide) in paragraph at lines 4--4
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Leading order Feynman diagrams contri
-buting to di-Higgs production via gluon-gluon 
- []
-
-
-Overfull \hbox (5.29234pt too wide) in paragraph at lines 4--4
- \EU1/EBGaramond(2)/bx/n/10.95 fusion, through the Higgs-fermion Yukawa interac
-tions 1.2a and the Higgs boson self- 
- []
-
-
-Overfull \hbox (9.75995pt too wide) in paragraph at lines 5--5
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Total cross sections (y-axis) at the 
-NLO in QCD for the six largest di-Higgs production 
- []
-
-
-Overfull \hbox (22.7649pt too wide) in paragraph at lines 5--5
- \EU1/EBGaramond(2)/bx/n/10.95 channels at p-p colliders at different energy (x
--axis). The thickness of the lines corresponds 
- []
-
-
-Overfull \hbox (16.14014pt too wide) in paragraph at lines 6--6
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 BSM Higgs boson pair production: non-
-resonant production proceeds through changes 
- []
-
-
-Overfull \hbox (9.14679pt too wide) in paragraph at lines 6--6
- \EU1/EBGaramond(2)/bx/n/10.95 in the SM Higgs couplings in 1.4a and 1.4b, reso
-nant production proceeds through 1.4c 
- []
-
-
-Overfull \hbox (12.22371pt too wide) in paragraph at lines 7--7
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Total cross sections (y-axis) at the 
-LO and NLO in QCD for di-Higgs production chan- 
- []
-
-
-Overfull \hbox (1.6642pt too wide) in paragraph at lines 7--7
- \EU1/EBGaramond(2)/bx/n/10.95 nels, at the $[] \OT1/cmr/m/n/10.95 = [][]$ \EU1
-/EBGaramond(2)/bx/n/10.95 TeV LHC as a function of the self-interaction couplin
-g $[]$ (x-axis) 
- []
-
-
-Overfull \hbox (2.64972pt too wide) in paragraph at lines 7--7
- \EU1/EBGaramond(2)/bx/n/10.95 . The dashed (solid) lines and light- (dark-) co
-lor bands correspond to the LO (NLO) 
- []
-
-
-Overfull \hbox (14.62904pt too wide) in paragraph at lines 7--7
- \EU1/EBGaramond(2)/bx/n/10.95 results and to the scale and PDF uncertainties a
-dded linearly. The SM values of the cross 
- []
-
-
-Overfull \hbox (22.87732pt too wide) in paragraph at lines 8--8
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Parton luminosity ratios as a functio
-n of resonance mass $[][]$ for $[][]\OML/cmm/m/it/10.95 =[]$ \EU1/EBGaramond(2)
-/bx/n/10.95 TeV$[]$. For a $[]$ TeV$[]$, 
- []
-
-
-Overfull \hbox (10.07384pt too wide) in paragraph at lines 9--9
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Summary of di-Higgs final states and 
-their ratios. Top left, $[][][][]$, has the largest branch- 
- []
-
-
-Overfull \hbox (13.93596pt too wide) in paragraph at lines 10--10
- \EU1/EBGaramond(2)/bx/n/10.95 searches in Higgs boson pair to $[][][][][][]$ ,
- $[][][][][][]$ , $[][][][]$ , and $[][][][]$  final states. The 
- []
-
-
-Overfull \hbox (0.25171pt too wide) in paragraph at lines 10--10
- \EU1/EBGaramond(2)/bx/n/10.95 expected limits from individual searches are als
-o shown. The green and yellow bands 
- []
-
-
-Overfull \hbox (21.64316pt too wide) in paragraph at lines 10--10
- \EU1/EBGaramond(2)/bx/n/10.95 represent $\OMS/cmsy/m/n/10.95 ^^F[][]$ \EU1/EBG
-aramond(2)/bx/n/10.95 and $\OMS/cmsy/m/n/10.95 ^^F[][]$ \EU1/EBGaramond(2)/bx/n
-/10.95 uncertainty ranges of the expected combined limits. The improve- 
- []
-
-
-Overfull \hbox (14.35959pt too wide) in paragraph at lines 12--12
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 A schematic view of the LHC ring$[]$.
- LINAC2, Booster, PS, SPS, and LHC accelerate the 
- []
-
-
-Overfull \hbox (15.96495pt too wide) in paragraph at lines 12--12
- \EU1/EBGaramond(2)/bx/n/10.95 protons in order. Four main experiments are loca
-ted at interaction points along the ring. 
- []
-
-
-Overfull \hbox (8.35834pt too wide) in paragraph at lines 12--12
- \EU1/EBGaramond(2)/bx/n/10.95 ATLAS and CMS are general purpose experiments, w
-hile ALICE focuses on heavy ion 
- []
+\tf@lof=\write5
+\openout5 = `dissertation.lof'.
 
 [5
 
 ]
-Overfull \hbox (9.9023pt too wide) in paragraph at lines 13--13
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The luminosity-weighted distribution 
-of the mean number of interactions per crossing 
- []
 
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
 
-Overfull \hbox (2.5658pt too wide) in paragraph at lines 17--17
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Cumulative luminosity versus time del
-ivered to (green) and recorded by ATLAS (yel- 
- []
-
-
-Overfull \hbox (13.6472pt too wide) in paragraph at lines 20--20
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Uncalibrated (dashed line) and calibr
-ated (solid line) reconstructed jet mass distribution 
- []
-
-
-Overfull \hbox (14.06523pt too wide) in paragraph at lines 20--20
- \EU1/EBGaramond(2)/bx/n/10.95 3.2a, and the jet mass resolution vs jet $[][]$ 
-3.2b for calorimeter-based jet mass, mcalo (red), 
- []
-
-
-Overfull \hbox (7.43854pt too wide) in paragraph at lines 20--20
- \EU1/EBGaramond(2)/bx/n/10.95 track-assisted jet mass mTA (black) and the inva
-riant mass of four-vector sum of tracks 
- []
-
-
-Overfull \hbox (33.34625pt too wide) in paragraph at lines 21--21
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Secondary vertex reconstruction rate 
-and Mv2c10 output for b-jets (solid blue), c-jets (dashed 
- []
-
-)
-\tf@lof=\write5
-\openout5 = `dissertation.lof'.
-
- [6] (./dissertation.lot)
 \tf@lot=\write6
 \openout6 = `dissertation.lot'.
 
- [7
+[6
 
-] (./frontmatter/dedication.tex) [8
+] (./frontmatter/dedication.tex) [7
 
-]
-(./frontmatter/thanks.tex
+] (./frontmatter/thanks.tex
 Overfull \hbox (16.6841pt too wide) in paragraph at lines 20--21
-\EU1/EBGaramond(2)/bx/n/10.95 gram and has contributed to every bit of the resu
-lt in my thesis. I am standing on the ATLAS(member)’s 
+\EU1/EBGaramond(2)/m/n/10.95 gram and has contributed to every bit of the resul
+t in my thesis. I am standing on the ATLAS(member)’s 
  []
 
-) [9
+) [8
 
 
 ]
@@ -1512,16 +1349,54 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
 
 
 ]
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 30.
+
+
+LaTeX Font Warning: Font shape `EU1/EBGaramond(2)/bx/n' undefined
+(Font)              using `EU1/EBGaramond(2)/m/n' instead on input line 30.
 
 
 Package natbib Warning: Citation `Aad:2012tfa' on page 2 undefined on input lin
 e 30.
 
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 8.0pt on input line 30.
 
 Package natbib Warning: Citation `Chatrchyan201230' on page 2 undefined on inpu
 t line 30.
+
+
+Package natbib Warning: Citation `Agashe:2007zd' on page 2 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `Fitzpatrick' on page 2 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `PhysRevD.8.1226' on page 2 undefined on input
+ line 30.
+
+
+Package natbib Warning: Citation `Branco:2011iw' on page 2 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `PhysRevD.86.095023' on page 2 undefined on in
+put line 30.
+
+
+Package natbib Warning: Citation `Grober:2010yv' on page 2 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `Contino:2012xk' on page 2 undefined on input 
+line 30.
+
+
+Package natbib Warning: Citation `EXOT-2015-11' on page 2 undefined on input li
+ne 32.
 
 
 Package natbib Warning: Citation `CMS-B2G-16-026' on page 2 undefined on input 
@@ -1530,6 +1405,22 @@ line 32.
 
 Package natbib Warning: Citation `CMS-HIG-14-013' on page 2 undefined on input 
 line 32.
+
+
+Package natbib Warning: Citation `Aad:2015uka' on page 2 undefined on input lin
+e 32.
+
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 9.35316pt on input line 32.
+
+LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 32.
+
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 32.
+
+Package natbib Warning: Citation `HIGG-2013-29' on page 2 undefined on input li
+ne 32.
 
 
 Package natbib Warning: Citation `HIGG-2013-33' on page 2 undefined on input li
@@ -1553,21 +1444,45 @@ nput line 32.
 
 
 Overfull \hbox (6.07236pt too wide) in paragraph at lines 32--33
-[]\EU1/EBGaramond(2)/bx/n/10.95 Previous searches for Higgs boson pair producti
-on have all yielded null results. In the $[][][][]$channel, 
+[]\EU1/EBGaramond(2)/m/n/10.95 Previous searches for Higgs boson pair productio
+n have all yielded null results. In the $[][][][]$channel, 
  []
 
 
 Overfull \hbox (6.64651pt too wide) in paragraph at lines 32--33
-\EU1/EBGaramond(2)/bx/n/10.95 ATLAS searched for both non-resonant and resonant
- production in the mass range of 400–3000 GeV 
+\EU1/EBGaramond(2)/m/n/10.95 ATLAS searched for both non-resonant and resonant 
+production in the mass range of 400–3000 GeV 
  []
 
-[2] [3]) [4]
+[2]
+
+Package natbib Warning: Citation `EXOT-2015-11' on page 3 undefined on input li
+ne 36.
+
+[3]) [4]
 \openout2 = `chapters/chapter1.aux'.
 
  (./chapters/chapter1.tex
 Chapter 1.
+
+Package natbib Warning: Citation `Pdg' on page 5 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Griffiths' on page 5 undefined on input line 
+13.
+
+
+Package natbib Warning: Citation `Tully' on page 5 undefined on input line 13.
+
+
+Package natbib Warning: Citation `Schwartz' on page 5 undefined on input line 1
+3.
+
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 13.
+
+LaTeX Warning: Reference `fig:SM' on page 5 undefined on input line 13.
+
 File: figures/theory/SM.png Graphic file (type QTm)
 <use  "figures/theory/SM.png" >
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
@@ -1582,73 +1497,266 @@ LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.09479pt on input line 19.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 5.66635pt on input line 19.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 19.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 7.0pt on input line 19.
+
+
+Package natbib Warning: Citation `Pdg' on page 5 undefined on input line 19.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `eqn:higgspotential' on page 5 undefined on input line
+ 26.
 
 [5
 
 
 
-] [6]
+]
+
+Package natbib Warning: Citation `ATLASHiggsDisc' on page 6 undefined on input 
+line 35.
+
+
+Package natbib Warning: Citation `CMSHiggsDisc' on page 6 undefined on input li
+ne 35.
+
+[6]
+
+LaTeX Warning: Reference `eqn:higgspotential' on page 7 undefined on input line
+ 46.
+
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/bx/n' will be
 (Font)              scaled to size 9.35316pt on input line 46.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 (Font)              scaled to size 6.0pt on input line 46.
+
+LaTeX Warning: Reference `fig:SM_HH' on page 7 undefined on input line 68.
+
+
+LaTeX Warning: Reference `fig:SM_HH_tri' on page 7 undefined on input line 68.
+
+
+Package natbib Warning: Citation `Pdg' on page 7 undefined on input line 68.
+
 File: figures/theory/SM_HH_box.pdf Graphic file (type QTm)
- <use  "figures/theory/SM_HH_box.pdf" >
+<use  "figures/theory/SM_HH_box.pdf" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
 (Font)              scaled to size 8.7515pt on input line 75.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 8.86378pt on input line 75.
 File: figures/theory/SM_HH_tri.pdf Graphic file (type QTm)
+ <use  "figures/theory/SM_HH_tri.pdf" >
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 84.
 
-<use  "figures/theory/SM_HH_tri.pdf" >
+
+LaTeX Warning: Reference `fig:SM_HH_box' on page 7 undefined on input line 84.
+
+
+LaTeX Warning: Reference `fig:SM_HH_tri' on page 7 undefined on input line 84.
+
+
+LaTeX Warning: Reference `fig:SM_HH_tri' on page 7 undefined on input line 84.
+
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
 (Font)              scaled to size 8.54172pt on input line 84.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
 (Font)              scaled to size 8.54172pt on input line 84.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 4.0474pt on input line 84.
- [7]
+
+LaTeX Warning: Reference `fig:SM_HH_xsec' on page 7 undefined on input line 89.
+
+
+
+Package natbib Warning: Citation `Frederix:2014hta' on page 7 undefined on inpu
+t line 89.
+
+[7]
 File: figures/theory/HH_xsec.png Graphic file (type QTm)
+ <use  "figures/theory/HH_xsec.png" >
 
-<use  "figures/theory/HH_xsec.png" > [8]
+Package natbib Warning: Citation `LHCYellow' on page 8 undefined on input line 
+101.
+
+[8]
 File: figures/theory/BSM_HH_box.pdf Graphic file (type QTm)
-
-<use  "figures/theory/BSM_HH_box.pdf" >
+ <use  "figures/theory/BSM_HH_box.pdf" >
 File: figures/theory/BSM_HH_tri.pdf Graphic file (type QTm)
 
 <use  "figures/theory/BSM_HH_tri.pdf" >
 File: figures/theory/BSM_HH_X.pdf Graphic file (type QTm)
  <use  "figures/theory/BSM_HH_X.pdf" >
-[9]
-File: figures/theory/HH_lam.png Graphic file (type QTm)
- <use  "figures/theory/HH_lam.png" > [10] [11]
-File: figures/theory/lhclumi7813_2013_v1.pdf Graphic file (type QTm)
 
-<use  "figures/theory/lhclumi7813_2013_v1.pdf" >
+LaTeX Warning: Reference `fig:BSM_HH_box' on page 9 undefined on input line 132
+.
+
+
+LaTeX Warning: Reference `fig:BSM_HH_tri' on page 9 undefined on input line 132
+.
+
+
+LaTeX Warning: Reference `fig:BSM_HH_X' on page 9 undefined on input line 132.
+
+
+Package natbib Warning: Citation `Grober:2010yv' on page 9 undefined on input l
+ine 138.
+
+
+Package natbib Warning: Citation `Contino:2012xk' on page 9 undefined on input 
+line 138.
+
+
+Package natbib Warning: Citation `PhysRevD.86.095023' on page 9 undefined on in
+put line 138.
+
+
+LaTeX Warning: Reference `fig:BSM_HH' on page 9 undefined on input line 138.
+
+
+LaTeX Warning: Reference `eqn:higgspotential' on page 9 undefined on input line
+ 138.
+
+
+LaTeX Warning: Reference `fig:BSM_HH_tri' on page 9 undefined on input line 138
+.
+
+[9]
+
+Package natbib Warning: Citation `Kribs:2017znd' on page 10 undefined on input 
+line 141.
+
+
+LaTeX Warning: Reference `fig:SM_HH_lam' on page 10 undefined on input line 141
+.
+
+
+Package natbib Warning: Citation `Frederix:2014hta' on page 10 undefined on inp
+ut line 141.
+
+File: figures/theory/HH_lam.png Graphic file (type QTm)
+<use  "figures/theory/HH_lam.png" >
+
+Package natbib Warning: Citation `PhysRevD.8.1226' on page 10 undefined on inpu
+t line 153.
+
+
+Package natbib Warning: Citation `Branco:2011iw' on page 10 undefined on input 
+line 153.
+
+
+Package natbib Warning: Citation `Agashe:2007zd' on page 10 undefined on input 
+line 153.
+
+
+Package natbib Warning: Citation `Fitzpatrick' on page 10 undefined on input li
+ne 153.
+
+
+LaTeX Warning: Reference `fig:BSM_HH_X' on page 10 undefined on input line 153.
+
+
+[10]
+
+Package natbib Warning: Citation `LHCYellow' on page 11 undefined on input line
+ 156.
+
+[11]
+File: figures/theory/lhclumi7813_2013_v1.pdf Graphic file (type QTm)
+ <use  "figures/theory/lhclumi7813_2013_v1.pdf" >
+
+Package natbib Warning: Citation `LumiRatio' on page 12 undefined on input line
+ 168.
+
+
+Package natbib Warning: Citation `Cavaliere:2203605' on page 12 undefined on in
+put line 173.
+
+
+LaTeX Warning: Reference `fig:lumi_ratio' on page 12 undefined on input line 17
+7.
+
+
 Overfull \hbox (1.66702pt too wide) in paragraph at lines 177--178
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Generally, it is easy theoretically for n
 ew heavy resonance particles to interact with the SM through 
  []
 
 [12]
-File: figures/theory/HH_BR.png Graphic file (type QTm)
- <use  "figures/theory/HH_BR.png" >
-File: figures/theory/Run1_ATLAS.pdf Graphic file (type QTm)
 
+LaTeX Warning: Reference `eqn:higgspotential' on page 13 undefined on input lin
+e 182.
+
+
+LaTeX Warning: Reference `fig:HH_BR' on page 13 undefined on input line 182.
+
+File: figures/theory/HH_BR.png Graphic file (type QTm)
+<use  "figures/theory/HH_BR.png" >
+
+Package caption Warning: `ragged2e' support has been changed.
+(caption)                Rerun to get captions right on input line 187.
+See the caption package documentation for explanation.
+
+File: figures/theory/Run1_ATLAS.pdf Graphic file (type QTm)
 <use  "figures/theory/Run1_ATLAS.pdf" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Aad:2015uka' on page 13 undefined on input li
+ne 199.
+
+
+Package natbib Warning: Citation `HIGG-2013-29' on page 13 undefined on input l
+ine 199.
+
+
+Package natbib Warning: Citation `Aad:2015xja' on page 13 undefined on input li
+ne 199.
+
+
+LaTeX Warning: Reference `fig:Run1_ATLAS' on page 13 undefined on input line 19
+9.
 
 [13] [14]) [15]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
 Chapter 2.
+
+Package natbib Warning: Citation `LHCPaper' on page 16 undefined on input line 
+10.
+
+
+Package natbib Warning: Citation `ATLASPaper' on page 16 undefined on input lin
+e 10.
+
+
+Package natbib Warning: Citation `CMSPaper' on page 16 undefined on input line 
+10.
+
+
+Package natbib Warning: Citation `LHCbPaper' on page 16 undefined on input line
+ 10.
+
+
+Package natbib Warning: Citation `ALICEPaper' on page 16 undefined on input lin
+e 10.
+
+
+LaTeX Warning: Reference `fig:LHC' on page 16 undefined on input line 10.
+
 File: figures/detector/Cern-Accelerator-Complex.jpg Graphic file (type QTm)
 <use  "figures/detector/Cern-Accelerator-Complex.jpg" >
+
+Package natbib Warning: Citation `LHCReview' on page 16 undefined on input line
+ 16.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1658,7 +1766,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ] [17]
 
+LaTeX Warning: Reference `par:diHiggs-crosssection' on page 18 undefined on inp
+ut line 34.
+
+
+LaTeX Warning: Reference `Ch2:eq-lumi' on page 18 undefined on input line 34.
+
+
+Package natbib Warning: Citation `LHCReview' on page 18 undefined on input line
+ 34.
+
+
+LaTeX Warning: Reference `Ch2:eq-lumi' on page 18 undefined on input line 41.
+
+
+Package natbib Warning: Citation `lumi-paper' on page 18 undefined on input lin
+e 53.
+
+
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 59.
+
+
+Package natbib Warning: Citation `LHCPaper' on page 18 undefined on input line 
+59.
+
+
+LaTeX Warning: Reference `fig:Mu_2015_2016' on page 18 undefined on input line 
+59.
+
+
+LaTeX Warning: Reference `Ch2:tab-lhc' on page 18 undefined on input line 59.
 
 
 Overfull \hbox (0.48906pt too wide) in paragraph at lines 57--60
@@ -1666,10 +1803,12 @@ Overfull \hbox (0.48906pt too wide) in paragraph at lines 57--60
 ch crossing. At each bunch crossing, multiple proton- 
  []
 
+[18]
 File: figures/detector/Mu_2015_2016.pdf Graphic file (type QTm)
-<use  "figures/detector/Mu_2015_2016.pdf" >
+ <use  "figures/detector/Mu_2015_2016.pdf" >
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `Lumi_Run2' on page 19 undefined on input line
+ 65.
 
 
 LaTeX Warning: No positions in optional float specifier.
@@ -1688,47 +1827,94 @@ Overfull \hbox (8.89471pt too wide) in alignment at lines 71--86
 [] [] [] []
  []
 
-File: figures/detector/ATLAS.jpg Graphic file (type QTm)
-<use  "figures/detector/ATLAS.jpg" > [18] [19] [20]
-File: figures/detector/ID_rzmap.png Graphic file (type QTm)
 
+Package natbib Warning: Citation `LHCPaper' on page 19 undefined on input line 
+87.
+
+
+Package natbib Warning: Citation `LHC_2015' on page 19 undefined on input line 
+87.
+
+
+Package natbib Warning: Citation `LHC_2016' on page 19 undefined on input line 
+87.
+
+
+Package natbib Warning: Citation `PERF-2007-01' on page 19 undefined on input l
+ine 96.
+
+
+LaTeX Warning: Reference `fig:ATLAS' on page 19 undefined on input line 97.
+
+File: figures/detector/ATLAS.jpg Graphic file (type QTm)
+<use  "figures/detector/ATLAS.jpg" > [19] [20]
+
+Package natbib Warning: Citation `Capeans:1291633' on page 21 undefined on inpu
+t line 125.
+
+
+Package natbib Warning: Citation `ATL-PHYS-PUB-2015-022' on page 21 undefined o
+n input line 125.
+
+
+LaTeX Warning: Reference `fig:Det_ID_rz' on page 21 undefined on input line 129
+.
+
+
+Package natbib Warning: Citation `Aaboud:2017pjd' on page 21 undefined on input
+ line 129.
+
+
+LaTeX Warning: Reference `fig:Det_ID_xy' on page 21 undefined on input line 129
+.
+
+File: figures/detector/ID_rzmap.png Graphic file (type QTm)
 <use  "figures/detector/ID_rzmap.png" >
 File: figures/detector/ID_data_map_XY.png Graphic file (type QTm)
 
-<use  "figures/detector/ID_data_map_XY.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21]
+<use  "figures/detector/ID_data_map_XY.png" > [21]
 File: figures/detector/MS_rz.png Graphic file (type QTm)
- <use  "figures/detector/MS_rz.png" >
+
+<use  "figures/detector/MS_rz.png" >
 File: figures/detector/MS_phi.png Graphic file (type QTm)
-
-<use  "figures/detector/MS_phi.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ <use  "figures/detector/MS_phi.png" >
 [22]
+
+LaTeX Warning: Reference `fig:Det_MS' on page 23 undefined on input line 181.
+
+
+Package natbib Warning: Citation `ATLAS-TRIGGER' on page 23 undefined on input 
+line 191.
+
+[23]
+
+Package natbib Warning: Citation `Lumi_Run2' on page 24 undefined on input line
+ 197.
+
+
+LaTeX Warning: Reference `fig:Lumi' on page 24 undefined on input line 197.
+
 File: figures/detector/Lumi_2015.pdf Graphic file (type QTm)
- <use  "figures/detector/Lumi_2015.pdf" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 201--202
+<use  "figures/detector/Lumi_2015.pdf" >
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 204--205
 [][] 
  []
 
 File: figures/detector/Lumi_2016.pdf Graphic file (type QTm)
 <use  "figures/detector/Lumi_2016.pdf" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 210--211
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 213--214
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [23] [24]
+) [24]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 Chapter 3.
+
+LaTeX Warning: Reference `fig:obj_reco_overview' on page 25 undefined on input 
+line 13.
+
 File: figures/detector/ATLAS_particle.jpg Graphic file (type QTm)
 <use  "figures/detector/ATLAS_particle.jpg" >
 
@@ -1738,120 +1924,77 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-] [26] [27]
+]
+
+Package natbib Warning: Citation `Aaboud:2017all' on page 26 undefined on input
+ line 40.
+
+[26]
+
+Package natbib Warning: Citation `PERF-2014-07' on page 27 undefined on input l
+ine 47.
+
+
+Package natbib Warning: Citation `Cacciari:2008gn' on page 27 undefined on inpu
+t line 55.
+
+
+Package natbib Warning: Citation `Aad:2011he' on page 27 undefined on input lin
+e 56.
+
+
+Package natbib Warning: Citation `ATL-PHYS-PUB-2015-015' on page 27 undefined o
+n input line 57.
+
+
+Package natbib Warning: Citation `Aad:2011he' on page 27 undefined on input lin
+e 72.
+
+
+Package natbib Warning: Citation `Krohn2010' on page 27 undefined on input line
+ 72.
+
+
+Package natbib Warning: Citation `Ellis:1993tq' on page 27 undefined on input l
+ine 73.
+
+
+Package natbib Warning: Citation `PERF-2012-02' on page 27 undefined on input l
+ine 74.
+
+[27]
 File: figures/object/Jet_mass.pdf Graphic file (type QTm)
  <use  "figures/object/Jet_mass.pdf" >
-Overfull \hbox (7.55154pt too wide) in paragraph at lines 81--82
+Overfull \hbox (9.70746pt too wide) in paragraph at lines 100--101
 [][] 
  []
 
 File: figures/object/Jet_mass_resolution.pdf Graphic file (type QTm)
 <use  "figures/object/Jet_mass_resolution.pdf" >
-Overfull \hbox (7.55154pt too wide) in paragraph at lines 90--91
+Overfull \hbox (9.70746pt too wide) in paragraph at lines 106--107
 [][] 
  []
 
-[28] [29] [30]
-File: figures/object/b_sv.png Graphic file (type QTm)
- <use  "figures/object/b_sv.png" >
-File: figures/object/b_mv2.png Graphic file (type QTm)
 
-<use  "figures/object/b_mv2.png" >
+LaTeX Warning: Reference `fig:obj_jet_mass_dist' on page 28 undefined on input 
+line 110.
+
+
+LaTeX Warning: Reference `fig:obj_jet_mass_resolution' on page 28 undefined on 
+input line 110.
+
+
+Package natbib Warning: Citation `ATLAS-CONF-2016-035' on page 28 undefined on 
+input line 110.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31] [32] [33]
+[28]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 222.
+LaTeX Warning: Reference `fig:obj_jet_mass' on page 29 undefined on input line 
+120.
 
-) [34]
-\openout2 = `chapters/chapter4.aux'.
+[29]
 
- (./chapters/chapter4.tex
-Chapter 4.
-
-LaTeX Warning: Reference `sec:resolved' on page 35 undefined on input line 17.
-
-[35
-
-
-
-]
-
-Package natbib Warning: Citation `Cacciari:2008gp' on page 36 undefined on inpu
-t line 20.
-
-
-LaTeX Warning: Reference `sec:boosted' on page 36 undefined on input line 20.
-
-) [36]
-\openout2 = `chapters/conclusion.aux'.
-
- (./chapters/conclusion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-[]\EU1/EBGaramond(2)/m/it/10 It is a far, far better thing that I do, than I ha
-ve ever
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-\EU1/EBGaramond(2)/m/it/10 done; it is a far, far better rest that I go to than
- I have
- []
-
-Chapter 5.
-
-Package natbib Warning: Citation `Aaboud:2016xco' on page 37 undefined on input
- line 15.
-
-[37
-
-
-
-]) [38] (./dissertation.bbl [39
-
-
-
-] [40]
-Underfull \hbox (badness 1997) in paragraph at lines 171--176
-[]\EU1/EBGaramond(2)/bx/n/10.95 Georges Aad et al.  Searches for Higgs boson pa
-ir production in the $[][] \OMS/cmsy/m/n/10.95 ! 
- []
-
-[41] [42]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 340.
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-[43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
- (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux) (.
-/chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./
-chapters/conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 65.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
-Here is how much of TeX's memory you used:
- 25686 strings out of 493706
- 468002 string characters out of 6145769
- 537915 words of memory out of 5000000
- 28602 multiletter control sequences out of 15000+600000
- 18818 words of font info for 143 fonts, out of 8000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 60i,13n,104p,10522b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on dissertation.pdf (52 pages).
+Pac

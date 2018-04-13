@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{71}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -38,6 +38,14 @@ Lyndon Evans.
   data}.
 \newblock {ATLAS-CONF-2016-035}, 2016{\natexlab{a}}.
 \newblock URL \url{https://cds.cern.ch/record/2200211}.
+
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{b}})]{btaggingRun2}
+{ATLAS Collaboration}.
+\newblock {Optimisation of the ATLAS $b$-tagging performance for the 2016 LHC
+  Run}.
+\newblock \emph{ATL-PHYS-PUB-2016-012}, \penalty0 (ATL-PHYS-PUB-2016-012), Jun
+  2016{\natexlab{b}}.
+\newblock URL \url{https://cds.cern.ch/record/2160731}.
 
 \bibitem[Agashe et~al.(2007)Agashe, Davoudiasl, Perez, and Soni]{Agashe:2007zd}
 Kaustubh Agashe, Hooman Davoudiasl, Gilad Perez, and Amarjit Soni.
@@ -82,12 +90,12 @@ Roberto Contino et~al.
 \newblock \emph{JHEP}, 08:\penalty0 154, 2012.
 \newblock \doi{10.1007/JHEP08(2012)154}.
 
-\bibitem[{ATLAS Collaboration}(2016{\natexlab{b}})]{EXOT-2015-11}
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{c}})]{EXOT-2015-11}
 {ATLAS Collaboration}.
 \newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
   final state using proton--proton collisions at $\sqrt{s} = 13\;\mbox{TeV}$
   with the ATLAS detector}.
-\newblock \emph{Phys. Rev. D}, 94:\penalty0 052002, 2016{\natexlab{b}}.
+\newblock \emph{Phys. Rev. D}, 94:\penalty0 052002, 2016{\natexlab{c}}.
 \newblock \doi{10.1103/PhysRevD.94.052002}.
 
 \bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{Aad:2015uka}
@@ -122,11 +130,11 @@ Matthew~D. Schwartz.
 \newblock Cambridge University Press, 2014.
 \newblock ISBN 1107034736, 9781107034730.
 
-\bibitem[{ATLAS Collaboration}(2012)]{ATLASHiggsDisc}
+\bibitem[{ATLAS Collaboration}(2012{\natexlab{a}})]{ATLASHiggsDisc}
 {ATLAS Collaboration}.
 \newblock {Observation of a new particle in the search for the Standard Model
   Higgs boson with the ATLAS detector at the LHC}.
-\newblock \emph{Phys. Lett. B}, 716:\penalty0 1, 2012.
+\newblock \emph{Phys. Lett. B}, 716:\penalty0 1, 2012{\natexlab{a}}.
 \newblock \doi{10.1016/j.physletb.2012.08.020}.
 
 \bibitem[{CMS Collaboration}(2012)]{CMSHiggsDisc}
@@ -235,10 +243,10 @@ LHCb Collaoration.
 \newblock \emph{JINST}, 3:\penalty0 S08003, 2008{\natexlab{b}}.
 \newblock \doi{10.1088/1748-0221/3/08/S08003}.
 
-\bibitem[{ATLAS Collaboration}(2010)]{Capeans:1291633}
+\bibitem[{ATLAS Collaboration}(2010{\natexlab{a}})]{Capeans:1291633}
 {ATLAS Collaboration}.
 \newblock {ATLAS Insertable B-Layer Technical Design Report}.
-\newblock CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010.
+\newblock CERN-LHCC-2010-013. ATLAS-TDR-19, Sep 2010{\natexlab{a}}.
 \newblock URL \url{https://cds.cern.ch/record/1291633}.
 
 \bibitem[{ATLAS Collaboration}(2015{\natexlab{d}})]{ATL-PHYS-PUB-2015-022}
@@ -259,6 +267,14 @@ Morad Aaboud et~al.
 \newblock {Performance of the ATLAS Trigger System in 2015}.
 \newblock \emph{Eur. Phys. J. C}, 77:\penalty0 317, 2017{\natexlab{a}}.
 \newblock \doi{10.1140/epjc/s10052-017-4852-3}.
+
+\bibitem[Aaboud et~al.(2017{\natexlab{b}})]{Aaboud:2017all}
+M.~Aaboud et~al.
+\newblock {Performance of the ATLAS Track Reconstruction Algorithms in Dense
+  Environments in LHC Run 2}.
+\newblock \emph{Eur. Phys. J.}, C77\penalty0 (10):\penalty0 673,
+  2017{\natexlab{b}}.
+\newblock \doi{10.1140/epjc/s10052-017-5225-7}.
 
 \bibitem[{ATLAS Collaboration}(2017{\natexlab{b}})]{PERF-2014-07}
 {ATLAS Collaboration}.
@@ -307,22 +323,6 @@ Stephen~D. Ellis and Davison~E. Soper.
 \newblock \emph{JHEP}, 09:\penalty0 076, 2013{\natexlab{b}}.
 \newblock \doi{10.1007/JHEP09(2013)076}.
 
-\bibitem[Aaboud et~al.(2017{\natexlab{b}})]{Aaboud:2017all}
-M.~Aaboud et~al.
-\newblock {Performance of the ATLAS Track Reconstruction Algorithms in Dense
-  Environments in LHC Run 2}.
-\newblock \emph{Eur. Phys. J.}, C77\penalty0 (10):\penalty0 673,
-  2017{\natexlab{b}}.
-\newblock \doi{10.1140/epjc/s10052-017-5225-7}.
-
-\bibitem[{ATLAS Collaboration}(2016{\natexlab{c}})]{btaggingRun2}
-{ATLAS Collaboration}.
-\newblock {Optimisation of the ATLAS $b$-tagging performance for the 2016 LHC
-  Run}.
-\newblock \emph{ATL-PHYS-PUB-2016-012}, \penalty0 (ATL-PHYS-PUB-2016-012), Jun
-  2016{\natexlab{c}}.
-\newblock URL \url{https://cds.cern.ch/record/2160731}.
-
 \bibitem[{ATLAS Collaboration}(2016{\natexlab{d}})]{Aad:2015ydr}
 {ATLAS Collaboration}.
 \newblock {Performance of $b$-jet identification in the ATLAS experiment}.
@@ -347,6 +347,132 @@ Georges Aad et~al.
   proton–proton collision data at $\sqrt{s}$ =13 TeV}.
 \newblock \emph{Eur. Phys. J.}, C76\penalty0 (5):\penalty0 292, 2016.
 \newblock \doi{10.1140/epjc/s10052-016-4120-y}.
+
+\bibitem[Sjostrand et~al.(2006)Sjostrand, Mrenna, and Skands]{Sjostrand:2006za}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {PYTHIA 6.4 physics and manual}.
+\newblock \emph{JHEP}, 05:\penalty0 026, 2006.
+\newblock \doi{10.1088/1126-6708/2006/05/026}.
+
+\bibitem[{ATLAS Collaboration}(2012{\natexlab{b}})]{MC12AU2}
+{ATLAS Collaboration}.
+\newblock {Summary of ATLAS Pythia 8 tunes}.
+\newblock 2012{\natexlab{b}}.
+\newblock URL \url{http://cdsweb.cern.ch/record/1474107}.
+
+\bibitem[Agostinelli et~al.(2003)]{Agostinelli:2002hh}
+S.~Agostinelli et~al.
+\newblock {GEANT4: a simulation toolkit}.
+\newblock \emph{Nucl. Instrum. Meth. A}, 506:\penalty0 250--303, 2003.
+\newblock \doi{10.1016/S0168-9002(03)01368-8}.
+
+\bibitem[{ATLAS Collaboration}(2010{\natexlab{b}})]{Aad:2010ah}
+{ATLAS Collaboration}.
+\newblock {The ATLAS Simulation Infrastructure}.
+\newblock \emph{Eur. Phys. J. C}, 70:\penalty0 823--874, 2010{\natexlab{b}}.
+\newblock \doi{10.1140/epjc/s10052-010-1429-9}.
+
+\bibitem[Alioli et~al.(2010)Alioli, Nason, Oleari, and Re]{Alioli:2010xd}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {A general framework for implementing NLO calculations in shower
+  Monte Carlo programs: the POWHEG BOX}.
+\newblock \emph{JHEP}, 06:\penalty0 043, 2010.
+\newblock \doi{10.1007/JHEP06(2010)043}.
+
+\bibitem[Skands(2010)]{Skands:2010ak}
+Peter~Zeiler Skands.
+\newblock {Tuning Monte Carlo generators: The Perugia tunes}.
+\newblock \emph{Phys. Rev. D}, 82:\penalty0 074018, 2010.
+\newblock \doi{10.1103/PhysRevD.82.074018}.
+
+\bibitem[Czakon and Mitov(2014)]{Czakon:20142930}
+Micha{\l} Czakon and Alexander Mitov.
+\newblock Top++: A program for the calculation of the top-pair cross-section at
+  hadron colliders.
+\newblock \emph{Comput. Phys. Commun.}, 185:\penalty0 2930, 2014.
+\newblock ISSN 0010-4655.
+\newblock \doi{10.1016/j.cpc.2014.06.021}.
+
+\bibitem[Alwall et~al.(2014)]{MGaMCatNLO}
+J.~Alwall et~al.
+\newblock {The automated computation of tree-level and next-to-leading order
+  differential cross sections, and their matching to parton shower
+  simulations}.
+\newblock \emph{JHEP}, 07:\penalty0 079, 2014.
+\newblock \doi{10.1007/JHEP07(2014)079}.
+
+\bibitem[Ball et~al.(2013)]{Ball:2012cx}
+Richard~D. Ball et~al.
+\newblock {Parton distributions with LHC data}.
+\newblock \emph{Nucl. Phys. B}, 867:\penalty0 244, 2013.
+\newblock \doi{10.1016/j.nuclphysb.2012.10.003}.
+
+\bibitem[Carvalho(2017)]{carvalho}
+A.~Carvalho.
+\newblock {Gravity particles from Warped Extra Dimensions, predictions for
+  LHC}.
+\newblock 2017.
+
+\bibitem[Bahr et~al.(2008)]{Bahr:2008pv}
+M.~Bahr et~al.
+\newblock {Herwig++ physics and manual}.
+\newblock \emph{Eur. Phys. J. C}, 58:\penalty0 639--707, 2008.
+\newblock \doi{10.1140/epjc/s10052-008-0798-9}.
+
+\bibitem[Lai et~al.(2010)Lai, Guzzi, Huston, Li, Nadolsky, Pumplin, and
+  Yuan]{Lai:2010vv}
+Hung-Liang Lai, Marco Guzzi, Joey Huston, Zhao Li, Pavel~M. Nadolsky, Jon
+  Pumplin, and C.~P. Yuan.
+\newblock {New parton distributions for collider physics}.
+\newblock \emph{Phys. Rev. D}, 82:\penalty0 074024, 2010.
+\newblock \doi{10.1103/PhysRevD.82.074024}.
+
+\bibitem[Nadolsky et~al.(2008)]{cteq6l1}
+Pavel~M. Nadolsky et~al.
+\newblock Implications of cteq global analysis for collider observables.
+\newblock \emph{Phys. Rev. D}, 78:\penalty0 013004, 2008.
+\newblock \doi{10.1103/PhysRevD.78.013004}.
+
+\bibitem[Seymour and Siodmok(2013)]{Seymour:2013qka}
+Michael~H. Seymour and Andrzej Siodmok.
+\newblock {Constraining MPI models using $\sigma_{eff}$ and recent Tevatron and
+  LHC Underlying Event data}.
+\newblock \emph{JHEP}, 10:\penalty0 113, 2013.
+\newblock \doi{10.1007/JHEP10(2013)113}.
+
+\bibitem[Dawson et~al.(1998)Dawson, Dittmaier, and Spira]{PhysRevD.58.115012}
+S.~Dawson, S.~Dittmaier, and M.~Spira.
+\newblock {Neutral Higgs boson pair production at hadron colliders: QCD
+  corrections}.
+\newblock \emph{Phys. Rev. D}, 58:\penalty0 115012, 1998.
+\newblock \doi{10.1103/PhysRevD.58.115012}.
+
+\bibitem[Plehn et~al.(1996)Plehn, Spira, and Zerwas]{Plehn199646}
+T.~Plehn, M.~Spira, and P.M. Zerwas.
+\newblock {Pair production of neutral Higgs particles in gluon-gluon
+  collisions}.
+\newblock \emph{Nucl. Phys. B}, 479:\penalty0 46, 1996.
+\newblock \doi{10.1016/0550-3213(96)00418-X}.
+\newblock [Erratum: Nucl. Phys. B \textbf{531} (1998) 655].
+
+\bibitem[Borowka et~al.(2016{\natexlab{a}})Borowka, Greiner, Heinrich, Jones,
+  Kerner, Schlenk, Schubert, and Zirke]{Borowka:2016ehy}
+S.~Borowka, N.~Greiner, G.~Heinrich, S.~P. Jones, M.~Kerner, J.~Schlenk,
+  U.~Schubert, and T.~Zirke.
+\newblock {Higgs boson pair production in gluon fusion at NLO with full
+  top-quark mass dependence}.
+\newblock \emph{Phys. Rev. Lett.}, 117\penalty0 (1):\penalty0 012001,
+  2016{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevLett.117.012001}.
+
+\bibitem[Borowka et~al.(2016{\natexlab{b}})Borowka, Greiner, Heinrich, Jones,
+  Kerner, Schlenk, and Zirke]{Borowka:2016ypz}
+S.~Borowka, N.~Greiner, G.~Heinrich, S.~P. Jones, M.~Kerner, J.~Schlenk, and
+  T.~Zirke.
+\newblock {Full top quark mass dependence in Higgs boson pair production at
+  NLO}.
+\newblock \emph{JHEP}, 10:\penalty0 107, 2016{\natexlab{b}}.
+\newblock \doi{10.1007/JHEP10(2016)107}.
 
 \bibitem[Richter(2014)]{Richter:2014pga}
 Burton Richter.

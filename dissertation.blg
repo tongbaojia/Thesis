@@ -5,11 +5,6 @@ A level-1 auxiliary file: chapters/introduction.aux
 A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
-Case mismatch error between cite keys PDG and Pdg
----line 43 of file chapters/chapter3.aux
- : \citation{PDG
- :              }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/conclusion.aux
 The style file: unsrtnat.bst
@@ -23,56 +18,58 @@ Warning--I didn't find a database entry for "CMS-HIG-17-002"
 Warning--I didn't find a database entry for "CMSHIG17006"
 Warning--I didn't find a database entry for "Khachatryan:2016sey"
 Warning--I didn't find a database entry for "Khachatryan:2014jya"
-Warning--I didn't find a database entry for "Cacciari:2008gp"
+Warning--I didn't find a database entry for "EvtGen"
 Warning--I didn't find a database entry for "Aaboud:2016xco"
 Warning--empty note in LumiRatio
 Warning--empty note in Lumi_Run2
+Warning--there's a number but no volume in btaggingRun2
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
-Warning--there's a number but no volume in btaggingRun2
 Warning--empty author in ATLAS-CONF-2016-024
 Warning--empty author in ATLAS-CONF-2017-029
+Warning--empty journal in MC12AU2
+Warning--empty journal in carvalho
 Warning--empty journal in Hawking:2018tcn
-You've used 53 entries,
+You've used 71 entries,
             2481 wiz_defined-function locations,
-            926 strings with 13510 characters,
-and the built_in function-call counts, 17305 in all, are:
-= -- 1574
-> -- 607
-< -- 48
-+ -- 289
-- -- 172
-* -- 1214
-:= -- 2834
-add.period$ -- 208
-call.type$ -- 53
-change.case$ -- 103
-chr.to.int$ -- 42
-cite$ -- 64
-duplicate$ -- 952
-empty$ -- 1671
-format.name$ -- 243
-if$ -- 3672
-int.to.chr$ -- 12
-int.to.str$ -- 54
-missing$ -- 45
-newline$ -- 322
-num.names$ -- 153
-pop$ -- 340
+            1047 strings with 16553 characters,
+and the built_in function-call counts, 24158 in all, are:
+= -- 2153
+> -- 971
+< -- 59
++ -- 434
+- -- 278
+* -- 1752
+:= -- 3979
+add.period$ -- 281
+call.type$ -- 71
+change.case$ -- 139
+chr.to.int$ -- 57
+cite$ -- 84
+duplicate$ -- 1292
+empty$ -- 2283
+format.name$ -- 376
+if$ -- 5117
+int.to.chr$ -- 15
+int.to.str$ -- 72
+missing$ -- 63
+newline$ -- 431
+num.names$ -- 207
+pop$ -- 455
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 71
 quote$ -- 0
-skip$ -- 537
+skip$ -- 726
 stack$ -- 0
-substring$ -- 628
-swap$ -- 123
+substring$ -- 889
+swap$ -- 163
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 362
-warning$ -- 9
-while$ -- 139
+type$ -- 488
+warning$ -- 11
+while$ -- 191
 width$ -- 0
-write$ -- 778
-(There was 1 error message)
+write$ -- 1046
+(There were 22 warnings)
