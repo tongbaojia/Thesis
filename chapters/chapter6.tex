@@ -6,10 +6,47 @@ Even in the darkest night. Stars and angels still shine bright.
 
 
 \chapter{Background Estimation}
+
+
+\subsection{Overview}
+\paragraph{}
+The primary backgrounds to in $4b$ signals region are QCD multi-jet production ($\sim 95\%$), $t\bar{t}$ ($\sim 5\%$), and $Z$+jets ($< 1\%$), where the percentages are the expected fraction of the background. 
+In the $3b$ signal region, the fractions are QCD ($\sim 90\%$), $t\bar{t}$ ($\sim 10\%$), and $Z$+jets ($< 1\%$).  In the two $b$-jet split signal region, the fractions are QCD ($\sim 80\%$), $t\bar{t}$ ($\sim 20\%$), and $Z$+jets ($< 1\%$).
+
+%%\paragraph{}
+QCD is by far the dominant background. However, there is no reliable, high-statistics Monte Carlo simulation sample in this region of phase space (i.e with three or four $b$-jets collected into two high-$p_{T}$ large radius jets) and thus a data-driven background estimation is needed. (See Appendix ~\ref{app:muqcd-study}.) For the \ttbar background, Monte Carlo simulation samples of reasonable size are available, and thus can be used to guide an estimation of this background. The $Z$+jets background is small enough that we will rely on the Monte Carlo simulation of $Z$+heavy flavor jets. $ZZ\to b\bar{b}b\bar{b}$ has been estimated to be completely negligible using a particle-level analysis, with less than one event expected after three $b$-tags are required, which will be further heavily suppressed by the $X_{hh}$ requirement.
+
+%%\paragraph{}
+The QCD background prediction relies on finding a region which is similar enough in event properties that it can be used to estimate the shapes of the expected QCD background.  This region is identical to the signal region defined by the full selection, with the exception that the events must have \textbf{less} $b$-tagged track jets:
+\begin{itemize}
+\item For the 2$b$s category, the 1$b$ sample is used for modeling.
+\item For the 3$b$ and 4$b$ categories, the 2$b$ sample - where the two $b$-tagged trackjet are in the same large-$R$ jet - is used for modeling.
+\end{itemize}
+To prevent differences in the number of track jets from biasing the dijet mass distribution, the $1b$-tagged region requires that each large-$R$ jet has at least one track jet (to model $2bs$, ie. 2$b$ tag split). Similarly, the $2b$-tagged region requires that one large-$R$ jet has at least one track jet and the other one has at least two track jets (to model $3b$), and each large-$R$ jet has at least two track jets (to model $4b$).
+
+%%\paragraph{}
+However, this less $b$-tagged region only supplies the shapes of the expected background and not the total yield, and a second control sample, which we denote the \textit{Sideband} region, is used to estimate the yield. The Sideband is obtained by doing the full analysis selection, except instead of the $X_{hh}$ cut an alternative criteria on the large radius jet masses is used, that $33 < R_{hh} $ and $R_{hh}^{\text{high}} < 58$~\GeV. To validate this approach, a third region, which we denote the \textit{Control} region, is centered on the signal region in the plane of the two large radius jet masses but does not include the signal region, such that $R_{hh} < 33$~\GeV.  The control region is used to validate the background estimations before unblinding. The control and sideband regions are optimized, as shown in the following sections, to accurately estimate the rate of the QCD background (and thus allow for an extrapolation from the $1b$/$2b$ estimate to a prediction in the $4b/3b/2bs$  signal regions), whilst giving a control region which has kinematic properties similar to that of the signal region. 
+
+
+
+
+
+
+
+%%\paragraph{}
+The $t\bar{t}$ background shape is taken from MC. A data-based estimation of the $t\bar{t}$ background yield is performed simultaneously with the QCD background yield estimation, by means of a binned likelihood fit.
+In the plane of the two leading large radius jet masses, the main contribution of the $t\bar{t}$ background lies in the Sideband region. The data distribution in the Sideband region of the leading-$p_{T}$ large radius jet mass is fit simultaneously with the QCD shape estimate (from the less $b$-tagged sample) and with the $t\bar{t}$ Monte Carlo shape. This fit is done separately in the 4$b$, 3$b$, and 2$b$s Sideband regions.
+From this fit, two terms are determined simultanously: $\mu_{QCD}$ and $\alpha_{tt}$. $\mu_{QCD}$ is the ratio of the QCD event yield in the 2bs/3b/4b regions to the amount in each corresponding less b-tagged region. $\alpha_{tt}$ is the ratio of the fitted ttbar event yield to the yield predicted from ttbar MC.
+These two numbers are then used as multiplicative constants in other regions of the mass plane (i.e. the Control or Signal regions) to extrapolate from the rates of the less $b$-tagged regions to predictions of rates in the 2bs/3/4 $b$-tagged regions, for estimating the amount of QCD, and to correct the rate of $t\bar{t}$ production wrt. MC. Hence, the underlying assumption is that these scale factors are roughly constant over the 2D large-R jet mass plane for Sideband/Control/Signal regions, which has been verified by perfoming these fits in small bins across the 2D mass plane. This is shown in Appendix ~\ref{app:muqcd-study}. The correction factors are derived separately for the 4$b$, 3$b$, and 2$b$s regions.
+
+%%\paragraph{}
+In this section, we describe this approach in more detail and show its validation in data.
+
+
+
+
 \section{Background Estimation}
 \label{sec:backgrounds}
-%use the internal note structure
-
 \paragraph{}
 A similar circular variable can be defined in the two-dimensional mass plane, $R_{hh}$. The circular region $R_{hh}$ has the same central values as $X_{hh}$, but without resolution terms in the denominators and is defined as:
 \begin{equation}
@@ -55,4 +92,4 @@ The number of events in the control region and sideband region as a function of 
 \end{figure*}
 
 
-\input{chapters/Sections/sec-backgrounds}
+%\input{chapters/Sections/sec-backgrounds}

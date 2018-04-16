@@ -1,0 +1,206 @@
+\contentsline {chapter}{\numberline {0}Introduction}{1}{chapter.0}
+\contentsline {paragraph}{}{1}{chapter.0}
+\contentsline {paragraph}{}{3}{chapter.0}
+\contentsline {paragraph}{}{4}{chapter.0}
+\contentsline {chapter}{\numberline {1}Theory and Motivation}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Standard Model and the Higgs Boson}{5}{section.1.1}
+\contentsline {paragraph}{}{5}{section.1.1}
+\contentsline {paragraph}{}{5}{figure.caption.6}
+\contentsline {paragraph}{}{7}{equation.1.1.1}
+\contentsline {section}{\numberline {1.2}Standard Model di-Higgs production}{7}{section.1.2}
+\contentsline {paragraph}{}{7}{section.1.2}
+\contentsline {paragraph}{}{8}{figure.caption.7}
+\contentsline {paragraph}{}{8}{figure.caption.8}
+\contentsline {section}{\numberline {1.3}Beyond the Standard Model physics di-Higgs production}{9}{section.1.3}
+\contentsline {paragraph}{}{9}{section.1.3}
+\contentsline {paragraph}{}{9}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}BSM non-resonant di-Higgs}{9}{subsection.1.3.1}
+\contentsline {paragraph}{}{9}{subsection.1.3.1}
+\contentsline {paragraph}{}{10}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}BSM resonant di-Higgs}{10}{subsection.1.3.2}
+\contentsline {paragraph}{}{10}{subsection.1.3.2}
+\contentsline {paragraph}{}{11}{subsection.1.3.2}
+\contentsline {paragraph}{}{11}{subsection.1.3.2}
+\contentsline {paragraph}{}{11}{subsection.1.3.2}
+\contentsline {paragraph}{}{12}{figure.caption.11}
+\contentsline {paragraph}{}{13}{figure.caption.11}
+\contentsline {section}{\numberline {1.4}Di-Higgs decay and LHC previous search results}{13}{section.1.4}
+\contentsline {paragraph}{}{13}{section.1.4}
+\contentsline {paragraph}{}{13}{figure.caption.13}
+\contentsline {paragraph}{}{15}{figure.caption.13}
+\contentsline {chapter}{\numberline {2}LHC and ATLAS}{16}{chapter.2}
+\contentsline {paragraph}{}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{17}{section.2.1}
+\contentsline {paragraph}{}{17}{section.2.1}
+\contentsline {paragraph}{}{18}{section.2.1}
+\contentsline {paragraph}{}{18}{equation.2.1.1}
+\contentsline {section}{\numberline {2.2}A Toroidal LHC ApparatuS}{19}{section.2.2}
+\contentsline {paragraph}{}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Coordinate System}{20}{subsection.2.2.1}
+\contentsline {paragraph}{}{20}{subsection.2.2.1}
+\contentsline {paragraph}{}{21}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Inner Detector}{21}{subsection.2.2.2}
+\contentsline {paragraph}{}{21}{subsection.2.2.2}
+\contentsline {paragraph}{}{21}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Calorimeter}{22}{subsection.2.2.3}
+\contentsline {paragraph}{}{22}{subsection.2.2.3}
+\contentsline {paragraph}{}{22}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}MuonSpectrometer}{23}{subsection.2.2.4}
+\contentsline {paragraph}{}{23}{figure.caption.19}
+\contentsline {subsection}{\numberline {2.2.5}Trigger and Data Aquasition}{23}{subsection.2.2.5}
+\contentsline {paragraph}{}{23}{subsection.2.2.5}
+\contentsline {paragraph}{}{24}{subsection.2.2.5}
+\contentsline {chapter}{\numberline {3}Reconstruction and Objects}{25}{chapter.3}
+\contentsline {paragraph}{}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}ID Tracks and Vertices}{26}{section.3.1}
+\contentsline {paragraph}{}{26}{section.3.1}
+\contentsline {paragraph}{}{26}{section.3.1}
+\contentsline {paragraph}{}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Jets}{27}{section.3.2}
+\contentsline {paragraph}{}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Small-\ensuremath {R}\xspace jets}{27}{subsection.3.2.1}
+\contentsline {paragraph}{}{27}{subsection.3.2.1}
+\contentsline {paragraph}{}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Large-\ensuremath {R}\xspace jets}{28}{subsection.3.2.2}
+\contentsline {paragraph}{}{28}{subsection.3.2.2}
+\contentsline {paragraph}{}{28}{subsection.3.2.2}
+\contentsline {paragraph}{}{28}{equation.3.2.1}
+\contentsline {paragraph}{}{29}{figure.caption.22}
+\contentsline {subsection}{\numberline {3.2.3}Track Jets}{29}{subsection.3.2.3}
+\contentsline {paragraph}{}{29}{subsection.3.2.3}
+\contentsline {paragraph}{}{30}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Flavor Tagging}{30}{section.3.3}
+\contentsline {paragraph}{}{30}{section.3.3}
+\contentsline {paragraph}{}{30}{section.3.3}
+\contentsline {paragraph}{}{31}{section.3.3}
+\contentsline {paragraph}{}{32}{figure.caption.23}
+\contentsline {paragraph}{}{32}{figure.caption.23}
+\contentsline {paragraph}{}{32}{figure.caption.24}
+\contentsline {paragraph}{}{32}{figure.caption.25}
+\contentsline {section}{\numberline {3.4}Leptons}{33}{section.3.4}
+\contentsline {paragraph}{}{33}{section.3.4}
+\contentsline {paragraph}{}{33}{section.3.4}
+\contentsline {paragraph}{}{34}{section.3.4}
+\contentsline {paragraph}{}{34}{section.3.4}
+\contentsline {section}{\numberline {3.5}Resolved and Boosted}{35}{section.3.5}
+\contentsline {paragraph}{}{35}{section.3.5}
+\contentsline {paragraph}{}{35}{section.3.5}
+\contentsline {paragraph}{}{35}{section.3.5}
+\contentsline {chapter}{\numberline {4}Data and Simulation}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data}{37}{section.4.1}
+\contentsline {paragraph}{}{37}{section.4.1}
+\contentsline {paragraph}{}{38}{section.4.1}
+\contentsline {paragraph}{}{38}{section.4.1}
+\contentsline {paragraph}{}{38}{section.4.1}
+\contentsline {paragraph}{}{38}{section.4.1}
+\contentsline {section}{\numberline {4.2}MC}{39}{section.4.2}
+\contentsline {paragraph}{}{39}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Backgrounds}{39}{subsection.4.2.1}
+\contentsline {paragraph}{}{39}{subsection.4.2.1}
+\contentsline {paragraph}{}{39}{subsection.4.2.1}
+\contentsline {paragraph}{}{40}{subsection.4.2.1}
+\contentsline {paragraph}{}{40}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Signal}{40}{section.4.3}
+\contentsline {paragraph}{}{40}{section.4.3}
+\contentsline {paragraph}{}{40}{section.4.3}
+\contentsline {paragraph}{}{40}{section.4.3}
+\contentsline {paragraph}{}{41}{section.4.3}
+\contentsline {paragraph}{}{41}{section.4.3}
+\contentsline {chapter}{\numberline {5}Event Selection}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data Cleaning}{42}{section.5.1}
+\contentsline {paragraph}{}{42}{section.5.1}
+\contentsline {paragraph}{}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Trigger}{43}{section.5.2}
+\contentsline {paragraph}{}{43}{section.5.2}
+\contentsline {paragraph}{}{44}{figure.caption.27}
+\contentsline {section}{\numberline {5.3}Object Selection}{44}{section.5.3}
+\contentsline {paragraph}{}{44}{section.5.3}
+\contentsline {paragraph}{}{45}{table.caption.29}
+\contentsline {paragraph}{}{46}{figure.caption.31}
+\contentsline {paragraph}{}{47}{figure.caption.32}
+\contentsline {paragraph}{}{47}{figure.caption.33}
+\contentsline {section}{\numberline {5.4}Resolved Veto}{49}{section.5.4}
+\contentsline {paragraph}{}{49}{section.5.4}
+\contentsline {paragraph}{}{49}{section.5.4}
+\contentsline {paragraph}{}{50}{equation.5.4.2}
+\contentsline {paragraph}{}{50}{equation.5.4.3}
+\contentsline {paragraph}{}{51}{equation.5.4.4}
+\contentsline {paragraph}{}{51}{equation.5.4.5}
+\contentsline {section}{\numberline {5.5}2D Higgs Mass Cut}{51}{section.5.5}
+\contentsline {paragraph}{}{51}{figure.caption.35}
+\contentsline {paragraph}{}{52}{equation.5.5.7}
+\contentsline {section}{\numberline {5.6}Number of $b$-tagging requirement}{53}{section.5.6}
+\contentsline {paragraph}{}{53}{section.5.6}
+\contentsline {paragraph}{}{53}{section.5.6}
+\contentsline {paragraph}{}{53}{section.5.6}
+\contentsline {paragraph}{}{53}{section.5.6}
+\contentsline {paragraph}{}{54}{section.5.6}
+\contentsline {section}{\numberline {5.7}Signal efficiency and cutflow}{54}{section.5.7}
+\contentsline {paragraph}{}{54}{section.5.7}
+\contentsline {paragraph}{}{56}{figure.caption.37}
+\contentsline {chapter}{\numberline {6}Background Estimation}{58}{chapter.6}
+\contentsline {section}{\numberline {6.1}Background Estimation}{58}{section.6.1}
+\contentsline {paragraph}{}{58}{section.6.1}
+\contentsline {paragraph}{}{59}{equation.6.1.1}
+\contentsline {paragraph}{}{59}{equation.6.1.2}
+\contentsline {subsection}{\numberline {6.1.1}Overview}{60}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Definition of the sideband and control regions (SB, CR)}{63}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}QCD multi-jets}{66}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}$t\mathaccent "7016\relax {t}$background}{67}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.5}Fitting procedure for QCD and $t\mathaccent "7016\relax {t}$\ normalization}{68}{subsection.6.1.5}
+\contentsline {subsection}{\numberline {6.1.6}Kinematic reweighting}{72}{subsection.6.1.6}
+\contentsline {subsubsection}{Reweighting Fits}{75}{figure.caption.48}
+\contentsline {subsubsection}{Reweighting Results Comparison in Sideband and Control Region}{83}{figure.caption.54}
+\contentsline {subsection}{\numberline {6.1.7}Predictions in the sideband region (SB)}{90}{subsection.6.1.7}
+\contentsline {subsection}{\numberline {6.1.8}Predictions in the control region (CR)}{103}{subsection.6.1.8}
+\contentsline {subsection}{\numberline {6.1.9}Signal region predictions}{116}{subsection.6.1.9}
+\contentsline {subsubsection}{Signal region smoothing}{129}{figure.caption.96}
+\contentsline {subsubsection}{Scaled Dijet Mass Distribution in Signal region}{135}{figure.caption.102}
+\contentsline {chapter}{\numberline {7}Background Estimation}{144}{chapter.7}
+\contentsline {section}{\numberline {7.1}Background Estimation}{144}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Overview}{144}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Definition of the sideband and control regions (SB, CR)}{146}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}QCD multi-jets}{149}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}$t\mathaccent "7016\relax {t}$background}{150}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Fitting procedure for QCD and $t\mathaccent "7016\relax {t}$\ normalization}{151}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Kinematic reweighting}{155}{subsection.7.1.6}
+\contentsline {subsubsection}{Reweighting Fits}{158}{figure.caption.116}
+\contentsline {subsubsection}{Reweighting Results Comparison in Sideband and Control Region}{166}{figure.caption.122}
+\contentsline {subsection}{\numberline {7.1.7}Predictions in the sideband region (SB)}{173}{subsection.7.1.7}
+\contentsline {subsection}{\numberline {7.1.8}Predictions in the control region (CR)}{186}{subsection.7.1.8}
+\contentsline {subsection}{\numberline {7.1.9}Signal region predictions}{199}{subsection.7.1.9}
+\contentsline {subsubsection}{Signal region smoothing}{212}{figure.caption.164}
+\contentsline {subsubsection}{Scaled Dijet Mass Distribution in Signal region}{218}{figure.caption.170}
+\contentsline {chapter}{\numberline {8}Systematics}{227}{chapter.8}
+\contentsline {subsection}{\numberline {8.0.1}MC uncertainties}{227}{subsection.8.0.1}
+\contentsline {paragraph}{Luminosity uncertainty}{228}{subsection.8.0.1}
+\contentsline {paragraph}{Large-R jet resolution and scale uncertainties}{228}{subsection.8.0.1}
+\contentsline {paragraph}{B-tagged track jet scale factor uncertainties}{228}{subsection.8.0.1}
+\contentsline {paragraph}{$t\mathaccent "7016\relax {t}$MC Uncertainty}{229}{subsection.8.0.1}
+\contentsline {subsection}{\numberline {8.0.2}Theoretical uncertainties}{230}{subsection.8.0.2}
+\contentsline {subsection}{\numberline {8.0.3}Background prediction uncertainty}{232}{subsection.8.0.3}
+\contentsline {subsubsection}{Non-closure uncertainty on \ensuremath {{"μ}_{\mathrm {multijet}}}determined in the control region}{233}{subsection.8.0.3}
+\contentsline {subsubsection}{Validation of background estimation from low mass and high mass signal region}{236}{table.caption.182}
+\contentsline {subsubsection}{Uncertainty on the shape of the $t\mathaccent "7016\relax {t}$\ jet mass in the $4/3b$ signal region}{243}{figure.caption.193}
+\contentsline {subsubsection}{Uncertainty on the shape of the $1/2b$ QCD distribution in the signal region}{245}{figure.caption.194}
+\contentsline {subsubsection}{Uncertainty on QCD smoothing function in the signal region}{247}{figure.caption.195}
+\contentsline {subsection}{\numberline {8.0.4}Summary of systematics}{251}{subsection.8.0.4}
+\contentsline {chapter}{\numberline {9}Result}{257}{chapter.9}
+\contentsline {subsection}{\numberline {9.0.1}Unblinded Results}{257}{subsection.9.0.1}
+\contentsline {subsection}{\numberline {9.0.2}Kinematic Distributions}{263}{subsection.9.0.2}
+\contentsline {subsection}{\numberline {9.0.3}Test of the background model hypothesis}{275}{subsection.9.0.3}
+\contentsline {subsection}{\numberline {9.0.4}Observed Limits}{276}{subsection.9.0.4}
+\contentsline {chapter}{\numberline {10}Intepretation}{284}{chapter.10}
+\contentsline {paragraph}{}{284}{chapter.10}
+\contentsline {paragraph}{}{284}{chapter.10}
+\contentsline {paragraph}{}{284}{chapter.10}
+\contentsline {paragraph}{}{284}{chapter.10}
+\contentsline {paragraph}{}{285}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusion}{286}{chapter.11}
+\contentsline {paragraph}{}{286}{chapter.11}
+\contentsline {paragraph}{}{287}{chapter.11}
+\contentsline {paragraph}{}{287}{chapter.11}
+\contentsline {paragraph}{}{287}{chapter.11}
+\contentsline {paragraph}{}{287}{chapter.11}
+\contentsline {paragraph}{}{287}{chapter.11}
+\contentsline {chapter}{References}{288}{chapter.11}

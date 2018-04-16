@@ -51,12 +51,14 @@ The results are shown in Figure~\ref{fig:boosted-trigger-HLT}.
 \end{figure}
 
 \paragraph{}
-The selected large-\R triggers are found to have $>98\%$ efficiency for signals with mass above 1400 \GeV, with the requirement that the event has two large-\R jets that satisfy the \pt requirements: leading jet \pt $> 400$ \GeV, and subleading jet leading jet \pt $> 250$ \GeV. The trigger turn-on curve in 2015 and 2016 data, as a function of leading jet \pt, is shown in Figure~\ref{fig:boosted-trigger-HLT-turnon}.
+The selected large-\R triggers are found to have $>98\%$ efficiency for signals with mass above 1400 \GeV.
+% with the requirement that the event has two large-\R jets that satisfy the \pt requirements: leading jet \pt $> 400$ \GeV, and subleading jet leading jet \pt $> 250$ \GeV. 
+The trigger turn-on curve in 2015 and 2016 data, as a function of leading jet \pt, is shown in Figure~\ref{fig:boosted-trigger-HLT-turnon}.
 \begin{figure}[htbp!]
 \begin{center}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_15_b77_pT_Efficiency.pdf}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf}
-  \caption{Large-$R$ jet trigger efficiencies, defined as the fraction of events fired trigger with a given leading large-$R$ jet \pt, measured in 2015 Data (\texttt{HLT\_j360\_a10\_lcw}, left) and 2016 Data (\texttt{HLT\_j420\_a10\_lcw}, right) and MC.}
+  \caption{Large-$R$ jet trigger efficiencies, defined as the fraction of events fired trigger with a given highest large-$R$ jet \pt, measured in 2015 Data (\texttt{HLT\_j360\_a10\_lcw}, left) and 2016 Data (\texttt{HLT\_j420\_a10\_lcw}, right) and MC.}
   \label{fig:boosted-trigger-HLT-turnon}
 \end{center}
 \end{figure}
@@ -68,6 +70,7 @@ The selected large-\R triggers are found to have $>98\%$ efficiency for signals 
 The specific physics objects used in the boosted analysis are described in previous sections and reiterated in Table~\ref{tab:boosted-objects}.
 
 \begin{table}[bhp]
+\caption{Physics objects and their technical names in the boosted analysis.} %%%
 \begin{center}
 \begin{tabular}{c|c}
   object & technical name \\
@@ -76,7 +79,6 @@ The specific physics objects used in the boosted analysis are described in previ
   small-$R$ track jets       & AntiKt2PV0TrackJets \\
   b-tagging                  & on track jets, MV2c10, $70\%$ b-tagging wp \\
 \end{tabular}
-\caption{Physics objects and their technical names in the boosted analysis.} %%%
 \label{tab:boosted-objects}
 \end{center}
 \end{table}
@@ -85,16 +87,16 @@ The specific physics objects used in the boosted analysis are described in previ
 Each event must have at least two high momentum large-\R jets, each with at least one ghost associated track jets for $b$-tagging.
 They are sorted by \pt, and the highest \pt~ one is named as the leading large-\R jet, or the leading Higgs Candidate.
 The second highest \pt~ large-\R jet is the subleading large-\R jet, or the subleading Higgs Candidate.
-The large-\R jets are required to have \pt $> 250$ \GeV~, $|\eta| < 2$ to garuantee a good overlap with the tracking accpetance, and mass $> 50$ \GeV~ to avoid oversized derivations.
+The large-\R jets are required to have \pt $> 250$ \GeV~, $|\eta| < 2$ to guarantee a good overlap with the tracking acceptance, and mass $> 50$ \GeV~ to avoid oversized derivations.
 The leading large-\R jet is also required to have \pt $> 450$ \GeV~ to be above the trigger turn on threshold.
 Only the leading and subleading large-\R jets are considered in the rest of this thesis.
-This selecion is $\sim 95\%$ efficient for $1.2$ \TeV signals, as shown in Figure~\ref{fig:truth-Higgs-largeRjet}. 
+This selection is $\sim 95\%$ efficient for $1.2$ \TeV signals, as shown in Figure~\ref{fig:truth-Higgs-largeRjet}. 
 $R = 1.0$ ensures that the two $b$ quarks and their decay products are very likely to be contained within the large-\R jet, as shown in Figure~\ref{fig:truth-HbdR}. 
 
 \begin{figure}[htbp!]
 	\begin{center}
-	\includegraphics[scale=.48,angle=-90]{figures/boosted/Truth/truth_higgs-matching.pdf}
-	\caption{Percentages of truth Higgs to large-\R jet $\Delta R<1.0$ matching as a function of \Grav~ mass. The case where both Higgs is matched to the same large-\R jet almost never happends.}
+	\includegraphics[scale=.45,angle=-90]{figures/boosted/Truth/truth_higgs-matching.pdf}
+	\caption{Percentages of truth Higgs to large-\R jet $\Delta R<1.0$ matching as a function of \Grav~ mass. Both Higgs almost never match to the same large-\R jet.}
 	\label{fig:truth-Higgs-largeRjet}
 \end{center}
 \end{figure}
@@ -134,8 +136,8 @@ The muon-in-jet corrections are applied only after the fiducial large-\R jet req
 The muons are required have $\Delta R < 0.2$ with the $b$-tagged track jets within each large-\R jet. 
 In case more than one muon is found within a track jet, only the muon with the smallest $\Delta R$ is considered. 
 If two $b$-tagged track jets are found to have muons, both corrections are considered. 
-The four-momenta of the matched muon is added to the large-\R jet four-momentum, with the muon calorimeter energy deposite substracted. 
-This correction is only applied to the caloremeter mass portion of the combined mass. 
+The four-momenta of the matched muon is added to the large-\R jet four-momentum, with the muon calorimeter energy deposits subtracted. 
+This correction is only applied to the calorimeter mass portion of the combined mass. 
 The muon-in-jet correction improves the large-R jet mass resolution by approximately 5\%, and Figure~\ref{fig:boosted-muons-signal} shows the impact of this correction on the 1 \TeV~ \Grav.
 
 \begin{figure*}
@@ -158,7 +160,7 @@ This cut is not entirely optimal for Scalar signals due to the different spin, y
 \begin{figure*}
 \begin{center}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth_0.pdf}
-  \caption{ After large-$R$ jet requirements, normalized $\Delta \eta_{JJ}$ distribution in $1.5$ \TeV \Grav~ and data, where the data consists of mostly multijet events (> 90$\%$). The QCD multijet tends to be more flat in $\Delta \eta_{JJ}$ distribution.}
+  \caption{ After large-$R$ jet requirements, normalized $\Delta \eta_{JJ}$ distribution in $1.5$ \TeV \Grav~ and data, where the data consists of mostly multijet events (> 90$\%$). The background multijet event is flatter in $\Delta \eta_{JJ}$ distribution.}
 \label{fig:app-check-deta}
 \end{center}
 \end{figure*}
@@ -168,7 +170,7 @@ This cut is not entirely optimal for Scalar signals due to the different spin, y
 \section{Resolved Veto}
 \label{sec:resollvedveto}
 \paragraph{}
-In order to avoid events being reconstructed by both the resolved and the boosted anlaysis, events that pass the resolved signal region selections are vetoed in the boosted analysis.
+In order to avoid events being reconstructed by both the resolved and the boosted analysis, events that pass the resolved signal region selections are vetoed in the boosted analysis.
 This is a political decision, and the effect of vetoing boosted event selection in the resolved analysis is never tested.
 The gain is a full statistical combination of the resolved and boosted result.
 For boosted analysis,  it hurts the sensitivity up to $1.5$ \TeV for resonance signals.
@@ -224,7 +226,7 @@ A requirement on the Higgs boson candidates' masses is used to define the resolv
 X_{hh-resolved} = \sqrt{\left(\frac{\mlead - 120\,\GeV}{0.1\mlead}\right)^2 + \left(\frac{\msubl - 110\,\GeV}{0.1\msubl}\right)^2} < 1.6,
 \label{eqn:resolvedXhh}
 \end{equation}
-where the 0.1\mtwoj terms represent the widths of the leading and sub-leading Higgs boson candidate mass distributions, derived from simulation. The signal region is shown as the inner region of Figure~\ref{fig:resolvedRegions}. In summary, for any event can make a higgs candidate through the Dhh minimization and passing through the resolved signal region $X_{hh-resolved}$ cut, it is rejected in the boosted selection.
+where the 0.1\mtwoj terms represent the widths of the leading and sub-leading Higgs boson candidate mass distributions, derived from simulation. The signal region is shown as the inner region of Figure~\ref{fig:resolvedRegions}. In summary, for any event can make a Higgs candidate through the Dhh minimization and passing through the resolved signal region $X_{hh-resolved}$ cut, it is rejected in the boosted selection.
 
 %For more detail, please see the resolved signal region definition. 
 %For the impact on the boosted analysis, see Appendix ~\ref{sec:app-optimization-resveto}.
@@ -237,14 +239,13 @@ where the 0.1\mtwoj terms represent the widths of the leading and sub-leading Hi
 \begin{center}
 \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Truth/Sig_1200_AllTag_Incl_mH0H1.pdf}
 \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf}
-\caption{For RSG $c=1.0$ samples, number of events as a funciton of leading Higgs candidate mass and subleading Higgs candidate mass, for $1.2$ \TeV~(left) signal and $2$ \TeV~(right) signal samples. The red dotted line in the center correspond to the signal region, passing $X_{hh} < 1.6$.}
+\caption{For RSG $c=1.0$ samples, number of events as a function of leading Higgs candidate mass and subleading Higgs candidate mass, for $1.2$ \TeV~(left) signal and $2$ \TeV~(right) signal samples. The red dotted line in the center correspond to the signal region, passing $X_{hh} < 1.6$.}
 \label{fig:evt-signal-mhh}
 \end{center}
 \end{figure*}
 
-
 \paragraph{}
-To separate di-Higgs-boson decays from background productions like QCD multi-jets and top, requirements on the leading and subleading large-\R jet masses are imposed. 
+To separate di-Higgs decays from background productions like QCD multi-jets and top, requirements on the leading and subleading large-\R jet masses are imposed.
 The signal region is defined using the expression~\ref{eq:boosted_XhhDef}:
 \begin{equation}
 \label{eq:boosted_XhhDef}
@@ -259,7 +260,7 @@ This is partly due to the ordering of the large-\R jets in \pt, which makes the 
 The energy losses from neutrinos in leptonic $b$ decays, cracks in the calorimeter, and other effects also contributes. 
 The signal region requires $X_{hh} < 1.6$. 
 This cut gives nearly optimal performance. 
-A more optmimal signal region definition, using assymetric signal jet mass resolution and a momentum dependent cut accouting for the higher mass resolution of lager \pt~ jets, can imporve the overall sensitivity by $2-8\%$.
+A more optimal signal region definition, using asymmetric signal jet mass resolution and a momentum dependent cut accounting for the higher mass resolution of lager \pt~ jets, can improve the overall sensitivity by $2-8\%$.
 Since the gain in sensitivity is small, the signal region is kept to be consistent with the $X_{hh-resolved}$. Figure ~\ref{fig:evt-signal-mhh} shows the \Grav~ MC \mlead-\msubl 2D distribution.
 
 %The denominator of each term in the definition can be interpreted as a resolution on the reconstructed mass of $8.5\%$ for the leading jet and $12\%$ for the subleading jet, hence $X_{hh}$ can be interpreted as a $\chi^2$ compatibility with the $hh$ hypothesis. Similarly to the resolved analysis, these $\sigma \left(m_{\rm J}\right)$ are only a rough approximation to the true resolution, but the $X_{hh}$ requirement gives nearly optimal performance. 
@@ -268,28 +269,31 @@ Since the gain in sensitivity is small, the signal region is kept to be consiste
 \section{Number of $b$-tagging requirement}
 \paragraph{}
 Passing basic object selection and \Xhh~ cut, the signal region selection is defined by requiring multiple $b$-tags which are consistent with the di-Higgs decay. 
-The presence of two \hbb~ decays in the final state naturally suggests requiring 4 track jets passing $b$-tagging requirements, and this is defined as the ``$4b$'' selection.
+The presence of two \hbb~ decays in the final state naturally suggests requiring 4 track jets passing $b$-tagging requirements, and this is defined as the  $4b$ selection.
 
 \paragraph{}
-However, this requirement has an overall efficiency of roughly $\epsilon^4$, where $\epsilon$ is the $b$-tagging efficiency chosen to be $70\%$.
+The $4b$ requirement has an overall efficiency of roughly $\epsilon^4$, where $\epsilon$ is the $b$-tagging efficiency chosen to be $70\%$.
 This means an overall $0.7^4 \sim 0.24$ probability, but having one actual $b$-jet failling while the other three pass has probability $3 \times 0.7^3 \times (1-0.7) \sim 0.31$.
-Therefore, a ``$3b$'' selection is also introduced to recover the signal efficiency. 
+Therefore, a $3b$ selection is also introduced to recover the signal efficiency. 
 An event with $3b$-tags must have at least $3b$-tagged track jets, but can have any number of additional un-tagged track jets.
 In $4b$ and $3b$, each Higgs candidate can have at most two $b$-tagged track jets, hence $\geq 3b$-tagged trackjets cannot be in the same large-\R jet.
 
 \paragraph{}
-At the highest resonance mass, the Lorentz boost of the Higgs boson can be large enough to collimate the daughter b-quarks below the distance scale resolvable by the track jets ($R=0.2$). A third signal region is denoted by ``two-tag-split'' or simply  \\$2bs''. 
+At the highest resonance mass, the Lorentz boost of the Higgs boson can be large enough to collimate the daughter $b$-quarks below the distance scale resolvable by the track jets ($R=0.2$). A third signal region is denoted by two-tag-split or simply $2bs$.
 It requires exactly one $b$-tagged track jet is found in each Higgs candidate, plus an arbitrary number of track jets that must fail the $b$-tag.
 
+\paragraph{}
+The other $b$-tagging situations are also sorted and studied, but not as signal regions due to their relatively small acceptance. $2b$ region is defined as one large-\R jet has two $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet. $1b$ region is defined as one large-\R jet has one and only one $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet. $0b$ region is defined as both large-\R jets have no $b$-tagged track jet.
 
 \paragraph{}
-Above a mass of $\sim\!2$ TeV, the requirement of two track jets per large-$R$ jet becomes increasingly inefficient due to the merging of the track jets. This motivates introducing a selection without a requirement on the number of track jets, and to sort the signals based on the corresponding number of $b$-tagged track jets, as shown in Figure~\ref{fig:boosted-nbjet-signal-efficiency}. At high masses above 2.5 TeV, the 2$b$s region (where each large-$R$ jet has exactly one $b$-tagged track jet) significantly improves the sensitivity. In this figure, 2$b$ region is defined as a mutually exclusive region (where one large-$R$ jet has two $b$-tagged track jets, and the other one has no $b$-tagged track jet). 
+The MC events passing all signal region selections are sorted into different $b$-tagging categories. This is shown in Figure~\ref{fig:boosted-nbjet-signal-efficiency}. 
+For masses above 2.5 TeV, the $2bs$ region (where each large-$R$ jet has exactly one $b$-tagged track jet) significantly improves the acceptance.
 
 \begin{figure*}
 \begin{center}
-\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_lst_Moriond_bkg_9_Efficiency_PreSel.pdf}
+\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf}
 \includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/detail_lst_Moriond_Efficiency_AllTag_Signal.pdf}
-  \caption{Signal efficiency in three search $b$-tag categories (left) and detailed signal efficiency in different track jet and $b$-tag categories (right) as a function of signal resonance mass hypothesis for selection cuts. In the left plot efficiencies are relative to the total number of events in the preselection, whereas in the right plot efficiencies are relative to the total number of events in the signal mass region. The green curve in the left plot also corresponds to the PassSignal curve on in Figure ~\ref{fig:boosted-selection-efficiency}.}
+  \caption{Signal fraction in different $b$-tag categories (left) and detailed fraction in different number of track jet and $b$-tag categories (right) as a function of signal resonance mass hypothesis for selection cuts. The efficiencies are relative to the total number of events passing the 2D mass cut.}
   \label{fig:boosted-nbjet-signal-efficiency}
 \end{center}
 \end{figure*}
@@ -299,12 +303,10 @@ Above a mass of $\sim\!2$ TeV, the requirement of two track jets per large-$R$ j
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Signal efficiency and cutflow}
 \paragraph{}
-Acceptance means purely geometric fiducial volume of the detector. Efficiency refers to purely detector effectivenss in finding objects. The final value in the study is acceptance $\times$ efficiency, where both effects are considered.
-
-\paragraph{}
-The signal efficiency as a function of \Grav resonance mass is shown in Figure~\ref{fig:boosted-selection-efficiency}, both for the absolute signal efficiency and for the efficiency relative to the previous cut in the selection. 
+Acceptance means purely geometric fiducial volume of the detector. Efficiency refers to purely detector effectiveness in finding objects.
+The signal efficiency as a function of \Grav~ resonance mass is shown in Figure~\ref{fig:boosted-selection-efficiency}, both for the absolute signal efficiency and for the efficiency relative to the previous cut in the selection.
 Above a mass of $\sim\!1$ \TeV, the reconstruction of high momentum large-$R$ jets with small $\Delta\eta$ is efficient. 
-Across the mass range considered, the signal jet masses requirement ($X_\text{hh}$) and $b$-tagging requirements are $\mathcal{O}(20\%)$ efficient relative to the previous cuts. 
+Across the mass range considered, the signal jet masses requirement ($X_\text{hh}$) and $b$-tagging requirements are $\mathcal{O}(20\%)$ efficient relative to the previous cuts.
 
 \begin{figure*}
 \begin{center}
@@ -318,36 +320,45 @@ Across the mass range considered, the signal jet masses requirement ($X_\text{hh
 \paragraph{}
 The selection efficiency at various stages for \Grav with $c=1.0$, \Grav with $c=2.0$, and Heavy Scalar signal samples of all mass points can be found in Table~\ref{boosted-eff-RSG_c10}, ~\ref{boosted-eff-RSG_c20} and ~\ref{boosted-eff-2HDM}.
 
+
+% \begin{figure*}
+% \begin{center}
+% \subfloat[]{\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/G_hh_c20_evtsel_Moriond_bkg_9_Efficiency_PreSel.pdf}
+% \subfloat[]{\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/G_hh_c20_region_lst_Moriond_bkg_9_Efficiency_PreSel.pdf}
+% \caption{(a) The selection acceptance times efficiency of the boosted analysis at each stage of the event selection as a function of the generated graviton mass for $\kMPl = 2$. The trigger efficiency is approximately 100\% after the requirement of two large-$R$ jets, so it is not shown. (b) The selection efficiency of the three signal region samples defined by $b$-tagging requirements, as a function of the generated graviton mass for $\kMPl = 2$.}
+% \end{center}
+% \end{figure*}
+
 \begin{table}[htbp!]
 \scriptsize
+\caption{The selection efficiency for $G_{KK}^{*}\rightarrow hh\rightarrow b\bar{b}b\bar{b}$ events ($c=1.0$) at each stage of the event selection. Uncertainties are the MC stat uncertainty only.}
 \begin{center}
 \resizebox{\textwidth}{!}{
 \input{figures/boosted/tables/SignalEffTable_RSG_c10.tex}
 }
 \end{center}
-\caption{The selection efficiency for $G_{KK}^{*}\rightarrow hh\rightarrow b\bar{b}b\bar{b}$ events ($c=1.0$) at each stage of the event selection. Uncertainties are the MC stat uncertainty only.}
 \label{boosted-eff-RSG_c10}
 \end{table}
 
 \begin{table}[htbp!]
 \scriptsize
+\caption{The selection efficiency for $G_{KK}^{*}\rightarrow hh\rightarrow b\bar{b}b\bar{b}$ events ($c=2.0$) at each stage of the event selection. Uncertainties are the MC stat uncertainty only.}
 \begin{center}
 \resizebox{\textwidth}{!}{
 \input{figures/boosted/tables/SignalEffTable_RSG_c20.tex}
 }
 \end{center}
-\caption{The selection efficiency for $G_{KK}^{*}\rightarrow hh\rightarrow b\bar{b}b\bar{b}$ events ($c=2.0$) at each stage of the event selection. Uncertainties are the MC stat uncertainty only.}
 \label{boosted-eff-RSG_c20}
 \end{table}
 
 \begin{table}[htbp!]
 \scriptsize
+\caption{The selection efficiency for $H\rightarrow hh\rightarrow b\bar{b}b\bar{b}$ events at each stage of the event selection.}
 \begin{center}
 \resizebox{\textwidth}{!}{
 \input{figures/boosted/tables/SignalEffTable_Xhh.tex}
 }
 \end{center}
-\caption{The selection efficiency for $H\rightarrow hh\rightarrow b\bar{b}b\bar{b}$ events at each stage of the event selection.}
 \label{boosted-eff-2HDM}
 \end{table}
 

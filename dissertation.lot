@@ -1,0 +1,47 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces LHC nominal and operational parameters}}{20}{table.caption.16}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Physics objects and their technical names in the boosted analysis.\relax }}{44}{table.caption.29}
+\contentsline {table}{\numberline {5.2}{\ignorespaces The selection efficiency for $G_{KK}^{*}\rightarrow hh\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ events ($c=1.0$) at each stage of the event selection. Uncertainties are the MC stat uncertainty only.\relax }}{56}{table.caption.38}
+\contentsline {table}{\numberline {5.3}{\ignorespaces The selection efficiency for $G_{KK}^{*}\rightarrow hh\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ events ($c=2.0$) at each stage of the event selection. Uncertainties are the MC stat uncertainty only.\relax }}{56}{table.caption.39}
+\contentsline {table}{\numberline {5.4}{\ignorespaces The selection efficiency for $H\rightarrow hh\rightarrow b\mathaccent "7016\relax {b}b\mathaccent "7016\relax {b}$ events at each stage of the event selection.\relax }}{57}{table.caption.40}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Definitions of the Signal (SR), Sideband (SB) and Control (CR) regions.\relax }}{63}{table.caption.43}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Background scaling parameters (\ensuremath {{"μ}_{\mathrm {multijet}}}and ${"α}_{t\mathaccent "7016\relax {t}}$) estimated from fits to the leading jet mass distributions in $4b/3b/2bs$ sideband regions. ${"ρ}({"μ}_{qcd},{"α}_{t\mathaccent "7016\relax {t}}) = {\begingroup Cov({"μ}_{qcd},\ {"α}_{t\mathaccent "7016\relax {t}})\endgroup \over {"σ}_{{"μ}_{qcd}}{"σ}_{{"α}_{t\mathaccent "7016\relax {t}}} }$\relax }}{69}{table.caption.46}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Smoothing parameters in $4b$ and $3b$ and $2bs$ signal regions, the correlation between parameters is almost always 0.99.\relax }}{130}{table.caption.98}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Smoothing parameters in $4b$ and $3b$ and $2bs$ signal regions for scaled mass distributions, the correlation between parameters is almost always 0.99.\relax }}{143}{table.caption.104}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Definitions of the Signal (SR), Sideband (SB) and Control (CR) regions.\relax }}{147}{table.caption.111}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Background scaling parameters (\ensuremath {{"μ}_{\mathrm {multijet}}}and ${"α}_{t\mathaccent "7016\relax {t}}$) estimated from fits to the leading jet mass distributions in $4b/3b/2bs$ sideband regions. ${"ρ}({"μ}_{qcd},{"α}_{t\mathaccent "7016\relax {t}}) = {\begingroup Cov({"μ}_{qcd},\ {"α}_{t\mathaccent "7016\relax {t}})\endgroup \over {"σ}_{{"μ}_{qcd}}{"σ}_{{"α}_{t\mathaccent "7016\relax {t}}} }$\relax }}{152}{table.caption.114}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Smoothing parameters in $4b$ and $3b$ and $2bs$ signal regions, the correlation between parameters is almost always 0.99.\relax }}{213}{table.caption.166}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Smoothing parameters in $4b$ and $3b$ and $2bs$ signal regions for scaled mass distributions, the correlation between parameters is almost always 0.99.\relax }}{226}{table.caption.172}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Agreement between data and prediction in 4b tag CR. Showing stat uncertainty only.\relax }}{235}{table.caption.180}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Agreement between data and prediction in 3b tag CR. Showing stat uncertainty only.\relax }}{235}{table.caption.181}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Agreement between data and prediction in 2bs tag CR. Showing stat uncertainty only.\relax }}{235}{table.caption.182}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Background prediction in SR/CR/SB for ZZ SR in 4$b$-tag region. Uncertainties are stat only.\relax }}{238}{table.caption.184}
+\contentsline {table}{\numberline {8.5}{\ignorespaces Background prediction in SR/CR/SB for ZZ SR in 3$b$-tag region. Uncertainties are stat only.\relax }}{238}{table.caption.185}
+\contentsline {table}{\numberline {8.6}{\ignorespaces Background prediction in SR/CR/SB for ZZ SR in 2$b$s-tag region. Uncertainties are stat only.\relax }}{238}{table.caption.186}
+\contentsline {table}{\numberline {8.7}{\ignorespaces Agreement between data and prediction in ZZ SR in 4$b$, 3$b$ and 2$b$s regions.\relax }}{239}{table.caption.187}
+\contentsline {table}{\numberline {8.8}{\ignorespaces Background prediction in SR/CR/SB for TT SR in 4$b$-tag region. Uncertainties are stat only.\relax }}{239}{table.caption.189}
+\contentsline {table}{\numberline {8.9}{\ignorespaces Background prediction in SR/CR/SB for TT SR in 3$b$-tag region. Uncertainties are stat only.\relax }}{239}{table.caption.190}
+\contentsline {table}{\numberline {8.10}{\ignorespaces Background prediction in SR/CR/SB for TT SR in 2$b$s-tag region. Uncertainties are stat only.\relax }}{241}{table.caption.191}
+\contentsline {table}{\numberline {8.11}{\ignorespaces Agreement between data and prediction in TT SR in 4$b$, 3$b$ and 2$b$s regions.\relax }}{241}{table.caption.192}
+\contentsline {table}{\numberline {8.12}{\ignorespaces Functions used to fit the QCD dijet mass distributions, where $x = m_{JJ} / \sqrt {s}$.\relax }}{249}{table.caption.197}
+\contentsline {table}{\numberline {8.13}{\ignorespaces Percent impact of the dominant systematics on the background acceptance and on the signal acceptance of RS $c=1.0$ graviton predictions in the $4b$ signal region.\relax }}{252}{table.caption.199}
+\contentsline {table}{\numberline {8.14}{\ignorespaces Percent impact of the dominant systematics on the background acceptance and on the signal acceptance of RS $c=1.0$ graviton predictions in the $3b$ signal region.\relax }}{252}{table.caption.200}
+\contentsline {table}{\numberline {8.15}{\ignorespaces Percent impact of the dominant systematics on the background acceptance and on the signal acceptance of RS $c=1.0$ graviton predictions in the $2b$s signal region.\relax }}{253}{table.caption.201}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Unblinded Signal Region predictions and results. All systemtic uncertainties included for backgrounds. For Data, the statistical uncertainty is shown.\relax }}{258}{table.caption.209}
+\contentsline {table}{\numberline {9.2}{\ignorespaces 4$b$ unblinded Signal Region predictions and results. All systemtic uncertainties included for backgrounds. For Data, the statistical uncertainty is shown. Mass range is broken into greater than 1 TeV, 1.5 TeV, 2 TeV, 2.5 TeV, and 3 TeV intevals.\relax }}{258}{table.caption.210}
+\contentsline {table}{\numberline {9.3}{\ignorespaces 3$b$ unblinded Signal Region predictions and results. All systemtic uncertainties included for backgrounds. For Data, the statistical uncertainty is shown. Mass range is broken into greater than 1 TeV, 1.5 TeV, 2 TeV, 2.5 TeV, and 3 TeV intevals.\relax }}{258}{table.caption.211}
+\contentsline {table}{\numberline {9.4}{\ignorespaces 2$b$s unblinded Signal Region predictions and results. All systemtic uncertainties included for backgrounds. For Data, the statistical uncertainty is shown. Mass range is broken into greater than 1 TeV, 1.5 TeV, 2 TeV, 2.5 TeV, and 3 TeV intevals.\relax }}{258}{table.caption.212}
+\contentsline {table}{\numberline {9.5}{\ignorespaces 4$b$ unblinded Scaled dijet mass Region predictions and results. All systemtic uncertainties included for backgrounds. For Data, the statistical uncertainty is shown. Mass range is broken into greater than 1 TeV, 1.5 TeV, 2 TeV, 2.5 TeV, and 3 TeV intevals.\relax }}{258}{table.caption.213}
+\contentsline {table}{\numberline {9.6}{\ignorespaces 3$b$ unblinded Scaled dijet mass Signal Region predictions and results. All systemtic uncertainties included for backgrounds. For Data, the statistical uncertainty is shown. Mass range is broken into greater than 1 TeV, 1.5 TeV, 2 TeV, 2.5 TeV, and 3 TeV intevals.\relax }}{259}{table.caption.214}
+\contentsline {table}{\numberline {9.7}{\ignorespaces 2$b$s unblinded Scaled dijet mass Signal Region predictions and results. All systemtic uncertainties included for backgrounds. For Data, the statistical uncertainty is shown. Mass range is broken into greater than 1 TeV, 1.5 TeV, 2 TeV, 2.5 TeV, and 3 TeV intevals.\relax }}{259}{table.caption.215}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
