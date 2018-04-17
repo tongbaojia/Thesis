@@ -7,13 +7,23 @@ You gotta have a swine to show you where the truffles are.
 \chapter{Event Selection}
 \label{sec:selection}
 
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/theory/JiveXML_282712_595661746-YX-2018-04-16-20-50-34}
+  \caption{2015 ATLAS boosted di-Higgs event candidate's event display. The data is taken in run 282712, lumiblock 503 and has event number 595661746. ID is in grey, ECAL is in green, HCAL is in red and MS is in blue. Only tracks with \pt $>25$ \GeV are shown. Jets are gray cones, and ID tracks are colored lines in the ID. There are $2b$ tagged tracks within in each of the large-\R jets. The one large-\R jet has $119$ \GeV mass and $543$ \GeV \pt, and the other one has $127$ \GeV mass and $413$ \GeV \pt. The $\Delta R$ between the two large-\R jet is $3.54$ and the invariant mass of the two large-\R jets is $1336$ \GeV. }
+  \label{fig:event_display}
+\end{figure}
+
+\paragraph{}
+An example of \Xtohhb~ boosted event is shown in Figure~\ref{fig:event_display}. This chapter explains how this event is selected as a \Xtohhb~ candidate.
+
 \section{Data Cleaning}
 \label{evt-sel:cleaning}
 \paragraph{}
 The following data cleaning requirements are made:
 \begin{itemize}
-\item Events with problems in TileCal/LAr are removed.
-\item Events that are affected by the recovery procedure for single event upsets in the SCT are removed.
+\item Events with problems in SCT/TileCal/LAr are removed.
+%\item Events that are affected by the recovery procedure for single event upsets in the SCT are removed.
 \item Events that fail the jet cleaning procedure are removed. This is designed to exclude jets caused by detector noise, non-collision backgrounds and cosmic rays. 
 \item Incomplete events are removed.
 \end{itemize}
@@ -169,6 +179,28 @@ This cut is not entirely optimal for Scalar signals due to the different spin, y
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Resolved Veto}
 \label{sec:resollvedveto}
+
+\paragraph{}
+Sometimes one event can be reconstructed in both the resolved method as four small-\R jets and the boosted method as two large-\R jets with track jets. Figure~\ref{fig:obj_evt_display} shows an example event display of collision data recorded in 2015.
+
+\begin{figure}[h!]
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-48-39}
+        \caption{Resolved reconstruction.}
+        \label{fig:obj_evt_display_resolved}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-48-08}
+        \caption{Boosted reconstruction.}
+        \label{fig:obj_evt_display_boosted}
+    \end{subfigure}
+\caption{Event display of the same event using ~\ref{fig:obj_evt_display_resolved} resolved and ~\ref{fig:obj_evt_display_boosted} boosted topologies. The resolved reconstruction gives a $m_{4J}$ of $873$ \GeV~, and the boosted reconstruction gives $m_{2J}$ of $852$ \GeV. }
+\label{fig:obj_evt_display}
+\end{figure}
+
 \paragraph{}
 In order to avoid events being reconstructed by both the resolved and the boosted analysis, events that pass the resolved signal region selections are vetoed in the boosted analysis.
 This is a political decision, and the effect of vetoing boosted event selection in the resolved analysis is never tested.

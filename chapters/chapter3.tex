@@ -251,34 +251,6 @@ Muons are identified by matching ID tracks with reconstructed MS tracks~\cite{Aa
 %If a muon is within $\DR = 0.4$ (0.2) of a jet used for $b$-tagging in the resolved (boosted) analysis, their four-momentum is added to the calorimeter-based jet's four-momentum to partially account for the energy lost in semi-leptonic $b$-hadron decays.
 
 
-%%%%%%%%%%%%%%
-\section{Resolved and Boosted}
-\paragraph{}
-The thesis focuses on searching for \TeV scale resonance decaying into di-Higgs and then to \bbbb. It is important to fully reconstruct the out-coming $b$ quarks. The angular separation between the \bb~ from one Higgs with momentum $p_{H}$, \drbb, scales roughly as $\frac{2m_H}{p_{H}}$. This means for a $1.5$ \TeV~ resonance \Grav, produced roughly at rest, the two Higgs with each $\sim 625$ \GeV~ momentum, and the \drbb~ is around $0.4$. Similarly, for a $3$ \TeV~ resonance, the $2.75$ \TeV~ resonance, \drbb~ is around $0.2$.
-
-\paragraph{}
-The \drbb~ defines the reconstructed object choice in this analysis. Two different methods are used to reconstruct the Higgs bosons. The \textit{resolved analysis} is used for di-Higgs systems in which the Higgs bosons have Lorentz boosts low enough that four $R=0.4$ $b$-jets can be reconstructed. The \textit{boosted analysis} is used for di-Higgs systems in which the Higgs bosons have higher Lorentz boosts, which prevents the Higgs boson decay products from being resolved in the detector as separate \bjets. Instead, each Higgs boson candidate consists of a single large-radius jet, and the presence of $b$-quarks is inferred using smaller-radius track jets built from charged-particle tracks.
-
-\paragraph{}
-Sometimes one event can be reconstructed in both the resolved method as four small-\R jets and the boosted method as two large-\R jets with track jets. Figure~\ref{fig:obj_evt_display} shows an example event display of collision data recorded in 2015. To solve this ambiguity, the boosted selection vetos events passing the resolved selection, which will be introduced later.
-
-\begin{figure}[h!]
-\centering
-\captionsetup{justification=centering}
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-48-39}
-        \caption{Resolved reconstruction.}
-        \label{fig:obj_evt_display_resolved}
-    \end{subfigure}
-    \quad
-    \begin{subfigure}[b]{0.45\textwidth}
-        \includegraphics[width=\textwidth]{figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-48-08}
-        \caption{Boosted reconstruction.}
-        \label{fig:obj_evt_display_boosted}
-    \end{subfigure}
-\caption{Event display of the same event using ~\ref{fig:obj_evt_display_resolved} resolved and ~\ref{fig:obj_evt_display_boosted} boosted topologies. ID is in grey, ECAL is in green, HCAL is in red and MS is in blue. Jets are gray cones, and ID tracks are colored lines in the ID. The resolved reconstruction ends up with a $m_{4J}$ of $873$ \GeV~, and the boosted reconstruction gives $m_{2J}$ of $852$ \GeV. }
-\label{fig:obj_evt_display}
-\end{figure}
 
 %Although this work doesn't depend on specific boosted W/Z/H/Top taggers, many analysises adopt them and improve search sensitivities. For machine learning techiniques applied, see this \href{https://cds.cern.ch/record/2242830/files/ATL-COM-PHYS-2017-031.pdf}{W/Top tagger using BDT/DNN}
 
