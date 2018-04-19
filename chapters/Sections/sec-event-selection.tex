@@ -16,8 +16,8 @@ The analysis also runs over the debug stream, no event passing the full signal s
 \label{evt-sel:trig}
 \paragraph{}
 %See \href{https://arxiv.org/pdf/1611.09661.pdf}{6.4.3} 
-Events in data and simulation are required to pass the lowest unprescaled large-$R$ jet trigger: \\
-\verb|HLT_j360_a10_lcw| in 2015 and \verb|HLT_j420_a10_lcw|, where topo-cluster jets with local calibration weights and pile-up subtraction, are used. in 2016. These are seeded by the lowest unprescaled L1 jet trigger, \texttt{L1\_J100}. LCW cluster trigger is chosen, because the other option, reclusted large-$R$ jet trigger, has slower turn-on in multi-jet events. Other options such as the lowest unprescaled HT trigger, \verb|HLT_ht1000|, has a much slower turn-on compared to large-$R$ jet triggers. Another trigger option is \verb|HLT_4j100|, but because of the boosted jets merging, the trigger efficiency decreases rapidly as the signal mass increases. The results are shown in Figure~\ref{fig:boosted-trigger-HLT}.
+Events in data and simulation are required to pass the lowest unprescaled large-\R jet trigger: \\
+\verb|HLT_j360_a10_lcw| in 2015 and \verb|HLT_j420_a10_lcw|, where topo-cluster jets with local calibration weights and pile-up subtraction, are used. in 2016. These are seeded by the lowest unprescaled L1 jet trigger, \texttt{L1\_J100}. LCW cluster trigger is chosen, because the other option, reclusted large-\R jet trigger, has slower turn-on in multi-jet events. Other options such as the lowest unprescaled HT trigger, \verb|HLT_ht1000|, has a much slower turn-on compared to large-\R jet triggers. Another trigger option is \verb|HLT_4j100|, but because of the boosted jets merging, the trigger efficiency decreases rapidly as the signal mass increases. The results are shown in Figure~\ref{fig:boosted-trigger-HLT}.
 
 \begin{figure}[htbp!]
 \begin{center}
@@ -25,19 +25,19 @@ Events in data and simulation are required to pass the lowest unprescaled large-
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/app_trig_b77_Efficiency_All.pdf}
   %\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_Moriond_Efficiency_PreSel.pdf}
   %\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_Moriond_Efficiency_All.pdf}
-  \caption{Different trigger efficiencies as a function of the signal resonance mass with respect to all events with no selection (left) and with respect to events passing the two large-$R$ jets \pt > 400 \GeV and leading/subleading jet \pt > 250 \GeV (right). For 1.2 TeV signal, the trigger efficiency is about 95\%.}
+  \caption{Different trigger efficiencies as a function of the signal resonance mass with respect to all events with no selection (left) and with respect to events passing the two large-\R jets \pt > 400 \GeV and leading/subleading jet \pt > 250 \GeV (right). For 1.2 TeV signal, the trigger efficiency is about 95\%.}
   \label{fig:boosted-trigger-HLT}
 \end{center}
 \end{figure}
 
 \label{evt-sel:trig}
 \paragraph{}
-The selected large-$R$ triggers are found to have $>98\%$ efficiency for signals with mass above 1200 \GeV, with the requirement that the event has two large-$R$ jets that satisfy the \pt requirements: leading jet \pt > 400 \GeV, and subleading jet leading jet \pt > 250 \GeV. The trigger turn-on curve in 2015 and 2016 data, as a function of leading jet \pt, is shown in Figure~\ref{fig:boosted-trigger-HLT-turnon}.
+The selected large-$R$ triggers are found to have $>98\%$ efficiency for signals with mass above 1200 \GeV, with the requirement that the event has two large-\R jets that satisfy the \pt requirements: leading jet \pt > 400 \GeV, and subleading jet leading jet \pt > 250 \GeV. The trigger turn-on curve in 2015 and 2016 data, as a function of leading jet \pt, is shown in Figure~\ref{fig:boosted-trigger-HLT-turnon}.
 \begin{figure}[htbp!]
 \begin{center}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_15_b77_pT_Efficiency.pdf}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf}
-  \caption{Large-$R$ jet trigger efficiencies, defined as the fraction of events fired trigger with a given leading large-$R$ jet \pt, measured in 2015 Data (\texttt{HLT\_j360\_a10\_lcw}, left) and 2016 Data (\texttt{HLT\_j420\_a10\_lcw}, right) and MC.}
+  \caption{Large-$R$ jet trigger efficiencies, defined as the fraction of events fired trigger with a given leading large-\R jet \pt, measured in 2015 Data (\texttt{HLT\_j360\_a10\_lcw}, left) and 2016 Data (\texttt{HLT\_j420\_a10\_lcw}, right) and MC.}
   \label{fig:boosted-trigger-HLT-turnon}
 \end{center}
 \end{figure}
@@ -62,10 +62,10 @@ The specific physics objects used in the boosted analysis are described in previ
 \end{table}
 
 \paragraph{}
-In addition to cleaning and trigger requirements, each event must have at least two high momentum large-$R$ jets, and each of these can have at least one ghost associated track jets for $b$-tagging. The large-$R$ jets are required to have \pt > 250 \GeV , $|\eta| < 2$,  and mass > 50 \GeV, while the leading \pt large-$R$ jet is also required to have \pt $> 450$ \GeV to be above the trigger threshold. The leading and sub-leading large-$R$ jets are considered the Higgs candidates. The track jets are required to have \pt $> 10 $ \GeV , $|\eta| < 2.5$ and at least two tracks associated with it.
+In addition to cleaning and trigger requirements, each event must have at least two high momentum large-\R jets, and each of these can have at least one ghost associated track jets for $b$-tagging. The large-\R jets are required to have \pt > 250 \GeV , $|\eta| < 2$,  and mass > 50 \GeV, while the leading \pt large-\R jet is also required to have \pt $> 450$ \GeV to be above the trigger threshold. The leading and sub-leading large-\R jets are considered the Higgs candidates. The track jets are required to have \pt $> 10 $ \GeV , $|\eta| < 2.5$ and at least two tracks associated with it.
 
 \paragraph{}
-A further muon correction accounts for energy loss due to leptonic $b$-hadron decays with a muon in the final state. The muon-in-jet corrections are applied only after the fiducial large-$R$ jet requirements on \pt and $\eta$. Combined muons with \pt > 4 \GeV, $|\eta| < 2.5$, and passing at least the medium MCP quality requirement are $\Delta R$ matched to the track jets within the large-$R$ jets. The muons are required have $\Delta R < 0.2$ with the $b$-tagged track jets. In case more than one muon is found within a track jet, only the muon with the smallest $\Delta R$ is considered. If two $b$-tagged track jets are found to have muons, both corrections are considered. The four-momenta of the matched muon is added to the large-$R$ jet four-momentum, with the muon calorimeter energy deposite substracted. This correction is only applied to the caloremeter mass portion of the combined mass. The muon-in-jet correction improves the large-R jet mass resolution by approximately 5\%, and Figure~\ref{fig:boosted-muons-signal} shows the impact of this correction on the 1 TeV signal sample.
+A further muon correction accounts for energy loss due to leptonic $b$-hadron decays with a muon in the final state. The muon-in-jet corrections are applied only after the fiducial large-\R jet requirements on \pt and $\eta$. Combined muons with \pt > 4 \GeV, $|\eta| < 2.5$, and passing at least the medium MCP quality requirement are $\Delta R$ matched to the track jets within the large-\R jets. The muons are required have $\Delta R < 0.2$ with the $b$-tagged track jets. In case more than one muon is found within a track jet, only the muon with the smallest $\Delta R$ is considered. If two $b$-tagged track jets are found to have muons, both corrections are considered. The four-momenta of the matched muon is added to the large-\R jet four-momentum, with the muon calorimeter energy deposite substracted. This correction is only applied to the caloremeter mass portion of the combined mass. The muon-in-jet correction improves the large-R jet mass resolution by approximately 5\%, and Figure~\ref{fig:boosted-muons-signal} shows the impact of this correction on the 1 TeV signal sample.
 
 \begin{figure*}
 \begin{center}
@@ -73,18 +73,18 @@ A further muon correction accounts for energy loss due to leptonic $b$-hadron de
   \includegraphics[width=0.48\textwidth]{figures/boosted/muons/h2_mass_dbl.pdf}
   \includegraphics[width=0.48\textwidth]{figures/boosted/muons/hh_mass_dbl.pdf}
   \includegraphics[width=0.48\textwidth]{figures/boosted/muons/h12_corr_mass.pdf}
-  \caption{Kinematics of 1 TeV signal before and after muon-in-jet corrections. The reconstructed Higgs masses (top row, left for leading large-$R$ jet, right for subleading large-$R$ jet) are closer to 125 \GeV after the correction, which improves the signal efficiency for the signal region selection by $\sim\!10\%$ (bottom row, left for $m_{JJ}$, right for event distribution differences on the leading-subleading large-$R$ jet mass plane.).}
+  \caption{Kinematics of 1 TeV signal before and after muon-in-jet corrections. The reconstructed Higgs masses (top row, left for leading large-\R jet, right for subleading large-\R jet) are closer to 125 \GeV after the correction, which improves the signal efficiency for the signal region selection by $\sim\!10\%$ (bottom row, left for $m_{JJ}$, right for event distribution differences on the leading-subleading large-\R jet mass plane.).}
   \label{fig:boosted-muons-signal}
 \end{center}
 \end{figure*}
 
 \paragraph{}
-Finally, the Higgs candidates (large-$R$ jets) are also required to have $|\Delta\eta| = |\eta_{\text{leadJ}} -\eta_{\text{sublJ}} |< 1.7$. This is because signals are produced mostly through s-channel, while the multijet events could also be produced through t-channels or u-channel. Figure ~\ref{fig:app-check-deta} shows the distribution for signal sample and data inclusive $b$-tag region $\Delta \eta_{JJ}$ distribution.
+Finally, the Higgs candidates (large-\R jets) are also required to have $|\Delta\eta| = |\eta_{\text{leadJ}} -\eta_{\text{sublJ}} |< 1.7$. This is because signals are produced mostly through s-channel, while the multijet events could also be produced through t-channels or u-channel. Figure ~\ref{fig:app-check-deta} shows the distribution for signal sample and data inclusive $b$-tag region $\Delta \eta_{JJ}$ distribution.
 
 \begin{figure*}
 \begin{center}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth_0.pdf}
-  \caption{ After large-$R$ jet requirements, normalized $\Delta \eta_{JJ}$ distribution in signal MC and data, where the data consists of mostly multijet events (> 90$\%$). The QCD multijet tends to be more flat in $\Delta \eta_{JJ}$ distribution.}
+  \caption{ After large-\R jet requirements, normalized $\Delta \eta_{JJ}$ distribution in signal MC and data, where the data consists of mostly multijet events (> 90$\%$). The QCD multijet tends to be more flat in $\Delta \eta_{JJ}$ distribution.}
 \label{fig:app-check-deta}
 \end{center}
 \end{figure*}
@@ -153,7 +153,7 @@ After basic object selection, the signal region selection is defined by requirin
 One major change since the 2015 analysis is the requirement on the number of track jets found in each \largeR\ jet.  In the past, each \largeR\ jet was required to contain at least two track jets in order to reduce and understand backgrounds.  However, above 2 TeV, this cut is inefficient for the signal, when the b-track-jets merge.  To recover this efficiency, we do not make any explicit requirement on the number of track jets in each \largeR\ jet.  Thus, an event with 3 $b$-tags must have at least 3 $b$-tagged track jets, but can have any number of additional un-tagged track jets. Similarly, an event with $2bs$ must have at least one b-tagged track jet in each of the \largeR\ jets. Again, the 70\% $b$-jet efficiency working point is used in the analysis.
 
 %%\paragraph{}
-To separate di-Higgs-boson decays from other multi-jet productions like QCD multi-jets and top, requirements on the leading and subleading large-$R$ jet masses are imposed. The signal region is defined using the expression:
+To separate di-Higgs-boson decays from other multi-jet productions like QCD multi-jets and top, requirements on the leading and subleading large-\R jet masses are imposed. The signal region is defined using the expression:
 \begin{equation}
 \label{eq:boosted_XhhDef}
 X_{hh} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{124 GeV}}{0.1 \left(m^{\rm lead}_{\rm J}\right)}\right)^2 + \left(\frac{m^{\rm subl}_{\rm J}- \text{115 GeV}}{0.1 \left(m^{\rm subl}_{\rm J}\right)}\right)^2}
@@ -164,7 +164,7 @@ X_{hh} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{124 GeV}}{0.1 \left(m^{\
 \end{equation}
 
 %%\paragraph{}
-The denominator of each term in the definition can be interpreted as a resolution on the reconstructed mass of $10\%$ for the leading and subleading jets, hence $X_{hh}$ can be interpreted as a $\chi^2$ compatibility with the $hh$ hypothesis. Similarly to the resolved analysis, these $\sigma \left(m_{\rm J}\right)$ are only a rough approximation to the true resolution, but the $X_{hh}$ requirement gives nearly optimal performance. The subleading jet mass value of 115\,GeV  is chosen after investigating the signal jet masses in MC and noticing that the subleading large-$R$ jet typically has a reconstructed mass which is biased downward. This is due to the ordering of the large-$R$ jets in $p_\text{T}$, which biases the sub-lead jet towards lower energy. The energy losses result from neutrinos in leptonic $b$ decays, cracks in the calorimeter, and other effects. The signal region requires $X_{hh} < 1.6$, same as the resolved analysis. 
+The denominator of each term in the definition can be interpreted as a resolution on the reconstructed mass of $10\%$ for the leading and subleading jets, hence $X_{hh}$ can be interpreted as a $\chi^2$ compatibility with the $hh$ hypothesis. Similarly to the resolved analysis, these $\sigma \left(m_{\rm J}\right)$ are only a rough approximation to the true resolution, but the $X_{hh}$ requirement gives nearly optimal performance. The subleading jet mass value of 115\,GeV  is chosen after investigating the signal jet masses in MC and noticing that the subleading large-\R jet typically has a reconstructed mass which is biased downward. This is due to the ordering of the large-\R jets in $p_\text{T}$, which biases the sub-lead jet towards lower energy. The energy losses result from neutrinos in leptonic $b$ decays, cracks in the calorimeter, and other effects. The signal region requires $X_{hh} < 1.6$, same as the resolved analysis. 
 
 %The denominator of each term in the definition can be interpreted as a resolution on the reconstructed mass of $8.5\%$ for the leading jet and $12\%$ for the subleading jet, hence $X_{hh}$ can be interpreted as a $\chi^2$ compatibility with the $hh$ hypothesis. Similarly to the resolved analysis, these $\sigma \left(m_{\rm J}\right)$ are only a rough approximation to the true resolution, but the $X_{hh}$ requirement gives nearly optimal performance. 
 %The last substraction for high $p_\text{T}$ cases is because of the higher mass resolution of high mass signal samples. This effectively increases the size of $X_{hh}$ to 1.8 for a 3 TeV signal.
@@ -177,7 +177,7 @@ R_{hh} = \sqrt{\left(m^{\rm lead}_{\rm J} - \text{124 GeV}\right)^2 + \left(m^{\
 \end{equation}
 
 %%\paragraph{}
-The region defined by $1.6 < X_{hh}$ and $R_{hh} < 33$ will be used later in the definition of control regions, as discussed in Section~\ref{sec:boosted-qcd}. The cut value was optimized to allow for a reasonable sized sample (twice the statistics as the signal region) in the control region with kinematics similar to the signal region, whilst avoiding the large contributions of the $t\bar{t}$ sample when the large-$R$ jets have a mass near the top quark mass (i.e. with $m_J > 160$~\GeV).
+The region defined by $1.6 < X_{hh}$ and $R_{hh} < 33$ will be used later in the definition of control regions, as discussed in Section~\ref{sec:boosted-qcd}. The cut value was optimized to allow for a reasonable sized sample (twice the statistics as the signal region) in the control region with kinematics similar to the signal region, whilst avoiding the large contributions of the $t\bar{t}$ sample when the large-\R jets have a mass near the top quark mass (i.e. with $m_J > 160$~\GeV).
 
 %%\paragraph{}
 Similarly, $R_{hh}^{\text{high}}$, the circular region that has the shifted central values up by 10 $GeV$ is defined using the variable:\begin{equation}
@@ -186,7 +186,7 @@ R_{hh}^{\text{high}} = \sqrt{\left(m^{\rm lead}_{\rm J} - \text{134 GeV}\right)^
 \end{equation}
 
 %%\paragraph{}
-In Run-1, and in the the 2015 analysis, the sideband was defined to be all events not in the signal or control regions. However, the kinematics of events with very large and very small large-R jet masses may not be the same as those within the signal region. Thus, to avoid biasing effects from extremely low mass or extremely high mass large-$R$ jets, the sideband region is also redesigned to be like the control region, but at $R_{hh} > 33$ and $R_{hh}^{\text{high}} < 58$. The shift upwards helps to capture enough $t\bar{t}$ events in the normalization estimates, as described in Section ~\ref{sec:ttbarnorm}. A similar sideband definition with an upper limit has been made for the resolved analysis.
+In Run-1, and in the the 2015 analysis, the sideband was defined to be all events not in the signal or control regions. However, the kinematics of events with very large and very small large-R jet masses may not be the same as those within the signal region. Thus, to avoid biasing effects from extremely low mass or extremely high mass large-\R jets, the sideband region is also redesigned to be like the control region, but at $R_{hh} > 33$ and $R_{hh}^{\text{high}} < 58$. The shift upwards helps to capture enough $t\bar{t}$ events in the normalization estimates, as described in Section ~\ref{sec:ttbarnorm}. A similar sideband definition with an upper limit has been made for the resolved analysis.
 
 %%\paragraph{}
 The values of the $X_{hh}$ and $R_{hh}$ variables can be seen graphically in Figure~\ref{fig:boosted-regiondef-cartoons}.
@@ -208,10 +208,10 @@ Acceptance means purely geometric fiducial volume of the detector. Efficiency re
 The boosted analysis covers multiple TeV of signal resonance masses, and the backgrounds fall steeply as a function of the reconstructed di-Higgs mass. Understanding how the signal efficiency trends with resonance mass can be helpful in gauging the natural limitations of very boosted objects. It can also indicate ways to improve sensitivity, as the resolved analysis has implemented with mass-dependent cuts, though the boosted analysis is currently not exploring this option.
 
 %%\paragraph{}
-The signal efficiency as a function of resonance mass is shown in Figure~\ref{fig:boosted-selection-efficiency}, both for the absolute signal efficiency and for the efficiency relative to the previous cut in the selection. Above a mass of $\sim\!1$ TeV, the reconstruction of high momentum large-$R$ jets with small $\Delta\eta$ is efficient. Across the mass range considered, the signal jet masses requirement ($X_\text{hh}$) and $b$-tagging requirements are $\mathcal{O}(20\%)$ efficient relative to the previous cuts. 
+The signal efficiency as a function of resonance mass is shown in Figure~\ref{fig:boosted-selection-efficiency}, both for the absolute signal efficiency and for the efficiency relative to the previous cut in the selection. Above a mass of $\sim\!1$ TeV, the reconstruction of high momentum large-\R jets with small $\Delta\eta$ is efficient. Across the mass range considered, the signal jet masses requirement ($X_\text{hh}$) and $b$-tagging requirements are $\mathcal{O}(20\%)$ efficient relative to the previous cuts. 
 
 %%\paragraph{}
-Above a mass of $\sim\!2$ TeV, the requirement of two track jets per large-$R$ jet becomes increasingly inefficient due to the merging of the track jets. This motivates introducing a selection without a requirement on the number of track jets, and to sort the signals based on the corresponding number of $b$-tagged track jets, as shown in Figure~\ref{fig:boosted-selection-signal-efficiency}. At high masses above 2.5 TeV, the $2bs$ region (where each large-$R$ jet has exactly one $b$-tagged track jet) significantly improves the sensitivity. In this figure, $2b$ region is defined as a mutually exclusive region (where one large-$R$ jet has two $b$-tagged track jets, and the other one has no $b$-tagged track jet). The number of events in the control region and sideband region as a function of Resonance mass is shown in Figure~\ref{fig:boosted-selection-region-efficiency}. For $2bs$, $3b$ and $4b$, each region has the number of events decrease from signal region to control region to sideband regions.
+Above a mass of $\sim\!2$ TeV, the requirement of two track jets per large-\R jet becomes increasingly inefficient due to the merging of the track jets. This motivates introducing a selection without a requirement on the number of track jets, and to sort the signals based on the corresponding number of $b$-tagged track jets, as shown in Figure~\ref{fig:boosted-selection-signal-efficiency}. At high masses above 2.5 TeV, the $2bs$ region (where each large-\R jet has exactly one $b$-tagged track jet) significantly improves the sensitivity. In this figure, $2b$ region is defined as a mutually exclusive region (where one large-\R jet has two $b$-tagged track jets, and the other one has no $b$-tagged track jet). The number of events in the control region and sideband region as a function of Resonance mass is shown in Figure~\ref{fig:boosted-selection-region-efficiency}. For $2bs$, $3b$ and $4b$, each region has the number of events decrease from signal region to control region to sideband regions.
 
 \begin{figure*}
 \begin{center}

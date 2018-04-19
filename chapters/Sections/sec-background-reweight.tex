@@ -1,5 +1,5 @@
 %%\paragraph{}
-Due to the large contribution from the completely data-driven QCD background, it is important to model this background as good as possible in all regions of the analysis. Using the $1/2b$ region to model the $2bs$, $3b$, and $4b$ regions can introduce discrepancies in the modeling of the estimated QCD background versus the real n$b$ data. These discrepancies arise possibly from the non-trivial effect that $b$-tagging has on jet kinematics. The natural choice of reweighting variable is the $p_{T}$ of the track jets in the event, since these are the objects that we apply the $b$-tagging to. Also, large-$R$ jet $p_{T}$ is also reweighted to account for the effect from light and charm quark composition difference at different energy scales. The three chosen variables are the leading large-$R$ jet $p_{T}$, leading large-$R$ jet leading trackjet $p_{T}$ and subleading large-$R$ jet leading trackjet $p_{T}$.
+Due to the large contribution from the completely data-driven QCD background, it is important to model this background as good as possible in all regions of the analysis. Using the $1/2b$ region to model the $2bs$, $3b$, and $4b$ regions can introduce discrepancies in the modeling of the estimated QCD background versus the real n$b$ data. These discrepancies arise possibly from the non-trivial effect that $b$-tagging has on jet kinematics. The natural choice of reweighting variable is the $p_{T}$ of the track jets in the event, since these are the objects that we apply the $b$-tagging to. Also, large-\R jet $p_{T}$ is also reweighted to account for the effect from light and charm quark composition difference at different energy scales. The three chosen variables are the leading large-\R jet $p_{T}$, leading large-\R jet leading trackjet $p_{T}$ and subleading large-\R jet leading trackjet $p_{T}$.
 
 %%\paragraph{}
 In order to account for the $b$-tagging effect, a reweighting on the $1/2b$ data is adopted. The basic idea is to reweight the non $b$-tagged Higgs candidate to have kinematic distributions just like a $b$-tagged Higgs candidate. The idea is demonstrated in Figure~\ref{fig:rw-2bs-comp}. It shows that $2bs$ has very similar kinematic distributions on the trackjet \pt as the $1b$ sample, when the variable is the $b$ tagged trackjet. 
@@ -20,7 +20,7 @@ For $2bs$, the $1b$ non-tagged Higgs candidate is reweighted to be like a $1b$ t
 \end{figure*}
 
 %%\paragraph{}
-To avoid potential biases in the final distributions used for the analysis, a reweighting technique is applied to the $1/2b$ data only. Since each signal region is modeled by a different $1/2b$ tag category: $2bs$ by $1b$ tag events with at least 1 track jets on both large-$R$ jets, $3b$ by $2b$ tag events with at least one track jets on one large-$R$ jet and at least two track jets on the other large-$R$ jet, and $4b$ by $2b$ tag events with at least two track jets on both large-$R$ jets, the reweighting procedure is the same but orthogonal for the three different channels. Note the $2b$ sample is already split into seperate parts, as described in paragraph \ref{par:boosted-qcd-2bseperate}.
+To avoid potential biases in the final distributions used for the analysis, a reweighting technique is applied to the $1/2b$ data only. Since each signal region is modeled by a different $1/2b$ tag category: $2bs$ by $1b$ tag events with at least 1 track jets on both large-\R jets, $3b$ by $2b$ tag events with at least one track jets on one large-\R jet and at least two track jets on the other large-\R jet, and $4b$ by $2b$ tag events with at least two track jets on both large-\R jets, the reweighting procedure is the same but orthogonal for the three different channels. Note the $2b$ sample is already split into seperate parts, as described in paragraph \ref{par:boosted-qcd-2bseperate}.
 
 \clearpage{}
 %%\paragraph{}
@@ -28,11 +28,11 @@ The detailed procedure is listed as follows:
 \begin{itemize}
 \item Substracting $1/2b$ tag $t\bar{t}$ and $Z+$jets samples in the sideband from the $1/2b$ tag data in the Sideband + Control + Signal regions to get the $1/2b$ QCD inclusive estimate.
 \item Seperate the $1/2b$ tag sample further to sample: A. that has the $b$-tagged Higgs is the leading \pt Higgs candidate, and B. that the $b$-tagged Higgs is the subleading \pt Higgs candidate.
-\item For each variable, i.e. the large-$R$ jet $p_{T}$, normalize sample A to sample B total number of events, take the ratio of sample A distribution over sample B distribution, and fit the ratio with a spline function. (TSpline3)
+\item For each variable, i.e. the large-\R jet $p_{T}$, normalize sample A to sample B total number of events, take the ratio of sample A distribution over sample B distribution, and fit the ratio with a spline function. (TSpline3)
 \item Use this functional form to extract reweighting values for each variable that is considered. The reweighting value for each variable is also constrained to be within a $-30\%$ to $+40\%$ range compared to one, to avoid over corrections and failed fit situations. 
 %Then, the difference from one is scaled by $0.618$ (the golden ratio) to get a new weight, which is applied later. This accounts for over correlation by the spline and accerlerates convergence.
 \item For each event, all the weights are multiplied together to change the $1/2b$ tag data event weight. Another constraint is applied, such that each total reweighting value is constrained to be within a $10\%$ to $+1000\%$ range compared to one, again to avoid over corrections.
-\item The reweighting is done on the three variables: large-$R$ jet $p_{T}$ and the two track jet $p_{T}$s, which is counted as one iteration of reweighting.
+\item The reweighting is done on the three variables: large-\R jet $p_{T}$ and the two track jet $p_{T}$s, which is counted as one iteration of reweighting.
 \item A total of ten iterations are used to stabalize the reweighting. The reweighting is roughly converging after three iterations.
 \end{itemize}
 
@@ -64,7 +64,7 @@ For the distribution of weights and the weight as a function of different kinema
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_sublHCand_Pt_m_1.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\caption{For $2bs$ background estimate: the fits to the ratio of the data in the $1b$ category, of the sublleading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-$R$ jet $p_{T}$ (left),  the large-$R$ jet's leading trackjet $p_T$ (middle), and large-$R$ jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
+\caption{For $2bs$ background estimate: the fits to the ratio of the data in the $1b$ category, of the sublleading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
 \label{fig:rw-2bs-lead}
 \end{center}
 \end{figure*}
@@ -83,7 +83,7 @@ For the distribution of weights and the weight as a function of different kinema
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_leadHCand_Pt_m_1.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_leadHCand_trk0_Pt.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\caption{For $2bs$ background estimate: the fits to the ratio of the data in the $1b$ category, of the leading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(black point), over the sublleading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-$R$ jet $p_{T}$ (left),  the large-$R$ jet's leading trackjet $p_T$ (middle), and large-$R$ jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
+\caption{For $2bs$ background estimate: the fits to the ratio of the data in the $1b$ category, of the leading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(black point), over the sublleading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
 \label{fig:rw-2bs-subl}
 \end{center}
 \end{figure*}
@@ -102,7 +102,7 @@ For the distribution of weights and the weight as a function of different kinema
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\caption{For $3b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the sublleading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-$R$ jet $p_{T}$ (left),  the large-$R$ jet's leading trackjet $p_T$ (middle), and large-$R$ jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
+\caption{For $3b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the sublleading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
 \label{fig:rw-3b-lead}
 \end{center}
 \end{figure*}
@@ -121,7 +121,7 @@ For the distribution of weights and the weight as a function of different kinema
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\caption{For $3b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the leading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(black point), over the sublleading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-$R$ jet $p_{T}$ (left),  the large-$R$ jet's leading trackjet $p_T$ (middle), and large-$R$ jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
+\caption{For $3b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the leading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(black point), over the sublleading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
 \label{fig:rw-3b-subl}
 \end{center}
 \end{figure*}
@@ -140,7 +140,7 @@ For the distribution of weights and the weight as a function of different kinema
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\caption{For $4b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the sublleading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-$R$ jet $p_{T}$ (left),  the large-$R$ jet's leading trackjet $p_T$ (middle), and large-$R$ jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
+\caption{For $4b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the sublleading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
 \label{fig:rw-4b-lead}
 \end{center}
 \end{figure*}
@@ -159,7 +159,7 @@ For the distribution of weights and the weight as a function of different kinema
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
 \includegraphics[width=0.32\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\caption{For $4b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the leading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(black point), over the sublleading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-$R$ jet $p_{T}$ (left),  the large-$R$ jet's leading trackjet $p_T$ (middle), and large-$R$ jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
+\caption{For $4b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the leading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(black point), over the sublleading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figure are shown before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottow row). The green line is the spline extrapolation; and the red line is a polynomial fit.}
 \label{fig:rw-4b-subl}
 \end{center}
 \end{figure*}
@@ -184,7 +184,7 @@ A comparison of the Sideband shapes before and after reweighting for $2bs$, $3b$
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf}\\
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $2bs$ Sideband region predictions comaprison. Top row is the dijet Mass, second row is leading large-$R$ jet $p_{T}$, third row is the leading large-$R$ jet's leading trackjet $p_T$ and the last row subleading large-$R$ jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
+\caption{Reweighted $2bs$ Sideband region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
 \label{fig:rw-2bs-comp-sb}
 \end{center}
 \end{figure*}
@@ -200,7 +200,7 @@ A comparison of the Sideband shapes before and after reweighting for $2bs$, $3b$
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf}\\
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $3b$ Sideband region predictions comaprison. Top row is the dijet Mass, second row is leading large-$R$ jet $p_{T}$, third row is the leading large-$R$ jet's leading trackjet $p_T$ and the last row subleading large-$R$ jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
+\caption{Reweighted $3b$ Sideband region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
 \label{fig:rw-3b-comp-sb}
 \end{center}
 \end{figure*}
@@ -216,7 +216,7 @@ A comparison of the Sideband shapes before and after reweighting for $2bs$, $3b$
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf}\\
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Sideband_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $4b$ Sideband region predictions comaprison. Top row is the dijet Mass, second row is leading large-$R$ jet $p_{T}$, third row is the leading large-$R$ jet's leading trackjet $p_T$ and the last row subleading large-$R$ jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
+\caption{Reweighted $4b$ Sideband region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
 \label{fig:rw-4b-comp-sb}
 \end{center}
 \end{figure*}
@@ -234,7 +234,7 @@ A comparison of the Sideband shapes before and after reweighting for $2bs$, $3b$
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf}\\
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Control_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $2bs$ Control region predictions comaprison. Top row is the dijet Mass, second row is leading large-$R$ jet $p_{T}$, third row is the leading large-$R$ jet's leading trackjet $p_T$ and the last row subleading large-$R$ jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
+\caption{Reweighted $2bs$ Control region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
 \label{fig:rw-2bs-comp-cr}
 \end{center}
 \end{figure*}
@@ -250,7 +250,7 @@ A comparison of the Sideband shapes before and after reweighting for $2bs$, $3b$
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf}\\
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Control_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $3b$ Control region predictions comaprison. Top row is the dijet Mass, second row is leading large-$R$ jet $p_{T}$, third row is the leading large-$R$ jet's leading trackjet $p_T$ and the last row subleading large-$R$ jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
+\caption{Reweighted $3b$ Control region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
 \label{fig:rw-3b-comp-cr}
 \end{center}
 \end{figure*}
@@ -266,7 +266,7 @@ A comparison of the Sideband shapes before and after reweighting for $2bs$, $3b$
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf}\\
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Control_sublHCand_trk0_Pt.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $4b$ Control region predictions comaprison. Top row is the dijet Mass, second row is leading large-$R$ jet $p_{T}$, third row is the leading large-$R$ jet's leading trackjet $p_T$ and the last row subleading large-$R$ jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
+\caption{Reweighted $4b$ Control region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
 \label{fig:rw-4b-comp-cr}
 \end{center}
 \end{figure*}

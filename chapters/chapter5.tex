@@ -40,7 +40,7 @@ The analysis also runs over the debug stream, which contains events recorded tha
 \label{evt-sel:trig}
 \paragraph{}
 %See \href{https://arxiv.org/pdf/1611.09661.pdf}{6.4.3} 
-Events in data and MC are required to pass the lowest unprescaled large-$R$ jet trigger: \\
+Events in data and MC are required to pass the lowest unprescaled large-\R jet trigger: \\
 \verb|HLT_j360_a10_lcw| in 2015 and \verb|HLT_j420_a10_lcw| in 2016. 
 The triggered jets are topo-cluster jets with local calibration weights and pile-up subtraction.
 They are seeded by the lowest unprescaled L1 jet trigger, \texttt{L1\_J100}. 
@@ -55,7 +55,7 @@ The results are shown in Figure~\ref{fig:boosted-trigger-HLT}.
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/app_trig_b77_Efficiency_All.pdf}
   %\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_Moriond_Efficiency_PreSel.pdf}
   %\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_Moriond_Efficiency_All.pdf}
-  \caption{Different trigger efficiencies as a function of the signal resonance mass with respect to all events with no selection (left) and with respect to events passing the two large-$R$ jets \pt $> 400$ \GeV~ and leading/subleading jet \pt $> 250$ \GeV (right). For $1.4$ \TeV~ signal, the trigger efficiency is about $98\%$.}
+  \caption{Different trigger efficiencies as a function of the signal resonance mass with respect to all events with no selection (left) and with respect to events passing the two large-\R jets \pt $> 400$ \GeV~ and leading/subleading jet \pt $> 250$ \GeV (right). For $1.4$ \TeV~ signal, the trigger efficiency is about $98\%$.}
   \label{fig:boosted-trigger-HLT}
 \end{center}
 \end{figure}
@@ -68,7 +68,7 @@ The trigger turn-on curve in 2015 and 2016 data, as a function of leading jet \p
 \begin{center}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_15_b77_pT_Efficiency.pdf}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf}
-  \caption{Large-$R$ jet trigger efficiencies, defined as the fraction of events fired trigger with a given highest large-$R$ jet \pt, measured in 2015 Data (\texttt{HLT\_j360\_a10\_lcw}, left) and 2016 Data (\texttt{HLT\_j420\_a10\_lcw}, right) and MC.}
+  \caption{Large-$R$ jet trigger efficiencies, defined as the fraction of events fired trigger with a given highest large-\R jet \pt, measured in 2015 Data (\texttt{HLT\_j360\_a10\_lcw}, left) and 2016 Data (\texttt{HLT\_j420\_a10\_lcw}, right) and MC.}
   \label{fig:boosted-trigger-HLT-turnon}
 \end{center}
 \end{figure}
@@ -156,13 +156,13 @@ The muon-in-jet correction improves the large-R jet mass resolution by approxima
   \includegraphics[width=0.48\textwidth]{figures/boosted/muons/h2_mass_dbl.pdf}
   \includegraphics[width=0.48\textwidth]{figures/boosted/muons/hh_mass_dbl.pdf}
   \includegraphics[width=0.48\textwidth]{figures/boosted/muons/h12_corr_mass.pdf}
-  \caption{Kinematics of $1$ \TeV~ \Grav~ before and after muon-in-jet corrections. The reconstructed Higgs masses (top row, left for leading large-$R$ jet, right for subleading large-$R$ jet) are closer to $125$ \GeV after the correction, which improves the signal efficiency for the signal region selection by $\sim\!10\%$ (bottom row, left for $m_{JJ}$, right for event distribution differences on the leading-subleading large-$R$ jet mass plane.).}
+  \caption{Kinematics of $1$ \TeV~ \Grav~ before and after muon-in-jet corrections. The reconstructed Higgs masses (top row, left for leading large-\R jet, right for subleading large-\R jet) are closer to $125$ \GeV after the correction, which improves the signal efficiency for the signal region selection by $\sim\!10\%$ (bottom row, left for $m_{JJ}$, right for event distribution differences on the leading-subleading large-\R jet mass plane.).}
   \label{fig:boosted-muons-signal}
 \end{center}
 \end{figure*}
 
 \paragraph{}
-Finally, the Higgs candidates (large-$R$ jets) are also required to have $|\Delta\eta| = |\eta_{\text{leadJ}} -\eta_{\text{sublJ}} |< 1.7$. 
+Finally, the Higgs candidates (large-\R jets) are also required to have $|\Delta\eta| = |\eta_{\text{leadJ}} -\eta_{\text{sublJ}} |< 1.7$. 
 This is because the spin 2 \Grav~ are produced mostly through s-channel, while the multijet events could also be produced through t-channels or u-channel. 
 Figure ~\ref{fig:app-check-deta} shows the distribution for signal sample and data inclusive $b$-tag region $\Delta \eta_{JJ}$ distribution.
 This cut is not entirely optimal for Scalar signals due to the different spin, yet it is fixed for both \Grav~ and Scalar selections.
@@ -170,7 +170,7 @@ This cut is not entirely optimal for Scalar signals due to the different spin, y
 \begin{figure*}
 \begin{center}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth_0.pdf}
-  \caption{ After large-$R$ jet requirements, normalized $\Delta \eta_{JJ}$ distribution in $1.5$ \TeV \Grav~ and data, where the data consists of mostly multijet events (> 90$\%$). The background multijet event is flatter in $\Delta \eta_{JJ}$ distribution.}
+  \caption{ After large-\R jet requirements, normalized $\Delta \eta_{JJ}$ distribution in $1.5$ \TeV \Grav~ and data, where the data consists of mostly multijet events (> 90$\%$). The background multijet event is flatter in $\Delta \eta_{JJ}$ distribution.}
 \label{fig:app-check-deta}
 \end{center}
 \end{figure*}
@@ -324,7 +324,7 @@ They all have relatively small signal acceptance.
 
 \paragraph{}
 The MC events passing all signal region selections are sorted into different $b$-tagging categories. This is shown in Figure~\ref{fig:boosted-nbjet-signal-efficiency}. 
-For masses above 2.5 TeV, the $2bs$ region (where each large-$R$ jet has exactly one $b$-tagged track jet) significantly improves the acceptance.
+For masses above 2.5 TeV, the $2bs$ region (where each large-\R jet has exactly one $b$-tagged track jet) significantly improves the acceptance.
 \begin{figure*}
 \begin{center}
 \includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf}
@@ -341,7 +341,7 @@ For masses above 2.5 TeV, the $2bs$ region (where each large-$R$ jet has exactly
 \paragraph{}
 Acceptance means purely geometric fiducial volume of the detector. Efficiency refers to purely detector effectiveness in finding objects.
 The signal efficiency as a function of \Grav~ resonance mass is shown in Figure~\ref{fig:boosted-selection-efficiency}, both for the absolute signal efficiency and for the efficiency relative to the previous cut in the selection.
-Above a mass of $\sim\!1$ \TeV, the reconstruction of high momentum large-$R$ jets with small $\Delta\eta$ is efficient. 
+Above a mass of $\sim\!1$ \TeV, the reconstruction of high momentum large-\R jets with small $\Delta\eta$ is efficient. 
 Across the mass range considered, the signal jet masses requirement ($X_\text{hh}$) and $b$-tagging requirements are $\mathcal{O}(20\%)$ efficient relative to the previous cuts.
 
 \begin{figure*}
@@ -361,7 +361,7 @@ The selection efficiency at various stages for \Grav with $c=1.0$, \Grav with $c
 % \begin{center}
 % \subfloat[]{\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/G_hh_c20_evtsel_Moriond_bkg_9_Efficiency_PreSel.pdf}
 % \subfloat[]{\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/G_hh_c20_region_lst_Moriond_bkg_9_Efficiency_PreSel.pdf}
-% \caption{(a) The selection acceptance times efficiency of the boosted analysis at each stage of the event selection as a function of the generated graviton mass for $\kMPl = 2$. The trigger efficiency is approximately 100\% after the requirement of two large-$R$ jets, so it is not shown. (b) The selection efficiency of the three signal region samples defined by $b$-tagging requirements, as a function of the generated graviton mass for $\kMPl = 2$.}
+% \caption{(a) The selection acceptance times efficiency of the boosted analysis at each stage of the event selection as a function of the generated graviton mass for $\kMPl = 2$. The trigger efficiency is approximately 100\% after the requirement of two large-\R jets, so it is not shown. (b) The selection efficiency of the three signal region samples defined by $b$-tagging requirements, as a function of the generated graviton mass for $\kMPl = 2$.}
 % \end{center}
 % \end{figure*}
 
