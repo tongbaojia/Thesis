@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  16 APR 2018 21:27
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  19 APR 2018 10:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1110,8 +1110,18 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 )
 (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
-(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/conclusion.aux)
-)
+(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/chapter7.aux
+
+LaTeX Warning: Label `sec:b-tagging-unc' multiply defined.
+
+) (./chapters/chapter8.aux
+
+LaTeX Warning: Label `fig:limit_scalar' multiply defined.
+
+
+LaTeX Warning: Label `fig:limit_scalar' multiply defined.
+
+) (./chapters/conclusion.aux))
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -1134,7 +1144,8 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 21.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 21.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -1243,27 +1254,29 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 (Font)              scaled to size 10.95pt on input line 1.
 [4
 
-])
+]
+LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 9.35316pt on input line 172.
+
+
+LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 172.
+
+
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 172.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 172.
+)
 \tf@toc=\write4
 \openout4 = `dissertation.toc'.
 
  [5] (./dissertation.lof
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-
 Overfull \hbox (7.79584pt too wide) in paragraph at lines 3--3
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Fermions and bosons of the Standard M
 odel and their properties$[]$, where all the values 
  []
 
-LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 4.
-
-LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 4.
-
-LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 4.
 
 Overfull \hbox (11.57765pt too wide) in paragraph at lines 4--4
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Leading order Feynman diagrams contri
@@ -1692,33 +1705,45 @@ assBJetSkim means the event con-
  []
 
 
-Overfull \hbox (20.86328pt too wide) in paragraph at lines 39--39
+Overfull \hbox (20.34863pt too wide) in paragraph at lines 39--39
  \EU1/EBGaramond(2)/bx/n/10.95 tains at least two $[]$-tagged track jets, inclu
-sive of 2$[]$, 2$[]$s, 3$[]$ and 4$[]$ configurations; PassSig- 
+sive of $[][]$, $[][][]$, $[][]$ and $[][]$ configurations; PassSig- 
  []
 
 
-Overfull \hbox (4.60645pt too wide) in paragraph at lines 41--41
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Values of the $[][]$ and $[][]$ varia
-bles, which are shapes in the two-dimensional plane of 
+Overfull \hbox (5.47832pt too wide) in paragraph at lines 41--41
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The $[][]$vs $[][]$distribution of th
+e $[][][]$ data. The signal region is the area surrounded 
  []
 
 
-Overfull \hbox (19.79747pt too wide) in paragraph at lines 41--41
- \EU1/EBGaramond(2)/bx/n/10.95 the large-R jet masses used to defined signal, c
-ontrol, and sideband regions. For both vari- 
+Overfull \hbox (11.62477pt too wide) in paragraph at lines 41--41
+ \EU1/EBGaramond(2)/bx/n/10.95 by the inner (red) dashed contour line, centred 
+on ($[][]$=124 GeV, $[][]$=115 GeV). The 
  []
 
 
-Overfull \hbox (9.54095pt too wide) in paragraph at lines 42--42
+Overfull \hbox (6.0479pt too wide) in paragraph at lines 41--41
+ \EU1/EBGaramond(2)/bx/n/10.95 control region is the area between the signal re
+gion and the intermediate (orange) con- 
+ []
+
+
+Overfull \hbox (12.31862pt too wide) in paragraph at lines 41--41
+ \EU1/EBGaramond(2)/bx/n/10.95 tour line. The sideband region is the area betwe
+en the control region and the outer (yel- 
+ []
+
+
+Overfull \hbox (9.0263pt too wide) in paragraph at lines 42--42
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Detailed signal efficiency in differe
-nt signal/control/sideband regions as in 2$[]$s (top left, 
+nt signal/control/sideband regions as in $[][][]$ (top left, 
  []
 
 
-Overfull \hbox (6.77065pt too wide) in paragraph at lines 42--42
- \EU1/EBGaramond(2)/bx/n/10.95 3$[]$ (top right), 4$[]$ (bottom left) and inclu
-sive b-tagged regions, which incluse 2$[]$, 1$[]$ and 
+Overfull \hbox (8.77449pt too wide) in paragraph at lines 42--42
+ [][]$ \EU1/EBGaramond(2)/bx/n/10.95 (top right), $[][]$ (bottom left) and incl
+usive b-tagged regions, which include $[][]$, $[][]$ and 
  []
 
 
@@ -1727,26 +1752,1654 @@ Overfull \hbox (13.19827pt too wide) in paragraph at lines 42--42
 ignal resonance mass hypothesis for selection 
  []
 
+
+Overfull \hbox (16.09195pt too wide) in paragraph at lines 43--43
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Normalized of $[][]$, $[][]$, and $[]
+[]$ $[][]$  MC $[][]$distribution in the SR. The uncertainties are sta- 
+ []
+
+
+Overfull \hbox (13.54343pt too wide) in paragraph at lines 44--44
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Simultaneous fit of $[][]$  and $[][]
+$  in $[][]$ (top) and $[][]$ (middle) and $[][][]$ (bottom) sideband 
+ []
+
+[9]
+Overfull \hbox (9.07027pt too wide) in paragraph at lines 45--45
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over 0$[]$ $[][]$  values: $[]
+[]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+ []
+
+
+Overfull \hbox (6.02226pt too wide) in paragraph at lines 45--45
+ \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
+ighted mean value and the Gaussian 
+ []
+
+
+Overfull \hbox (8.13951pt too wide) in paragraph at lines 46--46
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: $[
+][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+ []
+
+
+Overfull \hbox (6.02226pt too wide) in paragraph at lines 46--46
+ \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
+ighted mean value and the Gaussian 
+ []
+
+
+Overfull \hbox (11.16171pt too wide) in paragraph at lines 47--47
+ [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: 
+$[][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+ []
+
+
+Overfull \hbox (6.02226pt too wide) in paragraph at lines 47--47
+ \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
+ighted mean value and the Gaussian 
+ []
+
+
+Overfull \hbox (9.04836pt too wide) in paragraph at lines 48--48
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: $[
+][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+ []
+
+
+Overfull \hbox (6.02226pt too wide) in paragraph at lines 48--48
+ \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
+ighted mean value and the Gaussian 
+ []
+
+
+Overfull \hbox (10.36237pt too wide) in paragraph at lines 49--49
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: $[
+][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+ []
+
+
+Overfull \hbox (6.02226pt too wide) in paragraph at lines 49--49
+ \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
+ighted mean value and the Gaussian 
+ []
+
+
+Overfull \hbox (4.56212pt too wide) in paragraph at lines 50--50
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over 0$[]$ $[][]$  values in d
+ijet MC: $[][]$variations on 2D $[][]$-msublJ plane(left); and 
+ []
+
+
+Overfull \hbox (14.53084pt too wide) in paragraph at lines 50--50
+ [][]$\EU1/EBGaramond(2)/bx/n/10.95 pull distribution in SB/CR/SR(right), with 
+the $[][]$ weighted mean value and the 
+ []
+
+
+Overfull \hbox (3.63136pt too wide) in paragraph at lines 51--51
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values in 
+dijet MC: $[][]$variations on 2D $[][]$-msublJ plane(left); and 
+ []
+
+
+Overfull \hbox (14.53084pt too wide) in paragraph at lines 51--51
+ [][]$\EU1/EBGaramond(2)/bx/n/10.95 pull distribution in SB/CR/SR(right), with 
+the $[][]$ weighted mean value and the 
+ []
+
+
+Overfull \hbox (6.65356pt too wide) in paragraph at lines 52--52
+ [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values i
+n dijet MC: $[][]$variations on 2D $[][]$-msublJ plane(left); and 
+ []
+
+
+Overfull \hbox (14.53084pt too wide) in paragraph at lines 52--52
+ [][]$\EU1/EBGaramond(2)/bx/n/10.95 pull distribution in SB/CR/SR(right), with 
+the $[][]$ weighted mean value and the 
+ []
+
+
+Overfull \hbox (16.46866pt too wide) in paragraph at lines 52--52
+ \EU1/EBGaramond(2)/bx/n/10.95 Guassian fit mean value shown on the plot. Poor 
+Statistics of the dijet MC affect the pull 
+ []
+
+
+Overfull \hbox (9.92247pt too wide) in paragraph at lines 53--53
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Comparison of different trackjet $[][
+]$distributions. The top row is for leading Higgs can- 
+ []
+
+
+Overfull \hbox (14.78238pt too wide) in paragraph at lines 53--53
+ \EU1/EBGaramond(2)/bx/n/10.95 didate, and the bottom row is for subleading Hig
+gs candidate. The left column is for the 
+ []
+
+
+Overfull \hbox (13.18732pt too wide) in paragraph at lines 53--53
+ \EU1/EBGaramond(2)/bx/n/10.95 leading trackjet of the Higgs candidate, and the
+ right column is for the subleading track- 
+ []
+
+
+Overfull \hbox (14.12538pt too wide) in paragraph at lines 53--53
+ \EU1/EBGaramond(2)/bx/n/10.95 jet of the Higgs candidate. Shown in the plot ar
+e data distributions, inclusive of SB, CR, 
+ []
+
+
+Overfull \hbox (8.27808pt too wide) in paragraph at lines 53--53
+ \EU1/EBGaramond(2)/bx/n/10.95 and SR regions for 0$[]$ and $[][]$, while for $
+[][][]$ only the SB region is shown. At the bottom 
+ []
+
+
+Overfull \hbox (19.17331pt too wide) in paragraph at lines 54--54
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][][]$ background estimate: the
+ fits to the ratio of the data in the $[][]$ category, of the sub- 
+ []
+
+
+Overfull \hbox (20.64427pt too wide) in paragraph at lines 54--54
+ \EU1/EBGaramond(2)/bx/n/10.95 leading Higgs candidate $[][]$-tagged events’s s
+ubleading Higgs candidate distributions(black 
+ []
+
+
+Overfull \hbox (6.16837pt too wide) in paragraph at lines 54--54
+ \EU1/EBGaramond(2)/bx/n/10.95 point), over the leading Higgs candidate $[][]$-
+tagged events’s subleading Higgs candidate 
+ []
+
+
+Overfull \hbox (19.88503pt too wide) in paragraph at lines 54--54
+ \EU1/EBGaramond(2)/bx/n/10.95 distributions(yellow). Distributions and fits to
+ the estimated QCD background for large- 
+ []
+
+
+Overfull \hbox (4.72148pt too wide) in paragraph at lines 54--54
+ []$ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s lead
+ing trackjet $[][]$ (middle), and large-$[]$ jet’s subleading 
+ []
+
+
+Overfull \hbox (8.85767pt too wide) in paragraph at lines 54--54
+ \EU1/EBGaramond(2)/bx/n/10.95 trackjet $[][]$ (right) are shown. Figures are b
+efore reweighting (top row), after the first it- 
+ []
+
+
+Overfull \hbox (20.54567pt too wide) in paragraph at lines 54--54
+ \EU1/EBGaramond(2)/bx/n/10.95 eration(second row), after the fourth iteration(
+third row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 54--54
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+[10]
+Overfull \hbox (21.01291pt too wide) in paragraph at lines 55--55
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][][]$ background estimate: the
+ fits to the ratio of the data in the $[][]$ category, of the lead- 
+ []
+
+
+Overfull \hbox (20.06392pt too wide) in paragraph at lines 55--55
+ \EU1/EBGaramond(2)/bx/n/10.95 ing Higgs candidate $[][]$-tagged events’s leadi
+ng Higgs candidate distributions(black point), 
+ []
+
+
+Overfull \hbox (1.74457pt too wide) in paragraph at lines 55--55
+ \EU1/EBGaramond(2)/bx/n/10.95 over the subleading Higgs candidate $[][]$-tagge
+d events’s leading Higgs candidate distri- 
+ []
+
+
+Overfull \hbox (5.34344pt too wide) in paragraph at lines 55--55
+ \EU1/EBGaramond(2)/bx/n/10.95 butions(yellow). Distributions and fits to the e
+stimated QCD background for large-$[]$ 
+ []
+
+
+Overfull \hbox (21.45306pt too wide) in paragraph at lines 55--55
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s leading 
+trackjet $[][]$ (middle), and large-$[]$ jet’s subleading track- 
+ []
+
+
+Overfull \hbox (0.40427pt too wide) in paragraph at lines 55--55
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (right) are shown. Figures are before
+ reweighting (top row), after the first itera- 
+ []
+
+
+Overfull \hbox (8.27072pt too wide) in paragraph at lines 55--55
+ \EU1/EBGaramond(2)/bx/n/10.95 tion(second row), after the fourth iteration(thi
+rd row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 55--55
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+
+Overfull \hbox (17.05995pt too wide) in paragraph at lines 56--56
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
+its to the ratio of the data in the $[][]$ category, of the sub- 
+ []
+
+
+Overfull \hbox (22.10062pt too wide) in paragraph at lines 56--56
+ \EU1/EBGaramond(2)/bx/n/10.95 leading Higgs candidate $[][]$-tagged events’s s
+ubleading Higgs candidate distributions(black 
+ []
+
+
+Overfull \hbox (6.16837pt too wide) in paragraph at lines 56--56
+ \EU1/EBGaramond(2)/bx/n/10.95 point), over the leading Higgs candidate $[][]$-
+tagged events’s subleading Higgs candidate 
+ []
+
+
+Overfull \hbox (19.88503pt too wide) in paragraph at lines 56--56
+ \EU1/EBGaramond(2)/bx/n/10.95 distributions(yellow). Distributions and fits to
+ the estimated QCD background for large- 
+ []
+
+
+Overfull \hbox (4.72148pt too wide) in paragraph at lines 56--56
+ []$ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s lead
+ing trackjet $[][]$ (middle), and large-$[]$ jet’s subleading 
+ []
+
+
+Overfull \hbox (8.85767pt too wide) in paragraph at lines 56--56
+ \EU1/EBGaramond(2)/bx/n/10.95 trackjet $[][]$ (right) are shown. Figures are b
+efore reweighting (top row), after the first it- 
+ []
+
+
+Overfull \hbox (20.54567pt too wide) in paragraph at lines 56--56
+ \EU1/EBGaramond(2)/bx/n/10.95 eration(second row), after the fourth iteration(
+third row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 56--56
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+
+Overfull \hbox (18.89955pt too wide) in paragraph at lines 57--57
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
+its to the ratio of the data in the $[][]$ category, of the lead- 
+ []
+
+
+Overfull \hbox (21.52026pt too wide) in paragraph at lines 57--57
+ \EU1/EBGaramond(2)/bx/n/10.95 ing Higgs candidate $[][]$-tagged events’s leadi
+ng Higgs candidate distributions(black point), 
+ []
+
+
+Overfull \hbox (1.74457pt too wide) in paragraph at lines 57--57
+ \EU1/EBGaramond(2)/bx/n/10.95 over the subleading Higgs candidate $[][]$-tagge
+d events’s leading Higgs candidate distri- 
+ []
+
+
+Overfull \hbox (5.34344pt too wide) in paragraph at lines 57--57
+ \EU1/EBGaramond(2)/bx/n/10.95 butions(yellow). Distributions and fits to the e
+stimated QCD background for large-$[]$ 
+ []
+
+
+Overfull \hbox (21.45306pt too wide) in paragraph at lines 57--57
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s leading 
+trackjet $[][]$ (middle), and large-$[]$ jet’s subleading track- 
+ []
+
+
+Overfull \hbox (0.40427pt too wide) in paragraph at lines 57--57
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (right) are shown. Figures are before
+ reweighting (top row), after the first itera- 
+ []
+
+
+Overfull \hbox (8.27072pt too wide) in paragraph at lines 57--57
+ \EU1/EBGaramond(2)/bx/n/10.95 tion(second row), after the fourth iteration(thi
+rd row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 57--57
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+[11]
+Overfull \hbox (18.37396pt too wide) in paragraph at lines 58--58
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
+its to the ratio of the data in the $[][]$ category, of the sub- 
+ []
+
+
+Overfull \hbox (22.10062pt too wide) in paragraph at lines 58--58
+ \EU1/EBGaramond(2)/bx/n/10.95 leading Higgs candidate $[][]$-tagged events’s s
+ubleading Higgs candidate distributions(black 
+ []
+
+
+Overfull \hbox (7.62471pt too wide) in paragraph at lines 58--58
+ \EU1/EBGaramond(2)/bx/n/10.95 point), over the leading Higgs candidate $[][]$-
+tagged events’s subleading Higgs candidate 
+ []
+
+
+Overfull \hbox (19.88503pt too wide) in paragraph at lines 58--58
+ \EU1/EBGaramond(2)/bx/n/10.95 distributions(yellow). Distributions and fits to
+ the estimated QCD background for large- 
+ []
+
+
+Overfull \hbox (4.72148pt too wide) in paragraph at lines 58--58
+ []$ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s lead
+ing trackjet $[][]$ (middle), and large-$[]$ jet’s subleading 
+ []
+
+
+Overfull \hbox (8.85767pt too wide) in paragraph at lines 58--58
+ \EU1/EBGaramond(2)/bx/n/10.95 trackjet $[][]$ (right) are shown. Figures are b
+efore reweighting (top row), after the first it- 
+ []
+
+
+Overfull \hbox (20.54567pt too wide) in paragraph at lines 58--58
+ \EU1/EBGaramond(2)/bx/n/10.95 eration(second row), after the fourth iteration(
+third row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 58--58
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+
+Overfull \hbox (20.21356pt too wide) in paragraph at lines 59--59
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
+its to the ratio of the data in the $[][]$ category, of the lead- 
+ []
+
+
+Overfull \hbox (21.52026pt too wide) in paragraph at lines 59--59
+ \EU1/EBGaramond(2)/bx/n/10.95 ing Higgs candidate $[][]$-tagged events’s leadi
+ng Higgs candidate distributions(black point), 
+ []
+
+
+Overfull \hbox (3.20091pt too wide) in paragraph at lines 59--59
+ \EU1/EBGaramond(2)/bx/n/10.95 over the subleading Higgs candidate $[][]$-tagge
+d events’s leading Higgs candidate distri- 
+ []
+
+
+Overfull \hbox (5.34344pt too wide) in paragraph at lines 59--59
+ \EU1/EBGaramond(2)/bx/n/10.95 butions(yellow). Distributions and fits to the e
+stimated QCD background for large-$[]$ 
+ []
+
+
+Overfull \hbox (21.45306pt too wide) in paragraph at lines 59--59
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s leading 
+trackjet $[][]$ (middle), and large-$[]$ jet’s subleading track- 
+ []
+
+
+Overfull \hbox (0.40427pt too wide) in paragraph at lines 59--59
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (right) are shown. Figures are before
+ reweighting (top row), after the first itera- 
+ []
+
+
+Overfull \hbox (8.27072pt too wide) in paragraph at lines 59--59
+ \EU1/EBGaramond(2)/bx/n/10.95 tion(second row), after the fourth iteration(thi
+rd row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 59--59
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+
+Overfull \hbox (8.8365pt too wide) in paragraph at lines 60--60
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighed $[][][]$ sideband region pr
+edictions comparison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 60--60
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 60--60
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+
+Overfull \hbox (5.2668pt too wide) in paragraph at lines 61--61
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighed $[][]$ sideband region pred
+ictions comparison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 61--61
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 61--61
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+[12]
+Overfull \hbox (10.0191pt too wide) in paragraph at lines 62--62
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ sideband region pre
+dictions comaprison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 62--62
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 62--62
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+
+Overfull \hbox (5.40915pt too wide) in paragraph at lines 63--63
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][][]$ control region pr
+edictions comaprison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 63--63
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 63--63
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+
+Overfull \hbox (1.83945pt too wide) in paragraph at lines 64--64
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ control region pred
+ictions comaprison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 64--64
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 64--64
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+
+Overfull \hbox (3.15346pt too wide) in paragraph at lines 65--65
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ control region pred
+ictions comaprison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 65--65
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 65--65
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+
+Overfull \hbox (8.91682pt too wide) in paragraph at lines 66--66
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the sideband region after re- 
+ []
+
+
+Overfull \hbox (11.24551pt too wide) in paragraph at lines 66--66
+ \EU1/EBGaramond(2)/bx/n/10.95 quiring 4 $[]$-tags. The normalization agrees by
+ construction, and the shapes are a feature 
+ []
+
+
+Overfull \hbox (6.17932pt too wide) in paragraph at lines 67--67
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the sideband region af- 
+ []
+
+
+Overfull \hbox (1.55476pt too wide) in paragraph at lines 67--67
+ \EU1/EBGaramond(2)/bx/n/10.95 ter requiring 4 $[]$-tags. The normalization agr
+ees by construction, and the shapes are a 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 68--68
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 68--68
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (7.64297pt too wide) in paragraph at lines 68--68
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the sideband region after requirin
+g 4 $[]$-tags. Third row shows the $[][]$ be- 
+ []
+
+
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 68--68
+ \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
+ed to the leading (left) and sub-leading (right) 
+ []
+
+
+Overfull \hbox (14.83708pt too wide) in paragraph at lines 68--68
+ \EU1/EBGaramond(2)/bx/n/10.95 large-$[]$ jet. The normalization agrees by cons
+truction, and the shapes are a feature of the 
+ []
+
+
+Overfull \hbox (7.00056pt too wide) in paragraph at lines 69--69
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the sideband region after 
+ []
+
+
+Overfull \hbox (5.03687pt too wide) in paragraph at lines 69--69
+ \EU1/EBGaramond(2)/bx/n/10.95 requiring 4 $[]$-tags. The normalization agrees 
+by construction, and the shapes are a fea- 
+ []
+
+[13]
+Overfull \hbox (8.91682pt too wide) in paragraph at lines 70--70
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the sideband region after re- 
+ []
+
+
+Overfull \hbox (9.9315pt too wide) in paragraph at lines 70--70
+ \EU1/EBGaramond(2)/bx/n/10.95 quiring 3 $[]$-tags. The normalization agrees by
+ construction, and the shapes are a feature 
+ []
+
+
+Overfull \hbox (6.17932pt too wide) in paragraph at lines 71--71
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the sideband region af- 
+ []
+
+
+Overfull \hbox (0.24075pt too wide) in paragraph at lines 71--71
+ \EU1/EBGaramond(2)/bx/n/10.95 ter requiring 3 $[]$-tags. The normalization agr
+ees by construction, and the shapes are a 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 72--72
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 72--72
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (6.32896pt too wide) in paragraph at lines 72--72
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the sideband region after requirin
+g 3 $[]$-tags. Third row shows the $[][]$ be- 
+ []
+
+
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 72--72
+ \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
+ed to the leading (left) and sub-leading (right) 
+ []
+
+
+Overfull \hbox (14.83708pt too wide) in paragraph at lines 72--72
+ \EU1/EBGaramond(2)/bx/n/10.95 large-$[]$ jet. The normalization agrees by cons
+truction, and the shapes are a feature of the 
+ []
+
+
+Overfull \hbox (7.00056pt too wide) in paragraph at lines 73--73
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the sideband region after 
+ []
+
+
+Overfull \hbox (3.72285pt too wide) in paragraph at lines 73--73
+ \EU1/EBGaramond(2)/bx/n/10.95 requiring 3 $[]$-tags. The normalization agrees 
+by construction, and the shapes are a fea- 
+ []
+
+
+Overfull \hbox (8.91682pt too wide) in paragraph at lines 74--74
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the sideband region after re- 
+ []
+
+
+Overfull \hbox (16.52339pt too wide) in paragraph at lines 74--74
+ \EU1/EBGaramond(2)/bx/n/10.95 quiring 2 $[]$-tags split. The normalization agr
+ees by construction, and the shapes are a fea- 
+ []
+
+
+Overfull \hbox (6.17932pt too wide) in paragraph at lines 75--75
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the sideband region af- 
+ []
+
+
+Overfull \hbox (14.38814pt too wide) in paragraph at lines 75--75
+ \EU1/EBGaramond(2)/bx/n/10.95 ter requiring 2 $[]$-tags split. The normalizati
+on agrees by construction, and the shapes are 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 76--76
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 76--76
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (11.95724pt too wide) in paragraph at lines 76--76
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the sideband region after requirin
+g 2 $[]$-tags split. Third row shows the $[][]$ 
+ []
+
+
+Overfull \hbox (1.74457pt too wide) in paragraph at lines 76--76
+ \EU1/EBGaramond(2)/bx/n/10.95 between two leading small-$[]$ track-jets associ
+ated to the leading (left) and sub-leading 
+ []
+
+
+Overfull \hbox (3.39435pt too wide) in paragraph at lines 76--76
+ \EU1/EBGaramond(2)/bx/n/10.95 (right) large-$[]$ jet. The normalization agrees
+ by construction, and the shapes are a fea- 
+ []
+
+
+Overfull \hbox (7.00056pt too wide) in paragraph at lines 77--77
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the sideband region after 
+ []
+
+
+Overfull \hbox (0.85394pt too wide) in paragraph at lines 77--77
+ \EU1/EBGaramond(2)/bx/n/10.95 requiring 2 $[]$-tags split. The normalization a
+grees by construction, and the shapes are 
+ []
+
+
+Overfull \hbox (2.05118pt too wide) in paragraph at lines 78--78
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the control region after re- 
+ []
+
+[14]
+Overfull \hbox (6.90202pt too wide) in paragraph at lines 79--79
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the control region after 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 80--80
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 80--80
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (0.77733pt too wide) in paragraph at lines 80--80
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the control region after requiring
+ 4 $[]$-tags. Third row shows the $[][]$ be- 
+ []
+
+
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 80--80
+ \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
+ed to the leading (left) and sub-leading (right) 
+ []
+
+
+Overfull \hbox (0.13492pt too wide) in paragraph at lines 81--81
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the control region after 
+ []
+
+
+Overfull \hbox (2.05118pt too wide) in paragraph at lines 82--82
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the control region after re- 
+ []
+
+
+Overfull \hbox (6.90202pt too wide) in paragraph at lines 83--83
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the control region after 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 84--84
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 84--84
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the control region after requiring
+ 3 $[]$-tags. Third row shows the $[][]$ be- 
+ []
+
+
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 84--84
+ \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
+ed to the leading (left) and sub-leading (right) 
+ []
+
+
+Overfull \hbox (0.13492pt too wide) in paragraph at lines 85--85
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the control region after 
+ []
+
+
+Overfull \hbox (2.05118pt too wide) in paragraph at lines 86--86
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the control region after re- 
+ []
+
+
+Overfull \hbox (6.90202pt too wide) in paragraph at lines 87--87
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the control region after 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 88--88
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 88--88
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (5.0916pt too wide) in paragraph at lines 88--88
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the control region after requiring
+ 2 $[]$-tags split. Third row shows the $[][]$ 
+ []
+
+
+Overfull \hbox (1.74457pt too wide) in paragraph at lines 88--88
+ \EU1/EBGaramond(2)/bx/n/10.95 between two leading small-$[]$ track-jets associ
+ated to the leading (left) and sub-leading 
+ []
+
+
+Overfull \hbox (0.13492pt too wide) in paragraph at lines 89--89
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the control region after 
+ []
+
+
+Overfull \hbox (7.83276pt too wide) in paragraph at lines 90--90
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Normalized Scaled dijet mass distribu
+tions for the $[][]$ (left), $[][]$ (middle), and $[][][]$ (right) 
+ []
+
+
+Overfull \hbox (7.9824pt too wide) in paragraph at lines 90--90
+ \EU1/EBGaramond(2)/bx/n/10.95 signal regions. For comparison, the unscaled dis
+tributions are shown on the same plot. 
+ []
+
+[15]
+Overfull \hbox (0.75905pt too wide) in paragraph at lines 91--91
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Fits for scaled background smoothing 
+are shown for QCD (left column) and $[][]$ (right 
+ []
+
+
+Overfull \hbox (23.23578pt too wide) in paragraph at lines 91--91
+ \EU1/EBGaramond(2)/bx/n/10.95 column) in the $[][]$ (top), $[][]$ (middle), an
+d $[][][]$ (bottom) signal region. The left figures show 
+ []
+
+
+Overfull \hbox (3.8579pt too wide) in paragraph at lines 91--91
+ \EU1/EBGaramond(2)/bx/n/10.95 the distributions with linear $[]$-axis scale al
+ong with the fit central value and variations. 
+ []
+
+
+Overfull \hbox (2.1059pt too wide) in paragraph at lines 91--91
+ \EU1/EBGaramond(2)/bx/n/10.95 The right figures show the distributions with lo
+g $[]$-axis scale along with the fit central 
+ []
+
+
+Overfull \hbox (2.2373pt too wide) in paragraph at lines 91--91
+ \EU1/EBGaramond(2)/bx/n/10.95 value and the fit variations as determined by th
+e varying the fit parameters within un- 
+ []
+
+
+Overfull \hbox (4.88722pt too wide) in paragraph at lines 92--92
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction for $[][]$ (top
+), $[][]$ (middle), and $[][][]$ (bottom) signal region using 
+ []
+
+
+Overfull \hbox (19.30469pt too wide) in paragraph at lines 92--92
+ \EU1/EBGaramond(2)/bx/n/10.95 scaled di-jet mass before (left) and after smoot
+hing (right). The uncertainty band includes 
+ []
+
+
+Overfull \hbox (0.55827pt too wide) in paragraph at lines 94--94
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Total background estimation (qcd + $[
+][]$) with different $[][]$MC variations. The different 
+ []
+
+
+Overfull \hbox (5.71944pt too wide) in paragraph at lines 95--95
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration of ZZ (left) and TT (rig
+ht) signal region as shown in the orange shaded re- 
+ []
+
+
+Overfull \hbox (6.18298pt too wide) in paragraph at lines 95--95
+ \EU1/EBGaramond(2)/bx/n/10.95 gion. Control region shown in green, and Sideban
+d region in blue. The white circle in 
+ []
+
+
+Overfull \hbox (0.8138pt too wide) in paragraph at lines 96--96
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 ZZ signal region distribution of di-j
+et mass (left column) and leading large-R jet mass 
+ []
+
+
+Overfull \hbox (1.78839pt too wide) in paragraph at lines 96--96
+ \EU1/EBGaramond(2)/bx/n/10.95 (right column) in low mass signal, for $[][]$ (t
+op row), $[][]$(middle row) and $[][]$ split (bot- 
+ []
+
+
+Overfull \hbox (2.2811pt too wide) in paragraph at lines 97--97
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 TT signal region distribution of di-j
+et mass (left column) and leading large-R jet mass 
+ []
+
+
+Overfull \hbox (1.78839pt too wide) in paragraph at lines 97--97
+ \EU1/EBGaramond(2)/bx/n/10.95 (right column) in low mass signal, for $[][]$ (t
+op row), $[][]$(middle row) and $[][]$ split (bot- 
+ []
+
+
+Overfull \hbox (13.03157pt too wide) in paragraph at lines 98--98
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 (left) Shape of the $[][]$ di-$[][][]
+[][] \OMS/cmsy/m/n/10.95 ^^@ []$\EU1/EBGaramond(2)/bx/n/10.95 -jet mass in the 
+sideband region, comparing the $[][]$ shape 
+ []
+
+
+Overfull \hbox (4.06595pt too wide) in paragraph at lines 98--98
+ \EU1/EBGaramond(2)/bx/n/10.95 with that of the $[][]$, in order to asses the s
+ystematic effect of additional $[]$-tags changing 
+ []
+
+
+Overfull \hbox (5.24744pt too wide) in paragraph at lines 98--98
+ \EU1/EBGaramond(2)/bx/n/10.95 the dijet mass distribution. The $[][]$ distribu
+tions is shown on the left, and the ratio of 
+ []
+
+
+Overfull \hbox (0.32104pt too wide) in paragraph at lines 99--99
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Dijet mass distribution in the CR alo
+ng with the prediction (left) and the ratio of the 
+ []
+
+
+Overfull \hbox (7.95325pt too wide) in paragraph at lines 99--99
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction to the CR distribution (right) for th
+e $[][][]$ (top) $[][]$ (middle) and $[][]$ (bottom) 
+ []
+
+
+Overfull \hbox (0.76636pt too wide) in paragraph at lines 99--99
+ \EU1/EBGaramond(2)/bx/n/10.95 samples. Ratios are from the smoothed distributi
+ons, the data uncertainty band con- 
+ []
+
+
+Overfull \hbox (14.09615pt too wide) in paragraph at lines 99--99
+ \EU1/EBGaramond(2)/bx/n/10.95 tains the smoothing parameter variations, and th
+e prediction uncertainty band also con- 
+ []
+
+
+Overfull \hbox (21.67355pt too wide) in paragraph at lines 100--100
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Dijet mass distribution SR prediction
+ fit with several fit ranges (left) and the ratio of nom- 
+ []
+
+
+Overfull \hbox (8.43503pt too wide) in paragraph at lines 100--100
+ \EU1/EBGaramond(2)/bx/n/10.95 inal to fits with different fit ranges (right) f
+or the 2b (top) 3b (middle) and 4b (bottom) 
+ []
+
+[16]
+Overfull \hbox (10.4279pt too wide) in paragraph at lines 101--101
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Dijet mass distribution SR prediction
+ fit with several fit functions (left) and the ratio of 
+ []
+
+
+Overfull \hbox (0.84668pt too wide) in paragraph at lines 101--101
+ \EU1/EBGaramond(2)/bx/n/10.95 nominal to fits with different fit functions (ri
+ght) for the 2b (top) 3b (middle) and 4b 
+ []
+
+
+Overfull \hbox (0.1787pt too wide) in paragraph at lines 102--102
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Impact of each systematic on the sign
+al prediction as a function of the signal mass, in 
+ []
+
+
+Overfull \hbox (19.73541pt too wide) in paragraph at lines 103--103
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The total background estimation in $[
+][]$ signal region, with linear scale on the left and with 
+ []
+
+
+Overfull \hbox (13.94044pt too wide) in paragraph at lines 103--103
+ \EU1/EBGaramond(2)/bx/n/10.95 log scale on the right, along with total uncerta
+inties (stats.$\OT1/cmr/m/n/10.95 +$\EU1/EBGaramond(2)/bx/n/10.95 systematic) v
+ariation up and 
+ []
+
+
+Overfull \hbox (18.4214pt too wide) in paragraph at lines 104--104
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The total background estimation in $[
+][]$ signal region, with linear scale on the left and with 
+ []
+
+
+Overfull \hbox (13.94044pt too wide) in paragraph at lines 104--104
+ \EU1/EBGaramond(2)/bx/n/10.95 log scale on the right, along with total uncerta
+inties (stats.$\OT1/cmr/m/n/10.95 +$\EU1/EBGaramond(2)/bx/n/10.95 systematic) v
+ariation up and 
+ []
+
+
+Overfull \hbox (0.54005pt too wide) in paragraph at lines 105--105
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The total background estimation in $[
+][][]$ signal region, with linear scale on the left and 
+ []
+
+
+Overfull \hbox (3.86644pt too wide) in paragraph at lines 105--105
+ \EU1/EBGaramond(2)/bx/n/10.95 with log scale on the right, along with total un
+certainties (stats.$\OT1/cmr/m/n/10.95 +$\EU1/EBGaramond(2)/bx/n/10.95 systemat
+ic) variation 
+ []
+
+
+Overfull \hbox (11.58861pt too wide) in paragraph at lines 106--106
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The total background estimation in $[
+][]$ signal region, scaled mJJ, with linear scale on the 
+ []
+
+
+Overfull \hbox (18.28758pt too wide) in paragraph at lines 106--106
+ \EU1/EBGaramond(2)/bx/n/10.95 left and with log scale on the right, along with
+ total uncertainties (stats.$\OT1/cmr/m/n/10.95 +$\EU1/EBGaramond(2)/bx/n/10.95
+ systematic) vari- 
+ []
+
+
+Overfull \hbox (10.2746pt too wide) in paragraph at lines 107--107
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The total background estimation in $[
+][]$ signal region, scaled mJJ, with linear scale on the 
+ []
+
+
+Overfull \hbox (18.28758pt too wide) in paragraph at lines 107--107
+ \EU1/EBGaramond(2)/bx/n/10.95 left and with log scale on the right, along with
+ total uncertainties (stats.$\OT1/cmr/m/n/10.95 +$\EU1/EBGaramond(2)/bx/n/10.95
+ systematic) vari- 
+ []
+
+
+Overfull \hbox (13.8443pt too wide) in paragraph at lines 108--108
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The total background estimation in $[
+][][]$ signal region, scaled mJJ, with linear scale on the 
+ []
+
+
+Overfull \hbox (18.28758pt too wide) in paragraph at lines 108--108
+ \EU1/EBGaramond(2)/bx/n/10.95 left and with log scale on the right, along with
+ total uncertainties (stats.$\OT1/cmr/m/n/10.95 +$\EU1/EBGaramond(2)/bx/n/10.95
+ systematic) vari- 
+ []
+
+
+Overfull \hbox (9.67966pt too wide) in paragraph at lines 110--110
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Unscaled dijet mass distribution in t
+he $[][]$ Signal Region after unblinding. The left plot 
+ []
+
+
+Overfull \hbox (5.25586pt too wide) in paragraph at lines 110--110
+ \EU1/EBGaramond(2)/bx/n/10.95 is on linear scale and the right plot is on log 
+scale. Stat uncertainty and systematic ucn- 
+ []
+
+
+Overfull \hbox (8.36565pt too wide) in paragraph at lines 111--111
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Unscaled dijet mass distribution in t
+he $[][]$ Signal Region after unblinding. The left plot 
+ []
+
+
+Overfull \hbox (5.25586pt too wide) in paragraph at lines 111--111
+ \EU1/EBGaramond(2)/bx/n/10.95 is on linear scale and the right plot is on log 
+scale. Stat uncertainty and systematic ucn- 
+ []
+
+
+Overfull \hbox (11.93535pt too wide) in paragraph at lines 112--112
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Unscaled dijet mass distribution in t
+he $[][][]$ Signal Region after unblinding. The left plot 
+ []
+
+
+Overfull \hbox (5.25586pt too wide) in paragraph at lines 112--112
+ \EU1/EBGaramond(2)/bx/n/10.95 is on linear scale and the right plot is on log 
+scale. Stat uncertainty and systematic ucn- 
+ []
+
+[17]
+Overfull \hbox (5.78146pt too wide) in paragraph at lines 113--113
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Scaled dijet mass distribution in the
+ $[][]$ Signal Region after unblinding. The left plot is 
+ []
+
+
+Overfull \hbox (4.75215pt too wide) in paragraph at lines 113--113
+ \EU1/EBGaramond(2)/bx/n/10.95 on linear scale and the right plot is on log sca
+le. Stat uncertainty and systematic ucner- 
+ []
+
+
+Overfull \hbox (4.46745pt too wide) in paragraph at lines 114--114
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Scaled dijet mass distribution in the
+ $[][]$ Signal Region after unblinding. The left plot is 
+ []
+
+
+Overfull \hbox (4.75215pt too wide) in paragraph at lines 114--114
+ \EU1/EBGaramond(2)/bx/n/10.95 on linear scale and the right plot is on log sca
+le. Stat uncertainty and systematic ucner- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Scaled dijet mass distribution in the
+ $[][][]$ Signal Region after unblinding. The left plot 
+ []
+
+
+Overfull \hbox (5.25586pt too wide) in paragraph at lines 115--115
+ \EU1/EBGaramond(2)/bx/n/10.95 is on linear scale and the right plot is on log 
+scale. Stat uncertainty and systematic ucn- 
+ []
+
+
+Overfull \hbox (13.1654pt too wide) in paragraph at lines 116--116
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the signal region after requir- 
+ []
+
+
+Overfull \hbox (0.18967pt too wide) in paragraph at lines 117--117
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the signal region after 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 118--118
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 118--118
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (16.17302pt too wide) in paragraph at lines 118--118
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the signal region after requiring 
+4 $[]$-tags. Third row shows the $[][]$ between 
+ []
+
+
+Overfull \hbox (18.69516pt too wide) in paragraph at lines 118--118
+ \EU1/EBGaramond(2)/bx/n/10.95 two leading small-$[]$ track-jets associated to 
+the leading (left) and sub-leading (right) large- 
+ []
+
+
+Overfull \hbox (6.51877pt too wide) in paragraph at lines 119--119
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the signal region after re- 
+ []
+
+
+Overfull \hbox (13.1654pt too wide) in paragraph at lines 120--120
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the signal region after requir- 
+ []
+
+
+Overfull \hbox (0.18967pt too wide) in paragraph at lines 121--121
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the signal region after 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 122--122
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 122--122
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (14.85901pt too wide) in paragraph at lines 122--122
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the signal region after requiring 
+3 $[]$-tags. Third row shows the $[][]$ between 
+ []
+
+
+Overfull \hbox (18.69516pt too wide) in paragraph at lines 122--122
+ \EU1/EBGaramond(2)/bx/n/10.95 two leading small-$[]$ track-jets associated to 
+the leading (left) and sub-leading (right) large- 
+ []
+
+
+Overfull \hbox (6.51877pt too wide) in paragraph at lines 123--123
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the signal region after re- 
+ []
+
+
+Overfull \hbox (13.1654pt too wide) in paragraph at lines 124--124
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the lead large-$[]$ jet
+ in data and prediction in the signal region after requir- 
+ []
+
+[18]
+Overfull \hbox (0.18967pt too wide) in paragraph at lines 125--125
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the sub-lead large-$[]$
+ jet in data and prediction in the signal region after 
+ []
+
+
+Overfull \hbox (5.04053pt too wide) in paragraph at lines 126--126
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the kinematics of
+ the lead (left) and sub-lead (right) small-$[]$ track 
+ []
+
+
+Overfull \hbox (2.53297pt too wide) in paragraph at lines 126--126
+ \EU1/EBGaramond(2)/bx/n/10.95 jets associated to the lead (first-row) and sub-
+lead (second-row) large-$[]$ jet in data and 
+ []
+
+
+Overfull \hbox (13.4574pt too wide) in paragraph at lines 126--126
+ \EU1/EBGaramond(2)/bx/n/10.95 prediction in the signal region after requiring 
+2 $[]$-tags split. Third row shows the $[][]$ be- 
+ []
+
+
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 126--126
+ \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
+ed to the leading (left) and sub-leading (right) 
+ []
+
+
+Overfull \hbox (6.51877pt too wide) in paragraph at lines 127--127
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of the large-$[]$ jet syst
+em in data and prediction in the signal region after re- 
+ []
+
+
+Overfull \hbox (1.59126pt too wide) in paragraph at lines 129--129
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
+per exclusion limits for the boosted $[][]$ analy- 
+ []
+
+
+Overfull \hbox (16.30441pt too wide) in paragraph at lines 129--129
+ \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
+nties for the narrow scalar model. The dot- 
+ []
+
+
+Overfull \hbox (18.79004pt too wide) in paragraph at lines 129--129
+ \EU1/EBGaramond(2)/bx/n/10.95 dashed line shows the expected limit when only s
+tatistical uncertainties are included. The 
+ []
+
+
+Overfull \hbox (1.59126pt too wide) in paragraph at lines 130--130
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
+per exclusion limits for the boosted $[][]$ analy- 
+ []
+
+
+Overfull \hbox (23.5095pt too wide) in paragraph at lines 130--130
+ \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
+nties for the c=1.0 Graviton. The dot-dashed 
+ []
+
+
+Overfull \hbox (6.74504pt too wide) in paragraph at lines 130--130
+ \EU1/EBGaramond(2)/bx/n/10.95 line shows the expected limit when only statisti
+cal uncertainties are included. The lim- 
+ []
+
+
+Overfull \hbox (1.59126pt too wide) in paragraph at lines 131--131
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
+per exclusion limits for the boosted $[][]$ analy- 
+ []
+
+
+Overfull \hbox (24.96585pt too wide) in paragraph at lines 131--131
+ \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
+nties for the c=2.0 Graviton. The dot-dashed 
+ []
+
+
+Overfull \hbox (6.74504pt too wide) in paragraph at lines 131--131
+ \EU1/EBGaramond(2)/bx/n/10.95 line shows the expected limit when only statisti
+cal uncertainties are included. The lim- 
+ []
+
+
+Overfull \hbox (3.16801pt too wide) in paragraph at lines 132--132
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Nuisance parameters associated with t
+he background modelling, after the conditional 
+ []
+
+
+Overfull \hbox (13.82239pt too wide) in paragraph at lines 132--132
+ \EU1/EBGaramond(2)/bx/n/10.95 The tight constraints of 2b_QCD_CRShape and 3b_Q
+CD_CRShape are a result of the 
+ []
+
+
+Overfull \hbox (19.10033pt too wide) in paragraph at lines 132--132
+ \EU1/EBGaramond(2)/bx/n/10.95 nuisance parameter prior being unconstrained due
+ to a lack of control region data at high 
+ []
+
+
+Overfull \hbox (10.479pt too wide) in paragraph at lines 133--133
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Postfit distributions after fitting t
+he data with the 2000 GeV signal hypothesis. The sig- 
+ []
+
+
+Overfull \hbox (8.8584pt too wide) in paragraph at lines 134--134
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Postfit distributions after fitting t
+he data with the 2500 GeV signal hypothesis. The sig- 
+ []
+
+
+Overfull \hbox (0.71524pt too wide) in paragraph at lines 135--135
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The impact of nuisance parameters on 
+the fitted cross section, ranked by their postfit 
+ []
+
+
+Overfull \hbox (10.5338pt too wide) in paragraph at lines 135--135
+ \EU1/EBGaramond(2)/bx/n/10.95 impact. The signal mass used in this fits is 200
+0 GeV, and the signal model is (a) narrow 
+ []
+
 )
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [9] (./dissertation.lot)
+ [19] [20] (./dissertation.lot
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+
+Overfull \hbox (19.9736pt too wide) in paragraph at lines 14--14
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background scaling parameters ($[][]$
+and $[][]$) estimated from fits to the $[][]$distributions 
+ []
+
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+
+Overfull \hbox (19.9736pt too wide) in paragraph at lines 15--15
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background scaling parameters ($[][]$
+and $[][]$) estimated from fits to the $[][]$distributions 
+ []
+
+
+Overfull \hbox (9.97896pt too wide) in paragraph at lines 16--16
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Smoothing parameters in $[][]$ and $[
+][]$ and $[][][]$ signal regions for scaled mass distributions, 
+ []
+
+
+Overfull \hbox (1.13138pt too wide) in paragraph at lines 17--17
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Expected yields for backgrounds in th
+e $[][]$ signal region, control region, and sideband 
+ []
+
+
+Overfull \hbox (2.55122pt too wide) in paragraph at lines 17--17
+ \EU1/EBGaramond(2)/bx/n/10.95 region, along with the observed number of data e
+vents. The signal predictions for RS 
+ []
+
+
+Overfull \hbox (1.11765pt too wide) in paragraph at lines 17--17
+ [] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 :[]; []:[]; []:[]$ \EU1/EBGaramo
+nd(2)/bx/n/10.95 TeV of both $[] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 :[]
+$ \EU1/EBGaramond(2)/bx/n/10.95 and $[] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10
+.95 :[]$\EU1/EBGaramond(2)/bx/n/10.95 , and for narrow width heavy Higgs 
+ []
+
+
+Overfull \hbox (3.18124pt too wide) in paragraph at lines 17--17
+ \EU1/EBGaramond(2)/bx/n/10.95 of $[] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.9
+5 :[]; []:[]; []:[]$ \EU1/EBGaramond(2)/bx/n/10.95 TeV are also listed. For eac
+h predicted value, the uncertainty listed 
+ []
+
+
+Overfull \hbox (12.91357pt too wide) in paragraph at lines 18--18
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Expected yields for backgrounds in th
+e $[][]$ signal region, control region, and sideband re- 
+ []
+
+
+Overfull \hbox (1.83458pt too wide) in paragraph at lines 18--18
+ \EU1/EBGaramond(2)/bx/n/10.95 gion, along with the observed number of data eve
+nts. The signal predictions for $[] \OT1/cmr/m/n/10.95 = 
+ []
+
+
+Overfull \hbox (0.4985pt too wide) in paragraph at lines 18--18
+ [] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 :[]; []:[]; []:[]$ \EU1/EBGaramo
+nd(2)/bx/n/10.95 TeV are also listed. For each predicted value, the uncertainty
+ listed is 
+ []
+
+
+Overfull \hbox (3.38707pt too wide) in paragraph at lines 19--19
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Expected yields for backgrounds in th
+e $[][][]$ signal region, control region, and sideband 
+ []
+
+
+Overfull \hbox (9.74048pt too wide) in paragraph at lines 19--19
+ \EU1/EBGaramond(2)/bx/n/10.95 region, along with the observed number of data e
+vents. The signal predictions for $[] \OT1/cmr/m/n/10.95 = 
+ []
+
+
+Overfull \hbox (0.4985pt too wide) in paragraph at lines 19--19
+ [] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 :[]; []:[]; []:[]$ \EU1/EBGaramo
+nd(2)/bx/n/10.95 TeV are also listed. For each predicted value, the uncertainty
+ listed is 
+ []
+
+[21
+
+]
+Overfull \hbox (12.05585pt too wide) in paragraph at lines 24--24
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction in SR/CR/SB for
+ ZZ SR in $[][]$-tag region. Uncertainties are stat 
+ []
+
+
+Overfull \hbox (10.74184pt too wide) in paragraph at lines 25--25
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction in SR/CR/SB for
+ ZZ SR in $[][]$-tag region. Uncertainties are stat 
+ []
+
+
+Overfull \hbox (14.31154pt too wide) in paragraph at lines 26--26
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction in SR/CR/SB for
+ ZZ SR in $[][][]$-tag region. Uncertainties are stat 
+ []
+
+
+Overfull \hbox (13.52315pt too wide) in paragraph at lines 28--28
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction in SR/CR/SB for
+ TT SR in $[][]$-tag region. Uncertainties are stat 
+ []
+
+
+Overfull \hbox (12.20914pt too wide) in paragraph at lines 29--29
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction in SR/CR/SB for
+ TT SR in $[][]$-tag region. Uncertainties are stat 
+ []
+
+
+Overfull \hbox (15.77884pt too wide) in paragraph at lines 30--30
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction in SR/CR/SB for
+ TT SR in $[][][]$-tag region. Uncertainties are stat 
+ []
+
+
+Overfull \hbox (6.37636pt too wide) in paragraph at lines 33--33
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Percent impact of the dominant system
+atics on the background acceptance and on the 
+ []
+
+
+Overfull \hbox (6.37636pt too wide) in paragraph at lines 34--34
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Percent impact of the dominant system
+atics on the background acceptance and on the 
+ []
+
+
+Overfull \hbox (6.37636pt too wide) in paragraph at lines 35--35
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Percent impact of the dominant system
+atics on the background acceptance and on the 
+ []
+
+
+Overfull \hbox (5.36533pt too wide) in paragraph at lines 37--37
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Unblinded Signal Region predictions a
+nd results. All systemtic uncertainties included 
+ []
+
+
+Overfull \hbox (15.58168pt too wide) in paragraph at lines 38--38
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 unblinded Signal Region predic
+tions and results. All systemtic uncertainties included 
+ []
+
+
+Overfull \hbox (0.12761pt too wide) in paragraph at lines 38--38
+ \EU1/EBGaramond(2)/bx/n/10.95 for backgrounds. For Data, the statistical uncer
+tainty is shown. Mass range is broken 
+ []
+
+[22]
+Overfull \hbox (14.26767pt too wide) in paragraph at lines 39--39
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 unblinded Signal Region predic
+tions and results. All systemtic uncertainties included 
+ []
+
+
+Overfull \hbox (0.12761pt too wide) in paragraph at lines 39--39
+ \EU1/EBGaramond(2)/bx/n/10.95 for backgrounds. For Data, the statistical uncer
+tainty is shown. Mass range is broken 
+ []
+
+
+Overfull \hbox (17.83737pt too wide) in paragraph at lines 40--40
+ [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 unblinded Signal Region pred
+ictions and results. All systemtic uncertainties included 
+ []
+
+
+Overfull \hbox (0.12761pt too wide) in paragraph at lines 40--40
+ \EU1/EBGaramond(2)/bx/n/10.95 for backgrounds. For Data, the statistical uncer
+tainty is shown. Mass range is broken 
+ []
+
+
+Overfull \hbox (9.4278pt too wide) in paragraph at lines 41--41
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 unblinded Scaled dijet mass Re
+gion predictions and results. All systemtic uncertain- 
+ []
+
+
+Overfull \hbox (14.2531pt too wide) in paragraph at lines 41--41
+ \EU1/EBGaramond(2)/bx/n/10.95 ties included for backgrounds. For Data, the sta
+tistical uncertainty is shown. Mass range 
+ []
+
+
+Overfull \hbox (7.31444pt too wide) in paragraph at lines 42--42
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 unblinded Scaled dijet mass Si
+gnal Region predictions and results. All systemtic un- 
+ []
+
+
+Overfull \hbox (17.54904pt too wide) in paragraph at lines 42--42
+ \EU1/EBGaramond(2)/bx/n/10.95 certainties included for backgrounds. For Data, 
+the statistical uncertainty is shown. Mass 
+ []
+
+
+Overfull \hbox (10.88414pt too wide) in paragraph at lines 43--43
+ [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 unblinded Scaled dijet mass 
+Signal Region predictions and results. All systemtic un- 
+ []
+
+
+Overfull \hbox (17.54904pt too wide) in paragraph at lines 43--43
+ \EU1/EBGaramond(2)/bx/n/10.95 certainties included for backgrounds. For Data, 
+the statistical uncertainty is shown. Mass 
+ []
+
+)
 \tf@lot=\write6
 \openout6 = `dissertation.lot'.
 
- [10
+ [23] (./frontmatter/dedication.tex) [24
 
-] (./frontmatter/dedication.tex) [11
-
-]
-(./frontmatter/thanks.tex
+] (./frontmatter/thanks.tex
 Overfull \hbox (16.6841pt too wide) in paragraph at lines 20--21
 \EU1/EBGaramond(2)/bx/n/10.95 gram and has contributed to every bit of the resu
 lt in my thesis. I am standing on the ATLAS(member)’s 
  []
 
-) [12
+) [25
 
 
 ]
@@ -1961,7 +3614,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13] [14]
 File: figures/theory/resolved_boosted.png Graphic file (type QTm)
- <use  "figures/theory/resolved_boosted.png" > [15]) [16]
+ <use  "figures/theory/resolved_boosted.png" > [15]) [16] [17]
 \openout2 = `chapters/chapter2.aux'.
 
 
@@ -1972,11 +3625,11 @@ File: figures/detector/Cern-Accelerator-Complex.jpg Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17
+[18
 
 
 
-] [18]
+] [19]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 60.
 
@@ -1986,7 +3639,7 @@ Overfull \hbox (0.48906pt too wide) in paragraph at lines 58--61
 ch crossing. At each bunch crossing, multiple proton- 
  []
 
-[19]
+[20]
 File: figures/detector/Mu_2015_2016.pdf Graphic file (type QTm)
  <use  "figures/detector/Mu_2015_2016.pdf" >
 
@@ -2007,19 +3660,19 @@ Overfull \hbox (8.89471pt too wide) in alignment at lines 72--87
  []
 
 File: figures/detector/ATLAS.jpg Graphic file (type QTm)
-<use  "figures/detector/ATLAS.jpg" > [20] [21]
+<use  "figures/detector/ATLAS.jpg" > [21] [22]
 File: figures/detector/ID_rzmap.png Graphic file (type QTm)
 
 <use  "figures/detector/ID_rzmap.png" >
 File: figures/detector/ID_data_map_XY.png Graphic file (type QTm)
 
-<use  "figures/detector/ID_data_map_XY.png" > [22]
+<use  "figures/detector/ID_data_map_XY.png" > [23]
 File: figures/detector/MS_rz.png Graphic file (type QTm)
 
 <use  "figures/detector/MS_rz.png" >
 File: figures/detector/MS_phi.png Graphic file (type QTm)
  <use  "figures/detector/MS_phi.png" >
-[23] [24]
+[24] [25]
 File: figures/detector/Lumi_2015.pdf Graphic file (type QTm)
  <use  "figures/detector/Lumi_2015.pdf" >
 Overfull \hbox (57.18149pt too wide) in paragraph at lines 207--208
@@ -2032,7 +3685,7 @@ Overfull \hbox (57.18149pt too wide) in paragraph at lines 216--217
 [][] 
  []
 
-) [25]
+) [26]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
@@ -2042,11 +3695,11 @@ File: figures/detector/ATLAS_particle.jpg Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26
+[27
 
 
 
-] [27] [28]
+] [28] [29]
 File: figures/object/Jet_mass.pdf Graphic file (type QTm)
  <use  "figures/object/Jet_mass.pdf" >
 Overfull \hbox (9.70746pt too wide) in paragraph at lines 100--101
@@ -2062,7 +3715,7 @@ Overfull \hbox (9.70746pt too wide) in paragraph at lines 106--107
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] [30] [31]
+[30] [31] [32]
 File: figures/object/b_sv.png Graphic file (type QTm)
  <use  "figures/object/b_sv.png" >
 File: figures/object/b_mv2.png Graphic file (type QTm)
@@ -2070,7 +3723,7 @@ File: figures/object/b_mv2.png Graphic file (type QTm)
 <use  "figures/object/b_mv2.png" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
 (Font)              scaled to size 8.09479pt on input line 180.
- [32]
+ [33]
 File: figures/object/b_eff_pt.png Graphic file (type QTm)
  <use  "figures/object/b_eff_pt.png" >
 
@@ -2084,39 +3737,39 @@ File: figures/object/light_rej_pt.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[33] [34]
+[34] [35]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 250.
 
-[35]) [36]
+[36]) [37]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 Chapter 4.
-[37
+[38
 
 
 
 ]
 
-Package natbib Warning: Citation `EvtGen' on page 38 undefined on input line 34
+Package natbib Warning: Citation `EvtGen' on page 39 undefined on input line 34
 .
 
-[38]
+[39]
 Overfull \hbox (10.02565pt too wide) in paragraph at lines 44--50
 \EU1/EBGaramond(2)/bx/n/10.95 both been generated with  \EU1/EBGaramond(2)/m/sc
 /10.95 Powheg-box \EU1/EBGaramond(2)/bx/n/10.95 v1$[]$ using the CT10 PDF set. 
 The parton shower, hadroniza- 
  []
 
-[39]
+[40]
 Overfull \hbox (4.5123pt too wide) in paragraph at lines 70--76
 \EU1/EBGaramond(2)/bx/n/10.95 tion. The NNPDF2.3 LO parton distribution functio
 n (PDF) set$[]$ was used for both \EU1/SourceCodePro(0)/m/it/10.95 MG5_aMC@NLO 
 
  []
 
-[40]
+[41]
 Overfull \hbox (9.21205pt too wide) in paragraph at lines 78--83
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Signal 2HDM Scalar $\OMS/cmsy/m/n/10.95 !
   [][]  !  [][][][]$ \EU1/EBGaramond(2)/bx/n/10.95 events were generated at LO 
@@ -2124,7 +3777,7 @@ in QCD with \EU1/SourceCodePro(0)/m/it/10.95 MG5_aMC@NLO \EU1/EBGaramond(2)/bx/
 n/10.95 2.2.3 
  []
 
-) [41]
+) [42]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
@@ -2135,11 +3788,11 @@ c file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42
+[43
 
 
 
-] [43]
+] [44]
 File: figures/boosted/Trigger/app_trig_b77_Efficiency_PreSel.pdf Graphic file (
 type QTm)
  <use  "figures/boosted/Trigger/app_trig_b77_Efficiency_PreSel.pdf" >
@@ -2211,7 +3864,7 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 100.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 100.
- [44] [45]
+ [45] [46]
 File: figures/boosted/Truth/truth_higgs-matching.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/Truth/truth_higgs-matching.pdf" >
@@ -2222,14 +3875,14 @@ File: figures/boosted/Truth/truth_hbdR.pdf Graphic file (type QTm)
 <use  "figures/boosted/Truth/truth_hbdR.pdf" >
 File: figures/boosted/Truth/truth_hbdR2.pdf Graphic file (type QTm)
 
-<use  "figures/boosted/Truth/truth_hbdR2.pdf" > [46]
+<use  "figures/boosted/Truth/truth_hbdR2.pdf" > [47]
 File: figures/boosted/Truth/truth_b-matching.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/Truth/truth_b-matching.pdf" >
 File: figures/boosted/Truth/truth_b-matching-sublead.pdf Graphic file (type QTm
 )
 
-<use  "figures/boosted/Truth/truth_b-matching-sublead.pdf" > [47]
+<use  "figures/boosted/Truth/truth_b-matching-sublead.pdf" > [48]
 File: figures/boosted/muons/h1_mass_dbl.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/muons/h1_mass_dbl.pdf" >
@@ -2241,7 +3894,7 @@ File: figures/boosted/muons/hh_mass_dbl.pdf Graphic file (type QTm)
 <use  "figures/boosted/muons/hh_mass_dbl.pdf" >
 File: figures/boosted/muons/h12_corr_mass.pdf Graphic file (type QTm)
 
-<use  "figures/boosted/muons/h12_corr_mass.pdf" > [48] [49]
+<use  "figures/boosted/muons/h12_corr_mass.pdf" > [49] [50]
 File: figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth_
 0.pdf Graphic file (type QTm)
 
@@ -2262,9 +3915,9 @@ File: figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50] [51] [52]
+[51] [52] [53]
 
-LaTeX Warning: Reference `fig:resolvedRegions' on page 53 undefined on input li
+LaTeX Warning: Reference `fig:resolvedRegions' on page 54 undefined on input li
 ne 261.
 
 File: figures/boosted/Truth/Sig_1200_AllTag_Incl_mH0H1.pdf Graphic file (type Q
@@ -2273,7 +3926,7 @@ Tm)
 File: figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf Graphic file (type Q
 Tm)
 
-<use  "figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf" > [53]
+<use  "figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf" > [54]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 301.
@@ -2282,7 +3935,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 301.
 
-[54]
+[55]
 File: figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf Gr
 aphic file (type QTm)
 
@@ -2292,7 +3945,7 @@ File: figures/boosted/SigEff/detail_lst_Moriond_Efficiency_AllTag_Signal.pdf Gr
 aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/detail_lst_Moriond_Efficiency_AllTag_Signal.pdf" 
-> [55]
+> [56]
 File: figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf Graphic file 
 (type QTm)
  <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf" >
@@ -2302,7 +3955,7 @@ ile (type QTm)
 <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel_rel.pdf" >
 (./figures/boosted/tables/SignalEffTable_RSG_c10.tex)
 (./figures/boosted/tables/SignalEffTable_RSG_c20.tex)
-(./figures/boosted/tables/SignalEffTable_Xhh.tex)) [56] [57] [58]
+(./figures/boosted/tables/SignalEffTable_Xhh.tex)) [57] [58] [59]
 \openout2 = `chapters/chapter6.aux'.
 
 
@@ -2313,33 +3966,15 @@ shine
  []
 
 Chapter 6.
-
-LaTeX Warning: Reference `app:muqcd-study' on page 59 undefined on input line 1
-7.
-
-[59
+[60
 
 
 
-] [60]
-
-LaTeX Warning: Reference `app:muqcd-study' on page 61 undefined on input line 4
-0.
-
-
-LaTeX Warning: Reference `sec:boosted-qcd' on page 61 undefined on input line 5
-6.
-
-[61]
-
-LaTeX Warning: Reference `sec:ttbarnorm' on page 62 undefined on input line 68.
-
-
-File: figures/boosted/Other/cartoon-xhh.pdf Graphic file (type QTm)
-<use  "figures/boosted/Other/cartoon-xhh.pdf" >
-File: figures/boosted/Other/cartoon-rhh.pdf Graphic file (type QTm)
-
-<use  "figures/boosted/Other/cartoon-rhh.pdf" >
+] [61]
+File: figures/boosted/Other/TwoTag_split_Incl_data_mH0H1.pdf Graphic file (type
+ QTm)
+ <use  "figures/boosted/Other/TwoTag_split_Incl_data_mH0H1.pdf" >
+[62] [63]
 File: figures/boosted/SigEff/region_2b_lst_Moriond_Efficiency_PreSel.pdf Graphi
 c file (type QTm)
 
@@ -2356,7 +3991,2189 @@ File: figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf Gr
 aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf" 
->) [62] [63] [64]
+> [64] [65]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathaccent' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 169.
+
+[66]
+File: figures/boosted/Other/ttbar_compare_mHH_l.pdf Graphic file (type QTm)
+ <use  "figures/boosted/Other/ttbar_compare_mHH_l.pdf" >
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathaccent' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+[67]
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+ [68] (./figures/boosted/tables/normfit_prereweight.tex)
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+File: figures/boosted/Fit/fitNorm_i4.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Fit/fitNorm_i4.pdf" >
+File: figures/boosted/Fit/fitNorm_i3.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Fit/fitNorm_i3.pdf" >
+File: figures/boosted/Fit/fitNorm_i2s.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Fit/fitNorm_i2s.pdf" >
+LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 274.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/si' will be
+(Font)              scaled to size 12.0pt on input line 274.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 274.
+LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
+(Font)              scaled to size 6.0pt on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 274.
+
+File: figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1.pdf Graphic file (ty
+pe QTm)
+<use  "figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1_pull.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1_pull.pdf" >
+[69] [70]
+File: figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1.pdf Graphic file (ty
+pe QTm)
+ <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1_pull.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1_pull.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1_pull.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1_pull.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1_pull.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1_pull.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1_pull.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1_pull.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1_pull.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1_pull.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1_pull.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1_pull.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1.pdf" >
+File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1_pull.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1_pull.pdf"
+ >
+Overfull \hbox (4.75958pt too wide) in paragraph at lines 374--378
+\EU1/EBGaramond(2)/bx/n/10.95 ground as good as possible in all regions of the 
+analysis. Using the $[]\OML/cmm/m/it/10.95 =[][]$ \EU1/EBGaramond(2)/bx/n/10.95
+ region to model the $[][][]\OML/cmm/m/it/10.95 =[][]=[][]$ 
+ []
+
+[71] [72] [73]
+File: figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk0_Pt_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk0_Pt_1.pdf" >
+File: figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk1_Pt_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk1_Pt_1.pdf" >
+File: figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk0_Pt_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk0_Pt_1.pdf" >
+File: figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf" >
+[74] [75] [76]
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
+n;language=DFLT;!
+ (./figures/boosted/tables/normfit.tex) [77
+
+]
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_su
+blHCand_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_s
+ublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_su
+blHCand_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_s
+ublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_su
+blHCand_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_s
+ublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_su
+blHCand_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_s
+ublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_su
+blHCand_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_s
+ublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_su
+blHCand_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_s
+ublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_su
+blHCand_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_s
+ublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_su
+blHCand_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_s
+ublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_su
+blHCand_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_s
+ublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_le
+adHCand_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_l
+eadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_le
+adHCand_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_l
+eadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_le
+adHCand_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_l
+eadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_le
+adHCand_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_l
+eadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_le
+adHCand_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_l
+eadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_le
+adHCand_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_l
+eadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_le
+adHCand_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_l
+eadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_le
+adHCand_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_l
+eadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_le
+adHCand_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_l
+eadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_Pt_m
+_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_Pt_
+m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_trk0
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_trk
+0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_trk1
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_trk
+1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_Pt_m
+_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_Pt_
+m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_trk0
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_trk
+0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_trk1
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_trk
+1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_Pt_m
+_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_Pt_
+m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_trk0
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_trk
+0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_trk1
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_trk
+1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_Pt_m
+_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_Pt_
+m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_trk0
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_trk
+0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_trk1
+_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_trk
+1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCan
+d_Pt_m_1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCa
+nd_Pt_m_1.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCan
+d_trk0_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCa
+nd_trk0_Pt.pdf" >
+File: figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCan
+d_trk1_Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCa
+nd_trk1_Pt.pdf" >
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_mHH_l_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_mHH_l_1.pdf Graphic fi
+le (type QTm)
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_leadHCand_Pt_m.
+pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_leadHCand_Pt_m
+.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_leadHCand_trk0_
+Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_leadHCand_trk0
+_Pt.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf
+" >
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_sublHCand_trk0_
+Pt.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_sublHCand_trk0
+_Pt.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf
+" >
+
+LaTeX Warning: Float too large for page by 32.80444pt on input line 596.
+
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_mHH_l_1.pdf Graphic
+ file (type QTm)
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_mHH_l_1.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_leadHCand_Pt_m.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_leadHCand_Pt_m.pdf
+" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_leadHCand_trk0_Pt.p
+df Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_leadHCand_trk0_Pt.
+pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_sublHCand_trk0_Pt.p
+df Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_sublHCand_trk0_Pt.
+pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf" >
+
+LaTeX Warning: Float too large for page by 32.80444pt on input line 612.
+
+File: figures/boosted/Prereweight/Moriond_FourTag_Sideband_mHH_l_1.pdf Graphic 
+file (type QTm)
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_mHH_l_1.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Prereweight/Moriond_FourTag_Sideband_leadHCand_Pt_m.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Sideband_leadHCand_Pt_m.pdf"
+ >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Pt_m.pdf Graphic 
+file (type QTm)
+ <use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Prereweight/Moriond_FourTag_Sideband_leadHCand_trk0_Pt.pd
+f Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Sideband_leadHCand_trk0_Pt.p
+df" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Prereweight/Moriond_FourTag_Sideband_sublHCand_trk0_Pt.pd
+f Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Sideband_sublHCand_trk0_Pt.p
+df" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf" >
+
+LaTeX Warning: Float too large for page by 32.80444pt on input line 628.
+
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Control_mHH_l_1.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Control_mHH_l_1.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_mHH_l_1.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_mHH_l_1.pdf" >
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Control_leadHCand_Pt_m.p
+df Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Control_leadHCand_Pt_m.
+pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Control_leadHCand_trk0_P
+t.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Control_leadHCand_trk0_
+Pt.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf" 
+>
+File: figures/boosted/Prereweight/Moriond_TwoTag_split_Control_sublHCand_trk0_P
+t.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_TwoTag_split_Control_sublHCand_trk0_
+Pt.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf" 
+>
+
+LaTeX Warning: Float too large for page by 32.80444pt on input line 646.
+
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Control_mHH_l_1.pdf Graphic 
+file (type QTm)
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Control_mHH_l_1.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_mHH_l_1.pdf Graphic file (ty
+pe QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_mHH_l_1.pdf" >
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Control_leadHCand_Pt_m.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Control_leadHCand_Pt_m.pdf"
+ >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m.pdf Graphic f
+ile (type QTm)
+ <use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Control_leadHCand_trk0_Pt.pd
+f Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Control_leadHCand_trk0_Pt.p
+df" >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Prereweight/Moriond_ThreeTag_Control_sublHCand_trk0_Pt.pd
+f Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_ThreeTag_Control_sublHCand_trk0_Pt.p
+df" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf" >
+
+LaTeX Warning: Float too large for page by 32.80444pt on input line 662.
+
+File: figures/boosted/Prereweight/Moriond_FourTag_Control_mHH_l_1.pdf Graphic f
+ile (type QTm)
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Control_mHH_l_1.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_mHH_l_1.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_mHH_l_1.pdf" >
+File: figures/boosted/Prereweight/Moriond_FourTag_Control_leadHCand_Pt_m.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Control_leadHCand_Pt_m.pdf" 
+>
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_Pt_m.pdf Graphic fi
+le (type QTm)
+ <use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Prereweight/Moriond_FourTag_Control_leadHCand_trk0_Pt.pdf
+ Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Control_leadHCand_trk0_Pt.pd
+f" >
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Prereweight/Moriond_FourTag_Control_sublHCand_trk0_Pt.pdf
+ Graphic file (type QTm)
+
+<use  "figures/boosted/Prereweight/Moriond_FourTag_Control_sublHCand_trk0_Pt.pd
+f" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf" >
+
+LaTeX Warning: Float too large for page by 32.80444pt on input line 678.
+
+[78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90]
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Pt_m_1.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Mass_s.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Eta.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Eta.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Phi.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Phi.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Pt_m_1.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Mass_s.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Eta.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Eta.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Phi.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_Phi.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk1_Pt.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk1_Pt.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk_dr.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk_dr.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_mHH_l_1.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_hCandDr.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_hCandDr.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_hCandDeta.pdf Graphic file 
+(type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_hCandDeta.pdf" >
+File: figures/boosted/Sideband/b77_FourTag_Sideband_hCandDphi.pdf Graphic file 
+(type QTm)
+
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_hCandDphi.pdf" > [91]
+[92] [93] [94] [95]
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m_1.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Mass_s.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Eta.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Eta.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Phi.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Phi.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Pt_m_1.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Mass_s.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Eta.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Eta.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Phi.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_Phi.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk1_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk1_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk_dr.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk_dr.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_mHH_l_1.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDr.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDr.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDeta.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDeta.pdf" >
+File: figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDphi.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDphi.pdf" > [96
+
+]
+[97] [98] [99]
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m_1.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m_1.pdf"
+ >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Mass_s.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Mass_s.pdf"
+ >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Eta.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Eta.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Phi.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Phi.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Pt_m_1.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Pt_m_1.pdf"
+ >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Mass_s.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Mass_s.pdf"
+ >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Eta.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Eta.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Phi.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_Phi.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf
+" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk1_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk1_Pt.pdf
+" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf
+" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk1_Pt.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk1_Pt.pdf
+" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk_dr.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk_dr.pdf"
+ >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk_dr.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk_dr.pdf"
+ >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_mHH_l_1.pdf Graphic fi
+le (type QTm)
+ <use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_mHH_l_1.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDr.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDr.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDeta.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDeta.pdf" >
+File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDphi.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDphi.pdf" >
+[100
+
+] [101] [102] [103]
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_Pt_m_1.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_Mass_s.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_Eta.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_Eta.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_Phi.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_Phi.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_Pt_m_1.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_Mass_s.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_Eta.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_Eta.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_Phi.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_Phi.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_trk1_Pt.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_trk1_Pt.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_leadHCand_trk_dr.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_sublHCand_trk_dr.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_mHH_l_1.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_mHH_l_1.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_hCandDr.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_hCandDr.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_hCandDeta.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_hCandDeta.pdf" >
+File: figures/boosted/Control/b77_FourTag_Control_hCandDphi.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Control/b77_FourTag_Control_hCandDphi.pdf" > [104
+
+]
+[105] [106] [107] [108]
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m_1.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Mass_s.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Eta.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Eta.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Phi.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Phi.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Pt_m_1.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Mass_s.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Eta.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Eta.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Phi.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_Phi.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk1_Pt.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk1_Pt.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk_dr.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk_dr.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_mHH_l_1.pdf Graphic file (ty
+pe QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_mHH_l_1.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_hCandDr.pdf Graphic file (ty
+pe QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_hCandDr.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_hCandDeta.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_hCandDeta.pdf" >
+File: figures/boosted/Control/b77_ThreeTag_Control_hCandDphi.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/Control/b77_ThreeTag_Control_hCandDphi.pdf" > [109
+
+]
+[110] [111] [112]
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m_1.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Mass_s.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Eta.pdf Graphi
+c file (type QTm)
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Eta.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Phi.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Phi.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Pt_m_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Pt_m_1.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Mass_s.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Eta.pdf Graphi
+c file (type QTm)
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Eta.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Phi.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_Phi.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf" 
+>
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk1_Pt.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk1_Pt.pdf" 
+>
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf" 
+>
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk1_Pt.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk1_Pt.pdf" 
+>
+File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk_dr.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk_dr.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_mHH_l_1.pdf Graphic file
+ (type QTm)
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_mHH_l_1.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_hCandDr.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_hCandDr.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_hCandDeta.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_hCandDeta.pdf" >
+File: figures/boosted/Control/b77_TwoTag_split_Control_hCandDphi.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Control/b77_TwoTag_split_Control_hCandDphi.pdf" >
+[113
+
+] [114] [115] [116]
+
+LaTeX Warning: Reference `sec:app-optimization-polemass' on page 117 undefined 
+on input line 1027.
+
+File: figures/boosted/Other/FourTag_Signal_compare_scale_mHH_1.pdf Graphic file
+ (type QTm)
+<use  "figures/boosted/Other/FourTag_Signal_compare_scale_mHH_1.pdf" >
+File: figures/boosted/Other/ThreeTag_Signal_compare_scale_mHH_1.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Other/ThreeTag_Signal_compare_scale_mHH_1.pdf" >
+File: figures/boosted/Other/TwoTag_split_Signal_compare_scale_mHH_1.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Other/TwoTag_split_Signal_compare_scale_mHH_1.pdf" >
+[117
+
+]
+
+LaTeX Warning: Reference `app:correrr' on page 118 undefined on input line 1068
+.
+
+(./figures/boosted/tables/smoothfit_pole.tex
+Overfull \hbox (5.84438pt too wide) in paragraph at lines 2--13
+ [] 
+ []
+
+)
+File: figures/boosted/Smooth/qcd_est_FourTag_Signal_mHH_pole_l.pdf Graphic file
+ (type QTm)
+ <use  "figures/boosted/Smooth/qcd_est_FourTag_Signal_mHH_pole_l.pdf" >
+File: figures/boosted/Smooth/ttbar_est_FourTag_Signal_mHH_pole_l.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Smooth/ttbar_est_FourTag_Signal_mHH_pole_l.pdf" >
+File: figures/boosted/Smooth/qcd_est_ThreeTag_Signal_mHH_pole_l.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Smooth/qcd_est_ThreeTag_Signal_mHH_pole_l.pdf" >
+File: figures/boosted/Smooth/ttbar_est_ThreeTag_Signal_mHH_pole_l.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Smooth/ttbar_est_ThreeTag_Signal_mHH_pole_l.pdf" >
+File: figures/boosted/Smooth/qcd_est_TwoTag_split_Signal_mHH_pole_l.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Smooth/qcd_est_TwoTag_split_Signal_mHH_pole_l.pdf" >
+File: figures/boosted/Smooth/ttbar_est_TwoTag_split_Signal_mHH_pole_l.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Smooth/ttbar_est_TwoTag_split_Signal_mHH_pole_l.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_mHH_pole_1_blind.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_mHH_pole_1_blind.pdf" >
+File: figures/boosted/Smooth/Moriond_bkg_9_FourTag_pole_Signal_mHH_pole_1_blind
+.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Smooth/Moriond_bkg_9_FourTag_pole_Signal_mHH_pole_1_blin
+d.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_mHH_pole_1_blind.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_mHH_pole_1_blind.pdf" >
+File: figures/boosted/Smooth/Moriond_bkg_9_ThreeTag_pole_Signal_mHH_pole_1_blin
+d.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Smooth/Moriond_bkg_9_ThreeTag_pole_Signal_mHH_pole_1_bli
+nd.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_mHH_pole_1_blind.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_mHH_pole_1_blind.pdf" >
+File: figures/boosted/Smooth/Moriond_bkg_9_TwoTag_split_pole_Signal_mHH_pole_1_
+blind.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Smooth/Moriond_bkg_9_TwoTag_split_pole_Signal_mHH_pole_1
+_blind.pdf" > [118] [119] [120] (./figures/boosted/tables/FourTag_yield.tex)
+(./figures/boosted/tables/ThreeTag_yield.tex)
+(./figures/boosted/tables/TwoTag_split_yield.tex)) [121] [122]
+\openout2 = `chapters/chapter7.aux'.
+
+
+(./chapters/chapter7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\EU1/EBGaramond(2)/m/it/10 Every question has a proper answer. Every soul has
+ a
+ []
+
+Chapter 7.
+(./chapters/Sections/sec-systematics.tex
+(./chapters/Sections/sec-systematics-mc.tex [123
+
+
+
+]
+
+Package natbib Warning: Citation `Aad:2013ucp' on page 124 undefined on input l
+ine 4.
+
+
+Package natbib Warning: Citation `ATLASlumi8TeV' on page 124 undefined on input
+ line 4.
+
+
+Package natbib Warning: Citation `Aad:2013gja' on page 124 undefined on input l
+ine 7.
+
+
+Package natbib Warning: Citation `BosonTagPreRec' on page 124 undefined on inpu
+t line 7.
+
+
+Overfull \hbox (11.54128pt too wide) in paragraph at lines 17--18
+\EU1/EBGaramond(2)/bx/n/10.95 The uncertainties in our kinematic regime for sig
+nal yield predictions are below 7% / 15% for JER/JMR. 
+ []
+
+[124]
+
+LaTeX Warning: Reference `sec:statistical-analysis' on page 125 undefined on in
+put line 49.
+
+
+Overfull \hbox (104.85056pt too wide) in paragraph at lines 99--99
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410001.PowhegPythiaEvtGen_P2012radH
+i_ttbar_hdamp345_down_nonallhad.merge.DAOD_EXOT8.e3783_s2608_r7725_r7676_p2949 
+ 
+ []
+
+
+Overfull \hbox (96.65048pt too wide) in paragraph at lines 100--100
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410002.PowhegPythiaEvtGen_P2012radL
+o_ttbar_hdamp172_up_nonallhad.merge.DAOD_EXOT8.e3783_s2608_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (18.75pt too wide) in paragraph at lines 101--101
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410003.aMcAtNloHerwigppEvtGen_ttbar
+_nonallhad.merge.DAOD_EXOT8.e4441_s2726_r7772_r7676_p2949  
+ []
+
+
+Overfull \hbox (72.05035pt too wide) in paragraph at lines 102--102
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410004.PowhegHerwigppEvtGen_UEEE5_t
+tbar_hdamp172p5_nonallhad.merge.DAOD_EXOT8.e3836_a766_a821_r7676_p2949  
+ []
+
+
+Overfull \hbox (6.44995pt too wide) in paragraph at lines 103--103
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410008.aMcAtNloHerwigppEvtGen_ttbar
+_allhad.merge.DAOD_EXOT8.e3964_s2726_r7772_r7676_p2949  
+ []
+
+
+Overfull \hbox (51.55023pt too wide) in paragraph at lines 104--104
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410022.Sherpa_CT10_ttbar_SingleLept
+onP_MEPS_NLO.merge.DAOD_EXOT8.e3957_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (18.75pt too wide) in paragraph at lines 105--105
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410022.Sherpa_CT10_ttbar_SingleLept
+onP_MEPS_NLO.merge.DAOD_EXOT8.e3959_a766_a818_r7676_p2949  
+ []
+
+
+Overfull \hbox (51.55023pt too wide) in paragraph at lines 106--106
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410023.Sherpa_CT10_ttbar_SingleLept
+onM_MEPS_NLO.merge.DAOD_EXOT8.e3957_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (18.75pt too wide) in paragraph at lines 107--107
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410023.Sherpa_CT10_ttbar_SingleLept
+onM_MEPS_NLO.merge.DAOD_EXOT8.e3959_a766_a818_r7676_p2949  
+ []
+
+
+Overfull \hbox (35.15015pt too wide) in paragraph at lines 108--108
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410024.Sherpa_CT10_ttbar_AllHadron_
+MEPS_NLO.merge.DAOD_EXOT8.e3957_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (2.34991pt too wide) in paragraph at lines 109--109
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410024.Sherpa_CT10_ttbar_AllHadron_
+MEPS_NLO.merge.DAOD_EXOT8.e3959_a766_a818_r7676_p2949  
+ []
+
+
+Overfull \hbox (88.45044pt too wide) in paragraph at lines 110--110
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410037.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp170_nonallhad.merge.DAOD_EXOT8.e4529_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (96.65048pt too wide) in paragraph at lines 111--111
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410038.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp171p5_nonallhad.merge.DAOD_EXOT8.e4529_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (96.65048pt too wide) in paragraph at lines 112--112
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410039.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp173p5_nonallhad.merge.DAOD_EXOT8.e4529_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (88.45044pt too wide) in paragraph at lines 113--113
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410040.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp175_nonallhad.merge.DAOD_EXOT8.e4529_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (96.65048pt too wide) in paragraph at lines 114--114
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410041.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp177p5_nonallhad.merge.DAOD_EXOT8.e4529_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (76.15036pt too wide) in paragraph at lines 115--115
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410042.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp170_allhad.merge.DAOD_EXOT8.e4510_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (84.3504pt too wide) in paragraph at lines 116--116
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410043.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp171p5_allhad.merge.DAOD_EXOT8.e4510_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (84.3504pt too wide) in paragraph at lines 117--117
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410044.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp173p5_allhad.merge.DAOD_EXOT8.e4510_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (76.15036pt too wide) in paragraph at lines 118--118
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410045.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp175_allhad.merge.DAOD_EXOT8.e4510_s2608_s2183_r7725_r7676_p2949  
+ []
+
+
+Overfull \hbox (84.3504pt too wide) in paragraph at lines 119--119
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410046.PowhegPythiaEvtGen_P2012_ttb
+ar_hdamp177p5_allhad.merge.DAOD_EXOT8.e4510_s2608_s2183_r7725_r7676_p2949  
+ []
+
+[125]
+Overfull \hbox (92.55048pt too wide) in paragraph at lines 120--120
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410161.PowhegPythiaEvtGen_P2012radH
+i_ttbar_hdamp345_down_allhad.merge.DAOD_EXOT8.e4837_s2726_r7772_r7676_p2949  
+ []
+
+
+Overfull \hbox (92.55048pt too wide) in paragraph at lines 121--121
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410162.PowhegPythiaEvtGen_P2012radL
+o_ttbar_hdamp172p5_up_allhad.merge.DAOD_EXOT8.e4837_s2726_r7772_r7676_p2949  
+ []
+
+
+Overfull \hbox (67.95032pt too wide) in paragraph at lines 122--125
+[][]\EU1/SourceCodePro(0)/m/it/8 mc15_13TeV.410163.PowhegHerwigppEvtGen_UEEE5_t
+tbar_hdamp172p5_allhad.merge.DAOD_EXOT8.e4836_s2726_r7772_r7676_p2949 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--125
+ 
+ []
+
+File: figures/boosted/Other/directcompare_mHH_l_1_TwoTag_split_Top_syst_stat_po
+stfit_all_.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Other/directcompare_mHH_l_1_TwoTag_split_Top_syst_stat_p
+ostfit_all_.pdf" >) (./chapters/Sections/sec-systematics-theory.tex [126]
+
+LaTeX Warning: Reference `fig:AccxEff_truthVsReco' on page 127 undefined on inp
+ut line 8.
+
+
+LaTeX Warning: Reference `fig:scaleVar' on page 127 undefined on input line 21.
+
+
+
+LaTeX Warning: Reference `fig:showerVar' on page 127 undefined on input line 40
+.
+
+
+Package natbib Warning: Citation `0954-3899-43-2-023001' on page 127 undefined 
+on input line 59.
+
+
+LaTeX Warning: Reference `fig:pdfVar' on page 127 undefined on input line 59.
+
+
+LaTeX Warning: Reference `sec:statistical-analysis' on page 127 undefined on in
+put line 59.
+
+[127]) (./chapters/Sections/sec-systematics-bkg.tex [128]
+
+LaTeX Warning: Reference `CRSB:CR_High' on page 129 undefined on input line 33.
+
+
+
+LaTeX Warning: Reference `CRSB:CR_Low' on page 129 undefined on input line 33.
+
+
+LaTeX Warning: Reference `CRSB:CR_Small' on page 129 undefined on input line 33
+.
+
+
+LaTeX Warning: Reference `CRSB:SB_High' on page 129 undefined on input line 33.
+
+
+
+LaTeX Warning: Reference `CRSB:SB_Low' on page 129 undefined on input line 33.
+
+
+LaTeX Warning: Reference `CRSB:SB_Large' on page 129 undefined on input line 33
+.
+
+
+LaTeX Warning: Reference `CRSB:SB_Small' on page 129 undefined on input line 33
+.
+
+[129]
+
+LaTeX Warning: Reference `app:boosted-syst-CRSB_Definition_Variation' on page 1
+30 undefined on input line 46.
+
+(./figures/boosted/tables/FourTag_CR_Varations.tex)
+(./figures/boosted/tables/ThreeTag_CR_Varations.tex)
+(./figures/boosted/tables/TwoTag_split_CR_Varations.tex) [130] [131]
+Overfull \hbox (11.13147pt too wide) in paragraph at lines 81--81
+|\EU1/EBGaramond(2)/m/sc/12 Validation of background estimation from low mass a
+nd high mass signal re-
+ []
+
+(./chapters/Sections/sec-systematics-ZZ.tex
+File: figures/boosted/ZZ/Compare_NoTag_mH0H1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/ZZ/Compare_NoTag_mH0H1.pdf" >
+File: figures/boosted/TT/Compare_NoTag_mH0H1.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/TT/Compare_NoTag_mH0H1.pdf" > [132
+
+]
+(./figures/boosted/tables/Moriond_ZZ_FourTag_yield.tex)
+(./figures/boosted/tables/Moriond_ZZ_ThreeTag_yield.tex)
+(./figures/boosted/tables/Moriond_ZZ_TwoTag_split_yield.tex)
+(./figures/boosted/tables/ZZ_Signal_Region.tex)
+File: figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_mHH_l_1.pdf Graphic file (ty
+pe QTm)
+
+<use  "figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_leadHCand_Mass_s.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_leadHCand_Mass_s.pdf" >
+File: figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_mHH_l_1.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_leadHCand_Mass_s.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_leadHCand_Mass_s.pdf" >
+File: figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_mHH_l_1.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_mHH_l_1.pdf" >
+File: figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_leadHCand_Mass_s.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_leadHCand_Mass_s.pdf" 
+>
+
+LaTeX Warning: Float too large for page by 53.51547pt on input line 74.
+
+(./figures/boosted/tables/Moriond_TT_FourTag_yield.tex)
+(./figures/boosted/tables/Moriond_TT_ThreeTag_yield.tex)
+(./figures/boosted/tables/Moriond_TT_TwoTag_split_yield.tex)
+(./figures/boosted/tables/TT_Signal_Region.tex)
+File: figures/boosted/TT/Moriond_TT_FourTag_Signal_mHH_l_1.pdf Graphic file (ty
+pe QTm)
+
+<use  "figures/boosted/TT/Moriond_TT_FourTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/TT/Moriond_TT_FourTag_Signal_leadHCand_Mass_s.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/TT/Moriond_TT_FourTag_Signal_leadHCand_Mass_s.pdf" >
+File: figures/boosted/TT/Moriond_TT_ThreeTag_Signal_mHH_l_1.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/TT/Moriond_TT_ThreeTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/TT/Moriond_TT_ThreeTag_Signal_leadHCand_Mass_s.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/TT/Moriond_TT_ThreeTag_Signal_leadHCand_Mass_s.pdf" >
+File: figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_mHH_l_1.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_mHH_l_1.pdf" >
+File: figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_leadHCand_Mass_s.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_leadHCand_Mass_s.pdf" 
+>
+
+LaTeX Warning: Float too large for page by 53.51547pt on input line 120.
+
+) [133] [134] [135] [136] [137] [138]
+File: figures/boosted/Syst_Smooth/TopShapeSRSysfitSmooth_sig33_comp22.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/TopShapeSRSysfitSmooth_sig33_comp22.pdf" >
+File: figures/boosted/Syst_Smooth/TopShapeSRSysfitSmooth_sig33_comp22_ratio.pdf
+ Graphic file (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/TopShapeSRSysfitSmooth_sig33_comp22_ratio.pd
+f" > [139
+
+] [140]
+Overfull \hbox (4.53842pt too wide) in paragraph at lines 117--117
+|\EU1/EBGaramond(2)/m/sc/12 Uncertainty on the shape of the $[]\OML/cmm/m/it/12
+ =[][]$ \EU1/EBGaramond(2)/m/sc/12 QCD distribution in the signal region| 
+ []
+
+File: figures/boosted/Syst_Shape/QCDSysfitSmooth_22.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Syst_Shape/QCDSysfitSmooth_22.pdf" >
+File: figures/boosted/Syst_Shape/QCDSysfitSmooth_ratio_22.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Syst_Shape/QCDSysfitSmooth_ratio_22.pdf" >
+File: figures/boosted/Syst_Shape/QCDSysfitSmooth_33.pdf Graphic file (type QTm)
+
+
+<use  "figures/boosted/Syst_Shape/QCDSysfitSmooth_33.pdf" >
+File: figures/boosted/Syst_Shape/QCDSysfitSmooth_ratio_33.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Syst_Shape/QCDSysfitSmooth_ratio_33.pdf" >
+File: figures/boosted/Syst_Shape/QCDSysfitSmooth_44.pdf Graphic file (type QTm)
+
+
+<use  "figures/boosted/Syst_Shape/QCDSysfitSmooth_44.pdf" >
+File: figures/boosted/Syst_Shape/QCDSysfitSmooth_ratio_44.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Syst_Shape/QCDSysfitSmooth_ratio_44.pdf" >
+
+LaTeX Warning: Float too large for page by 516.8341pt on input line 134.
+
+[141
+
+] [142]
+File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_22_comp.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncRangeCompare_22_comp.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_22_comp_ratio.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncRangeCompare_22_comp_ratio.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_33_comp.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncRangeCompare_33_comp.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_33_comp_ratio.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncRangeCompare_33_comp_ratio.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_44_comp.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncRangeCompare_44_comp.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_44_comp_ratio.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncRangeCompare_44_comp_ratio.pdf" >
+
+LaTeX Warning: Float too large for page by 692.3039pt on input line 191.
+
+[143
+
+] [144]
+File: figures/boosted/Syst_Smooth/smoothFuncCompare_22_comp.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncCompare_22_comp.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncCompare_22_comp_ratio.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncCompare_22_comp_ratio.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncCompare_33_comp.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncCompare_33_comp.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncCompare_33_comp_ratio.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncCompare_33_comp_ratio.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncCompare_44_comp.pdf Graphic file (t
+ype QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncCompare_44_comp.pdf" >
+File: figures/boosted/Syst_Smooth/smoothFuncCompare_44_comp_ratio.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Syst_Smooth/smoothFuncCompare_44_comp_ratio.pdf" >
+
+LaTeX Warning: Float too large for page by 704.3039pt on input line 234.
+
+[145] [146]) (./chapters/Sections/sec-systematics-numbers.tex [147
+
+]
+(./figures/boosted/tables/FourTag_fullsyst.tex)
+(./figures/boosted/tables/ThreeTag_fullsyst.tex)
+(./figures/boosted/tables/TwoTag_split_fullsyst.tex)
+File: figures/boosted/Syst_MC/FourTag_RSG_syst.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Syst_MC/FourTag_RSG_syst.pdf" >
+File: figures/boosted/Syst_MC/ThreeTag_RSG_syst.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Syst_MC/ThreeTag_RSG_syst.pdf" >
+File: figures/boosted/Syst_MC/TwoTag_split_RSG_syst.pdf Graphic file (type QTm)
+
+
+<use  "figures/boosted/Syst_MC/TwoTag_split_RSG_syst.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l_blind.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l_blind.pdf
+" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l_1_blind.pd
+f Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l_1_blind.p
+df" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l_blind.pdf
+ Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l_blind.pd
+f" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l_1_blind.p
+df Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l_1_blind.
+pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l_blind
+.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l_blin
+d.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l_1_bli
+nd.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l_1_bl
+ind.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole_blind.p
+df Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole_blind.
+pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole_1_blind
+.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole_1_blin
+d.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole_blind.
+pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole_blind
+.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole_1_blin
+d.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole_1_bli
+nd.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_bl
+ind.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_b
+lind.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_1_
+blind.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_1
+_blind.pdf" >))) [148] [149] [150] [151] [152]
+\openout2 = `chapters/chapter8.aux'.
+
+ (./chapters/chapter8.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\EU1/EBGaramond(2)/m/it/10 Madness and genius are separated only by degrees o
+f
+ []
+
+Chapter 8.
+(./chapters/Sections/sec-results.tex (./figures/boosted/tables/SR_summary.tex)
+(./figures/boosted/tables/FourTag_Signal_mHH_l_SR_region_compare.tex)
+(./figures/boosted/tables/ThreeTag_Signal_mHH_l_SR_region_compare.tex)
+(./figures/boosted/tables/TwoTag_split_Signal_mHH_l_SR_region_compare.tex)
+(./figures/boosted/tables/FourTag_Signal_mHH_pole_SR_region_compare.tex)
+(./figures/boosted/tables/ThreeTag_Signal_mHH_pole_SR_region_compare.tex)
+(./figures/boosted/tables/TwoTag_split_Signal_mHH_pole_SR_region_compare.tex)
+[153
+
+
+
+] [154] [155]
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l.pdf Graphi
+c file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l_1.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l_1.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l.pdf"
+ >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l_1.pdf
+ Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_l_1.pd
+f" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole.pdf Gra
+phic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole.pdf" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole_1.pdf G
+raphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_FourTag_Signal_mHH_pole_1.pdf"
+ >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole.pdf Gr
+aphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole.pdf" 
+>
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole_1.pdf 
+Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_ThreeTag_Signal_mHH_pole_1.pdf
+" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole.pd
+f Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole.p
+df" >
+File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_1.
+pdf Graphic file (type QTm)
+
+<use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_1
+.pdf" > [156
+
+] [157] [158]
+File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Pt_m.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Mass_s.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Eta.pdf Graphic file 
+(type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Eta.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Phi.pdf Graphic file 
+(type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Phi.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Pt_m.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Pt_m.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Mass_s.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Eta.pdf Graphic file 
+(type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Eta.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Phi.pdf Graphic file 
+(type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Phi.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk0_Pt.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk1_Pt.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk0_Pt.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk1_Pt.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk_dr.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk_dr.pdf Graphic fi
+le (type QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_mHH_l_1.pdf Graphic file (type 
+QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_hCandDr.pdf Graphic file (type 
+QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_hCandDr.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_hCandDeta.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_hCandDeta.pdf" >
+File: figures/boosted/Signal/b77_FourTag_Signal_hCandDphi.pdf Graphic file (typ
+e QTm)
+
+<use  "figures/boosted/Signal/b77_FourTag_Signal_hCandDphi.pdf" > [159
+
+]
+[160] [161] [162]
+File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Pt_m.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Mass_s.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Eta.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Eta.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Phi.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Phi.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Pt_m.pdf Graphic fil
+e (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Pt_m.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Mass_s.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Eta.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Eta.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Phi.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_Phi.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk0_Pt.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk1_Pt.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk0_Pt.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk1_Pt.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk_dr.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk_dr.pdf Graphic f
+ile (type QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_mHH_l_1.pdf Graphic file (type
+ QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_mHH_l_1.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_hCandDr.pdf Graphic file (type
+ QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_hCandDr.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_hCandDeta.pdf Graphic file (ty
+pe QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_hCandDeta.pdf" >
+File: figures/boosted/Signal/b77_ThreeTag_Signal_hCandDphi.pdf Graphic file (ty
+pe QTm)
+
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_hCandDphi.pdf" > [163
+
+]
+[164] [165] [166]
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Pt_m.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Pt_m.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Mass_s.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Mass_s.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Eta.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Eta.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Phi.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Phi.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Pt_m.pdf Graphic
+ file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Pt_m.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Mass_s.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Mass_s.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Eta.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Eta.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Phi.pdf Graphic 
+file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_Phi.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk0_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk0_Pt.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk1_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk1_Pt.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk0_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk0_Pt.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk1_Pt.pdf Grap
+hic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk1_Pt.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk_dr.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_trk_dr.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk_dr.pdf Graph
+ic file (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_sublHCand_trk_dr.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_mHH_l_1.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_mHH_l_1.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDr.pdf Graphic file (
+type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDr.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDeta.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDeta.pdf" >
+File: figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi.pdf Graphic file
+ (type QTm)
+
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi.pdf" > [167
+
+]
+[168] [169] [170]
+
+LaTeX Warning: Reference `sec-search-procedure' on page 171 undefined on input 
+line 299.
+
+File: figures/boosted/results/p0_s_allmasses_boosted.pdf Graphic file (type QTm
+)
+<use  "figures/boosted/results/p0_s_allmasses_boosted.pdf" >
+File: figures/boosted/results/p0_g10_allmasses_boosted.pdf Graphic file (type Q
+Tm)
+
+<use  "figures/boosted/results/p0_g10_allmasses_boosted.pdf" >
+File: figures/boosted/results/p0_g20_allmasses_boosted.pdf Graphic file (type Q
+Tm)
+
+<use  "figures/boosted/results/p0_g20_allmasses_boosted.pdf" >
+
+LaTeX Warning: Reference `fig:limit_g10' on page 171 undefined on input line 31
+6.
+
+
+LaTeX Warning: Reference `fig:limit_g20' on page 171 undefined on input line 31
+6.
+
+[171
+
+]
+File: figures/boosted/results/limit_boosted_boosted_okt18_s.pdf Graphic file (t
+ype QTm)
+ <use  "figures/boosted/results/limit_boosted_boosted_okt18_s.pdf" >
+Overfull \hbox (18.65527pt too wide) in paragraph at lines 320--321
+ [] 
+ []
+
+File: figures/boosted/results/limit_boosted_boosted_okt18_g10.pdf Graphic file 
+(type QTm)
+<use  "figures/boosted/results/limit_boosted_boosted_okt18_g10.pdf" >
+Overfull \hbox (18.65527pt too wide) in paragraph at lines 328--329
+ [] 
+ []
+
+File: figures/boosted/results/limit_boosted_boosted_okt18_g20.pdf Graphic file 
+(type QTm)
+<use  "figures/boosted/results/limit_boosted_boosted_okt18_g20.pdf" >
+Overfull \hbox (18.65527pt too wide) in paragraph at lines 336--337
+ [] 
+ []
+
+[172] [173] [174]
+File: figures/boosted/results/pulls_2000_data.pdf Graphic file (type QTm)
+ <use  "figures/boosted/results/pulls_2000_data.pdf" >
+File: figures/boosted/results/corr_2000_data.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/results/corr_2000_data.pdf" >
+File: figures/boosted/results/postfitplot_s_2000_b2b.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/postfitplot_s_2000_b2b.pdf" >
+File: figures/boosted/results/postfitplot_s_2000_b3b.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/postfitplot_s_2000_b3b.pdf" >
+File: figures/boosted/results/postfitplot_s_2000_b4b.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/postfitplot_s_2000_b4b.pdf" >
+File: figures/boosted/results/postfitplot_s_2500_b2b.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/postfitplot_s_2500_b2b.pdf" >
+File: figures/boosted/results/postfitplot_s_2500_b3b.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/postfitplot_s_2500_b3b.pdf" >
+File: figures/boosted/results/postfitplot_s_2500_b4b.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/postfitplot_s_2500_b4b.pdf" >
+File: figures/boosted/results/ranking_okt18_s_2000.pdf Graphic file (type QTm)
+
+<use  "figures/boosted/results/ranking_okt18_s_2000.pdf" >
+File: figures/boosted/results/ranking_okt18_g10_2000.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/ranking_okt18_g10_2000.pdf" >
+File: figures/boosted/results/ranking_okt18_g20_2000.pdf Graphic file (type QTm
+)
+
+<use  "figures/boosted/results/ranking_okt18_g20_2000.pdf" >)) [175] [176]
+[177] [178] [179]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
@@ -2371,39 +6188,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  I have
  []
 
-Chapter 7.
+Chapter 9.
 
-Package natbib Warning: Citation `Aaboud:2016xco' on page 65 undefined on input
- line 15.
+Package natbib Warning: Citation `Aaboud:2016xco' on page 180 undefined on inpu
+t line 15.
 
-[65
-
-
-
-]) [66] (./dissertation.bbl [67
+[180
 
 
 
-] [68]
+]) [181] (./dissertation.bbl [182
+
+
+
+] [183]
 Underfull \hbox (badness 1997) in paragraph at lines 179--184
 []\EU1/EBGaramond(2)/bx/n/10.95 Georges Aad et al.  Searches for Higgs boson pa
 ir production in the $[][] \OMS/cmsy/m/n/10.95 ! 
  []
 
-[69] [70]
+[184] [185]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 340.
 
-[71] [72])
+[186] [187])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
-[73]
+[188]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
- (./dissertation.aux (./chapters/introduction.aux) (./chapters/chapter1.aux) (.
-/chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux) (./
-chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/conclusion.aux))
+ (./dissertation.aux (./chapters/introduction.aux)
+(./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
+(./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux)
+(./chapters/chapter7.aux) (./chapters/chapter8.aux) (./chapters/conclusion.aux)
+)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 65.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 65.
 
@@ -2413,14 +6232,17 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 25936 strings out of 493706
- 476635 string characters out of 6145769
- 590214 words of memory out of 5000000
- 28771 multiletter control sequences out of 15000+600000
- 18954 words of font info for 160 fonts, out of 8000000 for 9000
+ 27015 strings out of 493706
+ 528502 string characters out of 6145769
+ 639064 words of memory out of 5000000
+ 29329 multiletter control sequences out of 15000+600000
+ 19018 words of font info for 168 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  60i,14n,104p,10522b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (85 pages).
+Output written on dissertation.pdf (213 pages).

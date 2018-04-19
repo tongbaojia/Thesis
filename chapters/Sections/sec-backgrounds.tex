@@ -11,10 +11,10 @@ QCD is by far the dominant background. However, there is no reliable, high-stati
 %%\paragraph{}
 The QCD background prediction relies on finding a region which is similar enough in event properties that it can be used to estimate the shapes of the expected QCD background.  This region is identical to the signal region defined by the full selection, with the exception that the events must have \textbf{less} $b$-tagged track jets:
 \begin{itemize}
-\item For the 2$b$s category, the 1$b$ sample is used for modeling.
-\item For the 3$b$ and 4$b$ categories, the 2$b$ sample - where the two $b$-tagged trackjet are in the same large-$R$ jet - is used for modeling.
+\item For the $2bs$ category, the $1b$ sample is used for modeling.
+\item For the $3b$ and $4b$ categories, the $2b$ sample - where the two $b$-tagged trackjet are in the same large-$R$ jet - is used for modeling.
 \end{itemize}
-To prevent differences in the number of track jets from biasing the dijet mass distribution, the $1b$-tagged region requires that each large-$R$ jet has at least one track jet (to model $2bs$, ie. 2$b$ tag split). Similarly, the $2b$-tagged region requires that one large-$R$ jet has at least one track jet and the other one has at least two track jets (to model $3b$), and each large-$R$ jet has at least two track jets (to model $4b$).
+To prevent differences in the number of track jets from biasing the dijet mass distribution, the $1b$-tagged region requires that each large-$R$ jet has at least one track jet (to model $2bs$, ie. $2b$ tag split). Similarly, the $2b$-tagged region requires that one large-$R$ jet has at least one track jet and the other one has at least two track jets (to model $3b$), and each large-$R$ jet has at least two track jets (to model $4b$).
 
 %%\paragraph{}
 However, this less $b$-tagged region only supplies the shapes of the expected background and not the total yield, and a second control sample, which we denote the \textit{Sideband} region, is used to estimate the yield. The Sideband is obtained by doing the full analysis selection, except instead of the $X_{hh}$ cut an alternative criteria on the large radius jet masses is used, that $33 < R_{hh} $ and $R_{hh}^{\text{high}} < 58$~\GeV. To validate this approach, a third region, which we denote the \textit{Control} region, is centered on the signal region in the plane of the two large radius jet masses but does not include the signal region, such that $R_{hh} < 33$~\GeV.  The control region is used to validate the background estimations before unblinding. The control and sideband regions are optimized, as shown in the following sections, to accurately estimate the rate of the QCD background (and thus allow for an extrapolation from the $1b$/$2b$ estimate to a prediction in the $4b/3b/2bs$  signal regions), whilst giving a control region which has kinematic properties similar to that of the signal region. 
@@ -27,9 +27,9 @@ However, this less $b$-tagged region only supplies the shapes of the expected ba
 
 %%\paragraph{}
 The $t\bar{t}$ background shape is taken from MC. A data-based estimation of the $t\bar{t}$ background yield is performed simultaneously with the QCD background yield estimation, by means of a binned likelihood fit.
-In the plane of the two leading large radius jet masses, the main contribution of the $t\bar{t}$ background lies in the Sideband region. The data distribution in the Sideband region of the leading-$p_{T}$ large radius jet mass is fit simultaneously with the QCD shape estimate (from the less $b$-tagged sample) and with the $t\bar{t}$ Monte Carlo shape. This fit is done separately in the 4$b$, 3$b$, and 2$b$s Sideband regions.
+In the plane of the two leading large radius jet masses, the main contribution of the $t\bar{t}$ background lies in the Sideband region. The data distribution in the Sideband region of the leading-$p_{T}$ large radius jet mass is fit simultaneously with the QCD shape estimate (from the less $b$-tagged sample) and with the $t\bar{t}$ Monte Carlo shape. This fit is done separately in the $4b$, $3b$, and $2bs$ Sideband regions.
 From this fit, two terms are determined simultanously: $\mu_{QCD}$ and $\alpha_{tt}$. $\mu_{QCD}$ is the ratio of the QCD event yield in the 2bs/3b/4b regions to the amount in each corresponding less b-tagged region. $\alpha_{tt}$ is the ratio of the fitted ttbar event yield to the yield predicted from ttbar MC.
-These two numbers are then used as multiplicative constants in other regions of the mass plane (i.e. the Control or Signal regions) to extrapolate from the rates of the less $b$-tagged regions to predictions of rates in the 2bs/3/4 $b$-tagged regions, for estimating the amount of QCD, and to correct the rate of $t\bar{t}$ production wrt. MC. Hence, the underlying assumption is that these scale factors are roughly constant over the 2D large-R jet mass plane for Sideband/Control/Signal regions, which has been verified by perfoming these fits in small bins across the 2D mass plane. This is shown in Appendix ~\ref{app:muqcd-study}. The correction factors are derived separately for the 4$b$, 3$b$, and 2$b$s regions.
+These two numbers are then used as multiplicative constants in other regions of the mass plane (i.e. the Control or Signal regions) to extrapolate from the rates of the less $b$-tagged regions to predictions of rates in the 2bs/3/4 $b$-tagged regions, for estimating the amount of QCD, and to correct the rate of $t\bar{t}$ production wrt. MC. Hence, the underlying assumption is that these scale factors are roughly constant over the 2D large-R jet mass plane for Sideband/Control/Signal regions, which has been verified by perfoming these fits in small bins across the 2D mass plane. This is shown in Appendix ~\ref{app:muqcd-study}. The correction factors are derived separately for the $4b$, $3b$, and $2bs$ regions.
 
 %%\paragraph{}
 In this section, we describe this approach in more detail and show its validation in data.
@@ -69,7 +69,7 @@ R_{hh}^{\text{high}} = \sqrt{ (m^{\rm lead}_{\rm J} - 134)^2 + (m^{\rm subl}_{\r
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/Control_OneTag_mH0H1.pdf}\\
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/Sideband_TwoTag_mH0H1.pdf}
   \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Other/Control_TwoTag_mH0H1.pdf}
-  \caption{$m_J^{lead}$ vs. $m_J^{subl}$ in data in the 1$b$-tag (top) and 2$b$-tag (bottom) selection, the plots show the boundary between the Sideband (left) and Control (right) regions.}
+  \caption{$m_J^{lead}$ vs. $m_J^{subl}$ in data in the $1b$-tag (top) and $2b$-tag (bottom) selection, the plots show the boundary between the Sideband (left) and Control (right) regions.}
   \label{fig:boosted-region-def}
 \end{center}
 \end{figure*}
@@ -79,7 +79,7 @@ The CR is chosen to be as close as possible to the signal region, thus allows a 
 
 
 \pagebreak{}
-\subsection{QCD multi-jets}
+\subsection{QCD and \ttbar}
 \label{sec:boosted-qcd}
 
 %%\paragraph{}
@@ -89,9 +89,9 @@ The QCD multi-jets prediction relies on finding a region which is similar enough
 It should be noted that the $1b/2b$ region is orthogonal to the $4b/3b/2bs$ signal regions. In addition, the MC predicted $t\bar{t}$ events in the $1b/2b$ regions are subtracted from the data to produce the $1b/2b$ QCD estimation. This procedure follows closely the method used in Run 1 and also used in the resolved analysis, but requiring $1b$-tag for the $2bs$ background estimation.
 
 \label{par:boosted-qcd-2bseperate}
-%%\paragraph{} It should also be noted that the $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for 3$b$ and 4$b$ background estimations. This ensures the shape estimations of 3$b$ and 4$b$ QCD estimates are uncorrelated. 
+%%\paragraph{} It should also be noted that the $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for $3b$ and $4b$ background estimations. This ensures the shape estimations of $3b$ and $4b$ QCD estimates are uncorrelated. 
 
-It should also be noted that the resolved veto will impact the 4$b$ background estimation.  Specifically, 2$b$ events are excluded when they have at least two resolved jets that are $b$ tagged (passing resolved $70\%$ working point) and passing the resolved $Xhh < 1.6$ cut if using two other non b-tagged resolved jets to make the Higgs candidates. This ensures that a similar sculpting effect is reflected in the background estimation, and a check for this can be found in Appendix ~\ref{app:resveto}.
+It should also be noted that the resolved veto will impact the $4b$ background estimation.  Specifically, $2b$ events are excluded when they have at least two resolved jets that are $b$ tagged (passing resolved $70\%$ working point) and passing the resolved $Xhh < 1.6$ cut if using two other non b-tagged resolved jets to make the Higgs candidates. This ensures that a similar sculpting effect is reflected in the background estimation, and a check for this can be found in Appendix ~\ref{app:resveto}.
 
 Given the $1b/2b$ samples, which predict shapes for the QCD background, the normalization of the QCD background is determined in the sideband by fitting the leading jet mass distribution simultaneously with QCD and $t\bar{t}$ background templates, as described in section~\ref{sec:ttbarnorm}.  This fit gives a scaling factor for QCD, called $\mu_{QCD}$ (and for $t\bar{t}$, called $\alpha_{t\bar{t}}$) which can be applied to scale the $1b/2b$ predictions in the CR or SR to the predicted normalizations in those regions.
 
@@ -99,7 +99,7 @@ It should be noted that there can be kinematic differences between the  $1b/2b$ 
 
 
 %%%\paragraph{} 
-%This background estimation is contingent on the idea that the 0$b$ sample QCD shape is a good estimate of $4/3/2bs$ samples QCD shapes. In addition, the use %of the SB region to estimate the background normalization relies on the SB to also accurately describe the normalization in the CR and SR regions.  The %purpose of the CR is thus to test both of these hypotheses. 
+%This background estimation is contingent on the idea that the $0b$ sample QCD shape is a good estimate of $4/3/2bs$ samples QCD shapes. In addition, the use %of the SB region to estimate the background normalization relies on the SB to also accurately describe the normalization in the CR and SR regions.  The %purpose of the CR is thus to test both of these hypotheses. 
 
 %%%\paragraph{} 
 %While the normalizations of the $4b/3b/2bs$ split QCD predictions will be different, as they use events in the respective $4b$, $3b$, $2bs$ SB regions to set the normalizations, the shape estimates for the $4b/3b/2bs$  QCD predictions will be similar as they are both derived from the $1b/2b$ sample but only differ based on the number of $b$-tagged track jets required in each \largeR\ jet.
@@ -149,11 +149,11 @@ However, it should be noted that in the $4b$ and $3b$ signal region, there were 
 \label{sec:ttbarnorm}
 
 %%\paragraph{}
-The number of 4$b$/3$b$/2$b$s events in data observed in a given region (SB / CR / SR) can be described as:
+The number of $4b$/$3b$/$2bs$ events in data observed in a given region (SB / CR / SR) can be described as:
 \begin{eqnarray}\label{eq:fitparams}
 N^{\nu_b}_{\text{data}} = \mu_{\text{qcd}}^{\nu_b} N^{xb}_{\text{qcd}} + \alpha_{t\bar{t}}^{\nu_b} N^{\nu_b}_{t\bar{t}} + N^{\nu_b}_{Z+jets}
 \end{eqnarray}
-where $\nu_b$ is the number of $b$-tagged track jets required, x is 1 for 2$b$s and 2 for 3$b$ and 4$b$. \muqcd\ is essentially an estimate of the ratio of the number of  QCD events with $\nu_b$ $b$-tagged track jets, to the number of $1b/2b$ QCD events, while the \ttbar\ normalization parameter $\alpha_{t\bar{t}}$\, applied after the \ttbar\ is scaled to the total integrated luminosity, is a correction to the MC prediction in this phase space. The same equation can be applied to the 4$b$/3$b$/2$b$s region (replacing $\nu_b$ by 4b/3b/2s $b$ in Equation~\ref{eq:fitparams}).   
+where $\nu_b$ is the number of $b$-tagged track jets required, x is 1 for $2bs$ and 2 for $3b$ and $4b$. \muqcd\ is essentially an estimate of the ratio of the number of  QCD events with $\nu_b$ $b$-tagged track jets, to the number of $1b/2b$ QCD events, while the \ttbar\ normalization parameter $\alpha_{t\bar{t}}$\, applied after the \ttbar\ is scaled to the total integrated luminosity, is a correction to the MC prediction in this phase space. The same equation can be applied to the $4b$/$3b$/$2bs$ region (replacing $\nu_b$ by 4b/3b/2s $b$ in Equation~\ref{eq:fitparams}).   
 
 %%\paragraph{}
 In order to constrain the QCD and \ttbar\ background normalizations using data, a simultaneous fit is applied to extract both the \ttbar\ normalization with respect to the yields from simulation and the number of $1b/2b$ data events for the QCD background.  These scaling parameters are determined independently for the $4b/3b/2s$ signal regions. But as the procedure is the same for those three signal regions, we denote these scaling factors simply \muqcd and $\alpha_{t\bar{t}}$ in the following text.
@@ -173,7 +173,7 @@ The values of \muqcd and $\alpha_{t\bar{t}}$ as estimated by the fits in the $4b
 \end{table}
 
 %%\paragraph{}
-Figure~\ref{fig:ttbar-fit} shows the post-fit spectrum of the leading \largeR calorimeter jet mass in the 4$b$/3$b$/2$b$s sideband regions. The normalization of \ttbar\ is 
+Figure~\ref{fig:ttbar-fit} shows the post-fit spectrum of the leading \largeR calorimeter jet mass in the $4b$/$3b$/$2bs$ sideband regions. The normalization of \ttbar\ is 
 constrained by the top quark mass peak around 170~GeV. The shapes of the data is also well modeled by the predicted background. The fitting errors on \muqcd and 
 $\alpha_{t\bar{t}}$ are applied as systematic uncertainties taking into account their correlation. This will be explained in more detail in the systematics section.
 
@@ -182,7 +182,7 @@ $\alpha_{t\bar{t}}$ are applied as systematic uncertainties taking into account 
  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i4.pdf}\\
  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i3.pdf}\\
  \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i2s.pdf}\\
-\caption{Simultaneous fit of \muqcd and \alphatt in 4$b$ (top) and 3$b$ (middle) and $2b$ (bottom) sideband region using leading \largeR calorimeter jet mass spectrum.}
+\caption{Simultaneous fit of \muqcd and \alphatt in $4b$ (top) and $3b$ (middle) and $2b$ (bottom) sideband region using leading \largeR calorimeter jet mass spectrum.}
 \label{fig:ttbar-fit}
 \end{center}
 \end{figure}
@@ -211,18 +211,18 @@ $\alpha_{t\bar{t}}$ are applied as systematic uncertainties taking into account 
 This section shows comparisons of data with the prediction of QCD multi-jets and \ttbar in the sideband region (SB), which is identical to the signal region (SR) except the large-$R$ jets are required to have masses far from the Higgs mass. The definition of the sideband and control regions is discussed in Section~\ref{sec:boosted-SBCR}. The predicted and observed event yields are summarized in Tables~\ref{tab:yields4b} and~\ref{tab:yields3b}.
 
 %%\paragraph{}
-Figures~\ref{fig:boosted-4b-sideband-ak10-lead}, \ref{fig:boosted-4b-sideband-ak10-subl}, \ref{fig:boosted-4b-sideband-ak2},  and \ref{fig:boosted-4b-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 4$b$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
+Figures~\ref{fig:boosted-4b-sideband-ak10-lead}, \ref{fig:boosted-4b-sideband-ak10-subl}, \ref{fig:boosted-4b-sideband-ak2},  and \ref{fig:boosted-4b-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the $4b$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
 
 %%\paragraph{}
-Figures~\ref{fig:boosted-3b-sideband-ak10-lead}, \ref{fig:boosted-3b-sideband-ak10-subl}, \ref{fig:boosted-3b-sideband-ak2},  and \ref{fig:boosted-3b-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 3$b$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
+Figures~\ref{fig:boosted-3b-sideband-ak10-lead}, \ref{fig:boosted-3b-sideband-ak10-subl}, \ref{fig:boosted-3b-sideband-ak2},  and \ref{fig:boosted-3b-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the $3b$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
 
 %%\paragraph{}
 Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-ak10-subl}, \ref{fig:boosted-2bs-sideband-ak2},  and \ref{fig:boosted-2bs-sideband-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 2$bs$ selection. The predicted normalization agrees perfectly by construction, but the shapes are a feature of the prediction. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
 % %%\paragraph{}
-% No corrections to the prediction in the SB are obviously needed. One hypothesis for this behavior is that the large-$R$ jet trigger used in the boosted category has negligible dependence on the $b$-tag multiplicity of the event, hence extrapolating from the $1/2b$ region to the 2,3,4$b$ region is straightforward. On the other hand, the resolved analysis relies on $b$-jet triggers, which can have dependence on the $b$-tag multiplicity.
+% No corrections to the prediction in the SB are obviously needed. One hypothesis for this behavior is that the large-$R$ jet trigger used in the boosted category has negligible dependence on the $b$-tag multiplicity of the event, hence extrapolating from the $1/2b$ region to the 2,3,$4b$ region is straightforward. On the other hand, the resolved analysis relies on $b$-jet triggers, which can have dependence on the $b$-tag multiplicity.
 
 \begin{figure*}[htbp!]
 \begin{center}
@@ -382,9 +382,9 @@ Figures~\ref{fig:boosted-2bs-sideband-ak10-lead}, \ref{fig:boosted-2bs-sideband-
 
 This section shows comparisons of data with the prediction of QCD multi-jets and \ttbar in the control region (CR), which is identical to the signal region (SR) except the large-$R$ jets are required to have masses close but not too close to the Higgs mass. The definition can be seen in Section~\ref{sec:boosted-SBCR}. The predicted and observed event yields are summarized in Tables~\ref{tab:yields4b} and~\ref{tab:yields3b}.
 
-Figures~\ref{fig:boosted-4b-control-ak10-lead}, \ref{fig:boosted-4b-control-ak10-subl}, \ref{fig:boosted-4b-control-ak2}, and \ref{fig:boosted-4b-control-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 4$b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. The quality of the prediction is generally good, and no clear systematic biases are observed.
+Figures~\ref{fig:boosted-4b-control-ak10-lead}, \ref{fig:boosted-4b-control-ak10-subl}, \ref{fig:boosted-4b-control-ak2}, and \ref{fig:boosted-4b-control-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the $4b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
-Figures~\ref{fig:boosted-3b-control-ak10-lead}, \ref{fig:boosted-3b-control-ak10-subl}, \ref{fig:boosted-3b-control-ak2},  and \ref{fig:boosted-3b-control-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 3$b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. The quality of the prediction is generally good, and no clear systematic biases are observed.
+Figures~\ref{fig:boosted-3b-control-ak10-lead}, \ref{fig:boosted-3b-control-ak10-subl}, \ref{fig:boosted-3b-control-ak2},  and \ref{fig:boosted-3b-control-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the $3b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
 Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak10-subl}, \ref{fig:boosted-2bs-control-ak2},  and \ref{fig:boosted-2bs-control-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 2$bs$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. The quality of the prediction is generally good, and no clear systematic biases are observed.
 
@@ -546,11 +546,11 @@ Figures~\ref{fig:boosted-2bs-control-ak10-lead}, \ref{fig:boosted-2bs-control-ak
 \subsection{Signal region predictions}
 \label{sec:boosted-SR}This section shows comparisons of data with the prediction of QCD multi-jets and \ttbar in the signal region (SR). Plots shown are blinded. The unblinded data is shown in the Result Section, section \ref{sec:results}.
 
-Figures~\ref{fig:boosted-4b-signal-blind-ak10-lead}, \ref{fig:boosted-4b-signal-blind-ak10-subl}, \ref{fig:boosted-4b-signal-blind-ak2}, and \ref{fig:boosted-4b-signal-blind-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 4$b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. % The quality of the prediction is generally good, and no clear systematic biases are observed.
+Figures~\ref{fig:boosted-4b-signal-blind-ak10-lead}, \ref{fig:boosted-4b-signal-blind-ak10-subl}, \ref{fig:boosted-4b-signal-blind-ak2}, and \ref{fig:boosted-4b-signal-blind-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the $4b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. % The quality of the prediction is generally good, and no clear systematic biases are observed.
 
-Figures~\ref{fig:boosted-3b-signal-blind-ak10-lead}, \ref{fig:boosted-3b-signal-blind-ak10-subl}, \ref{fig:boosted-3b-signal-blind-ak2}, and \ref{fig:boosted-3b-signal-blind-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 3$b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. % The quality of the prediction is generally good, and no clear systematic biases are observed.
+Figures~\ref{fig:boosted-3b-signal-blind-ak10-lead}, \ref{fig:boosted-3b-signal-blind-ak10-subl}, \ref{fig:boosted-3b-signal-blind-ak2}, and \ref{fig:boosted-3b-signal-blind-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the $3b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. % The quality of the prediction is generally good, and no clear systematic biases are observed.
 
-Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signal-blind-ak10-subl}, \ref{fig:boosted-2bs-signal-blind-ak2}, and \ref{fig:boosted-2bs-signal-blind-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the 2$b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. % The quality of the prediction is generally good, and no clear systematic biases are observed.
+Figures~\ref{fig:boosted-2bs-signal-blind-ak10-lead}, \ref{fig:boosted-2bs-signal-blind-ak10-subl}, \ref{fig:boosted-2bs-signal-blind-ak2}, and \ref{fig:boosted-2bs-signal-blind-ak10-system} show predictions of various kinematics of the large-$R$ jets and their associated track jets in the $2b$ selection. The shapes and normalization are a feature of the prediction, where the normalization is derived in the SB. % The quality of the prediction is generally good, and no clear systematic biases are observed.
 
 \begin{figure*}[htbp!]
 \begin{center}
