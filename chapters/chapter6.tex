@@ -7,18 +7,16 @@ Even in the darkest night. Stars and angels still shine bright.
 
 \chapter{Background Estimation}
 
-
 \section{Overview}
 \paragraph{}
-%The invariant mass of the two Higgs candidate large-\R jets, \mtwoJ, is used as the final discriminant between Higgs boson pair production and the SM backgrounds.
 Multi-jet (QCD) is the dominant background. 
-It consists about $40\%$ double $g \to b\bar{b}$ events, and $60\%$ light and c jet fakes multiple $b$-jets.
-Yet there is no high-statistics MC simulation with three or four $b$-jets collected into two high-$p_{T}$ large-\R jets.
-Therefore, a data-driven background estimation for both the background yield and kinematic distribution is needed.
+About $40\%$ QCD events are double $g \to b\bar{b}$, and $60\%$ light and $c$-jet fakes multiple $b$-jets.
+There is no high-statistics MC with three or four $b$-jets collected into two high-\pt~ large-\R jets.
+Therefore, a data-driven QCD estimation for both the yield and kinematic distribution is necessary.
 For the \ttbar~ background, MC samples of reasonable size are available. 
-They are used to estimate the \ttbar~ kinematic distributions.
+They provide the \ttbar~ kinematic distributions.
 The normalization is also estimated using a data-driven method to avoid mis-modeling in the MC.
-The $Z$+jets background is small, and it estimated by the $Z$+heavy flavor jets MC. 
+The $Z$+jets background is small, and it estimated by the $Z$+heavy flavor jets MC.
 The SM $ZZ\to b\bar{b}b\bar{b}$ has been estimated to be completely negligible using a particle-level analysis.
 For the three signal regions in number of $b$-tags, the fraction of expected backgrounds are:
 \begin{itemize}
@@ -28,24 +26,24 @@ For the three signal regions in number of $b$-tags, the fraction of expected bac
 \end{itemize}
 
 \paragraph{}
-The shapes of the QCD background is estimated from independent data regions. 
-These regions are identical to the signal region defined by the full selection, with the exception that the events must have fewer number of $b$-tagged track jets.
-The difference in kinematic distributions between the lower-tagged and $n$-tag samples are corrected by reweighting the lower-tagged sample.
+The shapes of the QCD background is estimated from signal depleted data regions. 
+These regions are selected with the signal region selection, except that the events must have lower number of $b$-tagged track jets.
+The differences in kinematic distributions between the lower-tagged and $n$-tag samples are corrected by reweighting the lower-tagged sample.
 
 \paragraph{}
 The less $b$-tagged regions only estimate the shapes of the expected background, but not the total yield.
 A second region with the same number of $b$-tags as the signal regions, called the \textit{sideband} region (SB), is used to estimate the yield.
 The SB is obtained by doing the full analysis selection, except instead of the $X_{hh}$ cut an alternative criteria on the large-\R jet masses is used.
-To validate this approach, a third region, called the \textit{control} region (CR), is used to validate the background estimations before unblinding. 
-The control and sideband regions are optimized to accurately estimate the rate of the QCD background. 
+A third region, called the \textit{control} region (CR), is used to validate the background estimations.
+The sideband and control regions are optimized to accurately estimate the rate of the QCD background. 
 
 \paragraph{}
-The leading large-\R jet mass distribution in the $4b$, $3b$, and $2bs$ sideband region is fit separately with the QCD shape estimate and with the \ttbar~ MC shape. 
-From this binned likelihood fit, two terms are determined simultaneously: \muqcd~ and \alphatt. 
-\muqcd~ is the ratio of the QCD event yield in the $4b$, $3b$, and $2bs$ regions to the amount in each corresponding less b-tagged region.
-\alphatt~ is the ratio of the fitted \ttbar~ event yield to the yield predicted from \ttbar~ MC.
-\muqcd~ and \alphatt~ are used as multiplicative constants in other regions of the mass plane (i.e. the control or signal regions).
-
+The definition of SB and CR is introduced in section~\ref{sec:boosted-SBCR}.
+The QCD and \ttbar~  background shape estimation is introduced in section~\ref{sec:boosted-qcd} and section~\ref{sec:boosted-ttbar}.
+The normalization estimation for QCD and \ttbar is introduced in section~\ref{sec:ttbarnorm}.
+The reweighting procedure is explained in section~\ref{sec:boosted-reweight}.
+The SB and CR distribution and yields are shown in section~ref{}.
+The SR prediction is further rescaled and smoothed, discussed in section~ref{sec:boosted-SR-smoothing}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,7 +55,7 @@ From this binned likelihood fit, two terms are determined simultaneously: \muqcd
 \label{sec:boosted-SBCR}
 
 \paragraph{}
-A circular variable $R_{hh}$ can be defined in the 2D \mleadJ-\msublJ mass plane. 
+A circular variable $R_{hh}$ is defined in the 2D \mleadJ-\msublJ mass plane. 
 It has the same central values as $X_{hh}$, but without resolution terms in the denominators:
 \begin{equation}
 \label{eq:boosted_RhhDef}
@@ -65,15 +63,15 @@ R_{hh} = \sqrt{\left(m^{\rm lead}_{\rm J} - \text{124 GeV}\right)^2 + \left(m^{\
 \end{equation}
 
 \paragraph{}
-Similarly, $R_{hh}^{\text{high}}$, the circular region that has the shifted central values up by $10$ \GeV~ is defined as:
+Similarly, $R_{hh}^{\text{high}}$, the circular region with the previous central values shifted up by $10$ \GeV, is defined as:
 \begin{equation}
 \label{eq:boosted_RhhhighDef}
 R_{hh}^{\text{high}} = \sqrt{\left(m^{\rm lead}_{\rm J} - \text{134 GeV}\right)^2 + \left(m^{\rm subl}_{\rm J} - \text{125 GeV}\right)^2}
 \end{equation}
 
 \paragraph{}
-The definitions of the SB, CR, and SR in the 2D \mleadJ-\msublJ plane are found in Table~\ref{tab:boosted-sbcr-constraints}. 
-These regions can be seen in Figure~\ref{fig:boosted-region-def}.
+The definitions of the SB, CR, and SR in the 2D \mleadJ-\msublJ plane are found in Table~\ref{tab:boosted-sbcr-constraints}.
+These regions are shown in Figure~\ref{fig:boosted-region-def}.
 This Figure also shows the QCD background shape is falling from the low-low mass region to high-high mass region on the 2D plane.
 The \ttbar~ background is also distinguishable as the vertical cyan band where \mleadJ $\sim 173$ \GeV.
 
@@ -92,6 +90,25 @@ The \ttbar~ background is also distinguishable as the vertical cyan band where \
 \end{center}
 \end{table}
 
+
+\paragraph{}
+The CR is chosen to be close to the signal region.
+The ring shape around the SR allows a good test for the background predictions for all \mleadJ-\msublJ combinations, and avoids too few or too many \ttbar~ events.
+The current CR gives $N_{CR} \sim 2 N_{SR}$, which contains good statistics, and not affecting the SB design.
+
+\paragraph{}
+The SB must be a reasonable proxy for the QCD events contained in the CR and SR.
+It is therefore chosen as the ring outside the CR regions.
+The shift upwards in $R_{hh}^{\text{high}}$ helps to capture enough $t\bar{t}$ events in the normalization estimates and stabilize the fit for \muqcd~ and \alphatt.
+%Different Large-\R jet mass reflects very different underlying kinematics.
+%Intrinsically they consist of different gluon splitting and light/c fake $b$-jets events.
+A larger SB will potentially increase the bias from events from different processes.
+Since the SB is used to extrapolate from lower-tagged regions to $n$-tag regions, this kinematic bias should be reduced.
+A smaller SB will introduce larger uncertainties in the normalization estimation.
+This is a bias variance trade off.
+Statistics is the key constraint in defining the SB radius of $R_{hh}^{\text{high}}$.
+The current design gives roughly $N_{SB} \sim 4 N_{SR}$ and $N_{SB} \sim 2 N_{CR}$.
+
 \begin{figure*}[htbp!]
 \begin{center}
   \includegraphics[width=0.6\textwidth,angle=-90]{figures/boosted/Other/TwoTag_split_Incl_data_mH0H1.pdf}
@@ -99,24 +116,6 @@ The \ttbar~ background is also distinguishable as the vertical cyan band where \
   \label{fig:boosted-region-def}
 \end{center}
 \end{figure*}
-
-\paragraph{}
-The CR is chosen to be close to the signal region.
-The ring choice for CR allows a good test for the background predictions and avoids too few or too many \ttbar~ events.
-The current design gives $N_{CR} \sim 2 N_{SR}$, which contains reasonably good statistics, and not too much so the SB desgin is affected.
-
-\paragraph{}
-The SB definition is optimized to be a reasonable proxy for the QCD events contained in the CR and SR.
-It is therefore chosen as the ring outside the CR regions.
-The shift upwards in $R_{hh}^{\text{high}}$ helps to capture enough $t\bar{t}$ events in the normalization estimates and stabilize the fit for \muqcd~ and \alphatt.
-Different Large-\R jet mass reflects very different underlying kinematics.
-Intrinsically they consist of different gluon splitting and light/c fake $b$-jets events.
-A larger SB will potentially increase the bias from events from different processes.
-Since the SB is used to extrapolate from lower-tagged regions to $n$-tag regions, this kinematic bias should be reduced.
-A smaller SB will introduce larger uncertainties in the normalization estimation.
-This is a bias variance trade off.
-Statistics is the key constraint in defining the SB radius of $R_{hh}^{\text{high}}$.
-The current design gives roughly $N_{SB} \sim 4 N_{SR}$ and $N_{SB} \sim 2 N_{CR}$.
 
 \paragraph{}
 The number of events in the control region and sideband region as a function of Resonance mass is shown in Figure~\ref{fig:boosted-selection-region-efficiency}. 
@@ -134,28 +133,33 @@ For $4b$, $3b$, and $2bs$, there is no significant signal contamination in the c
 \end{figure*}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{QCD multi-jets}
 \label{sec:boosted-qcd}
 
 \paragraph{}
 The QCD multi-jets prediction relies on finding regions which are similar in event properties to estimate the shapes of the expected background.
 These regions are defined to be identical to the signal regions except requiring fewer number of $b$-tagged track jets associated with the large-\R jets.
-They are orthogonal to the $n$-btag regions with no overlapping events.
+They are orthogonal to the $n$-btag regions with no overlapping events:
 \begin{itemize}
 \item For the $2bs$ category, the $1b$ data events, where one large-\R jet has one and only one $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling.
 \item For the $3b$ and $4b$ categories, the $2b$ data events, where one large-\R jet has two $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling. The $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for $3b$ and $4b$ background estimations. This ensures the shape estimations of $3b$ and $4b$ QCD estimates are uncorrelated. 
 \end{itemize}
-The MC predicted $t\bar{t}$ events in the $1b/2b$ regions are subtracted from the data distributions to produce the $1b/2b$ QCD estimation.
+The MC predicted $t\bar{t}$ and Z+jets events  in the $1b/2b$ regions are subtracted from the data distributions to produce the $1b/2b$ QCD estimation. 
+\begin{eqnarray}
+N_{\text{qcd}} = N_{\text{data}} - N_{t\bar{t}} - N_{Z+jets} 
+\end{eqnarray}
 
 \paragraph{}
 The $1b$-tagged region also requires that each large-\R jet has at least one track jet (to model $2bs$).
 Similarly, to model $3b$, the $2b$-tagged region requires that one large-\R jet has at least one track jet and the other one has at least two track jets. 
 To model $4b$, each large-\R jet must have at least two track jets (to model $4b$).
-This prevents biases in dijet mass distribution from the number of track jets.
+This prevents biases in \mtwoJ istribution from the number of track jets.
 
 \paragraph{} 
 The resolved veto will impact the $4b$ background estimation. 
-To account for this effect, a part of $2b$ data events used for $4b$ background esitmation are excluded. 
+To account for this effect, a part of $2b$ data events used for $4b$ background estimation are excluded. 
 They have at least two small-\R jets that are $b$-tagged (passing resolved $70\%$ working point), and in case where the two other non b-tagged resolved jets to make the Higgs candidate, can pass the $X_{hh-resolved} < 1.6$ cut. 
 This veto that a similar sculpting effect is reflected in the background estimation.
 
@@ -166,18 +170,21 @@ Given the $1b/2b$ QCD background shape predictions, the normalization of the QCD
 It should be noted that there can be kinematic differences between the $1b/2b$ samples and the $4b/3b/2bs$ regions.  Thus a kinematic reweighting is applied to correct for such differences, as described in Section~\ref{sec:boosted-reweight}.
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{\ttbar~}
 \label{sec:boosted-ttbar}
 
 \paragraph{}
 The \ttbar~ events in the signal region mainly decay all-hadroniclly.
-It comprises of around $5-20$\%  of the inclusive total background in the $4b/3b/2bs$ regions due to the high \pt\ threshold imposed on the leading large-\R jet. 
+It comprises of around $5-20$\%  of the inclusive total background in the $4b/3b/2bs$ regions. 
 In addition, the normalization and the shape of \ttbar~ events in the sideband region can affect the QCD estimate described in the previous section.
 
 \paragraph{}
 The \ttbar~ MC is scaled by the luminosity in the data.
-The boosted event selection on is applied on the MC.
-For the shape of the $t\bar{t}$ background, no data driven methods were identified, and thus the MC shape is used.   
+The boosted event selection on is applied on the \ttbar~ MC.
+For the shape of the \ttbar~ background, the MC shape is used.   
 To account for possible mis-modeling in MC, a normalization scaling factor is derived from a fit to data in the sideband region.
 
 \paragraph{}
@@ -208,25 +215,51 @@ Since the same \ttbar~ shape is used for the $4b/3b/2bs$ SR predictions, the sha
 \label{sec:ttbarnorm}
 
 \paragraph{}
-The number of $4b/3b/2bs$ events in data observed in a given region (SB / CR / SR) is shown in Equation~\ref{eq:fitparams}:
-\begin{eqnarray}
-\label{eq:fitparams}
-N^{4b}_{\text{data}} = \mu_{\text{qcd}}^{4b} N^{2b}_{\text{qcd}} + \alpha_{t\bar{t}}^{4b} N^{4b}_{t\bar{t}} + N^{4b}_{Z+jets} \\
-N^{3b}_{\text{data}} = \mu_{\text{qcd}}^{3b} N^{2b}_{\text{qcd}} + \alpha_{t\bar{t}}^{3b} N^{3b}_{t\bar{t}} + N^{3b}_{Z+jets} \\
-N^{2bs}_{\text{data}} = \mu_{\text{qcd}}^{2bs} N^{1b}_{\text{qcd}} + \alpha_{t\bar{t}}^{2bs} N^{2bs}_{t\bar{t}} + N^{2bs}_{Z+jets}
-\end{eqnarray}
-where $N$ is the number events in the given region. 
+The leading large-\R jet mass distribution in the $4b$, $3b$, and $2bs$ sideband region is fit separately with the QCD shape estimate and with the \ttbar~ MC shape.
+From this binned likelihood fit, two terms are determined simultaneously: \muqcd~ and \alphatt. 
 \muqcd\ is essentially an estimate of the ratio of the number of QCD events with $4b/3b/2bs$-tagged track jets, to the number of QCD events with $2b/2b/1b$-tagged track.
-$\alpha_{t\bar{t}}$~, applied after the \ttbar\ is scaled to the total integrated luminosity, is a correction to the MC prediction in this phase space.  
+This is assumed to be a constant over SB/CR/SR.
+Validation of this assumption can be found in Appendix~\ref{AppendixRW}.
+$\alpha_{t\bar{t}}$~, applied after the \ttbar~ is scaled to the total integrated luminosity, is a correction to the MC prediction in this phase space.
+\muqcd~ and \alphatt~ are used as multiplicative constants in other regions of the mass plane (i.e. the control or signal regions).
 
 \paragraph{}
-A binned maximum likelihood fit is employed to find the values of \muqcd~ and \alphatt~, as well as the correlation between the two parameters.
+The number of $4b/3b/2bs$ background events in a given region R (SB / CR / SR) is shown in Equation~\ref{eq:fitparams}:
+\begin{eqnarray}
+\label{eq:fitparams}
+N^{4b\text{-R}}_{\text{bkg}} = \mu_{\text{qcd}}^{4b} N^{2b\text{-R}}_{\text{qcd}} + \alpha_{t\bar{t}}^{4b} N^{4b\text{-R}}_{t\bar{t}} + N^{4b\text{-R}}_{Z+jets};
+\quad \mu_{\text{qcd}}^{4b} \sim \frac{N^{4b\text{-SB}}_{\text{qcd}}}{N^{2b\text{-SB}}_{\text{qcd}}}
+\\
+N^{3b\text{-R}}_{\text{bkg}} = \mu_{\text{qcd}}^{3b\text{-R}} N^{2b\text{-R}}_{\text{qcd}} + \alpha_{t\bar{t}}^{3b} N^{3b\text{-R}}_{t\bar{t}} + N^{3b\text{-R}}_{Z+jets} ;
+\quad \mu_{\text{qcd}}^{3b} \sim \frac{N^{3b\text{-SB}}_{\text{qcd}}}{N^{2b\text{-SB}}_{\text{qcd}}}\\
+N^{2bs\text{-R}}_{\text{bkg}} = \mu_{\text{qcd}}^{2bs\text{-R}} N^{1b\text{-R}}_{\text{qcd}} + \alpha_{t\bar{t}}^{2bs} N^{2bs\text{-R}}_{t\bar{t}} + N^{2bs\text{-R}}_{Z+jets};
+\quad \mu_{\text{qcd}}^{2bs} \sim \frac{N^{2bs\text{-SB}}_{\text{qcd}}}{N^{1b\text{-SB}}_{\text{qcd}}}
+\end{eqnarray}
+where $N$ is the number events in the given region.
+
+\paragraph{}
+A binned maximum likelihood fit is employed to find the values of \muqcd~ and \alphatt~, as well as the correlation between them.
 These scaling parameters are determined independently for the $4b/3b/2bs$ signal regions.
 The procedure is the same for those three signal regions. 
-Due to the \pt~ $>450$ \GeV~ cut imposed on the leading large-\R jet, the hadronicly decaying top quark can be fully reconstructed inside of the large-\R jet. 
-The leading jet mass in the \ttbar\ sample has a clean peak around $M=170$ GeV in the sideband region.
+Due to the \pt~ $>450$ \GeV~ cut imposed on the leading large-\R jet, the hadronicly decaying top quark can be fully reconstructed inside the leading large-\R jet. 
+The \mleadJ in the \ttbar\ sample has a clean peak around $170$ \GeV~ in the sideband region.
 It has the best separation between QCD and \ttbar\ shapes.
 Therefore, the fit is performed on the \mleadJ spectrum in the sideband region.
+
+\paragraph{}
+Figure~\ref{fig:ttbar-fit} shows the post-fit spectrum of the leading large-\R jet mass in the $n$-$b$tag sideband regions.
+The \mleadJ shapes in data are also well modeled by the predicted backgrounds. 
+The fitting errors on \muqcd~ and \alphatt~ are applied as systematic uncertainties taking into account their correlation.
+
+\begin{figure}[htbp!]
+\begin{center}
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i4.pdf}\\
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i3.pdf}\\
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i2s.pdf}\\
+\caption{Simultaneous fit of \muqcd~ and \alphatt~ in $4b$ (top) and $3b$ (middle) and $2bs$ (bottom) sideband region using leading large-\R jet mass.}
+\label{fig:ttbar-fit}
+\end{center}
+\end{figure}
 
 \paragraph{}
 The \ttbar MC sample normalization is further corrected from the fitted \alphatt.
@@ -248,118 +281,6 @@ This leads to a smaller total normalization uncertainty.
 \end{center}
 \end{table}
 
-\paragraph{}
-Figure~\ref{fig:ttbar-fit} shows the post-fit spectrum of the leading large-\R jet mass in the $n$-$b$tag sideband regions. 
-The normalization of \ttbar~ is constrained by the top quark mass peak around $170$ \GeV. 
-The shapes of the data is also well modeled by the predicted background. 
-The fitting errors on \muqcd~ and \alphatt~ are applied as systematic uncertainties taking into account their correlation.
-
-\begin{figure}[htbp!]
-\begin{center}
- \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i4.pdf}\\
- \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i3.pdf}\\
- \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i2s.pdf}\\
-\caption{Simultaneous fit of \muqcd~ and \alphatt~ in $4b$ (top) and $3b$ (middle) and $2bs$ (bottom) sideband region using leading large-\R jet mass.}
-\label{fig:ttbar-fit}
-\end{center}
-\end{figure}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%  Fitting
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{\muqcd validation}
-\paragraph{}
-One important assumption is the constant \muqcd for different regions on the 2D \mleadJ-\msublJ plane. 
-This can be validated in data, excluding signal regions which were blinded. 
-The \ttbar~ contribution is estimated directly from MC and subtracted in the data distributions. 
-The ratio of the number of n-$b$tagged events versus the number of less-$b$tagged events in each \mleadJ-\msublJ bin is calculated.
-The pull of the ratios in SB/CR/SR is also calculated.
-These two distributions shows the consistency of \muqcd in SB/CR/SR, as seen in Figure~\ref{fig:app-muqcd-1b} ($1b$ over $0b$), ~\ref{fig:app-muqcd-2b} ($2b$ over $1b$), ~\ref{fig:app-muqcd-2bs} ($2bs$ over $1b$), ~\ref{fig:app-muqcd-3b} ($3b$ over $2b$), ~\ref{fig:app-muqcd-4b} ($4b$ over $2b$). For $4/3/2bs$, the \muqcd value can be compared with \ref{tab:bkgfit}. 
-This validates the choice of SB region and the constant \muqcd assumption in the analysis.
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1_pull.pdf}
-\caption{$1b$ over 0$b$ \muqcd~ values: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Gaussian fit mean value shown on the plot.}
-\label{fig:app-muqcd-1b}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1_pull.pdf}
-\caption{$2b$ over $1b$ \muqcd~ values: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Gaussian fit mean value shown on the plot.}
-\label{fig:app-muqcd-2b}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1_pull.pdf}
-\caption{$2bs$ over $1b$ \muqcd~ values: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Gaussian fit mean value shown on the plot.}
-\label{fig:app-muqcd-2bs}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1_pull.pdf}
-\caption{$3b$ over $2b$ \muqcd~ values: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Gaussian fit mean value shown on the plot.}
-\label{fig:app-muqcd-3b}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1_pull.pdf}
-\caption{$4b$ over $2b$ \muqcd~ values: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Gaussian fit mean value shown on the plot.}
-\label{fig:app-muqcd-4b}
-\end{center}
-\end{figure*}
-
-\paragraph{}
-Also, the Dijet MC can be used for validation. 
-The same distributions evaluated in dijet MC are shown in Figure~\ref{fig:app-muqcd-1b-qcd} ($1b$ over $0b$), ~\ref{fig:app-muqcd-2b-qcd} ($2b$ over $1b$), ~\ref{fig:app-muqcd-2bs-qcd} ($2bs$ over $1b$).  
-Poor Statistics of the dijet MC affect the pull distributions, yet the consistency of \muqcd in different regions can still be validated.
-This also shows that the dijet MC could not be used directly for background estimation.
-
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1_pull.pdf}
-\caption{$1b$ over 0$b$ \muqcd~ values in dijet MC: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Guassian fit mean value shown on the plot.}
-\label{fig:app-muqcd-1b-qcd}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1_pull.pdf}
-\caption{$2b$ over $1b$ \muqcd~ values in dijet MC: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Guassian fit mean value shown on the plot.}
-\label{fig:app-muqcd-2b-qcd}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1_pull.pdf}
-\caption{$2bs$ over $1b$ \muqcd~ values in dijet MC: \muqcd variations on 2D \mleadJ-msublJ plane(left); and \muqcd pull distribution in SB/CR/SR(right), with the $N_{event}$ weighted mean value and the Guassian fit mean value shown on the plot. Poor Statistics of the dijet MC affect the pull distributions.}
-\label{fig:app-muqcd-2bs-qcd}
-\end{center}
-\end{figure*}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -371,7 +292,8 @@ This also shows that the dijet MC could not be used directly for background esti
 \label{sec:boosted-reweight}
 
 \paragraph{}
-This is the most time consuming part of this analysis.
+This is the most time consuming part of this analysis. 
+More supporting plots are shown in Appendix~\ref{AppendixRW}.
 It is important to model the QCD background as good as possible in all regions of the analysis.
 Using the $1/2b$ region to model the $2bs/3b/4b$ regions can introduce discrepancies in the modeling of the estimated QCD background versus the data. 
 These discrepancies arise from the non-trivial effect that $b$-tagging has on jet kinematics.
@@ -419,11 +341,10 @@ To avoid potential biases in the final distributions used for the analysis, this
 Since each signal region is modeled by a different $1/2b$ tag category, thee reweighting procedure is the same for the three different channels. 
 Note the $2b$ sample is already split into separate parts, as described in section \ref{sec:boosted-qcd}.
 
-\clearpage{}
 \paragraph{}
 The each reweighting iteration is described below:
 \begin{itemize}
-\item Subtract $1/2b$ \ttbar and $Z+$jets samples in the sideband from the $1/2b$ tag data in the Sideband + Control + Signal regions to get the $1/2b$ QCD inclusive estimate. Weights from all previous iterations, if applicable, are all applied.
+\item Subtract $1/2b$ \ttbar and $Z+$jets samples in the SB + CR + SR regions from the $1/2b$ tag data in the SB + CR + SR regions to get the $1/2b$ QCD inclusive estimate. Weights from all previous iterations, if applicable, are all applied.
 \item Separate the $1/2b$ sample into two parts: A. that has the $b$-tagged Higgs is the leading \pt Higgs candidate, and B. that the $b$-tagged Higgs is the subleading \pt Higgs candidate.
 \item For each variable, i.e. the large-\R jet $p_{T}$: normalize sample A to sample B's total number of events, take the ratio of sample A's distribution over sample B's distribution, and fit the ratio with a smooth spline function. (TSpline3)
 \item Use this spline function to extract reweighting values for each variable that is considered. Then, the difference from one is scaled by $0.75$ to get a new weight. This accounts for over correlation by the spline and accelerates convergence.
@@ -446,139 +367,6 @@ The values are statistically consistent with the values in Table~\ref{tab:bkgfit
 \end{center}
 \end{table}
 
-\paragraph{}
-The first iteration, second iteration, and last iteration of fits for $2bs$, where in $1b$ data, the non-$b$tagged Higgs candidate are reweighed to be like a $1b$ tagged Higgs candidate, can be seen in Figure~\ref{fig:rw-2bs-lead} and ~\ref{fig:rw-2bs-subl}. 
-Similar distributions for $3b$, where in $2b$ data, the non-$b$tagged Higgs candidate are reweighed to be like a $1b$ tagged Higgs candidate, are shown in Figure~\ref{fig:rw-3b-lead} and ~\ref{fig:rw-3b-subl}. 
-Similar distributions for $4b$, where in $2b$ data, the non-$b$tagged Higgs candidate are reweighed to be like a $2b$ tagged Higgs candidate, are shown in Figure~\ref{fig:rw-4b-lead} and ~\ref{fig:rw-4b-subl}. 
-The before reweighting distribution (first row), the reweighting result after the first iteration (second row), and the final distribution after reweighting (last row) are presented.
-
-\paragraph{}
-In the some plots, like Figure~\ref{fig:rw-4b-lead} and ~\ref{fig:rw-4b-subl}, the last ratio bin sometimes still doesn't converge to unity. 
-This is a feature from the limited statistics from the last bin, especially in the $4b$ case, where only $20\%$ number of events in $2b$ is used for background prediction and therefore reweighed.
-To make this fully converge, a different binning or more iterations could be used.
-Yet the last bin's few event will also likely to end up with a large unphysical weight and therefore harm the background prediction later.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%% original distributions
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\caption{For $2bs$ background estimate: the fits to the ratio of the data in the $1b$ category, of the subleading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left), the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figures are before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottom row). The green line is the spline fit; the red line is a polynomial fit; the blue line is the spline interpolation.}
-\label{fig:rw-2bs-lead}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_2Trk_split_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_2Trk_split_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_2Trk_split_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_2Trk_split_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\caption{For $2bs$ background estimate: the fits to the ratio of the data in the $1b$ category, of the leading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(black point), over the subleading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figures are before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottom row). The green line is the spline fit; the red line is a polynomial fit; the blue line is the spline interpolation.}
-\label{fig:rw-2bs-subl}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\caption{For $3b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the subleading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $1b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figures are before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottom row). The green line is the spline fit; the red line is a polynomial fit; the blue line is the spline interpolation.}
-\label{fig:rw-3b-lead}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_3Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_3Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_3Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_3Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\caption{For $3b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the leading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(black point), over the subleading Higgs candidate $1b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figures are before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottom row). The green line is the spline fit; the red line is a polynomial fit; the blue line is the spline interpolation.}
-\label{fig:rw-3b-subl}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_lead_Incl_sublHCand_trk1_Pt.pdf} \\
-\caption{For $4b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the subleading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(black point), over the leading Higgs candidate $2b$-tagged events's subleading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figures are before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottom row). The green line is the spline fit; the red line is a polynomial fit; the blue line is the spline interpolation.}
-\label{fig:rw-4b-lead}
-\end{center}
-\end{figure*}
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_NoTag_4Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_0_NoTag_4Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_3_NoTag_4Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCand_Pt_m_1.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Reweight/Fits/Moriond_bkg_9_NoTag_4Trk_subl_Incl_leadHCand_trk1_Pt.pdf} \\
-\caption{For $4b$ background estimate: the fits to the ratio of the data in the $2b$ category, of the leading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(black point), over the subleading Higgs candidate $2b$-tagged events's leading Higgs candidate distributions(yellow). Distributions and fits to the estimated QCD background for large-\R jet $p_{T}$ (left),  the large-\R jet's leading trackjet $p_T$ (middle), and large-\R jet's subleading trackjet $p_T$ (right) are shown.  Figures are before reweighting (top row), after the first iteration(second row), after the fourth iteration(third row), and after the last iteration (bottom row). The green line is the spline fit; the red line is a polynomial fit; the blue line is the spline interpolation.}
-\label{fig:rw-4b-subl}
-\end{center}
-\end{figure*}
-
-
-\paragraph{}
-A comparison of the SB shapes before and after reweighting for $2bs$, $3b$ and $4b$ are shown in Figures~\ref{fig:rw-2bs-comp-sb},~\ref{fig:rw-3b-comp-sb}, and ~\ref{fig:rw-4b-comp-sb}. 
-Also, a comparison of the CR shapes before and after reweighting for $2bs$, $3b$ and $4b$ can be seen in Figures~\ref{fig:rw-2bs-comp-cr},~\ref{fig:rw-3b-comp-cr}, and ~\ref{fig:rw-4b-comp-cr}. 
-In almost all cases, both the reweighted/non-reweighted prediction agrees fairly well with the data, and the reweighted plots' KS scores are greater than those from non-reweighted distributions. 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %For reweighting method comparisons and validations in data and Dijet MC, see Appendix~\ref{app:reweightstudy}.
@@ -588,122 +376,51 @@ In almost all cases, both the reweighted/non-reweighted prediction agrees fairly
 %%%  SB plots
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Predictions in the sideband region (SB)}
+\section{Predictions in the sideband region}
 \label{sec:boosted-sb}
 
 \paragraph{}
-Other distributions are shown in Appendix~\ref{AppendixSB}.
+Figure~\ref{fig:boosted-sb-mjj} shows comparisons of the predicted \mtwoJ~background distributions to those observed in the data in the sideband region.
+The predicted background and observed distributions are in agreement, with no significant excess.
+Other sideband region distributions are shown in Appendix~\ref{AppendixSB}.
 
 
-\begin{figure*}[htbp!]
+\begin{figure}[htbp!]
 \begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_mHH_l_1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_mHH_l_1.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_leadHCand_Pt_m.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_trk0_Pt.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighed $2bs$ sideband region predictions comparison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
-\label{fig:rw-2bs-comp-sb}
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf}\\
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Sideband_mHH_l_1.pdf}\\
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf}\\
+\caption{The \mtwoJ distributions in the sideband region of the boosted analysis for the data and the predicted background for (top) the four-tag, (b) the three-tag, and (c) the two-tag split samples. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the grey hatched band.}
+\label{fig:boosted-sb-mjj}
 \end{center}
-\end{figure*}
-
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_mHH_l_1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_mHH_l_1.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_leadHCand_Pt_m.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_trk0_Pt.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighed $3b$ sideband region predictions comparison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
-\label{fig:rw-3b-comp-sb}
-\end{center}
-\end{figure*}
-
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Sideband_mHH_l_1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_mHH_l_1.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Sideband_leadHCand_Pt_m.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_Pt_m.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Sideband_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_leadHCand_trk0_Pt.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Sideband_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $4b$ sideband region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
-\label{fig:rw-4b-comp-sb}
-\end{center}
-\end{figure*}
-
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  CR plots
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Predictions in the control region (CR)}
+\section{Predictions in the control region}
 \label{sec:boosted-cr}
 
-
 \paragraph{}
-Other distributions are shown in Appendix~\ref{AppendixCR}.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{figure*}[htbp!]
+Figure~\ref{fig:boosted-cr-mjj} shows comparisons of the predicted \mtwoJ~background distributions to those observed in the data in the control region.
+The predicted background and observed distributions are in agreement, with no significant excess.
+Other control region distributions are shown in Appendix~\ref{AppendixCR}.
+
+\begin{figure}[htbp!]
 \begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Control_mHH_l_1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_mHH_l_1.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Control_leadHCand_Pt_m.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Control_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_trk0_Pt.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_TwoTag_split_Control_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $2bs$ control region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
-\label{fig:rw-2bs-comp-cr}
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf}\\
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Sideband_mHH_l_1.pdf}\\
+ \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf}\\
+\caption{The \mtwoJ distributions in the sideband region of the boosted analysis for the data and the predicted background for (top) the four-tag, (b) the three-tag, and (c) the two-tag split samples. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the grey hatched band.}
+\label{fig:boosted-cr-mjj}
 \end{center}
-\end{figure*}
-
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Control_mHH_l_1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_mHH_l_1.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Control_leadHCand_Pt_m.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Control_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_leadHCand_trk0_Pt.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_ThreeTag_Control_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $3b$ control region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
-\label{fig:rw-3b-comp-cr}
-\end{center}
-\end{figure*}
-
-
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Control_mHH_l_1.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_mHH_l_1.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Control_leadHCand_Pt_m.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_Pt_m.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Control_leadHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_leadHCand_trk0_Pt.pdf}\\
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Prereweight/Moriond_FourTag_Control_sublHCand_trk0_Pt.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf}\\
-\caption{Reweighted $4b$ control region predictions comaprison. Top row is the dijet Mass, second row is leading large-\R jet $p_{T}$, third row is the leading large-\R jet's leading trackjet $p_T$ and the last row subleading large-\R jet's leading trackjet $p_T$. On the left are the distributions before reweighting, and on the right are the distributions after reweighting.}
-\label{fig:rw-4b-comp-cr}
-\end{center}
-\end{figure*}
-
-
-
-\clearpage
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  SR smoothing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Signal region rescale and smoothing}
 \label{sec:boosted-SR-smoothing}
 
@@ -791,16 +508,20 @@ Uncertainties on the fit parameters are propagated as systematic uncertainties, 
 \label{fig:signal-region-mjjscaled-smooth-bkg-noSYS}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  Yields
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Yields}
 \label{sec:yields}
 \paragraph{}
 The event yield results showing the estimated backgrounds, the signal predictions, and the data observations in the $4b$ and $3b$ and $2b$ signal regions (blinded), control regions, and sideband regions can be found in Table~\ref{tab:yields4b} and Table~\ref{tab:yields3b} and Table~\ref{tab:yields2b} respectively. Total background statistical uncertainty is less than the quadratic sum of \ttbar~ and QCD because of the anti-correlation.
 
-
 \begin{table}[htbp!]
 \footnotesize
 \begin{center}
-\caption{Expected yields for backgrounds in the $4b$ signal region, control region, and sideband region, along with the observed number of data events.  The signal predictions for RS $m=1.0, 1.5, 2.0$~\TeV\ of both $c=1.0$ and $c=2.0$, and for narrow width heavy Higgs of $m=1.0, 1.5, 2.0$~\TeV\ are also listed.  For each predicted value, the uncertainty listed is statistical, without fit uncertainty.}
+\caption{Expected yields for backgrounds in the $4b$ signal region, control region, and sideband region, along with the observed number of data events.  The signal predictions for \Grav $m=1.0, 1.5, 2.0$~\TeV\ with $c=1.0$.  For each predicted value, the uncertainty listed is statistical, without fit uncertainty.}
 \input{figures/boosted/tables/FourTag_yield.tex}
 \label{tab:yields4b}
 \end{center}
@@ -810,7 +531,7 @@ The event yield results showing the estimated backgrounds, the signal prediction
 \begin{table}[htbp!]
 \footnotesize
 \begin{center}
-\caption{Expected yields for backgrounds in the $3b$ signal region, control region, and sideband region, along with the observed number of data events.  The signal predictions for $m=1.0, 1.5, 2.0$~\TeV\ of both $c=1.0$ and $c=2.0$, and for narrow width heavy Higgs of $m=1.0, 1.5, 2.0$~\TeV\ are also listed.  For each predicted value, the uncertainty listed is statistical, without fit uncertainty.}
+\caption{Expected yields for backgrounds in the $3b$ signal region, control region, and sideband region, along with the observed number of data events.  The signal predictions for \Grav $m=1.0, 1.5, 2.0$~\TeV\ with $c=1.0$.  For each predicted value, the uncertainty listed is statistical, without fit uncertainty.}
 \input{figures/boosted/tables/ThreeTag_yield.tex}
 \label{tab:yields3b}
 \end{center}
@@ -820,7 +541,7 @@ The event yield results showing the estimated backgrounds, the signal prediction
 \begin{table}[htbp!]
 \footnotesize
 \begin{center}
-\caption{Expected yields for backgrounds in the $2bs$ signal region, control region, and sideband region, along with the observed number of data events.  The signal predictions for $m=1.0, 1.5, 2.0$~\TeV\ of both $c=1.0$ and $c=2.0$, and for narrow width heavy Higgs of $m=1.0, 1.5, 2.0$~\TeV\ are also listed.  For each predicted value, the uncertainty listed is statistical, without fit uncertainty.}
+\caption{Expected yields for backgrounds in the $2bs$ signal region, control region, and sideband region, along with the observed number of data events.  The signal predictions for \Grav $m=1.0, 1.5, 2.0$~\TeV\ with $c=1.0$.  For each predicted value, the uncertainty listed is statistical, without fit uncertainty.}
 \input{figures/boosted/tables/TwoTag_split_yield.tex}
 \label{tab:yields2b}
 \end{center}
