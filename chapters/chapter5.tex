@@ -7,10 +7,10 @@ You gotta have a swine to show you where the truffles are.
 \chapter{Event Selection}
 \label{sec:selection}
 
-\begin{figure}[h!]
+\begin{figure}[htbp!]
   \centering
   \includegraphics[width=0.7\textwidth]{figures/theory/JiveXML_282712_595661746-YX-2018-04-16-20-50-34}
-  \caption{2015 ATLAS boosted di-Higgs event candidate's event display. The data is taken in run 282712, lumiblock 503 and has event number 595661746. ID is in grey, ECAL is in green, HCAL is in red and MS is in blue. Only tracks with \pt $>25$ \GeV are shown. Jets are gray cones, and ID tracks are colored lines in the ID. There are $2b$ tagged tracks within in each of the large-\R jets. The one large-\R jet has $119$ \GeV mass and $543$ \GeV \pt, and the other one has $127$ \GeV mass and $413$ \GeV \pt. The $\Delta R$ between the two large-\R jet is $3.54$ and the invariant mass of the two large-\R jets is $1336$ \GeV. }
+  \caption{2015 ATLAS boosted di-Higgs event candidate's event display. The data is taken in run 282712, lumiblock 503 and has event number 595661746. ID is in gray, ECAL is in green, HCAL is in red and MS is in blue. Only tracks with \pt $>25$ \GeV are shown. Jets are gray cones, and ID tracks are colored lines in the ID. There are $2b$ tagged tracks within in each of the large-\R jets. The one large-\R jet has $119$ \GeV mass and $543$ \GeV \pt, and the other one has $127$ \GeV mass and $413$ \GeV \pt. The $\Delta R$ between the two large-\R jet is $3.54$ and the invariant mass of the two large-\R jets is $1336$ \GeV. }
   \label{fig:event_display}
 \end{figure}
 
@@ -32,7 +32,7 @@ The following data cleaning requirements are made:
 % Events that pass a ``medium'' jet vertex tagger working point, corresponding to a 92\% efficiency for jets at the EM scale with $20<p_T<60$~\GeV, are retained in the analysis. 
 % Quality criteria are applied to the jets, and events with jets consistent with noise in the calorimeter or non-collision backgrounds are vetoed~\cite{jetcleanATLAS}.
 \paragraph{}
-The analysis also runs over the debug stream, which contains events recorded that couln't be reconstructed online due to CPU time constrains. No event passing the full signal selection is found.
+The analysis also runs over the debug stream, which contains events recorded that couln't be reconstructed on-line due to CPU time constrains. No event passing the full signal selection is found.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,7 +97,7 @@ The specific physics objects used in the boosted analysis are described in previ
 Each event must have at least two high momentum large-\R jets, each with at least one ghost associated track jets for $b$-tagging.
 They are sorted by \pt, and the highest \pt~ one is named as the leading large-\R jet, or the leading Higgs Candidate.
 The second highest \pt~ large-\R jet is the subleading large-\R jet, or the subleading Higgs Candidate.
-The large-\R jets are required to have \pt $> 250$ \GeV~, $|\eta| < 2$ to guarantee a good overlap with the tracking acceptance, and mass $> 50$ \GeV~ to avoid oversized derivations.
+The large-\R jets are required to have \pt $> 250$ \GeV~, $|\eta| < 2$ to guarantee a good overlap with the tracking acceptance, and mass $> 50$ \GeV~ to avoid over-sized derivations.
 The leading large-\R jet is also required to have \pt $> 450$ \GeV~ to be above the trigger turn on threshold.
 Only the leading and subleading large-\R jets are considered in the rest of this thesis.
 This selection is $\sim 95\%$ efficient for $1.2$ \TeV signals, as shown in Figure~\ref{fig:truth-Higgs-largeRjet}. 
@@ -183,7 +183,7 @@ This cut is not entirely optimal for Scalar signals due to the different spin, y
 \paragraph{}
 Sometimes one event can be reconstructed in both the resolved method as four small-\R jets and the boosted method as two large-\R jets with track jets. Figure~\ref{fig:obj_evt_display} shows an example event display of collision data recorded in 2015.
 
-\begin{figure}[h!]
+\begin{figure}[htbp!]
 \centering
 \captionsetup{justification=centering}
     \begin{subfigure}[b]{0.45\textwidth}
@@ -308,15 +308,15 @@ The $4b$ requirement has an overall efficiency of roughly $\epsilon^4$, where $\
 This means an overall $0.7^4 \sim 0.24$ probability, but having one actual $b$-jet failling while the other three pass has probability $3 \times 0.7^3 \times (1-0.7) \sim 0.31$.
 Therefore, a $3b$ selection is also introduced to recover the signal efficiency. 
 An event with $3b$-tags must have at least $3b$-tagged track jets, but can have any number of additional un-tagged track jets.
-In $4b$ and $3b$, each Higgs candidate can have at most two $b$-tagged track jets, hence $\geq 3b$-tagged trackjets cannot be in the same large-\R jet.
+In $4b$ and $3b$, each Higgs candidate can have at most two $b$-tagged track jets, hence $\geq 3b$-tagged track jets cannot be in the same large-\R jet.
 
 \paragraph{}
 At the highest resonance mass, the Lorentz boost of the Higgs boson can be large enough to collimate the daughter $b$-quarks below the distance scale resolvable by the track jets ($R=0.2$). A third signal region is denoted by two-tag-split or simply $2bs$.
 It requires exactly one $b$-tagged track jet is found in each Higgs candidate, plus an arbitrary number of track jets that must fail the $b$-tag.
 
 \paragraph{}
-$4b$, $3b$, and $2bs$ regions are chosen as three signal regions, also refered to as $n$-$b$tag regions.
-The other $b$-tagging situations, also refered to as lower-$b$tag regions, are also sorted and studied.
+$4b$, $3b$, and $2bs$ regions are chosen as three signal regions, also referred to as $n$-$b$tag regions.
+The other $b$-tagging situations, also referred to as lower-$b$tag regions, are also sorted and studied.
 $2b$ region is defined as one large-\R jet has two $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet. 
 $1b$ region is defined as one large-\R jet has one and only one $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet. 
 $0b$ region is defined as both large-\R jets have no $b$-tagged track jet. 

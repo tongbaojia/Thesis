@@ -12,7 +12,7 @@ Reconstruction is the construction of particles from raw detector readouts.
 In each $pp$ collision recorded by ATLAS, charged particles bend in the magnetic field and leave tracks in the ID, electrons and photons deposit their energies in ECAL, hadrons are absorbed in HCAL, muons leave extra tracks in the MS, and neutrinos are inferred by the conservation of momentum in the transverse plane. 
 Figure~\ref{fig:obj_reco_overview} gives an overview of the different sub-detectors that each type of particle will interact with in ATLAS. Quark reconstruction and identification is particularly important for this thesis, with di-Higgs decaying to \bbbb.
 
-\begin{figure}[h!]
+\begin{figure}[htbp!]
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=0.6\textwidth]{figures/detector/ATLAS_particle}
@@ -92,7 +92,7 @@ where $p_{T}^{calo}$ is the transverse momentum of the large-R calorimeter jet, 
 %Ghost association is performed to associate tracks to the jets before the trimming procedure is applied.
 %The fractional resolution is defined 0.5 \times 68 \% IQnR(Rm)∕median(Rm), where 68 \% IQnR(Rm) is the 68 \% confidence interval interquartile range of the jet mass response distribution, and median(Rm) is the median jet mass response.
 
-\begin{figure}[h!]
+\begin{figure}[htbp!]
   \centering
   \captionsetup{justification=centering}
 	\hspace{-2cm}
@@ -163,7 +163,7 @@ ATLAS uses three different basic $b$-tagging algorithms, which provide complemen
 	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF): it reconstructs the full flight path of the $b$ by looking for multiple displaced vertices along the same direction. A Kalman filter is used to find common line for the $b$ and $c$ vertices, and hence the algorithm exploits the topology of the weak $b$/$c$-hadron decay chain.
 \end{itemize}
  
-\begin{figure}[h!]
+\begin{figure}[htbp!]
 \centering
 \captionsetup{justification=centering}
     \begin{subfigure}[b]{0.4\textwidth}
@@ -189,7 +189,7 @@ Jets containing $b$-hadrons are identified using a score value computed from a b
 \paragraph{}
 The $b$-tagging working point (wp) is a fixed cut on the \emph{MV2c10} value that lead to an efficiency of 70\% for $b$-jets with $p_T > 20$ \GeV~ when evaluated in a sample of simulated \ttbar~ events. This working point corresponds to a rejection rate of jets originating from $u$, $d$ or $s$-quarks or gluons of $380$ for the jets with $R=0.4$ and $120$ for the track jets. The rejection of jets from $c$-quarks is $12$ for the $R=0.4$ jets and $7.1$ for the track jets.
 
-\begin{figure}[h!]
+\begin{figure}[htbp!]
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=0.5\textwidth]{figures/object/b_eff_pt}
@@ -202,7 +202,7 @@ In this thesis, the track-jets have a wider \pt~ range, between $50-400$~\GeV, a
 The increase of tracks from fragmentation in the high jet \pt~ region is the main reason for the performance degradation. 
 As the jet \pt~ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction efficiency for $b$ and $c$ jets decreases with jet \pt. This is shown in Figure ~\ref{fig:obj_btag_rej}. This non-trivial jet \pt~ dependence of $b$-tagging performance is one of the major challenge of this analysis.
 
-\begin{figure}[h!]
+\begin{figure}[htbp!]
 \centering
 \captionsetup{justification=centering}
     \begin{subfigure}[b]{0.4\textwidth}

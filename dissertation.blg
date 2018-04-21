@@ -6,70 +6,74 @@ A level-1 auxiliary file: chapters/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3.aux
 A level-1 auxiliary file: chapters/chapter4.aux
+A level-1 auxiliary file: chapters/chapter5.aux
+A level-1 auxiliary file: chapters/chapter6.aux
+A level-1 auxiliary file: chapters/chapter7.aux
+A level-1 auxiliary file: chapters/chapter8.aux
 A level-1 auxiliary file: chapters/conclusion.aux
+A level-1 auxiliary file: chapters/appendixSB.aux
+A level-1 auxiliary file: chapters/appendixCR.aux
+A level-1 auxiliary file: chapters/appendixSR.aux
+A level-1 auxiliary file: chapters/appendixMuqcd.aux
+A level-1 auxiliary file: chapters/appendixRW.aux
+A level-1 auxiliary file: chapters/appendixSysVar.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "Aad:2012tfa"
-Warning--I didn't find a database entry for "Chatrchyan201230"
-Warning--I didn't find a database entry for "CMS-B2G-16-026"
-Warning--I didn't find a database entry for "CMS-HIG-14-013"
-Warning--I didn't find a database entry for "HIGG-2013-33"
-Warning--I didn't find a database entry for "CMS-HIG-17-002"
-Warning--I didn't find a database entry for "CMSHIG17006"
-Warning--I didn't find a database entry for "Khachatryan:2016sey"
-Warning--I didn't find a database entry for "Khachatryan:2014jya"
 Warning--I didn't find a database entry for "EvtGen"
+Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
+Warning--I didn't find a database entry for "ATL-COM-PHYS-2015-009"
+Warning--I didn't find a database entry for "ATL-COM-PHYS-2015-1323"
 Warning--I didn't find a database entry for "Aaboud:2016xco"
-Warning--empty note in LumiRatio
-Warning--empty note in Lumi_Run2
-Warning--there's a number but no volume in btaggingRun2
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
+Warning--empty note in LumiRatio
+Warning--empty note in Lumi_Run2
+Warning--there's a number but no volume in btaggingRun2
 Warning--empty author in ATLAS-CONF-2016-024
 Warning--empty author in ATLAS-CONF-2017-029
 Warning--empty journal in MC12AU2
 Warning--empty journal in carvalho
 Warning--empty journal in Hawking:2018tcn
-You've used 71 entries,
+You've used 77 entries,
             2481 wiz_defined-function locations,
-            1047 strings with 16553 characters,
-and the built_in function-call counts, 24158 in all, are:
-= -- 2153
-> -- 971
-< -- 59
-+ -- 434
-- -- 278
-* -- 1752
-:= -- 3979
-add.period$ -- 281
-call.type$ -- 71
-change.case$ -- 139
-chr.to.int$ -- 57
-cite$ -- 84
-duplicate$ -- 1292
-empty$ -- 2283
-format.name$ -- 376
-if$ -- 5117
-int.to.chr$ -- 15
-int.to.str$ -- 72
-missing$ -- 63
-newline$ -- 431
-num.names$ -- 207
-pop$ -- 455
+            1079 strings with 17482 characters,
+and the built_in function-call counts, 26105 in all, are:
+= -- 2326
+> -- 1033
+< -- 64
++ -- 467
+- -- 296
+* -- 1890
+:= -- 4296
+add.period$ -- 304
+call.type$ -- 77
+change.case$ -- 151
+chr.to.int$ -- 60
+cite$ -- 90
+duplicate$ -- 1405
+empty$ -- 2481
+format.name$ -- 400
+if$ -- 5531
+int.to.chr$ -- 18
+int.to.str$ -- 78
+missing$ -- 69
+newline$ -- 466
+num.names$ -- 225
+pop$ -- 492
 preamble$ -- 1
-purify$ -- 71
+purify$ -- 77
 quote$ -- 0
-skip$ -- 726
+skip$ -- 789
 stack$ -- 0
-substring$ -- 889
-swap$ -- 163
+substring$ -- 955
+swap$ -- 178
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 488
+type$ -- 530
 warning$ -- 11
-while$ -- 191
+while$ -- 208
 width$ -- 0
-write$ -- 1046
-(There were 22 warnings)
+write$ -- 1134
+(There were 16 warnings)
