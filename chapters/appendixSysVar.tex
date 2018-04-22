@@ -4,295 +4,375 @@
 
 \paragraph{}
 This Appendix is the supporting material for section~\ref{sec:non-closure-mu-qcd}. 
-Although we have derived our non-closure uncertainty on $\mu_{QCD}$ from comparison between data and prediction in the control region, we need to test how this number is sensitive to our choice of control region (CR) and sideband region (SB). In addition, we also want to check how our background prediction in signal region is sensitive to the choice of control region and sideband region. All these tests are done on the control/sideband regions after the full reweighting procedure as described in \ref{sec:boosted-reweight}, while applying the nominal reweighting values.
+The effect on signal region yield from different control region and sideband region is tested. 
+All these tests are done on the control/sideband regions after the full reweighting procedure as described in \ref{sec:boosted-reweight}, while applying the nominal reweighting values.
 
 \paragraph{}
-Besides the nominal control region as described above, we design three additional control regions, as illustrated in Figure \ref{CRSB:CR_High}, \ref{CRSB:CR_Low}, \ref{CRSB:CR_Small}, \ref{CRSB:SB_High}, \ref{CRSB:SB_Low}, \ref{CRSB:SB_Large}, \ref{CRSB:SB_Small}:
+Besides the nominal control region and sideband region definitions, seven additional variations, as illustrated in Figure \ref{CRSB:CR_High}, \ref{CRSB:CR_Low}, \ref{CRSB:CR_Small}, \ref{CRSB:SB_High}, \ref{CRSB:SB_Low}, \ref{CRSB:SB_Large}, \ref{CRSB:SB_Small}, are tested. 
+They are:
 \begin{itemize}
-	\item Low-mass CR: the center position of the circle that defines nominal CR is moved down by 3 GeV, in both leading and sub-leading large-jet mass.
-	\item High-mass CR: the center position of the circle that defines nominal CR is moved up by 3 GeV, in both leading and sub-leading large-R jet mass.
-	\item Signal-depletion (Small) CR: the $X_{hh}$ cut that defines signal region is increased to $2.0$ from $1.6$. This variation only affect CR, while SR remains unchanged (i.e. signal region is still defined by $X_{hh}<1.6$, while CR is defined as $X_{hh}>2.0$ and $R_{hh}<33$).
-	\item High-mass SB: The signal region and control region remain unchanged, the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
-	\item Low-mass SB: The signal region and control region remain unchanged, the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
-	\item Large SB: The signal region and control region remain unchanged, while the SB is $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 61$. $\mu_{QCD}$ will change.
-	\item Small SB: The signal region and control region remain unchanged, while the SB is $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 55$. $\mu_{QCD}$ will change.
+	\item Low-mass control region: the center position of the circle that defines nominal CR is moved down by 3 GeV, in both leading and sub-leading large-jet mass.
+	\item High-mass control region: the center position of the circle that defines nominal CR is moved up by 3 GeV, in both leading and sub-leading large-R jet mass.
+	\item Signal-depletion (Small) control region: the $X_{hh}$ cut that defines signal region is increased to $2.0$ from $1.6$. This variation only affect CR, while SR remains unchanged (i.e. signal region is still defined by $X_{hh}<1.6$, while CR is defined as $X_{hh}>2.0$ and $R_{hh}<33$).
+	\item High-mass sideband region: The signal region and control region remain unchanged, the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
+	\item Low-mass sideband region: The signal region and control region remain unchanged, the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
+	\item Large sideband region: The signal region and control region remain unchanged, while the SB is $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 61$. $\mu_{QCD}$ will change.
+	\item Small sideband region: The signal region and control region remain unchanged, while the SB is $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 55$. $\mu_{QCD}$ will change.
 \end{itemize}
 
 \paragraph{}
-The high mass and low mass CR is designed to test how background modeling is sensitive to the exact position of CR. The signal-depletion CR is designed to test whether there is significant signal contamination in the CR. The agreement between data and prediction in the CR would be significantly different from the number calculated with nominal CR, if there is a large amount of signal contamination in CR. The sideband variations are designed to test how sensitive the normalization fit is to the sideband definition.
+The high mass and low mass CR tests how background modeling is sensitive to the exact position of CR. 
+The signal-depletion CR is designed to test whether there is significant signal contamination in the CR. 
+The agreement between data and prediction in the CR would be significantly different from the number calculated with nominal CR, if there is a large amount of signal contamination in CR. 
+The sideband variations are designed to test how sensitive the normalization fit is to the sideband definition.
+
+\paragraph{}
+The agreement between data and prediction in CR are summarized in Table \ref{CRSB:Tab_4b_CR_Variations}, \ref{CRSB:Tab_3b_CR_Variations} and \ref{CRSB:Tab_2bs_CR_Variations}.
+For most CR variations, the discrepancy between data and prediction is smaller than statistical uncertainty of data. 
+The only exception is $2bs$ high CR variation, where the prediction is $\sim 1.5 \sigma$ away from the data.
+The variation in signal-depletion CR definition is not significantly deviated from the number derived from nominal CR definition, and the discrepancy is also within the statistical uncertainty of data as well.
+This shows no significant signal contamination in CR is found.
 
 \begin{figure}[htbp!]
-\begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf}\\
-\end{center}
-\caption{Illustration (using $1b$ Data) of the variation of Sideband regions (left) and Control regions (right) under consideration, for High-mass CR.}
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Low_Sideband_OneTag_mH0H1.pdf}
+        \caption{Sideband region}
+        \label{CRSB:CR_Low_SB}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Low_Control_OneTag_mH0H1.pdf}
+        \caption{Control region}
+        \label{CRSB:CR_Low_CR}
+    \end{subfigure}
+\caption{In $1b$ data, with low-mass CR variation, new SB and CR \mleadJ-\msublJ distribution.}
+\label{CRSB:CR_Low}
+\end{figure}
+
+
+\begin{figure}[htbp!]
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf}
+        \caption{Sideband region}
+        \label{CRSB:CR_High_SB}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf}
+        \caption{Control region}
+        \label{CRSB:CR_High_CR}
+    \end{subfigure}
+\caption{In $1b$ data, with high-mass CR variation, new SB and CR \mleadJ-\msublJ distribution.}
 \label{CRSB:CR_High}
 \end{figure}
 
 \begin{figure}[htbp!]
-\begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Low_Sideband_OneTag_mH0H1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Low_Control_OneTag_mH0H1.pdf}\\
-\end{center}
-\caption{Illustration (using $1b$ Data) of the variation of Sideband regions (left) and Control regions (right) under consideration, for Low-mass CR.}
-\label{CRSB:CR_Low}
-\end{figure}
-
-\begin{figure}[htbp!]
-\begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Small_Sideband_OneTag_mH0H1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Small_Control_OneTag_mH0H1.pdf}\\
-\end{center}
-\caption{Illustration (using $1b$ Data) of the variation of Sideband regions (left) and Control regions (right) under consideration, for Signal-depletion (Small) CR.}
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Small_Sideband_OneTag_mH0H1.pdf}
+        \caption{Sideband region}
+        \label{CRSB:CR_Small_SB}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Small_Control_OneTag_mH0H1.pdf}
+        \caption{Control region}
+        \label{CRSB:CR_Small_CR}
+    \end{subfigure}
+\caption{In $1b$ data, with signal-depletion (small) CR variation, new SB and CR \mleadJ-\msublJ distribution.}
 \label{CRSB:CR_Small}
 \end{figure}
 
 \begin{figure}[htbp!]
-\begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf}\\
-\end{center}
-\caption{Illustration (using $1b$ Data) of the variation of Sideband regions (left) and Control regions (right) under consideration, for High-mass SB.}
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_Sideband_OneTag_mH0H1.pdf}
+        \caption{Sideband region}
+        \label{CRSB:SB_Low_SB}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_Control_OneTag_mH0H1.pdf}
+        \caption{Control region}
+        \label{CRSB:SB_Low_CR}
+    \end{subfigure}
+\caption{In $1b$ data, with low-mass SB variation, new SB and CR \mleadJ-\msublJ distribution.}
+\label{CRSB:SB_Low}
+\end{figure}
+
+
+\begin{figure}[htbp!]
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf}
+        \caption{Sideband region}
+        \label{CRSB:SB_High_SB}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf}
+        \caption{Control region}
+        \label{CRSB:SB_High_CR}
+    \end{subfigure}
+\caption{In $1b$ data, with high-mass SB variation, new SB and CR \mleadJ-\msublJ distribution.}
 \label{CRSB:SB_High}
 \end{figure}
 
 \begin{figure}[htbp!]
-\begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_Sideband_OneTag_mH0H1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_Control_OneTag_mH0H1.pdf}\\
-\end{center}
-\caption{Illustration (using $1b$ Data) of the variation of Sideband regions (left) and Control regions (right) under consideration, for Low-mass SB.}
-\label{CRSB:SB_Low}
-\end{figure}
-
-\begin{figure}[htbp!]
-\begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf}\\
-\end{center}
-\caption{Illustration (using $1b$ Data) of the variation of Sideband regions (left) and Control regions (right) under consideration, for Large SB.}
-\label{CRSB:SB_Large}
-\end{figure}
-
-\begin{figure}[htbp!]
-\begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_Sideband_OneTag_mH0H1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_Control_OneTag_mH0H1.pdf}\\
-\end{center}
-\caption{Illustration (using $1b$ Data) of the variation of Sideband regions (left) and Control regions (right) under consideration, for Small SB.}
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_Sideband_OneTag_mH0H1.pdf}
+        \caption{Sideband region}
+        \label{CRSB:SB_Small_SB}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_Control_OneTag_mH0H1.pdf}
+        \caption{Control region}
+        \label{CRSB:SB_Small_CR}
+    \end{subfigure}
+\caption{In $1b$ data, with small SB variation, new SB and CR \mleadJ-\msublJ distribution.}
 \label{CRSB:SB_Small}
 \end{figure}
 
+\begin{figure}[htbp!]
+\centering
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf}
+        \caption{Sideband region}
+        \label{CRSB:SB_Large_SB}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf}
+        \caption{Control region}
+        \label{CRSB:SB_Large_CR}
+    \end{subfigure}
+\caption{In $1b$ data, with large SB variation, new SB and CR \mleadJ-\msublJ distribution.}
+\label{CRSB:SB_Large}
+\end{figure}
+
+
 \clearpage
-%%\paragraph{}
+\paragraph{}
 The whole background estimation procedure is repeated after the variation. The summary of background estimated yields for 4b region can be found in Table \ref{CRSB:Tab_4b_CR_High}, \ref{CRSB:Tab_4b_CR_Low}, \ref{CRSB:Tab_4b_CR_Small}, \ref{CRSB:Tab_4b_SB_High}, \ref{CRSB:Tab_4b_SB_Low}, \ref{CRSB:Tab_4b_SB_Large},  \ref{CRSB:Tab_4b_SB_Small}, for each variation. 
+
 \begin{table}[htbp!]
 \begin{center}
+\caption{Background prediction in SR/CR/SB for High CR in $4b$ region.}
 \input{figures/boosted/tables/CR_High_FourTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for High CR in 4b tag region.}
 \label{CRSB:Tab_4b_CR_High}
 \end{table}
 
 \begin{table}[htbp!]
 \begin{center}
+\caption{Background prediction in SR/CR/SB for Low CR in $4b$ region.}
 \input{figures/boosted/tables/CR_Low_FourTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Low CR in 4b tag region.}
 \label{CRSB:Tab_4b_CR_Low}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Small CR in $4b$ region.}
 \begin{center}
 \input{figures/boosted/tables/CR_Small_FourTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Small CR in 4b tag region.}
 \label{CRSB:Tab_4b_CR_Small}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for High SB in $4b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_High_FourTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for High SB in 4b tag region.}
 \label{CRSB:Tab_4b_SB_High}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Low SB in $4b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Low_FourTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Low SB in 4b tag region.}
 \label{CRSB:Tab_4b_SB_Low}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Large SB in $4b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Large_FourTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Large SB in 4b tag region.}
 \label{CRSB:Tab_4b_SB_Large}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Small SB in $4b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Small_FourTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Small SB in 4b tag region.}
 \label{CRSB:Tab_4b_SB_Small}
 \end{table}
 \clearpage
 
-%%\paragraph{}
+\paragraph{}
 The summary of background estimated yields for 3b region can be found in Table \ref{CRSB:Tab_3b_CR_High}, \ref{CRSB:Tab_3b_CR_Low}, \ref{CRSB:Tab_3b_CR_Small}, \ref{CRSB:Tab_3b_SB_High}, \ref{CRSB:Tab_3b_SB_Low}, \ref{CRSB:Tab_3b_SB_Large},  \ref{CRSB:Tab_3b_SB_Small}, for each variation.
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for High CR in $3b$ region.}
 \begin{center}
 \input{figures/boosted/tables/CR_High_ThreeTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for High CR in 3b tag region.}
 \label{CRSB:Tab_3b_CR_High}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Low CR in $3b$ region.}
 \begin{center}
 \input{figures/boosted/tables/CR_Low_ThreeTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Low CR in 3b tag region.}
 \label{CRSB:Tab_3b_CR_Low}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Small CR in $3b$ region.}
 \begin{center}
 \input{figures/boosted/tables/CR_Small_ThreeTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Small CR in 3b tag region.}
 \label{CRSB:Tab_3b_CR_Small}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for High SB in $3b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_High_ThreeTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for High SB in 3b tag region.}
 \label{CRSB:Tab_3b_SB_High}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Low SB in $3b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Low_ThreeTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Low SB in 3b tag region.}
 \label{CRSB:Tab_3b_SB_Low}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Large SB in $3b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Large_ThreeTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Large SB in 3b tag region.}
 \label{CRSB:Tab_3b_SB_Large}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Small SB in $3b$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Small_ThreeTag_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Small SB in 3b tag region.}
 \label{CRSB:Tab_3b_SB_Small}
 \end{table}
 \clearpage
 
-%%\paragraph{}
-The summary of background estimated yields for 2bs region can be found in Table \ref{CRSB:Tab_2bs_CR_High}, \ref{CRSB:Tab_2bs_CR_Low}, \ref{CRSB:Tab_2bs_CR_Small}, \ref{CRSB:Tab_2bs_SB_High}, \ref{CRSB:Tab_2bs_SB_Low}, \ref{CRSB:Tab_2bs_SB_Large},  \ref{CRSB:Tab_2bs_SB_Small}, for each variation.
+\paragraph{}
+The summary of background estimated yields for $2bs$ region can be found in Table \ref{CRSB:Tab_2bs_CR_High}, \ref{CRSB:Tab_2bs_CR_Low}, \ref{CRSB:Tab_2bs_CR_Small}, \ref{CRSB:Tab_2bs_SB_High}, \ref{CRSB:Tab_2bs_SB_Low}, \ref{CRSB:Tab_2bs_SB_Large},  \ref{CRSB:Tab_2bs_SB_Small}, for each variation.
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for High CR in $2bs$ region.}
 \begin{center}
 \input{figures/boosted/tables/CR_High_TwoTag_split_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for High CR in 2bs tag region.}
 \label{CRSB:Tab_2bs_CR_High}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Low CR in $2bs$ region.}
 \begin{center}
 \input{figures/boosted/tables/CR_Low_TwoTag_split_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Low CR in 2bs tag region.}
 \label{CRSB:Tab_2bs_CR_Low}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Small CR in $2bs$ region.}
 \begin{center}
 \input{figures/boosted/tables/CR_Small_TwoTag_split_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Small CR in 2bs tag region.}
 \label{CRSB:Tab_2bs_CR_Small}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for High SB in $2bs$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_High_TwoTag_split_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for High SB in 2bs tag region.}
 \label{CRSB:Tab_2bs_SB_High}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Low SB in $2bs$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Low_TwoTag_split_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Low SB in 2bs tag region.}
 \label{CRSB:Tab_2bs_SB_Low}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Large SB in $2bs$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Large_TwoTag_split_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Large SB in 2bs tag region.}
 \label{CRSB:Tab_2bs_SB_Large}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Background prediction in SR/CR/SB for Large SB in $2bs$ region.}
 \begin{center}
 \input{figures/boosted/tables/SB_Small_TwoTag_split_yield.tex}
 \end{center}
-\caption{Background prediction in SR/CR/SB for Large SB in 2bs tag region.}
 \label{CRSB:Tab_2bs_SB_Small}
 \end{table}
 \clearpage
 
-%%\paragraph{}
+\paragraph{}
 The variation of prediction in SR can be found in Table \ref{CRSB:Tab_4b_SR_Variations}, \ref{CRSB:Tab_3b_SR_Variations} and \ref{CRSB:Tab_2bs_SR_Variations}. The variation in signal-depletion variation is not shown since that will be zero by definition. The variation of background prediction in SR is very small and within statistical uncertainty. This is mainly due to the data-driven background estimation technique we are using.
 
 \begin{table}[htbp!]
+\caption{Varaition in Prediction in $4b$ SR region.}
 \begin{center}
 \input{figures/boosted/tables/FourTag_SR_Varations.tex}
 \end{center}
-\caption{Varaition in Prediction in 4b SR region.}
 \label{CRSB:Tab_4b_SR_Variations}
 \end{table}
 
 \begin{table}[htbp!]
+\caption{Varaition in Prediction in $3b$ SR region.}
 \begin{center}
 \input{figures/boosted/tables/ThreeTag_SR_Varations.tex}
 \end{center}
-\caption{Varaition in Prediction in 3b SR region.}
 \label{CRSB:Tab_3b_SR_Variations}
 \end{table}
+
 \begin{table}[htbp!]
+\caption{Varaition in Prediction in $2bs$ SR region.}
 \begin{center}
 \input{figures/boosted/tables/TwoTag_split_SR_Varations.tex}
 \end{center}
-\caption{Varaition in Prediction in 2bs SR region.}
 \label{CRSB:Tab_2bs_SR_Variations}
 \end{table}
 
-\clearpage
-%%\paragraph{}
-Besides the normalization, the variation of QCD shape in SR is also tested, as shown in Figure \ref{CRSB:QCDShapeSR-CR} and Figure \ref{CRSB:QCDShapeSR-SB}. There are very small variations in terms of QCD shape, and such variation is within QCD shape uncertainty derived from nominal CR. 
+\paragraph{}
+Besides the normalization, the variation of QCD shape in SR is also tested, as shown in Figure \ref{CRSB:QCDShapeSR-CR} and Figure \ref{CRSB:QCDShapeSR-SB}. 
+There are very small variations in terms of QCD shape, and such variation is within QCD shape uncertainty derived from nominal CR. 
 
 \begin{figure}[htbp!]
 \begin{center}
@@ -306,34 +386,25 @@ Besides the normalization, the variation of QCD shape in SR is also tested, as s
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Small_compare_ThreeTag_qcd_hh.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/CR_Small_compare_TwoTag_split_qcd_hh.pdf}
 \end{center}
-\caption{Comparisons of the nominal QCD shape prediction (black) with the results of Control and Sideband Region definition variations (red). The ratio of the shape from each variation to the nominal shape is shown in the lower panel. The left column shows the relevant distributions for the 4 $b$-tag Signal Region, the middle column is for the $3b$ Signal Region, and the left column is for the $2bs$ Signal Region. The top row is for High CR variation, the middle row is for the Low CR variation, and the bottom row is for the Small CR variation.}
+\caption{Comparisons of the nominal QCD shape prediction (black) with the results of control and sideband region variations (red). The ratio of the shape from each variation to the nominal shape is shown in the lower panel. The left column shows the relevant distributions for the $4b$ signal region, the middle column is for the $3b$ signal region, and the left column is for the $2bs$ signal region. The top row is for high CR variation, the middle row is for the low CR variation, and the bottom row is for the small CR variation.}
 \label{CRSB:QCDShapeSR-CR}
 \end{figure}
 
 \begin{figure}[htbp!]
 \begin{center}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_compare_FourTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_compare_ThreeTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_compare_TwoTag_split_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_compare_FourTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_compare_ThreeTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_compare_TwoTag_split_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_compare_FourTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_compare_ThreeTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_compare_TwoTag_split_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_compare_FourTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_compare_ThreeTag_qcd_hh.pdf}
-\includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_compare_TwoTag_split_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_compare_FourTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_compare_ThreeTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_High_compare_TwoTag_split_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_compare_FourTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_compare_ThreeTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Low_compare_TwoTag_split_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_compare_FourTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_compare_ThreeTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Small_compare_TwoTag_split_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_compare_FourTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_compare_ThreeTag_qcd_hh.pdf}
+\includegraphics[width=0.25\textwidth,angle=-90]{figures/boosted/Syst_CRSB/SB_Large_compare_TwoTag_split_qcd_hh.pdf}
 \end{center}
-\caption{Comparisons of the nominal QCD shape prediction (black) with the results of Control and Sideband Region definition variations (red). The ratio of the shape from each variation to the nominal shape is shown in the lower panel. The left column shows the relevant distributions for the 4 $b$-tag Signal Region, the middle column is for the $3b$ Signal Region, and the left column is for the $2bs$ Signal Region. The top row is for High SB variation, the second row is for the Low SB variation, the third row is for the Small SB variation and the large raw is for Large SB variation.}
+\caption{Comparisons of the nominal QCD shape prediction (black) with the results of control and sideband region variations (red). The ratio of the shape from each variation to the nominal shape is shown in the lower panel. The left column shows the relevant distributions for the $4b$ signal region, the middle column is for the $3b$ signal region, and the left column is for the $2bs$ signal region. The top row is for high SB variation, the second row is for the low SB variation, the third row is for the small SB variation and the large raw is for the large SB variation.}
 \label{CRSB:QCDShapeSR-SB}
 \end{figure}
-
-\paragraph{}
-Next, we test how the agreement between data and prediction in CR is sensitive to the choice of CR and SB, in order to test if it is necessary to increase our non-closure uncertainty on $\mu_{QCD}$. The results are summarized in Table \ref{CRSB:Tab_4b_CR_Variations}, \ref{CRSB:Tab_3b_CR_Variations} and \ref{CRSB:Tab_2bs_CR_Variations}. One can see that for most CR variations, the disagreement between data and prediction is well covered by statistical uncertainty of data. The only exceptions are 2 $b$-tag high CR variation, where the prediction is $\sim 1.5 \sigma$ away from the data. 
-
-\paragraph{}
-The variation in signal-depletion CR definition is not significantly deviated from the number derived from nominal CR definition, and the discrepancy is also within the statistical uncertainty of data as well. This shows no significant signal contamination in CR is found.
-
-
-\clearpage

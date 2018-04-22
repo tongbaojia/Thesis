@@ -18,21 +18,21 @@
 \contentsline {subsection}{\numberline {1.3.1}BSM non-resonant di-Higgs}{8}{subsection.1.3.1}
 \contentsline {paragraph}{}{8}{subsection.1.3.1}
 \contentsline {paragraph}{}{9}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}BSM resonant di-Higgs}{10}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}BSM resonant di-Higgs}{9}{subsection.1.3.2}
+\contentsline {paragraph}{}{9}{subsection.1.3.2}
+\contentsline {paragraph}{}{9}{subsection.1.3.2}
 \contentsline {paragraph}{}{10}{subsection.1.3.2}
-\contentsline {paragraph}{}{10}{subsection.1.3.2}
-\contentsline {paragraph}{}{10}{subsection.1.3.2}
-\contentsline {paragraph}{}{10}{subsection.1.3.2}
-\contentsline {paragraph}{}{11}{figure.caption.12}
+\contentsline {paragraph}{}{11}{subsection.1.3.2}
+\contentsline {paragraph}{}{12}{figure.caption.12}
 \contentsline {paragraph}{}{12}{figure.caption.12}
 \contentsline {section}{\numberline {1.4}Di-Higgs decay and LHC previous search results}{12}{section.1.4}
 \contentsline {paragraph}{}{12}{section.1.4}
-\contentsline {paragraph}{}{14}{figure.caption.14}
+\contentsline {paragraph}{}{12}{figure.caption.14}
 \contentsline {section}{\numberline {1.5}Resolved and Boosted}{14}{section.1.5}
+\contentsline {paragraph}{}{14}{figure.caption.15}
 \contentsline {paragraph}{}{14}{figure.caption.15}
 \contentsline {paragraph}{}{15}{figure.caption.15}
 \contentsline {paragraph}{}{15}{figure.caption.15}
-\contentsline {paragraph}{}{16}{figure.caption.15}
 \contentsline {chapter}{\numberline {2}LHC and ATLAS}{17}{chapter.2}
 \contentsline {paragraph}{}{17}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{19}{section.2.1}
@@ -271,17 +271,21 @@
 \contentsline {paragraph}{}{144}{Appendix.1.C}
 \contentsline {paragraph}{}{145}{Appendix.1.C}
 \contentsline {paragraph}{}{145}{table.caption.126}
-\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}Validation}{159}{Appendix.1.D}
+\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{159}{Appendix.1.D}
 \contentsline {paragraph}{}{159}{Appendix.1.D}
-\contentsline {paragraph}{}{160}{figure.caption.143}
-\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{165}{Appendix.1.E}
-\contentsline {paragraph}{}{165}{Appendix.1.E}
+\contentsline {paragraph}{}{162}{figure.caption.143}
+\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{166}{Appendix.1.E}
 \contentsline {paragraph}{}{166}{Appendix.1.E}
-\contentsline {paragraph}{}{166}{figure.caption.154}
-\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{179}{Appendix.1.F}
-\contentsline {paragraph}{}{179}{Appendix.1.F}
+\contentsline {paragraph}{}{167}{Appendix.1.E}
+\contentsline {paragraph}{}{167}{figure.caption.154}
+\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{180}{Appendix.1.F}
 \contentsline {paragraph}{}{180}{Appendix.1.F}
 \contentsline {paragraph}{}{181}{Appendix.1.F}
-\contentsline {paragraph}{}{197}{figure.caption.193}
-\contentsline {paragraph}{}{197}{figure.caption.193}
-\contentsline {chapter}{References}{199}{figure.caption.193}
+\contentsline {paragraph}{}{181}{Appendix.1.F}
+\contentsline {paragraph}{}{182}{Appendix.1.F}
+\contentsline {paragraph}{}{186}{figure.caption.167}
+\contentsline {paragraph}{}{190}{table.caption.174}
+\contentsline {paragraph}{}{194}{table.caption.181}
+\contentsline {paragraph}{}{198}{table.caption.188}
+\contentsline {paragraph}{}{198}{table.caption.191}
+\contentsline {chapter}{References}{202}{figure.caption.193}

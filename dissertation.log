@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  20 APR 2018 21:51
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  22 APR 2018 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2106,9 +2106,9 @@ Overfull \hbox (10.5338pt too wide) in paragraph at lines 71--71
  []
 
 
-Overfull \hbox (13.47931pt too wide) in paragraph at lines 72--72
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Post-fit distributions after fitting 
-the data with the 2000 GeV signal hypothesis. The sig- 
+Overfull \hbox (30.07819pt too wide) in paragraph at lines 72--72
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Post-fit signal region scaled $[][]$ 
+ distributions after fitting the data with the $[]$ TeV  $[][]$  with 
  []
 
 
@@ -2562,141 +2562,63 @@ Overfull \hbox (7.04437pt too wide) in paragraph at lines 116--116
  []
 
 
-Overfull \hbox (9.07027pt too wide) in paragraph at lines 118--118
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over 0$[]$ $[][]$  values: $[]
-[]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+Overfull \hbox (1.53322pt too wide) in paragraph at lines 118--118
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (6.02226pt too wide) in paragraph at lines 118--118
- \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
-ighted mean value and the Gaussian 
+Overfull \hbox (0.60246pt too wide) in paragraph at lines 119--119
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (8.13951pt too wide) in paragraph at lines 119--119
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: $[
-][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+Overfull \hbox (3.62466pt too wide) in paragraph at lines 120--120
+ [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values e
+valuted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (6.02226pt too wide) in paragraph at lines 119--119
- \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
-ighted mean value and the Gaussian 
+Overfull \hbox (1.5113pt too wide) in paragraph at lines 121--121
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (11.16171pt too wide) in paragraph at lines 120--120
- [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: 
-$[][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+Overfull \hbox (2.82532pt too wide) in paragraph at lines 122--122
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (6.02226pt too wide) in paragraph at lines 120--120
- \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
-ighted mean value and the Gaussian 
+Overfull \hbox (21.11182pt too wide) in paragraph at lines 123--123
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (9.04836pt too wide) in paragraph at lines 121--121
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: $[
-][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+Overfull \hbox (20.18106pt too wide) in paragraph at lines 124--124
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (6.02226pt too wide) in paragraph at lines 121--121
- \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
-ighted mean value and the Gaussian 
+Overfull \hbox (23.20326pt too wide) in paragraph at lines 125--125
+ [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values e
+valuted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (10.36237pt too wide) in paragraph at lines 122--122
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values: $[
-][]$variations on 2D $[][]$-msublJ plane(left); and $[][]$pull dis- 
+Overfull \hbox (21.0899pt too wide) in paragraph at lines 126--126
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (6.02226pt too wide) in paragraph at lines 122--122
- \EU1/EBGaramond(2)/bx/n/10.95 tribution in SB/CR/SR(right), with the $[][]$ we
-ighted mean value and the Gaussian 
- []
-
-
-Overfull \hbox (4.56212pt too wide) in paragraph at lines 123--123
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over 0$[]$ $[][]$  values in d
-ijet MC: $[][]$variations on 2D $[][]$-msublJ plane(left); and 
- []
-
-
-Overfull \hbox (14.53084pt too wide) in paragraph at lines 123--123
- [][]$\EU1/EBGaramond(2)/bx/n/10.95 pull distribution in SB/CR/SR(right), with 
-the $[][]$ weighted mean value and the 
- []
-
-
-Overfull \hbox (3.63136pt too wide) in paragraph at lines 124--124
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values in 
-dijet MC: $[][]$variations on 2D $[][]$-msublJ plane(left); and 
- []
-
-
-Overfull \hbox (14.53084pt too wide) in paragraph at lines 124--124
- [][]$\EU1/EBGaramond(2)/bx/n/10.95 pull distribution in SB/CR/SR(right), with 
-the $[][]$ weighted mean value and the 
- []
-
-
-Overfull \hbox (6.65356pt too wide) in paragraph at lines 125--125
- [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values i
-n dijet MC: $[][]$variations on 2D $[][]$-msublJ plane(left); and 
- []
-
-
-Overfull \hbox (14.53084pt too wide) in paragraph at lines 125--125
- [][]$\EU1/EBGaramond(2)/bx/n/10.95 pull distribution in SB/CR/SR(right), with 
-the $[][]$ weighted mean value and the 
- []
-
-
-Overfull \hbox (16.46866pt too wide) in paragraph at lines 125--125
- \EU1/EBGaramond(2)/bx/n/10.95 Guassian fit mean value shown on the plot. Poor 
-Statistics of the dijet MC affect the pull 
- []
-
-
-Overfull \hbox (1.37314pt too wide) in paragraph at lines 126--126
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ data driven $[][]$
-values in dijet MC: $[][]$as a funciton of leading Higgs can- 
- []
-
-
-Overfull \hbox (31.56183pt too wide) in paragraph at lines 126--126
- \EU1/EBGaramond(2)/bx/n/10.95 didate/subleading Higgs candiate mass(left); and
- $[][]$value pull in Sideband/Control/Signal 
- []
-
-
-Overfull \hbox (0.14586pt too wide) in paragraph at lines 126--126
- \EU1/EBGaramond(2)/bx/n/10.95 regions(right), with the weighted mean value and
- the Guassian fit mean value shown 
- []
-
-[17]
-Overfull \hbox (2.68715pt too wide) in paragraph at lines 127--127
- [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ data driven $[][]$
-values in dijet MC: $[][]$as a funciton of leading Higgs can- 
- []
-
-
-Overfull \hbox (31.56183pt too wide) in paragraph at lines 127--127
- \EU1/EBGaramond(2)/bx/n/10.95 didate/subleading Higgs candiate mass(left); and
- $[][]$value pull in Sideband/Control/Signal 
- []
-
-
-Overfull \hbox (0.14586pt too wide) in paragraph at lines 127--127
- \EU1/EBGaramond(2)/bx/n/10.95 regions(right), with the weighted mean value and
- the Guassian fit mean value shown 
+Overfull \hbox (22.40392pt too wide) in paragraph at lines 127--127
+ [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
+luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
@@ -2747,7 +2669,7 @@ Overfull \hbox (0.624pt too wide) in paragraph at lines 129--129
 red line is a polynomial fit; the blue line 
  []
 
-
+[17]
 Overfull \hbox (21.01291pt too wide) in paragraph at lines 130--130
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][][]$ background estimate: the
  fits to the ratio of the data in the $[][]$ category, of the lead- 
@@ -2843,7 +2765,7 @@ Overfull \hbox (0.624pt too wide) in paragraph at lines 131--131
 red line is a polynomial fit; the blue line 
  []
 
-[18]
+
 Overfull \hbox (18.89955pt too wide) in paragraph at lines 132--132
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
 its to the ratio of the data in the $[][]$ category, of the lead- 
@@ -2891,7 +2813,7 @@ Overfull \hbox (0.624pt too wide) in paragraph at lines 132--132
 red line is a polynomial fit; the blue line 
  []
 
-
+[18]
 Overfull \hbox (18.37396pt too wide) in paragraph at lines 133--133
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
 its to the ratio of the data in the $[][]$ category, of the sub- 
@@ -2987,7 +2909,7 @@ Overfull \hbox (0.624pt too wide) in paragraph at lines 134--134
 red line is a polynomial fit; the blue line 
  []
 
-[19]
+
 Overfull \hbox (8.8365pt too wide) in paragraph at lines 135--135
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighed $[][][]$ sideband region pr
 edictions comparison. Top row is the dijet Mass, sec- 
@@ -3023,7 +2945,7 @@ Overfull \hbox (9.27374pt too wide) in paragraph at lines 136--136
 ding trackjet $[][]$. On the left are the distribu- 
  []
 
-
+[19]
 Overfull \hbox (10.0191pt too wide) in paragraph at lines 137--137
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ sideband region pre
 dictions comaprison. Top row is the dijet Mass, sec- 
@@ -3096,124 +3018,82 @@ ding trackjet $[][]$. On the left are the distribu-
  []
 
 
-Overfull \hbox (0.90141pt too wide) in paragraph at lines 142--142
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration (using $[][]$ Data) of t
-he variation of Sideband regions (left) and Control re- 
- []
-
-[20]
-Overfull \hbox (0.90141pt too wide) in paragraph at lines 143--143
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration (using $[][]$ Data) of t
-he variation of Sideband regions (left) and Control re- 
+Overfull \hbox (29.41869pt too wide) in paragraph at lines 144--144
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 In $[][]$ data, with signal-depletion
+ (small) CR variation, new SB and CR $[][]$-$[][]$distribution.[][] []  
  []
 
 
-Overfull \hbox (0.90141pt too wide) in paragraph at lines 144--144
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration (using $[][]$ Data) of t
-he variation of Sideband regions (left) and Control re- 
- []
-
-
-Overfull \hbox (0.90141pt too wide) in paragraph at lines 145--145
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration (using $[][]$ Data) of t
-he variation of Sideband regions (left) and Control re- 
- []
-
-
-Overfull \hbox (0.90141pt too wide) in paragraph at lines 146--146
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration (using $[][]$ Data) of t
-he variation of Sideband regions (left) and Control re- 
- []
-
-
-Overfull \hbox (0.90141pt too wide) in paragraph at lines 147--147
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration (using $[][]$ Data) of t
-he variation of Sideband regions (left) and Control re- 
- []
-
-
-Overfull \hbox (0.90141pt too wide) in paragraph at lines 148--148
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration (using $[][]$ Data) of t
-he variation of Sideband regions (left) and Control re- 
- []
-
-
-Overfull \hbox (11.1944pt too wide) in paragraph at lines 149--149
+Overfull \hbox (8.31454pt too wide) in paragraph at lines 149--149
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Comparisons of the nominal QCD shape 
-prediction (black) with the results of Control 
+prediction (black) with the results of control 
  []
 
 
-Overfull \hbox (9.70155pt too wide) in paragraph at lines 149--149
- \EU1/EBGaramond(2)/bx/n/10.95 and Sideband Region definition variations (red).
- The ratio of the shape from each vari- 
+Overfull \hbox (6.0771pt too wide) in paragraph at lines 149--149
+ \EU1/EBGaramond(2)/bx/n/10.95 and sideband region variations (red). The ratio 
+of the shape from each variation to the 
  []
 
 
-Overfull \hbox (8.03716pt too wide) in paragraph at lines 149--149
- \EU1/EBGaramond(2)/bx/n/10.95 ation to the nominal shape is shown in the lower
- panel. The left column shows the rel- 
+Overfull \hbox (3.8433pt too wide) in paragraph at lines 149--149
+ \EU1/EBGaramond(2)/bx/n/10.95 nominal shape is shown in the lower panel. The l
+eft column shows the relevant distri- 
  []
 
 
-Overfull \hbox (0.45245pt too wide) in paragraph at lines 149--149
- \EU1/EBGaramond(2)/bx/n/10.95 evant distributions for the 4 $[]$-tag Signal Re
-gion, the middle column is for the $[][]$ Sig- 
+Overfull \hbox (3.8579pt too wide) in paragraph at lines 149--149
+ \EU1/EBGaramond(2)/bx/n/10.95 butions for the $[][]$ signal region, the middle
+ column is for the $[][]$ signal region, and the 
  []
 
 
-Overfull \hbox (16.60007pt too wide) in paragraph at lines 149--149
- \EU1/EBGaramond(2)/bx/n/10.95 nal Region, and the left column is for the $[][]
-[]$ Signal Region. The top row is for High CR 
+Overfull \hbox (3.6572pt too wide) in paragraph at lines 149--149
+ \EU1/EBGaramond(2)/bx/n/10.95 left column is for the $[][][]$ signal region. T
+he top row is for high CR variation, the mid- 
  []
 
 
-Overfull \hbox (24.07162pt too wide) in paragraph at lines 149--149
- \EU1/EBGaramond(2)/bx/n/10.95 variation, the middle row is for the Low CR vari
-ation, and the bottom row is for the Small 
- []
-
-
-Overfull \hbox (11.1944pt too wide) in paragraph at lines 150--150
+Overfull \hbox (8.31454pt too wide) in paragraph at lines 150--150
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Comparisons of the nominal QCD shape 
-prediction (black) with the results of Control 
+prediction (black) with the results of control 
  []
 
 
-Overfull \hbox (9.70155pt too wide) in paragraph at lines 150--150
- \EU1/EBGaramond(2)/bx/n/10.95 and Sideband Region definition variations (red).
- The ratio of the shape from each vari- 
+Overfull \hbox (6.0771pt too wide) in paragraph at lines 150--150
+ \EU1/EBGaramond(2)/bx/n/10.95 and sideband region variations (red). The ratio 
+of the shape from each variation to the 
  []
 
 
-Overfull \hbox (8.03716pt too wide) in paragraph at lines 150--150
- \EU1/EBGaramond(2)/bx/n/10.95 ation to the nominal shape is shown in the lower
- panel. The left column shows the rel- 
+Overfull \hbox (3.8433pt too wide) in paragraph at lines 150--150
+ \EU1/EBGaramond(2)/bx/n/10.95 nominal shape is shown in the lower panel. The l
+eft column shows the relevant distri- 
  []
 
 
-Overfull \hbox (0.45245pt too wide) in paragraph at lines 150--150
- \EU1/EBGaramond(2)/bx/n/10.95 evant distributions for the 4 $[]$-tag Signal Re
-gion, the middle column is for the $[][]$ Sig- 
+Overfull \hbox (3.8579pt too wide) in paragraph at lines 150--150
+ \EU1/EBGaramond(2)/bx/n/10.95 butions for the $[][]$ signal region, the middle
+ column is for the $[][]$ signal region, and the 
  []
 
 
-Overfull \hbox (13.46837pt too wide) in paragraph at lines 150--150
- \EU1/EBGaramond(2)/bx/n/10.95 nal Region, and the left column is for the $[][]
-[]$ Signal Region. The top row is for High SB 
+Overfull \hbox (9.4388pt too wide) in paragraph at lines 150--150
+ \EU1/EBGaramond(2)/bx/n/10.95 left column is for the $[][][]$ signal region. T
+he top row is for high SB variation, the second 
  []
 
 
-Overfull \hbox (5.2486pt too wide) in paragraph at lines 150--150
- \EU1/EBGaramond(2)/bx/n/10.95 variation, the second row is for the Low SB vari
-ation, the third row is for the Small SB 
+Overfull \hbox (6.3217pt too wide) in paragraph at lines 150--150
+ \EU1/EBGaramond(2)/bx/n/10.95 row is for the low SB variation, the third row i
+s for the small SB variation and the large 
  []
 
 )
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [21] (./dissertation.lot
+ [20] [21] (./dissertation.lot
 Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
 n;language=DFLT;!
 Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
@@ -3570,21 +3450,19 @@ File: figures/theory/HH_lam.png Graphic file (type QTm)
  <use  "figures/theory/HH_lam.png" > [9] [10]
 File: figures/theory/lhclumi7813_2013_v1.png Graphic file (type QTm)
 
-<use  "figures/theory/lhclumi7813_2013_v1.png" >
+<use  "figures/theory/lhclumi7813_2013_v1.png" > [11]
 Overfull \hbox (1.66702pt too wide) in paragraph at lines 226--230
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Generally, it is easy theoretically for n
 ew heavy resonance particles to interact with the SM through 
  []
 
-[11]
 File: figures/theory/HH_BR.png Graphic file (type QTm)
- <use  "figures/theory/HH_BR.png" >
+<use  "figures/theory/HH_BR.png" >
 File: figures/theory/Run1_ATLAS.pdf Graphic file (type QTm)
-
-<use  "figures/theory/Run1_ATLAS.pdf" > [12] [13]
+ <use  "figures/theory/Run1_ATLAS.pdf" >
+[12] [13]
 File: figures/theory/resolved_boosted.png Graphic file (type QTm)
-
-<use  "figures/theory/resolved_boosted.png" > [14] [15]) [16]
+ <use  "figures/theory/resolved_boosted.png" > [14] [15]) [16]
 \openout2 = `chapters/chapter2.aux'.
 
 
@@ -4514,17 +4392,26 @@ File: figures/boosted/results/postfitplot_s_2000_b2b.pdf Graphic file (type QTm
 )
 
 <use  "figures/boosted/results/postfitplot_s_2000_b2b.pdf" >
+Overfull \hbox (40.83333pt too wide) in paragraph at lines 218--219
+[][] 
+ []
+
 File: figures/boosted/results/postfitplot_s_2000_b3b.pdf Graphic file (type QTm
 )
-
 <use  "figures/boosted/results/postfitplot_s_2000_b3b.pdf" >
+Overfull \hbox (40.83333pt too wide) in paragraph at lines 224--225
+[][] 
+ []
+
 File: figures/boosted/results/postfitplot_s_2000_b4b.pdf Graphic file (type QTm
 )
-
 <use  "figures/boosted/results/postfitplot_s_2000_b4b.pdf" >
+Overfull \hbox (40.83333pt too wide) in paragraph at lines 230--231
+[][] 
+ []
+
 File: figures/boosted/results/limit_boosted_boosted_okt18_s.pdf Graphic file (t
 ype QTm)
-
 <use  "figures/boosted/results/limit_boosted_boosted_okt18_s.pdf" >
 File: figures/boosted/results/limit_boosted_boosted_okt18_g10.pdf Graphic file 
 (type QTm)
@@ -4535,11 +4422,11 @@ File: figures/boosted/results/limit_boosted_boosted_okt18_g20.pdf Graphic file
 
 <use  "figures/boosted/results/limit_boosted_boosted_okt18_g20.pdf" >
 
-LaTeX Warning: Float too large for page by 15.17877pt on input line 236.
+LaTeX Warning: Float too large for page by 15.17877pt on input line 251.
 
 [110] [111] [112]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 267.
+(Font)              scaled to size 12.0pt on input line 282.
 File: figures/boosted/results/BrazilPlot_Asymptotic_s_hh_combined_AllSyst_unbli
 nded_2017-10-04.pdf Graphic file (type QTm)
 
@@ -5314,89 +5201,153 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 File: figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1.pdf Graphic file (ty
 pe QTm)
  <use  "figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 20--21
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1_pull.pdf Graphic fil
 e (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 26--27
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1.pdf Graphic file (ty
 pe QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 39--40
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1_pull.pdf Graphic fil
 e (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 45--46
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1.pdf Graphic fi
 le (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 58--59
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1_pull.pdf Graph
 ic file (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 64--65
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1.pdf Graphic file (
 type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 77--78
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1_pull.pdf Graphic f
 ile (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 83--84
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1.pdf Graphic file (t
 ype QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 96--97
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1_pull.pdf Graphic fi
 le (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 102--103
+[][] 
+ []
+
 [160] [161]
 File: figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf Graphic file
  (type QTm)
 
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 121--122
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1_pull.pdf Graphic
  file (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 127--128
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1.pdf Graphic file
  (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 140--141
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1_pull.pdf Graphic
  file (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 146--147
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1.pdf Graphi
 c file (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 159--160
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1_pull.pdf G
 raphic file (type QTm)
 
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1_pull.pdf"
  >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 165--166
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1.pdf Graphic fi
 le (type QTm)
- <use  "figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1.pdf" >
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 178--179
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1_pull.pdf Graph
 ic file (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 184--185
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1.pdf Graphic fil
 e (type QTm)
-
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 197--198
+[][] 
+ []
+
 File: figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1_pull.pdf Graphi
 c file (type QTm)
+<use  "figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1_pull.pdf" >
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 203--204
+[][] 
+ []
 
-<use  "figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1_pull.pdf" >)
-[162] [163] [164]
+) [162] [163] [164] [165]
 \openout2 = `chapters/appendixRW.aux'.
 
  (./chapters/appendixRW.tex
 Appendix E.
-[165
+[166
 
 
 
@@ -5985,114 +5936,183 @@ File: figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf Graphic
 
 LaTeX Warning: Float too large for page by 32.80444pt on input line 231.
 
-) [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177]
-[178]
+) [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [178]
+[179]
 \openout2 = `chapters/appendixSysVar.aux'.
 
  (./chapters/appendixSysVar.tex
 Appendix F.
-[179
+
+Overfull \hbox (5.49321pt too wide) in paragraph at lines 6--9
+\EU1/EBGaramond(2)/bx/n/10.95 different control region and sideband region is t
+ested. All these tests are done on the control/sideband 
+ []
+
+
+Overfull \hbox (1.1059pt too wide) in paragraph at lines 6--9
+\EU1/EBGaramond(2)/bx/n/10.95 regions after the full reweighting procedure as d
+escribed in [][]6.6[][], while applying the nominal reweight- 
+ []
+
+[180
 
 
 
-] [180]
-File: figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf Graphic file 
-(type QTm)
-
-<use  "figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf" >
-File: figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf Graphic file (
-type QTm)
-
-<use  "figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf" >
+] [181]
 File: figures/boosted/Syst_CRSB/CR_Low_Sideband_OneTag_mH0H1.pdf Graphic file (
 type QTm)
 
 <use  "figures/boosted/Syst_CRSB/CR_Low_Sideband_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 40--41
+[][] 
+ []
+
 File: figures/boosted/Syst_CRSB/CR_Low_Control_OneTag_mH0H1.pdf Graphic file (t
 ype QTm)
-
 <use  "figures/boosted/Syst_CRSB/CR_Low_Control_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 46--47
+[][] 
+ []
+
+File: figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf Graphic file 
+(type QTm)
+<use  "figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 59--60
+[][] 
+ []
+
+File: figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf Graphic file (
+type QTm)
+<use  "figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 65--66
+[][] 
+ []
+
 File: figures/boosted/Syst_CRSB/CR_Small_Sideband_OneTag_mH0H1.pdf Graphic file
  (type QTm)
-
 <use  "figures/boosted/Syst_CRSB/CR_Small_Sideband_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 77--78
+[][] 
+ []
+
 File: figures/boosted/Syst_CRSB/CR_Small_Control_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
-
 <use  "figures/boosted/Syst_CRSB/CR_Small_Control_OneTag_mH0H1.pdf" >
-File: figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf Graphic file 
-(type QTm)
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 83--84
+[][] 
+ []
 
-<use  "figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf" >
-File: figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf Graphic file (
-type QTm)
-
-<use  "figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf" >
 File: figures/boosted/Syst_CRSB/SB_Low_Sideband_OneTag_mH0H1.pdf Graphic file (
 type QTm)
-
 <use  "figures/boosted/Syst_CRSB/SB_Low_Sideband_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 95--96
+[][] 
+ []
+
 File: figures/boosted/Syst_CRSB/SB_Low_Control_OneTag_mH0H1.pdf Graphic file (t
 ype QTm)
-
 <use  "figures/boosted/Syst_CRSB/SB_Low_Control_OneTag_mH0H1.pdf" >
-File: figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf Graphic file
- (type QTm)
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 101--102
+[][] 
+ []
 
-<use  "figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf" >
-File: figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf Graphic file 
+File: figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
+<use  "figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 114--115
+[][] 
+ []
 
-<use  "figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf" >
+File: figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf Graphic file (
+type QTm)
+<use  "figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 120--121
+[][] 
+ []
+
 File: figures/boosted/Syst_CRSB/SB_Small_Sideband_OneTag_mH0H1.pdf Graphic file
  (type QTm)
-
 <use  "figures/boosted/Syst_CRSB/SB_Small_Sideband_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 132--133
+[][] 
+ []
+
 File: figures/boosted/Syst_CRSB/SB_Small_Control_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
+<use  "figures/boosted/Syst_CRSB/SB_Small_Control_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 138--139
+[][] 
+ []
 
-<use  "figures/boosted/Syst_CRSB/SB_Small_Control_OneTag_mH0H1.pdf" > [181]
-[182] [183] [184] (./figures/boosted/tables/CR_High_FourTag_yield.tex)
+File: figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf Graphic file
+ (type QTm)
+<use  "figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 150--151
+[][] 
+ []
+
+File: figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf Graphic file 
+(type QTm)
+<use  "figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf" >
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 156--157
+[][] 
+ []
+
+[182] [183] [184] [185]
+
+Package caption Warning: \label without proper \caption on input line 174.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `CRSB:Tab_4b_CR_High' on page 186 undefined on input l
+ine 167.
+
+
+Package caption Warning: \label without proper \caption on input line 182.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `CRSB:Tab_4b_CR_Low' on page 186 undefined on input li
+ne 167.
+
+(./figures/boosted/tables/CR_High_FourTag_yield.tex)
 (./figures/boosted/tables/CR_Low_FourTag_yield.tex)
 (./figures/boosted/tables/CR_Small_FourTag_yield.tex)
 (./figures/boosted/tables/SB_High_FourTag_yield.tex)
 (./figures/boosted/tables/SB_Low_FourTag_yield.tex)
 (./figures/boosted/tables/SB_Large_FourTag_yield.tex)
-(./figures/boosted/tables/SB_Small_FourTag_yield.tex) [185
+(./figures/boosted/tables/SB_Small_FourTag_yield.tex) [186
 
-] [186] [187]
-(./figures/boosted/tables/CR_High_ThreeTag_yield.tex)
+] [187] [188]
+[189] (./figures/boosted/tables/CR_High_ThreeTag_yield.tex)
 (./figures/boosted/tables/CR_Low_ThreeTag_yield.tex)
 (./figures/boosted/tables/CR_Small_ThreeTag_yield.tex)
 (./figures/boosted/tables/SB_High_ThreeTag_yield.tex)
 (./figures/boosted/tables/SB_Low_ThreeTag_yield.tex)
 (./figures/boosted/tables/SB_Large_ThreeTag_yield.tex)
-(./figures/boosted/tables/SB_Small_ThreeTag_yield.tex) [188
+(./figures/boosted/tables/SB_Small_ThreeTag_yield.tex) [190
 
-] [189] [190]
-(./figures/boosted/tables/CR_High_TwoTag_split_yield.tex)
+] [191] [192]
+[193] (./figures/boosted/tables/CR_High_TwoTag_split_yield.tex)
 (./figures/boosted/tables/CR_Low_TwoTag_split_yield.tex)
 (./figures/boosted/tables/CR_Small_TwoTag_split_yield.tex)
 (./figures/boosted/tables/SB_High_TwoTag_split_yield.tex)
 (./figures/boosted/tables/SB_Low_TwoTag_split_yield.tex)
 (./figures/boosted/tables/SB_Large_TwoTag_split_yield.tex)
-(./figures/boosted/tables/SB_Small_TwoTag_split_yield.tex) [191
+(./figures/boosted/tables/SB_Small_TwoTag_split_yield.tex) [194
 
-] [192] [193]
-(./figures/boosted/tables/FourTag_SR_Varations.tex)
+] [195] [196]
+[197] (./figures/boosted/tables/FourTag_SR_Varations.tex)
 (./figures/boosted/tables/ThreeTag_SR_Varations.tex)
 (./figures/boosted/tables/TwoTag_split_SR_Varations.tex
 Overfull \hbox (19.23563pt too wide) in paragraph at lines 2--17
  [] 
  []
 
-) [194
-
-] [195]
+)
 File: figures/boosted/Syst_CRSB/CR_High_compare_FourTag_qcd_hh.pdf Graphic file
  (type QTm)
-
-<use  "figures/boosted/Syst_CRSB/CR_High_compare_FourTag_qcd_hh.pdf" >
+ <use  "figures/boosted/Syst_CRSB/CR_High_compare_FourTag_qcd_hh.pdf" >
 File: figures/boosted/Syst_CRSB/CR_High_compare_ThreeTag_qcd_hh.pdf Graphic fil
 e (type QTm)
 
@@ -6125,10 +6145,12 @@ File: figures/boosted/Syst_CRSB/CR_Small_compare_TwoTag_split_qcd_hh.pdf Graphi
 c file (type QTm)
 
 <use  "figures/boosted/Syst_CRSB/CR_Small_compare_TwoTag_split_qcd_hh.pdf" >
+[198
+
+]
 File: figures/boosted/Syst_CRSB/SB_High_compare_FourTag_qcd_hh.pdf Graphic file
  (type QTm)
-
-<use  "figures/boosted/Syst_CRSB/SB_High_compare_FourTag_qcd_hh.pdf" >
+ <use  "figures/boosted/Syst_CRSB/SB_High_compare_FourTag_qcd_hh.pdf" >
 File: figures/boosted/Syst_CRSB/SB_High_compare_ThreeTag_qcd_hh.pdf Graphic fil
 e (type QTm)
 
@@ -6172,14 +6194,8 @@ le (type QTm)
 File: figures/boosted/Syst_CRSB/SB_Large_compare_TwoTag_split_qcd_hh.pdf Graphi
 c file (type QTm)
 
-<use  "figures/boosted/Syst_CRSB/SB_Large_compare_TwoTag_split_qcd_hh.pdf" >
-
-LaTeX Warning: Float too large for page by 44.80444pt on input line 330.
-
-[196
-
-] [197] [198]) (./dissertation.bbl [199
-
+<use  "figures/boosted/Syst_CRSB/SB_Large_compare_TwoTag_split_qcd_hh.pdf" >)
+[199] [200] [201] (./dissertation.bbl [202
 
 
 
@@ -6189,16 +6205,16 @@ Underfull \hbox (badness 1997) in paragraph at lines 150--155
 ir production in the $[][] \OMS/cmsy/m/n/10.95 ! 
  []
 
-[200] [201] [202]
+[203] [204] [205]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 340.
 
-[203] [204])
+[206] [207])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-[205]
+[208]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./dissertation.aux (./chapters/introduction.aux)
 (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
@@ -6218,12 +6234,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27216 strings out of 493706
- 536488 string characters out of 6145769
- 652759 words of memory out of 5000000
- 29408 multiletter control sequences out of 15000+600000
+ 27290 strings out of 493706
+ 538176 string characters out of 6145769
+ 654230 words of memory out of 5000000
+ 29482 multiletter control sequences out of 15000+600000
  19082 words of font info for 176 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 60i,14n,104p,10522b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,14n,104p,10522b,709s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (231 pages).
+Output written on dissertation.pdf (234 pages).

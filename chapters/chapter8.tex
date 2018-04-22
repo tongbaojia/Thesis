@@ -210,15 +210,30 @@ In the case the best-fit is negative, the fit is repeated with mu bounded to zer
 At 2~TeV, the fitted signal is positive ($\mu=0.1\pm0.25$) though well consistent with the background-only hypothesis. 
 In all fits, good agreement is seen between data and the background only model.
 
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.21\textwidth,angle=-90]{figures/boosted/results/postfitplot_s_2000_b2b.pdf} 
-\includegraphics[width=0.21\textwidth,angle=-90]{figures/boosted/results/postfitplot_s_2000_b3b.pdf} 
-\includegraphics[width=0.21\textwidth,angle=-90]{figures/boosted/results/postfitplot_s_2000_b4b.pdf} 
-\caption{Post-fit distributions after fitting the data with the 2000 GeV signal hypothesis. The signal strength is slightly positive.}
+\begin{figure}[htbp!]
+\centering
+\captionsetup{justification=centering}
+    \vspace{-1cm}
+    \begin{subfigure}[b]{0.25\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/results/postfitplot_s_2000_b2b.pdf}
+        \caption{$2bs$ postfit}
+        \label{fig:postfit2bs}
+    \end{subfigure}
+    \quad \quad \quad
+    \begin{subfigure}[b]{0.25\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/results/postfitplot_s_2000_b3b.pdf}
+        \caption{$3b$ postfit}
+        \label{fig:postfit3b}
+    \end{subfigure}
+    \quad \quad \quad
+    \begin{subfigure}[b]{0.25\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/results/postfitplot_s_2000_b4b.pdf}
+        \caption{$4b$ postfit}
+        \label{fig:postfit4b}
+    \end{subfigure}
+\caption{Post-fit signal region scaled \mtwoJ~ distributions after fitting the data with the $2$ \TeV~ \Grav~ with $c=1.0$ hypothesis. The signal strength is slightly positive.}
 \label{fig:postfit2000}
-\end{center}
-\end{figure*}
+\end{figure}
 
 \paragraph{}
 The observed limit for the narrow scalar and \Grav is shown in Fig.~\ref{fig:limit_boosted}.
