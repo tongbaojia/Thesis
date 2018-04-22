@@ -12,7 +12,7 @@ The Large Hadron Collider (LHC) is a proton-proton ($pp$) collider at the Europe
 \begin{figure}[htbp!]
   \centering
   \captionsetup{justification=centering}
-  \includegraphics[width=0.7\textwidth]{figures/detector/Cern-Accelerator-Complex.jpg}
+  \includegraphics[width=0.6\textwidth]{figures/detector/Cern-Accelerator-Complex.jpg}
    \caption{A schematic view of the LHC ring~\cite{LHCReview}. LINAC2, Booster, PS, SPS, and LHC accelerate the protons in order. Four main experiments are located at interaction points along the ring. ATLAS and CMS are general purpose experiments, while ALICE focuses on heavy ion collisions and LHC$b$ is dedicated to $B$ physics.}
   \label{fig:LHC}
 \end{figure}
@@ -20,19 +20,20 @@ The Large Hadron Collider (LHC) is a proton-proton ($pp$) collider at the Europe
 \section{The Large Hadron Collider}
 \label{sec:LHC}
 \paragraph{}
-Protons accelerated in the LHC are from a red bottle of hydrogen gas. 
-The whole acceleration takes around 25 minutes in multiple steps:
+Protons accelerated around the LHC originate in a red bottle of hydrogen gas. 
+The whole acceleration, taking around 25 minutes, is accomplished in multiple steps:
 \begin{itemize}
-\item An electric field strips the electrons from the hydrogen to create protons; 
-\item A linear particle accelerator, Linac 2, accelerates the protons to 50 \MeV; 
-\item The Proton Synchrotron Booster (PSB) accelerates the protons to 1.4 \GeV;
-\item The Proton Synchrotron (PS) accelerates the protons to 25 \GeV; 
-\item The Super Proton Synchrotron (SPS) accelerates the protons to 450 \GeV;
-\item The $16.7$ kilometers LHC accelerates the protons in a series of Radio Frequency cavities to the final \TeV~ energies. The LHC uses 1232 Niobium Titanium magnetic dipole for steering the protons. The magnets are cooled by superfluid helium to $1.9$ Kelvin, and can generate $8.33$ Tesla magnetic field.
+\item Electrons are stripped from the hydrogens to create protons;
+\item A linear particle accelerator, Linac 2, accelerates the protons to $50$ \MeV; 
+\item The Proton Synchrotron Booster (PSB) accelerates the protons to $1.4$ \GeV;
+\item The Proton Synchrotron (PS) accelerates the protons to $25$ \GeV; 
+\item The Super Proton Synchrotron (SPS) accelerates the protons to $450$ \GeV;
+\item The $16.7$ kilometers LHC accelerates the protons to the final \TeV~ energies. 
+%The LHC uses 1232 Niobium Titanium magnetic dipole for steering the protons. The magnets are cooled by superfluid helium to $1.9$ Kelvin, and can generate $8.33$ Tesla magnetic field.
 \end{itemize}
 
-\paragraph{} 
-In proton-proton collisions, the rate of a certain physics process $R_{\rm phy} = L\sigma$, where $L$ ($m^{-2}s^{-1}$) is the instantaneous luminosity, and $\sigma$ ($m^2$) the cross section of physics process (like di-Higgs' $\sigma$, ~\ref{par:diHiggs-crosssection}). For a Gaussian beam profile, the instantaneous luminosity is defined in Eq\ref{Ch2:eq-lumi} ~\cite{LHCReview}:
+\paragraph{}
+The instantaneous luminosity, $L$ ($m^{-2}s^{-1}$), at the LHC is defined in Eq\ref{Ch2:eq-lumi} ~\cite{LHCReview}:
 %
 \begin{equation}
 \label{Ch2:eq-lumi}
@@ -41,34 +42,28 @@ L = \frac{n_b N_b^2 f_{\rm rev} \gamma_r}{4\pi \epsilon_n \beta^*} F
 %
 In the above Eq\ref{Ch2:eq-lumi}:
 \begin{itemize}
-	\item $n_b$ is the number of bunches per beam; $n_b$ cannot be too large due to potential beam loss damages on the accelerator and detector; %Nominally, $2808$ proton bunches.
+	\item $n_b$ is the number of bunches per beam; %$n_b$ cannot be too large due to potential beam loss damages on the accelerator and detector; %Nominally, $2808$ proton bunches.
 	\item $N_b$ is the number of protons per bunch;  
 	\item $f_{\rm rev}$ is the proton revolution frequency;
 	\item $\gamma_r$ is the relativistic Lorentz factor for the protons;
-	\item $\epsilon_n$ is the average beam spread length in the transverse plane;
-	\item $\beta^*$ is the beam spread in the longitudinal direction; affected by focusing magnets;
-	\item $F$ is a reduction factor for the angle beams are colliding; smaller crossing angles could cause larger spread in the longitudinal direction.
+	\item $\epsilon_n$ is the normalized transverse beam emittance, or the average beam spread length;
+	\item $\beta^*$ is the transverse beam size; $\sigma_{\rm beam} = \sqrt{\epsilon \cdot \beta}$; %affected by focusing magnets;
+	\item $F$ is a reduction factor for the angle beams are colliding. %; smaller crossing angles could cause larger spread in the longitudinal direction.
 \end{itemize}
 
-\paragraph{}
+\paragraph{} 
+In $pp$ collisions, the rate of a certain physics process is $R_{\rm phy} = L\sigma$, where $\sigma$ ($m^2$) the cross section.
 The instantaneous luminosity can also be written as the ratio of the rate of inelastic collisions to the inelastic cross section $\sigma_{\rm inel}$ ~\cite{lumi-paper}:
 \begin{equation}
 \label{Ch2:eq-lumi2}
 L = \frac{R_{\rm inel}}{\sigma_{\rm inel}} = \frac{\mu n_b f_{\rm rev}}{\sigma_{\rm inel}}
 \end{equation}
-where, $\mu$ is the number of interactions per bunch crossing. At each bunch crossing, multiple proton-proton collide, and the collisions without the highest center of mass energy are called ``pileup" interactions.
-The target peak instantaneous luminosity for both the ATLAS and CMS experiments is $L=10^{34}~\text{cm}^{-2}\text{s}^{-1}$~\cite{LHCPaper}, which is already exceeded in 2016. This is partly due to the rising number of ``pileup" interactions, shown in Figure~\ref{fig:Mu_2015_2016}. The main parameters of the LHC beam and performance are shown in Table~\ref{Ch2:tab-lhc}. 
+where, $\mu$ is the number of interactions per bunch crossing. 
+At each bunch crossing, the collisions without the highest center of mass energy are called ``pileup" interactions.
 
-\begin{figure}[htbp!]
-  \centering
-  \captionsetup{justification=centering}
-  \includegraphics[width=0.5\textwidth,angle=-90]{figures/detector/Mu_2015_2016}
-   \caption{The luminosity-weighted distribution of the mean number of interactions per crossing for the 2015 and 2016 $pp$ collision data at $13$ \TeV center-of-mass energy.~\cite{Lumi_Run2}}
-  \label{fig:Mu_2015_2016}
-\end{figure}
-%At the nominal LHC conditions, the beam energy is about 360 MegaJoules, and the LHC in total consumes 115 MegaWatt of power.
 \begin{table}[]
 \centering
+\caption[LHC nominal and operational parameters]{LHC nominal~\cite{LHCPaper} and operational parameters in 2015~\cite{LHC_2015} and 2016~\cite{LHC_2016}.}
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll}
 \hline
 Parameter [unit]   & Nominal design value & 2015 Operating value  & 2016 Operating value\\
@@ -80,14 +75,28 @@ $f_{\rm rev}$ [kHz]    &     $11245$  & $11245$  & $11245$ \\
 $n_b$  [$10^{11}$ p/bunch]   & $1.15$ &  $1.15$ & $1.12$\\
 $N_b$  [bunch]         & $2808$   &      $1825$ &      $2220$\\
 $\epsilon_n$  [mm mrad]        & $3.5$ &  $3.5$  & $2$\\
-$\beta^*$   [cm]         & $55$  &   $20$-$40$  & $40$\\
+$\beta^*$   [cm]         & $55$  &   $40$  & $40$\\
 $F$        &      $0.84$  & $0.84$  &  $0.59$ \\
 $\langle \mu \rangle$ & $19$ & $13$ & $41$ \\ \hline
 \hline            
 \end{tabular*}
-\caption[LHC nominal and operational parameters]{LHC nominal~\cite{LHCPaper} and operational parameters in 2015~\cite{LHC_2015} and 2016~\cite{LHC_2016}.}
 \label{Ch2:tab-lhc}
 \end{table}
+
+\paragraph{}
+The main parameters of the LHC beam and performance are shown in Table~\ref{Ch2:tab-lhc}. 
+The target peak instantaneous luminosity for both the ATLAS and CMS experiments is $L=10^{34}~\text{cm}^{-2}\text{s}^{-1}$~\cite{LHCPaper}, which has already been exceeded in 2016. 
+This is partly due to the improved $\beta^*$ and $F$.
+The number of ``pileup" interactions also increases, shown in Figure~\ref{fig:Mu_2015_2016}. 
+
+\begin{figure}[htbp!]
+  \centering
+  \captionsetup{justification=centering}
+  \includegraphics[width=0.5\textwidth,angle=-90]{figures/detector/Mu_2015_2016}
+   \caption{The luminosity-weighted distribution of the mean number of interactions per crossing for the 2015 and 2016 $pp$ collision data at $13$ \TeV center-of-mass energy.~\cite{Lumi_Run2}}
+  \label{fig:Mu_2015_2016}
+\end{figure}
+%At the nominal LHC conditions, the beam energy is about 360 MegaJoules, and the LHC in total consumes 115 MegaWatt of power.
 
 
 \section{A Toroidal LHC ApparatuS}
@@ -111,10 +120,13 @@ The ATLAS detector (Figure~\ref{fig:ATLAS}) consists of an inner tracking detect
 \label{sec:ATLAS-coord}
 \paragraph{}
 ATLAS uses a right-handed coordinate system with its origin at the nominal IP in the center of the detector and the $z$-axis along the beam pipe.
-The $x$-axis points from the IP to the center of the LHC ring, the $y$-axis points towards the sky, and the $z$-axis points straight(like bridges) towards the Geneva airport(A side), back from the Charlie pub in France(C side).
+The positive $x$-axis points from the IP to the center of the LHC ring, the positive $y$-axis points towards the sky, and the $z$-axis points straight(like bridges) towards the Geneva airport(A side), back from the Charlie's pub in France(C side).
 Cylindrical coordinates $(r,\phi)$ are used in the transverse plane, $\phi$ being the azimuthal angle around the $z$-axis.
-The pseudorapidity is defined in terms of the polar angle $\theta$ as $\eta = -\ln \tan(\theta/2)$. It is the massless approximation of rapidity, the angle parameterizing special relativity's boosts. Most hadron productions are roughly constant in $\eta$, and for two massless particles traveling in different directions, their difference in $\Delta \eta$ is invariant. 
-Therefore, angular distance is measured in units of $\Delta R = \sqrt{(\Delta\eta)^{2} + (\Delta\phi)^{2}}$.
+The pseudorapidity is defined in terms of the polar angle $\theta$ as $\eta = -\ln \tan(\theta/2)$. $\eta$ the massless approximation of rapidity $y = \frac{1}{2} \ln \frac{E + p_{z}}{E - p_{z}}$.
+$\theta$ is the angle parameterizing special relativity's boosts along the $z$-axis. 
+%Most hadron productions are roughly constant in $\eta$, and for two massless particles traveling in different directions, their difference in $\Delta \eta$ is invariant. 
+The angular distance is measured in units of $\Delta R = \sqrt{(\Delta\eta)^{2} + (\Delta\phi)^{2}}$.
+
 \paragraph{}
 The region with $|\eta| < 1.5$ is called ``central". It consists of the ``barrel" elements, surrounding the beam line cylindrically. For $|\eta| > 1.5$, the region is called ``endcap", and the detector elements are arranged as disks perpendicular to the beam line. At high $|\eta| > 2.5$, the region is referred to as ``forward".
 
@@ -123,11 +135,16 @@ The region with $|\eta| < 1.5$ is called ``central". It consists of the ``barrel
 \paragraph{}
 The ID covers the pseudorapidity range $|\eta| < 2.5$.
 It consists of three parts: silicon pixel (PIXEL), silicon microstrip (SCT), and straw-tube transition-radiation tracking (TRT) detectors. 
-An additional pixel detector layer (IBL) ~\cite{Capeans:1291633}, inserted at a mean radius of $3.3$ cm, is used in the Run-2 data-taking and improves the identification of $b$-jets~\cite{ATL-PHYS-PUB-2015-022}. A 10 \GeV~ charged particle in the barrel region expect $1+3$ IBL-Pixel hits, $8$ SCT hits and $36$ TRT hits.
-\paragraph{}
-ID is designed to provide charged particle momentum measurement with $\sigma_{p_{T}}/p_{T} \sim 0.05\% p_{T} \oplus 1\%$ and vertex reconstruction.
-Because of this, each detector proves measurement accuracies of the order $10 \mu\rm m$ in $R$-$\phi$ and $100 \mu\rm m$ in $z$.
-Figure~\ref{fig:Det_ID_rz} ~\cite{Aaboud:2017pjd} shows the $R$-$z$ distribution of the material for a quadrant of the barrel region PIXEL and SCT. The intensity of a particle beam decreases exponentially in radiation length. $I(x) = I_0 e^{-x/X_0}$, where $I$ is the intensity, $x$ is the distance traveled, and $X_0$ is the radiation length. Figure~\ref{fig:Det_ID_xy} shows the distribution of hadronic-interaction vertex candidates in $|\eta|<2.4$ and $|z|<400$ mm for $13$ \TeV~ data. 
+An additional pixel detector layer (IBL) ~\cite{Capeans:1291633}, positioned at a mean radius of $3.3$ cm, is used in the Run-2 data-taking and improves the identification of $b$-jets~\cite{ATL-PHYS-PUB-2015-022}. 
+A $10$\GeV~ charged particle in the barrel region expect $1$ IBL hits, $3$ PIXEL hits, $8$ SCT hits and $36$ TRT hits.
+Figure~\ref{fig:Det_ID_rz} ~\cite{Aaboud:2017pjd} shows the $R$-$z$ distribution of the material for a quadrant of the barrel region PIXEL and SCT. 
+Figure~\ref{fig:Det_ID_xy} shows the distribution of hadronic-interaction vertex candidates in $|\eta|<2.4$ and $|z|<400$ mm for $13$\TeV~ data.
+The ID is important for track reconstruction and heavy flavor $b$-tagging. 
+
+%\paragraph{}
+%The ID is designed to provide charged particle momentum measurement with $\sigma_{p_{T}}/p_{T} \sim 0.05\% p_{T} \oplus 1\%$ and vertex reconstruction.
+%Because of this, each detector proves measurement accuracies of the order $10 \mu\rm m$ in $R$-$\phi$ and $100 \mu\rm m$ in $z$.
+%The intensity of a particle beam decreases exponentially in radiation length. $I(x) = I_0 e^{-x/X_0}$, where $I$ is the intensity, $x$ is the distance traveled, and $X_0$ is the radiation length.
 
 \begin{figure}[htbp!]
 \centering
@@ -151,13 +168,17 @@ Figure~\ref{fig:Det_ID_rz} ~\cite{Aaboud:2017pjd} shows the $R$-$z$ distribution
 %%%%%%%%%%%%%%
 \subsection{Calorimeter}
 \paragraph{}
-Lead/liquid-argon (LAr) finely segmented sampling calorimeters provide EM energy measurements. 
+The Lead/liquid-argon (LAr) finely segmented sampling calorimeters provide EM energy measurements. 
 A steel/scintillator-tile hadronic calorimeter covers the central pseudorapidity range ($|\eta| < 1.7$).
 The endcap and forward regions are instrumented with copper/tungsten and LAr calorimeters for both the EM and hadronic energy measurements up to $|\eta| = 4.9$. The calorimeters also provide basic EM/Hadronic trigger information, with fast analogue summing in coarse granularity.
-\paragraph{}
-EM calorimeter (ECal) is designed to have $>22$ radiation lengths in the barrel and $> 24$ in the endcap. 
-It provides EM measurement with $\sigma_E/E = 10\%/\sqrt{E} \oplus 0.7\%$. The hadronic calorimeter (HCal) has approximately $9.7$ interaction length in the barrel and $10$ in the endcap. 
-HCal provides hadronic measurement with $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ in the Barrel and Endcap regions, and $\sigma_E/E = 100\%/\sqrt{E} \oplus 10\%$  in the forward region.
+The calorimeters are important for measuring the energy of the Higgs boson decay productions.
+
+%\paragraph{}
+%EM calorimeter (ECal) is designed to have $>22$ radiation lengths in the barrel and $> 24$ in the endcap. 
+%It provides EM measurement with $\sigma_E/E = 10\%/\sqrt{E} \oplus 0.7\%$. The hadronic calorimeter (HCal) has approximately $9.7$ interaction length in the barrel and $10$ in the endcap. 
+%HCal provides hadronic measurement with $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ in the Barrel and Endcap regions, and $\sigma_E/E = 100\%/\sqrt{E} \oplus 10\%$  in the forward region.
+
+%%more plots: https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LArCaloPublicResults2015
 
 %%%%%%%%%%%%%%
 \subsection{MuonSpectrometer}
@@ -181,12 +202,12 @@ HCal provides hadronic measurement with $\sigma_E/E = 50\%/\sqrt{E} \oplus 3\%$ 
 \end{figure}
 
 \paragraph{}
-The muon spectrometer (Figure~\ref{fig:Det_MS}) surrounds the calorimeters and includes three large superconducting air-core toroids. 
+The muon spectrometer (Figure~\ref{fig:Det_MS}) is the largest component of the ATLAS detector.
+It surrounds the calorimeters and includes three large superconducting air-core toroids. 
 The field integral of the toroids ranges between 2 and 6 T/m for most of the detector. Because of this bending power, the MS measures Muon momentum stand-alone, with $\sigma_{p_{T}}/p_{T} \sim 10\%$ at $p_{T} = 1$\TeV. 
 Muon Drift Tubes (MDT) and Cathode Strip Chambers (CSC) provide precision tracking. 
-Each MDT has $80\,\mu\textrm{m}$ spacial resolution, with an alignment precision of $30\,\mu\textrm{m}$.
-Resistive Plate Chambers (RPC) in the barrel and Thin Gap Chambers (TGC) provide triggering, with $1.5$-$5$ ns timing resolution.  The muon spectrometer defines the overall dimensions of the ATLAS
-detector.
+%Each MDT has $80\,\mu\textrm{m}$ single hit spacial resolution, with an alignment precision of $30\,\mu\textrm{m}$.
+Resistive Plate Chambers (RPC) in the barrel and Thin Gap Chambers (TGC) provide triggering, with $1.5$-$5$ ns timing resolution. 
 
 %%%%%%%%%%%%%%
 \subsection{Trigger and Data Acquisition}
@@ -194,7 +215,8 @@ detector.
 A dedicated trigger system is used to select events~\cite{ATLAS-TRIGGER}.
 The first-level trigger (L$1$) is implemented in hardware and uses the calorimeter and muon detectors to seed regions of interest (RoI) and reduce the accepted event rate to $100$ kHZ.
 This is followed by a software-based high-level trigger (HLT) that reduces the accepted event rate to $1$ kHZ on average. 
-To avoid too high accept rates for certain triggers, the triggers are often prescaled, which means the accepted events get rejected at the prescale. For example, a prescale of two means only every second event passing all trigger conditions gets accepted. 
+To avoid high rates for certain triggers, the triggers are often prescaled, which means some accepted events get rejected. 
+For example, a prescale of two means only every second event passing all trigger conditions gets accepted. 
 
 \paragraph{}
 Over 2015 and 2016, both the LHC and the ATLAS performed outstandingly ~\cite{Lumi_Run2}. The total data recording efficiency for ATLAS is around $92\%$, shown in Figure~\ref{fig:Lumi}.
@@ -220,7 +242,6 @@ Over 2015 and 2016, both the LHC and the ATLAS performed outstandingly ~\cite{Lu
 \caption{Cumulative luminosity vs. time delivered to (green) and recorded by ATLAS (yellow) during stable beams for $pp$ collisions at $13$ \TeV centre-of-mass energy.}
 \label{fig:Lumi}
 \end{figure}
-
 
 % \paragraph{}
 % For further trigger information, see \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PAPERS/TRIG-2016-01/}{2015 note} and \href{https://cds.cern.ch/record/2242069/files/ATL-DAQ-PUB-2017-001.pdf}{2016 updates}.

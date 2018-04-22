@@ -1,6 +1,6 @@
 %!TEX root = ../dissertation.tex
 \begin{savequote}[75mm]
-“A picture is worth a thousand swords.”
+A picture is worth a thousand swords.
 \qauthor{Tony}
 \end{savequote}
 
@@ -22,20 +22,20 @@ Figure~\ref{fig:obj_reco_overview} gives an overview of the different sub-detect
 
 %%%%%%%%%%%%%%
 \section{ID Tracks and Vertices}
+%\paragraph{}
+%ID tracks originate from clusters based on PIXEL and SCT energy deposits.
+%Three clusters form a seed, and the seeds are combined to build track candidates using a Kalman filter. 
+%After ambiguity solving, an artificial neural network is used to identify merged clusters.
+%Finally, ID tracks are built from CPU intensive high resolution fits.
+
 \paragraph{}
-ID tracks originate from clusters based on PIXEL and SCT energy deposits.
-Three clusters form a seed, and the seeds are combined to build track candidates using a Kalman filter. 
-After ambiguity solving, an artificial neural network is used to identify merged clusters.
-Finally, ID tracks are built from CPU intensive high resolution fits.
+Each beam crossing generates multiple vertices, and the vertices are reconstructed from the available ID tracks. 
+The primary vertex (PV), or the hard-scatter vertex, is selected as the one with the largest $\sum p_T^2$, where the sum is over all tracks with transverse momentum $p_T > 0.4$ \GeV that are associated with the vertex.
+The ID tracks are usually required to have at least 1 PIXEL hit and 6 SCT hits, and to be tightly matched to the primary vertex. 
 The tracks are required to have $p_T > 0.4$ \GeV~ and $|\eta| < 2.5$.
 
 \paragraph{}
-Each $pp$ collision generates multiple vertices, and the vertices are reconstructed from the available ID tracks. 
-The primary vertex (PV), or the hard-scatter vertex, is selected as the one with the largest $\sum p_T^2$, where the sum is over all tracks with transverse momentum $p_T > 0.4$ \GeV that are associated with the vertex.
-The ID tracks are usually required to have at least 1 PIXEL hit and 6 SCT hits, and to be tightly matched to the primary vertex. 
-
-\paragraph{}
-The performance of track reconstruction is highly dependent on the momentum of the particle. 
+The track reconstruction performance is highly dependent on the momentum of the particle. 
 With higher momentum, the decay tracks have smaller separations in the inner detector, hindering the resolving cluster process, and thus degrading the track identification efficiency. 
 For a $1$ \TeV~ $b$-hadron, the reconstruction track efficiency is $83\%$, compared to $95\%$ for a $200$ \GeV~ $b$-hadron ~\cite{Aaboud:2017all}.
 
@@ -46,18 +46,20 @@ For a $1$ \TeV~ $b$-hadron, the reconstruction track efficiency is $83\%$, compa
 When a quark or gluon is produced in $pp$ collisions, it produces a spray of hadrons, which is known as a jet. 
 Jets are built from topological clusters of energy deposits in calorimeter cells \cite{PERF-2014-07}, using a four-momentum reconstruction scheme with massless clusters as input. 
 The directions of jets are corrected to point back to the primary vertex.
-Typically, jets are reconstructed using the \akt algorithm with different values of the radius parameter \R. 
+Typically, jets are reconstructed using the \akt algorithm~\cite{AntiKt} with different values of the radius parameter \R.
 \R appears in the denominator of the clustering distance metric. 
+This favors clusterings that involve hard particles, and the jets grow outwards around hard ``seeds''.
 It determines the radial size of the jet in $\eta$-$\phi$ plane.
 
 \subsection{Small-\R jets}
 \paragraph{}
- The jets with $R=0.4$ (``small-\R jets'') are reconstructed from clusters calibrated at the electromagnetic (EM) scale. The jets are corrected for additional energy deposited from pile-up interactions using an area-based correction \cite{Cacciari:2008gn}. 
- They are then calibrated using \pt- and $\eta$-dependent calibration factors derived from simulation, before global sequential calibration~\cite{Aad:2011he} is applied, which reduces differences in calorimeter responses to gluon or quark-initiated jets. 
- The final calibration is based on in situ measurements in collision data~\cite{ATL-PHYS-PUB-2015-015}.
+The jets with $R=0.4$ (``small-\R jets'') are reconstructed from clusters calibrated at the electromagnetic (EM) scale. The jets are corrected for additional energy deposited from pile-up interactions using an area-based correction \cite{Cacciari:2008gn}. 
+They are then calibrated using \pt- and $\eta$-dependent calibration factors derived from simulation, before global sequential calibration~\cite{Aad:2011he} is applied, which reduces differences in calorimeter responses to gluon or quark-initiated jets. 
+The final calibration is based on in situ measurements in collision data~\cite{ATL-PHYS-PUB-2015-015}.
 
 \paragraph{}
-``Small-\R jets'' are required to be consistent with the primary vertex, in order to avoid contamination from pileup interactions. The jet vertex fraction (JVF) is a useful variable for this purpose. 
+``Small-\R jets'' are required to be consistent with the primary vertex, in order to avoid contamination from pileup interactions. 
+The jet vertex fraction (JVF) is a useful variable for this purpose. 
 It is the ratio of tracks associated with a primary vertex to the total number of tracks inside a jet. 
 Jets from the PV should have most tracks consistent with the PV and therefore have a large JVF value.
  %Jets with $p_T<60$~\GeV\, $|\eta|<2.4$, and with a large fraction of their energy arising from pile-up interactions are suppressed using tracking information, which was combined in a multivariate classification algorithm (\emph{jet vertex tagger})~\cite{ATL-PHYS-PUB-2014-001}. 
@@ -68,10 +70,68 @@ Jets from the PV should have most tracks consistent with the PV and therefore ha
 %% If add plots, use 
 %% https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2017-063/
 %% Nice talk: https://cds.cern.ch/record/2275665/files/ATL-PHYS-SLIDE-2017-577.pdf
+
+\begin{figure}[htbp!]
+  \centering
+  \captionsetup{justification=centering}
+  \hspace{-3cm}
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/object/Jet_evt_a.pdf}
+        \caption{Event 28009014}
+        \label{fig:obj_jet_evt_a}
+    \end{subfigure}
+    \quad \quad \quad \quad
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/object/Jet_evt_b.pdf}
+        \caption{Event 22756718}
+        \label{fig:obj_jet_evt_b}
+    \end{subfigure}
+   \caption{
+   Two collision events recorded in June 2015 with a high leading jet \pt shown in rapidity-azimuthal angle parameter space. 
+   The dots are calorimeter-cell clusters with positive energy. 
+   Only the two leading jets are shown, with their area demarcated by a colored circle, and with grey regions denoting the corresponding \kt~ sub-jets of size $R_{sub}=0.2$. 
+   The colour of both jets and clusters corresponds to their \pt.}
+  \label{fig:obj_jet_evt}
+\end{figure}
+
 \paragraph{}
-The jets with $R=1.0$ (``large-\R jets'') are built from locally calibrated~\cite{Aad:2011he} topological clusters. They are trimmed~\cite{Krohn2010} to minimize the impact of energy deposits from pile-up interactions. 
-Trimming proceeds by reclustering the jet with the \kt~ algorithm~\cite{Ellis:1993tq} into $R = 0.2$ sub-jets and then removing those sub-jets with $p_T^{\mathrm{subjet}}/p_T^{\mathrm{jet}} < 0.05$, where $p_T^{\mathrm{subjet}}$ is the transverse momentum of the sub-jet and $p_T^{\mathrm{jet}}$ that of the original jet. 
+The jets with $R=1.0$ (``large-\R jets'') are built from locally calibrated~\cite{Aad:2011he} topological clusters.
+Two examples are shown in Figure~\ref{fig:obj_jet_evt}~\cite{ATLAS-CONF-2015-035}.
+Large-\R jets are trimmed~\cite{Krohn2010} to minimize the impact of contamination from non-perturbative effects associated with beam-remnants (``pile-up'' events).
+Trimming proceeds by reclustering the jet with the \kt~ algorithm~\cite{Ellis:1993tq} into $R_{sub} = 0.2$ sub-jets and then removing those sub-jets with $p_T^{\mathrm{subjet}}/p_T^{\mathrm{jet}} < 0.05$, where $p_T^{\mathrm{subjet}}$ is the transverse momentum of the sub-jet and $p_T^{\mathrm{jet}}$ that of the original jet.
+Trimming increases the jet mass resolution, as shown in Figure~\ref{fig:obj_trim}~\cite{ATL-PHYS-PUB-2017-020}.
 The energy and mass scales of the trimmed jets are then calibrated using \pt- and $\eta$-dependent calibration factors derived from simulation~\cite{PERF-2012-02}.
+
+\begin{figure}[htbp!]
+  \centering
+  \captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/trim_qcd_lowpt}
+        \caption{QCD jets, $300 < p_{T} < 500$ \GeV}
+        \label{fig:obj_trim_qcd_lowpt}
+    \end{subfigure}
+    \quad \quad 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/trim_w_lowpt}
+        \caption{$W$ jets, $300 < p_{T} < 500$ \GeV}
+        \label{fig:obj_trim_w_lowpt}
+    \end{subfigure} \\ 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/trim_qcd_highpt}
+        \caption{QCD jets, $1000 < p_{T} < 1500$ \GeV}
+        \label{fig:obj_trim_qcd_highpt}
+    \end{subfigure}
+    \quad \quad 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{figures/object/trim_w_highpt}
+        \caption{$W$ jets, $1000 < p_{T} < 1500$ \GeV}
+        \label{fig:obj_trim_w_highpt}
+    \end{subfigure} \\ 
+   \caption{
+   For the trimming algorithm using calorimeter cell clusters as inputs to the \akt jet reconstruction algorithm with $R = 1.0$, a comparison of the jet mass distribution for QCD background jets and $W$ boson jets low \pt~ and high \pt~ kinematic regions, as determined by the untrimmed truth jet \pt~. 
+   The trimming parameter choices shown here are $R_{sub} = 0.1$, $0.2$, and $0.3$ for a fixed cut at $5\%$.}
+  \label{fig:obj_trim}
+\end{figure}
 
 %Melissa asked me this question on Feb 13, 2017.
 \paragraph{}
@@ -81,14 +141,15 @@ m^{calo} = \sqrt{\left(\sum_{i\in J}E_i\right)^2-\left(\sum_{i\in J}\vec{p}_i\ri
 \end{equation}
 
 \paragraph{}
-For a boosted massive particle, the angular spread in the decay products scales as $\frac{1}{p_T}$. 
-For highly boosted cases, the spread is comparable with the $\eta\times\phi \sim 0.1\times0.1$ calorimeter granularity. 
-Tracking information is used to maintain performance beyond the calorimeter granularity limit.
+%For a $b$ quark, the angular spread in the decay products scales as $\frac{1}{p_T}$. 
+%It is comparable with the $\eta\times\phi \sim 0.1\times0.1$ calorimeter granularity for a highly boosted $b$.
+Tracking information is used to increase the mass resolution.
 The track-assisted jet mass, $m^{TA}$, is defined as:
 \begin{equation}
 m^{TA} = \frac{p_T^{calo}}{p_T^{track}} \cdot m^{track}.
 \end{equation}
-where $p_{T}^{calo}$ is the transverse momentum of the large-R calorimeter jet, $p_{T}^{track}$ is the transverse momentum of the four-vector sum of tracks associated to the large-R calorimeter jet, and $m^{track}$ is the invariant mass of this four-vector sum. This ratio corrects for charged-to-neutral hadron fluctuations, and therefore improves the resolution with respect to track-only jet mass.
+where $p_{T}^{calo}$ is the transverse momentum of the large-\R calorimeter jet, $p_{T}^{track}$ is the transverse momentum of the four-vector sum of tracks associated to the large-\R calorimeter jet, and $m^{track}$ is the invariant mass of this four-vector sum.
+This ratio corrects for charged-to-neutral hadron fluctuations, and therefore improves the resolution with respect to track-only jet mass.
 %Ghost association is performed to associate tracks to the jets before the trimming procedure is applied.
 %The fractional resolution is defined 0.5 \times 68 \% IQnR(Rm)∕median(Rm), where 68 \% IQnR(Rm) is the 68 \% confidence interval interquartile range of the jet mass response distribution, and median(Rm) is the median jet mass response.
 
@@ -112,7 +173,7 @@ where $p_{T}^{calo}$ is the transverse momentum of the large-R calorimeter jet, 
 \end{figure}
 
 \paragraph{}
-The above two mass definitions are only weakly correlated with each other, so they can be linearly combined to the combined mass, $m^{comb}$, by weighting the components with $w$:
+The above two jet mass definitions are only weakly correlated with each other, so they can be linearly combined to the combined mass, $m^{comb}$, by weighting the components with $w$:
 \begin{equation}
 m^{comb} = w\cdot m^{calo}+(1-w)\cdot m^{TA}.
 \end{equation}
@@ -221,7 +282,7 @@ As the jet \pt~ increases, the number of fake vertices is increasing, while the 
 \end{figure}
 
 %\paragraph{}
-%$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentagion of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}. 
+%$b$-tagging. see \href{https://cds.cern.ch/record/2160731/files/ATL-PHYS-PUB-2016-012.pdf}{2016 run2 note}. Recurrent Neural Network(RNN), which could explore more the correlation between different input parameters, especially the fragmentation of jets and the impact parameters, has shown improvements in $b$-tagging efficiency and is under investigation for future Multivariate Taggers, see \href{https://cds.cern.ch/record/2253371}{RNN note}. 
 
 %Vertex reconstruction and resolution, can be seen in this \href{http://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/PUBNOTES/ATL-PHYS-PUB-2015-026/}{note}. Track resolution can be seen in this \href{https://cds.cern.ch/record/2110140/files/ATL-PHYS-PUB-2015-051.pdf}{note}. In Run2, the $d_0$ resolution is about 10 $\mu m$ and $z_0$ is about $50 \mu m$, both decreases as a function of track momentum.
 

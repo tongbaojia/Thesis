@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  22 APR 2018 14:19
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  22 APR 2018 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1249,35 +1249,35 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 
 ]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 216.
+(Font)              scaled to size 9.35316pt on input line 214.
 
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 216.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 214.
 
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 216.
+(Font)              scaled to size 8.0pt on input line 214.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 216.
+(Font)              scaled to size 6.0pt on input line 214.
 [5]
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/sc' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 274.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 272.
 
 
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 274.
+(Font)              scaled to size 10.25006pt on input line 272.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/sc' will be
-(Font)              scaled to size 10.25006pt on input line 274.
+(Font)              scaled to size 10.25006pt on input line 272.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 10.25006pt on input line 274.
+(Font)              scaled to size 10.25006pt on input line 272.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 274.
+(Font)              scaled to size 8.0pt on input line 272.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 6.0pt on input line 274.
+(Font)              scaled to size 6.0pt on input line 272.
 
-Overfull \hbox (11.92198pt too wide) in paragraph at lines 281--281
+Overfull \hbox (11.92198pt too wide) in paragraph at lines 279--279
  [][] [][]\EU1/EBGaramond(2)/m/sc/12 Appendix []Effects on yield prediction fro
 m variations of the sideband 
  []
@@ -1287,7 +1287,7 @@ m variations of the sideband
 \openout4 = `dissertation.toc'.
 
  [6] (./dissertation.lof
-Overfull \hbox (8.90785pt too wide) in paragraph at lines 3--3
+Overfull \hbox (7.79584pt too wide) in paragraph at lines 3--3
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Fermions and bosons of the Standard M
 odel and their properties$[]$, where all the values 
  []
@@ -1360,16 +1360,16 @@ dded linearly. The SM values of the cross
  []
 
 
-Overfull \hbox (0.99326pt too wide) in paragraph at lines 9--9
+Overfull \hbox (5.07266pt too wide) in paragraph at lines 9--9
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Parton luminosity ratios as a functio
 n of resonance mass $[][]$ for $[][]\OML/cmm/m/it/10.95 =[]$ \EU1/EBGaramond(2)
-/bx/n/10.95 TeV$[]$. $[]$, $[]$, and 
+/bx/n/10.95 TeV$[]$. $[]$, $[]$, and $[]$ 
  []
 
 
-Overfull \hbox (7.33727pt too wide) in paragraph at lines 9--9
- []$  \EU1/EBGaramond(2)/bx/n/10.95 TeV$[][]$ ratios are indicated by red lines
-. For a $[]$ TeV$[]$, the luminosity ratio is almost 
+Overfull \hbox (1.35857pt too wide) in paragraph at lines 9--9
+ \EU1/EBGaramond(2)/bx/n/10.95 TeV$[][]$ ratios are indicated by red lines. For
+ a $[]$ TeV$[]$, the luminosity ratio is almost 10.[][] []  
  []
 
 
@@ -1400,21 +1400,21 @@ aramond(2)/bx/n/10.95 and $\OMS/cmsy/m/n/10.95 ^^F[][]$ \EU1/EBGaramond(2)/bx/n
 [7
 
 ]
-Overfull \hbox (2.94745pt too wide) in paragraph at lines 14--14
+Overfull \hbox (14.35959pt too wide) in paragraph at lines 14--14
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 A schematic view of the LHC ring$[]$.
- LINAC2, Booster, PS, SPS, and LHC accelerate 
+ LINAC2, Booster, PS, SPS, and LHC accelerate the 
  []
 
 
-Overfull \hbox (9.8877pt too wide) in paragraph at lines 14--14
- \EU1/EBGaramond(2)/bx/n/10.95 the protons in order. Four main experiments are 
-located at interaction points along the 
+Overfull \hbox (15.96495pt too wide) in paragraph at lines 14--14
+ \EU1/EBGaramond(2)/bx/n/10.95 protons in order. Four main experiments are loca
+ted at interaction points along the ring. 
  []
 
 
-Overfull \hbox (14.60713pt too wide) in paragraph at lines 14--14
- \EU1/EBGaramond(2)/bx/n/10.95 ring. ATLAS and CMS are general purpose experime
-nts, while ALICE focuses on heavy 
+Overfull \hbox (8.35834pt too wide) in paragraph at lines 14--14
+ \EU1/EBGaramond(2)/bx/n/10.95 ATLAS and CMS are general purpose experiments, w
+hile ALICE focuses on heavy ion 
  []
 
 
@@ -1430,117 +1430,161 @@ red to (green) and recorded by ATLAS (yellow)
  []
 
 
-Overfull \hbox (13.6472pt too wide) in paragraph at lines 22--22
+Overfull \hbox (6.87108pt too wide) in paragraph at lines 22--22
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Two collision events recorded in June
+ 2015 with a high leading jet $[][]$shown in rapidity- 
+ []
+
+
+Overfull \hbox (11.8806pt too wide) in paragraph at lines 22--22
+ \EU1/EBGaramond(2)/bx/n/10.95 azimuthal angle parameter space. The dots are ca
+lorimeter-cell clusters with positive en- 
+ []
+
+
+Overfull \hbox (3.46007pt too wide) in paragraph at lines 22--22
+ \EU1/EBGaramond(2)/bx/n/10.95 ergy. Only the two leading jets are shown, with 
+their area demarcated by a colored cir- 
+ []
+
+
+Overfull \hbox (7.0068pt too wide) in paragraph at lines 23--23
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For the trimming algorithm using calo
+rimeter cell clusters as inputs to the anti-$[][]$jet re- 
+ []
+
+
+Overfull \hbox (18.69629pt too wide) in paragraph at lines 23--23
+ \EU1/EBGaramond(2)/bx/n/10.95 construction algorithm with $[] \OT1/cmr/m/n/10.
+95 = []\OML/cmm/m/it/10.95 :[]$\EU1/EBGaramond(2)/bx/n/10.95 , a comparison of 
+the jet mass distribution for QCD 
+ []
+
+
+Overfull \hbox (14.45036pt too wide) in paragraph at lines 23--23
+ \EU1/EBGaramond(2)/bx/n/10.95 background jets and $[]$ boson jets low $[][]$  
+and high $[][]$  kinematic regions, as determined 
+ []
+
+
+Overfull \hbox (14.36858pt too wide) in paragraph at lines 23--23
+ \EU1/EBGaramond(2)/bx/n/10.95 by the untrimmed truth jet $[][]$ . The trimming
+ parameter choices shown here are $[][] \OT1/cmr/m/n/10.95 = 
+ []
+
+
+Overfull \hbox (13.6472pt too wide) in paragraph at lines 24--24
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Uncalibrated (dashed line) and calibr
 ated (solid line) reconstructed jet mass distribution 
  []
 
 
-Overfull \hbox (9.63992pt too wide) in paragraph at lines 22--22
- \EU1/EBGaramond(2)/bx/n/10.95 3.2a, and the jet mass resolution vs jet $[][]$ 
-3.2b for calorimeter-based jet mass, $[][]$ (red), 
+Overfull \hbox (11.17291pt too wide) in paragraph at lines 24--24
+ \EU1/EBGaramond(2)/bx/n/10.95 3.4a, and the jet mass resolution vs jet $[][]$ 
+3.4b for calorimeter-based jet mass, $[][]$ (red), 
  []
 
 
-Overfull \hbox (4.52715pt too wide) in paragraph at lines 22--22
+Overfull \hbox (4.52715pt too wide) in paragraph at lines 24--24
  \EU1/EBGaramond(2)/bx/n/10.95 track-assisted jet mass $[][]$ (black) and the i
 nvariant mass of four-vector sum of tracks 
  []
 
+[8]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 23.
+(Font)              scaled to size 10.95pt on input line 25.
 
-Overfull \hbox (1.83217pt too wide) in paragraph at lines 23--23
+Overfull \hbox (1.83217pt too wide) in paragraph at lines 25--25
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Secondary vertex reconstruction rate 
 and \EU1/EBGaramond(2)/m/it/10.95 MV2c10 \EU1/EBGaramond(2)/bx/n/10.95 output f
 or b-jets (solid blue), c-jets 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
  [][] [][][]$[]$\EU1/EBGaramond(2)/bx/n/10.95 -jet efficiency for the fixed cut
  working point with a $[]$-jet efficiency of 77% as a func- 
  []
 
 
-Overfull \hbox (19.12408pt too wide) in paragraph at lines 24--24
+Overfull \hbox (19.12408pt too wide) in paragraph at lines 26--26
  \EU1/EBGaramond(2)/bx/n/10.95 tion of the jet $[][]$  for the comparison betwe
 en the \EU1/EBGaramond(2)/m/it/10.95 MV2c10 $[]$\EU1/EBGaramond(2)/bx/n/10.95 -
 tagging algorithm employed 
  []
 
 
-Overfull \hbox (10.9973pt too wide) in paragraph at lines 24--24
+Overfull \hbox (10.9973pt too wide) in paragraph at lines 26--26
  \EU1/EBGaramond(2)/bx/n/10.95 for the 2016 analyses (2016 config) and the prev
 ious version of the tagger, \EU1/EBGaramond(2)/m/it/10.95 MV2c20 \EU1/EBGaramon
 d(2)/bx/n/10.95 (2015 
  []
 
 
-Overfull \hbox (8.00987pt too wide) in paragraph at lines 25--25
+Overfull \hbox (8.00987pt too wide) in paragraph at lines 27--27
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Light-flavour jet and $[]$-jet reject
 ion as a function of jet $[][]$  for the previous (2015 config) 
  []
 
 
-Overfull \hbox (4.76308pt too wide) in paragraph at lines 25--25
+Overfull \hbox (4.76308pt too wide) in paragraph at lines 27--27
  \EU1/EBGaramond(2)/m/it/10.95 MV2c20 \EU1/EBGaramond(2)/bx/n/10.95 and the cur
 rent \EU1/EBGaramond(2)/m/it/10.95 MV2c10 \EU1/EBGaramond(2)/bx/n/10.95 configu
 ration (2016 config). A fixed cut at 77% $[]$-jet 
  []
 
-[8]
-Overfull \hbox (7.67584pt too wide) in paragraph at lines 28--28
+
+Overfull \hbox (7.67584pt too wide) in paragraph at lines 30--30
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 2015 ATLAS boosted di-Higgs event can
 didate’s event display. The data is taken in run 
  []
 
 
-Overfull \hbox (12.5705pt too wide) in paragraph at lines 28--28
+Overfull \hbox (12.5705pt too wide) in paragraph at lines 30--30
  \EU1/EBGaramond(2)/bx/n/10.95 282712, lumiblock 503 and has event number 59566
 1746. ID is in gray, ECAL is in green, 
  []
 
 
-Overfull \hbox (13.99823pt too wide) in paragraph at lines 28--28
+Overfull \hbox (13.99823pt too wide) in paragraph at lines 30--30
  \EU1/EBGaramond(2)/bx/n/10.95 HCAL is in red and MS is in blue. Only tracks wi
 th $[][]$$\OML/cmm/m/it/10.95 > [][]$ \EU1/EBGaramond(2)/bx/n/10.95 GeVare show
 n. Jets are gray 
  []
 
 
-Overfull \hbox (16.57088pt too wide) in paragraph at lines 28--28
+Overfull \hbox (16.57088pt too wide) in paragraph at lines 30--30
  \EU1/EBGaramond(2)/bx/n/10.95 cones, and ID tracks are colored lines in the ID
 . There are $[][]$ tagged tracks within in each 
  []
 
 
-Overfull \hbox (1.61127pt too wide) in paragraph at lines 28--28
+Overfull \hbox (1.61127pt too wide) in paragraph at lines 30--30
  \EU1/EBGaramond(2)/bx/n/10.95 of the large-$[]$ jets. The one large-$[]$ jet h
 as $[][][]$ GeVmass and $[][][]$ GeV$[][]$, and the other 
  []
 
 
-Overfull \hbox (0.19632pt too wide) in paragraph at lines 28--28
+Overfull \hbox (0.19632pt too wide) in paragraph at lines 30--30
  \EU1/EBGaramond(2)/bx/n/10.95 one has $[][][]$ GeVmass and $[][][]$ GeV$[][]$.
  The $[][]$ between the two large-$[]$ jet is $[]\OML/cmm/m/it/10.95 :[][]$ \EU
 1/EBGaramond(2)/bx/n/10.95 and 
  []
 
 
-Overfull \hbox (1.52556pt too wide) in paragraph at lines 29--29
+Overfull \hbox (1.52556pt too wide) in paragraph at lines 31--31
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Different trigger efficiencies as a f
 unction of the signal resonance mass with respect to 
  []
 
 
-Overfull \hbox (7.14291pt too wide) in paragraph at lines 29--29
+Overfull \hbox (7.14291pt too wide) in paragraph at lines 31--31
  \EU1/EBGaramond(2)/bx/n/10.95 all events with no selection (left) and with res
 pect to events passing the two large-$[]$ jets 
  []
 
 
-Overfull \hbox (7.56868pt too wide) in paragraph at lines 29--29
+Overfull \hbox (7.56868pt too wide) in paragraph at lines 31--31
  [][]$$\OML/cmm/m/it/10.95 > [][][]$ \EU1/EBGaramond(2)/bx/n/10.95 GeV  and lea
 ding/subleading jet $[][]$$\OML/cmm/m/it/10.95 > [][][]$ \EU1/EBGaramond(2)/bx/
 n/10.95 GeV(right). For $[]\OML/cmm/m/it/10.95 :[]$ \EU1/EBGaramond(2)/bx/n/10.
@@ -1548,603 +1592,567 @@ n/10.95 GeV(right). For $[]\OML/cmm/m/it/10.95 :[]$ \EU1/EBGaramond(2)/bx/n/10.
  []
 
 
-Overfull \hbox (10.54834pt too wide) in paragraph at lines 30--30
+Overfull \hbox (10.54834pt too wide) in paragraph at lines 32--32
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Large-$[]$ jet trigger efficiencies, 
 defined as the fraction of events fired trigger with a given 
  []
 
 
-Overfull \hbox (11.76613pt too wide) in paragraph at lines 30--30
+Overfull \hbox (11.76613pt too wide) in paragraph at lines 32--32
  \EU1/EBGaramond(2)/bx/n/10.95 highest large-$[]$ jet $[][]$, measured in 2015 
 Data (\EU1/SourceCodePro(0)/m/it/10.95 HLT_j360_a10_lcw\EU1/EBGaramond(2)/bx/n/
 10.95 , left) and 2016 Data 
  []
 
 
-Overfull \hbox (13.96907pt too wide) in paragraph at lines 31--31
+Overfull \hbox (13.96907pt too wide) in paragraph at lines 33--33
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Percentages of truth Higgs to large-$
 []$ jet $[][] \OML/cmm/m/it/10.95 < []:[]$ \EU1/EBGaramond(2)/bx/n/10.95 matchi
 ng as a function of $[][]$  mass. 
  []
 
 
-Overfull \hbox (6.77058pt too wide) in paragraph at lines 32--32
+Overfull \hbox (6.77058pt too wide) in paragraph at lines 34--34
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Normalized $[][]$ between the truth H
 iggs (leading on left, subleading on right) and the 
  []
 
 
-Overfull \hbox (10.20955pt too wide) in paragraph at lines 32--32
+Overfull \hbox (10.20955pt too wide) in paragraph at lines 34--34
  \EU1/EBGaramond(2)/bx/n/10.95 truth children $[]$-quarks for $[][]$  MCs. Line
 s are drawn at $[][] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 :[]$ \EU1/EBGar
 amond(2)/bx/n/10.95 ($[]$ of small-$[]$ jets) 
  []
 
 
-Overfull \hbox (7.69156pt too wide) in paragraph at lines 33--33
+Overfull \hbox (7.69156pt too wide) in paragraph at lines 35--35
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Percentage of $[][] \OML/cmm/m/it/10.
 95 < []:[]$ \EU1/EBGaramond(2)/bx/n/10.95 matching truth $[]$’s to track jets (
 leading Higgs on the left, sub- 
  []
 
 
-Overfull \hbox (12.06992pt too wide) in paragraph at lines 33--33
+Overfull \hbox (12.06992pt too wide) in paragraph at lines 35--35
  \EU1/EBGaramond(2)/bx/n/10.95 leading Higgs on the right) for different $[][]$
   mass. The cases listed in the legend are or- 
  []
 
 
-Overfull \hbox (5.12447pt too wide) in paragraph at lines 33--33
+Overfull \hbox (5.12447pt too wide) in paragraph at lines 35--35
  \EU1/EBGaramond(2)/bx/n/10.95 thogonal to each other. The cases not listed on 
 the legend (including when a truth $[]$ is 
  []
 
 
-Overfull \hbox (33.23022pt too wide) in paragraph at lines 33--33
+Overfull \hbox (33.23022pt too wide) in paragraph at lines 35--35
  \EU1/EBGaramond(2)/bx/n/10.95 not contained in the large-$[]$ jet) happen in t
 otal at most $[]\OML/cmm/m/it/10.95 :[]\OT1/cmr/m/n/10.95 %$ \EU1/EBGaramond(2)
 /bx/n/10.95 of the time for a given $[][]$  mass.[][] []  
  []
 
-
-Overfull \hbox (6.67151pt too wide) in paragraph at lines 34--34
+[9]
+Overfull \hbox (6.67151pt too wide) in paragraph at lines 36--36
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics of $[]$ TeV  $[][]$  befor
 e and after muon-in-jet corrections. The reconstructed 
  []
 
 
-Overfull \hbox (7.41656pt too wide) in paragraph at lines 34--34
+Overfull \hbox (7.41656pt too wide) in paragraph at lines 36--36
  \EU1/EBGaramond(2)/bx/n/10.95 closer to $[][][]$ GeVafter the correction, whic
 h improves the signal efficiency for the signal 
  []
 
 
-Overfull \hbox (5.5821pt too wide) in paragraph at lines 34--34
+Overfull \hbox (5.5821pt too wide) in paragraph at lines 36--36
  \EU1/EBGaramond(2)/bx/n/10.95 region selection by $\OMS/cmsy/m/n/10.95 ^^X  []
 []\OT1/cmr/m/n/10.95 %$ \EU1/EBGaramond(2)/bx/n/10.95 (bottom row, left for $[]
 []$, right for event distribution differ- 
  []
 
 
-Overfull \hbox (1.23315pt too wide) in paragraph at lines 35--35
+Overfull \hbox (1.23315pt too wide) in paragraph at lines 37--37
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 After large-$[]$ jet requirements, no
 rmalized $[][][]$ distribution in $[]\OML/cmm/m/it/10.95 :[]$ \EU1/EBGaramond(2
 )/bx/n/10.95 TeV$[][]$  and data, 
  []
 
 
-Overfull \hbox (22.74666pt too wide) in paragraph at lines 35--35
+Overfull \hbox (22.74666pt too wide) in paragraph at lines 37--37
  \EU1/EBGaramond(2)/bx/n/10.95 where the data consists of mostly multijet event
 s (> 90$\OT1/cmr/m/n/10.95 %$\EU1/EBGaramond(2)/bx/n/10.95 ). The background mu
 ltijet event 
  []
 
-[9]
-Overfull \hbox (3.71191pt too wide) in paragraph at lines 36--36
+
+Overfull \hbox (3.71191pt too wide) in paragraph at lines 38--38
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Event display of the same event using
   5.9a resolved and  5.9b boosted topologies. The 
  []
 
 
-Overfull \hbox (1.24pt too wide) in paragraph at lines 36--36
+Overfull \hbox (1.24pt too wide) in paragraph at lines 38--38
  \EU1/EBGaramond(2)/bx/n/10.95 resolved reconstruction gives a $[][]$ of $[][][
 ]$ GeV , and the boosted reconstruction gives 
  []
 
 
-Overfull \hbox (12.7468pt too wide) in paragraph at lines 37--37
+Overfull \hbox (12.7468pt too wide) in paragraph at lines 39--39
  \EU1/EBGaramond(2)/bx/n/10.95 mass and subleading Higgs candidate mass, for $[
 ]\OML/cmm/m/it/10.95 :[]$ \EU1/EBGaramond(2)/bx/n/10.95 TeV (left) signal and $
 []$ TeV (right) sig- 
  []
 
 
-Overfull \hbox (2.93445pt too wide) in paragraph at lines 37--37
+Overfull \hbox (2.93445pt too wide) in paragraph at lines 39--39
  \EU1/EBGaramond(2)/bx/n/10.95 nal samples. The red dotted line in the center c
 orrespond to the signal region, passing 
  []
 
 
-Overfull \hbox (8.50069pt too wide) in paragraph at lines 38--38
+Overfull \hbox (8.50069pt too wide) in paragraph at lines 40--40
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Signal fraction in different $[]$-tag
  categories (left) and detailed fraction in different num- 
  []
 
 
-Overfull \hbox (16.19856pt too wide) in paragraph at lines 38--38
+Overfull \hbox (16.19856pt too wide) in paragraph at lines 40--40
  \EU1/EBGaramond(2)/bx/n/10.95 ber of track jet and $[]$-tag categories (right)
  as a function of signal resonance mass hypoth- 
  []
 
 
-Overfull \hbox (7.48969pt too wide) in paragraph at lines 38--38
+Overfull \hbox (7.48969pt too wide) in paragraph at lines 40--40
  \EU1/EBGaramond(2)/bx/n/10.95 esis for selection cuts. The efficiencies are re
 lative to the total number of events passing 
  []
 
 
-Overfull \hbox (12.47557pt too wide) in paragraph at lines 39--39
+Overfull \hbox (12.47557pt too wide) in paragraph at lines 41--41
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Absolute (left) and relative (right) 
 signal efficiency as a function of RSG c=1.0 signal res- 
  []
 
 
-Overfull \hbox (15.43938pt too wide) in paragraph at lines 39--39
+Overfull \hbox (15.43938pt too wide) in paragraph at lines 41--41
  \EU1/EBGaramond(2)/bx/n/10.95 onance mass hypothesis for selection cuts. The r
 elative efficiency is defined from the pre- 
  []
 
 
-Overfull \hbox (15.0123pt too wide) in paragraph at lines 39--39
+Overfull \hbox (15.0123pt too wide) in paragraph at lines 41--41
  \EU1/EBGaramond(2)/bx/n/10.95 vious cut, where the order of cuts is given by t
 he legend. PassTrig means the event passes 
  []
 
 
-Overfull \hbox (8.77444pt too wide) in paragraph at lines 39--39
+Overfull \hbox (8.77444pt too wide) in paragraph at lines 41--41
  \EU1/EBGaramond(2)/bx/n/10.95 the trigger selection; PassDiJetPt means the eve
 nt passes the leading and sub-leading jet 
  []
 
 
-Overfull \hbox (10.44075pt too wide) in paragraph at lines 39--39
+Overfull \hbox (10.44075pt too wide) in paragraph at lines 41--41
  [][]$\EU1/EBGaramond(2)/bx/n/10.95 cuts; PassDiJetEta means the event passes t
 he leading and sub-leading jet $[]$ cuts; Pass- 
  []
 
 
-Overfull \hbox (6.89828pt too wide) in paragraph at lines 39--39
+Overfull \hbox (6.89828pt too wide) in paragraph at lines 41--41
  \EU1/EBGaramond(2)/bx/n/10.95 DetaH means the events passes the $\OMS/cmsy/m/n
 /10.95 j[][]j \OML/cmm/m/it/10.95 < []:[]$ \EU1/EBGaramond(2)/bx/n/10.95 cut; P
 assBJetSkim means the event con- 
  []
 
 
-Overfull \hbox (20.34863pt too wide) in paragraph at lines 39--39
+Overfull \hbox (20.34863pt too wide) in paragraph at lines 41--41
  \EU1/EBGaramond(2)/bx/n/10.95 tains at least two $[]$-tagged track jets, inclu
 sive of $[][]$, $[][][]$, $[][]$ and $[][]$ configurations; PassSig- 
  []
 
 
-Overfull \hbox (5.47832pt too wide) in paragraph at lines 41--41
+Overfull \hbox (5.47832pt too wide) in paragraph at lines 43--43
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The $[][]$vs $[][]$distribution of th
 e $[][][]$ data. The signal region is the area surrounded 
  []
 
 
-Overfull \hbox (15.87337pt too wide) in paragraph at lines 41--41
+Overfull \hbox (15.87337pt too wide) in paragraph at lines 43--43
  \EU1/EBGaramond(2)/bx/n/10.95 by the inner (red) dashed contour line, centered
  on ($[][]$=124 GeV, $[][]$=115 GeV). The 
  []
 
 
-Overfull \hbox (6.0479pt too wide) in paragraph at lines 41--41
+Overfull \hbox (6.0479pt too wide) in paragraph at lines 43--43
  \EU1/EBGaramond(2)/bx/n/10.95 control region is the area between the signal re
 gion and the intermediate (orange) con- 
  []
 
 
-Overfull \hbox (12.31862pt too wide) in paragraph at lines 41--41
+Overfull \hbox (12.31862pt too wide) in paragraph at lines 43--43
  \EU1/EBGaramond(2)/bx/n/10.95 tour line. The sideband region is the area betwe
 en the control region and the outer (yel- 
  []
 
-
-Overfull \hbox (9.0263pt too wide) in paragraph at lines 42--42
+[10]
+Overfull \hbox (9.0263pt too wide) in paragraph at lines 44--44
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Detailed signal efficiency in differe
 nt signal/control/sideband regions as in $[][][]$ (top left, 
  []
 
 
-Overfull \hbox (8.77449pt too wide) in paragraph at lines 42--42
+Overfull \hbox (8.77449pt too wide) in paragraph at lines 44--44
  [][]$ \EU1/EBGaramond(2)/bx/n/10.95 (top right), $[][]$ (bottom left) and incl
 usive b-tagged regions, which include $[][]$, $[][]$ and 
  []
 
 
-Overfull \hbox (13.19827pt too wide) in paragraph at lines 42--42
+Overfull \hbox (13.19827pt too wide) in paragraph at lines 44--44
  \EU1/EBGaramond(2)/bx/n/10.95 0$[]$ as well, (bottom right) as a function of s
 ignal resonance mass hypothesis for selection 
  []
 
 
-Overfull \hbox (16.09195pt too wide) in paragraph at lines 43--43
+Overfull \hbox (16.09195pt too wide) in paragraph at lines 45--45
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Normalized of $[][]$, $[][]$, and $[]
 []$ $[][]$  MC $[][]$distribution in the SR. The uncertainties are sta- 
  []
 
 
-Overfull \hbox (13.54343pt too wide) in paragraph at lines 44--44
+Overfull \hbox (13.54343pt too wide) in paragraph at lines 46--46
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Simultaneous fit of $[][]$  and $[][]
 $  in $[][]$ (top) and $[][]$ (middle) and $[][][]$ (bottom) sideband 
  []
 
-[10]
-Overfull \hbox (12.11247pt too wide) in paragraph at lines 45--45
+
+Overfull \hbox (12.11247pt too wide) in paragraph at lines 47--47
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Comparison of different track jet $[]
 []$distributions. The top row is for leading Higgs can- 
  []
 
 
-Overfull \hbox (14.78238pt too wide) in paragraph at lines 45--45
+Overfull \hbox (14.78238pt too wide) in paragraph at lines 47--47
  \EU1/EBGaramond(2)/bx/n/10.95 didate, and the bottom row is for subleading Hig
 gs candidate. The left column is for the 
  []
 
 
-Overfull \hbox (12.37703pt too wide) in paragraph at lines 45--45
+Overfull \hbox (12.37703pt too wide) in paragraph at lines 47--47
  \EU1/EBGaramond(2)/bx/n/10.95 leading track jet of the Higgs candidate, and th
 e right column is for the subleading track 
  []
 
 
-Overfull \hbox (14.12538pt too wide) in paragraph at lines 45--45
+Overfull \hbox (14.12538pt too wide) in paragraph at lines 47--47
  \EU1/EBGaramond(2)/bx/n/10.95 jet of the Higgs candidate. Shown in the plot ar
 e data distributions, inclusive of SB, CR, 
  []
 
 
-Overfull \hbox (8.27808pt too wide) in paragraph at lines 45--45
+Overfull \hbox (8.27808pt too wide) in paragraph at lines 47--47
  \EU1/EBGaramond(2)/bx/n/10.95 and SR regions for 0$[]$ and $[][]$, while for $
 [][][]$ only the SB region is shown. At the bottom 
  []
 
 
-Overfull \hbox (11.75575pt too wide) in paragraph at lines 46--46
+Overfull \hbox (11.75575pt too wide) in paragraph at lines 48--48
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The $[][]$distributions in the sideba
 nd region of the boosted analysis for the data and the 
  []
 
 
-Overfull \hbox (10.98634pt too wide) in paragraph at lines 46--46
+Overfull \hbox (10.98634pt too wide) in paragraph at lines 48--48
  \EU1/EBGaramond(2)/bx/n/10.95 predicted background for (top left) the four-tag
 , (top right) the three-tag, and (bottom) 
  []
 
 
-Overfull \hbox (11.14694pt too wide) in paragraph at lines 46--46
+Overfull \hbox (11.14694pt too wide) in paragraph at lines 48--48
  \EU1/EBGaramond(2)/bx/n/10.95 the two-tag split samples. The data-to-backgroun
 d ratio (bottom panels) shows the sta- 
  []
 
 
-Overfull \hbox (4.8901pt too wide) in paragraph at lines 47--47
+Overfull \hbox (4.8901pt too wide) in paragraph at lines 49--49
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The $[][]$distributions in the contro
 l region of the boosted analysis for the data and the 
  []
 
 
-Overfull \hbox (10.98634pt too wide) in paragraph at lines 47--47
+Overfull \hbox (10.98634pt too wide) in paragraph at lines 49--49
  \EU1/EBGaramond(2)/bx/n/10.95 predicted background for (top left) the four-tag
 , (top right) the three-tag, and (bottom) 
  []
 
 
-Overfull \hbox (11.14694pt too wide) in paragraph at lines 47--47
+Overfull \hbox (11.14694pt too wide) in paragraph at lines 49--49
  \EU1/EBGaramond(2)/bx/n/10.95 the two-tag split samples. The data-to-backgroun
 d ratio (bottom panels) shows the sta- 
  []
 
 
-Overfull \hbox (8.63501pt too wide) in paragraph at lines 48--48
+Overfull \hbox (8.63501pt too wide) in paragraph at lines 50--50
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Normalized scaled $[][]$  distributio
 ns for the $[][]$ (left), $[][]$ (middle), and $[][][]$ (right) signal 
  []
 
 
-Overfull \hbox (1.01016pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.01016pt too wide) in paragraph at lines 50--50
  \EU1/EBGaramond(2)/bx/n/10.95 regions. For comparison, the unscaled $[][]$  di
 stributions are shown on the same plot. 
  []
 
 
-Overfull \hbox (0.75905pt too wide) in paragraph at lines 49--49
+Overfull \hbox (0.75905pt too wide) in paragraph at lines 51--51
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Fits for scaled background smoothing 
 are shown for QCD (left column) and $[][]$ (right 
  []
 
 
-Overfull \hbox (23.23578pt too wide) in paragraph at lines 49--49
+Overfull \hbox (23.23578pt too wide) in paragraph at lines 51--51
  \EU1/EBGaramond(2)/bx/n/10.95 column) in the $[][]$ (top), $[][]$ (middle), an
 d $[][][]$ (bottom) signal region. The left figures show 
  []
 
 
-Overfull \hbox (3.8579pt too wide) in paragraph at lines 49--49
+Overfull \hbox (3.8579pt too wide) in paragraph at lines 51--51
  \EU1/EBGaramond(2)/bx/n/10.95 the distributions with linear $[]$-axis scale al
 ong with the fit central value and variations. 
  []
 
 
-Overfull \hbox (2.1059pt too wide) in paragraph at lines 49--49
+Overfull \hbox (2.1059pt too wide) in paragraph at lines 51--51
  \EU1/EBGaramond(2)/bx/n/10.95 The right figures show the distributions with lo
 g $[]$-axis scale along with the fit central 
  []
 
 
-Overfull \hbox (2.2373pt too wide) in paragraph at lines 49--49
+Overfull \hbox (2.2373pt too wide) in paragraph at lines 51--51
  \EU1/EBGaramond(2)/bx/n/10.95 value and the fit variations as determined by th
 e varying the fit parameters within un- 
  []
 
-
-Overfull \hbox (4.88722pt too wide) in paragraph at lines 50--50
+[11]
+Overfull \hbox (4.88722pt too wide) in paragraph at lines 52--52
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Background prediction for $[][]$ (top
 ), $[][]$ (middle), and $[][][]$ (bottom) signal region using 
  []
 
 
-Overfull \hbox (19.30469pt too wide) in paragraph at lines 50--50
+Overfull \hbox (19.30469pt too wide) in paragraph at lines 52--52
  \EU1/EBGaramond(2)/bx/n/10.95 scaled di-jet mass before (left) and after smoot
 hing (right). The uncertainty band includes 
  []
 
 
-Overfull \hbox (15.78154pt too wide) in paragraph at lines 52--52
+Overfull \hbox (15.78154pt too wide) in paragraph at lines 54--54
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Impact of efficiency scale factor $[]
 []$ and inefficiency scale factor $[][]$ on $[]$ TeV  $[][]$  with 
  []
 
 
-Overfull \hbox (5.44313pt too wide) in paragraph at lines 52--52
+Overfull \hbox (5.44313pt too wide) in paragraph at lines 54--54
  [] \OT1/cmr/m/n/10.95 = []\OML/cmm/m/it/10.95 :[]$\EU1/EBGaramond(2)/bx/n/10.9
 5 . $[][]$ signal region (left), $[][]$ signal region (middle), and $[][][]$ si
 gnal region are shown.[][] []  
  []
 
 
-Overfull \hbox (0.55827pt too wide) in paragraph at lines 53--53
+Overfull \hbox (0.55827pt too wide) in paragraph at lines 55--55
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Total background estimation (qcd + $[
 ][]$) with different $[][]$MC variations. The different 
  []
 
 
-Overfull \hbox (5.71944pt too wide) in paragraph at lines 54--54
+Overfull \hbox (5.71944pt too wide) in paragraph at lines 56--56
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Illustration of ZZ (left) and TT (rig
 ht) signal region as shown in the orange shaded re- 
  []
 
 
-Overfull \hbox (4.62808pt too wide) in paragraph at lines 54--54
+Overfull \hbox (4.62808pt too wide) in paragraph at lines 56--56
  \EU1/EBGaramond(2)/bx/n/10.95 gion. Control region shown in green, and sideban
 d region in blue. The white circle in 
  []
 
-[11]
-Overfull \hbox (15.09264pt too wide) in paragraph at lines 55--55
+
+Overfull \hbox (15.09264pt too wide) in paragraph at lines 57--57
  \EU1/EBGaramond(2)/bx/n/10.95 column) in low mass signal, for $[][]$ (top row)
 , $[][]$(middle row) and $[][]$ split (bottom row). 
  []
 
 
-Overfull \hbox (1.50656pt too wide) in paragraph at lines 56--56
+Overfull \hbox (1.50656pt too wide) in paragraph at lines 58--58
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 TT signal region distribution of $[][
 ]$  (left column) and leading large-R jet mass (right 
  []
 
 
-Overfull \hbox (15.09264pt too wide) in paragraph at lines 56--56
+Overfull \hbox (15.09264pt too wide) in paragraph at lines 58--58
  \EU1/EBGaramond(2)/bx/n/10.95 column) in low mass signal, for $[][]$ (top row)
 , $[][]$(middle row) and $[][]$ split (bottom row). 
  []
 
 
-Overfull \hbox (14.89839pt too wide) in paragraph at lines 57--57
+Overfull \hbox (14.89839pt too wide) in paragraph at lines 59--59
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The shape of $[][]$  $[][]$  in the s
 ideband region, comparing the $[][]$ shape with that of the $[][][]$, 
  []
 
 
-Overfull \hbox (7.49329pt too wide) in paragraph at lines 57--57
+Overfull \hbox (7.49329pt too wide) in paragraph at lines 59--59
  \EU1/EBGaramond(2)/bx/n/10.95 in order to asses the systematic effect of addit
 ional $[]$-tags changing the dijet mass distri- 
  []
 
 
-Overfull \hbox (0.80176pt too wide) in paragraph at lines 57--57
+Overfull \hbox (0.80176pt too wide) in paragraph at lines 59--59
  \EU1/EBGaramond(2)/bx/n/10.95 bution. The $[][]$ distributions is shown on the
  left, and the ratio of $[][]$ to $[][][]$ distribu- 
  []
 
 
-Overfull \hbox (0.32104pt too wide) in paragraph at lines 58--58
+Overfull \hbox (0.32104pt too wide) in paragraph at lines 60--60
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Dijet mass distribution in the CR alo
 ng with the prediction (left) and the ratio of the 
  []
 
 
-Overfull \hbox (7.95325pt too wide) in paragraph at lines 58--58
+Overfull \hbox (7.95325pt too wide) in paragraph at lines 60--60
  \EU1/EBGaramond(2)/bx/n/10.95 prediction to the CR distribution (right) for th
 e $[][][]$ (top) $[][]$ (middle) and $[][]$ (bottom) 
  []
 
 
-Overfull \hbox (0.76636pt too wide) in paragraph at lines 58--58
+Overfull \hbox (0.76636pt too wide) in paragraph at lines 60--60
  \EU1/EBGaramond(2)/bx/n/10.95 samples. Ratios are from the smoothed distributi
 ons, the data uncertainty band con- 
  []
 
 
-Overfull \hbox (14.09615pt too wide) in paragraph at lines 58--58
+Overfull \hbox (14.09615pt too wide) in paragraph at lines 60--60
  \EU1/EBGaramond(2)/bx/n/10.95 tains the smoothing parameter variations, and th
 e prediction uncertainty band also con- 
  []
 
 
-Overfull \hbox (21.67355pt too wide) in paragraph at lines 59--59
+Overfull \hbox (21.67355pt too wide) in paragraph at lines 61--61
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Dijet mass distribution SR prediction
  fit with several fit ranges (left) and the ratio of nom- 
  []
 
 
-Overfull \hbox (9.3877pt too wide) in paragraph at lines 59--59
+Overfull \hbox (9.3877pt too wide) in paragraph at lines 61--61
  \EU1/EBGaramond(2)/bx/n/10.95 inal to fits with different fit ranges (right) f
 or the $[][][]$ (top) $[][]$ (middle) and $[][]$ (bottom) 
  []
 
-
-Overfull \hbox (10.4279pt too wide) in paragraph at lines 60--60
+[12]
+Overfull \hbox (10.4279pt too wide) in paragraph at lines 62--62
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Dijet mass distribution SR prediction
  fit with several fit functions (left) and the ratio of 
  []
 
 
-Overfull \hbox (0.84668pt too wide) in paragraph at lines 60--60
+Overfull \hbox (0.84668pt too wide) in paragraph at lines 62--62
  \EU1/EBGaramond(2)/bx/n/10.95 nominal to fits with different fit functions (ri
 ght) for the 2b (top) 3b (middle) and 4b 
  []
 
 
-Overfull \hbox (0.1787pt too wide) in paragraph at lines 61--61
+Overfull \hbox (0.1787pt too wide) in paragraph at lines 63--63
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Impact of each systematic on the sign
 al prediction as a function of the signal mass, in 
  []
 
 
-Overfull \hbox (7.88676pt too wide) in paragraph at lines 63--63
+Overfull \hbox (7.88676pt too wide) in paragraph at lines 65--65
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Unscaled $[][]$  distribution in the 
 $[][]$ Signal Region after unblinding. The left plot is on 
  []
 
 
-Overfull \hbox (6.57275pt too wide) in paragraph at lines 64--64
+Overfull \hbox (6.57275pt too wide) in paragraph at lines 66--66
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Unscaled $[][]$  distribution in the 
 $[][]$ Signal Region after unblinding. The left plot is on 
  []
 
 
-Overfull \hbox (10.14246pt too wide) in paragraph at lines 65--65
+Overfull \hbox (10.14246pt too wide) in paragraph at lines 67--67
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Unscaled $[][]$  distribution in the 
 $[][][]$ Signal Region after unblinding. The left plot is on 
  []
 
 
-Overfull \hbox (11.86162pt too wide) in paragraph at lines 66--66
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Scaled $[][]$  distribution in the $[
-][]$ Signal Region after unblinding. The left plot is on lin- 
- []
-
-[12]
-Overfull \hbox (10.5476pt too wide) in paragraph at lines 67--67
+Overfull \hbox (11.86162pt too wide) in paragraph at lines 68--68
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Scaled $[][]$  distribution in the $[
 ][]$ Signal Region after unblinding. The left plot is on lin- 
  []
 
 
-Overfull \hbox (14.11731pt too wide) in paragraph at lines 68--68
+Overfull \hbox (10.5476pt too wide) in paragraph at lines 69--69
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Scaled $[][]$  distribution in the $[
+][]$ Signal Region after unblinding. The left plot is on lin- 
+ []
+
+
+Overfull \hbox (14.11731pt too wide) in paragraph at lines 70--70
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Scaled $[][]$  distribution in the $[
 ][][]$ Signal Region after unblinding. The left plot is on lin- 
  []
 
 
-Overfull \hbox (10.1751pt too wide) in paragraph at lines 69--69
+Overfull \hbox (10.1751pt too wide) in paragraph at lines 71--71
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Distributions of $[][]$in the signal 
 region of the resolved analysis for (a) 2015 data and (b) 
  []
 
 
-Overfull \hbox (0.22983pt too wide) in paragraph at lines 69--69
+Overfull \hbox (0.22983pt too wide) in paragraph at lines 71--71
  \EU1/EBGaramond(2)/bx/n/10.95 2016 data, compared to the predicted backgrounds
 . The hatched bands shown in the 
  []
 
 
-Overfull \hbox (10.30742pt too wide) in paragraph at lines 69--69
+Overfull \hbox (10.30742pt too wide) in paragraph at lines 71--71
  \EU1/EBGaramond(2)/bx/n/10.95 bottom panels represent the combined statistical
  and systematic uncertainties in the to- 
  []
 
 
-Overfull \hbox (26.09685pt too wide) in paragraph at lines 69--69
+Overfull \hbox (26.09685pt too wide) in paragraph at lines 71--71
  \EU1/EBGaramond(2)/bx/n/10.95 tal background estimates. The expected signal di
 stributions of $[][]$ resonances with masses 
  []
 
 
-Overfull \hbox (15.04869pt too wide) in paragraph at lines 69--69
+Overfull \hbox (15.04869pt too wide) in paragraph at lines 71--71
  \EU1/EBGaramond(2)/bx/n/10.95 of 800 and 1200 GeV, the 280 GeV scalar sample a
 nd SM non-resonant di-Higgs produc- 
  []
 
 
-Overfull \hbox (30.67697pt too wide) in paragraph at lines 69--69
+Overfull \hbox (30.67697pt too wide) in paragraph at lines 71--71
  \EU1/EBGaramond(2)/bx/n/10.95 tion $\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^
 B[][][]\OT1/cmr/m/n/10.95 )$ \EU1/EBGaramond(2)/bx/n/10.95 are also shown. The 
 scalar sample is normalized to a cross section times branch- 
  []
 
 
-Overfull \hbox (3.71555pt too wide) in paragraph at lines 71--71
+Overfull \hbox (3.71555pt too wide) in paragraph at lines 73--73
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The impact of nuisance parameters on 
 the fitted cross section, ranked by their post-fit 
  []
 
 
-Overfull \hbox (10.5338pt too wide) in paragraph at lines 71--71
+Overfull \hbox (10.5338pt too wide) in paragraph at lines 73--73
  \EU1/EBGaramond(2)/bx/n/10.95 impact. The signal mass used in this fits is 200
 0 GeV, and the signal model is (a) narrow 
  []
 
 
-Overfull \hbox (30.07819pt too wide) in paragraph at lines 72--72
+Overfull \hbox (30.07819pt too wide) in paragraph at lines 74--74
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Post-fit signal region scaled $[][]$ 
  distributions after fitting the data with the $[]$ TeV  $[][]$  with 
- []
-
-
-Overfull \hbox (1.59126pt too wide) in paragraph at lines 73--73
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
-per exclusion limits for the boosted $[][]$ analy- 
- []
-
-
-Overfull \hbox (0.18967pt too wide) in paragraph at lines 73--73
- \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
-nties for the narrow scalar model (top), 
- []
-
-
-Overfull \hbox (20.8596pt too wide) in paragraph at lines 73--73
- \EU1/EBGaramond(2)/bx/n/10.95 pected limit when only statistical uncertainties
- are included. The limits are derived within 
- []
-
-
-Overfull \hbox (1.59126pt too wide) in paragraph at lines 74--74
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
-per exclusion limits for the boosted $[][]$ analy- 
- []
-
-
-Overfull \hbox (16.30441pt too wide) in paragraph at lines 74--74
- \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
-nties for the narrow scalar model. The dot- 
- []
-
-
-Overfull \hbox (18.79004pt too wide) in paragraph at lines 74--74
- \EU1/EBGaramond(2)/bx/n/10.95 dashed line shows the expected limit when only s
-tatistical uncertainties are included. The 
  []
 
 
@@ -2154,577 +2162,517 @@ per exclusion limits for the boosted $[][]$ analy-
  []
 
 
-Overfull \hbox (23.5095pt too wide) in paragraph at lines 75--75
+Overfull \hbox (0.18967pt too wide) in paragraph at lines 75--75
  \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
-nties for the c=1.0 Graviton. The dot-dashed 
+nties for the narrow scalar model (top), 
  []
 
 
-Overfull \hbox (6.74504pt too wide) in paragraph at lines 75--75
- \EU1/EBGaramond(2)/bx/n/10.95 line shows the expected limit when only statisti
-cal uncertainties are included. The lim- 
+Overfull \hbox (20.8596pt too wide) in paragraph at lines 75--75
+ \EU1/EBGaramond(2)/bx/n/10.95 pected limit when only statistical uncertainties
+ are included. The limits are derived within 
  []
 
-
+[13]
 Overfull \hbox (1.59126pt too wide) in paragraph at lines 76--76
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
 per exclusion limits for the boosted $[][]$ analy- 
  []
 
 
-Overfull \hbox (24.96585pt too wide) in paragraph at lines 76--76
+Overfull \hbox (16.30441pt too wide) in paragraph at lines 76--76
+ \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
+nties for the narrow scalar model. The dot- 
+ []
+
+
+Overfull \hbox (18.79004pt too wide) in paragraph at lines 76--76
+ \EU1/EBGaramond(2)/bx/n/10.95 dashed line shows the expected limit when only s
+tatistical uncertainties are included. The 
+ []
+
+
+Overfull \hbox (1.59126pt too wide) in paragraph at lines 77--77
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
+per exclusion limits for the boosted $[][]$ analy- 
+ []
+
+
+Overfull \hbox (23.5095pt too wide) in paragraph at lines 77--77
+ \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
+nties for the c=1.0 Graviton. The dot-dashed 
+ []
+
+
+Overfull \hbox (6.74504pt too wide) in paragraph at lines 77--77
+ \EU1/EBGaramond(2)/bx/n/10.95 line shows the expected limit when only statisti
+cal uncertainties are included. The lim- 
+ []
+
+
+Overfull \hbox (1.59126pt too wide) in paragraph at lines 78--78
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 The expected and observed 95% C.L. up
+per exclusion limits for the boosted $[][]$ analy- 
+ []
+
+
+Overfull \hbox (24.96585pt too wide) in paragraph at lines 78--78
  \EU1/EBGaramond(2)/bx/n/10.95 sis calculated including all systematic uncertai
 nties for the c=2.0 Graviton. The dot-dashed 
  []
 
 
-Overfull \hbox (6.74504pt too wide) in paragraph at lines 76--76
+Overfull \hbox (6.74504pt too wide) in paragraph at lines 78--78
  \EU1/EBGaramond(2)/bx/n/10.95 line shows the expected limit when only statisti
 cal uncertainties are included. The lim- 
  []
 
-[13]
-Overfull \hbox (13.50679pt too wide) in paragraph at lines 79--79
+
+Overfull \hbox (13.50679pt too wide) in paragraph at lines 81--81
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the sideband 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 80--80
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 82--82
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 81--81
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 83--83
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 81--81
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 83--83
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (3.81047pt too wide) in paragraph at lines 81--81
+Overfull \hbox (3.81047pt too wide) in paragraph at lines 83--83
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the sideband region after requiring 4 $[
 ]$-tags. Third row shows the $[][]$ between 
  []
 
 
-Overfull \hbox (18.69516pt too wide) in paragraph at lines 81--81
+Overfull \hbox (18.69516pt too wide) in paragraph at lines 83--83
  \EU1/EBGaramond(2)/bx/n/10.95 two leading small-$[]$ track-jets associated to 
 the leading (left) and sub-leading (right) large- 
  []
 
 
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 82--82
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 84--84
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (13.50679pt too wide) in paragraph at lines 83--83
+Overfull \hbox (13.50679pt too wide) in paragraph at lines 85--85
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the sideband 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 84--84
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 86--86
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 85--85
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 87--87
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 85--85
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 87--87
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (2.49646pt too wide) in paragraph at lines 85--85
+Overfull \hbox (2.49646pt too wide) in paragraph at lines 87--87
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the sideband region after requiring 3 $[
 ]$-tags. Third row shows the $[][]$ between 
  []
 
 
-Overfull \hbox (18.69516pt too wide) in paragraph at lines 85--85
+Overfull \hbox (18.69516pt too wide) in paragraph at lines 87--87
  \EU1/EBGaramond(2)/bx/n/10.95 two leading small-$[]$ track-jets associated to 
 the leading (left) and sub-leading (right) large- 
  []
 
-
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 86--86
+[14]
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 88--88
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (13.50679pt too wide) in paragraph at lines 87--87
+Overfull \hbox (13.50679pt too wide) in paragraph at lines 89--89
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the sideband 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 88--88
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 90--90
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 89--89
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 91--91
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 89--89
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 91--91
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (1.09485pt too wide) in paragraph at lines 89--89
+Overfull \hbox (1.09485pt too wide) in paragraph at lines 91--91
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the sideband region after requiring 2 $[
 ]$-tags split. Third row shows the $[][]$ be- 
  []
 
 
-Overfull \hbox (21.13701pt too wide) in paragraph at lines 89--89
+Overfull \hbox (21.13701pt too wide) in paragraph at lines 91--91
  \EU1/EBGaramond(2)/bx/n/10.95 tween two leading small-$[]$ track-jets associat
 ed to the leading (left) and sub-leading (right) 
  []
 
-[14]
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 90--90
+
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 92--92
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (6.64114pt too wide) in paragraph at lines 92--92
+Overfull \hbox (6.64114pt too wide) in paragraph at lines 94--94
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the control 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 93--93
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 95--95
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 94--94
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 96--96
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 94--94
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 96--96
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (15.38463pt too wide) in paragraph at lines 94--94
+Overfull \hbox (15.38463pt too wide) in paragraph at lines 96--96
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the control region after requiring 4 $[]
 $-tags. Third row shows the $[][]$ between two 
  []
 
 
-Overfull \hbox (0.25536pt too wide) in paragraph at lines 94--94
+Overfull \hbox (0.25536pt too wide) in paragraph at lines 96--96
  \EU1/EBGaramond(2)/bx/n/10.95 leading small-$[]$ track-jets associated to the 
 leading (left) and sub-leading (right) large- 
  []
 
 
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 95--95
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 97--97
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (6.64114pt too wide) in paragraph at lines 96--96
+Overfull \hbox (6.64114pt too wide) in paragraph at lines 98--98
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the control 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 97--97
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 99--99
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 98--98
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 100--100
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 98--98
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 100--100
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (14.07062pt too wide) in paragraph at lines 98--98
+Overfull \hbox (14.07062pt too wide) in paragraph at lines 100--100
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the control region after requiring 3 $[]
 $-tags. Third row shows the $[][]$ between two 
  []
 
 
-Overfull \hbox (0.25536pt too wide) in paragraph at lines 98--98
+Overfull \hbox (0.25536pt too wide) in paragraph at lines 100--100
  \EU1/EBGaramond(2)/bx/n/10.95 leading small-$[]$ track-jets associated to the 
 leading (left) and sub-leading (right) large- 
  []
 
-
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 99--99
+[15]
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 101--101
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (6.64114pt too wide) in paragraph at lines 100--100
+Overfull \hbox (6.64114pt too wide) in paragraph at lines 102--102
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the control 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 101--101
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 103--103
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 102--102
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 104--104
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 102--102
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 104--104
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (16.33725pt too wide) in paragraph at lines 102--102
+Overfull \hbox (16.33725pt too wide) in paragraph at lines 104--104
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the control region after requiring 2 $[]
 $-tags split. Third row shows the $[][]$ between 
  []
 
 
-Overfull \hbox (18.69516pt too wide) in paragraph at lines 102--102
+Overfull \hbox (18.69516pt too wide) in paragraph at lines 104--104
  \EU1/EBGaramond(2)/bx/n/10.95 two leading small-$[]$ track-jets associated to 
 the leading (left) and sub-leading (right) large- 
  []
 
-[15]
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 103--103
+
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 105--105
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (13.025pt too wide) in paragraph at lines 105--105
+Overfull \hbox (13.025pt too wide) in paragraph at lines 107--107
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the signal re- 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 106--106
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 108--108
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 107--107
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 109--109
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 107--107
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 109--109
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (8.67227pt too wide) in paragraph at lines 107--107
+Overfull \hbox (8.67227pt too wide) in paragraph at lines 109--109
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the signal region after requiring 4 $[]$
 -tags. Third row shows the $[][]$ between two 
  []
 
 
-Overfull \hbox (0.25536pt too wide) in paragraph at lines 107--107
+Overfull \hbox (0.25536pt too wide) in paragraph at lines 109--109
  \EU1/EBGaramond(2)/bx/n/10.95 leading small-$[]$ track-jets associated to the 
 leading (left) and sub-leading (right) large- 
  []
 
 
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 108--108
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 110--110
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (13.025pt too wide) in paragraph at lines 109--109
+Overfull \hbox (13.025pt too wide) in paragraph at lines 111--111
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the signal re- 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 110--110
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 112--112
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 111--111
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 113--113
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 111--111
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 113--113
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (7.35826pt too wide) in paragraph at lines 111--111
+Overfull \hbox (7.35826pt too wide) in paragraph at lines 113--113
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the signal region after requiring 3 $[]$
 -tags. Third row shows the $[][]$ between two 
  []
 
 
-Overfull \hbox (0.25536pt too wide) in paragraph at lines 111--111
+Overfull \hbox (0.25536pt too wide) in paragraph at lines 113--113
  \EU1/EBGaramond(2)/bx/n/10.95 leading small-$[]$ track-jets associated to the 
 leading (left) and sub-leading (right) large- 
  []
 
-
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 112--112
+[16]
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 114--114
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (13.025pt too wide) in paragraph at lines 113--113
+Overfull \hbox (13.025pt too wide) in paragraph at lines 115--115
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the lead large-$[]$ jet in data and prediction in the signal re- 
  []
 
 
-Overfull \hbox (2.15164pt too wide) in paragraph at lines 114--114
+Overfull \hbox (2.15164pt too wide) in paragraph at lines 116--116
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics ($[][]$ , mass, $[]$, $[]$
 ) of the subleading large-$[]$ jet in data and prediction in the 
  []
 
 
-Overfull \hbox (1.64795pt too wide) in paragraph at lines 115--115
+Overfull \hbox (1.64795pt too wide) in paragraph at lines 117--117
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 First two rows show the $[][]$  of th
 e lead (left) and sub-lead (right) small-$[]$ track jets as- 
  []
 
 
-Overfull \hbox (10.02277pt too wide) in paragraph at lines 115--115
+Overfull \hbox (10.02277pt too wide) in paragraph at lines 117--117
  \EU1/EBGaramond(2)/bx/n/10.95 sociated to the lead (first-row) and sub-lead (s
 econd-row) large-$[]$ jet in data and predic- 
  []
 
 
-Overfull \hbox (9.6249pt too wide) in paragraph at lines 115--115
+Overfull \hbox (9.6249pt too wide) in paragraph at lines 117--117
  \EU1/EBGaramond(2)/bx/n/10.95 tion in the signal region after requiring 2 $[]$
 -tags split. Third row shows the $[][]$ between 
  []
 
 
-Overfull \hbox (18.69516pt too wide) in paragraph at lines 115--115
+Overfull \hbox (18.69516pt too wide) in paragraph at lines 117--117
  \EU1/EBGaramond(2)/bx/n/10.95 two leading small-$[]$ track-jets associated to 
 the leading (left) and sub-leading (right) large- 
  []
 
-[16]
-Overfull \hbox (7.04437pt too wide) in paragraph at lines 116--116
+
+Overfull \hbox (7.04437pt too wide) in paragraph at lines 118--118
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Kinematics (invariant mass, $[][]$, $
 [][]$ and $[][]$) of two large-$[]$ jets in data and prediction 
  []
 
 
-Overfull \hbox (1.53322pt too wide) in paragraph at lines 118--118
+Overfull \hbox (1.53322pt too wide) in paragraph at lines 120--120
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (0.60246pt too wide) in paragraph at lines 119--119
+Overfull \hbox (0.60246pt too wide) in paragraph at lines 121--121
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (3.62466pt too wide) in paragraph at lines 120--120
+Overfull \hbox (3.62466pt too wide) in paragraph at lines 122--122
  [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values e
 valuted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (1.5113pt too wide) in paragraph at lines 121--121
+Overfull \hbox (1.5113pt too wide) in paragraph at lines 123--123
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (2.82532pt too wide) in paragraph at lines 122--122
+Overfull \hbox (2.82532pt too wide) in paragraph at lines 124--124
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in data, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (21.11182pt too wide) in paragraph at lines 123--123
+Overfull \hbox (21.11182pt too wide) in paragraph at lines 125--125
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (20.18106pt too wide) in paragraph at lines 124--124
+Overfull \hbox (20.18106pt too wide) in paragraph at lines 126--126
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (23.20326pt too wide) in paragraph at lines 125--125
+Overfull \hbox (23.20326pt too wide) in paragraph at lines 127--127
  [][] [][][]$[][][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values e
 valuted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
-
-Overfull \hbox (21.0899pt too wide) in paragraph at lines 126--126
+[17]
+Overfull \hbox (21.0899pt too wide) in paragraph at lines 128--128
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (22.40392pt too wide) in paragraph at lines 127--127
+Overfull \hbox (22.40392pt too wide) in paragraph at lines 129--129
  [][] [][][]$[][]$ \EU1/EBGaramond(2)/bx/n/10.95 over $[][]$ $[][]$  values eva
 luted in dijet MC, with the $[][]$ weighted mean and the Gaus- 
  []
 
 
-Overfull \hbox (19.17331pt too wide) in paragraph at lines 129--129
+Overfull \hbox (19.17331pt too wide) in paragraph at lines 131--131
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][][]$ background estimate: the
  fits to the ratio of the data in the $[][]$ category, of the sub- 
  []
 
 
-Overfull \hbox (20.64427pt too wide) in paragraph at lines 129--129
- \EU1/EBGaramond(2)/bx/n/10.95 leading Higgs candidate $[][]$-tagged events’s s
-ubleading Higgs candidate distributions(black 
- []
-
-
-Overfull \hbox (6.16837pt too wide) in paragraph at lines 129--129
- \EU1/EBGaramond(2)/bx/n/10.95 point), over the leading Higgs candidate $[][]$-
-tagged events’s subleading Higgs candidate 
- []
-
-
-Overfull \hbox (19.88503pt too wide) in paragraph at lines 129--129
- \EU1/EBGaramond(2)/bx/n/10.95 distributions(yellow). Distributions and fits to
- the estimated QCD background for large- 
- []
-
-
-Overfull \hbox (4.72148pt too wide) in paragraph at lines 129--129
- []$ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s lead
-ing trackjet $[][]$ (middle), and large-$[]$ jet’s subleading 
- []
-
-
-Overfull \hbox (8.85767pt too wide) in paragraph at lines 129--129
- \EU1/EBGaramond(2)/bx/n/10.95 trackjet $[][]$ (right) are shown. Figures are b
-efore reweighting (top row), after the first it- 
- []
-
-
-Overfull \hbox (20.54567pt too wide) in paragraph at lines 129--129
- \EU1/EBGaramond(2)/bx/n/10.95 eration(second row), after the fourth iteration(
-third row), and after the last iteration (bot- 
- []
-
-
-Overfull \hbox (0.624pt too wide) in paragraph at lines 129--129
- \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
-red line is a polynomial fit; the blue line 
- []
-
-[17]
-Overfull \hbox (21.01291pt too wide) in paragraph at lines 130--130
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][][]$ background estimate: the
- fits to the ratio of the data in the $[][]$ category, of the lead- 
- []
-
-
-Overfull \hbox (20.06392pt too wide) in paragraph at lines 130--130
- \EU1/EBGaramond(2)/bx/n/10.95 ing Higgs candidate $[][]$-tagged events’s leadi
-ng Higgs candidate distributions(black point), 
- []
-
-
-Overfull \hbox (1.74457pt too wide) in paragraph at lines 130--130
- \EU1/EBGaramond(2)/bx/n/10.95 over the subleading Higgs candidate $[][]$-tagge
-d events’s leading Higgs candidate distri- 
- []
-
-
-Overfull \hbox (5.34344pt too wide) in paragraph at lines 130--130
- \EU1/EBGaramond(2)/bx/n/10.95 butions(yellow). Distributions and fits to the e
-stimated QCD background for large-$[]$ 
- []
-
-
-Overfull \hbox (21.45306pt too wide) in paragraph at lines 130--130
- \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s leading 
-trackjet $[][]$ (middle), and large-$[]$ jet’s subleading track- 
- []
-
-
-Overfull \hbox (0.40427pt too wide) in paragraph at lines 130--130
- \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (right) are shown. Figures are before
- reweighting (top row), after the first itera- 
- []
-
-
-Overfull \hbox (8.27072pt too wide) in paragraph at lines 130--130
- \EU1/EBGaramond(2)/bx/n/10.95 tion(second row), after the fourth iteration(thi
-rd row), and after the last iteration (bot- 
- []
-
-
-Overfull \hbox (0.624pt too wide) in paragraph at lines 130--130
- \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
-red line is a polynomial fit; the blue line 
- []
-
-
-Overfull \hbox (17.05995pt too wide) in paragraph at lines 131--131
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
-its to the ratio of the data in the $[][]$ category, of the sub- 
- []
-
-
-Overfull \hbox (22.10062pt too wide) in paragraph at lines 131--131
+Overfull \hbox (20.64427pt too wide) in paragraph at lines 131--131
  \EU1/EBGaramond(2)/bx/n/10.95 leading Higgs candidate $[][]$-tagged events’s s
 ubleading Higgs candidate distributions(black 
  []
@@ -2766,13 +2714,13 @@ red line is a polynomial fit; the blue line
  []
 
 
-Overfull \hbox (18.89955pt too wide) in paragraph at lines 132--132
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
-its to the ratio of the data in the $[][]$ category, of the lead- 
+Overfull \hbox (21.01291pt too wide) in paragraph at lines 132--132
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][][]$ background estimate: the
+ fits to the ratio of the data in the $[][]$ category, of the lead- 
  []
 
 
-Overfull \hbox (21.52026pt too wide) in paragraph at lines 132--132
+Overfull \hbox (20.06392pt too wide) in paragraph at lines 132--132
  \EU1/EBGaramond(2)/bx/n/10.95 ing Higgs candidate $[][]$-tagged events’s leadi
 ng Higgs candidate distributions(black point), 
  []
@@ -2813,8 +2761,8 @@ Overfull \hbox (0.624pt too wide) in paragraph at lines 132--132
 red line is a polynomial fit; the blue line 
  []
 
-[18]
-Overfull \hbox (18.37396pt too wide) in paragraph at lines 133--133
+
+Overfull \hbox (17.05995pt too wide) in paragraph at lines 133--133
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
 its to the ratio of the data in the $[][]$ category, of the sub- 
  []
@@ -2826,7 +2774,7 @@ ubleading Higgs candidate distributions(black
  []
 
 
-Overfull \hbox (7.62471pt too wide) in paragraph at lines 133--133
+Overfull \hbox (6.16837pt too wide) in paragraph at lines 133--133
  \EU1/EBGaramond(2)/bx/n/10.95 point), over the leading Higgs candidate $[][]$-
 tagged events’s subleading Higgs candidate 
  []
@@ -2862,7 +2810,7 @@ red line is a polynomial fit; the blue line
  []
 
 
-Overfull \hbox (20.21356pt too wide) in paragraph at lines 134--134
+Overfull \hbox (18.89955pt too wide) in paragraph at lines 134--134
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
 its to the ratio of the data in the $[][]$ category, of the lead- 
  []
@@ -2874,7 +2822,7 @@ ng Higgs candidate distributions(black point),
  []
 
 
-Overfull \hbox (3.20091pt too wide) in paragraph at lines 134--134
+Overfull \hbox (1.74457pt too wide) in paragraph at lines 134--134
  \EU1/EBGaramond(2)/bx/n/10.95 over the subleading Higgs candidate $[][]$-tagge
 d events’s leading Higgs candidate distri- 
  []
@@ -2909,46 +2857,106 @@ Overfull \hbox (0.624pt too wide) in paragraph at lines 134--134
 red line is a polynomial fit; the blue line 
  []
 
+[18]
+Overfull \hbox (18.37396pt too wide) in paragraph at lines 135--135
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
+its to the ratio of the data in the $[][]$ category, of the sub- 
+ []
 
-Overfull \hbox (8.8365pt too wide) in paragraph at lines 135--135
+
+Overfull \hbox (22.10062pt too wide) in paragraph at lines 135--135
+ \EU1/EBGaramond(2)/bx/n/10.95 leading Higgs candidate $[][]$-tagged events’s s
+ubleading Higgs candidate distributions(black 
+ []
+
+
+Overfull \hbox (7.62471pt too wide) in paragraph at lines 135--135
+ \EU1/EBGaramond(2)/bx/n/10.95 point), over the leading Higgs candidate $[][]$-
+tagged events’s subleading Higgs candidate 
+ []
+
+
+Overfull \hbox (19.88503pt too wide) in paragraph at lines 135--135
+ \EU1/EBGaramond(2)/bx/n/10.95 distributions(yellow). Distributions and fits to
+ the estimated QCD background for large- 
+ []
+
+
+Overfull \hbox (4.72148pt too wide) in paragraph at lines 135--135
+ []$ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s lead
+ing trackjet $[][]$ (middle), and large-$[]$ jet’s subleading 
+ []
+
+
+Overfull \hbox (8.85767pt too wide) in paragraph at lines 135--135
+ \EU1/EBGaramond(2)/bx/n/10.95 trackjet $[][]$ (right) are shown. Figures are b
+efore reweighting (top row), after the first it- 
+ []
+
+
+Overfull \hbox (20.54567pt too wide) in paragraph at lines 135--135
+ \EU1/EBGaramond(2)/bx/n/10.95 eration(second row), after the fourth iteration(
+third row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 135--135
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+
+Overfull \hbox (20.21356pt too wide) in paragraph at lines 136--136
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 For $[][]$ background estimate: the f
+its to the ratio of the data in the $[][]$ category, of the lead- 
+ []
+
+
+Overfull \hbox (21.52026pt too wide) in paragraph at lines 136--136
+ \EU1/EBGaramond(2)/bx/n/10.95 ing Higgs candidate $[][]$-tagged events’s leadi
+ng Higgs candidate distributions(black point), 
+ []
+
+
+Overfull \hbox (3.20091pt too wide) in paragraph at lines 136--136
+ \EU1/EBGaramond(2)/bx/n/10.95 over the subleading Higgs candidate $[][]$-tagge
+d events’s leading Higgs candidate distri- 
+ []
+
+
+Overfull \hbox (5.34344pt too wide) in paragraph at lines 136--136
+ \EU1/EBGaramond(2)/bx/n/10.95 butions(yellow). Distributions and fits to the e
+stimated QCD background for large-$[]$ 
+ []
+
+
+Overfull \hbox (21.45306pt too wide) in paragraph at lines 136--136
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (left), the large-$[]$ jet’s leading 
+trackjet $[][]$ (middle), and large-$[]$ jet’s subleading track- 
+ []
+
+
+Overfull \hbox (0.40427pt too wide) in paragraph at lines 136--136
+ \EU1/EBGaramond(2)/bx/n/10.95 jet $[][]$ (right) are shown. Figures are before
+ reweighting (top row), after the first itera- 
+ []
+
+
+Overfull \hbox (8.27072pt too wide) in paragraph at lines 136--136
+ \EU1/EBGaramond(2)/bx/n/10.95 tion(second row), after the fourth iteration(thi
+rd row), and after the last iteration (bot- 
+ []
+
+
+Overfull \hbox (0.624pt too wide) in paragraph at lines 136--136
+ \EU1/EBGaramond(2)/bx/n/10.95 tom row). The green line is the spline fit; the 
+red line is a polynomial fit; the blue line 
+ []
+
+
+Overfull \hbox (8.8365pt too wide) in paragraph at lines 137--137
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighed $[][][]$ sideband region pr
 edictions comparison. Top row is the dijet Mass, sec- 
- []
-
-
-Overfull \hbox (11.07248pt too wide) in paragraph at lines 135--135
- \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
-row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
- []
-
-
-Overfull \hbox (9.27374pt too wide) in paragraph at lines 135--135
- \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
-ding trackjet $[][]$. On the left are the distribu- 
- []
-
-
-Overfull \hbox (5.2668pt too wide) in paragraph at lines 136--136
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighed $[][]$ sideband region pred
-ictions comparison. Top row is the dijet Mass, sec- 
- []
-
-
-Overfull \hbox (11.07248pt too wide) in paragraph at lines 136--136
- \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
-row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
- []
-
-
-Overfull \hbox (9.27374pt too wide) in paragraph at lines 136--136
- \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
-ding trackjet $[][]$. On the left are the distribu- 
- []
-
-[19]
-Overfull \hbox (10.0191pt too wide) in paragraph at lines 137--137
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ sideband region pre
-dictions comaprison. Top row is the dijet Mass, sec- 
  []
 
 
@@ -2964,9 +2972,9 @@ ding trackjet $[][]$. On the left are the distribu-
  []
 
 
-Overfull \hbox (5.40915pt too wide) in paragraph at lines 138--138
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][][]$ control region pr
-edictions comaprison. Top row is the dijet Mass, sec- 
+Overfull \hbox (5.2668pt too wide) in paragraph at lines 138--138
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighed $[][]$ sideband region pred
+ictions comparison. Top row is the dijet Mass, sec- 
  []
 
 
@@ -2981,10 +2989,10 @@ Overfull \hbox (9.27374pt too wide) in paragraph at lines 138--138
 ding trackjet $[][]$. On the left are the distribu- 
  []
 
-
-Overfull \hbox (1.83945pt too wide) in paragraph at lines 139--139
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ control region pred
-ictions comaprison. Top row is the dijet Mass, sec- 
+[19]
+Overfull \hbox (10.0191pt too wide) in paragraph at lines 139--139
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ sideband region pre
+dictions comaprison. Top row is the dijet Mass, sec- 
  []
 
 
@@ -3000,9 +3008,9 @@ ding trackjet $[][]$. On the left are the distribu-
  []
 
 
-Overfull \hbox (3.15346pt too wide) in paragraph at lines 140--140
- [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ control region pred
-ictions comaprison. Top row is the dijet Mass, sec- 
+Overfull \hbox (5.40915pt too wide) in paragraph at lines 140--140
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][][]$ control region pr
+edictions comaprison. Top row is the dijet Mass, sec- 
  []
 
 
@@ -3018,73 +3026,109 @@ ding trackjet $[][]$. On the left are the distribu-
  []
 
 
-Overfull \hbox (29.41869pt too wide) in paragraph at lines 144--144
+Overfull \hbox (1.83945pt too wide) in paragraph at lines 141--141
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ control region pred
+ictions comaprison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 141--141
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 141--141
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+
+Overfull \hbox (3.15346pt too wide) in paragraph at lines 142--142
+ [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Reweighted $[][]$ control region pred
+ictions comaprison. Top row is the dijet Mass, sec- 
+ []
+
+
+Overfull \hbox (11.07248pt too wide) in paragraph at lines 142--142
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is leading large-$[]$ jet $[][]$, third 
+row is the leading large-$[]$ jet’s leading trackjet $[][]$ 
+ []
+
+
+Overfull \hbox (9.27374pt too wide) in paragraph at lines 142--142
+ \EU1/EBGaramond(2)/bx/n/10.95 and the last row subleading large-$[]$ jet’s lea
+ding trackjet $[][]$. On the left are the distribu- 
+ []
+
+
+Overfull \hbox (29.41869pt too wide) in paragraph at lines 146--146
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 In $[][]$ data, with signal-depletion
  (small) CR variation, new SB and CR $[][]$-$[][]$distribution.[][] []  
  []
 
 
-Overfull \hbox (8.31454pt too wide) in paragraph at lines 149--149
+Overfull \hbox (8.31454pt too wide) in paragraph at lines 151--151
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Comparisons of the nominal QCD shape 
 prediction (black) with the results of control 
  []
 
 
-Overfull \hbox (6.0771pt too wide) in paragraph at lines 149--149
+Overfull \hbox (6.0771pt too wide) in paragraph at lines 151--151
  \EU1/EBGaramond(2)/bx/n/10.95 and sideband region variations (red). The ratio 
 of the shape from each variation to the 
  []
 
 
-Overfull \hbox (3.8433pt too wide) in paragraph at lines 149--149
+Overfull \hbox (3.8433pt too wide) in paragraph at lines 151--151
  \EU1/EBGaramond(2)/bx/n/10.95 nominal shape is shown in the lower panel. The l
 eft column shows the relevant distri- 
  []
 
 
-Overfull \hbox (3.8579pt too wide) in paragraph at lines 149--149
+Overfull \hbox (3.8579pt too wide) in paragraph at lines 151--151
  \EU1/EBGaramond(2)/bx/n/10.95 butions for the $[][]$ signal region, the middle
  column is for the $[][]$ signal region, and the 
  []
 
 
-Overfull \hbox (3.6572pt too wide) in paragraph at lines 149--149
+Overfull \hbox (3.6572pt too wide) in paragraph at lines 151--151
  \EU1/EBGaramond(2)/bx/n/10.95 left column is for the $[][][]$ signal region. T
 he top row is for high CR variation, the mid- 
  []
 
 
-Overfull \hbox (8.31454pt too wide) in paragraph at lines 150--150
+Overfull \hbox (8.31454pt too wide) in paragraph at lines 152--152
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Comparisons of the nominal QCD shape 
 prediction (black) with the results of control 
  []
 
 
-Overfull \hbox (6.0771pt too wide) in paragraph at lines 150--150
+Overfull \hbox (6.0771pt too wide) in paragraph at lines 152--152
  \EU1/EBGaramond(2)/bx/n/10.95 and sideband region variations (red). The ratio 
 of the shape from each variation to the 
  []
 
 
-Overfull \hbox (3.8433pt too wide) in paragraph at lines 150--150
+Overfull \hbox (3.8433pt too wide) in paragraph at lines 152--152
  \EU1/EBGaramond(2)/bx/n/10.95 nominal shape is shown in the lower panel. The l
 eft column shows the relevant distri- 
  []
 
 
-Overfull \hbox (3.8579pt too wide) in paragraph at lines 150--150
+Overfull \hbox (3.8579pt too wide) in paragraph at lines 152--152
  \EU1/EBGaramond(2)/bx/n/10.95 butions for the $[][]$ signal region, the middle
  column is for the $[][]$ signal region, and the 
  []
 
 
-Overfull \hbox (9.4388pt too wide) in paragraph at lines 150--150
+Overfull \hbox (9.4388pt too wide) in paragraph at lines 152--152
  \EU1/EBGaramond(2)/bx/n/10.95 left column is for the $[][][]$ signal region. T
 he top row is for high SB variation, the second 
  []
 
 
-Overfull \hbox (6.3217pt too wide) in paragraph at lines 150--150
+Overfull \hbox (6.3217pt too wide) in paragraph at lines 152--152
  \EU1/EBGaramond(2)/bx/n/10.95 row is for the low SB variation, the third row i
 s for the small SB variation and the large 
  []
@@ -3394,43 +3438,43 @@ Chapter 1.
 File: figures/theory/SM.png Graphic file (type QTm)
 <use  "figures/theory/SM.png" >
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 19.
+(Font)              scaled to size 12.0pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 9.5907pt on input line 19.
+(Font)              scaled to size 9.5907pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 7.99225pt on input line 19.
+(Font)              scaled to size 7.99225pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 9.71375pt on input line 19.
+(Font)              scaled to size 9.71375pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.09479pt on input line 19.
+(Font)              scaled to size 8.09479pt on input line 22.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 5.66635pt on input line 19.
+(Font)              scaled to size 5.66635pt on input line 22.
  [4
 
 
 
 ] [5]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/bx/n' will be
-(Font)              scaled to size 9.35316pt on input line 50.
+(Font)              scaled to size 9.35316pt on input line 53.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 50.
+(Font)              scaled to size 8.0pt on input line 53.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 6.0pt on input line 50.
+(Font)              scaled to size 6.0pt on input line 53.
 File: figures/theory/SM_HH_box.pdf Graphic file (type QTm)
  <use  "figures/theory/SM_HH_box.pdf" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 8.7515pt on input line 84.
+(Font)              scaled to size 8.7515pt on input line 89.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.86378pt on input line 84.
+(Font)              scaled to size 8.86378pt on input line 89.
 File: figures/theory/SM_HH_tri.pdf Graphic file (type QTm)
 
 <use  "figures/theory/SM_HH_tri.pdf" >
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 8.54172pt on input line 93.
+(Font)              scaled to size 8.54172pt on input line 98.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 8.54172pt on input line 93.
+(Font)              scaled to size 8.54172pt on input line 98.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 4.0474pt on input line 93.
+(Font)              scaled to size 4.0474pt on input line 98.
  [6]
 File: figures/theory/SM_HH_VBF.png Graphic file (type QTm)
 
@@ -3451,152 +3495,168 @@ File: figures/theory/HH_lam.png Graphic file (type QTm)
 File: figures/theory/lhclumi7813_2013_v1.png Graphic file (type QTm)
 
 <use  "figures/theory/lhclumi7813_2013_v1.png" > [11]
-Overfull \hbox (1.66702pt too wide) in paragraph at lines 226--230
-[] [][] \EU1/EBGaramond(2)/bx/n/10.95 Generally, it is easy theoretically for n
-ew heavy resonance particles to interact with the SM through 
- []
-
 File: figures/theory/HH_BR.png Graphic file (type QTm)
+
 <use  "figures/theory/HH_BR.png" >
 File: figures/theory/Run1_ATLAS.pdf Graphic file (type QTm)
  <use  "figures/theory/Run1_ATLAS.pdf" >
 [12] [13]
 File: figures/theory/resolved_boosted.png Graphic file (type QTm)
- <use  "figures/theory/resolved_boosted.png" > [14] [15]) [16]
+ <use  "figures/theory/resolved_boosted.png" > [14]) [15]
 \openout2 = `chapters/chapter2.aux'.
 
 
 (./chapters/chapter2.tex
 Chapter 2.
 File: figures/detector/Cern-Accelerator-Complex.jpg Graphic file (type QTm)
-<use  "figures/detector/Cern-Accelerator-Complex.jpg" > [17
+<use  "figures/detector/Cern-Accelerator-Complex.jpg" > [16
 
 
 
-] [18] [19]
-
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 60.
-
-
-Overfull \hbox (0.48906pt too wide) in paragraph at lines 58--61
-\EU1/EBGaramond(2)/bx/n/10.95 where, $[]$ is the number of interactions per bun
-ch crossing. At each bunch crossing, multiple proton- 
- []
-
-File: figures/detector/Mu_2015_2016.pdf Graphic file (type QTm)
-<use  "figures/detector/Mu_2015_2016.pdf" >
+] [17]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 70.
+               Default added (so using `tbp') on input line 64.
 
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 77.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 72.
 
 Missing character: There is no − in font cmr8!
 
-Overfull \hbox (8.89471pt too wide) in alignment at lines 72--87
+Overfull \hbox (8.89471pt too wide) in alignment at lines 67--82
 [] [] [] []
  []
 
+
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 88.
+
+File: figures/detector/Mu_2015_2016.pdf Graphic file (type QTm)
+<use  "figures/detector/Mu_2015_2016.pdf" > [18] [19]
 File: figures/detector/ATLAS.jpg Graphic file (type QTm)
-<use  "figures/detector/ATLAS.jpg" > [20] [21] [22]
+
+<use  "figures/detector/ATLAS.jpg" > [20]
 File: figures/detector/ID_rzmap.png Graphic file (type QTm)
 
 <use  "figures/detector/ID_rzmap.png" >
 File: figures/detector/ID_data_map_XY.png Graphic file (type QTm)
 
-<use  "figures/detector/ID_data_map_XY.png" > [23]
+<use  "figures/detector/ID_data_map_XY.png" > [21]
 File: figures/detector/MS_rz.png Graphic file (type QTm)
 
 <use  "figures/detector/MS_rz.png" >
 File: figures/detector/MS_phi.png Graphic file (type QTm)
  <use  "figures/detector/MS_phi.png" >
-[24]
+[22]
 File: figures/detector/Lumi_2015.pdf Graphic file (type QTm)
  <use  "figures/detector/Lumi_2015.pdf" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 207--208
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 229--230
 [][] 
  []
 
 File: figures/detector/Lumi_2016.pdf Graphic file (type QTm)
 <use  "figures/detector/Lumi_2016.pdf" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 216--217
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 238--239
 [][] 
  []
 
-) [25] [26]
+) [23] [24]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
 Chapter 3.
 File: figures/detector/ATLAS_particle.jpg Graphic file (type QTm)
-<use  "figures/detector/ATLAS_particle.jpg" > [27
+<use  "figures/detector/ATLAS_particle.jpg" > [25
 
 
 
-] [28] [29]
+] [26]
+File: figures/object/Jet_evt_a.pdf Graphic file (type QTm)
+
+<use  "figures/object/Jet_evt_a.pdf" >
+Overfull \hbox (51.84073pt too wide) in paragraph at lines 79--80
+[][] 
+ []
+
+File: figures/object/Jet_evt_b.pdf Graphic file (type QTm)
+<use  "figures/object/Jet_evt_b.pdf" >
+Overfull \hbox (51.84073pt too wide) in paragraph at lines 85--86
+[][] 
+ []
+
+[27]
+File: figures/object/trim_qcd_lowpt.png Graphic file (type QTm)
+ <use  "figures/object/trim_qcd_lowpt.png" >
+File: figures/object/trim_w_lowpt.png Graphic file (type QTm)
+
+<use  "figures/object/trim_w_lowpt.png" >
+File: figures/object/trim_qcd_highpt.png Graphic file (type QTm)
+
+<use  "figures/object/trim_qcd_highpt.png" >
+File: figures/object/trim_w_highpt.png Graphic file (type QTm)
+
+<use  "figures/object/trim_w_highpt.png" > [28] [29]
 File: figures/object/Jet_mass.pdf Graphic file (type QTm)
 
 <use  "figures/object/Jet_mass.pdf" >
-Overfull \hbox (9.70746pt too wide) in paragraph at lines 100--101
+Overfull \hbox (9.70746pt too wide) in paragraph at lines 161--162
 [][] 
  []
 
 File: figures/object/Jet_mass_resolution.pdf Graphic file (type QTm)
 <use  "figures/object/Jet_mass_resolution.pdf" >
-Overfull \hbox (9.70746pt too wide) in paragraph at lines 106--107
+Overfull \hbox (9.70746pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
-[30] [31] [32]
+[30] [31]
 File: figures/object/b_sv.png Graphic file (type QTm)
  <use  "figures/object/b_sv.png" >
 File: figures/object/b_mv2.png Graphic file (type QTm)
-
-<use  "figures/object/b_mv2.png" >
+ <use  "figures/object/b_mv2.png" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/it' will be
-(Font)              scaled to size 8.09479pt on input line 180.
- [33]
+(Font)              scaled to size 8.09479pt on input line 241.
+
+[32]
 File: figures/object/b_eff_pt.png Graphic file (type QTm)
- <use  "figures/object/b_eff_pt.png" >
+ <use  "figures/object/b_eff_pt.png" > [33] [34]
 File: figures/object/c_rej_pt.png Graphic file (type QTm)
 
 <use  "figures/object/c_rej_pt.png" >
 File: figures/object/light_rej_pt.png Graphic file (type QTm)
 
-<use  "figures/object/light_rej_pt.png" > [34] [35] [36]
+<use  "figures/object/light_rej_pt.png" > [35]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 250.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 311.
 
-) [37]
+) [36]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
 Chapter 4.
-[38
+[37
 
 
 
 ]
 
-Package natbib Warning: Citation `EvtGen' on page 39 undefined on input line 34
+Package natbib Warning: Citation `EvtGen' on page 38 undefined on input line 34
 .
 
-[39]
-Overfull \hbox (10.02565pt too wide) in paragraph at lines 44--50
+[38]
+Overfull \hbox (9.97765pt too wide) in paragraph at lines 44--50
 \EU1/EBGaramond(2)/bx/n/10.95 both been generated with  \EU1/EBGaramond(2)/m/sc
 /10.95 Powheg-box \EU1/EBGaramond(2)/bx/n/10.95 v1$[]$ using the CT10 PDF set. 
 The parton shower, hadroniza- 
  []
 
-[40]
-Overfull \hbox (4.6643pt too wide) in paragraph at lines 70--76
+[39]
+Overfull \hbox (3.82431pt too wide) in paragraph at lines 70--76
 \EU1/EBGaramond(2)/bx/n/10.95 tion. The NNPDF2.3 LO parton distribution functio
 n (PDF) set$[]$ was used for both \EU1/SourceCodePro(0)/m/it/10.95 MG5_aMC@NLO 
 
  []
 
-[41]
+[40]
 Overfull \hbox (9.21205pt too wide) in paragraph at lines 78--83
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Signal 2HDM Scalar $\OMS/cmsy/m/n/10.95 !
   [][]  !  [][][][]$ \EU1/EBGaramond(2)/bx/n/10.95 events were generated at LO 
@@ -3604,7 +3664,7 @@ in QCD with \EU1/SourceCodePro(0)/m/it/10.95 MG5_aMC@NLO \EU1/EBGaramond(2)/bx/
 n/10.95 2.2.3 
  []
 
-) [42]
+) [41]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
@@ -3612,11 +3672,11 @@ Chapter 5.
 File: figures/theory/JiveXML_282712_595661746-YX-2018-04-16-20-50-34.png Graphi
 c file (type QTm)
 <use  "figures/theory/JiveXML_282712_595661746-YX-2018-04-16-20-50-34.png" >
-[43
+[42
 
 
 
-] [44]
+] [43]
 File: figures/boosted/Trigger/app_trig_b77_Efficiency_PreSel.pdf Graphic file (
 type QTm)
  <use  "figures/boosted/Trigger/app_trig_b77_Efficiency_PreSel.pdf" >
@@ -3631,7 +3691,7 @@ QTm)
 File: figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf Graphic file (type 
 QTm)
 
-<use  "figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf" > [45]
+<use  "figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf" > [44]
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -3688,7 +3748,7 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 100.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
 (Font)              scaled to size 10.95pt on input line 100.
- [46]
+ [45]
 File: figures/boosted/Truth/truth_higgs-matching.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/Truth/truth_higgs-matching.pdf" >
@@ -3699,14 +3759,14 @@ File: figures/boosted/Truth/truth_hbdR.pdf Graphic file (type QTm)
 <use  "figures/boosted/Truth/truth_hbdR.pdf" >
 File: figures/boosted/Truth/truth_hbdR2.pdf Graphic file (type QTm)
 
-<use  "figures/boosted/Truth/truth_hbdR2.pdf" > [47]
+<use  "figures/boosted/Truth/truth_hbdR2.pdf" > [46]
 File: figures/boosted/Truth/truth_b-matching.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/Truth/truth_b-matching.pdf" >
 File: figures/boosted/Truth/truth_b-matching-sublead.pdf Graphic file (type QTm
 )
 
-<use  "figures/boosted/Truth/truth_b-matching-sublead.pdf" > [48]
+<use  "figures/boosted/Truth/truth_b-matching-sublead.pdf" > [47]
 File: figures/boosted/muons/h1_mass_dbl.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/muons/h1_mass_dbl.pdf" >
@@ -3718,7 +3778,7 @@ File: figures/boosted/muons/hh_mass_dbl.pdf Graphic file (type QTm)
 <use  "figures/boosted/muons/hh_mass_dbl.pdf" >
 File: figures/boosted/muons/h12_corr_mass.pdf Graphic file (type QTm)
 
-<use  "figures/boosted/muons/h12_corr_mass.pdf" > [49] [50]
+<use  "figures/boosted/muons/h12_corr_mass.pdf" > [48] [49]
 File: figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth_
 0.pdf Graphic file (type QTm)
 
@@ -3735,9 +3795,9 @@ File: figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-
 48-08.png Graphic file (type QTm)
 
 <use  "figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15
--48-08.png" > [51] [52] [53]
+-48-08.png" > [50] [51] [52]
 
-LaTeX Warning: Reference `fig:resolvedRegions' on page 54 undefined on input li
+LaTeX Warning: Reference `fig:resolvedRegions' on page 53 undefined on input li
 ne 261.
 
 File: figures/boosted/Truth/Sig_1200_AllTag_Incl_mH0H1.pdf Graphic file (type Q
@@ -3746,7 +3806,7 @@ Tm)
 File: figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf Graphic file (type Q
 Tm)
 
-<use  "figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf" > [54]
+<use  "figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf" > [53]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 301.
@@ -3755,7 +3815,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 301.
 
-[55]
+[54]
 File: figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf Gr
 aphic file (type QTm)
 
@@ -3765,7 +3825,7 @@ File: figures/boosted/SigEff/detail_lst_Moriond_Efficiency_AllTag_Signal.pdf Gr
 aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/detail_lst_Moriond_Efficiency_AllTag_Signal.pdf" 
-> [56]
+> [55]
 File: figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf Graphic file 
 (type QTm)
  <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf" >
@@ -3775,7 +3835,7 @@ ile (type QTm)
 <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel_rel.pdf" >
 (./figures/boosted/tables/SignalEffTable_RSG_c10.tex)
 (./figures/boosted/tables/SignalEffTable_RSG_c20.tex)
-(./figures/boosted/tables/SignalEffTable_Xhh.tex)) [57] [58] [59]
+(./figures/boosted/tables/SignalEffTable_Xhh.tex)) [56] [57] [58]
 \openout2 = `chapters/chapter6.aux'.
 
 
@@ -3786,11 +3846,11 @@ shine
  []
 
 Chapter 6.
-[60
+[59
 
 
 
-] [61] [62]
+] [60] [61]
 File: figures/boosted/Other/TwoTag_split_Incl_data_mH0H1.pdf Graphic file (type
  QTm)
 
@@ -3800,7 +3860,7 @@ Overfull \hbox (29.954pt too wide) in paragraph at lines 120--122
 ntrol region and sideband region as a function of $[][]$Resonance 
  []
 
-[63]
+[62]
 File: figures/boosted/SigEff/region_2b_lst_Moriond_Efficiency_PreSel.pdf Graphi
 c file (type QTm)
 
@@ -3817,7 +3877,7 @@ File: figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf Gr
 aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf" 
-> [64] [65]
+> [63] [64]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 176.
@@ -3830,7 +3890,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 176.
 
-[66]
+[65]
 File: figures/boosted/Other/ttbar_compare_mHH_l.pdf Graphic file (type QTm)
  <use  "figures/boosted/Other/ttbar_compare_mHH_l.pdf" >
 
@@ -3845,7 +3905,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 210.
 
-[67]
+[66]
 File: figures/boosted/Fit/fitNorm_i4.pdf Graphic file (type QTm)
  <use  "figures/boosted/Fit/fitNorm_i4.pdf" >
 File: figures/boosted/Fit/fitNorm_i3.pdf Graphic file (type QTm)
@@ -3864,7 +3924,7 @@ Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
 n;language=DFLT;!
 Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
 n;language=DFLT;!
- [68] [69]
+ [67] [68]
 File: figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk0_Pt_1.pdf Gra
 phic file (type QTm)
 
@@ -3881,12 +3941,12 @@ File: figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf Gra
 phic file (type QTm)
 
 <use  "figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf" >
-[70] [71] [72]
+[69] [70] [71]
 Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
 n;language=DFLT;!
 Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
 n;language=DFLT;!
- (./figures/boosted/tables/normfit.tex) [73]
+ (./figures/boosted/tables/normfit.tex) [72]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 371.
@@ -3903,7 +3963,7 @@ File: figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf
  Graphic file (type QTm)
 
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pd
-f" > [74]
+f" > [73]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 395.
@@ -3924,7 +3984,7 @@ Graphic file (type QTm)
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 419.
 
-[75
+[74
 
 ]
 File: figures/boosted/Other/FourTag_Signal_compare_scale_mHH_1.pdf Graphic file
@@ -3938,7 +3998,7 @@ File: figures/boosted/Other/TwoTag_split_Signal_compare_scale_mHH_1.pdf Graphic
  file (type QTm)
 
 <use  "figures/boosted/Other/TwoTag_split_Signal_compare_scale_mHH_1.pdf" >
-[76] (./figures/boosted/tables/smoothfit_pole.tex
+[75] (./figures/boosted/tables/smoothfit_pole.tex
 Overfull \hbox (5.84438pt too wide) in paragraph at lines 2--13
  [] 
  []
@@ -3995,7 +4055,7 @@ blind.pdf Graphic file (type QTm)
 <use  "figures/boosted/Smooth/Moriond_bkg_9_TwoTag_split_pole_Signal_mHH_pole_1
 _blind.pdf" > (./figures/boosted/tables/FourTag_yield.tex)
 (./figures/boosted/tables/ThreeTag_yield.tex)
-(./figures/boosted/tables/TwoTag_split_yield.tex)) [77] [78] [79] [80] [81]
+(./figures/boosted/tables/TwoTag_split_yield.tex)) [76] [77] [78] [79] [80]
 \openout2 = `chapters/chapter7.aux'.
 
 
@@ -4006,25 +4066,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 Chapter 7.
-[82
+[81
 
 
 
-] [83] [84]
+] [82] [83]
 
-Package natbib Warning: Citation `ATLAS-CONF-2014-004' on page 85 undefined on 
+Package natbib Warning: Citation `ATLAS-CONF-2014-004' on page 84 undefined on 
 input line 98.
 
-[85]
+[84]
 
-Package natbib Warning: Citation `ATL-COM-PHYS-2015-009' on page 86 undefined o
+Package natbib Warning: Citation `ATL-COM-PHYS-2015-009' on page 85 undefined o
 n input line 103.
 
 
-Package natbib Warning: Citation `ATL-COM-PHYS-2015-1323' on page 86 undefined 
+Package natbib Warning: Citation `ATL-COM-PHYS-2015-1323' on page 85 undefined 
 on input line 103.
 
-[86]
+[85]
 File: figures/boosted/AppendixbSF/directcompare_mHH_l_bSF_2000_FT_EFF_Eigen_B_0
 __1down_TwoTag_split_.pdf Graphic file (type QTm)
 
@@ -4052,7 +4112,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 140.
 
-[87]
+[86]
 File: figures/boosted/Other/directcompare_mHH_l_1_TwoTag_split_Top_syst_stat_po
 stfit_all_.pdf Graphic file (type QTm)
 
@@ -4067,21 +4127,21 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/si' will be
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 165.
 
-[88] (./figures/boosted/tables/FourTag_CR_Varations.tex)
+[87] (./figures/boosted/tables/FourTag_CR_Varations.tex)
 (./figures/boosted/tables/ThreeTag_CR_Varations.tex)
-(./figures/boosted/tables/TwoTag_split_CR_Varations.tex) [89] [90]
+(./figures/boosted/tables/TwoTag_split_CR_Varations.tex) [88] [89]
 File: figures/boosted/ZZ/Compare_NoTag_mH0H1.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/ZZ/Compare_NoTag_mH0H1.pdf" >
 File: figures/boosted/TT/Compare_NoTag_mH0H1.pdf Graphic file (type QTm)
 
-<use  "figures/boosted/TT/Compare_NoTag_mH0H1.pdf" > [91]
+<use  "figures/boosted/TT/Compare_NoTag_mH0H1.pdf" > [90]
 
 Package caption Warning: \label without proper \caption on input line 303.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `CRSB:DataPred_TTSR' on page 92 undefined on input lin
+LaTeX Warning: Reference `CRSB:DataPred_TTSR' on page 91 undefined on input lin
 e 257.
 
 (./figures/boosted/tables/ZZ_Signal_Region.tex)
@@ -4141,7 +4201,7 @@ aphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 53.51547pt on input line 355.
 
-[92] [93] [94] [95]
+[91] [92] [93] [94]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 360.
@@ -4179,7 +4239,7 @@ Overfull \hbox (8.01149pt too wide) in paragraph at lines 381--381
  in the signal region| 
  []
 
-[96
+[95
 
 ]
 File: figures/boosted/Syst_Shape/QCDSysfitSmooth_22.pdf Graphic file (type QTm)
@@ -4212,7 +4272,7 @@ mond(2)/bx/n/10.95 GeVand the lower bound are varied to be $\OMS/cmsy/m/n/10.95
  f[][][][]\OML/cmm/m/it/10.95 ;  [][][][];  [][][][]\OMS/cmsy/m/n/10.95 g$ 
  []
 
-[97] [98]
+[96] [97]
 File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_22_comp.pdf Graphic fi
 le (type QTm)
 
@@ -4237,7 +4297,7 @@ File: figures/boosted/Syst_Smooth/smoothFuncRangeCompare_44_comp_ratio.pdf Grap
 hic file (type QTm)
 
 <use  "figures/boosted/Syst_Smooth/smoothFuncRangeCompare_44_comp_ratio.pdf" >
-[99]
+[98]
 File: figures/boosted/Syst_Smooth/smoothFuncCompare_22_comp.pdf Graphic file (t
 ype QTm)
  <use  "figures/boosted/Syst_Smooth/smoothFuncCompare_22_comp.pdf" >
@@ -4266,7 +4326,7 @@ Overfull \hbox (0.83478pt too wide) in paragraph at lines 488--492
 t of systematics used in the boosted analysis on the backgrounds 
  []
 
-[100] [101]
+[99] [100]
 File: figures/boosted/Syst_MC/FourTag_RSG_syst.pdf Graphic file (type QTm)
  <use  "figures/boosted/Syst_MC/FourTag_RSG_syst.pdf" >
 File: figures/boosted/Syst_MC/ThreeTag_RSG_syst.pdf Graphic file (type QTm)
@@ -4278,7 +4338,7 @@ File: figures/boosted/Syst_MC/TwoTag_split_RSG_syst.pdf Graphic file (type QTm)
 <use  "figures/boosted/Syst_MC/TwoTag_split_RSG_syst.pdf" >
 (./figures/boosted/tables/FourTag_fullsyst.tex)
 (./figures/boosted/tables/ThreeTag_fullsyst.tex)
-(./figures/boosted/tables/TwoTag_split_fullsyst.tex)) [102] [103]
+(./figures/boosted/tables/TwoTag_split_fullsyst.tex)) [101] [102]
 \openout2 = `chapters/chapter8.aux'.
 
 
@@ -4344,27 +4404,27 @@ File: figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_1.
 pdf Graphic file (type QTm)
 
 <use  "figures/boosted/Signal_Syst/Moriond_bkg_9_TwoTag_split_Signal_mHH_pole_1
-.pdf" > [104
+.pdf" > [103
 
 
 
-] [105] [106]
+] [104] [105]
 
 LaTeX Warning: Command \nobreakspace invalid in math mode on input line 101.
 
 
-LaTeX Warning: Reference `sec:statAna' on page 107 undefined on input line 113.
+LaTeX Warning: Reference `sec:statAna' on page 106 undefined on input line 113.
 
 
 
-LaTeX Warning: Reference `sec:statAna' on page 107 undefined on input line 114.
+LaTeX Warning: Reference `sec:statAna' on page 106 undefined on input line 114.
 
 
 File: figures/resolved/results/data_2015_hh_v_logy.pdf Graphic file (type QTm)
 <use  "figures/resolved/results/data_2015_hh_v_logy.pdf" >
 File: figures/resolved/results/data_2016_hh_v_logy.pdf Graphic file (type QTm)
 
-<use  "figures/resolved/results/data_2016_hh_v_logy.pdf" > [107] [108]
+<use  "figures/resolved/results/data_2016_hh_v_logy.pdf" > [106] [107]
 File: figures/boosted/results/p0_s_allmasses_boosted.pdf Graphic file (type QTm
 )
 
@@ -4376,7 +4436,7 @@ Tm)
 File: figures/boosted/results/p0_g20_allmasses_boosted.pdf Graphic file (type Q
 Tm)
 
-<use  "figures/boosted/results/p0_g20_allmasses_boosted.pdf" > [109]
+<use  "figures/boosted/results/p0_g20_allmasses_boosted.pdf" > [108]
 File: figures/boosted/results/ranking_okt18_s_2000.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/results/ranking_okt18_s_2000.pdf" >
@@ -4424,7 +4484,7 @@ File: figures/boosted/results/limit_boosted_boosted_okt18_g20.pdf Graphic file
 
 LaTeX Warning: Float too large for page by 15.17877pt on input line 251.
 
-[110] [111] [112]
+[109] [110] [111]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 282.
 File: figures/boosted/results/BrazilPlot_Asymptotic_s_hh_combined_AllSyst_unbli
@@ -4441,7 +4501,7 @@ File: figures/boosted/results/BrazilPlot_Asymptotic_g_hh_c20_combined_AllSyst_u
 nblinded_2017-10-09.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/results/BrazilPlot_Asymptotic_g_hh_c20_combined_AllSyst_
-unblinded_2017-10-09.pdf" >) [113] [114] [115]
+unblinded_2017-10-09.pdf" >) [112] [113] [114]
 \openout2 = `chapters/conclusion.aux'.
 
  (./chapters/conclusion.tex
@@ -4458,19 +4518,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 Chapter 9.
 
-Package natbib Warning: Citation `Aaboud:2016xco' on page 116 undefined on inpu
+Package natbib Warning: Citation `Aaboud:2016xco' on page 115 undefined on inpu
 t line 17.
 
-[116
+[115
 
 
 
-]) [117]
+]) [116]
 \openout2 = `chapters/appendixSB.aux'.
 
  (./chapters/appendixSB.tex
 Appendix A.
-[118
+[117
 
 
 
@@ -4546,8 +4606,8 @@ File: figures/boosted/Sideband/b77_FourTag_Sideband_hCandDeta.pdf Graphic file
 File: figures/boosted/Sideband/b77_FourTag_Sideband_hCandDphi.pdf Graphic file 
 (type QTm)
 
-<use  "figures/boosted/Sideband/b77_FourTag_Sideband_hCandDphi.pdf" > [119]
-[120] [121] [122]
+<use  "figures/boosted/Sideband/b77_FourTag_Sideband_hCandDphi.pdf" > [118]
+[119] [120] [121]
 File: figures/boosted/Sideband/b77_ThreeTag_Sideband_leadHCand_Pt_m_1.pdf Graph
 ic file (type QTm)
 
@@ -4619,10 +4679,10 @@ File: figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDeta.pdf Graphic file
 File: figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDphi.pdf Graphic file
  (type QTm)
 
-<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDphi.pdf" > [123
+<use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_hCandDphi.pdf" > [122
 
 ]
-[124] [125] [126]
+[123] [124] [125]
 File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_leadHCand_Pt_m_1.pdf G
 raphic file (type QTm)
 
@@ -4704,14 +4764,14 @@ File: figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDphi.pdf Graphic
 file (type QTm)
 
 <use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_hCandDphi.pdf" >
-[127
+[126
 
-] [128] [129] [130])
+] [127] [128] [129])
 \openout2 = `chapters/appendixCR.aux'.
 
  (./chapters/appendixCR.tex
 Appendix B.
-[131
+[130
 
 
 
@@ -4788,8 +4848,8 @@ ype QTm)
 File: figures/boosted/Control/b77_FourTag_Control_hCandDphi.pdf Graphic file (t
 ype QTm)
 
-<use  "figures/boosted/Control/b77_FourTag_Control_hCandDphi.pdf" > [132]
-[133] [134] [135]
+<use  "figures/boosted/Control/b77_FourTag_Control_hCandDphi.pdf" > [131]
+[132] [133] [134]
 File: figures/boosted/Control/b77_ThreeTag_Control_leadHCand_Pt_m_1.pdf Graphic
  file (type QTm)
 
@@ -4861,10 +4921,10 @@ type QTm)
 File: figures/boosted/Control/b77_ThreeTag_Control_hCandDphi.pdf Graphic file (
 type QTm)
 
-<use  "figures/boosted/Control/b77_ThreeTag_Control_hCandDphi.pdf" > [136
+<use  "figures/boosted/Control/b77_ThreeTag_Control_hCandDphi.pdf" > [135
 
 ]
-[137] [138] [139]
+[136] [137] [138]
 File: figures/boosted/Control/b77_TwoTag_split_Control_leadHCand_Pt_m_1.pdf Gra
 phic file (type QTm)
 
@@ -4938,14 +4998,14 @@ File: figures/boosted/Control/b77_TwoTag_split_Control_hCandDphi.pdf Graphic fi
 le (type QTm)
 
 <use  "figures/boosted/Control/b77_TwoTag_split_Control_hCandDphi.pdf" >)
-[140
+[139
 
-] [141] [142] [143]
+] [140] [141] [142]
 \openout2 = `chapters/appendixSR.aux'.
 
  (./chapters/appendixSR.tex
 Appendix C.
-[144
+[143
 
 
 
@@ -4970,8 +5030,8 @@ File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Eta.pdf Graphic file
 File: figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Phi.pdf Graphic file 
 (type QTm)
 
-<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Phi.pdf" > [145]
-[146]
+<use  "figures/boosted/Signal/b77_FourTag_Signal_leadHCand_Phi.pdf" > [144]
+[145]
 File: figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Pt_m.pdf Graphic file
  (type QTm)
  <use  "figures/boosted/Signal/b77_FourTag_Signal_sublHCand_Pt_m.pdf" >
@@ -5026,8 +5086,8 @@ e QTm)
 File: figures/boosted/Signal/b77_FourTag_Signal_hCandDphi.pdf Graphic file (typ
 e QTm)
 
-<use  "figures/boosted/Signal/b77_FourTag_Signal_hCandDphi.pdf" > [147]
-[148] [149] [150]
+<use  "figures/boosted/Signal/b77_FourTag_Signal_hCandDphi.pdf" > [146]
+[147] [148] [149]
 File: figures/boosted/Signal/b77_ThreeTag_Signal_leadHCand_Pt_m.pdf Graphic fil
 e (type QTm)
 
@@ -5099,10 +5159,10 @@ pe QTm)
 File: figures/boosted/Signal/b77_ThreeTag_Signal_hCandDphi.pdf Graphic file (ty
 pe QTm)
 
-<use  "figures/boosted/Signal/b77_ThreeTag_Signal_hCandDphi.pdf" > [151
+<use  "figures/boosted/Signal/b77_ThreeTag_Signal_hCandDphi.pdf" > [150
 
 ]
-[152] [153] [154]
+[151] [152] [153]
 File: figures/boosted/Signal/b77_TwoTag_split_Signal_leadHCand_Pt_m.pdf Graphic
  file (type QTm)
 
@@ -5174,10 +5234,10 @@ File: figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDeta.pdf Graphic file
 File: figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi.pdf Graphic file
  (type QTm)
 
-<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi.pdf" > [155
+<use  "figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi.pdf" > [154
 
 ]
-[156] [157] [158])
+[155] [156] [157])
 \openout2 = `chapters/appendixMuqcd.aux'.
 
  (./chapters/appendixMuqcd.tex
@@ -5192,7 +5252,7 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
 (Font)              scaled to size 24.88pt on input line 2.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 2.
-[159
+[158
 
 
 
@@ -5268,7 +5328,7 @@ Overfull \hbox (48.46255pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
-[160] [161]
+[159] [160]
 File: figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf Graphic file
  (type QTm)
 
@@ -5342,12 +5402,12 @@ Overfull \hbox (48.46255pt too wide) in paragraph at lines 203--204
 [][] 
  []
 
-) [162] [163] [164] [165]
+) [161] [162] [163] [164]
 \openout2 = `chapters/appendixRW.aux'.
 
  (./chapters/appendixRW.tex
 Appendix E.
-[166
+[165
 
 
 
@@ -5936,8 +5996,8 @@ File: figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf Graphic
 
 LaTeX Warning: Float too large for page by 32.80444pt on input line 231.
 
-) [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [178]
-[179]
+) [166] [167] [168] [169] [170] [171] [172] [173] [174] [175] [176] [177]
+[178]
 \openout2 = `chapters/appendixSysVar.aux'.
 
  (./chapters/appendixSysVar.tex
@@ -5954,11 +6014,11 @@ Overfull \hbox (1.1059pt too wide) in paragraph at lines 6--9
 escribed in [][]6.6[][], while applying the nominal reweight- 
  []
 
-[180
+[179
 
 
 
-] [181]
+] [180]
 File: figures/boosted/Syst_CRSB/CR_Low_Sideband_OneTag_mH0H1.pdf Graphic file (
 type QTm)
 
@@ -6058,13 +6118,13 @@ Overfull \hbox (5.78221pt too wide) in paragraph at lines 156--157
 [][] 
  []
 
-[182] [183] [184] [185]
+[181] [182] [183] [184]
 
 Package caption Warning: \label without proper \caption on input line 174.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `CRSB:Tab_4b_CR_High' on page 186 undefined on input l
+LaTeX Warning: Reference `CRSB:Tab_4b_CR_High' on page 185 undefined on input l
 ine 167.
 
 
@@ -6072,7 +6132,7 @@ Package caption Warning: \label without proper \caption on input line 182.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `CRSB:Tab_4b_CR_Low' on page 186 undefined on input li
+LaTeX Warning: Reference `CRSB:Tab_4b_CR_Low' on page 185 undefined on input li
 ne 167.
 
 (./figures/boosted/tables/CR_High_FourTag_yield.tex)
@@ -6081,28 +6141,28 @@ ne 167.
 (./figures/boosted/tables/SB_High_FourTag_yield.tex)
 (./figures/boosted/tables/SB_Low_FourTag_yield.tex)
 (./figures/boosted/tables/SB_Large_FourTag_yield.tex)
-(./figures/boosted/tables/SB_Small_FourTag_yield.tex) [186
+(./figures/boosted/tables/SB_Small_FourTag_yield.tex) [185
 
-] [187] [188]
-[189] (./figures/boosted/tables/CR_High_ThreeTag_yield.tex)
+] [186] [187]
+[188] (./figures/boosted/tables/CR_High_ThreeTag_yield.tex)
 (./figures/boosted/tables/CR_Low_ThreeTag_yield.tex)
 (./figures/boosted/tables/CR_Small_ThreeTag_yield.tex)
 (./figures/boosted/tables/SB_High_ThreeTag_yield.tex)
 (./figures/boosted/tables/SB_Low_ThreeTag_yield.tex)
 (./figures/boosted/tables/SB_Large_ThreeTag_yield.tex)
-(./figures/boosted/tables/SB_Small_ThreeTag_yield.tex) [190
+(./figures/boosted/tables/SB_Small_ThreeTag_yield.tex) [189
 
-] [191] [192]
-[193] (./figures/boosted/tables/CR_High_TwoTag_split_yield.tex)
+] [190] [191]
+[192] (./figures/boosted/tables/CR_High_TwoTag_split_yield.tex)
 (./figures/boosted/tables/CR_Low_TwoTag_split_yield.tex)
 (./figures/boosted/tables/CR_Small_TwoTag_split_yield.tex)
 (./figures/boosted/tables/SB_High_TwoTag_split_yield.tex)
 (./figures/boosted/tables/SB_Low_TwoTag_split_yield.tex)
 (./figures/boosted/tables/SB_Large_TwoTag_split_yield.tex)
-(./figures/boosted/tables/SB_Small_TwoTag_split_yield.tex) [194
+(./figures/boosted/tables/SB_Small_TwoTag_split_yield.tex) [193
 
-] [195] [196]
-[197] (./figures/boosted/tables/FourTag_SR_Varations.tex)
+] [194] [195]
+[196] (./figures/boosted/tables/FourTag_SR_Varations.tex)
 (./figures/boosted/tables/ThreeTag_SR_Varations.tex)
 (./figures/boosted/tables/TwoTag_split_SR_Varations.tex
 Overfull \hbox (19.23563pt too wide) in paragraph at lines 2--17
@@ -6145,7 +6205,7 @@ File: figures/boosted/Syst_CRSB/CR_Small_compare_TwoTag_split_qcd_hh.pdf Graphi
 c file (type QTm)
 
 <use  "figures/boosted/Syst_CRSB/CR_Small_compare_TwoTag_split_qcd_hh.pdf" >
-[198
+[197
 
 ]
 File: figures/boosted/Syst_CRSB/SB_High_compare_FourTag_qcd_hh.pdf Graphic file
@@ -6195,26 +6255,26 @@ File: figures/boosted/Syst_CRSB/SB_Large_compare_TwoTag_split_qcd_hh.pdf Graphi
 c file (type QTm)
 
 <use  "figures/boosted/Syst_CRSB/SB_Large_compare_TwoTag_split_qcd_hh.pdf" >)
-[199] [200] [201] (./dissertation.bbl [202
+[198] [199] [200] (./dissertation.bbl [201
 
 
 
-]
-Underfull \hbox (badness 1997) in paragraph at lines 150--155
+] [202]
+Underfull \hbox (badness 1997) in paragraph at lines 179--184
 []\EU1/EBGaramond(2)/bx/n/10.95 Georges Aad et al.  Searches for Higgs boson pa
 ir production in the $[][] \OMS/cmsy/m/n/10.95 ! 
  []
 
-[203] [204] [205]
+[203] [204]
 
-LaTeX Warning: Command \nobreakspace invalid in math mode on input line 340.
+LaTeX Warning: Command \nobreakspace invalid in math mode on input line 360.
 
-[206] [207])
+[205] [206])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
-[208]
+[207]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
  (./dissertation.aux (./chapters/introduction.aux)
 (./chapters/chapter1.aux) (./chapters/chapter2.aux) (./chapters/chapter3.aux)
@@ -6234,12 +6294,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27290 strings out of 493706
- 538176 string characters out of 6145769
- 654230 words of memory out of 5000000
- 29482 multiletter control sequences out of 15000+600000
+ 27325 strings out of 493706
+ 538987 string characters out of 6145769
+ 657097 words of memory out of 5000000
+ 29511 multiletter control sequences out of 15000+600000
  19082 words of font info for 176 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  60i,14n,104p,10522b,709s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (234 pages).
+Output written on dissertation.pdf (233 pages).

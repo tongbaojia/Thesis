@@ -24,56 +24,58 @@ Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
 Warning--I didn't find a database entry for "ATL-COM-PHYS-2015-009"
 Warning--I didn't find a database entry for "ATL-COM-PHYS-2015-1323"
 Warning--I didn't find a database entry for "Aaboud:2016xco"
-Warning--empty publisher in Griffiths
-Warning--empty publisher in Tully
-Warning--empty journal in LHCYellow
 Warning--empty note in LumiRatio
 Warning--empty note in Lumi_Run2
 Warning--there's a number but no volume in btaggingRun2
+Warning--empty publisher in Griffiths
+Warning--empty publisher in Tully
+Warning--empty journal in LHCYellow
+Warning--empty author in ATLAS-CONF-2015-035
+Warning--empty author in ATL-PHYS-PUB-2017-020
 Warning--empty author in ATLAS-CONF-2016-024
 Warning--empty author in ATLAS-CONF-2017-029
 Warning--empty journal in MC12AU2
 Warning--empty journal in carvalho
 Warning--empty journal in Hawking:2018tcn
-You've used 77 entries,
+You've used 80 entries,
             2481 wiz_defined-function locations,
-            1079 strings with 17482 characters,
-and the built_in function-call counts, 26105 in all, are:
-= -- 2326
-> -- 1033
-< -- 64
-+ -- 467
-- -- 296
-* -- 1890
-:= -- 4296
-add.period$ -- 304
-call.type$ -- 77
-change.case$ -- 151
-chr.to.int$ -- 60
-cite$ -- 90
-duplicate$ -- 1405
-empty$ -- 2481
-format.name$ -- 400
-if$ -- 5531
-int.to.chr$ -- 18
-int.to.str$ -- 78
-missing$ -- 69
-newline$ -- 466
-num.names$ -- 225
-pop$ -- 492
+            1093 strings with 17916 characters,
+and the built_in function-call counts, 26935 in all, are:
+= -- 2407
+> -- 1054
+< -- 66
++ -- 481
+- -- 302
+* -- 1971
+:= -- 4419
+add.period$ -- 314
+call.type$ -- 80
+change.case$ -- 157
+chr.to.int$ -- 61
+cite$ -- 97
+duplicate$ -- 1454
+empty$ -- 2560
+format.name$ -- 407
+if$ -- 5707
+int.to.chr$ -- 20
+int.to.str$ -- 81
+missing$ -- 70
+newline$ -- 482
+num.names$ -- 228
+pop$ -- 508
 preamble$ -- 1
-purify$ -- 77
+purify$ -- 80
 quote$ -- 0
-skip$ -- 789
+skip$ -- 809
 stack$ -- 0
-substring$ -- 955
-swap$ -- 178
-text.length$ -- 3
+substring$ -- 972
+swap$ -- 190
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 530
-warning$ -- 11
-while$ -- 208
+type$ -- 551
+warning$ -- 13
+while$ -- 211
 width$ -- 0
-write$ -- 1134
-(There were 16 warnings)
+write$ -- 1177
+(There were 18 warnings)

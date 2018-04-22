@@ -8,9 +8,12 @@ Knowledge knows no bounds.
 %\newthought{There's something out there that we don't know.} 
 
 %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
 \section{The Standard Model and the Higgs Boson}
 \paragraph{}
-The Standard Model(SM) ~\cite{Pdg,Griffiths,Tully,Schwartz} is a quantum field theory describing the interactions of fundamental particles through the strong, weak and electromagnetic forces. The elementary particles are shown in Figure~\ref{fig:SM}. So far, the SM predictions of particle interactions agree extremely well with experimental observations.
+The Standard Model(SM) ~\cite{Pdg,Griffiths,Tully,Schwartz} is a quantum field theory describing the interactions of elementary particles through the strong, weak and electromagnetic forces. 
+The elementary particles and their properties are shown in Figure~\ref{fig:SM}. 
+So far, the SM predictions of particle interactions agree extremely well with experimental observations.
 
 \begin{figure}[htbp!]
   \centering
@@ -21,7 +24,7 @@ The Standard Model(SM) ~\cite{Pdg,Griffiths,Tully,Schwartz} is a quantum field t
 \end{figure}
 
 \paragraph{}
-%However, in SM, due to the gauge invriance under $SU(2)_{L}$, fermions have to be massless in order to have pure left handed states. 
+%However, in SM, due to the gauge invariance under $SU(2)_{L}$, fermions have to be massless in order to have pure left handed states. 
 %The bosons must also be massless as required by the gauge principle. 
 In the SM, the Higgs mechanism introduces a complex scalar Higgs field, $\phi$, with nonzero vacuum expectation values. The scalar Higgs potential is $V(\phi) = -\nu^2\lambda_{\rm \nu} \phi^{\dagger}\phi + \lambda_{\rm \nu}(\phi^\dagger\phi)^2$. Through spontaneous symmetry breaking, $W^{\pm}$ and $Z$ bosons acquire their masses.  This process also predicts an extra scalar, the Higgs boson. The SM Lagrangian containing Higgs couplings, $\mathcal{L}_{\rm Higgs}$, is shown in Eq~\ref{eqn:higgspotential}.
 \begin{equation}
@@ -48,13 +51,15 @@ where
 \paragraph{}
 What's particularly interesting and has not been measured experimentally is $\lambda_{\rm hhh}$. 
 The SM predicts $\lambda_{\rm hhh} = \frac{m_{\rm h}^2}{2\rm\nu}$, which is referred as \textbf{$\lambda_{\rm SM}$} in this thesis. 
-Measuring $\lambda_{\rm hhh}$ directly probes the Higgs potential.
+Measuring $\lambda_{\rm hhh}$ directly probes the quartic term in the Higgs potential.
 %A different coupling from $\lambda_{\rm SM}$ is usually referred as just $\lambda$. 
 Also, the $\lambda_{\rm hhh}h^3$ term shows one way for double Higgs production within the SM. Double Higgs production is also known as \textit{di-Higgs} or \textit{Higgs pair production}.
 
 %Di-Higgs final states will provide complementary information from single Higgs physics at the LHC.
 %Measuring this coefficient is one of the major tasks of experimental particle physics program.
 
+
+%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%
 \section{Standard Model di-Higgs production}
 
@@ -95,7 +100,10 @@ The box and triangle diagrams interfere destructively, which makes the overall p
 \end{figure}
 
 \paragraph{}
-Many other different production modes of di-Higgs exist, but gluon-gluon fusion is the dominant one. Figure~\ref{fig:SM_HH_xsec}~\cite{Frederix:2014hta} compares the cross sections of gluon-gluon fusion, Vector Boson Fusion (VBF)~\ref{fig:SM_HH_VBF}, top-pair, $W^{\pm}$, $Z$ and single-top associated di-Higgs production.
+Many other different production modes of di-Higgs exist. 
+The Feynman diagrams for VBF production are shown in ~\ref{fig:SM_HH_VBF}. 
+Figure~\ref{fig:SM_HH_xsec}~\cite{Frederix:2014hta} compares the cross sections of gluon-gluon fusion, Vector Boson Fusion (VBF), top-pair, $W^{\pm}$, $Z$ and single-top associated di-Higgs production.
+It shows that gluon-gluon fusion is the dominant production channel for di-Higgs at $pp$ colliders. 
 
 \begin{figure}[htbp!]
   \centering
@@ -115,16 +123,18 @@ Many other different production modes of di-Higgs exist, but gluon-gluon fusion 
 
 \paragraph{}
 \label{par:diHiggs-crosssection}
-For p-p collisions at $\sqrt{s}=13$ \TeV, the total cross section for SM di-Higgs production~\cite{LHCYellow} is evaluated at next-to-next-to-leading order (NNLO) with the summation of logarithms at next-to-next-leading-logarithm (NNLL) accuracy and including finite top-quark mass effects at NLO. 
+For p-p collisions at $\sqrt{s}=13$ \TeV, the total cross section for SM di-Higgs production~\cite{LHCYellow} is evaluated at next-to-next-to-leading order (NNLO) with the summation of logarithms at next-to-next-leading-logarithm (NNLL) accuracy and including finite top-quark mass effects at next-to-leading order (NLO).
 The uncertainties are from energy scale and parton distributions functions (PDF):
 \begin{itemize}
   \item Gluon gluon fusion: $\sigma_{gg \to HH} = 33.49^{+ 4.3 \%}_{-6.0 \%} \pm 2.1\%$ fb. %\pm 2.3\%$ $\alpha_s$
   \item Vector boson fusion: $\sigma_{VBF \to HH} = 1.62^{+ 2.3 \%}_{-2.7 \%} \pm 2.3\%$ fb.
   \item Gluon gluon fusion to Triple-Higgs: $\sigma_{gg \to HHH} = 0.06332 ^{+ 16.1 \%}_{-14.1 \%} \pm 3.4\% $ fb.
-\end{itemize} 
-This means inside 2015 and 2016 ATLAS 36 \ifb data , the SM expectation is around one thousand di-Higgs events and only two triple Higgs events.
+\end{itemize}
+This means inside the 2015 and 2016 ATLAS 36 \ifb data, the SM expectation is around one thousand di-Higgs events and only two triple Higgs events.
 
 
+
+%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%
 \section{Beyond the Standard Model physics di-Higgs production}
 \paragraph{}
@@ -133,14 +143,14 @@ The SM works extremely well, yet the Higgs boson mass at $125$ \GeV~ requires ex
 \paragraph{}
 BSM physics could significantly enhance the production of di-Higgs at the LHC. This is separated into two categories: non-resonant and resonant production. 
 The non-resonant production generally refers to modifications of the Higgs couplings, either the Higgs self-coupling or the Higgs-top couplings. 
-Resonant production refers to the case when a particle with mass greater than twice the Higgs mass decays directly into two Higgs bosons. 
+Resonant production refers to the case when a particle with invariant mass greater than twice the Higgs mass decays directly into two Higgs bosons. 
 The non-resonant and resonant production also differ from the invariant mass distribution of the di-Higgs at the truth level. 
 In the non-resonant case, the invariant mass distribution has no clear peak, whereas in the resonant case, the invariant mass distribution usually forms a peak with model dependent width. 
 
 \begin{figure}[htbp!]
 \centering
 \captionsetup{justification=centering}
-    \begin{subfigure}[a]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/theory/BSM_HH_box}
         \caption{$H$-fermion vertices variations}
         \label{fig:BSM_HH_box}
@@ -152,7 +162,7 @@ In the non-resonant case, the invariant mass distribution has no clear peak, whe
         \label{fig:BSM_HH_tri}
     \end{subfigure}
     \quad
-    \begin{subfigure}[c]{0.3\textwidth}
+    \begin{subfigure}[b]{0.3\textwidth}
         \includegraphics[width=\textwidth]{figures/theory/BSM_HH_X}
         \caption{An intermediate resonance, X}
         \label{fig:BSM_HH_X}
@@ -161,10 +171,14 @@ In the non-resonant case, the invariant mass distribution has no clear peak, whe
 \label{fig:BSM_HH}
 \end{figure}
 
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
 \subsection{BSM non-resonant di-Higgs}
 \paragraph{}
-Enhanced non-resonant Higgs boson pair production is predicted by many models. BSM models featuring direct $t\bar{t}\hh$ vertices \cite{Grober:2010yv, Contino:2012xk} or new light colored scalars \cite{PhysRevD.86.095023} could augment vertice strength, shown as the red dots in Figure~\ref{fig:BSM_HH}. 
-A direct modification of the Higgs self-coupling coefficient in Eq~\ref{eqn:higgspotential}, from $\lambda_{\rm sm}hhh$ to $\lambda hhh$, is also possible. This is shown as the green dot in Figure~\ref{fig:BSM_HH_tri}. 
+Enhanced non-resonant Higgs boson pair production is predicted in many models. BSM models featuring direct $t\bar{t}\hh$ vertices \cite{Grober:2010yv, Contino:2012xk} or new light colored scalars \cite{PhysRevD.86.095023} could augment the vertice strength, shown as the red dots in Figure~\ref{fig:BSM_HH}. 
+A direct modification of the Higgs self-coupling coefficient in Eq~\ref{eqn:higgspotential}, from $\lambda_{\rm sm}hhh$ to $\lambda hhh$, is also possible. 
+This is shown as the green dot in Figure~\ref{fig:BSM_HH_tri}. 
 
 \paragraph{}
 The non-resonant di-Higgs enhancement is usually described by the di-Higgs cross section ratio between a BSM $\lambda$ coupling scenario and the $\lambda_{\rm SM}$ coupling scenario.
@@ -213,7 +227,7 @@ The width of the graviton increases with both mass and $c$.
 \begin{figure}[htbp!]
   \centering
   \captionsetup{justification=centering}
-  \includegraphics[width=0.7\textwidth]{figures/theory/lhclumi7813_2013_v1}
+  \includegraphics[width=0.6\textwidth]{figures/theory/lhclumi7813_2013_v1}
   \caption{Parton luminosity ratios as a function of resonance mass $M_{X}$ for $13/8$ \TeV~\cite{LumiRatio}. $1$, $2$, and $3$ ~\TeV $M_{X}$ ratios are indicated by red lines. For a $2$ \TeV $X$, the luminosity ratio is almost 10.}
   \label{fig:lumi_ratio}
 \end{figure}
@@ -223,30 +237,33 @@ In model dependent searches, based on fixed assumptions of the resonance particl
 
 \paragraph{}
 %In summary, resonant di-Higgs searches could test many models including extra dimensions and Supersymmetry.
-Generally, it is easy theoretically for new heavy resonance particles to interact with the SM through the Higgs as a mediator, resulting in resonance di-Higgs production. 
-With the increased center of mass collision energy from $8$ \TeV~ to $13$ \TeV in LHC Run 2, the production cross section for particles with \TeV~ mass grows , as shown in Figure~\ref{fig:lumi_ratio}.
-In the case of a 2 \TeV $M_X$, the cross section gain is almost a factor of 10. 
+It is easy theoretically for new heavy resonance particles to interact with the SM through the Higgs as a mediator.
+This usually results in resonance di-Higgs production. 
+With the increased center of mass collision energy from $8$\TeV~ to $13$\TeV~ in LHC Run 2, the production cross section for particles with \TeV~ mass grows , as shown in Figure~\ref{fig:lumi_ratio}.
+In the case of a $2$\TeV $M_X$, the cross section gain is almost a factor of $10$. 
 Therefore, it was particularly important to focus on resonant searches above \TeV~ region.
 
 
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
 \section{Di-Higgs decay and LHC previous search results}
 \paragraph{}
-Double Higgs decays into other elementary particles in $1.56 \time 10 ^{-22}$s.
+The Higgs boson decays into other elementary particles in $1.56 \time 10 ^{-22}$s.
 Therefore, searching for di-Higgs requires reconstructing the Higgs boson from the decay products.
-Di-Higgs decay is a combination of single Higgs decays. The coupling terms to fermions and bosons are shown in Equation~\ref{eqn:higgspotential}. 
-The branching ratio of the di-Higgs final state is shown in Figure~\ref{fig:HH_BR}.
+Di-Higgs decay is a combination of single Higgs decay, which is determined by the Higgs coupling terms to fermions and bosons are shown in Equation~\ref{eqn:higgspotential}. 
+The branching ratios of different di-Higgs final states are shown in Figure~\ref{fig:HH_BR}.
 
 \begin{figure}[htbp!]
   \centering
-  \includegraphics[width=0.7\textwidth]{figures/theory/HH_BR}
+  \includegraphics[width=0.6\textwidth]{figures/theory/HH_BR}
   \caption{Summary of di-Higgs final states and their ratios. Top left, \bbbb, has the largest branching ratio.}
   \label{fig:HH_BR}
 \end{figure}
 
 \begin{figure}[htbp!]
   \centering
-  \includegraphics[width=0.7\textwidth]{figures/theory/Run1_ATLAS}
-  \caption{The observed and expected 95$\%$ CL upper limits of $\sigma(gg \to H) \times BR(H \to hh)$ at $\sqrt{s}=8$ \TeV as functions of the heavy Higgs boson mass $m_{H}$, combining resonant searches in Higgs boson pair to \bbtautau~, \WWgg~, \bbgg~, and \bbbb~ final states. The expected limits from individual searches are also shown. The green and yellow bands represent $\pm 1\sigma$ and $\pm 2\sigma$ uncertainty ranges of the expected combined limits. The improvement above $m_{H} =500$ GeV reflects the sensitivity of the \bbbb~ analysis. The results beyond 1 \TeV are only from the \bbbb~ final state alone.}
+  \includegraphics[width=0.6\textwidth]{figures/theory/Run1_ATLAS}
+  \caption{The observed and expected $95\%$ CL upper limits of $\sigma(gg \to H) \times BR(H \to hh)$ at $\sqrt{s}=8$\TeV~ as functions of the heavy Higgs boson mass $m_{H}$, combining resonant searches in Higgs boson pair to \bbtautau~, \WWgg~, \bbgg~, and \bbbb~ final states. The expected limits from individual searches are also shown. The green and yellow bands represent $\pm 1\sigma$ and $\pm 2\sigma$ uncertainty ranges of the expected combined limits. The improvement above $m_{H} =500$ GeV reflects the sensitivity of the \bbbb~ analysis. The results beyond $1$\TeV~ are only from the \bbbb~ final state alone.}
   \label{fig:Run1_ATLAS}
 \end{figure}
 
@@ -257,7 +274,7 @@ The resonant search combination result is shown in Figure~\ref{fig:Run1_ATLAS}.
 The best non-resonant $\sigma(pp \to hh)$ cross section limit in Run 1 is the ATLAS combination, at $0.69$ pb. This corresponds to $|\frac{\rm \lambda}{\rm \lambda_{\rm SM}}| <70$. 
 Different di-Higgs search challenges and perspectives are summarized below:
 \begin{itemize}
-	\item \bbbb~: Trigger limits the low mass resonance searches, but for high mass resonances above 500 \GeV, the branching ratio of this channel provides a decisive advantage. It is great for non-resonant searches as well.
+	\item \bbbb~: $b$-jet trigger efficiency limits the low mass resonance searches, but for high mass resonances above 500 \GeV, the branching ratio of this channel provides a decisive advantage. It is great for non-resonant searches as well.
 	\item \bbWW: Despite the second largest branching ratio, large background from \ttbar~ limits this search sensitivity.
 	\item \bbgg~: This channel benefits from good double photon trigger efficiency, a good photon reconstruction efficiency and a low SM background. Most sensitive at low mass $m_{X} \leq 350$ \GeV. At higher masses, the smaller branching ratio and the merging of photons hurt the search sensitivity. Great for non-resonant searches.
 	\item \bbtautau~: An intermediate choice between \bbbb~ and \bbgg~ for resonance searches. Yet this channel contributes to the non-resonant result significantly.
@@ -265,7 +282,9 @@ Different di-Higgs search challenges and perspectives are summarized below:
 	\item $W^+W^-\tau\tau$, $W^+W^-W^+W^-$, $b\bar{b}ZZ$: There are no search results on these channels yet. But because of the relatively large branching ratio, it is likely that they would be explored in the future.
 \end{itemize}
 
-%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%
 \section{Resolved and Boosted}
 
 \begin{figure}[htbp!]
@@ -278,7 +297,7 @@ Different di-Higgs search challenges and perspectives are summarized below:
 \paragraph{}
 The thesis focuses on searching for a \TeV~ scale resonance \Xtohhb. 
 The invariant mass of the two-Higgs-boson-candidate system, \mtwoJ, is used as the final discriminant between Higgs boson pair production and the SM backgrounds.
-The Higgs bosons reconstruction affects the \mtwoJ invariant mass resolution.
+The Higgs bosons reconstruction affects the \mtwoJ~ invariant mass resolution.
 Fully reconstructed out-coming $b$ quarks are also necessary to separate the signal from the multi quark production backgrounds.
 
 \paragraph{}
@@ -288,8 +307,8 @@ The resolved strategy is effective for resonance $M_X$ from $260$ \GeV~ up to $1
 It is also good for non-resonance di-Higgs searches.
 
 \paragraph{}
-A different reconstruction strategy has to be used for di-Higgs systems with higher Lorentz boosts from heavier resonances.
-For a Higgs produced with momentum $p_{H}$, the angular separation between the $b$ and $\bar{b}$ quarks, \drbb, scales roughly as $\frac{2m_H}{p_{H}}$. 
+A different reconstruction strategy is used for di-Higgs systems with higher Lorentz boosts from heavier resonances.
+For a Higgs boson produced with momentum $p_{H}$, the angular separation between the $b$ and $\bar{b}$ quarks, \drbb, scales roughly as $\frac{2m_H}{p_{H}}$.
 For example, a $1.5$ \TeV~ resonance \Grav~ is produced roughly at rest in a $pp$ collision. 
 In the lab frame, the two Higgs bosons each get $\sim 625$ \GeV~ momentum. 
 The \drbb~ is around $0.4$.
@@ -301,9 +320,13 @@ The presence of $b$-quarks is inferred using smaller-radius track jets built fro
 This final state is called the \textit{boosted} state, shown on the right of Figure~\ref{fig:resolved_bosted}.
 This strategy works for resonance $M_X$ from $1$ \GeV~ up to $3$ \TeV.
 
-
 \paragraph{}
-In summary, di-Higgs has a small production rate in the SM, but could be significantly enhanced in BSM scenarios. In particular, a heavy resonance spin-0 or spin 2 particle could decay into Higgs boson pair directly. The search sensitivity for massive resonances increases as the center of mass energy of the collision increases. For resonance signals above 1 \TeV~ decaying into di-Higgs, \bbbb~ channel has the best discovery potential in Run 2. In order to fully reconstruct these \Xtohhb, boosted techniques has to be used. Therefore, searching for \TeV~ scale resonance production of di-Higgs $\to$ \bbbb~ using the boosted analysis is the goal of thesis.
+In summary, di-Higgs has a small production rate in the SM, but could be significantly enhanced in BSM scenarios. 
+In particular, a heavy resonance spin-0 or spin 2 particle could decay into Higgs boson pair directly. 
+The search sensitivity for massive resonances increases as the center of mass energy of the collision increases. 
+For resonance signals above 1 \TeV~ decaying into di-Higgs, \bbbb~ channel has the best discovery potential in Run 2. 
+In order to fully reconstruct these \Xtohhb, boosted techniques has to be used. 
+Searching for \TeV~ scale resonance production of di-Higgs $\to$ \bbbb~ using the boosted analysis is the goal of thesis.
 % In LHC Run 2, in the \bbbb~channel, ATLAS searched for both non-resonant and resonant production in the mass range of 400--3000~\GeV\ using 3.2 $\mathrm{fb}^{-1}$ of 13~\TeV\ data~\cite{EXOT-2015-11} collected during 2015.
 
 
