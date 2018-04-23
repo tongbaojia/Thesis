@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  22 APR 2018 23:30
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  23 APR 2018 11:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1818,9 +1818,9 @@ Overfull \hbox (10.16435pt too wide) in paragraph at lines 45--45
  []
 
 
-Overfull \hbox (13.54343pt too wide) in paragraph at lines 46--46
+Overfull \hbox (19.13885pt too wide) in paragraph at lines 46--46
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Simultaneous fit of $[][]$  and $[][]
-$  in $[][]$ (top) and $[][]$ (middle) and $[][][]$ (bottom) sideband 
+$  in $[][]$, $[][]$ and$[][][]$ sideband region using the leading large- 
  []
 
 
@@ -3936,27 +3936,29 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [65] [66]
 File: figures/boosted/Fit/fitNorm_i4.pdf Graphic file (type QTm)
  <use  "figures/boosted/Fit/fitNorm_i4.pdf" >
+Overfull \hbox (59.41103pt too wide) in paragraph at lines 285--286
+[][] 
+ []
+
 File: figures/boosted/Fit/fitNorm_i3.pdf Graphic file (type QTm)
-
 <use  "figures/boosted/Fit/fitNorm_i3.pdf" >
-File: figures/boosted/Fit/fitNorm_i2s.pdf Graphic file (type QTm)
+Overfull \hbox (59.41103pt too wide) in paragraph at lines 291--292
+[][] 
+ []
 
+File: figures/boosted/Fit/fitNorm_i2s.pdf Graphic file (type QTm)
 <use  "figures/boosted/Fit/fitNorm_i2s.pdf" >
-Overfull \hbox (6.18587pt too wide) in paragraph at lines 291--296
+Overfull \hbox (59.41103pt too wide) in paragraph at lines 298--299
+[][] 
+ []
+
+
+Overfull \hbox (6.18587pt too wide) in paragraph at lines 307--312
 \EU1/EBGaramond(2)/bx/n/10.95 to be $[]$. Once the first fit is done, the QCD b
 ackground is re-esitmated using the updated $[][][]$ $[][]$ value, 
  []
 
-Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
-n;language=DFLT;!
-Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
-n;language=DFLT;!
-(./figures/boosted/tables/normfit_prereweight.tex)
-Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
-n;language=DFLT;!
-Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
-n;language=DFLT;!
- [67] [68]
+(./figures/boosted/tables/normfit_prereweight.tex) [67] [68]
 File: figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk0_Pt_1.pdf Gra
 phic file (type QTm)
 
@@ -3978,10 +3980,10 @@ Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
 n;language=DFLT;!
 Missing character: There is no ^^V in font EB Garamond 08 Regular/OT:script=lat
 n;language=DFLT;!
- (./figures/boosted/tables/normfit.tex) [72]
+ (./figures/boosted/tables/normfit.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 406.
+(hyperref)                removing `subscript' on input line 422.
 
 File: figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf Grap
 hic file (type QTm)
@@ -3995,10 +3997,10 @@ File: figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf
  Graphic file (type QTm)
 
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pd
-f" > [73]
+f" > [72] [73]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 430.
+(hyperref)                removing `subscript' on input line 446.
 
 File: figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Control_mHH_l_1.pdf Graph
 ic file (type QTm)
@@ -4014,7 +4016,7 @@ Graphic file (type QTm)
 " >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 454.
+(hyperref)                removing `subscript' on input line 470.
 
 [74
 
@@ -6324,12 +6326,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 27342 strings out of 493706
- 539517 string characters out of 6145769
- 657710 words of memory out of 5000000
- 29527 multiletter control sequences out of 15000+600000
+ 27348 strings out of 493706
+ 539639 string characters out of 6145769
+ 657957 words of memory out of 5000000
+ 29533 multiletter control sequences out of 15000+600000
  19082 words of font info for 176 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  60i,14n,104p,10522b,709s stack positions out of 5000i,500n,10000p,200000b,80000s

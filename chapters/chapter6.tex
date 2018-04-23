@@ -278,13 +278,29 @@ The \mleadJ shapes in data are well modeled by the predicted backgrounds.
 The fitting errors on \muqcd~ and \alphatt~ are applied as systematic uncertainties taking into account their correlation.
 
 \begin{figure}[htbp!]
-\begin{center}
- \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i4.pdf}\\
- \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i3.pdf}\\
- \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i2s.pdf}\\
-\caption{Simultaneous fit of \muqcd~ and \alphatt~ in $4b$ (top) and $3b$ (middle) and $2bs$ (bottom) sideband region using leading large-\R jet mass.}
-\label{fig:ttbar-fit}
-\end{center}
+  \centering
+  \captionsetup{justification=centering}
+    \hspace{-4cm}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i4.pdf}
+        \caption{$4b$ \mleadJ~ fit}
+        \label{fig:ttbar-fit-4b}
+    \end{subfigure}
+    \quad \quad \quad \quad \quad
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i3.pdf}
+        \caption{$3b$ \mleadJ~ fit}
+        \label{fig:ttbar-fit-3b}
+    \end{subfigure}
+    \\
+    \hspace{-4cm}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Fit/fitNorm_i2s.pdf}
+        \caption{$2bs$ \mleadJ~ fit}
+        \label{fig:ttbar-fit-2bs}
+    \end{subfigure}
+   \caption{Simultaneous fit of \muqcd~ and \alphatt~ in $4b$, $3b$ and$2bs$ sideband region using the leading large-\R jet mass.}
+  \label{fig:ttbar-fit}
 \end{figure}
 
 \paragraph{}
@@ -295,14 +311,14 @@ Then the fit is repeated until the change in \alphatt~ is less than $0.01$.
 This iterative procedure helps correct the \alphatt~ bias in the data driven QCD template.
 
 \paragraph{}
-The values of \muqcd~ and \alphatt~ estimated by the fits in the $4b/3b/2bs$ sideband regions can be found in Table~\ref{tab:bkgfit_prereweight}, along with the correlation $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{\rm t\bar{t}})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\alpha_{\rm t\bar{t}}} }$. 
+The values of \muqcd~ and \alphatt~ estimated by the fits in the $4b/3b/2bs$ sideband regions can be found in Table~\ref{tab:bkgfit_prereweight}, along with the correlation $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{tt})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\alpha_{tt}} }$. 
 \muqcd~ and \alphatt~  are approximately $70\%$ negatively correlated, due to the two components fit nature.
 This negative correlation leads to a smaller total normalization uncertainty.
 
 \begin{table}[htbp!]
 \begin{center}
+\caption{Background scaling parameters (\muqcd and \alphatt) estimated from fits to the \mleadJ distributions in $4b/3b/2bs$ sideband regions pre reweighting. $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{\rm tt})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\rm \alpha_{ tt}} }$.}
 \input{figures/boosted/tables/normfit_prereweight.tex}
-\caption{Background scaling parameters (\muqcd and \alphatt) estimated from fits to the \mleadJ distributions in $4b/3b/2bs$ sideband regions. $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{\rm t\bar{t}})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\alpha_{\rm t\bar{t}}} }$.}
 \label{tab:bkgfit_prereweight}
 \end{center}
 \end{table}

@@ -173,9 +173,9 @@
 \contentsline {paragraph}{}{71}{figure.caption.52}
 \contentsline {paragraph}{}{71}{figure.caption.52}
 \contentsline {paragraph}{}{71}{figure.caption.52}
-\contentsline {paragraph}{}{73}{table.caption.53}
-\contentsline {section}{\numberline {6.7}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the sideband region}{73}{section.6.7}
-\contentsline {paragraph}{}{73}{section.6.7}
+\contentsline {paragraph}{}{72}{table.caption.53}
+\contentsline {section}{\numberline {6.7}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the sideband region}{72}{section.6.7}
+\contentsline {paragraph}{}{72}{section.6.7}
 \contentsline {section}{\numberline {6.8}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the control region}{74}{section.6.8}
 \contentsline {paragraph}{}{74}{section.6.8}
 \contentsline {section}{\numberline {6.9}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} rescale and smoothing in the signal region}{75}{section.6.9}
