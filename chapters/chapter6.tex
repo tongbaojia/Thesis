@@ -10,12 +10,12 @@ Even in the darkest night. Stars and angels still shine bright.
 \section{Overview}
 \paragraph{}
 The invariant mass of the two-Higgs-boson-candidate system, \mtwoJ, is used as the final discriminant between Higgs boson pair production and the SM backgrounds.
-Multi-jet (QCD) is the dominant background. 
-About $40\%$ QCD events are double $g \to b\bar{b}$, and $60\%$ light and $c$-jet fakes multiple $b$-jets.
-There is no high-statistics MC with three or four $b$-jets collected into two high-\pt~ large-\R jets.
-Therefore, a data-driven method is used for estimating both the yield and kinematic distribution of QCD events.
-For the \ttbar~ background, reasonably sized MC samples are available. 
-They provide the \ttbar~ kinematic distributions.
+Multi-jet (QCD) is the dominant background.
+About $40\%$ the QCD events are $gg \to b\bar{b}b\bar{b}$, and $60\%$ $gg \to c\bar{c}c\bar{c}$ or $gg \to q\bar{q}q\bar{q}$ fakes multiple $b$s.
+There is no accurate nor high-statistics MC with three or four $b$-jets collected into two high-\pt~ large-\R jets.
+Therefore, a data-driven method is used for estimating both the yield and kinematic distribution of the QCD events.
+For \ttbar~ background, reasonably sized MC samples are available. 
+They provide \ttbar~ kinematic distributions.
 The \ttbar~ yield is also estimated using a data-driven method to avoid mis-modeling in the MC.
 The $Z$+jets background is small, and it estimated by the $Z$+heavy flavor jets MC.
 The SM $ZZ\to b\bar{b}b\bar{b}$ has been estimated to be completely negligible using a particle-level analysis.
@@ -28,8 +28,8 @@ For the three signal regions in number of $b$-tags, the fraction of expected bac
 
 \paragraph{}
 The shapes of the QCD background is estimated from signal depleted data regions. 
-These regions are selected with the signal region selection, except that the events must have lower number of $b$-tagged track jets.
-The differences in kinematic distributions between the lower-tagged and $n$-tag samples are corrected by reweighting the lower-tagged sample.
+These regions are selected with the signal region selection, except they must have lower number of $b$-tagged track jets.
+The differences in kinematic distributions between the lower-tagged and $n$-tag regions are corrected by reweighting the lower-tagged sample.
 
 \paragraph{}
 The less $b$-tagged regions only estimate the shapes of the expected background, but not the total yield.
@@ -39,11 +39,12 @@ The sideband and control regions are optimized to accurately estimate the rate o
 
 \paragraph{}
 The definition of SB and CR is introduced in section~\ref{sec:boosted-SBCR}.
-The QCD and \ttbar~  background shape estimation is introduced in section~\ref{sec:boosted-qcd} and section~\ref{sec:boosted-ttbar}.
-The normalization estimation for QCD and \ttbar is introduced in section~\ref{sec:ttbarnorm}.
+The QCD and \ttbar~ background shape templates are introduced in section~\ref{sec:boosted-qcd} and section~\ref{sec:boosted-ttbar}.
+The normalization estimation for QCD and \ttbar~ is introduced in section~\ref{sec:ttbarnorm}.
 The reweighting procedure is explained in section~\ref{sec:boosted-reweight}.
 The SR prediction is further rescaled and smoothed, discussed in section~\ref{sec:boosted-SR-smoothing}.
-The SB and CR distributions and yields are shown in section~\ref{sec:boosted-sb}, section~\ref{sec:boosted-cr}, section~\ref{sec:yields}.
+The SB and CR distributions are shown in section~\ref{sec:boosted-sb}, section~\ref{sec:boosted-cr}. 
+The yields are listed section~\ref{sec:yields}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,14 +98,14 @@ The ring shape around the SR allows a good test for the background predictions w
 The current CR gives $N_{CR} \sim 2 N_{SR}$, which contains good statistics, and not affecting the SB design.
 
 \paragraph{}
-The SB must be a reasonable proxy for the QCD events contained in the CR and SR.
+The SB must be a reasonable approximation for the QCD events contained in the CR and SR.
 It is therefore chosen as the ring outside the CR regions.
-The shift upwards in $R_{hh}^{\text{high}}$ helps to contain enough $t\bar{t}$ events in the normalization estimates.
+The shift upwards in $R_{hh}^{\text{high}}$ center helps to contain enough \ttbar~ events in the normalization estimates.
 %Different Large-\R jet mass reflects very different underlying kinematics.
-A larger SB will potentially increase the bias between different QCD processes in CR/SR and SB.
-Intrinsically they consist of different gluon splitting and light/c fake $b$-jets events.
-This kinematic bias should be reduced.
-A smaller SB will introduce larger uncertainties in the normalization estimation.
+A larger SB will potentially increase the kinematic differences between different QCD processes in CR/SR and SB.
+Intrinsically, different \mleadJ-\msublJ reflects of different portion of $g \to b\bar{b}$ and $g \to c\bar{c}/q\bar{q}$ events.
+This kinematic bias should be reduced as much as possible.
+A smaller SB will introduce larger statistical uncertainties in the normalization estimation.
 This is a bias variance trade off.
 The current design gives roughly $N_{SB} \sim 4 N_{SR}$ and $N_{SB} \sim 2 N_{CR}$, which provides a good balance of the bias and variance in the background estimation.
 
@@ -117,19 +118,39 @@ The current design gives roughly $N_{SB} \sim 4 N_{SR}$ and $N_{SB} \sim 2 N_{CR
 \end{figure*}
 
 \paragraph{}
-The fraction of expected events in the control region and sideband region as a function of \Grav Resonance mass is shown in Figure~\ref{fig:boosted-selection-region-efficiency}. 
+The fraction of expected events in the control region and sideband region as a function of \Grav~ Resonance mass is shown in Figure~\ref{fig:boosted-selection-region-efficiency}. 
 For $4b$, $3b$, and $2bs$, there is no significant signal contamination in the control and sideband regions.
 
-\begin{figure*}
-\begin{center}
-\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_2b_lst_Moriond_Efficiency_PreSel.pdf}
-\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_3b_lst_Moriond_Efficiency_PreSel.pdf} \\
-\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_4b_lst_Moriond_Efficiency_PreSel.pdf}
-\includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf} \\
-  \caption{Detailed signal efficiency in different signal/control/sideband regions as in $2bs$ (top left, $3b$ (top right), $4b$ (bottom left) and inclusive b-tagged regions, which include $2b$, $1b$ and 0$b$ as well, (bottom right) as a function of signal resonance mass hypothesis for selection cuts. The efficiencies are relative to the total number of events in the preselection.}
+
+\begin{figure}[htbp!]
+  \centering
+  \captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/SigEff/region_2b_lst_Moriond_Efficiency_PreSel.pdf}
+        \caption{$2bs$ regions}
+        \label{fig:2bs-selection-region-efficiency}
+    \end{subfigure}
+    \quad \quad 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/SigEff/region_3b_lst_Moriond_Efficiency_PreSel.pdf}
+        \caption{$3b$ regions}
+        \label{fig:3b-selection-region-efficiency}
+    \end{subfigure} \\ 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/SigEff/region_4b_lst_Moriond_Efficiency_PreSel.pdf}
+        \caption{$4b$ regions}
+        \label{fig:4b-selection-region-efficiency}
+    \end{subfigure}
+    \quad \quad 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf}
+        \caption{Inclusive regions}
+        \label{fig:alltag-selection-region-efficiency}
+    \end{subfigure} \\ 
+   \caption{
+   Detailed signal efficiency in different signal/control/sideband regions as in $n$-tag regions and inclusive b-tagged regions, which include $2b$, $1b$ and 0$b$ as well, (bottom right) as a function of \Grav~ resonance mass for selection cuts. The efficiencies are relative to the total number of events in the preselection.}
   \label{fig:boosted-selection-region-efficiency}
-\end{center}
-\end{figure*}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -138,14 +159,15 @@ For $4b$, $3b$, and $2bs$, there is no significant signal contamination in the c
 \label{sec:boosted-qcd}
 
 \paragraph{}
-The QCD multi-jets prediction relies on finding regions which are similar in event properties to estimate the shapes of the expected background.
+The QCD multi-jets prediction relies on finding regions that are similar in signal region event properties.
 These regions are defined to be identical to the signal regions except requiring fewer number of $b$-tagged track jets associated with the large-\R jets.
-They are orthogonal to the $nb$-tag regions with no overlapping events:
+They are orthogonal to the $n$-tag regions with no overlapping events:
 \begin{itemize}
-\item For the $2bs$ category, the $1b$ data events, where one large-\R jet has one and only one $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling.
-\item For the $3b$ and $4b$ categories, the $2b$ data events, where one large-\R jet has two $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling. The $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for $3b$ and $4b$ background estimations. This ensures the shape estimations of $3b$ and $4b$ QCD estimates are uncorrelated. 
+\item For the $2bs$ category, $1b$ data events, where one large-\R jet has one and only one $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling.
+\item For the $3b$ and $4b$ categories, $2b$ data events, where one large-\R jet has two $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling. The $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for $3b$ and $4b$ background estimations. This ensures the shape estimations of $3b$ and $4b$ QCD estimates are uncorrelated. 
 \end{itemize}
-The MC predicted $t\bar{t}$ and $Z$+jets events in the $1b/2b$ regions are subtracted from the data distributions to produce the $1b/2b$ QCD estimation. Therefore, the number of QCD events, $N_{\text{qcd}}$, is estimated in Equation~\ref{eq:nqcd}.
+The $1b/2b$ MC predicted $t\bar{t}$ and $Z$+jets events in the $1b/2b$ regions are subtracted from the data distributions to produce the QCD estimation. 
+Therefore, the number of QCD events, $N_{\text{qcd}}$, is estimated in Equation~\ref{eq:nqcd}.
 \begin{eqnarray}
 \label{eq:nqcd}
 N_{\text{qcd}} = N_{\text{data}} - N_{t\bar{t}} - N_{Z+jets} 
@@ -155,18 +177,17 @@ N_{\text{qcd}} = N_{\text{data}} - N_{t\bar{t}} - N_{Z+jets}
 The $1b$-tagged region also requires that each large-\R jet has at least one track jet (to model $2bs$).
 Similarly, to model $3b$, the $2b$-tagged region requires that one large-\R jet has at least one track jet and the other one has at least two track jets. 
 To model $4b$, each large-\R jet must have at least two track jets (to model $4b$).
-This prevents biases in \mtwoJ distribution from the number of track jets.
+This prevents biases in \mtwoJ~ distribution from the number of associated track jets.
 
 \paragraph{} 
 The resolved signal region events veto impacts the $4b$ background estimation. 
-To account for this effect, a part of $2b$ data events used for $4b$ background estimation are excluded. 
-They must have at least two small-\R jets that are $b$-tagged (passing resolved $70\%$ working point), and in case where the two other non b-tagged resolved jets to make the Higgs candidate, must pass the $X_{hh-resolved} < 1.6$ cut. 
+To account for this effect, a part of $2b$ data events used for $4b$ background estimation are excluded.
+The vetoed events must have at least two small-\R jets that are $b$-tagged (passing the resolved $70\%$ $b$-tagging working point), and in case where the two other non $b$-tagged resolved jets can make a Higgs candidate, must pass the $X_{hh-resolved} < 1.6$ cut.
 This ensures that a similar sculpting effect from the resolved veto is reflected in the background estimation in $4b$ signal region.
+This reduces the estimated number of events in the signal region by $10\$$.
 
 \paragraph{}
 Given the $1b/2b$ QCD background shape predictions, the normalization of the QCD background is determined in the sideband by fitting the \mleadJ distribution simultaneously with QCD and \ttbar~ background templates, as described in section~\ref{sec:ttbarnorm}.
-
-\paragraph{}
 There are kinematic differences between the $1b/2b$ samples and the $4b/3b/2bs$ regions.  
 A kinematic reweighting is applied to correct for such differences, as described in Section~\ref{sec:boosted-reweight}.
 
@@ -177,28 +198,40 @@ A kinematic reweighting is applied to correct for such differences, as described
 \label{sec:boosted-ttbar}
 
 \paragraph{}
-The \ttbar~ events in the signal region mainly decay all-hadroniclly.
+The \ttbar~ events in the signal region mainly decay to $W^{\pm}$s that further decay hadroniclly.
 The \ttbar~ MC is scaled by the luminosity in the data.
 The boosted event selection on is applied on the \ttbar~ MC.
-The estimated \ttbar's kinematic distribution shapes come from the MC.
-To account for possible mis-modeling in MC, a normalization scaling factor is derived from a fit to data in the sideband region, as described in section~\ref{sec:ttbarnorm}.
+The estimated \ttbar's kinematic distributions come from the MC.
+To account for possible mis-modeling in the MC, a normalization scaling factor is derived from a fit to data in the sideband region, as described in section~\ref{sec:ttbarnorm}.
 
 \paragraph{}
 For $4b$ and $3b$ signal regions, there are not sufficient \ttbar~ MC statistics for high \mtwoJ.
 Instead, the $2bs$ \ttbar~ MC shapes are used.
 It is rescaled to the $4b$ and $3b$ \ttbar~ MC yields.
-This reduces the modeling uncertainties for $4b$ and $3b$ \ttbar~ at high \mtwoJ.
-A comparison between the $4b/3b/2bs$ shapes for the \mtwoJ distributions in the SR is shown in Figure~\ref{fig:ttshapeComp}.
+This reduces the statistical uncertainties for $4b$ and $3b$ \ttbar~ at high \mtwoJ.
+A comparison between the $4b/3b/2bs$ shapes for the \mtwoJ distributions in the signal regions is shown in Figure~\ref{fig:ttshapeComp}.
 The shapes are compatible, with the $4b$ having much larger statistical uncertainties.  
-Differences between these distributions will be used as a systematic, as described in Section~\ref{sec:systematics}.
-Since the same \ttbar~ shape is used for the $4b/3b/2bs$ SR predictions, the shape systematics are considered correlated in the final results and limit setting. 
+Differences between these distributions will be used as a systematic, as described in section~\ref{sec:systematics}.
+Since the same \ttbar~ distribution is used for the $4b/3b/2bs$ SR predictions, the \ttbar~ shape systematics are considered correlated in the final results and limit setting. 
+
 
 \begin{figure}[htbp!]
-\begin{center}
-  \includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Other/ttbar_compare_mHH_l.pdf}
-\caption{Normalized of $2b$, $3b$, and $4b$ \ttbar~ MC \mtwoJ distribution in the SR. The uncertainties are statistical.}
-\label{fig:ttshapeComp}
-\end{center}
+  \centering
+  \captionsetup{justification=centering}
+  \hspace{-0.5cm}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Other/ttbar_compare_mHH_l.pdf}
+        \caption{Linear scale}
+        \label{fig:ttshapeComp_lin}
+    \end{subfigure}
+    \quad
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Other/ttbar_compare_mHH_l_1.pdf}
+        \caption{Log scale}
+        \label{fig:ttshapeComp_log}
+    \end{subfigure}
+   \caption{Normalized of $2bs$, $3b$, and $4b$ \ttbar~ MC \mtwoJ~ distribution in the seignal region. The uncertainties are statistical.}
+  \label{fig:ttshapeComp}
 \end{figure}
 
 
@@ -211,35 +244,37 @@ Since the same \ttbar~ shape is used for the $4b/3b/2bs$ SR predictions, the sha
 \label{sec:ttbarnorm}
 
 \paragraph{}
-The number of $4b/3b/2bs$ background events in a given region R (SB / CR / SR) is shown in Equation~\ref{eq:fitparams}:
+The number of $4b/3b/2bs$ background events in a given region R (SB / CR / SR) is shown in Equation~\ref{eq:fitparams-4b}, \ref{eq:fitparams-3b} and \ref{eq:fitparams-2bs}:
 \begin{eqnarray}
-\label{eq:fitparams}
+\label{eq:fitparams-4b}
 N^{4b\text{-R}}_{\text{bkg}} = \mu_{\text{qcd}}^{4b} N^{2b\text{-R}}_{\text{qcd}} + \alpha_{t\bar{t}}^{4b} N^{4b\text{-R}}_{t\bar{t}} + N^{4b\text{-R}}_{Z+jets};
 \quad \mu_{\text{qcd}}^{4b} \sim \frac{N^{4b\text{-SB}}_{\text{qcd}}}{N^{2b\text{-SB}}_{\text{qcd}}}
 \\
+\label{eq:fitparams-3b}
 N^{3b\text{-R}}_{\text{bkg}} = \mu_{\text{qcd}}^{3b\text{-R}} N^{2b\text{-R}}_{\text{qcd}} + \alpha_{t\bar{t}}^{3b} N^{3b\text{-R}}_{t\bar{t}} + N^{3b\text{-R}}_{Z+jets} ;
 \quad \mu_{\text{qcd}}^{3b} \sim \frac{N^{3b\text{-SB}}_{\text{qcd}}}{N^{2b\text{-SB}}_{\text{qcd}}}\\
+\label{eq:fitparams-2bs}
 N^{2bs\text{-R}}_{\text{bkg}} = \mu_{\text{qcd}}^{2bs\text{-R}} N^{1b\text{-R}}_{\text{qcd}} + \alpha_{t\bar{t}}^{2bs} N^{2bs\text{-R}}_{t\bar{t}} + N^{2bs\text{-R}}_{Z+jets};
 \quad \mu_{\text{qcd}}^{2bs} \sim \frac{N^{2bs\text{-SB}}_{\text{qcd}}}{N^{1b\text{-SB}}_{\text{qcd}}}
-\end{eqnarray}
-where $N$ is the number events in the given region. 
-\muqcd~ is essentially an estimate of the ratio of the number of QCD events with $4b/3b/2bs$-tagged track jets, to the number of QCD events with $2b/2b/1b$-tagged track.
-This is assumed to be a constant over SB/CR/SR.
+\end{eqnarray} 
+\muqcd~ is essentially an estimate of the ratio of the number of QCD events with $4b/3b/2bs$-tagged track jets, to the number of QCD events with $2b/2b/1b$-tagged track jets.
+\muqcd~ is assumed to be a constant over SB/CR/SR \mleadJ-\msublJ regions.
 Validation of this assumption can be found in Appendix~\ref{AppendixMuqcd}.
-$\alpha_{t\bar{t}}$~, applied after the \ttbar~ is scaled to the total integrated luminosity, is a correction to the MC prediction in this phase space.
-\muqcd~ and \alphatt~ are used as multiplicative constants in other regions of the mass plane (i.e. the control or signal regions).
+\alphatt~, applied after the \ttbar~ MC is scaled to the total integrated luminosity, is a correction to the MC prediction.
+\muqcd~ and \alphatt~ are derived in the sieband region.
+They are used as multiplicative constants in other regions of the mass plane (i.e. the control region or the signal region).
 
 \paragraph{}
-A binned maximum likelihood fit is employed to find the values of \muqcd~ and \alphatt~, as well as the correlation between them.
+A binned maximum likelihood fit is used to find the values of \muqcd~ and \alphatt~, as well as the correlation between them.
 These scaling parameters are determined independently using the same procedure in the $4b/3b/2bs$ sideband regions.
 Due to the \pt~ $>450$ \GeV~ cut imposed on the leading large-\R jet, the hadronicly decaying top quark can be fully reconstructed inside the leading large-\R jet. 
-The \mleadJ in the \ttbar\ sample has a clean peak around $170$ \GeV~ in the sideband region.
-It has the best separation between QCD and \ttbar\ shapes.
+The \mleadJ~ from \ttbar~ events has a clean peak around $170$ \GeV~ in the sideband region.
+It has the best separation between QCD and \ttbar~ shapes.
 Therefore, the fit is performed on the \mleadJ spectrum in the sideband region.
 
 \paragraph{}
-Figure~\ref{fig:ttbar-fit} shows the post-fit spectrum of the leading large-\R jet mass in the $n$-$b$tag sideband regions.
-The \mleadJ shapes in data are also well modeled by the predicted backgrounds. 
+Figure~\ref{fig:ttbar-fit} shows the post-fit spectrum of \mleadJ in the $n$-$b$tag sideband regions.
+The \mleadJ shapes in data are well modeled by the predicted backgrounds. 
 The fitting errors on \muqcd~ and \alphatt~ are applied as systematic uncertainties taking into account their correlation.
 
 \begin{figure}[htbp!]
@@ -253,16 +288,16 @@ The fitting errors on \muqcd~ and \alphatt~ are applied as systematic uncertaint
 \end{figure}
 
 \paragraph{}
-The \ttbar MC sample normalization is further corrected from the fitted \alphatt.
-At first \alphatt is assumed to be $1$.
-Once the first fit is done, the QCD background is re-esitmated using the updated $2bs$ \alphatt value, which has the smallest uncertainty.
-Then the fit is repeated until the change in \alphatt is less than $0.01$.
-This iterative procedure helps correct the \alphatt bias in the data driven QCD template.
+The \ttbar~ MC sample normalization is further corrected from the fitted \alphatt.
+At first \alphatt~ is assumed to be $1$.
+Once the first fit is done, the QCD background is re-esitmated using the updated $2bs$ \alphatt~value, which has the smallest uncertainty.
+Then the fit is repeated until the change in \alphatt~ is less than $0.01$.
+This iterative procedure helps correct the \alphatt~ bias in the data driven QCD template.
 
 \paragraph{}
-The values of \muqcd~ and \alphatt~ as estimated by the fits in the $4b/3b/2bs$ sideband regions can be found in Table~\ref{tab:bkgfit_prereweight}, along with the correlation $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{\rm t\bar{t}})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\alpha_{\rm t\bar{t}}} }$. 
-\muqcd and $\alpha_{t\bar{t}}$ are approximately $70\%$ negatively correlated, due to the two components fit nature.
-This leads to a smaller total normalization uncertainty.
+The values of \muqcd~ and \alphatt~ estimated by the fits in the $4b/3b/2bs$ sideband regions can be found in Table~\ref{tab:bkgfit_prereweight}, along with the correlation $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{\rm t\bar{t}})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\alpha_{\rm t\bar{t}}} }$. 
+\muqcd~ and \alphatt~  are approximately $70\%$ negatively correlated, due to the two components fit nature.
+This negative correlation leads to a smaller total normalization uncertainty.
 
 \begin{table}[htbp!]
 \begin{center}
