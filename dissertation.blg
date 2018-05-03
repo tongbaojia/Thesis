@@ -32,50 +32,49 @@ Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
 Warning--empty author in ATLAS-CONF-2015-035
 Warning--empty author in ATL-PHYS-PUB-2017-020
-Warning--empty author in ATLAS-CONF-2016-024
-Warning--empty author in ATLAS-CONF-2017-029
 Warning--empty journal in MC12AU2
 Warning--empty journal in carvalho
+Warning--empty journal in Aaboud:2018knk
 Warning--empty journal in Hawking:2018tcn
 You've used 80 entries,
             2481 wiz_defined-function locations,
-            1093 strings with 17916 characters,
-and the built_in function-call counts, 26935 in all, are:
-= -- 2407
-> -- 1054
+            1096 strings with 17948 characters,
+and the built_in function-call counts, 27125 in all, are:
+= -- 2415
+> -- 1076
 < -- 66
-+ -- 481
-- -- 302
-* -- 1971
-:= -- 4419
-add.period$ -- 314
++ -- 486
+- -- 308
+* -- 1962
+:= -- 4462
+add.period$ -- 315
 call.type$ -- 80
 change.case$ -- 157
-chr.to.int$ -- 61
-cite$ -- 97
-duplicate$ -- 1454
-empty$ -- 2560
-format.name$ -- 407
-if$ -- 5707
-int.to.chr$ -- 20
+chr.to.int$ -- 62
+cite$ -- 94
+duplicate$ -- 1461
+empty$ -- 2579
+format.name$ -- 416
+if$ -- 5749
+int.to.chr$ -- 19
 int.to.str$ -- 81
-missing$ -- 70
-newline$ -- 482
-num.names$ -- 228
-pop$ -- 508
+missing$ -- 72
+newline$ -- 483
+num.names$ -- 234
+pop$ -- 515
 preamble$ -- 1
 purify$ -- 80
 quote$ -- 0
-skip$ -- 809
+skip$ -- 819
 stack$ -- 0
-substring$ -- 972
-swap$ -- 190
-text.length$ -- 5
+substring$ -- 991
+swap$ -- 185
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 551
-warning$ -- 13
-while$ -- 211
+warning$ -- 12
+while$ -- 216
 width$ -- 0
-write$ -- 1177
-(There were 18 warnings)
+write$ -- 1175
+(There were 17 warnings)

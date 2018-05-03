@@ -340,19 +340,35 @@ It is important to model the QCD background as good as possible in all regions o
 Using the $1/2b$ region to model the $2bs/3b/4b$ regions can introduce discrepancies in the modeling of the estimated QCD background versus the data. 
 These discrepancies arise from the non-trivial effect that $b$-tagging has on jet kinematics.
 
-\begin{figure*}[htbp!]
-\begin{center}
-\includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk0_Pt_1.pdf}
-\includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk1_Pt_1.pdf}\\
-\includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk0_Pt_1.pdf}
-\includegraphics[width=0.4\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf}\\
-\caption{Comparison of different track jet \pt distributions. 
-The top row is for leading Higgs candidate, and the bottom row is for subleading Higgs candidate. 
-The left column is for the leading track jet of the Higgs candidate, and the right column is for the subleading track jet of the Higgs candidate. 
-Shown in the plot are data distributions, inclusive of SB, CR, and SR regions for 0$b$ and $1b$, while for $2bs$ only the SB region is shown. At the bottom ratio plot, all the ratio are taken with respect to the 0$b$ tagged distribution.}
-\label{fig:rw-2bs-comp}
-\end{center}
-\end{figure*}
+\begin{figure}[htbp!]
+  \centering
+  \captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk0_Pt_1.pdf}
+        \caption{leading large-\R jet's leading track jet \pt}
+        \label{fig:rw-2bs-comp-lead0}
+    \end{subfigure}
+    \quad \quad 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk1_Pt_1.pdf}
+        \caption{leading large-\R jet's subleading track jet \pt}
+        \label{fig:rw-2bs-comp-lead1}
+    \end{subfigure} \\ 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk0_Pt_1.pdf}
+        \caption{subling large-\R jet's leading track jet \pt}
+        \label{fig:rw-2bs-comp-subl0}
+    \end{subfigure}
+    \quad \quad 
+    \begin{subfigure}[b]{0.4\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf}
+        \caption{subling large-\R jet's subleading track jet \pt}
+        \label{fig:rw-2bs-comp-subl1}
+    \end{subfigure} \\ 
+   \caption{
+   Comparison of track jet \pt distributions in different $b$-tag regions.Shown in the plot are data, inclusive of SB/CR/SR regions for $0b$ and $1b$, and only the SB region for $2bs$. At the bottom plot, all the ratios are taken with respect to the $0b$ tagged distribution.}
+  \label{fig:rw-2bs-comp}
+\end{figure}
 
 \paragraph{}
 In order to account for the $b$-tagging effect, a reweighting on the $1/2b$ data is adopted. 
@@ -362,13 +378,14 @@ $0b$, $1b$ and $2bs$ data are compared.
 Except $2bs$ is only showing SB region, $0b$ and $1b$s are inclusive SB$+$CR$+$SR regions.
 $1b$ sample is further split into four subcategories, depending on which track jet gets $b$ tagged:
 \begin{itemize}
-\item ``OneTag lead on lead'' means the $b$ tagged track jet is the leading track jet of the leading Higgs candidate;
-\item ``OneTag lead on subl'' means the $b$ tagged track jet is the subleading track jet of the leading Higgs candidate;
-\item ``OneTag subl on lead'' means the $b$ tagged track jet is the leading track jet of the subleading Higgs candidate; 
-\item ``OneTag subl on subl'' means the $b$ tagged track jet is the subleading track jet of the subleading Higgs candidate;
+\item ``OneTag lead on lead'' means the only $b$-tagged track jet is the leading track jet of the leading Higgs candidate;
+\item ``OneTag lead on subl'' means the only $b$-tagged track jet is the subleading track jet of the leading Higgs candidate;
+\item ``OneTag subl on lead'' means the only $b$-tagged track jet is the leading track jet of the subleading Higgs candidate; 
+\item ``OneTag subl on subl'' means the only $b$-tagged track jet is the subleading track jet of the subleading Higgs candidate;
 \end{itemize}
-The figure shows that $2bs$ has very similar track jet \pt distributions as the $1b$ sample with a $b$-tagged track jet.
-It also shows that in the $1b$ sample, the track jet \pt distribution in the non $b$-tagged Higgs candidate behaves like the $0b$ sample's track jet \pt distribution.
+The figure shows that $2bs$ has very similar track jet \pt~ distributions as the $1b$ sample with a $b$-tagged track jet.
+It also shows that in the $1b$ sample, the track jet \pt~ distribution in the non $b$-tagged Higgs candidate behaves like the $0b$ sample's track jet \pt~ distribution.
+This result motivates the reweighting method.
 
 \paragraph{}
 To avoid potential biases in the final distributions used for the analysis, this reweighting technique is applied to the $1/2b$ data only. 

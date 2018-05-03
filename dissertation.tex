@@ -13,6 +13,7 @@
 \usepackage{xspace}
 \usepackage{rotating}
 \usepackage{subcaption}
+\usepackage[final]{pdfpages}
 %\usepackage{bbding}
 %\usepackage{notoccite}
 %\usepackage{lineno}
@@ -22,6 +23,8 @@
 
 % the front matter
 \input{frontmatter/personalize}
+\includepdf[pages=-]{figures/TonyTong_DAC.pdf}
+\null\thispagestyle{empty}\newpage
 \maketitle
 \copyrightpage
 \setstretch{1.2}

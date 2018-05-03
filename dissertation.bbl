@@ -276,6 +276,12 @@ M.~Aaboud et~al.
   2017{\natexlab{b}}.
 \newblock \doi{10.1140/epjc/s10052-017-5225-7}.
 
+\bibitem[Salam(2010)]{Salam:2009jx}
+Gavin~P. Salam.
+\newblock {Towards Jetography}.
+\newblock \emph{Eur. Phys. J.}, C67:\penalty0 637--686, 2010.
+\newblock \doi{10.1140/epjc/s10052-010-1314-6}.
+
 \bibitem[{ATLAS Collaboration}(2017{\natexlab{b}})]{PERF-2014-07}
 {ATLAS Collaboration}.
 \newblock {Topological cell clustering in the ATLAS calorimeters and its
@@ -328,11 +334,10 @@ Stephen~D. Ellis and Davison~E. Soper.
 \newblock \emph{Phys. Rev. D}, 48:\penalty0 3160, 1993.
 \newblock \doi{10.1103/PhysRevD.48.3160}.
 
-\bibitem[ATL(2017{\natexlab{a}})]{ATL-PHYS-PUB-2017-020}
+\bibitem[ATL(2017)]{ATL-PHYS-PUB-2017-020}
 {Impact of Alternative Inputs and Grooming Methods on Large-R Jet
   Reconstruction in ATLAS}.
-\newblock Technical Report ATL-PHYS-PUB-2017-020, CERN, Geneva, Dec
-  2017{\natexlab{a}}.
+\newblock Technical Report ATL-PHYS-PUB-2017-020, CERN, Geneva, Dec 2017.
 \newblock URL \url{http://cds.cern.ch/record/2297485}.
 
 \bibitem[{ATLAS Collaboration}(2013{\natexlab{b}})]{PERF-2012-02}
@@ -348,19 +353,6 @@ Stephen~D. Ellis and Davison~E. Soper.
 \newblock {Performance of $b$-jet identification in the ATLAS experiment}.
 \newblock \emph{JINST}, 11:\penalty0 P04008, 2016{\natexlab{d}}.
 \newblock \doi{10.1088/1748-0221/11/04/P04008}.
-
-\bibitem[ATL(2016)]{ATLAS-CONF-2016-024}
-{Electron efficiency measurements with the ATLAS detector using the 2015 LHC
-  proton-proton collision data}.
-\newblock Technical Report ATLAS-CONF-2016-024, CERN, Geneva, Jun 2016.
-\newblock URL \url{http://cds.cern.ch/record/2157687}.
-
-\bibitem[ATL(2017{\natexlab{b}})]{ATLAS-CONF-2017-029}
-{Measurement of the tau lepton reconstruction and identification performance in
-  the ATLAS experiment using $pp$ collisions at $\sqrt{s}=13~{\rm TeV}$}.
-\newblock Technical Report ATLAS-CONF-2017-029, CERN, Geneva, May
-  2017{\natexlab{b}}.
-\newblock URL \url{http://cds.cern.ch/record/2261772}.
 
 \bibitem[Aad et~al.(2016)]{Aad:2016jkr}
 Georges Aad et~al.
@@ -392,27 +384,6 @@ S.~Agostinelli et~al.
 \newblock {The ATLAS Simulation Infrastructure}.
 \newblock \emph{Eur. Phys. J. C}, 70:\penalty0 823--874, 2010{\natexlab{b}}.
 \newblock \doi{10.1140/epjc/s10052-010-1429-9}.
-
-\bibitem[Alioli et~al.(2010)Alioli, Nason, Oleari, and Re]{Alioli:2010xd}
-Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
-\newblock {A general framework for implementing NLO calculations in shower
-  Monte Carlo programs: the POWHEG BOX}.
-\newblock \emph{JHEP}, 06:\penalty0 043, 2010.
-\newblock \doi{10.1007/JHEP06(2010)043}.
-
-\bibitem[Skands(2010)]{Skands:2010ak}
-Peter~Zeiler Skands.
-\newblock {Tuning Monte Carlo generators: The Perugia tunes}.
-\newblock \emph{Phys. Rev. D}, 82:\penalty0 074018, 2010.
-\newblock \doi{10.1103/PhysRevD.82.074018}.
-
-\bibitem[Czakon and Mitov(2014)]{Czakon:20142930}
-Micha{\l} Czakon and Alexander Mitov.
-\newblock Top++: A program for the calculation of the top-pair cross-section at
-  hadron colliders.
-\newblock \emph{Comput. Phys. Commun.}, 185:\penalty0 2930, 2014.
-\newblock ISSN 0010-4655.
-\newblock \doi{10.1016/j.cpc.2014.06.021}.
 
 \bibitem[Dawson et~al.(1998)Dawson, Dittmaier, and Spira]{PhysRevD.58.115012}
 S.~Dawson, S.~Dittmaier, and M.~Spira.
@@ -494,6 +465,34 @@ Michael~H. Seymour and Andrzej Siodmok.
   LHC Underlying Event data}.
 \newblock \emph{JHEP}, 10:\penalty0 113, 2013.
 \newblock \doi{10.1007/JHEP10(2013)113}.
+
+\bibitem[Alioli et~al.(2010)Alioli, Nason, Oleari, and Re]{Alioli:2010xd}
+Simone Alioli, Paolo Nason, Carlo Oleari, and Emanuele Re.
+\newblock {A general framework for implementing NLO calculations in shower
+  Monte Carlo programs: the POWHEG BOX}.
+\newblock \emph{JHEP}, 06:\penalty0 043, 2010.
+\newblock \doi{10.1007/JHEP06(2010)043}.
+
+\bibitem[Skands(2010)]{Skands:2010ak}
+Peter~Zeiler Skands.
+\newblock {Tuning Monte Carlo generators: The Perugia tunes}.
+\newblock \emph{Phys. Rev. D}, 82:\penalty0 074018, 2010.
+\newblock \doi{10.1103/PhysRevD.82.074018}.
+
+\bibitem[Czakon and Mitov(2014)]{Czakon:20142930}
+Micha{\l} Czakon and Alexander Mitov.
+\newblock Top++: A program for the calculation of the top-pair cross-section at
+  hadron colliders.
+\newblock \emph{Comput. Phys. Commun.}, 185:\penalty0 2930, 2014.
+\newblock ISSN 0010-4655.
+\newblock \doi{10.1016/j.cpc.2014.06.021}.
+
+\bibitem[Aaboud et~al.(2018)]{Aaboud:2018knk}
+Morad Aaboud et~al.
+\newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
+  final state using proton-proton collisions at $\sqrt{s} = 13$ TeV with the
+  ATLAS detector}.
+\newblock 2018.
 
 \bibitem[Jon~Butterworth(2016)]{0954-3899-43-2-023001}
 et~al Jon~Butterworth.

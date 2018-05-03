@@ -8,18 +8,45 @@ Ugliness is in a way superior to beauty because it lasts.
 %\input{chapters/Sections/sec-data-mc}
 
 \section{Data}
+\label{sec:data}
+\paragraph{}
+This analysis uses 2015 and 2016 LHC $pp$ collision datasets at $\sqrt{s} = 13$~\TeV~ recorded by the ATLAS experiment. Data were collected during stable beam conditions and when all relevant detector systems were functional. A Good Run List (GRL) is generated after gathering on-line and off-line data quality reviews of the dataset after reconstruction. Typically, any $> 10\%$ defect in any detector subsystem makes the corresponding Lumiblocks (LB) fail the GRL requirement. The integrated luminosity of the 2015 dataset passing the GRL is 3.2~\ifb, and the 2016 dataset passing the GRL is 32.9~\ifb. These values are $82\%$ and $92\%$ of the data ATLAS recorded respectively, as shown in Figure~\ref{fig:Lumi}.
 
 \paragraph{}
-This analysis uses 2015 and 2016 LHC $pp$ collision datasets at $\sqrt{s} = 13$~\TeV~ recorded by the ATLAS experiment. Data were collected during stable beam conditions and when all relevant detector systems were functional. A Good Run List (GRL) is generated after gathering on-line and off-line data quality reviews of the dataset after reconstruction. Typically, any $> 10\%$ defect in any detector subsystem makes the corresponding Lumiblocks (LB) fail the GRL requirement. The integrated luminosity of the 2015 dataset passing the GRL is 3.2~\ifb, and the 2016 dataset passing a different GRL is 32.9~\ifb. These values are about $82\%$ and $92\%$ of the data ATLAS recorded, in Figure~\ref{fig:Lumi}.
+In the resolved analysis, a combination of three $b$-jet triggers is used:
+\begin{itemize}
+	\item ``2b4j'': two $b$-tagged jets and two non-$b$-tagged jets, all with \pt$>35$~\GeV. This trigger is most sensitive for resonance mass between $260$\GeV and $500$\GeV.
+	\item ``2b3j'': two $b$-tagged jets with \pt$>55$~\GeV, and one non-$b$-tagged jet with \pt$>100$~\GeV. This trigger is effecient for resonance mass above $600$\GeV.
+	\item ``1b1j'': one $b$-tagged jet with \pt$>225$~\GeV.
+\end{itemize}
+%Events are required to have either one $b$-tagged jet with transverse momentum \pt$>225$~\GeV, or two $b$-tagged jets, either both satisfying \pt$>35$~\GeV~ or both satisfying \pt$>55$~\GeV, with different requirements on the $b$-tagging. Some triggers require additional non-$b$-tagged jets. 
+Due to a change in the on-line $b$-tagging algorithm between 2015 and 2016, the two datasets are treated independently until they are combined in the final statistical analysis. 
+After the resolved selection described later, this combination of triggers is estimated to be $65\%$ efficient for simulated signals with mass above $280$~\GeV~, rising to $95\%$ efficiency for resonance masses greater than $600$ \GeV, as shown in Figure~\ref{fig:data_restrig}.
 
-\paragraph{}
-In the resolved analysis, a combination of $b$-jet triggers is used. Events are required to feature either one $b$-tagged jet with transverse momentum \pt$>225$~\GeV, or two $b$-tagged jets, either both satisfying \pt$>35$~\GeV~ or both satisfying \pt$>55$~\GeV, with different requirements on the $b$-tagging. Some triggers require additional non-$b$-tagged jets. Due to a change in the on-line $b$-tagging algorithm between 2015 and 2016, the two datasets are treated independently until they are combined in the final statistical analysis. After the selection described later, this combination of triggers is estimated to be 65\% efficient for simulated signals with a Higgs boson pair invariant mass, $m_{HH}$, of $280$~\GeV~, rising to $100\%$ efficiency for resonance masses greater than $600$ \GeV~. 
+\begin{figure}[htbp!]
+\centering
+\captionsetup{justification=centering}
+	\hspace{-3cm}
+    \begin{subfigure}[b]{0.28\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/resolved/extra_plots/trigEff_2015_NWS_passSignal_HLT}
+        \caption{2015}
+        \label{fig:data_restrig_2015}
+    \end{subfigure}
+    \quad \quad \quad \quad \quad \quad
+    \begin{subfigure}[b]{0.28\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/resolved/extra_plots/trigEff_2016_NWS_passSignal_HLT}
+        \caption{2016}
+        \label{fig:data_restrig_2015}
+    \end{subfigure}
+\caption{Trigger efficiencies following the full resolved analysis selection as a function of the resonance signal mass. The efficiencies of the triggers used in 2015 and 2016 are shown. In both graphs, the green line shows the efficiency of the ``2b4j'' trigger; the blue line represents the ``2b3j'' trigger; the red line represents the ``1b1j'' trigger. The 2016 triggers are less efficient due to a bug in the online primary vertex reconstruction.}
+\label{fig:data_restrig}
+\end{figure}
 
 \paragraph{}
 During 2016 data-taking, a fraction of the data was affected by a bug.
-The movement of beam spot was not accounted for in the on-line vertex reconstruction.
-This reduced the efficiency of the algorithms used to identify $b$-jets. 
-This reduces the integrated luminosity of the 2016 dataset for the resolved analysis to $24.3$ \ifb.
+The movement of the beam spot was not accounted for in the on-line vertex reconstruction.
+This reduced the efficiency of the algorithms used to identify $b$-jets.
+That fraction of data is not used and this reduces the integrated luminosity of the 2016 dataset for the resolved analysis to $24.3$ \ifb.
 
 \paragraph{}
 In the boosted analysis, events were selected from the 2015 dataset using a trigger that required a single anti-$k_t$ jet with radius parameter $R=1.0$ and with \pt~$>360$~\GeV. In 2016, a similar trigger was used but with a higher threshold of \pt~$>420$~\GeV. The efficiency of these triggers is 100\% for simulated signals passing the jet requirements as described later, so the 2015 and 2016 datasets were combined into one dataset. 
@@ -32,27 +59,12 @@ The data is further skimmed into the Derived Analysis Object Data (DAOD). The AT
 \paragraph{}
 All Monte Carlo (MC) samples used in this analysis are produced with full simulation.
 For all simulated samples, charm-hadron and bottom-hadron decays were handled by {\textsc{EvtGen}} 1.2.0~\cite{EvtGen}. 
-To simulate the impact of multiple $pp$ interactions that occur within the same or nearby bunch crossings (pile-up), minimum-bias events generated with \pythia~8~\cite{Sjostrand:2006za} using the A2 set of tuned parameters~\cite{MC12AU2} were overlaid on the hard-scatter event. 
+To simulate the impact of multiple low momentum $pp$ interactions that occur within the same or nearby bunch crossings, minimum-bias events generated with \pythia~8~\cite{Sjostrand:2006za} using the A2 set of tuned parameters~\cite{MC12AU2} were overlaid on the hard-scatter event
+This pile-up effect is simulated with a $\mu$ of $25$.
+Although this is different from the pile-up level in data, it has little effect on the analysis and the pile-up reweighting is not adopted.
+%https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasProductionGroupMC15c#Pileup_for_samples_with_small_nu
 The detector response was simulated with GEANT~4~\cite{Agostinelli:2002hh, Aad:2010ah} and the events were processed with the same reconstruction software as that used for the data.  
 Simulated data samples from the ATLAS MC15c campaign are be used, corresponding to $p$-tags \texttt{p2952-p2949}.
-
-\subsection{Backgrounds}
-\paragraph{}
-A very small fraction of the background arises from $Z$ + jets events. The $Z$+jets sample was generated using \pythia~8.186 with the NNPDF2.3 LO PDF set.
-
-\paragraph{}
-The \ttbar\ background is modeled using large all-hadronic and non-all-hadronic samples that have both been generated with \powhegbox\ v1~\cite{Alioli:2010xd} using the CT10 PDF set. 
-The parton shower, hadronization, and the underlying event were simulated using \pythia~6.428 with the CTEQ6L1 PDF set and the corresponding Perugia 2012 set of tuned underlying-event parameters~\cite{Skands:2010ak}.
-The $t$-quark mass in both samples is set to $172.5$ \GeV~.
-Higher-order corrections to the \ttbar\ cross section were computed with Top++~2.0~\cite{Czakon:20142930}. These incorporate NNLO corrections in QCD, including re-summation of NNLL soft gluon terms.
-The \ttbar\ MC samples are normalized to the NNLO+NLL predicted inclusive \ttbar\ cross-section of
-$1821.87$ pb multiplied by the all-hadronic branching ratio of $0.457$ and non-all-hadronic of $0.543$.
-
-\paragraph{}
-In order to keep statistical fluctuations small across the dijet invariant mass spectrum, especially for large values of $m_{tt}$, additional \ttbar~ samples are generated in slices of \ttbar~ invariant mass. The cross-section of the \ttbar~ process is normalized to NNLO+NNLL in QCD, as calculated by \textsc{Top++} 2.0. Overlap with the inclusive \ttbar~ samples is removed by a fixed cut on the truth value of $m_{tt}$ at $1100$ \GeV.
-
-\paragraph{}
-A \pythia~ dijet sample is used to understand the physical processes contributing to the multi-jet background and characteristics of the event selection. This MC sample is generated without a heavy flavor filter, hence is limited by the total generated number of events, given the high background rejection factors of the analysis selection.
 
 \section{Signal}
 \paragraph{}
@@ -80,13 +92,28 @@ The UE-EE-5-CTEQ6L1 set of tuned underlying-event parameters \cite{Seymour:2013q
 The scalar signals were generated with a width of $1$~\GeV, which represent generic narrow-width scalar signals. 
 Because the width and branching ratios depend on 2HDM parameters, each mass point generated with this fixed width corresponds to a different point in the 2HDM parameter phase space.
 %No specific model was considered for computing the scalar signal cross sections.
-
 %For the evaluation of theoretical uncertainties in the signal modeling, samples were produced with variations of the factorization and renormalization scales, PDF sets (following the prescription from Ref.~\cite{pdfs}) and shower generator. For the latter, scalar (spin-2) samples were produced that are interfaced to \PYTHIA~8.186 rather than \textsc{Herwig++} (and vice versa).
 
 \paragraph{}
 Resonant signal samples for the scalar and $\kMPl=1$ models were produced in $10$~\GeV\ steps between $260$ and $300$~\GeV, in $100$~\GeV\ steps up to $1600$~\GeV, in $200$~\GeV\ steps up to $2000$~\GeV, and in $250$~\GeV\ steps up to $3000$~\GeV. Signal samples for the $\kMPl=2$ model were produced with the same spacings but omitting the masses of $270$~\GeV, $290$~\GeV\ and $2750$~\GeV\ due to the larger generated width. Unless specified, the MC signal sample used as benchmark is $\kMPl=1$ \Grav, due to its width is medium among the three signal models.
 
+\subsection{Backgrounds}
+\paragraph{}
+A very small fraction of the background arises from $Z$ + jets events. The $Z$+jets sample was generated using \pythia~8.186 with the NNPDF2.3 LO PDF set.
 
+\paragraph{}
+The \ttbar\ background is modeled using large all-hadronic and non-all-hadronic samples that have both been generated with \powhegbox\ v1~\cite{Alioli:2010xd} using the CT10 PDF set. 
+The parton shower, hadronization, and the underlying event were simulated using \pythia~6.428 with the CTEQ6L1 PDF set and the corresponding Perugia 2012 set of tuned underlying-event parameters~\cite{Skands:2010ak}.
+The $t$-quark mass in both samples is set to $172.5$ \GeV~.
+Higher-order corrections to the \ttbar\ cross section were computed with Top++~2.0~\cite{Czakon:20142930}. These incorporate NNLO corrections in QCD, including re-summation of NNLL soft gluon terms.
+The \ttbar\ MC samples are normalized to the NNLO+NLL predicted inclusive \ttbar\ cross-section of
+$1821.87$ pb multiplied by the all-hadronic branching ratio of $0.457$ and non-all-hadronic of $0.543$.
+
+\paragraph{}
+In order to minimize statistical fluctuations across the dijet invariant mass spectrum, especially for large values of $m_{tt}$, additional \ttbar~ samples are generated in slices of \ttbar~ invariant mass. The cross-section of the \ttbar~ process is normalized to NNLO+NNLL in QCD, as calculated by \textsc{Top++} 2.0. Overlap with the inclusive \ttbar~ samples is removed by a fixed cut on the truth value of $m_{tt}$ at $1100$ \GeV.
+
+\paragraph{}
+A \pythia~ dijet sample is used to understand the multi-jet background and characteristics of the event selection. This MC sample is generated without a heavy flavor filter, hence is limited by the total generated number of events, given the high background rejection factors of the analysis selection.
 
 
 

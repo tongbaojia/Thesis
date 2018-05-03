@@ -67,6 +67,7 @@ Jets from the PV should have most tracks consistent with the PV and therefore ha
  %Quality criteria are applied to the jets, and events with jets consistent with noise in the calorimeter or non-collision backgrounds are vetoed~\cite{jetcleanATLAS}.
 
 \subsection{Large-\R jets}
+\label{obj:largeRjet}
 %% If add plots, use 
 %% https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2017-063/
 %% Nice talk: https://cds.cern.ch/record/2275665/files/ATL-PHYS-SLIDE-2017-577.pdf
@@ -181,6 +182,7 @@ where $w$ is determined for each large-\R jet from the resolution functions of t
 This results in a smaller mass resolution and better estimate of the median mass value than obtained using only calorimeter energy clusters, as shown in Figure~\ref{fig:obj_jet_mass}.
 
 \subsection{Track Jets}
+\label{obj:trackjet}
 %The min $p_T$ is 400 MeV, and $|\eta| < 2.5$, and at least seven hits in the pixel or SCT. Total number of holes has to be less than two per track, and no more than one in the pixels. 
 %$Z_{0}^{BL} \sin{\theta}$ is requred to be less than 3 mm.
 \paragraph{}
@@ -205,23 +207,27 @@ The small radius parameter of the track-jets enables two nearby $b$-hadrons to b
 %b-tagging talk: https://cds.cern.ch/record/2280861/files/ATL-PHYS-SLIDE-2017-677.pdf
 \paragraph{}
 Some jets are formed from quarks with different flavors. 
-Identifying the flavor of a jet is called flavor tagging. 
-Jets originating from a $b$-quark is referred as a $b$-jet, from a $c$-quark is referred as a $c$-jet, and from a other quarks other than the $t$-quark is referred as a light jet.
-$b$-tagging is particularly useful for this analysis, since there are four $b$s in the final state.
+Identifying the flavor of the jet parent quark is called flavor tagging. 
+Jets originating from $b$-quarks are referred as $b$-jets, from $c$-quarks is referred as $c$-jets, and from other quarks other than the $t$-quark are referred as light jets.
+$b$-tagging is particularly useful for this analysis, since there are four $b$-quarks in the final state.
 
 \paragraph{}
-$B$-hadrons have a lifetime on the order of $10^{-12}$ seconds, which makes a flight distance of $0.5\,\rm mm$~\cite{Pdg}. 
+$B$-hadrons have a lifetime $\tau$ on the order of $1.5 \times 10^{-12}$ seconds, which gives a flight path length $c\tau \sim 0.45\,\rm mm$~\cite{Pdg} without significant boost.
+The mean flight path is $\beta\gamma c\tau$, where $\beta=\frac{v}{c}$ and $\gamma$ is the Lorenz factor.
+With a higher boost, like $p_T = 50$ \GeV, the average transverse displacement is $3\rm mm$.
 This results in a displaced decay vertex that can be identified in vertex reconstruction. 
-This allows some $b$-jets to be distinguished from other flavors of jets theoretically.
+This allows some $b$-jets to be distinguished from other flavors of jets.
 
 \paragraph{}
 ATLAS uses three different basic $b$-tagging algorithms, which provide complementary information:
 \begin{itemize}
-	\item Impact parameter (IP) based algorithm: it uses the transverse and longitudinal impact parameters $d_0$ and $z_0$ of the tracks inside a jet to determine their consistency with the primary vertex. The algorithm uses two or three dimensional templates for light, $c$, and $b$ jets and evaluates the likelihood of the jet coming from each of these types.
+	\item Impact parameter based algorithm: it uses the signed transverse and longitudinal impact parameters $d_0$ and $z_0 sin\rm \theta$ of the tracks inside a jet to determine their consistency with the primary vertex. The algorithm uses simulated templates of $\frac{d_0}{\rm\sigma_{d_0}}$ and $\frac{\rm z_0 sin \theta}{\rm \sigma{\rm z_0 sin\theta}}$ for light, $c$, and $b$ jets and evaluates the likelihood of the jet coming from each of these types.
+  %The sign is defined as positive if the track intersects the jet axis in front of the primary vertex, and as negative if the intersection lies behind the primary vertex.
+  %The experimental resolution generates a random sign for the tracks originating from the primary vertex, while tracks from the b-/c-hadron decay normally have a positive sign.
 
-	\item Inclusive secondary vertex (SV) reconstruction algorithm: it uses tracks inside the jet to fit for vertices that are displaced from the primary vertex. The algorithm provides information on the invariant mass of tracks pointing to same vertex, the number of two track vertices, and the angular separation between the jet and the PV $\to$ SV direction.
+	\item Secondary vertex (SV) reconstruction algorithm: it uses tracks inside the jet to look for vertices that are displaced from the primary vertex. The algorithm provides information on the invariant mass of tracks pointing to the displaced vertex, the number of two track vertices, and the angular separation between the jet axis and the PV $\to$ SV direction. The fraction of jets which have a reconstructed secondary vertex are shown in Figure~\ref{fig:obj_b_sv}. The increase of tracks from fragmentation in the high \pt~ region is the main reason for the performance degradation. The number of fake vertices is increasing with jet \pt~ in light jets, while the secondary vertex reconstruction efficiency for $b$/$c$-jets slightly decreases with jet \pt.
 
-	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF): it reconstructs the full flight path of the $b$ by looking for multiple displaced vertices along the same direction. A Kalman filter is used to find common line for the $b$ and $c$ vertices, and hence the algorithm exploits the topology of the weak $b$/$c$-hadron decay chain.
+	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF): it reconstructs the full flight path of the $b$ by looking for multiple displaced vertices along the same direction. A Kalman filter is used to find common line for the $b$ and $c$ vertices, and hence the algorithm exploits the topology of the weak $b$/$c$-hadron decay chain. Leptonic decays of $b$/$c$ are not considered.
 \end{itemize}
  
 \begin{figure}[htbp!]
@@ -229,7 +235,7 @@ ATLAS uses three different basic $b$-tagging algorithms, which provide complemen
 \captionsetup{justification=centering}
     \begin{subfigure}[b]{0.4\textwidth}
         \includegraphics[width=\textwidth]{figures/object/b_sv}
-        \caption{SVV reconstruction rate vs. jet \pt.}
+        \caption{SV reconstruction rate vs. jet \pt.}
         \label{fig:obj_b_sv}
     \end{subfigure}
     \quad
@@ -238,30 +244,40 @@ ATLAS uses three different basic $b$-tagging algorithms, which provide complemen
         \caption{MV2c10 BDT output for different jets.}
         \label{fig:obj_b_mv2}
     \end{subfigure}
-\caption{Secondary vertex reconstruction rate and \emph{MV2c10} output for b-jets (solid blue), c-jets (dashed green) and light-jets (dotted red) evaluated with simulated \ttbar~ events.}
+\caption{Secondary vertex reconstruction rate and \emph{MV2c10} output for $b$-jets (solid blue), $c$-jets (dashed green) and light-jets (dotted red) evaluated with simulated \ttbar~ events.}
 \label{fig:obj_btag}
 \end{figure}
 
 \paragraph{}
 %%https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2
-Jets containing $b$-hadrons are identified using a score value computed from a boosted decision tree(BDT) algorithm \emph{MV2c10}~\cite{btaggingRun2, Aad:2015ydr}, which makes use of observables provided by three algorithms above. The \emph{MV2c10} algorithm is trained on a sample with charm composition of $7\%$. It is applied to a set of charged-particle tracks that satisfy quality and impact parameter criteria and are matched to each jet. Hence either a small-\R jet or a track jet can be $b$-tagged.
+Jets containing $b$-hadrons are identified using a score value computed from a boosted decision tree(BDT) algorithm \emph{MV2c10}~\cite{btaggingRun2, Aad:2015ydr}, which makes use of observables provided by the three algorithms above.
+A BDT consists of a forest of decision trees.
+A number of individual decision trees are trained sequentially, with a boosting process in between each training. 
+Boosting consists of adjusting the weights of individual events according to whether the previously trained tree classifies them correctly.
+The \emph{MV2c10} algorithm is trained on a \ttbar~ sample, with $b$-jets as signal and a mixture of $93\%$ light-jets and $7\%$ c-jets as backgrounds. 
+It is applied to a set of charged-particle tracks that satisfy quality and impact parameter criteria and are matched to each jet. 
+The \emph{MV2c10} algorithm works on both small-\R jets or track jets.
 %There are 3 taggers in MV2 family: \emph{MV2c00}, \emph{MV2c10}, \emph{MV2c20} depending on their charm composition in training. MV2c00$->0\%$ c-fraction in the training, MV2c10$->7\%$ c-fraction in the training and MV2c20$->15\%$ c-fraction in the training.
 
 \paragraph{}
-The $b$-tagging working point (wp) is a fixed cut on the \emph{MV2c10} value that lead to an efficiency of 70\% for $b$-jets with $p_T > 20$ \GeV~ when evaluated in a sample of simulated \ttbar~ events. This working point corresponds to a rejection rate of jets originating from $u$, $d$ or $s$-quarks or gluons of $380$ for the jets with $R=0.4$ and $120$ for the track jets. The rejection of jets from $c$-quarks is $12$ for the $R=0.4$ jets and $7.1$ for the track jets.
+The $b$-tagging working point (wp) is a fixed cut on the \emph{MV2c10} value that lead to an efficiency of 70\% for $b$-jets with $p_T > 20$ \GeV~ when evaluated in a sample of simulated \ttbar~ events. 
+This working point corresponds to a acceptance rate of light-jets or jets originating from gluons at $\frac{1}{380}$ for the jets with $R=0.4$ and $\frac{1}{120}$ for the track jets. The acceptance of jets from $c$-quarks is $\frac{1}{12}$ for the $R=0.4$ jets and $\frac{1}{7}$ for the track jets.
 
 \begin{figure}[htbp!]
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=0.5\textwidth]{figures/object/b_eff_pt}
-   \caption{$b$-jet efficiency for the fixed cut working point with a $b$-jet efficiency of 77\% as a function of the jet \pt~ for the comparison between the \emph{MV2c10} $b$-tagging algorithm employed for the 2016 analyses (2016 config) and the previous version of the tagger, \emph{MV2c20} (2015 config), which has $15\%$ $c$-fraction in the training}
+   \caption{$b$-jet efficiency for the fixed cut working point with a $b$-jet efficiency of $77\%$ as a function of the jet \pt~ for the comparison between the \emph{MV2c10} $b$-tagging algorithm employed for the 2016 analyses (2016 config) and the previous version of the tagger, \emph{MV2c20} (2015 config), which has $15\%$ $c$-fraction in the training.}
   \label{fig:obj_b_eff}
 \end{figure}
 
 \paragraph{}
-In this thesis, the track-jets have a wider \pt~ range, between $50-400$~\GeV, and the same working point leads to $b$-tagging efficiencies varying from $40\%$ at low \pt, to $80\%$ for \pt values of about $150$~\GeV, to $60\%$ at high \pt. This can be seen in Figure ~\ref{fig:obj_b_eff}.
+In this thesis, the track-jets have a wider \pt~ range, between $50-400$~\GeV, and the same working point leads to $b$-tagging efficiencies varying from $40\%$ at low \pt, to $80\%$ for \pt values of about $150$~\GeV, to $60\%$ at high \pt. 
+This can be seen in Figure ~\ref{fig:obj_b_eff}, and the $b$-tagging efficiency varies from $60\%$ to $80\%$ for an average efficiency of $77\%$.
 The increase of tracks from fragmentation in the high jet \pt~ region is the main reason for the performance degradation. 
-As the jet \pt~ increases, the number of fake vertices is increasing, while the secondary vertex reconstruction efficiency for $b$ and $c$ jets decreases with jet \pt. This is shown in Figure ~\ref{fig:obj_btag_rej}. This non-trivial jet \pt~ dependence of $b$-tagging performance is one of the major challenge of this analysis.
+As the jet \pt~ increases, the number of vertices from the random combination of high multiplicity tracks is increasing, while the secondary vertex reconstruction efficiency for $b$ and $c$-jets decreases with jet \pt.
+This is shown in Figure ~\ref{fig:obj_btag_rej}, and the light-jet acceptance rate could range from $\frac{1}{120}$ to $\frac{1}{250}$.
+This non-trivial jet \pt~ dependence of $b$-tagging performance is one of the major challenges of this analysis.
 
 \begin{figure}[htbp!]
 \centering
@@ -298,17 +314,21 @@ Correction factors are applied to the simulated MC samples to compensate for dif
 
 %%%%%%%%%%%%%%
 \section{Leptons}
-\paragraph{}
-Electron and photon identification is based on matching tracks to energy clusters in the ECAL and relying on the longitudinal and transverse shapes of the EM shower~\cite{ATLAS-CONF-2016-024}. Well-reconstructed ID tracks matched to EM clusters are classified as electron candidates, while EM clusters without matching tracks are classified as unconverted photon candidates. Clusters matched to a reconstructed conversion vertex or to pairs of tracks consistent with the conversion hypothesis are classified as converted photon candidates. Electrons and photons are not used in this thesis.
+%\paragraph{}
+%Electron and photon identification is based on matching tracks to clusters in the ECAL and relying on the longitudinal and transverse shapes of the EM shower~\cite{ATLAS-CONF-2016-024}.
+%Well-reconstructed ID tracks matched to EM clusters are classified as electron candidates, while EM clusters without matching tracks are classified as unconverted photon candidates. Clusters matched to a reconstructed conversion vertex or to pairs of tracks consistent with the conversion hypothesis are classified as converted photon candidates. 
+%Electrons and photons are not used in this thesis.
+
+%\paragraph{}
+%Hadronic tau decays into a tau neutrino and one or three charged pions and up to two neutral pions~\cite{ATLAS-CONF-2017-029}. Hence tau reconstruction starts from jets, and the jets are matched to one or three associated tracks, with a total electric charge of $\pm 1$. A Boosted Decision Tree identification procedure, based on calorimetric shower shapes and tracking information is used to reject fakes. Hadronic taus are not used in this thesis.
+
+%\paragraph{}
+%Neutrinos are inferred from the missing transverse momentum (MET), or $E_T^{miss}$. Neutrinos do not interact with the ALTAS detector. Their presence can only be deduced from the conservation of transverse momentum in each collision, as the incoming protons have little net momentum in the transverse plane. MET is calculated as the negative vectorial sum of the \pt of all fully reconstructed and calibrated physics objects. This procedure includes a soft term, which is calculated using the ID tracks that originate from the primary vertex but are not associated with reconstructed objects. MET is not used in this thesis.
 
 \paragraph{}
-Hadronic tau decays into a tau neutrino and one or three charged pions and up to two neutral pions~\cite{ATLAS-CONF-2017-029}. Hence tau reconstruction is seeded by jets, and  is matched to one or three associated tracks, with a total electric charge of $\pm 1$. A Boosted Decision Tree identification procedure, based on calorimetric shower shapes and tracking information is used to reject fakes from jets. Hadronic taus are not used in this thesis.
-
-\paragraph{}
-Neutrinos are inferred from the missing transverse momentum (MET), or $E_T^{miss}$. Neutrinos do not interact with the ALTAS. Their presence can only be deduced from the conservation of transverse momentum in each collision, as the incoming protons have no net momentum in the transverse plane. MET is calculated as the negative vectorial sum of the \pt of all fully reconstructed and calibrated physics objects. This procedure includes a soft term, which is calculated using the ID tracks that originate from the primary vertex but are not associated with reconstructed objects. MET is not used in this thesis.
-
-\paragraph{}
-Muons are identified by matching ID tracks with reconstructed MS tracks~\cite{Aad:2016jkr}. For this thesis, muons must have $p_T > 4~\GeV$, $|\eta| < 2.5$ and to satisfy ``medium'' muon identification criteria~\cite{Aad:2016jkr}. Muons are used in this thesis, because $b$ hadrons decay to muons with $\sim 20\%$ probability. This will be demonstrated in the later chapters.
+Muons are identified by matching ID tracks with reconstructed MS tracks~\cite{Aad:2016jkr}. 
+For this thesis, muons must have $p_T > 4~\GeV$, $|\eta| < 2.5$ and to satisfy ``medium'' muon identification criteria~\cite{Aad:2016jkr}. 
+Muons are used in this thesis, because $b$ hadrons decay to muons with $\sim 20\%$ probability. This is demonstrated in section~\ref{sec:obj-objectselection}.
 %If a muon is within $\DR = 0.4$ (0.2) of a jet used for $b$-tagging in the resolved (boosted) analysis, their four-momentum is added to the calorimeter-based jet's four-momentum to partially account for the energy lost in semi-leptonic $b$-hadron decays.
 
 
