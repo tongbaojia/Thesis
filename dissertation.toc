@@ -15,14 +15,12 @@
 \contentsline {section}{\numberline {1.3}Beyond the Standard Model physics di-Higgs production}{8}{section.1.3}
 \contentsline {paragraph}{}{8}{section.1.3}
 \contentsline {paragraph}{}{8}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}BSM non-resonant di-Higgs}{8}{subsection.1.3.1}
-\contentsline {paragraph}{}{8}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.1}BSM non-resonant di-Higgs}{9}{subsection.1.3.1}
 \contentsline {paragraph}{}{9}{subsection.1.3.1}
+\contentsline {paragraph}{}{10}{figure.caption.11}
 \contentsline {subsection}{\numberline {1.3.2}BSM resonant di-Higgs}{10}{subsection.1.3.2}
 \contentsline {paragraph}{}{10}{subsection.1.3.2}
-\contentsline {paragraph}{}{10}{subsection.1.3.2}
-\contentsline {paragraph}{}{10}{subsection.1.3.2}
-\contentsline {paragraph}{}{10}{subsection.1.3.2}
+\contentsline {paragraph}{}{11}{figure.caption.12}
 \contentsline {paragraph}{}{11}{figure.caption.12}
 \contentsline {paragraph}{}{12}{figure.caption.12}
 \contentsline {section}{\numberline {1.4}Di-Higgs decay and LHC previous search results}{12}{section.1.4}
@@ -32,252 +30,252 @@
 \contentsline {paragraph}{}{14}{figure.caption.15}
 \contentsline {paragraph}{}{14}{figure.caption.15}
 \contentsline {paragraph}{}{15}{figure.caption.15}
-\contentsline {paragraph}{}{15}{figure.caption.15}
-\contentsline {chapter}{\numberline {2}LHC and ATLAS}{16}{chapter.2}
-\contentsline {paragraph}{}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{17}{section.2.1}
-\contentsline {paragraph}{}{17}{section.2.1}
+\contentsline {paragraph}{}{16}{figure.caption.15}
+\contentsline {chapter}{\numberline {2}LHC and ATLAS}{17}{chapter.2}
+\contentsline {paragraph}{}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{18}{section.2.1}
 \contentsline {paragraph}{}{18}{section.2.1}
-\contentsline {paragraph}{}{18}{equation.2.1.1}
-\contentsline {paragraph}{}{18}{table.caption.17}
-\contentsline {section}{\numberline {2.2}A Toroidal LHC ApparatuS}{20}{section.2.2}
-\contentsline {paragraph}{}{20}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Coordinate System}{20}{subsection.2.2.1}
-\contentsline {paragraph}{}{20}{subsection.2.2.1}
+\contentsline {paragraph}{}{19}{section.2.1}
+\contentsline {paragraph}{}{19}{equation.2.1.1}
+\contentsline {paragraph}{}{20}{table.caption.17}
+\contentsline {section}{\numberline {2.2}A Toroidal LHC ApparatuS}{21}{section.2.2}
+\contentsline {paragraph}{}{21}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Coordinate System}{21}{subsection.2.2.1}
 \contentsline {paragraph}{}{21}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Inner Detector}{21}{subsection.2.2.2}
-\contentsline {paragraph}{}{21}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Calorimeter}{21}{subsection.2.2.3}
-\contentsline {paragraph}{}{21}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}MuonSpectrometer}{22}{subsection.2.2.4}
-\contentsline {paragraph}{}{23}{figure.caption.21}
-\contentsline {subsection}{\numberline {2.2.5}Trigger and Data Acquisition}{23}{subsection.2.2.5}
-\contentsline {paragraph}{}{23}{subsection.2.2.5}
-\contentsline {paragraph}{}{23}{subsection.2.2.5}
-\contentsline {chapter}{\numberline {3}Reconstruction and Objects}{25}{chapter.3}
-\contentsline {paragraph}{}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}ID Tracks and Vertices}{26}{section.3.1}
-\contentsline {paragraph}{}{26}{section.3.1}
-\contentsline {paragraph}{}{26}{section.3.1}
-\contentsline {section}{\numberline {3.2}Jets}{27}{section.3.2}
-\contentsline {paragraph}{}{27}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Small-\ensuremath {R}\xspace jets}{27}{subsection.3.2.1}
-\contentsline {paragraph}{}{27}{subsection.3.2.1}
-\contentsline {paragraph}{}{27}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Large-\ensuremath {R}\xspace jets}{27}{subsection.3.2.2}
-\contentsline {paragraph}{}{27}{figure.caption.24}
-\contentsline {paragraph}{}{28}{figure.caption.25}
-\contentsline {paragraph}{}{30}{equation.3.2.1}
-\contentsline {paragraph}{}{30}{figure.caption.26}
+\contentsline {paragraph}{}{22}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Inner Detector}{22}{subsection.2.2.2}
+\contentsline {paragraph}{}{22}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Calorimeter}{22}{subsection.2.2.3}
+\contentsline {paragraph}{}{22}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Muon Spectrometer}{23}{subsection.2.2.4}
+\contentsline {paragraph}{}{24}{figure.caption.21}
+\contentsline {subsection}{\numberline {2.2.5}Trigger and Data Acquisition}{24}{subsection.2.2.5}
+\contentsline {paragraph}{}{24}{subsection.2.2.5}
+\contentsline {paragraph}{}{24}{subsection.2.2.5}
+\contentsline {chapter}{\numberline {3}Reconstruction and Objects}{26}{chapter.3}
+\contentsline {paragraph}{}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}ID Tracks and Vertices}{27}{section.3.1}
+\contentsline {paragraph}{}{27}{section.3.1}
+\contentsline {paragraph}{}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Jets}{28}{section.3.2}
+\contentsline {paragraph}{}{28}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Small-\ensuremath {R}\xspace jets}{28}{subsection.3.2.1}
+\contentsline {paragraph}{}{28}{subsection.3.2.1}
+\contentsline {paragraph}{}{28}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Large-\ensuremath {R}\xspace jets}{29}{subsection.3.2.2}
+\contentsline {paragraph}{}{29}{figure.caption.24}
+\contentsline {paragraph}{}{31}{figure.caption.25}
+\contentsline {paragraph}{}{31}{equation.3.2.1}
+\contentsline {paragraph}{}{31}{figure.caption.26}
 \contentsline {subsection}{\numberline {3.2.3}Track Jets}{31}{subsection.3.2.3}
 \contentsline {paragraph}{}{31}{subsection.3.2.3}
-\contentsline {paragraph}{}{31}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Flavor Tagging}{32}{section.3.3}
-\contentsline {paragraph}{}{32}{section.3.3}
-\contentsline {paragraph}{}{32}{section.3.3}
-\contentsline {paragraph}{}{32}{section.3.3}
-\contentsline {paragraph}{}{33}{figure.caption.27}
+\contentsline {paragraph}{}{32}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Flavor Tagging}{33}{section.3.3}
+\contentsline {paragraph}{}{33}{section.3.3}
+\contentsline {paragraph}{}{33}{section.3.3}
+\contentsline {paragraph}{}{33}{section.3.3}
 \contentsline {paragraph}{}{34}{figure.caption.27}
-\contentsline {paragraph}{}{34}{figure.caption.28}
-\contentsline {paragraph}{}{35}{figure.caption.29}
-\contentsline {section}{\numberline {3.4}Leptons}{36}{section.3.4}
-\contentsline {paragraph}{}{36}{section.3.4}
-\contentsline {chapter}{\numberline {4}Data and Simulation}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data}{37}{section.4.1}
-\contentsline {paragraph}{}{37}{section.4.1}
+\contentsline {paragraph}{}{35}{figure.caption.27}
+\contentsline {paragraph}{}{36}{figure.caption.28}
+\contentsline {paragraph}{}{36}{figure.caption.29}
+\contentsline {section}{\numberline {3.4}Leptons}{37}{section.3.4}
+\contentsline {paragraph}{}{37}{section.3.4}
+\contentsline {chapter}{\numberline {4}Data and Simulation}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data}{38}{section.4.1}
 \contentsline {paragraph}{}{38}{section.4.1}
-\contentsline {paragraph}{}{38}{figure.caption.30}
+\contentsline {paragraph}{}{39}{section.4.1}
 \contentsline {paragraph}{}{39}{figure.caption.30}
-\contentsline {paragraph}{}{39}{figure.caption.30}
-\contentsline {section}{\numberline {4.2}MC}{39}{section.4.2}
-\contentsline {paragraph}{}{39}{section.4.2}
-\contentsline {section}{\numberline {4.3}Signal}{40}{section.4.3}
-\contentsline {paragraph}{}{40}{section.4.3}
-\contentsline {paragraph}{}{40}{section.4.3}
-\contentsline {paragraph}{}{40}{section.4.3}
-\contentsline {paragraph}{}{40}{section.4.3}
+\contentsline {paragraph}{}{40}{figure.caption.30}
+\contentsline {paragraph}{}{40}{figure.caption.30}
+\contentsline {section}{\numberline {4.2}MC}{40}{section.4.2}
+\contentsline {paragraph}{}{40}{section.4.2}
+\contentsline {section}{\numberline {4.3}Signal}{41}{section.4.3}
 \contentsline {paragraph}{}{41}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Backgrounds}{41}{subsection.4.3.1}
-\contentsline {paragraph}{}{41}{subsection.4.3.1}
-\contentsline {paragraph}{}{41}{subsection.4.3.1}
-\contentsline {paragraph}{}{41}{subsection.4.3.1}
+\contentsline {paragraph}{}{41}{section.4.3}
+\contentsline {paragraph}{}{41}{section.4.3}
+\contentsline {paragraph}{}{41}{section.4.3}
+\contentsline {paragraph}{}{42}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Backgrounds}{42}{subsection.4.3.1}
 \contentsline {paragraph}{}{42}{subsection.4.3.1}
-\contentsline {chapter}{\numberline {5}Event Selection}{43}{chapter.5}
-\contentsline {paragraph}{}{43}{figure.caption.31}
-\contentsline {section}{\numberline {5.1}Data Cleaning}{43}{section.5.1}
-\contentsline {paragraph}{}{43}{section.5.1}
-\contentsline {paragraph}{}{45}{section.5.1}
-\contentsline {section}{\numberline {5.2}Trigger}{45}{section.5.2}
-\contentsline {paragraph}{}{45}{figure.caption.32}
-\contentsline {section}{\numberline {5.3}Object Selection}{46}{section.5.3}
-\contentsline {paragraph}{}{47}{table.caption.35}
-\contentsline {paragraph}{}{47}{figure.caption.36}
-\contentsline {paragraph}{}{48}{figure.caption.37}
-\contentsline {paragraph}{}{49}{figure.caption.39}
-\contentsline {paragraph}{}{51}{figure.caption.40}
-\contentsline {section}{\numberline {5.4}Resolved Veto}{52}{section.5.4}
-\contentsline {paragraph}{}{52}{section.5.4}
-\contentsline {paragraph}{}{52}{figure.caption.41}
+\contentsline {paragraph}{}{42}{subsection.4.3.1}
+\contentsline {paragraph}{}{42}{subsection.4.3.1}
+\contentsline {paragraph}{}{43}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Event Selection}{44}{chapter.5}
+\contentsline {paragraph}{}{44}{figure.caption.31}
+\contentsline {section}{\numberline {5.1}Data Cleaning}{44}{section.5.1}
+\contentsline {paragraph}{}{44}{section.5.1}
+\contentsline {paragraph}{}{46}{section.5.1}
+\contentsline {section}{\numberline {5.2}Trigger}{46}{section.5.2}
+\contentsline {paragraph}{}{46}{figure.caption.32}
+\contentsline {section}{\numberline {5.3}Object Selection}{47}{section.5.3}
+\contentsline {paragraph}{}{48}{table.caption.35}
+\contentsline {paragraph}{}{48}{figure.caption.36}
+\contentsline {paragraph}{}{49}{figure.caption.37}
+\contentsline {paragraph}{}{50}{figure.caption.39}
+\contentsline {paragraph}{}{52}{figure.caption.40}
+\contentsline {section}{\numberline {5.4}Resolved Veto}{53}{section.5.4}
+\contentsline {paragraph}{}{53}{section.5.4}
 \contentsline {paragraph}{}{53}{figure.caption.41}
-\contentsline {paragraph}{}{53}{equation.5.4.2}
-\contentsline {paragraph}{}{54}{equation.5.4.3}
-\contentsline {paragraph}{}{54}{equation.5.4.4}
-\contentsline {paragraph}{}{54}{equation.5.4.5}
-\contentsline {section}{\numberline {5.5}2D Higgs Mass Cut}{55}{section.5.5}
-\contentsline {paragraph}{}{55}{figure.caption.42}
-\contentsline {paragraph}{}{55}{figure.caption.42}
-\contentsline {section}{\numberline {5.6}Number of $b$-tagged track jet requirements}{56}{section.5.6}
-\contentsline {paragraph}{}{56}{section.5.6}
-\contentsline {paragraph}{}{57}{figure.caption.43}
-\contentsline {paragraph}{}{57}{figure.caption.43}
-\contentsline {paragraph}{}{57}{figure.caption.43}
-\contentsline {section}{\numberline {5.7}Signal efficiency and cutflow}{58}{section.5.7}
-\contentsline {paragraph}{}{58}{section.5.7}
-\contentsline {paragraph}{}{59}{figure.caption.44}
-\contentsline {chapter}{\numberline {6}Background Estimation}{61}{chapter.6}
-\contentsline {section}{\numberline {6.1}Overview}{61}{section.6.1}
-\contentsline {paragraph}{}{61}{section.6.1}
+\contentsline {paragraph}{}{54}{figure.caption.41}
+\contentsline {paragraph}{}{54}{equation.5.4.2}
+\contentsline {paragraph}{}{55}{equation.5.4.3}
+\contentsline {paragraph}{}{55}{equation.5.4.4}
+\contentsline {paragraph}{}{55}{equation.5.4.5}
+\contentsline {section}{\numberline {5.5}2D Higgs Mass Cut}{56}{section.5.5}
+\contentsline {paragraph}{}{56}{figure.caption.42}
+\contentsline {paragraph}{}{56}{figure.caption.42}
+\contentsline {section}{\numberline {5.6}Number of $b$-tagged track jet requirements}{57}{section.5.6}
+\contentsline {paragraph}{}{57}{section.5.6}
+\contentsline {paragraph}{}{58}{figure.caption.43}
+\contentsline {paragraph}{}{58}{figure.caption.43}
+\contentsline {paragraph}{}{58}{figure.caption.43}
+\contentsline {section}{\numberline {5.7}Signal efficiency and cutflow}{59}{section.5.7}
+\contentsline {paragraph}{}{59}{section.5.7}
+\contentsline {paragraph}{}{60}{figure.caption.44}
+\contentsline {chapter}{\numberline {6}Background Estimation}{62}{chapter.6}
+\contentsline {section}{\numberline {6.1}Overview}{62}{section.6.1}
 \contentsline {paragraph}{}{62}{section.6.1}
-\contentsline {paragraph}{}{62}{section.6.1}
-\contentsline {paragraph}{}{62}{section.6.1}
-\contentsline {section}{\numberline {6.2}Definition of the sideband and control regions}{63}{section.6.2}
-\contentsline {paragraph}{}{63}{section.6.2}
-\contentsline {paragraph}{}{63}{equation.6.2.1}
-\contentsline {paragraph}{}{63}{equation.6.2.2}
-\contentsline {paragraph}{}{63}{table.caption.48}
+\contentsline {paragraph}{}{63}{section.6.1}
+\contentsline {paragraph}{}{63}{section.6.1}
+\contentsline {paragraph}{}{63}{section.6.1}
+\contentsline {section}{\numberline {6.2}Definition of the sideband and control regions}{64}{section.6.2}
+\contentsline {paragraph}{}{64}{section.6.2}
+\contentsline {paragraph}{}{64}{equation.6.2.1}
+\contentsline {paragraph}{}{64}{equation.6.2.2}
 \contentsline {paragraph}{}{64}{table.caption.48}
-\contentsline {paragraph}{}{65}{figure.caption.49}
-\contentsline {section}{\numberline {6.3}QCD multi-jets}{66}{section.6.3}
-\contentsline {paragraph}{}{66}{section.6.3}
-\contentsline {paragraph}{}{66}{equation.6.3.3}
-\contentsline {paragraph}{}{66}{equation.6.3.3}
+\contentsline {paragraph}{}{65}{table.caption.48}
+\contentsline {paragraph}{}{66}{figure.caption.49}
+\contentsline {section}{\numberline {6.3}QCD multi-jets}{67}{section.6.3}
+\contentsline {paragraph}{}{67}{section.6.3}
 \contentsline {paragraph}{}{67}{equation.6.3.3}
-\contentsline {section}{\numberline {6.4}$t\mathaccent "7016\relax {t}$\nobreakspace {}}{67}{section.6.4}
-\contentsline {paragraph}{}{67}{section.6.4}
-\contentsline {paragraph}{}{67}{section.6.4}
-\contentsline {section}{\numberline {6.5}Fitting procedure for QCD and $t\mathaccent "7016\relax {t}$\nobreakspace {} normalization}{68}{section.6.5}
-\contentsline {paragraph}{}{68}{section.6.5}
-\contentsline {paragraph}{}{69}{equation.6.5.4}
-\contentsline {paragraph}{}{69}{equation.6.5.4}
-\contentsline {paragraph}{}{69}{figure.caption.52}
-\contentsline {paragraph}{}{69}{figure.caption.52}
-\contentsline {section}{\numberline {6.6}QCD reweighting}{71}{section.6.6}
-\contentsline {paragraph}{}{71}{section.6.6}
-\contentsline {paragraph}{}{71}{figure.caption.54}
-\contentsline {paragraph}{}{73}{figure.caption.54}
-\contentsline {paragraph}{}{73}{figure.caption.54}
-\contentsline {paragraph}{}{73}{figure.caption.54}
-\contentsline {paragraph}{}{73}{figure.caption.54}
-\contentsline {paragraph}{}{74}{table.caption.55}
-\contentsline {section}{\numberline {6.7}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the sideband region}{74}{section.6.7}
-\contentsline {paragraph}{}{74}{section.6.7}
-\contentsline {section}{\numberline {6.8}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the control region}{76}{section.6.8}
-\contentsline {paragraph}{}{76}{section.6.8}
-\contentsline {section}{\numberline {6.9}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} rescale and smoothing in the signal region}{77}{section.6.9}
-\contentsline {paragraph}{}{77}{section.6.9}
-\contentsline {paragraph}{}{77}{figure.caption.58}
-\contentsline {paragraph}{}{78}{equation.6.9.7}
-\contentsline {section}{\numberline {6.10}Yields}{78}{section.6.10}
-\contentsline {paragraph}{}{78}{section.6.10}
-\contentsline {chapter}{\numberline {7}Systematics}{83}{chapter.7}
-\contentsline {section}{\numberline {7.1}Overview}{83}{section.7.1}
-\contentsline {paragraph}{}{83}{section.7.1}
-\contentsline {paragraph}{}{83}{section.7.1}
+\contentsline {paragraph}{}{67}{equation.6.3.3}
+\contentsline {paragraph}{}{68}{equation.6.3.3}
+\contentsline {section}{\numberline {6.4}$t\mathaccent "7016\relax {t}$\nobreakspace {}}{68}{section.6.4}
+\contentsline {paragraph}{}{68}{section.6.4}
+\contentsline {paragraph}{}{68}{section.6.4}
+\contentsline {section}{\numberline {6.5}Fitting procedure for QCD and $t\mathaccent "7016\relax {t}$\nobreakspace {} normalization}{69}{section.6.5}
+\contentsline {paragraph}{}{69}{section.6.5}
+\contentsline {paragraph}{}{70}{equation.6.5.4}
+\contentsline {paragraph}{}{70}{equation.6.5.4}
+\contentsline {paragraph}{}{70}{figure.caption.52}
+\contentsline {paragraph}{}{70}{figure.caption.52}
+\contentsline {section}{\numberline {6.6}QCD reweighting}{72}{section.6.6}
+\contentsline {paragraph}{}{72}{section.6.6}
+\contentsline {paragraph}{}{72}{figure.caption.54}
+\contentsline {paragraph}{}{74}{figure.caption.54}
+\contentsline {paragraph}{}{74}{figure.caption.54}
+\contentsline {paragraph}{}{74}{figure.caption.54}
+\contentsline {paragraph}{}{74}{figure.caption.54}
+\contentsline {paragraph}{}{75}{table.caption.55}
+\contentsline {section}{\numberline {6.7}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the sideband region}{75}{section.6.7}
+\contentsline {paragraph}{}{75}{section.6.7}
+\contentsline {section}{\numberline {6.8}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the control region}{77}{section.6.8}
+\contentsline {paragraph}{}{77}{section.6.8}
+\contentsline {section}{\numberline {6.9}\ensuremath {m_{\mathrm {2J}}}\nobreakspace {} rescale and smoothing in the signal region}{78}{section.6.9}
+\contentsline {paragraph}{}{78}{section.6.9}
+\contentsline {paragraph}{}{78}{figure.caption.58}
+\contentsline {paragraph}{}{79}{equation.6.9.7}
+\contentsline {section}{\numberline {6.10}Yields}{79}{section.6.10}
+\contentsline {paragraph}{}{79}{section.6.10}
+\contentsline {chapter}{\numberline {7}Systematics}{84}{chapter.7}
+\contentsline {section}{\numberline {7.1}Overview}{84}{section.7.1}
 \contentsline {paragraph}{}{84}{section.7.1}
 \contentsline {paragraph}{}{84}{section.7.1}
-\contentsline {section}{\numberline {7.2}Theoretical uncertainties}{84}{section.7.2}
-\contentsline {paragraph}{}{84}{section.7.2}
+\contentsline {paragraph}{}{85}{section.7.1}
+\contentsline {paragraph}{}{85}{section.7.1}
+\contentsline {section}{\numberline {7.2}Theoretical uncertainties}{85}{section.7.2}
 \contentsline {paragraph}{}{85}{section.7.2}
-\contentsline {paragraph}{}{85}{section.7.2}
-\contentsline {paragraph}{}{85}{section.7.2}
-\contentsline {paragraph}{}{85}{section.7.2}
-\contentsline {section}{\numberline {7.3}Uncertainties on detector and reconstruction}{86}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Luminosity uncertainty}{86}{subsection.7.3.1}
-\contentsline {paragraph}{}{86}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Large-\ensuremath {R}\xspace jet resolution and scale uncertainties}{86}{subsection.7.3.2}
-\contentsline {paragraph}{}{86}{subsection.7.3.2}
-\contentsline {paragraph}{}{86}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}$b$-tagging uncertainties}{87}{subsection.7.3.3}
-\contentsline {paragraph}{}{87}{subsection.7.3.3}
-\contentsline {paragraph}{}{87}{subsection.7.3.3}
-\contentsline {paragraph}{}{87}{subsection.7.3.3}
+\contentsline {paragraph}{}{86}{section.7.2}
+\contentsline {paragraph}{}{86}{section.7.2}
+\contentsline {paragraph}{}{86}{section.7.2}
+\contentsline {paragraph}{}{86}{section.7.2}
+\contentsline {section}{\numberline {7.3}Uncertainties on detector and reconstruction}{87}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Luminosity uncertainty}{87}{subsection.7.3.1}
+\contentsline {paragraph}{}{87}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Large-\ensuremath {R}\xspace jet resolution and scale uncertainties}{87}{subsection.7.3.2}
+\contentsline {paragraph}{}{87}{subsection.7.3.2}
+\contentsline {paragraph}{}{87}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}$b$-tagging uncertainties}{88}{subsection.7.3.3}
 \contentsline {paragraph}{}{88}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Uncertainty on $t\mathaccent "7016\relax {t}$\nobreakspace {} generator}{88}{section.7.4}
-\contentsline {paragraph}{}{88}{section.7.4}
+\contentsline {paragraph}{}{88}{subsection.7.3.3}
+\contentsline {paragraph}{}{88}{subsection.7.3.3}
+\contentsline {paragraph}{}{89}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Uncertainty on $t\mathaccent "7016\relax {t}$\nobreakspace {} generator}{89}{section.7.4}
 \contentsline {paragraph}{}{89}{section.7.4}
-\contentsline {section}{\numberline {7.5}Uncertainty on \ensuremath {{"μ}_{\mathrm {qcd}}}estimation}{89}{section.7.5}
-\contentsline {paragraph}{}{89}{section.7.5}
+\contentsline {paragraph}{}{90}{section.7.4}
+\contentsline {section}{\numberline {7.5}Uncertainty on \ensuremath {{"μ}_{\mathrm {qcd}}}estimation}{90}{section.7.5}
 \contentsline {paragraph}{}{90}{section.7.5}
-\contentsline {paragraph}{}{90}{section.7.5}
-\contentsline {section}{\numberline {7.6}Validation in low mass and high mass signal region}{92}{section.7.6}
-\contentsline {paragraph}{}{92}{section.7.6}
-\contentsline {paragraph}{}{93}{figure.caption.70}
-\contentsline {paragraph}{}{93}{figure.caption.70}
-\contentsline {paragraph}{}{93}{figure.caption.70}
-\contentsline {section}{\numberline {7.7}Uncertainty on the shape of $t\mathaccent "7016\relax {t}$\ \ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the $4/3b$ signal region}{97}{section.7.7}
-\contentsline {paragraph}{}{97}{section.7.7}
-\contentsline {section}{\numberline {7.8}Uncertainty on the shape of the QCD distribution in the signal region}{97}{section.7.8}
-\contentsline {paragraph}{}{97}{section.7.8}
-\contentsline {section}{\numberline {7.9}Uncertainty on smoothing function in the signal region}{98}{section.7.9}
-\contentsline {paragraph}{}{98}{section.7.9}
-\contentsline {paragraph}{}{98}{section.7.9}
-\contentsline {paragraph}{}{100}{section.7.9}
-\contentsline {paragraph}{}{101}{figure.caption.77}
-\contentsline {paragraph}{}{101}{table.caption.78}
-\contentsline {section}{\numberline {7.10}Summary of systematics}{101}{section.7.10}
-\contentsline {paragraph}{}{101}{section.7.10}
-\contentsline {paragraph}{}{101}{section.7.10}
-\contentsline {paragraph}{}{103}{section.7.10}
-\contentsline {chapter}{\numberline {8}Result}{105}{chapter.8}
-\contentsline {section}{\numberline {8.1}Boosted signal region}{105}{section.8.1}
-\contentsline {paragraph}{}{105}{section.8.1}
-\contentsline {section}{\numberline {8.2}Resolved signal region}{108}{section.8.2}
-\contentsline {paragraph}{}{108}{section.8.2}
-\contentsline {paragraph}{}{108}{table.caption.91}
-\contentsline {section}{\numberline {8.3}Statistical analysis}{109}{section.8.3}
-\contentsline {paragraph}{}{109}{section.8.3}
+\contentsline {paragraph}{}{91}{section.7.5}
+\contentsline {paragraph}{}{91}{section.7.5}
+\contentsline {section}{\numberline {7.6}Validation in low mass and high mass signal region}{93}{section.7.6}
+\contentsline {paragraph}{}{93}{section.7.6}
+\contentsline {paragraph}{}{94}{figure.caption.70}
+\contentsline {paragraph}{}{94}{figure.caption.70}
+\contentsline {paragraph}{}{94}{figure.caption.70}
+\contentsline {section}{\numberline {7.7}Uncertainty on the shape of $t\mathaccent "7016\relax {t}$\ \ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the $4/3b$ signal region}{98}{section.7.7}
+\contentsline {paragraph}{}{98}{section.7.7}
+\contentsline {section}{\numberline {7.8}Uncertainty on the shape of the QCD distribution in the signal region}{98}{section.7.8}
+\contentsline {paragraph}{}{98}{section.7.8}
+\contentsline {section}{\numberline {7.9}Uncertainty on smoothing function in the signal region}{99}{section.7.9}
+\contentsline {paragraph}{}{99}{section.7.9}
+\contentsline {paragraph}{}{99}{section.7.9}
+\contentsline {paragraph}{}{101}{section.7.9}
+\contentsline {paragraph}{}{102}{figure.caption.77}
+\contentsline {paragraph}{}{102}{table.caption.78}
+\contentsline {section}{\numberline {7.10}Summary of systematics}{102}{section.7.10}
+\contentsline {paragraph}{}{102}{section.7.10}
+\contentsline {paragraph}{}{102}{section.7.10}
+\contentsline {paragraph}{}{104}{section.7.10}
+\contentsline {chapter}{\numberline {8}Result}{106}{chapter.8}
+\contentsline {section}{\numberline {8.1}Boosted signal region}{106}{section.8.1}
+\contentsline {paragraph}{}{106}{section.8.1}
+\contentsline {section}{\numberline {8.2}Resolved signal region}{109}{section.8.2}
+\contentsline {paragraph}{}{109}{section.8.2}
+\contentsline {paragraph}{}{109}{table.caption.91}
+\contentsline {section}{\numberline {8.3}Statistical analysis}{110}{section.8.3}
 \contentsline {paragraph}{}{110}{section.8.3}
-\contentsline {paragraph}{}{110}{equation.8.3.1}
-\contentsline {paragraph}{}{110}{equation.8.3.1}
-\contentsline {paragraph}{}{110}{figure.caption.93}
-\contentsline {paragraph}{}{111}{figure.caption.94}
-\contentsline {paragraph}{}{111}{figure.caption.95}
-\contentsline {section}{\numberline {8.4}Boosted and resolved combined limits}{114}{section.8.4}
-\contentsline {paragraph}{}{114}{section.8.4}
-\contentsline {paragraph}{}{114}{section.8.4}
-\contentsline {paragraph}{}{114}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{117}{chapter.9}
-\contentsline {paragraph}{}{117}{chapter.9}
+\contentsline {paragraph}{}{111}{section.8.3}
+\contentsline {paragraph}{}{111}{equation.8.3.1}
+\contentsline {paragraph}{}{111}{equation.8.3.1}
+\contentsline {paragraph}{}{111}{figure.caption.93}
+\contentsline {paragraph}{}{112}{figure.caption.94}
+\contentsline {paragraph}{}{112}{figure.caption.95}
+\contentsline {section}{\numberline {8.4}Boosted and resolved combined limits}{115}{section.8.4}
+\contentsline {paragraph}{}{115}{section.8.4}
+\contentsline {paragraph}{}{115}{section.8.4}
+\contentsline {paragraph}{}{115}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{118}{chapter.9}
 \contentsline {paragraph}{}{118}{chapter.9}
-\contentsline {paragraph}{}{118}{chapter.9}
-\contentsline {paragraph}{}{118}{chapter.9}
-\contentsline {paragraph}{}{118}{chapter.9}
-\contentsline {paragraph}{}{118}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Boosted sideband region kinematic distributions}{119}{Appendix.1.A}
-\contentsline {paragraph}{}{119}{Appendix.1.A}
+\contentsline {paragraph}{}{119}{chapter.9}
+\contentsline {paragraph}{}{119}{chapter.9}
+\contentsline {paragraph}{}{119}{chapter.9}
+\contentsline {paragraph}{}{119}{chapter.9}
+\contentsline {paragraph}{}{119}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Boosted sideband region kinematic distributions}{120}{Appendix.1.A}
 \contentsline {paragraph}{}{120}{Appendix.1.A}
-\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{132}{Appendix.1.B}
-\contentsline {paragraph}{}{132}{Appendix.1.B}
+\contentsline {paragraph}{}{121}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{133}{Appendix.1.B}
 \contentsline {paragraph}{}{133}{Appendix.1.B}
-\contentsline {chapter}{Appendix \numberline {C}Boosted singal region kinematic distributions}{145}{Appendix.1.C}
-\contentsline {paragraph}{}{145}{Appendix.1.C}
+\contentsline {paragraph}{}{134}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {C}Boosted singal region kinematic distributions}{146}{Appendix.1.C}
 \contentsline {paragraph}{}{146}{Appendix.1.C}
-\contentsline {paragraph}{}{146}{table.caption.130}
-\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{160}{Appendix.1.D}
-\contentsline {paragraph}{}{160}{Appendix.1.D}
-\contentsline {paragraph}{}{163}{figure.caption.147}
-\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{167}{Appendix.1.E}
-\contentsline {paragraph}{}{167}{Appendix.1.E}
+\contentsline {paragraph}{}{147}{Appendix.1.C}
+\contentsline {paragraph}{}{147}{table.caption.130}
+\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{161}{Appendix.1.D}
+\contentsline {paragraph}{}{161}{Appendix.1.D}
+\contentsline {paragraph}{}{164}{figure.caption.147}
+\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{168}{Appendix.1.E}
 \contentsline {paragraph}{}{168}{Appendix.1.E}
-\contentsline {paragraph}{}{168}{figure.caption.158}
-\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{181}{Appendix.1.F}
-\contentsline {paragraph}{}{181}{Appendix.1.F}
-\contentsline {paragraph}{}{182}{Appendix.1.F}
+\contentsline {paragraph}{}{169}{Appendix.1.E}
+\contentsline {paragraph}{}{169}{figure.caption.158}
+\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{182}{Appendix.1.F}
 \contentsline {paragraph}{}{182}{Appendix.1.F}
 \contentsline {paragraph}{}{183}{Appendix.1.F}
-\contentsline {paragraph}{}{187}{figure.caption.171}
-\contentsline {paragraph}{}{191}{table.caption.178}
-\contentsline {paragraph}{}{195}{table.caption.185}
-\contentsline {paragraph}{}{199}{table.caption.192}
-\contentsline {paragraph}{}{199}{table.caption.195}
-\contentsline {chapter}{References}{203}{figure.caption.197}
+\contentsline {paragraph}{}{183}{Appendix.1.F}
+\contentsline {paragraph}{}{184}{Appendix.1.F}
+\contentsline {paragraph}{}{188}{figure.caption.171}
+\contentsline {paragraph}{}{192}{table.caption.178}
+\contentsline {paragraph}{}{196}{table.caption.185}
+\contentsline {paragraph}{}{200}{table.caption.192}
+\contentsline {paragraph}{}{200}{table.caption.195}
+\contentsline {chapter}{References}{204}{figure.caption.197}

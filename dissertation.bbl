@@ -1,4 +1,4 @@
-\begin{thebibliography}{80}
+\begin{thebibliography}{79}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -46,14 +46,6 @@ Lyndon Evans.
 \newblock \emph{ATL-PHYS-PUB-2016-012}, \penalty0 (ATL-PHYS-PUB-2016-012), Jun
   2016{\natexlab{b}}.
 \newblock URL \url{https://cds.cern.ch/record/2160731}.
-
-\bibitem[{ATLAS Collaboration}(2016{\natexlab{c}})]{EXOT-2015-11}
-{ATLAS Collaboration}.
-\newblock {Search for pair production of Higgs bosons in the $b\bar{b}b\bar{b}$
-  final state using proton--proton collisions at $\sqrt{s} = 13\;\mbox{TeV}$
-  with the ATLAS detector}.
-\newblock \emph{Phys. Rev. D}, 94:\penalty0 052002, 2016{\natexlab{c}}.
-\newblock \doi{10.1103/PhysRevD.94.052002}.
 
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.
@@ -348,10 +340,10 @@ Stephen~D. Ellis and Davison~E. Soper.
 \newblock \emph{JHEP}, 09:\penalty0 076, 2013{\natexlab{b}}.
 \newblock \doi{10.1007/JHEP09(2013)076}.
 
-\bibitem[{ATLAS Collaboration}(2016{\natexlab{d}})]{Aad:2015ydr}
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{c}})]{Aad:2015ydr}
 {ATLAS Collaboration}.
 \newblock {Performance of $b$-jet identification in the ATLAS experiment}.
-\newblock \emph{JINST}, 11:\penalty0 P04008, 2016{\natexlab{d}}.
+\newblock \emph{JINST}, 11:\penalty0 P04008, 2016{\natexlab{c}}.
 \newblock \doi{10.1088/1748-0221/11/04/P04008}.
 
 \bibitem[Aad et~al.(2016)]{Aad:2016jkr}
@@ -500,11 +492,11 @@ et~al Jon~Butterworth.
 \newblock \emph{Journal of Physics G: Nuclear and Particle Physics},
   43\penalty0 (2):\penalty0 023001, 2016.
 
-\bibitem[{ATLAS Collaboration}(2016{\natexlab{e}})]{LumiCiteUP}
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{d}})]{LumiCiteUP}
 {ATLAS Collaboration}.
 \newblock Luminosity determination in $pp$ collisions at $\sqrt{s} = 8\,\tev$\
   using the {ATLAS} detector at the {LHC}.
-\newblock \emph{Eur. Phys. J. C}, 76\penalty0 (653), 2016{\natexlab{e}}.
+\newblock \emph{Eur. Phys. J. C}, 76\penalty0 (653), 2016{\natexlab{d}}.
 \newblock \doi{10.1140/epjc/s10052-016-4466-1}.
 
 \bibitem[{ATLAS Collaboration}(2012{\natexlab{c}})]{JetMassAndSubstructure}

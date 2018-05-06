@@ -8,9 +8,10 @@ A picture is worth a thousand swords.
 
 %%%%%%%%%%%%%%
 \paragraph{}
-Reconstruction is the construction of particles from raw detector readouts. 
+Reconstruction is the particle identification and measurement based on raw detector readouts. 
 In each $pp$ collision recorded by ATLAS, charged particles bend in the magnetic field and leave tracks in the ID, electrons and photons deposit their energies in ECAL, hadrons are absorbed in HCAL, muons leave extra tracks in the MS, and neutrinos are inferred by the conservation of momentum in the transverse plane. 
-Figure~\ref{fig:obj_reco_overview} gives an overview of the different sub-detectors that each type of particle will interact with in ATLAS. Quark reconstruction and identification is particularly important for this thesis, with di-Higgs decaying to \bbbb.
+Figure~\ref{fig:obj_reco_overview} gives an overview of the different sub-detectors that each type of particle will interact with in ATLAS. 
+Quark reconstruction is particularly important for this \bbbb~ final state analysis.
 
 \begin{figure}[htbp!]
   \centering
@@ -29,14 +30,14 @@ Figure~\ref{fig:obj_reco_overview} gives an overview of the different sub-detect
 %Finally, ID tracks are built from CPU intensive high resolution fits.
 
 \paragraph{}
-Each beam crossing generates multiple vertices, and the vertices are reconstructed from the available ID tracks. 
-The primary vertex (PV), or the hard-scatter vertex, is selected as the one with the largest $\sum p_T^2$, where the sum is over all tracks with transverse momentum $p_T > 0.4$ \GeV that are associated with the vertex.
-The ID tracks are usually required to have at least 1 PIXEL hit and 6 SCT hits, and to be tightly matched to the primary vertex. 
+Each beam crossing generates multiple track vertices, and the vertices are reconstructed from the available ID tracks. 
+The primary vertex (PV), or the hard-scatter vertex, is selected as the one with the largest $\sum p_T^2$, where the sum is over all associated tracks.
+The ID tracks are usually required to have at least 1 PIXEL hit and 6 SCT hits, and to be tightly matched to the primary vertex.
 The tracks are required to have $p_T > 0.4$ \GeV~ and $|\eta| < 2.5$.
 
 \paragraph{}
 The track reconstruction performance is highly dependent on the momentum of the particle. 
-With higher momentum, the decay tracks have smaller separations in the inner detector, hindering the resolving cluster process, and thus degrading the track identification efficiency. 
+The decay tracks from a highly boosted parent particle have smaller separations in the inner detector, hindering the cluster process, and thus degrading the track identification efficiency. 
 For a $1$ \TeV~ $b$-hadron, the reconstruction track efficiency is $83\%$, compared to $95\%$ for a $200$ \GeV~ $b$-hadron ~\cite{Aaboud:2017all}.
 
 %%%%%%%%%%%%%%
@@ -46,10 +47,13 @@ For a $1$ \TeV~ $b$-hadron, the reconstruction track efficiency is $83\%$, compa
 When a quark or gluon is produced in $pp$ collisions, it produces a collimated spray of hadrons, which is known as a jet~\cite{Salam:2009jx}.
 Jets are built from topological clusters of energy deposits in calorimeter cells \cite{PERF-2014-07}, using a four-momentum reconstruction scheme with massless clusters as input. 
 The directions of jets are corrected to point back to the primary vertex.
-Typically, jets are reconstructed using the \akt algorithm~\cite{AntiKt} with different values of the radius parameter \R.
-\R appears in the denominator of the clustering distance metric. 
-This favors clusterings that involve hard particles, and the jets grow outwards around hard ``seeds''.
+Typically, jets are reconstructed using the \akt~ algorithm~\cite{AntiKt} with different values of the radius parameter \R. 
+This algorithm favors clusterings that involve hard particles, and the jets grow outwards around hard ``seeds''.
+\R appears in the denominator of the clustering distance metric.
 It determines the radial size of the jet in $\eta$-$\phi$ plane.
+The standard $R=0.4$ jets are used for $b$-quark reconstruction in the resolved topology.
+The large $R=1.0$ jets are used for Higgs boson reconstruction in the boosted topology.
+The small fixed $R=0.2$ track jets are used for $b$-quark identification inside the large-\R jets.
 
 \subsection{Small-\R jets}
 \paragraph{}
@@ -90,8 +94,8 @@ Jets from the PV should have most tracks consistent with the PV and therefore ha
    \caption{
    Two collision events recorded in June 2015 with a high leading jet \pt shown in rapidity-azimuthal angle parameter space. 
    The dots are calorimeter-cell clusters with positive energy. 
-   Only the two leading jets are shown, with their area demarcated by a colored circle, and with grey regions denoting the corresponding \kt~ sub-jets of size $R_{sub}=0.2$. 
-   The colour of both jets and clusters corresponds to their \pt.}
+   Only the two leading jets are shown, with their area demarcated by a colored circle, and with gray regions denoting the corresponding \kt~ sub-jets of size $R_{sub}=0.2$. 
+   The color of both jets and clusters corresponds to their \pt.}
   \label{fig:obj_jet_evt}
 \end{figure}
 
@@ -99,7 +103,7 @@ Jets from the PV should have most tracks consistent with the PV and therefore ha
 The jets with $R=1.0$ (``large-\R jets'') are built from locally calibrated~\cite{Aad:2011he} topological clusters.
 Two examples are shown in Figure~\ref{fig:obj_jet_evt}~\cite{ATLAS-CONF-2015-035}.
 Large-\R jets are trimmed~\cite{Krohn2010} to minimize the impact of contamination from non-perturbative effects associated with beam-remnants (``pile-up'' events).
-Trimming proceeds by reclustering the jet with the \kt~ algorithm~\cite{Ellis:1993tq} into $R_{sub} = 0.2$ sub-jets and then removing those sub-jets with $p_T^{\mathrm{subjet}}/p_T^{\mathrm{jet}} < 0.05$, where $p_T^{\mathrm{subjet}}$ is the transverse momentum of the sub-jet and $p_T^{\mathrm{jet}}$ that of the original jet.
+Trimming proceeds by re-clustering the jet with the \kt~ algorithm~\cite{Ellis:1993tq} into $R_{sub} = 0.2$ sub-jets and then removing those sub-jets with $p_T^{\mathrm{subjet}}/p_T^{\mathrm{jet}} < 0.05$, where $p_T^{\mathrm{subjet}}$ is the transverse momentum of the sub-jet and $p_T^{\mathrm{jet}}$ that of the original jet.
 Trimming increases the jet mass resolution, as shown in Figure~\ref{fig:obj_trim}~\cite{ATL-PHYS-PUB-2017-020}.
 The energy and mass scales of the trimmed jets are then calibrated using \pt- and $\eta$-dependent calibration factors derived from simulation~\cite{PERF-2012-02}.
 
@@ -195,9 +199,9 @@ Track jets are also required to have $p_T > 10$ \GeV~ and $|\eta| < 2.5$, in ord
 \paragraph{}
 Track jets are associated to large-\R jets using Ghost-Association.
 ``Ghosts" are track jet 4-vectors, with each track jet's \pt~ set to an infinitesimal amount, essentially keeping only the direction of the 4-vector.
-This ensures that Large-\R jets reconstruction is not altered by the ghosts when the calorimeter clusters plus ghosts are reclustered.
-Reclustering is then performed using the \akt~ algorithm with $R=1.0$ .
-The calorimeter jets after reclustering are identical to the parents of the trimmed jets used in this analysis, with the addition of the associated track jets retained as constituents.
+This ensures that the large-\R jet reconstruction is not altered by the ghosts when the calorimeter clusters plus ghosts are reclustered.
+Re-clustering is then performed using the \akt~ algorithm with $R=1.0$ .
+The calorimeter jets after re-clustering are identical to the parents of the trimmed jets used in this analysis, with the addition of the associated track jets retained as constituents.
 In addition, the track jets corresponding to the ghosts that survive the trimming procedure (and thus are clustered into one of the surviving sub-jets) are the track jets ghost-associated to the trimmed jet.
 The small radius parameter of the track-jets enables two nearby $b$-hadrons to be identified when their \DR~ separation is small, which is beneficial when reconstructing high-\pt~ Higgs boson candidates.
 
@@ -221,13 +225,13 @@ This allows some $b$-jets to be distinguished from other flavors of jets.
 \paragraph{}
 ATLAS uses three different basic $b$-tagging algorithms, which provide complementary information:
 \begin{itemize}
-	\item Impact parameter based algorithm: it uses the signed transverse and longitudinal impact parameters $d_0$ and $z_0 sin\rm \theta$ of the tracks inside a jet to determine their consistency with the primary vertex. The algorithm uses simulated templates of $\frac{d_0}{\rm\sigma_{d_0}}$ and $\frac{\rm z_0 sin \theta}{\rm \sigma{\rm z_0 sin\theta}}$ for light, $c$, and $b$ jets and evaluates the likelihood of the jet coming from each of these types.
+	\item Impact parameter based algorithm: this algorithm uses the signed transverse and longitudinal impact parameters $d_0$ and $z_0 sin\rm \theta$ of the tracks inside a jet to determine their consistency with the primary vertex. The algorithm uses simulated templates of $\frac{d_0}{\rm\sigma_{d_0}}$ and $\frac{\rm z_0 sin \theta}{\rm \sigma{\rm z_0 sin\theta}}$ for light, $c$, and $b$ jets and evaluates the likelihood of the jet coming from each of these types.
   %The sign is defined as positive if the track intersects the jet axis in front of the primary vertex, and as negative if the intersection lies behind the primary vertex.
   %The experimental resolution generates a random sign for the tracks originating from the primary vertex, while tracks from the b-/c-hadron decay normally have a positive sign.
 
-	\item Secondary vertex (SV) reconstruction algorithm: it uses tracks inside the jet to look for vertices that are displaced from the primary vertex. The algorithm provides information on the invariant mass of tracks pointing to the displaced vertex, the number of two track vertices, and the angular separation between the jet axis and the PV $\to$ SV direction. The fraction of jets which have a reconstructed secondary vertex are shown in Figure~\ref{fig:obj_b_sv}. The increase of tracks from fragmentation in the high \pt~ region is the main reason for the performance degradation. The number of fake vertices is increasing with jet \pt~ in light jets, while the secondary vertex reconstruction efficiency for $b$/$c$-jets slightly decreases with jet \pt.
+	\item Secondary vertex (SV) reconstruction algorithm: this algorithm uses tracks inside the jet to look for vertices that are displaced from the primary vertex. The algorithm provides information on the invariant mass of tracks pointing to the displaced vertex, the number of two track vertices, and the angular separation between the jet axis and the PV $\to$ SV direction. The fraction of jets which have a reconstructed secondary vertex are shown in Figure~\ref{fig:obj_b_sv}. The increase of tracks from fragmentation in the high \pt~ region is the main reason for the performance degradation. The number of fake vertices is increasing with jet \pt~ in light jets, while the secondary vertex reconstruction efficiency for $b$/$c$-jets slightly decreases with jet \pt.
 
-	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF): it reconstructs the full flight path of the $b$ by looking for multiple displaced vertices along the same direction. A Kalman filter is used to find common line for the $b$ and $c$ vertices, and hence the algorithm exploits the topology of the weak $b$/$c$-hadron decay chain. Leptonic decays of $b$/$c$ are not considered.
+	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF): this algorithm reconstructs the full flight path of the $b$ by looking for multiple displaced vertices along the same direction. A Kalman filter is used to find common line for the $b$ and $c$ vertices, and hence the algorithm exploits the topology of the weak $b$/$c$-hadron decay chain. Leptonic decays of $b$/$c$ are not considered.
 \end{itemize}
  
 \begin{figure}[htbp!]
@@ -250,7 +254,7 @@ ATLAS uses three different basic $b$-tagging algorithms, which provide complemen
 
 \paragraph{}
 %%https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2
-Jets containing $b$-hadrons are identified using a score value computed from a boosted decision tree(BDT) algorithm \emph{MV2c10}~\cite{btaggingRun2, Aad:2015ydr}, which makes use of observables provided by the three algorithms above.
+Jets containing $b$-hadrons are identified using a score value computed from a boosted decision tree (BDT) algorithm \emph{MV2c10}~\cite{btaggingRun2, Aad:2015ydr}, which makes use of observables provided by the three algorithms above.
 A BDT consists of a forest of decision trees.
 A number of individual decision trees are trained sequentially, with a boosting process in between each training. 
 Boosting consists of adjusting the weights of individual events according to whether the previously trained tree classifies them correctly.
@@ -293,7 +297,7 @@ This non-trivial jet \pt~ dependence of $b$-tagging performance is one of the ma
         \caption{Light jet rejection as a function of jet \pt.}
         \label{fig:obj_light_rej}
     \end{subfigure}
-\caption{Light-flavour jet and $c$-jet rejection as a function of jet \pt~ for the previous (2015 config) \emph{MV2c20} and the current \emph{MV2c10} configuration (2016 config). A fixed cut at 77\% $b$-jet efficiency operating point is used ~\cite{btaggingRun2}.}
+\caption{Light-flavor jet and $c$-jet rejection as a function of jet \pt~ for the previous (2015 config) \emph{MV2c20} and the current \emph{MV2c10} configuration (2016 config). A fixed cut at 77\% $b$-jet efficiency operating point is used ~\cite{btaggingRun2}.}
 \label{fig:obj_btag_rej}
 \end{figure}
 
@@ -323,12 +327,13 @@ Correction factors are applied to the simulated MC samples to compensate for dif
 %Hadronic tau decays into a tau neutrino and one or three charged pions and up to two neutral pions~\cite{ATLAS-CONF-2017-029}. Hence tau reconstruction starts from jets, and the jets are matched to one or three associated tracks, with a total electric charge of $\pm 1$. A Boosted Decision Tree identification procedure, based on calorimetric shower shapes and tracking information is used to reject fakes. Hadronic taus are not used in this thesis.
 
 %\paragraph{}
-%Neutrinos are inferred from the missing transverse momentum (MET), or $E_T^{miss}$. Neutrinos do not interact with the ALTAS detector. Their presence can only be deduced from the conservation of transverse momentum in each collision, as the incoming protons have little net momentum in the transverse plane. MET is calculated as the negative vectorial sum of the \pt of all fully reconstructed and calibrated physics objects. This procedure includes a soft term, which is calculated using the ID tracks that originate from the primary vertex but are not associated with reconstructed objects. MET is not used in this thesis.
+%Neutrinos are inferred from the missing transverse momentum (MET), or $E_T^{miss}$. Neutrinos do not interact with the ALTAS detector. Their presence can only be deduced from the conservation of transverse momentum in each collision, as the incoming protons have little net momentum in the transverse plane. MET is calculated as the negative vectorial sum of the \pt~ of all fully reconstructed and calibrated physics objects. This procedure includes a soft term, which is calculated using the ID tracks that originate from the primary vertex but are not associated with reconstructed objects. MET is not used in this thesis.
 
 \paragraph{}
 Muons are identified by matching ID tracks with reconstructed MS tracks~\cite{Aad:2016jkr}. 
 For this thesis, muons must have $p_T > 4~\GeV$, $|\eta| < 2.5$ and to satisfy ``medium'' muon identification criteria~\cite{Aad:2016jkr}. 
-Muons are used in this thesis, because $b$ hadrons decay to muons with $\sim 20\%$ probability. This is demonstrated in section~\ref{sec:obj-objectselection}.
+Muons are used in this thesis, because $b$ hadrons decay to muons with $\sim 20\%$ probability. This is described in section~\ref{sec:obj-objectselection}.
+
 %If a muon is within $\DR = 0.4$ (0.2) of a jet used for $b$-tagging in the resolved (boosted) analysis, their four-momentum is added to the calorimeter-based jet's four-momentum to partially account for the energy lost in semi-leptonic $b$-hadron decays.
 
 

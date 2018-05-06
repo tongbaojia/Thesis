@@ -230,7 +230,7 @@ Since the same \ttbar~ distribution is used for the $4b/3b/2bs$ SR predictions, 
         \caption{Log scale}
         \label{fig:ttshapeComp_log}
     \end{subfigure}
-   \caption{Normalized of $2bs$, $3b$, and $4b$ \ttbar~ MC \mtwoJ~ distribution in the seignal region. The uncertainties are statistical.}
+   \caption{Normalized of $2bs$, $3b$, and $4b$ \ttbar~ MC \mtwoJ~ distribution in the signal region. The uncertainties are statistical.}
   \label{fig:ttshapeComp}
 \end{figure}
 
@@ -261,7 +261,7 @@ N^{2bs\text{-R}}_{\text{bkg}} = \mu_{\text{qcd}}^{2bs\text{-R}} N^{1b\text{-R}}_
 \muqcd~ is assumed to be a constant over SB/CR/SR \mleadJ-\msublJ regions.
 Validation of this assumption can be found in Appendix~\ref{AppendixMuqcd}.
 \alphatt~, applied after the \ttbar~ MC is scaled to the total integrated luminosity, is a correction to the MC prediction.
-\muqcd~ and \alphatt~ are derived in the sieband region.
+\muqcd~ and \alphatt~ are derived in the sideband region.
 They are used as multiplicative constants in other regions of the mass plane (i.e. the control region or the signal region).
 
 \paragraph{}
@@ -306,7 +306,7 @@ The fitting errors on \muqcd~ and \alphatt~ are applied as systematic uncertaint
 \paragraph{}
 The \ttbar~ MC sample normalization is further corrected from the fitted \alphatt.
 At first \alphatt~ is assumed to be $1$.
-Once the first fit is done, the QCD background is re-esitmated using the updated $2bs$ \alphatt~value, which has the smallest uncertainty.
+Once the first fit is done, the QCD background is re-estimated using the updated $2bs$ \alphatt~value, which has the smallest uncertainty.
 Then the fit is repeated until the change in \alphatt~ is less than $0.01$.
 This iterative procedure helps correct the \alphatt~ bias in the data driven QCD template.
 
@@ -317,7 +317,7 @@ This negative correlation leads to a smaller total normalization uncertainty.
 
 \begin{table}[htbp!]
 \begin{center}
-\caption{Background scaling parameters (\muqcd and \alphatt) estimated from fits to the \mleadJ distributions in $4b/3b/2bs$ sideband regions pre reweighting. $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{\rm tt})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\rm \alpha_{ tt}} }$.}
+\caption{Background scaling parameters (\muqcd and \alphatt) estimated from fits to the \mleadJ distributions in $4b/3b/2bs$ sideband regions pre-reweighting. $\rho(\mu_{qcd},\alpha_{t\bar{t}}) = \frac{Cov(\rm \mu_{qcd},\rm \alpha_{\rm tt})}{\rm \sigma_{\mu_{qcd}} \rm \sigma_{\rm \alpha_{ tt}} }$.}
 \input{figures/boosted/tables/normfit_prereweight.tex}
 \label{tab:bkgfit_prereweight}
 \end{center}
@@ -356,13 +356,13 @@ These discrepancies arise from the non-trivial effect that $b$-tagging has on je
     \end{subfigure} \\ 
     \begin{subfigure}[b]{0.4\textwidth}
         \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk0_Pt_1.pdf}
-        \caption{subling large-\R jet's leading track jet \pt}
+        \caption{subleading large-\R jet's leading track jet \pt}
         \label{fig:rw-2bs-comp-subl0}
     \end{subfigure}
     \quad \quad 
     \begin{subfigure}[b]{0.4\textwidth}
         \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf}
-        \caption{subling large-\R jet's subleading track jet \pt}
+        \caption{subleading large-\R jet's subleading track jet \pt}
         \label{fig:rw-2bs-comp-subl1}
     \end{subfigure} \\ 
    \caption{
@@ -400,7 +400,7 @@ Each event gets a weight, such that the reweighed untagged Higgs candidate's dis
 \paragraph{}
 One natural choice of reweighting variable is the \pt~ of the track jets in the event, since $b$-tagging efficiency and $b$-tagging fake rate have a strong track jet \pt~ dependence. 
 Also, large-\R jet \pt~ is reweighed to account for the difference from light/$c$/$b$ quarks composition in QCD events at different energy scales.
-The three reweighted variables are the leading large-\R jet \pt~, leading large-\R jet leading trackjet \pt~ and subleading large-\R jet leading trackjet \pt~.
+The three reweighted variables are the leading large-\R jet \pt~, leading large-\R jet leading track jet \pt~ and subleading large-\R jet leading track jet \pt~.
 
 \paragraph{}
 The each reweighting iteration is described below:
@@ -424,7 +424,7 @@ The reweighting value for each variable is also constrained to be within a $-30\
 \end{table}
 
 \paragraph{}
-At the end of reweighting, the \muqcd and \alphatt is re-evaludated. The estimated \muqcd and \alphatt values before reweighting can be found in Table~\ref{tab:bkgfit}. 
+At the end of reweighting, the \muqcd and \alphatt is re-evaluated. The estimated \muqcd and \alphatt values before reweighting can be found in Table~\ref{tab:bkgfit}. 
 The values are statistically consistent with the values in Table~\ref{tab:bkgfit_prereweight}.
 
 
@@ -449,7 +449,7 @@ Other sideband region distributions are shown in Appendix~\ref{AppendixSB}.
  \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf}
  \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Sideband_mHH_l_1.pdf}\\
  \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf}\\
-\caption{The \mtwoJ distributions in the sideband region of the boosted analysis for the data and the predicted background for (top left) the four-tag, (top right) the three-tag, and (bottom) the two-tag split samples. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the grey hatched band.}
+\caption{The \mtwoJ distributions in the sideband region of the boosted analysis for the data and the predicted background for (top left) the four-tag, (top right) the three-tag, and (bottom) the two-tag split samples. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the gray hatched band.}
 \label{fig:boosted-sb-mjj}
 \end{center}
 \end{figure}
