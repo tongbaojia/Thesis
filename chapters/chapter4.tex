@@ -15,9 +15,9 @@ This analysis uses 2015 and 2016 LHC $pp$ collision datasets at $\sqrt{s} = 13$~
 \paragraph{}
 In the resolved analysis, a combination of three $b$-jet triggers is used:
 \begin{itemize}
-	\item ``2b4j'': two $b$-tagged jets and two non-$b$-tagged jets, all with \pt$>35$~\GeV. This trigger is most sensitive for resonance mass between $260$\GeV and $500$\GeV.
-	\item ``2b3j'': two $b$-tagged jets with \pt$>55$~\GeV, and one non-$b$-tagged jet with \pt$>100$~\GeV. This trigger is efficient for resonance mass above $600$\GeV.
-	\item ``1b1j'': one $b$-tagged jet with \pt$>225$~\GeV.
+	\item ``2b4j'': this trigger requires two $b$-tagged jets and two non-$b$-tagged jets, all with \pt$>35$~\GeV. This trigger is most sensitive for resonance mass between $260$\GeV and $500$\GeV.
+	\item ``2b3j'': this trigger requires two $b$-tagged jets with \pt$>55$~\GeV, and one non-$b$-tagged jet with \pt$>100$~\GeV. This trigger is efficient for resonance mass above $600$\GeV.
+	\item ``1b1j'': this trigger requires one $b$-tagged jet with \pt$>225$~\GeV.
 \end{itemize}
 %Events are required to have either one $b$-tagged jet with transverse momentum \pt$>225$~\GeV, or two $b$-tagged jets, either both satisfying \pt$>35$~\GeV~ or both satisfying \pt$>55$~\GeV, with different requirements on the $b$-tagging. Some triggers require additional non-$b$-tagged jets. 
 Due to a change in the on-line $b$-tagging algorithm between 2015 and 2016, the two datasets are treated independently until they are combined in the final statistical analysis. 
@@ -59,21 +59,23 @@ The data is further skimmed into the Derived Analysis Object Data (DAOD). The AT
 \paragraph{}
 All Monte Carlo (MC) samples used in this analysis are produced with full simulation.
 For all simulated samples, charm-hadron and bottom-hadron decays were handled by {\textsc{EvtGen}} 1.2.0~\cite{EvtGen}. 
-To simulate the impact of multiple low momentum $pp$ interactions that occur within the same or nearby bunch crossings, minimum-bias events generated with \pythia~8~\cite{Sjostrand:2006za} using the A2 set of tuned parameters~\cite{MC12AU2} were overlaid on the hard-scatter event
+To simulate the impact of multiple low momentum $pp$ interactions that occur within the same or nearby bunch crossings, minimum-bias events generated with \pythia~8~\cite{Sjostrand:2006za} using the A2 set of tuned parameters~\cite{MC12AU2} were overlaid on the hard-scatter event.
 This pile-up effect is simulated with a $\mu$ of $25$.
 Although this is different from the pile-up level in data, it has little effect on the analysis and the pile-up reweighting is not adopted.
 %https://twiki.cern.ch/twiki/bin/view/AtlasProtected/AtlasProductionGroupMC15c#Pileup_for_samples_with_small_nu
 The detector response was simulated with GEANT~4~\cite{Agostinelli:2002hh, Aad:2010ah} and the events were processed with the same reconstruction software as that used for the data.  
-Simulated data samples from the ATLAS MC15c campaign are be used, corresponding to $p$-tags \texttt{p2952-p2949}.
+Simulated data samples from the ATLAS MC15c campaign are be used, corresponding to $p$-tags \textit{p2952-p2949}.
 
 \section{Signal}
 \paragraph{}
 In all signal samples, the mass of the Higgs boson ($m_H$) was set to 125~\GeV. 
-The signal MC contains truth information, like the two Higgs and the b quark four-momentum before detector interactions. 
+The signal MC contains truth information, such as the two Higgs and the b quark four-momenta before detector interactions. 
 This enables a $\Delta R$ truth matching between the reconstructed objects and the Higgs.
 
 \paragraph{}
-SM non-resonant production of Higgs boson pairs via the gluon--gluon fusion process was simulated at NLO with \texttt{MG5\_aMC@NLO}, using form factors for the top-quark loop from HPAIR~\cite{PhysRevD.58.115012, Plehn199646}. The simulated events are reweighed to reproduce the \mhh spectrum obtained~\cite{Borowka:2016ehy, Borowka:2016ypz}, which calculated the process at NLO in QCD while fully accounting for the top-quark mass. 
+SM non-resonant production of Higgs boson pairs via the gluon--gluon fusion process was simulated at NLO with \texttt{MG5\_aMC@NLO}, using form factors for the top-quark loop from HPAIR~\cite{PhysRevD.58.115012, Plehn199646}. 
+The simulated events are reweighted to reproduce the \mhh~ spectrum obtained~\cite{Borowka:2016ehy, Borowka:2016ypz}. 
+This spectrum is calculated at NLO in QCD while fully accounting for the top-quark mass. 
 Interference effects between di-Higgs resonant production and SM non-resonant di-Higgs production are not included in the simulated samples. 
 %The cross section times branching ratio to the \fourb\ final state is $11.3^{+0.9}_{-1.0}$~fb~{\cite{Borowka:2016ehy}.
 %The uncertainty includes the effects due to renormalization and factorization scales, PDF set, $\alpha_{\mathrm{S}}$, and the \hbb\ branching ratio. 

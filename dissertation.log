@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  6 MAY 2018 14:25
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  9 MAY 2018 12:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1297,25 +1297,25 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 (./dissertation.toc
 
 LaTeX Font Warning: Font shape `EU1/EBGaramond(2)/bx/n' undefined
-(Font)              using `EU1/EBGaramond(2)/m/n' instead on input line 1.
+(Font)              using `EU1/EBGaramond(2)/m/n' instead on input line 2.
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 1.
+(Font)              scaled to size 10.95pt on input line 2.
 [4
 
 ]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 206.
+(Font)              scaled to size 9.35316pt on input line 207.
 
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 206.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 207.
 
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 206.
+(Font)              scaled to size 8.0pt on input line 207.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 206.
+(Font)              scaled to size 6.0pt on input line 207.
 [5]
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/sc' undefined
@@ -1665,17 +1665,17 @@ and with respect to events passing the two
  []
 
 
-Overfull \hbox (20.92975pt too wide) in paragraph at lines 33--33
+Overfull \hbox (11.5237pt too wide) in paragraph at lines 33--33
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Large-$[]$ jet trigger (\EU1/SourceCo
 dePro(0)/m/it/10.95 HLT_j360_a10_lcw\EU1/EBGaramond(2)/bx/n/10.95 , left and \E
 U1/SourceCodePro(0)/m/it/10.95 HLT_j420_a10_lcw\EU1/EBGaramond(2)/bx/n/10.95 , 
-right)efficiencies 
+right) efficien- 
  []
 
 
-Overfull \hbox (3.60796pt too wide) in paragraph at lines 33--33
- \EU1/EBGaramond(2)/bx/n/10.95 with respect to the large-$[]$ jet $[][]$, defin
-ed as the ratio between only events fired trigger 
+Overfull \hbox (10.72546pt too wide) in paragraph at lines 33--33
+ \EU1/EBGaramond(2)/bx/n/10.95 cies with respect to the large-$[]$ jet $[][]$, 
+defined as the ratio between only events fired trig- 
  []
 
 
@@ -1717,10 +1717,28 @@ the legend (including when a truth $[]$ is
  []
 
 
-Overfull \hbox (33.23022pt too wide) in paragraph at lines 36--36
+Overfull \hbox (44.18022pt too wide) in paragraph at lines 36--36
  \EU1/EBGaramond(2)/bx/n/10.95 not contained in the large-$[]$ jet) happen in t
 otal at most $[]\OML/cmm/m/it/10.95 :[]\OT1/cmr/m/n/10.95 %$ \EU1/EBGaramond(2)
-/bx/n/10.95 of the time for a given $[][]$  mass.[][] []  
+/bx/n/10.95 of the time for a given $[][]$  mass. 
+ []
+
+
+Overfull \hbox (13.5669pt too wide) in paragraph at lines 36--36
+ \EU1/EBGaramond(2)/bx/n/10.95 In the Figure, red means the truth Higgs doesn’t
+ match the large-$[]$ jet. Blue means both 
+ []
+
+
+Overfull \hbox (2.595pt too wide) in paragraph at lines 36--36
+ \EU1/EBGaramond(2)/bx/n/10.95 truth $[]$ matches the two track jets. Orange me
+ans two truth $[]$ matches one same track 
+ []
+
+
+Overfull \hbox (28.29468pt too wide) in paragraph at lines 36--36
+ \EU1/EBGaramond(2)/bx/n/10.95 jet, and the other $[]$ is matched to one of the
+ two track jets. Pink means one $[]$ quark matches 
  []
 
 
@@ -3427,12 +3445,12 @@ the statistical uncertainty is shown. Mass
 
 
 ]
-Overfull \hbox (16.6841pt too wide) in paragraph at lines 20--21
+Overfull \hbox (16.6841pt too wide) in paragraph at lines 27--28
 \EU1/EBGaramond(2)/bx/n/10.95 gram and has contributed to every bit of the resu
 lt in my thesis. I am standing on the ATLAS(member)’s 
  []
 
-[28]) [29]
+[28]) [29] [30]
 \openout2 = `chapters/introduction.aux'.
 
  (./chapters/introduction.tex
@@ -3743,14 +3761,14 @@ Package natbib Warning: Citation `EvtGen' on page 40 undefined on input line 61
 .
 
 [40]
-Overfull \hbox (3.7523pt too wide) in paragraph at lines 82--88
+Overfull \hbox (3.7523pt too wide) in paragraph at lines 84--90
 \EU1/EBGaramond(2)/bx/n/10.95 tion. The NNPDF2.3 LO parton distribution functio
 n (PDF) set$[]$ was used for both \EU1/SourceCodePro(0)/m/it/10.95 MG5_aMC@NLO 
 
  []
 
 
-Overfull \hbox (9.21205pt too wide) in paragraph at lines 90--96
+Overfull \hbox (9.21205pt too wide) in paragraph at lines 92--98
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Signal 2HDM Scalar $\OMS/cmsy/m/n/10.95 !
   [][]  !  [][][][]$ \EU1/EBGaramond(2)/bx/n/10.95 events were generated at LO 
 in QCD with \EU1/SourceCodePro(0)/m/it/10.95 MG5_aMC@NLO \EU1/EBGaramond(2)/bx/
@@ -3758,7 +3776,7 @@ n/10.95 2.2.3
  []
 
 [41]
-Overfull \hbox (10.69765pt too wide) in paragraph at lines 105--111
+Overfull \hbox (10.69765pt too wide) in paragraph at lines 107--113
 \EU1/EBGaramond(2)/bx/n/10.95 both been generated with  \EU1/EBGaramond(2)/m/sc
 /10.95 Powheg-box \EU1/EBGaramond(2)/bx/n/10.95 v1$[]$ using the CT10 PDF set. 
 The parton shower, hadroniza- 
@@ -3870,20 +3888,20 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 136.
  [47]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 145.
+(Font)              scaled to size 10.95pt on input line 146.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 145.
+(Font)              scaled to size 10.95pt on input line 146.
  [48]
 File: figures/boosted/Truth/truth_hbdR.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/Truth/truth_hbdR.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 154--155
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 155--156
 [][] 
  []
 
 File: figures/boosted/Truth/truth_hbdR2.pdf Graphic file (type QTm)
 <use  "figures/boosted/Truth/truth_hbdR2.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 160--161
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 161--162
 [][] 
  []
 
@@ -3918,7 +3936,7 @@ File: figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth_
 <use  "figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth
 _0.pdf" >
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 243.
+(Font)              scaled to size 10.0pt on input line 245.
  [52]
 File: figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-
 48-39.png Graphic file (type QTm)
@@ -3934,32 +3952,32 @@ File: figures/boosted/Truth/Sig_1200_AllTag_Incl_mH0H1.pdf Graphic file (type Q
 Tm)
 
 <use  "figures/boosted/Truth/Sig_1200_AllTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 351--352
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 353--354
 [][] 
  []
 
 File: figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf Graphic file (type Q
 Tm)
 <use  "figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 357--358
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 359--360
 [][] 
  []
 
 [55] [56]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 392.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 390.
+(hyperref)                removing `math shift' on input line 392.
 
 File: figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf Gr
 aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf" 
 >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 399--400
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 401--402
 [][] 
  []
 
@@ -3968,7 +3986,7 @@ aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/detail_lst_Moriond_Efficiency_AllTag_Signal.pdf" 
 >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 405--406
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 407--408
 [][] 
  []
 
@@ -3977,20 +3995,20 @@ File: figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf Graphic file
 (type QTm)
 
 <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 453--454
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 455--456
 [][] 
  []
 
 File: figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel_rel.pdf Graphic f
 ile (type QTm)
 <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel_rel.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 459--460
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 461--462
 [][] 
  []
 
-[59] (./figures/boosted/tables/SignalEffTable_RSG_c10.tex)
+(./figures/boosted/tables/SignalEffTable_RSG_c10.tex)
 (./figures/boosted/tables/SignalEffTable_RSG_c20.tex)
-(./figures/boosted/tables/SignalEffTable_Xhh.tex)) [60] [61]
+(./figures/boosted/tables/SignalEffTable_Xhh.tex)) [59] [60] [61]
 \openout2 = `chapters/chapter6.aux'.
 
 
@@ -4720,10 +4738,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 Chapter 9.
-
-Package natbib Warning: Citation `Aaboud:2016xco' on page 118 undefined on inpu
-t line 17.
-
 [118
 
 
@@ -6496,12 +6510,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28045 strings out of 493706
- 551550 string characters out of 6145769
- 669536 words of memory out of 5000000
- 30209 multiletter control sequences out of 15000+600000
+ 28047 strings out of 493706
+ 551594 string characters out of 6145769
+ 673025 words of memory out of 5000000
+ 30211 multiletter control sequences out of 15000+600000
  19082 words of font info for 176 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  60i,18n,104p,10522b,733s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dissertation.pdf (241 pages).
+Output written on dissertation.pdf (242 pages).

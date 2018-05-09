@@ -33,7 +33,7 @@ The following data cleaning requirements are made:
 % Events that pass a ``medium'' jet vertex tagger working point, corresponding to a 92\% efficiency for jets at the EM scale with $20<p_T<60$~\GeV, are retained in the analysis. 
 % Quality criteria are applied to the jets, and events with jets consistent with noise in the calorimeter or non-collision backgrounds are vetoed~\cite{jetcleanATLAS}.
 \paragraph{}
-The analysis also runs over the debug stream, which contains events recorded that couldn't be reconstructed on-line due to CPU time constrains. No event passing the full signal selection is found.
+The analysis also runs over the debug stream, which contains events recorded that could not be reconstructed on-line due to CPU time constrains. No event passing the full signal selection is found.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Trigger}
@@ -62,11 +62,11 @@ The analysis also runs over the debug stream, which contains events recorded tha
 \paragraph{}
 %See \href{https://arxiv.org/pdf/1611.09661.pdf}{6.4.3} 
 Events in data and MC are required to pass the lowest unprescaled large-\R jet trigger: \\
-\verb|HLT_j360_a10_lcw| in 2015 and \verb|HLT_j420_a10_lcw| in 2016. 
+\verb|HLT_j360_a10_lcw| in 2015 and \verb|HLT_j420_a10_lcw| in 2016, where LCW stands for locally clustered weighted. 
 The triggered jets are topo-cluster jets with local calibration weights and pile-up subtraction.
 They are seeded by the lowest unprescaled L1 jet trigger, \texttt{L1\_J100}. 
-LCW cluster trigger is chosen, because the other option, reclusted large-\R jet trigger, has slower turn-on in multi-jet events. 
-Other options such as the lowest unprescaled transverse energy trigger, \verb|HLT_ht1000|, has a much slower turn-on compared to large-\R jet triggers.
+LCW cluster trigger is chosen, because the other option, reclustered large-\R jet trigger, has slower jet momentum turn-on in multi-jet events. 
+Other options such as the lowest unprescaled transverse energy trigger, \verb|HLT_ht1000|, have a much slower turn-on compared to large-\R jet triggers.
 Another trigger option is a four jet trigger \verb|HLT_4j100|, but because of the boosted jets merging, the trigger efficiency decreases rapidly as the signal mass increases. 
 The trigger efficiencies with respect to all events and events with two large-\R jets are shown in Figure~\ref{fig:boosted-trigger-HLT}.
 For $1.4$\TeV~ signal with two large-\R jets, the large-\R jet trigger efficiency is about $98\%$.
@@ -87,7 +87,7 @@ Based on this figure, the large-\R jet \pt~ is required to be above $450$\GeV, w
         \caption{2016}
         \label{fig:boosted-trigger-HLT-turnon-2016}
     \end{subfigure}
-  \caption{Large-\R jet trigger (\texttt{HLT\_j360\_a10\_lcw}, left and \texttt{HLT\_j420\_a10\_lcw}, right)efficiencies with respect to the large-\R jet \pt, defined as the ratio between only events fired trigger and the all the events, measured in 2015 and 2016 data and \Grav~ with $c=1.0$ MC.}
+  \caption{Large-\R jet trigger (\texttt{HLT\_j360\_a10\_lcw}, left and \texttt{HLT\_j420\_a10\_lcw}, right) efficiencies with respect to the large-\R jet \pt, defined as the ratio between only events fired trigger and the all the events, measured in 2015 and 2016 data and \Grav~ with $c=1.0$ MC.}
   \label{fig:boosted-trigger-HLT-turnon}
 \end{figure}
 
@@ -139,14 +139,15 @@ The selection cuts are listed in Table~\ref{tab:boosted-preselection} and are ex
 \end{figure}
 
 \paragraph{}
-Each event must have at least two high momentum large-\R jets, defined in section~\ref{obj:largeRjet}, each with at least one ghost associated track jets for $b$-tagging.
-They are sorted by \pt, and the highest \pt~ one is named as the leading large-\R jet, or the leading Higgs Candidate, or leadJ.
-The second highest \pt~ large-\R jet is the subleading large-\R jet, or the subleading Higgs Candidate, or sublJ.
-The large-\R jets are required to have \pt $> 250$\GeV~, $|\eta| < 2$ to guarantee a good overlap with the tracking acceptance, and mass $> 50$\GeV~ to reduce the size of data and simulations.
-The leading large-\R jet is also required to have \pt $> 450$\GeV~ to be above the trigger turn on threshold.
+Each event must have at least two high momentum large-\R jets, defined in section~\ref{obj:largeRjet}.
+They are sorted by \pt.
+The leading large-\R jet, also referred to as the leading Higgs candidate (leadJ), is defined to be the large-\R jet with the highest \pt.
+The second highest \pt~ large-\R jet is the subleading large-\R jet, also referred to as the subleading Higgs Candidate, or sublJ.
+The large-\R jets are required to have \pt $> 250$ \GeV~, $|\eta| < 2$ to guarantee the tracking acceptance, and mass $> 50$ \GeV~ to reduce the size of data and simulations.
+The leading large-\R jet is also required to have \pt $> 450$ \GeV~ to be above the trigger turn on threshold.
 Only the leading and subleading large-\R jets are considered in the rest of this thesis.
-Both truth Higgs bosons are matched to the two large-\R jets $\sim 95\%$ of the time for $1.2$\TeV~ signals, shown as the red curve in Figure~\ref{fig:truth-Higgs-largeRjet}. 
-$R = 1.0$ ensures that the two $b$ quarks and their decay products are very likely to be contained within the large-\R jet, as shown in Figure~\ref{fig:truth-HbdR}. 
+Both truth Higgs bosons are matched to the two large-\R jets $\sim 95\%$ of the time for $1.2$\TeV~ signal MC, shown as the red curve in Figure~\ref{fig:truth-Higgs-largeRjet}. 
+Requiring $R = 1.0$ ensures that the two $b$ quarks and their decay products are very likely to be contained within the large-\R jet, as shown in Figure~\ref{fig:truth-HbdR}. 
 
 \begin{figure}[htbp!]
     \captionsetup{justification=centering}
@@ -167,14 +168,13 @@ $R = 1.0$ ensures that the two $b$ quarks and their decay products are very like
 
 \paragraph{}
 The track jets, defined in section~\ref{obj:trackjet}, are required to have \pt $> 10$ \GeV, $|\eta| < 2.5$ and at least two tracks associated with it. 
-A track jet is considered $b$-tagged if it has MV2c10 > $0.6455$, see Section~\ref{sec:btag_70wp} for details. 
-Each large-\R jet is required to have at least one, not two, track jet Ghost associated with it.
-This accounts for the $R=0.2$ track jets merging at really high boost, from signals above $2.5$ \TeV.
+A track jet is considered $b$-tagged if it has MV2c10 > $0.6455$ (see Section~\ref{sec:btag_70wp} for details).
+Each large-\R jet is required to have at least one ghost-associated track jets
+Allowing only one ghost-associated track jet is motivated by the kinematic signatures of signals with masses above $2.5$ \TeV, where the resulting $R = 0.2$ track jets merge due to large Lorentz boosts.
 If there are more than one track jet contained in the large-\R jet, they are also sorted by \pt.
-The highest \pt~ track jet is named as the leading track jet, and the second highest \pt~ one is named as the subleading track jet.
-Only the two highest \pt~ track jet is considered in this thesis.
-One or two track jets are $\Delta R$ matched to the truth $b$ quarks $80\%$, as shown in Figure~\ref{fig:truth-bmatch}. 
-In the Figure, red means the truth Higgs doesn't match the large-\R jet. Blue means both truth $b$ matches the two track jets. Orange means two truth $b$ matches one same track jet. Green indicates one $b$ quark has $\Delta R<0.2$ for both leading and subleading track jet, and the other $b$ is matched to one of the two track jets. Pink means one $b$ quark matches to one of the two track jets, the other $b$ doesn't match to the two leading track jets.
+The highest \pt~ track jet is defined to be the leading track jet, and the second highest \pt~ one is defined to be the subleading track jet.
+Only the two leading \pt~ track jets are considered in this thesis.
+One or two track jets are $\Delta R$ matched to the truth $b$ quarks $80\%$, as shown in Figure~\ref{fig:truth-bmatch}.
 
 \begin{figure}[htbp!]
     \captionsetup{justification=centering}
@@ -189,7 +189,8 @@ In the Figure, red means the truth Higgs doesn't match the large-\R jet. Blue me
         \caption{subleading Higgs boson}
         \label{fig:truth-bmatch-subl}
     \end{subfigure}
-\caption{Percentage of $\Delta R<0.2$ matching truth $b$'s to track jets (leading Higgs on the left, subleading Higgs on the right) for different \Grav~ mass. The cases listed in the legend are orthogonal to each other. The cases not listed on the legend (including when a truth $b$ is not contained in the large-\R jet) happen in total at most $1.6\%$ of the time for a given \Grav~ mass.}
+\caption{Percentage of $\Delta R<0.2$ matching truth $b$'s to track jets (leading Higgs on the left, subleading Higgs on the right) for different \Grav~ mass. The cases listed in the legend are orthogonal to each other. The cases not listed on the legend (including when a truth $b$ is not contained in the large-\R jet) happen in total at most $1.6\%$ of the time for a given \Grav~ mass. 
+In the Figure, red means the truth Higgs doesn't match the large-\R jet. Blue means both truth $b$ matches the two track jets. Orange means two truth $b$ matches one same track jet. Green indicates one $b$ quark has $\Delta R<0.2$ for both leading and subleading track jet, and the other $b$ is matched to one of the two track jets. Pink means one $b$ quark matches to one of the two track jets, the other $b$ doesn't match to the two leading track jets.}
 \label{fig:truth-bmatch}
 \end{figure}
 
@@ -226,6 +227,7 @@ In the Figure, red means the truth Higgs doesn't match the large-\R jet. Blue me
 \end{figure*}
 
 \paragraph{}
+Muon correction to the large-\R jet four-momenta is applied.
 $b$-hadrons decay to a muon and a muon neutrino through a $W$ boson with $20\%$ probability.
 The energy carried by the muon is not measured in the large-\R jet.
 A further muon correction on large-\R jet four-momentum accounts for this energy loss.
@@ -247,9 +249,9 @@ The muon-in-jet correction improves the overall large-\R jet mass resolution by 
 
 \paragraph{}
 Finally, the Higgs candidates (large-\R jets) are also required to have $|\Delta\eta| = |\eta_{\text{leadJ}} -\eta_{\text{sublJ}} |< 1.7$. 
-This is because the spin 2 \Grav~ are produced mostly through $s$-channel and more central in $\eta$ distribution, while the multi-jet events could also be produced through $t$-channels or $u$-channel and therefore more forward. 
-Figure ~\ref{fig:app-check-deta} shows the distribution for signal sample and data inclusive $b$-tag region $\Delta \eta_{JJ}$ distribution.
-This cut is not entirely optimal for Scalar signals due to the different spin, yet it is fixed for both \Grav~ and Scalar selections.
+This is because the spin 2 \Grav~ are produced mostly through $s$-channel and are thus more central in $\eta$, while the multi-jet events can also be produced through $t$-channel or $u$-channel and are therefore more forward. 
+Figure ~\ref{fig:app-check-deta} shows the $\Delta \eta_{JJ}$ distribution for signal MC and data in inclusive $b$-tag region.
+This cut is not entirely optimal for scalar signals due to the different spin, yet it is fixed for both \Grav~ and scalar selections.
 
 
 
@@ -280,15 +282,15 @@ Sometimes one event can be reconstructed in both the resolved method as four sma
 
 \paragraph{}
 In order to avoid events being reconstructed by both the resolved and the boosted analysis, events that pass the resolved signal region selections are vetoed in the boosted analysis.
-This is a ATLAS political decision, and the effect of vetoing boosted event selection in the resolved analysis is never tested.
+This is a ATLAS political decision, and the effect of vetoing boosted event selection in the resolved analysis was never tested.
 The gain is a full statistical combination of the resolved and boosted result.
-This veto reduces the boosted analysis sensitivity up to $1.5$\TeV~ for resonance signals, which is recovered in the statistical combination with the resolved analysis.
+This veto reduces the boosted analysis sensitivity in the region up to $1.5$\TeV~ for resonance signals, which is recovered in the statistical combination with the resolved analysis.
 Hence it is necessary to introduce the resolved selection~\cite{Aaboud:2018knk}.
 
 \paragraph{}
-For resolved analysis, four small-\R jets with the highest $b$-tagging score are paired to construct two Higgs boson candidates.  
+For resolved analysis, the four small-\R jets with the highest $b$-tagging score are paired to construct two Higgs boson candidates.  
 Each jet must have \pt $> 40$ \GeV~, $|\eta| < 2.5$, MV2c10 $> 0.8244$ (small-\R jet $70\%$ $b$-tagging working point). 
-Pairings of jets into Higgs boson candidates are only accepted if they satisfy the following requirements, where \mfourj is expressed in \GeV:\\
+Pairings of jets are only accepted as Higgs candidates if they satisfy the following requirements, where \mfourj~ is expressed in \GeV:\\
 if \mfourj  < 1250\,\GeV:
 \begin{equation}
 \frac{360\,\GeV}{\mfourj} - 0.5 < \DR_{jj}^{lead} < \frac{653\,\GeV}{\mfourj} + 0.475;\quad
@@ -300,15 +302,15 @@ if \mfourj  < 1250\,\GeV:
 \end{equation}
 In these expressions, $\DR_{jj, \mathrm{lead}}$ is the angular distance between jets in the leading Higgs boson candidate and $\DR_{jj, \mathrm{subl}}$ for the sub-leading candidate. 
 The leading Higgs boson candidate is defined to be the candidate with the highest scalar sum of jet \pt. 
-This requirement efficiently rejects jet-pairings where one of the $b$-tagged jets is not consistent with that originating from a Higgs boson decay.
+This $\Delta R$ requirement efficiently rejects jet-pairings where one of the $b$-tagged jets is not consistent with originating from a Higgs boson decay.
 
 \paragraph{}
-Also, mass-dependent requirements are made on the leading Higgs boson candidate \pt, and the sub-leading Higgs boson \pt,:
+Also, mass-dependent requirements are made on the leading Higgs boson candidate \pt~ and the sub-leading Higgs boson \pt:
 \begin{equation}
 p_T^{lead} > 0.5\mfourj - 105\,\GeV, \quad
 p_T^{subl} > 0.33\mfourj - 75\,\GeV
 \end{equation}
-where \mfourj is again expressed in \GeV.
+where \mfourj~ is again expressed in \GeV.
 
 \paragraph{}
 A further (\mfourj-independent) requirement is placed on the pseudorapidity difference between the two Higgs boson candidates, $\dEta < 1.5$, which rejects multi-jet events.
@@ -322,20 +324,20 @@ Events that have multiple Higgs boson candidates satisfying these requirements (
 The optimal choice would be the combination most consistent with the decays of two Higgs bosons of equal mass.
 To account for energy loss in measurement and reconstruction resolution, the requirement of equal masses is modified. 
 The distance, \Dhh, of the leading and subleading Higgs boson candidate masses, $\left(\leadm, \sublm\right)$ from the line connecting $\left(0\,\GeV, 0\,\GeV\right)$ and $\left(120\,\GeV, 110\,\GeV\right)$ is computed, and the pairing with the smallest value of \Dhh~ is chosen.
-The values of 120\,\GeV\, and 110\,\GeV\, are chosen because they correspond to the median values of the narrowest intervals that contain 90\% of the signal in simulations.%the centre of the signal region in \leadm and \sublm respectively,
+The values of 120\,\GeV\, and 110\,\GeV\, are chosen because they correspond to the median values of the narrowest large-\R jet mass intervals that contain $90\%$ of the signal in simulations. %the centre of the signal region in \leadm and \sublm respectively,
 \Dhh~ can be expressed as follows:
 \begin{equation}
 D_{hh} = \frac{\left|\leadm - \frac{120}{110}\sublm\right|}{\sqrt{1+\left(\frac{110}{120}\right)^{2}}}.
 \end{equation}
 
 \paragraph{}
-A requirement on the Higgs boson candidates' masses is used to define the resolved signal region:
+A requirement on the Higgs boson candidate mass is used to define the resolved signal region:
 \begin{equation}
 X_{hh-resolved} = \sqrt{\left(\frac{\mlead - 120\,\GeV}{0.1\mlead}\right)^2 + \left(\frac{\msubl - 110\,\GeV}{0.1\msubl}\right)^2} < 1.6,
 \label{eqn:resolvedXhh}
 \end{equation}
-where the 0.1\mtwoj terms represent the widths of the leading and sub-leading Higgs boson candidate mass distributions, derived from simulation.
-In summary, any event is rejected in the boosted selection if it can make a Higgs candidate through the \Dhh~ minimization and pass the resolved signal region $X_{hh-resolved}$ cut.
+where the $0.1$\mtwoj~ terms represent the widths of the leading and sub-leading Higgs boson candidate mass distributions, derived from simulation.
+In summary, any event is rejected in the boosted selection if the \Dhh~ minimized Higgs candidate passes the resolved signal region $X_{hh-resolved}$ cut.
 
 %For more detail, please see the resolved signal region definition. 
 %For the impact on the boosted analysis, see Appendix ~\ref{sec:app-optimization-resveto}.
@@ -373,11 +375,11 @@ The signal region is defined using the expression~\ref{eq:boosted_XhhDef}:
 \label{eq:boosted_XhhDef}
 X_{hh} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{124 GeV}}{0.1 \left(m^{\rm lead}_{\rm J}\right)}\right)^2 + \left(\frac{m^{\rm subl}_{\rm J}- \text{115 GeV}}{0.1 \left(m^{\rm subl}_{\rm J}\right)}\right)^2}
 \end{equation}
-The denominator of each term in \Xhh~ represents the resolution of the reconstructed leading and subleading jets' masses.
+The denominator of each term in \Xhh~ represents the resolution of the reconstructed leading and subleading jet masses.
 Hence \Xhh~ can be interpreted as a $\chi^2$ compatibility with the di-Higgs hypothesis.
 The subleading large-\R jet typically has a biased downward reconstructed mass.
-Because it is the subleading jet, it is less boosted and sometimes jet decay constituents are out of the jet cone.
-The energy losses from neutrinos in leptonic $b$ decays and cracks in the calorimeter also contributes.
+Because it is the subleading jet, it is less boosted and the jet decay constituents are often outside of the jet cone.
+The energy losses from neutrinos in leptonic $b$ decays and cracks in the calorimeter also contribute.
 The subleading jet mass center value of $115$\GeV~ accounts for the larger energy loss in subleading jets.
 The signal region requires $X_{hh} < 1.6$. 
 This cut keeps $\sim 40\%$ of signal events passing all selections. 
@@ -389,7 +391,7 @@ Since the gain in sensitivity is small, the signal region is kept to be consiste
 
 \section{Number of $b$-tagged track jet requirements}
 \paragraph{}
-Passing basic object selection and the \Xhh~ cut, the signal regions are defined by further requiring multiple $b$-tags which are consistent with the di-Higgs decay.
+In addition to requirements for basic object selection and the \Xhh~ cut, the signal regions are defined by further requiring multiple $b$-tags which are consistent with the di-Higgs decay.
 The MC events passing all signal region selections are sorted into different $b$-tagging categories. 
 This is shown in Figure~\ref{fig:boosted-nbjet-signal-efficiency}. 
 
@@ -424,8 +426,8 @@ At the highest resonance mass, the Lorentz boost of the Higgs boson can be large
 The two $b$-quarks decay products are therefore contained inside only one $R = 0.2$ track jet instead of two.
 This decreases the selection efficiency in $4b$ and $3b$ regions.
 A third signal region is added to account for this, denoted by two-tag-split or simply $2bs$.
-It requires exactly one $b$-tagged track jet is found in each Higgs candidate, plus an arbitrary number of track jets that must fail the $b$-tag.
-For masses above 2.5 TeV, the $2bs$ region (where each large-\R jet has exactly one $b$-tagged track jet) significantly improves the acceptance.
+It requires that exactly one $b$-tagged track jet is found in each Higgs candidate, plus an arbitrary number of track jets that must fail the $b$-tag.
+For masses above $2.5$ \TeV, the $2bs$ region (where each large-\R jet has exactly one $b$-tagged track jet) significantly improves the acceptance.
 
 \paragraph{}
 $4b$, $3b$, and $2bs$ regions are chosen as three signal regions, also referred to as $n$-$b$tag regions.
