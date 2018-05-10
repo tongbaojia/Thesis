@@ -219,67 +219,68 @@
 \contentsline {section}{\numberline {7.9}Uncertainty on smoothing function in the signal region}{99}{section.7.9}
 \contentsline {paragraph}{}{99}{section.7.9}
 \contentsline {paragraph}{}{99}{section.7.9}
-\contentsline {paragraph}{}{101}{section.7.9}
-\contentsline {paragraph}{}{102}{figure.caption.82}
+\contentsline {paragraph}{}{100}{section.7.9}
+\contentsline {paragraph}{}{101}{figure.caption.82}
 \contentsline {paragraph}{}{102}{table.caption.83}
 \contentsline {section}{\numberline {7.10}Summary of systematics}{102}{section.7.10}
 \contentsline {paragraph}{}{102}{section.7.10}
 \contentsline {paragraph}{}{102}{section.7.10}
-\contentsline {paragraph}{}{104}{section.7.10}
+\contentsline {paragraph}{}{103}{section.7.10}
 \contentsline {chapter}{\numberline {8}Result}{106}{chapter.8}
+\contentsline {paragraph}{}{106}{chapter.8}
 \contentsline {section}{\numberline {8.1}Boosted signal region}{106}{section.8.1}
 \contentsline {paragraph}{}{106}{section.8.1}
-\contentsline {section}{\numberline {8.2}Resolved signal region}{109}{section.8.2}
-\contentsline {paragraph}{}{109}{section.8.2}
-\contentsline {paragraph}{}{109}{table.caption.96}
-\contentsline {section}{\numberline {8.3}Statistical analysis}{110}{section.8.3}
-\contentsline {paragraph}{}{110}{section.8.3}
+\contentsline {section}{\numberline {8.2}Resolved signal region}{108}{section.8.2}
+\contentsline {paragraph}{}{108}{section.8.2}
+\contentsline {paragraph}{}{111}{table.caption.96}
+\contentsline {section}{\numberline {8.3}Statistical analysis}{111}{section.8.3}
 \contentsline {paragraph}{}{111}{section.8.3}
-\contentsline {paragraph}{}{111}{equation.8.3.1}
-\contentsline {paragraph}{}{111}{equation.8.3.1}
-\contentsline {paragraph}{}{111}{figure.caption.98}
-\contentsline {paragraph}{}{112}{figure.caption.99}
-\contentsline {paragraph}{}{112}{figure.caption.100}
-\contentsline {section}{\numberline {8.4}Boosted and resolved combined limits}{115}{section.8.4}
+\contentsline {paragraph}{}{112}{section.8.3}
+\contentsline {paragraph}{}{112}{equation.8.3.1}
+\contentsline {paragraph}{}{112}{equation.8.3.1}
+\contentsline {paragraph}{}{112}{figure.caption.98}
+\contentsline {paragraph}{}{113}{figure.caption.99}
+\contentsline {paragraph}{}{114}{figure.caption.100}
+\contentsline {section}{\numberline {8.4}Boosted and resolved combined limits}{114}{section.8.4}
+\contentsline {paragraph}{}{114}{section.8.4}
 \contentsline {paragraph}{}{115}{section.8.4}
-\contentsline {paragraph}{}{115}{section.8.4}
-\contentsline {paragraph}{}{115}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{118}{chapter.9}
-\contentsline {paragraph}{}{118}{chapter.9}
-\contentsline {paragraph}{}{119}{chapter.9}
-\contentsline {paragraph}{}{119}{chapter.9}
-\contentsline {paragraph}{}{119}{chapter.9}
-\contentsline {paragraph}{}{119}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Boosted sideband region kinematic distributions}{120}{Appendix.1.A}
-\contentsline {paragraph}{}{120}{Appendix.1.A}
-\contentsline {paragraph}{}{121}{Appendix.1.A}
-\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{133}{Appendix.1.B}
-\contentsline {paragraph}{}{133}{Appendix.1.B}
-\contentsline {paragraph}{}{134}{Appendix.1.B}
-\contentsline {chapter}{Appendix \numberline {C}Boosted singal region kinematic distributions}{146}{Appendix.1.C}
-\contentsline {paragraph}{}{146}{Appendix.1.C}
-\contentsline {paragraph}{}{147}{Appendix.1.C}
-\contentsline {paragraph}{}{147}{table.caption.135}
-\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{161}{Appendix.1.D}
-\contentsline {paragraph}{}{161}{Appendix.1.D}
-\contentsline {paragraph}{}{164}{figure.caption.152}
-\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{168}{Appendix.1.E}
-\contentsline {paragraph}{}{168}{Appendix.1.E}
-\contentsline {paragraph}{}{169}{Appendix.1.E}
-\contentsline {paragraph}{}{169}{figure.caption.163}
-\contentsline {paragraph}{}{169}{figure.caption.169}
-\contentsline {paragraph}{}{182}{figure.caption.169}
-\contentsline {paragraph}{}{182}{figure.caption.169}
-\contentsline {paragraph}{}{183}{figure.caption.169}
-\contentsline {paragraph}{}{183}{figure.caption.173}
-\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{190}{Appendix.1.F}
-\contentsline {paragraph}{}{190}{Appendix.1.F}
-\contentsline {paragraph}{}{191}{Appendix.1.F}
-\contentsline {paragraph}{}{191}{Appendix.1.F}
+\contentsline {paragraph}{}{117}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{120}{chapter.9}
+\contentsline {paragraph}{}{120}{chapter.9}
+\contentsline {paragraph}{}{121}{chapter.9}
+\contentsline {paragraph}{}{121}{chapter.9}
+\contentsline {paragraph}{}{121}{chapter.9}
+\contentsline {paragraph}{}{121}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Boosted sideband region kinematic distributions}{122}{Appendix.1.A}
+\contentsline {paragraph}{}{122}{Appendix.1.A}
+\contentsline {paragraph}{}{123}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{135}{Appendix.1.B}
+\contentsline {paragraph}{}{135}{Appendix.1.B}
+\contentsline {paragraph}{}{136}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {C}Boosted singal region kinematic distributions}{148}{Appendix.1.C}
+\contentsline {paragraph}{}{148}{Appendix.1.C}
+\contentsline {paragraph}{}{149}{Appendix.1.C}
+\contentsline {paragraph}{}{149}{table.caption.137}
+\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{163}{Appendix.1.D}
+\contentsline {paragraph}{}{163}{Appendix.1.D}
+\contentsline {paragraph}{}{166}{figure.caption.154}
+\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{170}{Appendix.1.E}
+\contentsline {paragraph}{}{170}{Appendix.1.E}
+\contentsline {paragraph}{}{171}{Appendix.1.E}
+\contentsline {paragraph}{}{171}{figure.caption.165}
+\contentsline {paragraph}{}{171}{figure.caption.171}
+\contentsline {paragraph}{}{184}{figure.caption.171}
+\contentsline {paragraph}{}{184}{figure.caption.171}
+\contentsline {paragraph}{}{185}{figure.caption.171}
+\contentsline {paragraph}{}{185}{figure.caption.175}
+\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{192}{Appendix.1.F}
 \contentsline {paragraph}{}{192}{Appendix.1.F}
-\contentsline {paragraph}{}{196}{figure.caption.182}
-\contentsline {paragraph}{}{199}{table.caption.189}
-\contentsline {paragraph}{}{202}{table.caption.196}
-\contentsline {paragraph}{}{205}{table.caption.203}
-\contentsline {paragraph}{}{205}{table.caption.206}
-\contentsline {chapter}{References}{209}{figure.caption.208}
+\contentsline {paragraph}{}{193}{Appendix.1.F}
+\contentsline {paragraph}{}{193}{Appendix.1.F}
+\contentsline {paragraph}{}{194}{Appendix.1.F}
+\contentsline {paragraph}{}{198}{figure.caption.184}
+\contentsline {paragraph}{}{201}{table.caption.191}
+\contentsline {paragraph}{}{204}{table.caption.198}
+\contentsline {paragraph}{}{207}{table.caption.205}
+\contentsline {paragraph}{}{207}{table.caption.208}
+\contentsline {chapter}{References}{211}{figure.caption.210}

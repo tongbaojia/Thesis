@@ -11,42 +11,6 @@ C.~Patrignani et~al.
 \newblock \emph{Chin. Phys.}, C40\penalty0 (10):\penalty0 100001, 2016.
 \newblock \doi{10.1088/1674-1137/40/10/100001}.
 
-\bibitem[{W.J. Stirling}(2013)]{LumiRatio}
-{W.J. Stirling}.
-\newblock {7/8 and 13/8 TeV LHC luminosity ratios}.
-\newblock 2013.
-\newblock URL
-  \url{http://www.hep.ph.ic.ac.uk/~wstirlin/plots/lhclumi7813_2013_v0.pdf}.
-
-\bibitem[Evans(2011)]{LHCReview}
-Lyndon Evans.
-\newblock {The Large Hadron Collider}.
-\newblock \emph{Annual Review of Nuclear and Particle Science}, 61\penalty0
-  (1):\penalty0 435--466, 2011.
-\newblock \doi{10.1146/annurev-nucl-102010-130438}.
-
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{a}})]{Lumi_Run2}
-{ATLAS Collaboration}.
-\newblock {ATLAS Luminosity Public Results, Run 2}.
-\newblock 2015{\natexlab{a}}.
-\newblock URL
-  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
-
-\bibitem[{ATLAS Collaboration}(2016{\natexlab{a}})]{ATLAS-CONF-2016-035}
-{ATLAS Collaboration}.
-\newblock {Jet mass reconstruction with the ATLAS Detector in early Run~2
-  data}.
-\newblock {ATLAS-CONF-2016-035}, 2016{\natexlab{a}}.
-\newblock URL \url{https://cds.cern.ch/record/2200211}.
-
-\bibitem[{ATLAS Collaboration}(2016{\natexlab{b}})]{btaggingRun2}
-{ATLAS Collaboration}.
-\newblock {Optimisation of the ATLAS $b$-tagging performance for the 2016 LHC
-  Run}.
-\newblock \emph{ATL-PHYS-PUB-2016-012}, \penalty0 (ATL-PHYS-PUB-2016-012), Jun
-  2016{\natexlab{b}}.
-\newblock URL \url{https://cds.cern.ch/record/2160731}.
-
 \bibitem[Griffiths(2008)]{Griffiths}
 David Griffiths.
 \newblock \emph{{Introduction to elementary particles}}.
@@ -120,6 +84,13 @@ Graham~D. Kribs, Andreas Maier, Heidi Rzehak, Michael Spannowsky, and Philip
 \newblock \emph{Phys. Rev.}, D95\penalty0 (9):\penalty0 093004, 2017.
 \newblock \doi{10.1103/PhysRevD.95.093004}.
 
+\bibitem[{W.J. Stirling}(2013)]{LumiRatio}
+{W.J. Stirling}.
+\newblock {7/8 and 13/8 TeV LHC luminosity ratios}.
+\newblock 2013.
+\newblock URL
+  \url{http://www.hep.ph.ic.ac.uk/~wstirlin/plots/lhclumi7813_2013_v0.pdf}.
+
 \bibitem[Lee(1973)]{PhysRevD.8.1226}
 T.~D. Lee.
 \newblock A theory of spontaneous $t$ violation.
@@ -151,20 +122,20 @@ Viviana Cavaliere and Gabriel Facini.
 \newblock Technical Report ATL-COM-PHYS-2016-1071, CERN, Geneva, Sep 2016.
 \newblock URL \url{https://cds.cern.ch/record/2203605}.
 
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{Aad:2015uka}
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{a}})]{Aad:2015uka}
 {ATLAS Collaboration}.
 \newblock {Search for Higgs boson pair production in the $b\bar{b}b\bar{b}$
   final state from pp collisions at $\sqrt{s} = 8$ TeV with the ATLAS
   detector}.
-\newblock \emph{Eur. Phys. J. C}, 75:\penalty0 412, 2015{\natexlab{b}}.
+\newblock \emph{Eur. Phys. J. C}, 75:\penalty0 412, 2015{\natexlab{a}}.
 \newblock \doi{10.1140/epjc/s10052-015-3628-x}.
 
-\bibitem[{ATLAS Collaboration}(2015{\natexlab{c}})]{HIGG-2013-29}
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{b}})]{HIGG-2013-29}
 {ATLAS Collaboration}.
 \newblock {Search for Higgs Boson Pair Production in the $\gamma\gamma
   b\bar{b}$ Final State Using $pp$ Collision Data at $\sqrt{s} = 8\;\mbox{TeV}$
   from the ATLAS Detector}.
-\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 081802, 2015{\natexlab{c}}.
+\newblock \emph{Phys. Rev. Lett.}, 114:\penalty0 081802, 2015{\natexlab{b}}.
 \newblock \doi{10.1103/PhysRevLett.114.081802}.
 
 \bibitem[Aad et~al.(2015)]{Aad:2015xja}
@@ -208,6 +179,13 @@ LHCb Collaoration.
   2008.
 \newblock URL \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08002}.
 
+\bibitem[Evans(2011)]{LHCReview}
+Lyndon Evans.
+\newblock {The Large Hadron Collider}.
+\newblock \emph{Annual Review of Nuclear and Particle Science}, 61\penalty0
+  (1):\penalty0 435--466, 2011.
+\newblock \doi{10.1146/annurev-nucl-102010-130438}.
+
 \bibitem[{ATLAS Collaboration}(2011)]{lumi-paper}
 {ATLAS Collaboration}.
 \newblock {Luminosity Determination in $pp$ Collisions at $\sqrt{s}=7$ TeV
@@ -228,6 +206,13 @@ LHCb Collaoration.
 \newblock {CERN Resource Review Board}, 2016.
 \newblock URL
   \url{https://indico.cern.ch/event/563488/contributions/2277292/attachments/1340292/2019570/20160921_LHCC.pdf}.
+
+\bibitem[{ATLAS Collaboration}(2015{\natexlab{c}})]{Lumi_Run2}
+{ATLAS Collaboration}.
+\newblock {ATLAS Luminosity Public Results, Run 2}.
+\newblock 2015{\natexlab{c}}.
+\newblock URL
+  \url{https://twiki.cern.ch/twiki/bin/view/AtlasPublic/LuminosityPublicResultsRun2}.
 
 \bibitem[{ATLAS Collaboration}(2008{\natexlab{b}})]{PERF-2007-01}
 {ATLAS Collaboration}.
@@ -340,6 +325,21 @@ Stephen~D. Ellis and Davison~E. Soper.
   detector}.
 \newblock \emph{JHEP}, 09:\penalty0 076, 2013{\natexlab{b}}.
 \newblock \doi{10.1007/JHEP09(2013)076}.
+
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{a}})]{ATLAS-CONF-2016-035}
+{ATLAS Collaboration}.
+\newblock {Jet mass reconstruction with the ATLAS Detector in early Run~2
+  data}.
+\newblock {ATLAS-CONF-2016-035}, 2016{\natexlab{a}}.
+\newblock URL \url{https://cds.cern.ch/record/2200211}.
+
+\bibitem[{ATLAS Collaboration}(2016{\natexlab{b}})]{btaggingRun2}
+{ATLAS Collaboration}.
+\newblock {Optimisation of the ATLAS $b$-tagging performance for the 2016 LHC
+  Run}.
+\newblock \emph{ATL-PHYS-PUB-2016-012}, \penalty0 (ATL-PHYS-PUB-2016-012), Jun
+  2016{\natexlab{b}}.
+\newblock URL \url{https://cds.cern.ch/record/2160731}.
 
 \bibitem[{ATLAS Collaboration}(2016{\natexlab{c}})]{Aad:2015ydr}
 {ATLAS Collaboration}.
