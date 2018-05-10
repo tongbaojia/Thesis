@@ -1,15 +1,15 @@
 %!TEX root = ../dissertation.tex
 \begin{savequote}[75mm]
 A picture is worth a thousand swords.
-\qauthor{Tony}
+%\qauthor{Tony}
 \end{savequote}
 
 \chapter{Reconstruction and Objects}
 
 %%%%%%%%%%%%%%
 \paragraph{}
-Reconstruction is the particle identification and measurement based on raw detector readouts. 
-In each $pp$ collision recorded by ATLAS, charged particles bend in the magnetic field and leave tracks in the ID, electrons and photons deposit their energies in ECAL, hadrons are absorbed in HCAL, muons leave extra tracks in the MS, and neutrinos are inferred by the conservation of momentum in the transverse plane. 
+Reconstruction is the process of turning raw detector readouts into particle identification and measurements.
+In each $pp$ collision recorded by ATLAS, charged particles bend in the magnetic field and leave tracks in the ID; electrons and photons deposit their energies in ECAL; hadrons are absorbed in HCAL; muons leave extra tracks in the MS; and neutrinos are inferred by the conservation of momentum in the transverse plane. 
 Figure~\ref{fig:obj_reco_overview} gives an overview of the different sub-detectors that each type of particle will interact with in ATLAS. 
 Quark reconstruction is particularly important for this \bbbb~ final state analysis.
 
@@ -47,7 +47,7 @@ For a $1$ \TeV~ $b$-hadron, the reconstruction track efficiency is $83\%$, compa
 When a quark or gluon is produced in $pp$ collisions, it produces a collimated spray of hadrons, which is known as a jet~\cite{Salam:2009jx}.
 Jets are built from topological clusters of energy deposits in calorimeter cells \cite{PERF-2014-07}, using a four-momentum reconstruction scheme with massless clusters as input. 
 The directions of jets are corrected to point back to the primary vertex.
-Typically, jets are reconstructed using the \akt~ algorithm~\cite{AntiKt} with different values of the radius parameter \R. 
+Typically, jets are reconstructed using the \akt~ algorithm~\cite{AntiKt} with different values of the radius parameter, \R. 
 This algorithm favors clusterings that involve hard particles, and the jets grow outwards around hard ``seeds''.
 \R appears in the denominator of the clustering distance metric.
 It determines the radial size of the jet in $\eta$-$\phi$ plane.
@@ -62,7 +62,7 @@ They are then calibrated using \pt- and $\eta$-dependent calibration factors der
 The final calibration is based on in situ measurements in collision data~\cite{ATL-PHYS-PUB-2015-015}.
 
 \paragraph{}
-``Small-\R jets'' are required to be consistent with the primary vertex, in order to avoid contamination from pileup interactions. 
+Small-\R jets are required to be consistent with the primary vertex, in order to avoid contamination from pileup interactions. 
 The jet vertex fraction (JVF) is a useful variable for this purpose. 
 It is the ratio of tracks associated with a primary vertex to the total number of tracks inside a jet. 
 Jets from the PV should have most tracks consistent with the PV and therefore have a large JVF value.
@@ -92,9 +92,9 @@ Jets from the PV should have most tracks consistent with the PV and therefore ha
         \label{fig:obj_jet_evt_b}
     \end{subfigure}
    \caption{
-   Two collision events recorded in June 2015 with a high leading jet \pt shown in rapidity-azimuthal angle parameter space. 
+   Two collision events recorded in June 2015 with a high leading jet \pt~ shown in pseudorapidity-azimuthal angle parameter space.
    The dots are calorimeter-cell clusters with positive energy. 
-   Only the two leading jets are shown, with their area demarcated by a colored circle, and with gray regions denoting the corresponding \kt~ sub-jets of size $R_{sub}=0.2$. 
+   Only the two leading jets are shown, with their area demarcated by a colored circle, with gray regions denoting the corresponding \kt~ sub-jets of size $R_{sub}=0.2$. 
    The color of both jets and clusters corresponds to their \pt.}
   \label{fig:obj_jet_evt}
 \end{figure}
@@ -104,7 +104,8 @@ The jets with $R=1.0$ (``large-\R jets'') are built from locally calibrated~\cit
 Two examples are shown in Figure~\ref{fig:obj_jet_evt}~\cite{ATLAS-CONF-2015-035}.
 Large-\R jets are trimmed~\cite{Krohn2010} to minimize the impact of contamination from non-perturbative effects associated with beam-remnants (``pile-up'' events).
 Trimming proceeds by re-clustering the jet with the \kt~ algorithm~\cite{Ellis:1993tq} into $R_{sub} = 0.2$ sub-jets and then removing those sub-jets with $p_T^{\mathrm{subjet}}/p_T^{\mathrm{jet}} < 0.05$, where $p_T^{\mathrm{subjet}}$ is the transverse momentum of the sub-jet and $p_T^{\mathrm{jet}}$ that of the original jet.
-Trimming increases the jet mass resolution, as shown in Figure~\ref{fig:obj_trim}~\cite{ATL-PHYS-PUB-2017-020}.
+Trimming improves the jet mass resolution, as shown in Figure~\ref{fig:obj_trim_lowpt} and ~\ref{fig_obj_trim_highpt}~\cite{ATL-PHYS-PUB-2017-020}. 
+The trimming parameter choices shown here are $R_{sub} = 0.1$, $0.2$, and $0.3$ for a fixed cut at $5\%$.
 The energy and mass scales of the trimmed jets are then calibrated using \pt- and $\eta$-dependent calibration factors derived from simulation~\cite{PERF-2012-02}.
 
 \begin{figure}[htbp!]
@@ -120,7 +121,16 @@ The energy and mass scales of the trimmed jets are then calibrated using \pt- an
         \includegraphics[width=\textwidth]{figures/object/trim_w_lowpt}
         \caption{$W$ jets, $300 < p_{T} < 500$ \GeV}
         \label{fig:obj_trim_w_lowpt}
-    \end{subfigure} \\ 
+    \end{subfigure} 
+   \caption{
+   For the trimming algorithm using calorimeter cell clusters as inputs to the \akt~ jet reconstruction algorithm with $R = 1.0$, a comparison of the jet mass distribution for QCD background jets and $W$ boson jets low \pt~ kinematic regions, as determined by the untrimmed truth jet \pt~.}
+  \label{fig:obj_trim-lowpt}
+\end{figure}
+
+
+\begin{figure}[htbp!]
+  \centering
+  \captionsetup{justification=centering}
     \begin{subfigure}[b]{0.4\textwidth}
         \includegraphics[width=\textwidth]{figures/object/trim_qcd_highpt}
         \caption{QCD jets, $1000 < p_{T} < 1500$ \GeV}
@@ -131,11 +141,10 @@ The energy and mass scales of the trimmed jets are then calibrated using \pt- an
         \includegraphics[width=\textwidth]{figures/object/trim_w_highpt}
         \caption{$W$ jets, $1000 < p_{T} < 1500$ \GeV}
         \label{fig:obj_trim_w_highpt}
-    \end{subfigure} \\ 
+    \end{subfigure}
    \caption{
-   For the trimming algorithm using calorimeter cell clusters as inputs to the \akt jet reconstruction algorithm with $R = 1.0$, a comparison of the jet mass distribution for QCD background jets and $W$ boson jets low \pt~ and high \pt~ kinematic regions, as determined by the untrimmed truth jet \pt~. 
-   The trimming parameter choices shown here are $R_{sub} = 0.1$, $0.2$, and $0.3$ for a fixed cut at $5\%$.}
-  \label{fig:obj_trim}
+   For the trimming algorithm using calorimeter cell clusters as inputs to the \akt~ jet reconstruction algorithm with $R = 1.0$, a comparison of the jet mass distribution for QCD background jets and $W$ boson jets high \pt~ kinematic regions, as determined by the untrimmed truth jet \pt~.}
+  \label{fig:obj_trim-highpt}
 \end{figure}
 
 %Melissa asked me this question on Feb 13, 2017.
@@ -148,13 +157,13 @@ m^{calo} = \sqrt{\left(\sum_{i\in J}E_i\right)^2-\left(\sum_{i\in J}\vec{p}_i\ri
 \paragraph{}
 %For a $b$ quark, the angular spread in the decay products scales as $\frac{1}{p_T}$. 
 %It is comparable with the $\eta\times\phi \sim 0.1\times0.1$ calorimeter granularity for a highly boosted $b$.
-Tracking information is used to increase the mass resolution.
+Tracking information is used to improve the mass resolution.
 The track-assisted jet mass, $m^{TA}$, is defined as:
 \begin{equation}
 m^{TA} = \frac{p_T^{calo}}{p_T^{track}} \cdot m^{track}.
 \end{equation}
 where $p_{T}^{calo}$ is the transverse momentum of the large-\R calorimeter jet, $p_{T}^{track}$ is the transverse momentum of the four-vector sum of tracks associated to the large-\R calorimeter jet, and $m^{track}$ is the invariant mass of this four-vector sum.
-This ratio corrects for charged-to-neutral hadron fluctuations, and therefore improves the resolution with respect to track-only jet mass.
+This ratio corrects for charged-to-neutral hadron fluctuations and therefore improves the resolution with respect to track-only jet mass.
 %Ghost association is performed to associate tracks to the jets before the trimming procedure is applied.
 %The fractional resolution is defined 0.5 \times 68 \% IQnR(Rm)∕median(Rm), where 68 \% IQnR(Rm) is the 68 \% confidence interval interquartile range of the jet mass response distribution, and median(Rm) is the median jet mass response.
 
@@ -173,7 +182,7 @@ This ratio corrects for charged-to-neutral hadron fluctuations, and therefore im
         \caption{The factional jet mass resolution vs.  the truth jet mass transverse momentum.}
         \label{fig:obj_jet_mass_resolution}
     \end{subfigure}
-   \caption{Uncalibrated (dashed line) and calibrated (solid line) reconstructed jet mass distribution ~\ref{fig:obj_jet_mass_dist}, and the jet mass resolution vs jet \pt ~\ref{fig:obj_jet_mass_resolution} for calorimeter-based jet mass, $m_{calo}$ (red), track-assisted jet mass $m_{TA}$ (black) and the invariant mass of four-vector sum of tracks associated to the large-radius calorimeter jet $m_{track}$ (blue) for W/Z-jets~\cite{ATLAS-CONF-2016-035}.}
+   \caption{Uncalibrated (dashed line) and calibrated (solid line) reconstructed jet mass distribution Figure~\ref{fig:obj_jet_mass_dist}, and the jet mass resolution vs jet \pt~ Figure~\ref{fig:obj_jet_mass_resolution} for calorimeter-based jet mass, $m_{calo}$ (red), track-assisted jet mass $m_{TA}$ (black) and the invariant mass of four-vector sum of tracks associated to the large-radius calorimeter jet $m_{track}$ (blue) for W/Z-jets~\cite{ATLAS-CONF-2016-035}.}
   \label{fig:obj_jet_mass}
 \end{figure}
 
@@ -194,7 +203,7 @@ Track jets are essentially clustered charged hadron tracks.
 They are reconstructed from ID tracks using the \akt~ algorithm with a fixed $R=0.2$. 
 Once the track jet axis is determined, an extra step of track association is performed to select tracks with looser impact parameter requirements, in order to collect the tracks needed for effectively running the $b$-tagging algorithms.
 Only track jets with at least two tracks are kept.
-Track jets are also required to have $p_T > 10$ \GeV~ and $|\eta| < 2.5$, in order to suppress track jets from light flavors.
+Track jets are also required to have $p_T > 10$ \GeV~ and $|\eta| < 2.5$, in order to suppress light flavor track jets.
 
 \paragraph{}
 Track jets are associated to large-\R jets using Ghost-Association.
@@ -216,22 +225,22 @@ Jets originating from $b$-quarks are referred as $b$-jets, from $c$-quarks is re
 $b$-tagging is particularly useful for this analysis, since there are four $b$-quarks in the final state.
 
 \paragraph{}
-$B$-hadrons have a lifetime $\tau$ on the order of $1.5 \times 10^{-12}$ seconds, which gives a flight path length $c\tau \sim 0.45\,\rm mm$~\cite{Pdg} without significant boost.
+$B$-hadrons have a lifetime, $\tau$, on the order of $1.5 \times 10^{-12}$ seconds, which gives a flight path length $c\tau \sim 0.45\,\rm mm$~\cite{Pdg} without significant boost.
 The mean flight path is $\beta\gamma c\tau$, where $\beta=\frac{v}{c}$ and $\gamma$ is the Lorenz factor.
 With a higher boost, like $p_T = 50$ \GeV, the average transverse displacement is $3\rm mm$.
 This results in a displaced decay vertex that can be identified in vertex reconstruction. 
-This allows some $b$-jets to be distinguished from other flavors of jets.
+This allows $b$-jets with sufficient transverse boost to be distinguished from other flavors of jets.
 
 \paragraph{}
 ATLAS uses three different basic $b$-tagging algorithms, which provide complementary information:
 \begin{itemize}
-	\item Impact parameter based algorithm: this algorithm uses the signed transverse and longitudinal impact parameters $d_0$ and $z_0 sin\rm \theta$ of the tracks inside a jet to determine their consistency with the primary vertex. The algorithm uses simulated templates of $\frac{d_0}{\rm\sigma_{d_0}}$ and $\frac{\rm z_0 sin \theta}{\rm \sigma{\rm z_0 sin\theta}}$ for light, $c$, and $b$ jets and evaluates the likelihood of the jet coming from each of these types.
+	\item Impact parameter based algorithm: this algorithm uses the signed transverse and longitudinal impact parameters $d_0$ and $z_0 sin\rm \theta$ of the tracks inside a jet to determine their consistency with the primary vertex. The algorithm uses simulated templates of $\frac{d_0}{\rm\sigma_{d_0}}$ and $\frac{\rm z_0 sin \theta}{\rm \sigma{\rm z_0 sin\theta}}$ for light, $c$, and $b$ jets to evaluate the likelihood of the jet coming from each of these types.
   %The sign is defined as positive if the track intersects the jet axis in front of the primary vertex, and as negative if the intersection lies behind the primary vertex.
   %The experimental resolution generates a random sign for the tracks originating from the primary vertex, while tracks from the b-/c-hadron decay normally have a positive sign.
 
-	\item Secondary vertex (SV) reconstruction algorithm: this algorithm uses tracks inside the jet to look for vertices that are displaced from the primary vertex. The algorithm provides information on the invariant mass of tracks pointing to the displaced vertex, the number of two track vertices, and the angular separation between the jet axis and the PV $\to$ SV direction. The fraction of jets which have a reconstructed secondary vertex are shown in Figure~\ref{fig:obj_b_sv}. The increase of tracks from fragmentation in the high \pt~ region is the main reason for the performance degradation. The number of fake vertices is increasing with jet \pt~ in light jets, while the secondary vertex reconstruction efficiency for $b$/$c$-jets slightly decreases with jet \pt.
+	\item Secondary vertex (SV) reconstruction algorithm: this algorithm uses tracks inside the jet to look for vertices that are displaced from the primary vertex. The algorithm provides information on the invariant mass of tracks pointing to a displaced vertex, the number of two track vertices, and the angular separation between the jet axis and the PV $\to$ SV direction. The fraction of jets which have a reconstructed secondary vertex are shown in Figure~\ref{fig:obj_b_sv}. The increase of tracks from fragmentation in the high \pt~ region is the main reason for the performance degradation. The number of fake vertices is increasing with jet \pt~ in light jets, while the secondary vertex reconstruction efficiency for $b$/$c$-jets slightly decreases with jet \pt.
 
-	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF): this algorithm reconstructs the full flight path of the $b$ by looking for multiple displaced vertices along the same direction. A Kalman filter is used to find common line for the $b$ and $c$ vertices, and hence the algorithm exploits the topology of the weak $b$/$c$-hadron decay chain. Leptonic decays of $b$/$c$ are not considered.
+	\item Decay chain multi-vertex reconstruction algorithm, or JetFitter (JF): this algorithm reconstructs the full flight path of the $b$-hadron by looking for multiple displaced vertices along the same direction. A Kalman filter is used to find a common trajectory for the $b$ and $c$ vertices, and hence the algorithm exploits the topology of the weak $b$/$c$-hadron decay chain. Leptonic decays of $b$/$c$ are not considered.
 \end{itemize}
  
 \begin{figure}[htbp!]
@@ -248,35 +257,35 @@ ATLAS uses three different basic $b$-tagging algorithms, which provide complemen
         \caption{MV2c10 BDT output for different jets.}
         \label{fig:obj_b_mv2}
     \end{subfigure}
-\caption{Secondary vertex reconstruction rate and \emph{MV2c10} output for $b$-jets (solid blue), $c$-jets (dashed green) and light-jets (dotted red) evaluated with simulated \ttbar~ events.}
+\caption{Secondary vertex reconstruction rate and MV2c10 output for $b$-jets (solid blue), $c$-jets (dashed green) and light-jets (dotted red) evaluated with simulated \ttbar~ events.}
 \label{fig:obj_btag}
 \end{figure}
 
 \paragraph{}
 %%https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingMV2
-Jets containing $b$-hadrons are identified using a score value computed from a boosted decision tree (BDT) algorithm \emph{MV2c10}~\cite{btaggingRun2, Aad:2015ydr}, which makes use of observables provided by the three algorithms above.
+Jets containing $b$-hadrons are identified using a score value computed from a boosted decision tree (BDT) algorithm MV2c10~\cite{btaggingRun2, Aad:2015ydr}, which makes use of observables provided by the three algorithms above.
 A BDT consists of a forest of decision trees.
 A number of individual decision trees are trained sequentially, with a boosting process in between each training. 
-Boosting consists of adjusting the weights of individual events according to whether the previously trained tree classifies them correctly.
-The \emph{MV2c10} algorithm is trained on a \ttbar~ sample, with $b$-jets as signal and a mixture of $93\%$ light-jets and $7\%$ c-jets as backgrounds. 
-It is applied to a set of charged-particle tracks that satisfy quality and impact parameter criteria and are matched to each jet. 
-The \emph{MV2c10} algorithm works on both small-\R jets or track jets.
-%There are 3 taggers in MV2 family: \emph{MV2c00}, \emph{MV2c10}, \emph{MV2c20} depending on their charm composition in training. MV2c00$->0\%$ c-fraction in the training, MV2c10$->7\%$ c-fraction in the training and MV2c20$->15\%$ c-fraction in the training.
+Boosting adjusts the weights of individual events depending on whether the previously trained tree classifies them correctly.
+The MV2c10 algorithm is trained on a \ttbar~ sample, with $b$-jets as signal and a mixture of $93\%$ light-jets and $7\%$ c-jets as backgrounds. 
+It is applied to a set of charged-particle tracks that satisfy quality and impact parameter criteria and are matched to each jet.
+The MV2c10 algorithm works on both small-\R jets or track jets.
+%There are 3 taggers in MV2 family: \emph{MV2c00}, MV2c10, MV2c20 depending on their charm composition in training. MV2c00$->0\%$ c-fraction in the training, MV2c10$->7\%$ c-fraction in the training and MV2c20$->15\%$ c-fraction in the training.
 
 \paragraph{}
-The $b$-tagging working point (wp) is a fixed cut on the \emph{MV2c10} value that lead to an efficiency of 70\% for $b$-jets with $p_T > 20$ \GeV~ when evaluated in a sample of simulated \ttbar~ events. 
-This working point corresponds to a acceptance rate of light-jets or jets originating from gluons at $\frac{1}{380}$ for the jets with $R=0.4$ and $\frac{1}{120}$ for the track jets. The acceptance of jets from $c$-quarks is $\frac{1}{12}$ for the $R=0.4$ jets and $\frac{1}{7}$ for the track jets.
+The $b$-tagging working point (wp) is a fixed cut on the MV2c10 value that lead to an efficiency of 70\% for $b$-jets with $p_T > 20$ \GeV~ when evaluated in a sample of simulated \ttbar~ events. 
+This working point corresponds to an acceptance rate of light-jets or jets originating from gluons at $\frac{1}{380}$ for the jets with $R=0.4$ and $\frac{1}{120}$ for the track jets. The acceptance of jets from $c$-quarks is $\frac{1}{12}$ for the $R=0.4$ jets and $\frac{1}{7}$ for the track jets.
 
 \begin{figure}[htbp!]
   \centering
   \captionsetup{justification=centering}
   \includegraphics[width=0.5\textwidth]{figures/object/b_eff_pt}
-   \caption{$b$-jet efficiency for the fixed cut working point with a $b$-jet efficiency of $77\%$ as a function of the jet \pt~ for the comparison between the \emph{MV2c10} $b$-tagging algorithm employed for the 2016 analyses (2016 config) and the previous version of the tagger, \emph{MV2c20} (2015 config), which has $15\%$ $c$-fraction in the training.}
+   \caption{$b$-jet efficiency for the fixed cut working point with a $b$-jet efficiency of $77\%$ as a function of jet \pt~ for the comparison between the MV2c10 $b$-tagging algorithm employed for the 2016 analyses (2016 config) and the previous version of the tagger, MV2c20 (2015 config), which has $15\%$ $c$-fraction in the training.}
   \label{fig:obj_b_eff}
 \end{figure}
 
 \paragraph{}
-In this thesis, the track-jets have a wider \pt~ range, between $50-400$~\GeV, and the same working point leads to $b$-tagging efficiencies varying from $40\%$ at low \pt, to $80\%$ for \pt values of about $150$~\GeV, to $60\%$ at high \pt. 
+In this thesis, the track-jets have a wide \pt~ ranges, between $10-400$~\GeV, and the same working point leads to $b$-tagging efficiencies varying from $40\%$ at low \pt, to $80\%$ for \pt~ values of about $150$~\GeV, to $60\%$ at high \pt. 
 This can be seen in Figure ~\ref{fig:obj_b_eff}, and the $b$-tagging efficiency varies from $60\%$ to $80\%$ for an average efficiency of $77\%$.
 The increase of tracks from fragmentation in the high jet \pt~ region is the main reason for the performance degradation. 
 As the jet \pt~ increases, the number of vertices from the random combination of high multiplicity tracks is increasing, while the secondary vertex reconstruction efficiency for $b$ and $c$-jets decreases with jet \pt.
@@ -297,7 +306,7 @@ This non-trivial jet \pt~ dependence of $b$-tagging performance is one of the ma
         \caption{Light jet rejection as a function of jet \pt.}
         \label{fig:obj_light_rej}
     \end{subfigure}
-\caption{Light-flavor jet and $c$-jet rejection as a function of jet \pt~ for the previous (2015 config) \emph{MV2c20} and the current \emph{MV2c10} configuration (2016 config). A fixed cut at 77\% $b$-jet efficiency operating point is used ~\cite{btaggingRun2}.}
+\caption{Light-flavor jet and $c$-jet rejection as a function of jet \pt~ for the previous (2015 config) MV2c20 and the current MV2c10 configuration (2016 config). A fixed cut at 77\% $b$-jet efficiency operating point is used ~\cite{btaggingRun2}.}
 \label{fig:obj_btag_rej}
 \end{figure}
 
@@ -332,7 +341,7 @@ Correction factors are applied to the simulated MC samples to compensate for dif
 \paragraph{}
 Muons are identified by matching ID tracks with reconstructed MS tracks~\cite{Aad:2016jkr}. 
 For this thesis, muons must have $p_T > 4~\GeV$, $|\eta| < 2.5$ and to satisfy ``medium'' muon identification criteria~\cite{Aad:2016jkr}. 
-Muons are used in this thesis, because $b$ hadrons decay to muons with $\sim 20\%$ probability. This is described in section~\ref{sec:obj-objectselection}.
+Muons are used in this thesis because $b$ hadrons decay to muons with $\sim 20\%$ probability. This is described in section~\ref{sec:obj-objectselection}.
 
 %If a muon is within $\DR = 0.4$ (0.2) of a jet used for $b$-tagging in the resolved (boosted) analysis, their four-momentum is added to the calorimeter-based jet's four-momentum to partially account for the energy lost in semi-leptonic $b$-hadron decays.
 

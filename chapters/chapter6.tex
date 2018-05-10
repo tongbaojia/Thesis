@@ -1,7 +1,7 @@
 %!TEX root = ../dissertation.tex
 \begin{savequote}[75mm]
 Even in the darkest night. Stars and angels still shine bright.   
-\qauthor{Bear}
+%\qauthor{Bear}
 \end{savequote}
 
 
@@ -19,7 +19,7 @@ They provide \ttbar~ kinematic distributions.
 The \ttbar~ yield is also estimated using the same data-driven method to avoid mis-modeling in the MC.
 The $Z$+jets background is small, and it estimated by the $Z$+heavy flavor jets MC.
 The SM $ZZ\to b\bar{b}b\bar{b}$ has been estimated to be completely negligible using a MC based analysis.
-For the three signal regions $4b/3b/2bs$, the fraction of expected backgrounds are:
+For the three signal channels $4b/3b/2bs$, the fraction of expected backgrounds are:
 \begin{itemize}
 	\item $4b$: QCD $\sim 95\%$, $t\bar{t}$ $\sim 5\%$, $Z$+jets$< 1\%$. 
 	\item $3b$: QCD $\sim 90\%$, $t\bar{t}$ $\sim 10\%$, $Z$+jets $< 1\%$.  
@@ -27,12 +27,12 @@ For the three signal regions $4b/3b/2bs$, the fraction of expected backgrounds a
 \end{itemize}
 
 \paragraph{}
-The all kinematic distributions of the QCD background are estimated from low signal yield data regions.
-These regions are selected with the signal region selection, except they must have a different number of $b$-tagged track jets as the signal region.
-The differences in kinematic distributions between the fewer $b$-tagged and $n$-tag regions are corrected by reweighting the fewer $b$-tagged sample.
+The all kinematic distributions of the QCD background are estimated from low signal yield data $b$-tag channels.
+These channels are selected with the signal region selection, except they must have a different number of $b$-tagged track jets as the signal channels.
+The differences in kinematic distributions between the fewer $b$-tagged and $n$-tag channels are corrected by reweighting the fewer $b$-tagged sample.
 
 \paragraph{}
-The fewer $b$-tagged regions only estimate the shapes of the expected background, but not the total yield.
+The fewer $b$-tagged channels only estimate the shapes of the expected background, but not the total yield.
 The \textit{sideband region} (SB), with the same number of $b$-tags as the signal regions but a cut on \mleadJ-\msublJ different from the $X_{hh}$ cut, is used to estimate the yield.
 A third region, called the \textit{control region} (CR), is used to validate the background estimations.
 The sideband and control regions are optimized to accurately estimate the rate of QCD and \ttbar~ background. 
@@ -119,7 +119,7 @@ The current design gives roughly $N_{SB} \sim 4 N_{SR}$ and $N_{SB} \sim 2 N_{CR
 
 \paragraph{}
 The fraction between the expected events in different \mleadJ-\msublJ~ regions and the total number of events as a function of \Grav~ resonance mass is shown in Figure~\ref{fig:boosted-selection-region-efficiency}. 
-For $4b$, $3b$, and $2bs$, there is no significant signal contamination in the control and sideband regions.
+For $4b$, $3b$, and $2bs$ channels, there is no significant signal contamination in the control and sideband regions.
 
 
 \begin{figure}[htbp!]
@@ -148,7 +148,7 @@ For $4b$, $3b$, and $2bs$, there is no significant signal contamination in the c
         \label{fig:alltag-selection-region-efficiency}
     \end{subfigure} \\ 
    \caption{
-   Detailed signal efficiency in different signal/control/sideband regions as in $n$-tag regions and inclusive b-tagged regions, which include $2b$, $1b$ and 0$b$ as well, (bottom right) as a function of \Grav~ resonance mass for selection cuts. The efficiencies are relative to the total number of events in the preselection.}
+   Detailed signal efficiency in different signal/control/sideband regions as in $n$-tag channel and inclusive $b$-tagged channel, which include $2b$, $1b$ and 0$b$ as well, (bottom right) as a function of \Grav~ resonance mass for selection cuts. The efficiencies are relative to the total number of events in the preselection.}
   \label{fig:boosted-selection-region-efficiency}
 \end{figure}
 
@@ -174,23 +174,23 @@ For $4b$, $3b$, and $2bs$, there is no significant signal contamination in the c
 \end{table}
 
 \paragraph{}
-The QCD multi-jets background prediction relies on finding regions that have events similar to signal region event properties.
-These regions are defined to be identical to the signal regions except requiring fewer number of $b$-tagged track jets associated with the large-\R jets.
-They are orthogonal to the $n$-tag regions with no overlapping events, as listed in Table~\ref{tab:boosted-qcd-bkgsample}.
-They are assumed to be all background, and the signal yield in these regions are negligible, as shown in Figure~\ref{fig:boosted-nbjet-signal-efficiency-region}.
+The QCD multi-jets background prediction relies on finding $b$-tagged channels that have events similar to signal channel event properties.
+These channels are defined to be identical to the signal channels except requiring fewer number of $b$-tagged track jets associated with the large-\R jets.
+They are orthogonal to the $n$-tag channels with no overlapping events, as listed in Table~\ref{tab:boosted-qcd-bkgsample}.
+They are assumed to be all background, and the signal yield in these channels are negligible, as shown in Figure~\ref{fig:boosted-nbjet-signal-efficiency-region}.
 Detailed selection requirements and details are listed:
 \begin{itemize}
   \item For the $2bs$ category, $1b$ data events, where one large-\R jet has one and only one $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling.
   \item For the $3b$ and $4b$ categories, $2b$ data events, where one large-\R jet has two $b$-tagged track jets, and the other large-\R jet has no $b$-tagged track jet, is used for modeling. The $2b$ sample is further split into $80\%-20\%$ parts, where each is used separately for $3b$ and $4b$ background estimations. This ensures the shape estimations of $3b$ and $4b$ QCD estimates are uncorrelated. 
 \end{itemize}
-The $2b$ and $2bs$ regions are orthogonal regions without any overlapping events.
-The $1b$-tagged region also requires that both large-\R jets are associated with at least one track jet. 
-Similarly, the $2b$-tagged region requires that one large-\R jet has at least one track jet and the other one has at least two track jets.  
+The $2b$ and $2bs$ channels are orthogonal channels without any overlapping events.
+The $1b$-tagged channel also requires that both large-\R jets are associated with at least one track jet. 
+Similarly, the $2b$-tagged channel requires that one large-\R jet has at least one track jet and the other one has at least two track jets.  
 Specifically for the $4b$ background modeling, each large-\R jet must have at least two track jets. 
 This prevents biases in \mtwoJ~ distribution from the number of associated track jets.
 
 \paragraph{}
-The MC predicted \ttbar~ and $Z$+jets events in the $1b/2b$ regions are subtracted from the data distributions to produce the QCD estimation. 
+The MC predicted \ttbar~ and $Z$+jets events in the $1b/2b$ channels are subtracted from the data distributions to produce the QCD estimation. 
 Therefore, the number of QCD events, $N_{\text{qcd}}$, is estimated in Equation~\ref{eq:nqcd}.
 \begin{eqnarray}
 \label{eq:nqcd}
@@ -206,7 +206,7 @@ This reduces the estimated number of events in the signal region by $10\%$.
 
 \paragraph{}
 Given the $1b/2b$ QCD background samples, the normalization estimation of the $4b/3b/2bs$ QCD background is determined in the sideband by fitting the \mleadJ~ distribution simultaneously with QCD and \ttbar~ background templates, as described in section~\ref{sec:ttbarnorm}.
-There are kinematic differences between the $1b/2b$ samples and the $4b/3b/2bs$ regions.  
+There are kinematic differences between the $1b/2b$ channels and the $4b/3b/2bs$ channels.  
 A kinematic reweighting is applied to correct for such differences, as described in Section~\ref{sec:boosted-reweight}.
 
 
@@ -355,11 +355,17 @@ This negative correlation leads to a smaller total normalization uncertainty.
 \label{sec:boosted-reweight}
 
 \paragraph{}
-This is the most time consuming part of this analysis. 
+Reweighting is to give the QCD background sample weights different from one.
+This results in a different distribution in all QCD kinematic distributions.
+The weights are derived from kinematic differences between a Higgs candidate that has $b$-tags and a Higgs candidate that doesn't have $b$-tags.
+The reweighting variables are the track jets \pt~ and large-\R jet \pt.
 More supporting plots are shown in Appendix~\ref{AppendixRW}.
-It is important to model the QCD background as good as possible in all regions of the analysis.
-Using the $1/2b$ region to model the $2bs/3b/4b$ regions can introduce discrepancies in the modeling of the estimated QCD background versus the data. 
-These discrepancies arise from the non-trivial effect that $b$-tagging has on jet kinematics.
+%This is the most time consuming part of this analysis. 
+
+\paragraph{}
+It is important to model the QCD background as well as possible in all regions of the phase space.
+Using the $1/2b$ channels to model the $2bs/3b/4b$ channels can introduce discrepancies in the modeling of the estimated QCD background versus the data. 
+These discrepancies arise from the non-trivial effect that $b$-tagging requirements sculpting the track jet \pt~ and $\eta$ distributions.
 
 \begin{figure}[htbp!]
   \centering
@@ -387,31 +393,45 @@ These discrepancies arise from the non-trivial effect that $b$-tagging has on je
         \label{fig:rw-2bs-comp-subl1}
     \end{subfigure} \\ 
    \caption{
-   Comparison of track jet \pt distributions in different $b$-tag regions. Data are shown in the plot. They contain inclusive SB/CR/SR regions for $0b$ and $1b$, and only the SB region for $2bs$. At the bottom plot, all the ratios are taken with respect to the $0b$ tagged distribution.}
+   Comparison of track jet \pt distributions in different $b$-tag channels. Data are shown in the plot. They contain inclusive SB/CR/SR regions for 0$b$ and $1b$, and only the SB region for $2bs$. At the bottom plot, all the ratios are taken with respect to the 0$b$ tagged distribution.}
   \label{fig:rw-2bs-comp}
 \end{figure}
 
-\paragraph{}
-In order to account for the $b$-tagging effect, a reweighting on the $1/2b$ data is adopted. 
-The goal is to reweigh the non $b$-tagged Higgs candidate to have kinematic distributions just like a $b$-tagged Higgs candidate. 
-This is motivated by Figure~\ref{fig:rw-2bs-comp}.
-$0b$, $1b$ and $2bs$ data are compared.
-Except $2bs$ is only showing SB region, $0b$ and $1b$s are inclusive SB$+$CR$+$SR regions.
-$1b$ sample is further split into four subcategories, depending on which track jet gets $b$ tagged:
-\begin{itemize}
-\item ``OneTag lead on lead'' means the only $b$-tagged track jet is the leading track jet of the leading Higgs candidate;
-\item ``OneTag lead on subl'' means the only $b$-tagged track jet is the subleading track jet of the leading Higgs candidate;
-\item ``OneTag subl on lead'' means the only $b$-tagged track jet is the leading track jet of the subleading Higgs candidate; 
-\item ``OneTag subl on subl'' means the only $b$-tagged track jet is the subleading track jet of the subleading Higgs candidate;
-\end{itemize}
-The figure shows that $2bs$ has very similar track jet \pt~ distributions as the $1b$ sample with a $b$-tagged track jet.
-It also shows that in the $1b$ sample, the track jet \pt~ distribution in the non $b$-tagged Higgs candidate behaves like the $0b$ sample's track jet \pt~ distribution.
-This result motivates the reweighting method.
+
+\begin{table}[htbp!]
+\begin{center}
+\caption{Definitions of the $1b$ subsamples.}
+\begin{tabular}{c|c|c|c|c}
+\hline
+  Channel & N$b^{leadJ}_{leadtrkj}$ & N$b^{leadJ}_{subltrkj}$ & N$b^{sublJ}_{leadtrkj}$ & N$b^{sublJ}_{subltrkj}$ \\
+  \hline
+  ``OneTag lead on lead'' & 1 & 0 & 0 & 0 \\
+  ``OneTag lead on subl'' & 0 & 1 & 0 & 0 \\
+  ``OneTag subl on lead'' & 0 & 0 & 1 & 0 \\
+  ``OneTag subl on subl'' & 0 & 0 & 0 & 1 \\
+  \end{tabular}
+\label{tab:boosted-qcd-1bsample}
+\end{center}
+\end{table}
 
 \paragraph{}
-To avoid potential biases in the final distributions used for the analysis, this reweighting technique is applied to the $1/2b$ data only. 
-Since each signal region is modeled by a different $1/2b$ tag category, the reweighting procedure is the same for the three different channels. 
-The $2b$ sample is already split into separate parts for $3b$ and $4b$ estimations, as described in section \ref{sec:boosted-qcd}.
+The reweighting method is motivated by Figure~\ref{fig:rw-2bs-comp}.
+In the Figures, 0$b$, $1b$ and $2bs$ kinematic distributions in data are compared.
+Except $2bs$ data only contains the sideband region, 0$b$ and $1b$ are inclusive of sideband, control and signal regions.
+$1b$ sample is further split into four subcategories listed in Table~ref{tab:boosted-qcd-1bsample}, depending on which track jet gets $b$ tagged.
+% \begin{itemize}
+% \item ``OneTag lead on lead'' means the only $b$-tagged track jet is the leading track jet of the leading Higgs candidate;
+% \item ``OneTag lead on subl'' means the only $b$-tagged track jet is the subleading track jet of the leading Higgs candidate;
+% \item ``OneTag subl on lead'' means the only $b$-tagged track jet is the leading track jet of the subleading Higgs candidate; 
+% \item ``OneTag subl on subl'' means the only $b$-tagged track jet is the subleading track jet of the subleading Higgs candidate;
+% \end{itemize}
+The figure shows that $2bs$ has very similar track jet \pt~ distributions as the $1b$ sample with a $b$-tagged track jet.
+It also shows that in the $1b$ sample, the track jet \pt~ distribution in the non $b$-tagged Higgs candidate behaves like the 0$b$ sample's track jet \pt~ distribution.
+
+\paragraph{}
+This reweighting technique is applied to the $1/2b$ data only. 
+The reweighting procedure is the same for $4b$, $3b$, and $2bs$ channels. 
+The $2b$ QCD sample is already split into orthogonal parts for $3b$ and $4b$ estimations, as described in section \ref{sec:boosted-qcd}.
 
 \paragraph{}
 For $2bs$, the $1b$ non-$b$tagged Higgs candidate is reweighted to be like a $1b$ tagged Higgs candidate; for $3b$, the $2b$ non-$b$tagged Higgs candidate is reweighted to be like a $1b$ tagged Higgs candidate; for $4b$, the $2b$ non-$b$tagged Higgs candidate is reweighted to be like a $2b$ tagged Higgs candidate.
@@ -419,7 +439,7 @@ For each category, the events are split into two orthogonal subgroups, based on 
 Each event gets a weight, such that the reweighted untagged Higgs candidate's distributions agree with the corresponding $b$-tagged Higgs candidate's.
 
 \paragraph{}
-One natural choice of reweighting variable is the \pt~ of the track jets in the event, since $b$-tagging efficiency and $b$-tagging fake rate have a strong track jet \pt~ dependence. 
+One natural choice of a reweighting variable is the \pt~ of the track jets in the event, since the $b$-tagging efficiency and the $b$-tagging fake rate have a strong track jet \pt~ dependence. 
 Also, large-\R jet \pt~ is reweighted to account for the difference from light/$c$/$b$ quarks composition in QCD events at different energy scales.
 The three reweighted variables are the leading large-\R jet \pt~, leading large-\R jet leading track jet \pt~ and subleading large-\R jet leading track jet \pt~.
 
@@ -432,6 +452,7 @@ The each reweighting iteration is described below:
 \item Use this spline function to extract reweighting values $w_{e}$ for each variable that is considered. Then, the difference from one is scaled by $0.75$ to get a new weight $w$. So $w = (w_{e} - 1) * 0.75$. This accounts for over correlation by the spline and accelerates convergence.
 \item For each event, all the three weights from three variables are multiplied together to get a data event weight. Another constraint is applied, such that each event's total reweighting value is constrained to be within a $0.05$ to $10$ range. This avoids over corrections.
 \end{itemize}
+Examples for the reweighting procedure are shown in Appendix~\ref{AppendixRW}.
 The weights are almost converging to one after three iterations.
 To ensure all kinematics regions are covered, a total of ten iterations are used to stabilize the reweighting. 
 The reweighting value for each variable is also constrained to be within a $-30\%$ to $+40\%$ range compared to one, to avoid over corrections.
@@ -457,6 +478,7 @@ The values are statistically consistent with the values in Table~\ref{tab:bkgfit
 %%%  SB plots
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
 \section{\mtwoJ~ in the sideband region}
 \label{sec:boosted-sb}
 
@@ -466,21 +488,37 @@ The predicted background and observed distributions are in agreement, with no si
 Other sideband region distributions are shown in Appendix~\ref{AppendixSB}.
 
 \begin{figure}[htbp!]
-\begin{center}
- \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf}
- \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Sideband_mHH_l_1.pdf}\\
- \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf}\\
-\caption{The \mtwoJ distributions in the sideband region of the boosted analysis for the data and the predicted background for (top left) the four-tag, (top right) the three-tag, and (bottom) the two-tag split samples. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the gray hatched band.}
-\label{fig:boosted-sb-mjj}
-\end{center}
+  \centering
+  \captionsetup{justification=centering}
+    \hspace{-2cm}
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf}
+        \caption{$4b$}
+        \label{fig:boosted-sb-mjj-4b}
+    \end{subfigure}
+    \quad \quad \quad \quad \quad
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Sideband_mHH_l_1.pdf}
+        \caption{$3b$}
+        \label{fig:boosted-sb-mjj-3b}
+    \end{subfigure}
+    \\
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf}
+        \caption{$2bs$}
+        \label{fig:boosted-sb-mjj-2bs}
+    \end{subfigure}
+   \caption{The \mtwoJ~ distributions in the sideband region of the boosted analysis for the data and the predicted background for $4b$, $3b$, and $2bs$ channels. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the gray hatched band.}
+  \label{fig:boosted-sb-mjj}
 \end{figure}
 
-\clearpage
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%  CR plots
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
 \section{\mtwoJ~ in the control region}
 \label{sec:boosted-cr}
 
@@ -490,13 +528,28 @@ The predicted background and observed distributions are in good agreement.
 Other control region distributions are shown in Appendix~\ref{AppendixCR}.
 
 \begin{figure}[htbp!]
-\begin{center}
- \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Control_mHH_l_1.pdf}
- \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Control_mHH_l_1.pdf}\\
- \includegraphics[width=0.35\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Control_mHH_l_1.pdf}\\
-\caption{The \mtwoJ distributions in the control region of the boosted analysis for the data and the predicted background for (top left) the four-tag, (top right) the three-tag, and (bottom) the two-tag split samples. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the gray hatched band.}
-\label{fig:boosted-cr-mjj}
-\end{center}
+  \centering
+  \captionsetup{justification=centering}
+    \hspace{-2cm}
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Control_mHH_l_1.pdf}
+        \caption{$4b$}
+        \label{fig:boosted-cr-mjj-4b}
+    \end{subfigure}
+    \quad \quad \quad \quad \quad
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Control_mHH_l_1.pdf}
+        \caption{$3b$}
+        \label{fig:boosted-cr-mjj-3b}
+    \end{subfigure}
+    \\
+    \begin{subfigure}[b]{0.35\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Control_mHH_l_1.pdf}
+        \caption{$2bs$}
+        \label{fig:boosted-cr-mjj-2bs}
+    \end{subfigure}
+   \caption{The \mtwoJ~ distributions in the control region of the boosted analysis for the data and the predicted background for $4b$, $3b$, and $2bs$ channels. The data-to-background ratio (bottom panels) shows the statistical uncertainties as the gray hatched band.}
+  \label{fig:boosted-cr-mjj}
 \end{figure}
 
 
@@ -509,9 +562,10 @@ Other control region distributions are shown in Appendix~\ref{AppendixCR}.
 \label{sec:boosted-SR-smoothing}
 
 \paragraph{}
-In signal region, the four-momentum of each large-\R jet is multiplied with a factor $m_{H}/m_{\mathrm{J}}$.
+The \mtwoJ~ resolution is further improved by rescaling.
+In the signal region, the four-momentum of each large-\R jet is multiplied by a factor $m_{H}/m_{\mathrm{J}}$.
 From this, a scaled \mtwoJ~ is calculated.
-This improves the resolution of \mtwoJ~ for signal events by correcting the energy loss.
+This correction improves the jet mass and momentum resolution of each large-\R jet for signal events.
 There is little impact on the background distribution.
 Using the scaled \mtwoJ~ distribution, the expected exclusion limits are slightly better at low mass and slightly worse at high mass, with differences of the order of $10\%$ than the nominal dijet mass limits.
 The scaled \mtwoJ~ distribution can be found in Figure~\ref{fig:signal-region-bkg-scaled}.
@@ -531,13 +585,13 @@ Due to the limited $1/2b$ statistics at high \mtwoJ~ above $2500$ \GeV~ and the 
 The $4/3/2bs$ QCD and \ttbar~ signal region scaled \mtwoJ~ distributions are fitted with the following functional form:
 \begin{equation}
 \label{eq:boosted_dijet}
-y = \frac{a}{\frac{x}{\sqrt{s}}^2} (1-\frac{x}{\sqrt{s}})^{b - c\ \log(\frac{x}{\sqrt{s}})}
+y = \frac{a}{(\frac{m_{2J}}{\sqrt{s}})^2} (1-\frac{m_{2J}}{\sqrt{s}})^{(b - c\ \log(\frac{m_{2J}}{\sqrt{s}}))}
 \end{equation}
-where $\sqrt{s} = 13000$ \GeV~, the fit range is for $1200 < M_{JJ} < 3000$ \GeV~, and the three free parameters are a, b and c.
-The values of the estimated fit parameters in the $4b$ and $3b$ and $2bs$ signal regions can be found in Table~\ref{tab:smoothparams_pole}.
+where $\sqrt{s} = 13000$ \GeV~, the fit range is for $1200 <$ \mtwoJ~ $< 3000$ \GeV~, and the three free parameters are a, b and c.
+The values of the estimated fit parameters in the $4b$, $3b$ and $2bs$ signal regions can be found in Table~\ref{tab:smoothparams_pole}.
 Figure~\ref{fig:signal-region-mjjscaled-smoothing} shows the smoothing fits for the QCD background and the \ttbar\ background in the $4b$, $3b$, and $2bs$ signal regions.
 The smoothing fit statistical uncertainties are also shown on these two plots. 
-Given that the similar $1/2b$ sample is used for deriving the QCD shape for the $4/3/2bs$  signal regions, the slope parameters ($a$) are similar for  $4/3/2bs$ QCD backgrounds.
+Given that $1/2b$ channels are used for deriving the QCD shape for $4/3/2bs$ signal regions, the slope parameters ($a$) are similar for $4/3/2bs$ QCD backgrounds.
 
 \paragraph{}
 The final signal region prediction, using scaled di-jet mass distribution, with only statistical uncertainties, are shown in Figure~\ref{fig:signal-region-mjjscaled-smooth-bkg-noSYS}. 
@@ -547,7 +601,7 @@ More details on other systematics, including smoothing systematics, shape uncert
 
 \begin{table}[htbp!]
 \begin{center}
-\caption{Smoothing parameters in $4b$ and $3b$ and $2bs$ signal regions for scaled mass distributions, the correlation between parameters is almost always 0.99.}
+\caption{Smoothing parameters in $4b$, $3b$ and $2bs$ signal regions for scaled mass distributions, the correlation between parameters is almost always 0.99.}
 \input{figures/boosted/tables/smoothfit_pole.tex}
 \label{tab:smoothparams_pole}
 \end{center}
@@ -588,8 +642,8 @@ More details on other systematics, including smoothing systematics, shape uncert
 \section{Yields}
 \label{sec:yields}
 \paragraph{}
-The event yield results showing the estimated backgrounds, the signal predictions, and the observed data in the $4b$ and $3b$ and $2bs$ signal regions, control regions, and sideband regions can be found in Table~\ref{tab:yields4b} and Table~\ref{tab:yields3b} and Table~\ref{tab:yields2b} respectively. 
-Total background statistical uncertainty is less than the quadratic sum of \ttbar~ and QCD because of the anti-correlation.
+The event yield results showing the estimated backgrounds, the signal predictions, and the observed data in the $4b$, $3b$ and $2bs$ signal regions, control regions, and sideband regions can be found in Table~\ref{tab:yields4b} and Table~\ref{tab:yields3b} and Table~\ref{tab:yields2b} respectively. 
+The total background statistical uncertainty is less than the quadratic sum of \ttbar~ and QCD because of the anti-correlation.
 Z+jets have a negligible yield in the signal regions, therefore, in the later chapters, it is not included in the figures and tables.
 
 \begin{table}[htbp!]

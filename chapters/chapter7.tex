@@ -1,7 +1,7 @@
 %!TEX root = ../dissertation.tex
 \begin{savequote}[75mm]
 Every question has a proper answer. Every soul has a proper place.
-\qauthor{Tony.}
+%\qauthor{Tony.}
 \end{savequote}
 
 \chapter{Systematics}
@@ -13,29 +13,41 @@ Every question has a proper answer. Every soul has a proper place.
 \section{Overview}
 
 \paragraph{}
-Theoretical uncertainties in the signal acceptance result from variations of renormalization and factorization scales, PDF set uncertainties, and uncertainties in modeling of the underlying event and hadronic showers (therefore varying initial- and final-state radiation).
-The total theoretical uncertainty is dominated by the shower variations. 
-The size of the variation of the expected signal yield is typically below $10\%$ but can increase to $23\%$, depending on the signal hypothesis.
+Signal acceptance is affected by theoretical uncertainties.
+They result from renormalization and factorization scales uncertainties, PDF uncertainties, initial state radiation (ISR) and final state radiation (FSR) uncertainties.
+The total theoretical uncertainty is dominated by the ISR and FSR variations.
+The uncertainty on the expected signal yield is typically below $10\%$ but can increase to $23\%$, depending on the signal mass.
 
 \paragraph{}
-Detector modeling uncertainties ($b$-tagging efficiencies; jet energy, resolution and mass) are propagated in the analysis. 
-These uncertainties can change both the shape and normalization of the signal and of the MC-based backgrounds. 
-Each uncertainty in the data-driven background estimate is evaluated for each sample, and these are treated as uncorrelated across the samples in the statistical analysis.
+Detector modeling uncertainties are propagated in the analysis.
+Those uncertainties include $b$-tagging efficiencies, jet energy scale (JES), jet energy resolution (JER) and jet mass resolution (JMR). 
+These uncertainties can change both the shape and normalization of the signal and MC-based backgrounds. 
+In the data-driven background estimation, each uncertainty variation is evaluated.
 
 \paragraph{}
-A statistical uncertainty on the value of \muqcd~ and \alphatt~ for the $4b$, $3b$ and $2bs$ signal region is determined from the fitting procedure described in section~\ref{sec:ttbarnorm}.
-Two orthogonal eigenvariations are calculated from the covariance matrix of the normalization fit, which are then applied to the background predictions. 
+A statistical uncertainty on the value of \muqcd~ and \alphatt~ for the $4b$, $3b$ and $2bs$ signal regions is determined from the fitting procedure described in section~\ref{sec:ttbarnorm}.
+Two orthogonal eigenvariations are calculated from the covariance matrix of the normalization fit, which are then applied to the background predictions.  
+Specifically, \muqcd~ and \alphatt~ can be rewritten as a vector, $a = (a_1,\ a_2)$, and the covariance matrix of $a$ is $C$ where $C_{ij} = Cov(a_i,\ a_j)$, then $C$ can be decomposed as:
+\begin{equation}
+C = U \Lambda U^{T}
+\end{equation}
+where $U$ is a unitary matrix whose columns are the eigenvectors of $C$ and $\Lambda = Diag(\Lambda_{1},\Lambda_{2})$ is a real diagonal matrix whose entries are the eigenvalues of $C$.
+The vector $a$ can be projected along the direction of the eigenvectors, i.e. $a \to a^{\prime} = U^{T}a$, then the resulting eigenvalues are uncorrelated because $C \to C^{\prime} = U^{T} C U = \Lambda$.  
+Therefore, the values of $a^{\prime}_{i}$ can be varied independently by $\pm \Lambda_i$ to propagate the uncertainty.  
+To return to the original space of $a$, the system is rotated back with the $U$ matrix.
 Correlations between \alphatt~ and \muqcd~ are fully retained this way.
 
 \paragraph{}
-Other background systematic uncertainties in the signal region are further discussed in the following components:
+Additional background modeling systematic uncertainties in the signal region are listed:
 \begin{itemize}
- \item Non-closure uncertainty on \muqcd~ found by comparing the value derived from the sideband to the control region normalization.
- \item Effects on the QCD prediction from variations of the sideband and control region definitions.
- \item The impact of the shape uncertainty of the \ttbar~ prediction in the $3/4b$ signal region.
- \item The impact of the shape uncertainty of the estimated QCD prediction, derived in the control region.
- \item The impact of the smoothing function fit range and function choice on the QCD prediction.
+ \item Uncertainty on \muqcd~ from the difference between data and prediction in the control region yield.
+ \item Uncertainty on the QCD prediction from variations of the sideband and control region definitions.
+ \item The shape uncertainty of the \ttbar~ prediction in the $3/4b$ signal region.
+ \item The shape uncertainty of the estimated QCD prediction, derived in the control region.
+ \item Uncertainty from the smoothing function fit range and function choice.
 \end{itemize}
+These uncertainties will be discussed in the following sections.
+They are summarized in section~\ref{sec:boosted-systematics-numbers}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -46,21 +58,22 @@ The theoretical uncertainties on the acceptance times efficiency ($A\times\varep
 The generation of these samples follows the configuration of the baseline samples, but with modifications to probe the following theoretical uncertainties: uncertainties in the parton density functions; uncertainties due to missing higher order terms in the matrix elements; and uncertainties in the modeling of the underlying event (including multi-parton interactions), of hadronic showers and of initial and final state radiation.
 
 \paragraph{}
-To evaluate the potential effect of missing higher order terms in the matrix element, the renormalization and factorization scales used in the signal generation are varied coherently by factors of $0.5$ and $2$ for the signals. 
+To evaluate the potential effect of missing higher order terms in the matrix element, the renormalization and factorization scales used in the signal generation are varied by $\times 0.5$ and $\times 2$ for the signals. 
 
 \paragraph{}
-Uncertainties due to modeling of the parton shower and the underlying event (including multi-parton interactions) are evaluated by switching the MC generator used. For the Bulk RS graviton samples, \pythia 8 are switched to Herwig++, while for the scalar and non-resonant it is Herwig++ to \pythia 8.
+Uncertainties due to modeling of the parton shower and the underlying event are evaluated by varying the MC generator listed in section~\ref{sec:MC-sig}. 
+For the Bulk RS graviton samples, \pythia 8 are switched to Herwig++, while for the scalar and non-resonant it is Herwig++ to \pythia 8.
 
 \paragraph{}
 PDF uncertainties are evaluated using the PDF4LHC15\_nlo\_mc set, which combines CT14, MMHT14 and NNPDF3.0 PDF sets \cite{0954-3899-43-2-023001}. 
-The uncertainty is evaluated by calculating the acceptance for each PDF replica. 
+The uncertainty is evaluated by calculating the acceptance for each PDF set. 
 The standard deviation of these acceptance values divided by the baseline acceptance is taken as the PDF uncertainty. 
-For each mass point the distribution of these ratio is compatible with a Gaussian centered on one.
-The uncertainty in acceptance due to PDF uncertainties is less than $\pm1\%$ across the full mass range considered for the analysis.
+%For each mass point the distribution of these ratio is compatible with a Gaussian centered on one.
+The uncertainty in acceptance due to PDF is less than $\pm1\%$ across the full mass range considered for the analysis.
 
 \paragraph{}
 These uncertainties are implemented in the final statistical analysis as normalization uncertainties on the signals, with the value taken from a polynomial fit of the cross section and the mass of the signal.
-This smooths out statistical fluctuations and allows interpolation between the generated mass points, if needed.
+This smooths out statistical fluctuations and allows interpolation between the generated mass points.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,29 +82,28 @@ This smooths out statistical fluctuations and allows interpolation between the g
 
 \subsection{Luminosity uncertainty} 
 \paragraph{}
-The uncertainty in the integrated luminosity of the combined 2015 and 2016 datasets is $\pm2.1$\%~\cite{LumiCiteUP}.
-This uncertainty is applicable to the backgrounds with normalizations determined from simulation, and further propagated to the QCD prediction through data-driven background estimation procedure.
+The uncertainty in the integrated luminosity of the combined 2015 and 2016 datasets is $36.1 fb^{-1}\pm2.1$\%~\cite{LumiCiteUP}.
+This uncertainty is applicable to the backgrounds with normalizations determined from simulation, and further propagated to the QCD prediction through the data-driven background estimation procedure.
 This uncertainty is also applied to the signal normalization prediction.
 It has a small impact on this analysis. 
 
 \subsection{Large-\R jet resolution and scale uncertainties} 
 \paragraph{}
-There are uncertainties on the large-\R jets in both the jet energy scale (JES) and jet energy resolution (JER), as well as the jet mass scale (JMS) and jet mass resolution (JMR).
+There are uncertainties on the large-\R jets energy scale (JES) and energy resolution (JER), as well as the mass scale (JMS) and mass resolution (JMR).
 The uncertainties on the JES and JMS are derived in situ from 13 \TeV~ $pp$ collisions, using techniques described in Ref.~\cite{JetMassAndSubstructure}. 
-Discrepancies observed between data and MC are assigned as uncertainties on the energy/mass scales of the jet.
+Discrepancies in jet four-momenta observed between data and MC are assigned as uncertainties on the energy/mass scales of the jet.
 The uncertainties are only correlated between energy and mass.
 
 \paragraph{}
-The uncertainties on the jet mass resolutions (JMR) are estimated by applying a Gaussian smearing.
+The uncertainties on the jet mass resolutions are estimated by applying a Gaussian smearing.
 For each signal mass point, the large-\R trimmed jet mass is smeared such that the intrinsic resolution is increased by 20\%. 
-For jet energy resolution (JER), the momentum is smeared with an absolute 2\% uncertainty. 
-The nominal MC mass resolution ($\sigma_{M}$) for every signal mass point is determined by fitting the $M_\text{reco} / M_\text{truth}$ distribution with a Gaussian. 
+For jet energy resolution, the momentum is smeared with an absolute $2\%$ uncertainty. 
+The nominal MC mass resolution ($\sigma_{M}$) for every signal mass point is determined by fitting the $M_\text{JJ} / M_\text{truth}$ distribution with a Gaussian. 
 The $\sigma_{M}$ is calculated before the final $X_{hh}$ cut.
 
 
 \subsection{$b$-tagging uncertainties}
 \label{sec:b-tagging-unc}
-
 \paragraph{}
 The uncertainties related to the $b$-tagging efficiency calibrations as measured in $t\bar{t}$ events for track-jets are considered. 
 The procedure to define these calibrations is similar to that described in Ref.~\cite{Aad:2015ydr}. 
@@ -311,12 +323,12 @@ The disagreements in data/prediction are generally comparable to the statistical
 
 \begin{figure}[htbp!]
 \begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_mHH_l_1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_leadHCand_Mass_s.pdf}\\
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_mHH_l_1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_leadHCand_Mass_s.pdf}\\
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_mHH_l_1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
 \end{center}
 \caption{ZZ signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column), for $4b$ (top row), $3b$ (middle row) and $2b$ split (bottom row). Only statistical uncertainties are shown.}
 \label{CRSB:ZZSR_Distribution}
@@ -349,12 +361,12 @@ The disagreements in data/prediction are generally comparable to the statistical
 
 \begin{figure}[htbp!]
 \begin{center}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_FourTag_Signal_mHH_l_1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_FourTag_Signal_leadHCand_Mass_s.pdf}\\
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_ThreeTag_Signal_mHH_l_1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_ThreeTag_Signal_leadHCand_Mass_s.pdf}\\
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_mHH_l_1.pdf}
-\includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_FourTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_FourTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_ThreeTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_ThreeTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
 \end{center}
 \caption{TT signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column), for $4b$ (top row), $3b$ (middle row) and $2b$ split (bottom row). Only statistical uncertainties are shown.}
 \label{CRSB:TTSR_Distribution}

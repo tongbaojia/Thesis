@@ -19,16 +19,15 @@ A level-1 auxiliary file: chapters/appendixRW.aux
 A level-1 auxiliary file: chapters/appendixSysVar.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "EvtGen"
 Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
+Warning--empty note in LumiRatio
+Warning--empty note in Lumi_Run2
+Warning--there's a number but no volume in btaggingRun2
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
-Warning--empty note in LumiRatio
-Warning--empty note in Lumi_Run2
 Warning--empty author in ATLAS-CONF-2015-035
 Warning--empty author in ATL-PHYS-PUB-2017-020
-Warning--there's a number but no volume in btaggingRun2
 Warning--empty journal in MC12AU2
 Warning--empty journal in carvalho
 Warning--empty journal in Aaboud:2018knk
@@ -37,45 +36,45 @@ Warning--empty institution in ATL-COM-PHYS-2015-009
 Warning--empty author in ATL-COM-PHYS-2015-1323
 Warning--empty institution in ATL-COM-PHYS-2015-1323
 Warning--empty journal in Hawking:2018tcn
-You've used 82 entries,
+You've used 83 entries,
             2481 wiz_defined-function locations,
-            1098 strings with 18250 characters,
-and the built_in function-call counts, 27575 in all, are:
-= -- 2461
-> -- 1076
-< -- 68
-+ -- 492
-- -- 308
-* -- 2012
-:= -- 4517
-add.period$ -- 321
-call.type$ -- 82
-change.case$ -- 161
-chr.to.int$ -- 62
-cite$ -- 102
-duplicate$ -- 1491
-empty$ -- 2625
-format.name$ -- 416
-if$ -- 5843
+            1104 strings with 18348 characters,
+and the built_in function-call counts, 27886 in all, are:
+= -- 2490
+> -- 1083
+< -- 69
++ -- 496
+- -- 310
+* -- 2031
+:= -- 4568
+add.period$ -- 325
+call.type$ -- 83
+change.case$ -- 163
+chr.to.int$ -- 63
+cite$ -- 103
+duplicate$ -- 1510
+empty$ -- 2658
+format.name$ -- 419
+if$ -- 5910
 int.to.chr$ -- 21
-int.to.str$ -- 83
-missing$ -- 72
-newline$ -- 493
-num.names$ -- 234
-pop$ -- 529
+int.to.str$ -- 84
+missing$ -- 73
+newline$ -- 499
+num.names$ -- 237
+pop$ -- 535
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 83
 quote$ -- 0
-skip$ -- 831
+skip$ -- 842
 stack$ -- 0
-substring$ -- 997
-swap$ -- 194
+substring$ -- 1008
+swap$ -- 196
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 565
+type$ -- 572
 warning$ -- 16
-while$ -- 216
+while$ -- 219
 width$ -- 0
-write$ -- 1199
-(There were 18 warnings)
+write$ -- 1214
+(There were 17 warnings)
