@@ -15,7 +15,7 @@ Every question has a proper answer. Every soul has a proper place.
 \paragraph{}
 Theoretical uncertainties in the signal acceptance result from variations of renormalization and factorization scales, PDF set uncertainties, and uncertainties in modeling of the underlying event and hadronic showers (therefore varying initial- and final-state radiation).
 The total theoretical uncertainty is dominated by the shower variations. 
-The size of the variation of the expected signal yield is typically below 10\% but can increase to 23\%, depending on the signal hypothesis.
+The size of the variation of the expected signal yield is typically below $10\%$ but can increase to $23\%$, depending on the signal hypothesis.
 
 \paragraph{}
 Detector modeling uncertainties ($b$-tagging efficiencies; jet energy, resolution and mass) are propagated in the analysis. 
@@ -30,10 +30,10 @@ Correlations between \alphatt~ and \muqcd~ are fully retained this way.
 \paragraph{}
 Other background systematic uncertainties in the signal region are further discussed in the following components:
 \begin{itemize}
- \item Non-closure uncertainty on \muqcd found by comparing the value derived from the sideband to the control region normalization.
- \item Effects on the QCD prediction from variations of the sideBand and control Region Definitions
- \item The impact of the shape uncertainty of the \ttbar~ distribution in the $3/4b$ signal region.
- \item The impact of the shape uncertainty of the estimated QCD distribution, derived in the control region.
+ \item Non-closure uncertainty on \muqcd~ found by comparing the value derived from the sideband to the control region normalization.
+ \item Effects on the QCD prediction from variations of the sideband and control region definitions.
+ \item The impact of the shape uncertainty of the \ttbar~ prediction in the $3/4b$ signal region.
+ \item The impact of the shape uncertainty of the estimated QCD prediction, derived in the control region.
  \item The impact of the smoothing function fit range and function choice on the QCD prediction.
 \end{itemize}
 
@@ -59,7 +59,7 @@ For each mass point the distribution of these ratio is compatible with a Gaussia
 The uncertainty in acceptance due to PDF uncertainties is less than $\pm1\%$ across the full mass range considered for the analysis.
 
 \paragraph{}
-These uncertainties are implemented in the final statistical analysis as normalization uncertainties on the signals, with the value taken from the polynomial fit. 
+These uncertainties are implemented in the final statistical analysis as normalization uncertainties on the signals, with the value taken from a polynomial fit of the cross section and the mass of the signal.
 This smooths out statistical fluctuations and allows interpolation between the generated mass points, if needed.
 
 
@@ -83,10 +83,10 @@ The uncertainties are only correlated between energy and mass.
 
 \paragraph{}
 The uncertainties on the jet mass resolutions (JMR) are estimated by applying a Gaussian smearing.
-For each signal mass point, the large-\R trimmed jets is smeared such that the intrinsic resolution is increased by 20\%. 
+For each signal mass point, the large-\R trimmed jet mass is smeared such that the intrinsic resolution is increased by 20\%. 
 For jet energy resolution (JER), the momentum is smeared with an absolute 2\% uncertainty. 
-The nominal MC mass resolution ($\sigma_{M}$) for every signal mass point is determined by fitting the reco\_M/truth\_M or distribution with a Gaussian, respectively. 
-The reco\_M/truth\_M is calculated before the final $X_{hh}$ cut.
+The nominal MC mass resolution ($\sigma_{M}$) for every signal mass point is determined by fitting the $M_\text{reco} / M_\text{truth}$ distribution with a Gaussian. 
+The $\sigma_{M}$ is calculated before the final $X_{hh}$ cut.
 
 
 \subsection{$b$-tagging uncertainties}
@@ -94,15 +94,15 @@ The reco\_M/truth\_M is calculated before the final $X_{hh}$ cut.
 
 \paragraph{}
 The uncertainties related to the $b$-tagging efficiency calibrations as measured in $t\bar{t}$ events for track-jets are considered. 
-The procedure to define these calibrations is similar to that described in reference~\cite{Aad:2015ydr}. 
+The procedure to define these calibrations is similar to that described in Ref.~\cite{Aad:2015ydr}. 
 The uncertainty in the $b$-tagging efficiency is evaluated by propagating the systematic uncertainty in the \pt-dependent, measured tagging efficiency for $b$-jets~\cite{ATLAS-CONF-2014-004}. 
 For $b$-jets with \pt~$> 300$~\GeV, systematic uncertainties in the tagging efficiencies are extrapolated with simulation and are consequently larger~\cite{Aad:2015ydr}. 
 Uncertainties arising from mis-tagging jets that do not contain $b$-hadrons are negligible.
 
 \paragraph{}
-Calibrations, or correction factors in the form of scale factors per \pt~ bin, for the $b$-tagging efficiency of $R=0.2$ track jets passing an MV2c10 weight cut corresponding to $77\%$ efficiency have been derived in \cite{ATL-COM-PHYS-2015-009, ATL-COM-PHYS-2015-1323}.  
+Calibrations, or correction factors in the form of scale factors per \pt~ bin, for the $b$-tagging efficiency of $R=0.2$ track jets passing an MV2c10 weight cut corresponding to $77\%$ efficiency have been derived in Ref.\cite{ATL-COM-PHYS-2015-009, ATL-COM-PHYS-2015-1323}.  
 These calibrations are applied to the RS graviton signal samples and \ttbar~ simulation.  
-The calibrations also include uncertainties which modify the $b$-tagging efficiency and thus modify the signal (\ttbar~) acceptance, and thus these uncertainties must be  propagated through the analysis.
+The calibrations also include uncertainties which modify the $b$-tagging efficiency and thus modify the signal (\ttbar~) acceptance, therefore these uncertainties are propagated through the analysis.
 The signal yield uncertainty due to $b$-tagging is less than $30\%$ for the signal, and less than $12\%$ for the \ttbar~ yield.
 
 \paragraph{}
@@ -113,7 +113,8 @@ When a $b$-tagged jet is calibrated with a scale factor $w_{sf}$ with uncertaint
 Therefore, the anti-tagging calibration scale factor would be $w_{sf}^{anti} = (1 - w_{sf} \epsilon_{b}) / (1 - \epsilon_{b}) $, where $\epsilon_{b}$ is the tagging efficiency. 
 Based on this equation, a shift in the scale factor for $b$-tagged jets causes an anti-correlated shift in the anti-tagging efficiency scale factor. 
 This anti-correlation in turn reduces the overall impact of the $b$-tagging uncertainty on the $3b$ SR. 
-However, this anti-tagging efficiency scale factor is so large, that in $2bs$ SR, the total uncertainty will be dominated by the square of this factor, and hence it could be larger than $4b$'s $b$-tagging uncertainty.
+However, this anti-tagging efficiency scale factor is large, and in the $2bs$ SR, the total uncertainty is dominated by the square of this factor. 
+Hence the $b$-tagging uncertainty on the $2bs$ SR can be larger than the $b$-tagging uncertainty on the $3b$ SR.
 
 \paragraph{}
 This behavior is shown in Figure~\ref{fig:signal_bsyst_reduction}.
@@ -122,7 +123,7 @@ In the $4b$ plot, no inefficiency scale factor is applied.
 The variation on the signal yield is only due to $w_{sf}$.
 In the $3b$ plot, one inefficiency scale factor is applied. 
 This $w_{sf}^{anti}$ reduces the variation from $w_{sf}$.
-In the $2bs$ plot, two inefficiency scale factor is applied. 
+In the $2bs$ plot, two inefficiency scale factor are applied. 
 This $w_{sf}^{anti}$ further reduces the variation from $w_{sf}$, causing the signal yield difference increase compared with the $3b$ case.
 
 
@@ -141,7 +142,7 @@ This $w_{sf}^{anti}$ further reduces the variation from $w_{sf}$, causing the si
 \label{sec:ttbar-mc-unc}
 
 \paragraph{}
-In addition to the \ttbar fit uncertainties, following the recommendations, extra \ttbar MC samples are used with different variations: hadronization, fragmentation, matrix element variation and additional radiation.
+In addition to the \ttbar~ fit uncertainties, additional \ttbar~ MC samples are considered with the following variations: hadronization, fragmentation, matrix element variation and additional radiation.
 The top quark mass variations are also considered. 
 
 \paragraph{}
@@ -150,10 +151,15 @@ The variation in total background, with different \ttbar~ MC sample as input is 
 This is shown in Figure ~\ref{fig:ttbar-MC}. 
 This uncertainty is considered limited by the MC statistics and not included.
 
+These \ttbar~ samples are used to replace the normal had and non-had MCs, stitched with $m_{t\bar{t}}$ slices samples, and the variation in the \ttbar~ yield and background predictions are considered. 
+The variation in total background, with different \ttbar~ MC sample as input is tested. 
+This is shown in Figure ~\ref{fig:ttbar-MC}. 
+However, the predictions are consistent with MC statistical uncertainties and therefore no \ttbar~ MC uncertainty is applied.
+
 \begin{figure}[htbp!]
 \begin{center} 
 \includegraphics[width=0.48\textwidth,angle=-90]{figures/boosted/Other/directcompare_mHH_l_1_TwoTag_split_Top_syst_stat_postfit_all_.pdf}
-\caption{Total background estimation (qcd + \ttbar) with different \ttbar MC variations. The different variations agree with the default within the statistical uncertainties.}
+\caption{Total background estimation (QCD + \ttbar) with different \ttbar MC variations. The different variations agree with the default within the statistical uncertainties.}
 \label{fig:ttbar-MC}
 \end{center}
 \end{figure}
@@ -166,23 +172,23 @@ This uncertainty is considered limited by the MC statistics and not included.
 \label{sec:non-closure-mu-qcd}
 
 \paragraph{}
-A further uncertainty is derived by comparing the value of \muqcd to the overall difference between predicted to observed events in the control region, shown in section ~\ref{sec:yields}. 
-The number events agrees with the total data in the control region within statistical error, but \muqcd~ estimation is dependent on the SB and CR choice,
+A further uncertainty is derived by comparing the value of \muqcd~ to the overall difference between predicted to observed events in the control region, shown in section ~\ref{sec:yields}. 
+The number events agrees with the total data in the control region within statistical error, but the \muqcd~ estimation is dependent on the SB and CR choice.
 An additional systematic on the background prediction in the signal region is assigned. 
 It is the maximum between either the difference between the central value of the prediction to the observed number of events, or the statistical uncertainty of the observed data in the CR.
 For $4b$ it is $11.1\%$, for $3b$ it is $2.5\%$, and for $2bs$ it is $1.1\%$. 
 
 \paragraph{}
-Besides the nominal control region, additional sideband and control region are designed and tested. 
+Besides the nominal control region, additional sideband and control regions are designed and tested. 
 They are further illustrated in Appendix~\ref{app:appendixSysVar}, and are listed below:
 \begin{itemize}
 	\item Low-mass CR: the center position of the circle that defines nominal CR is moved down by 3 GeV, in both leading and sub-leading large-jet mass.
 	\item High-mass CR: the center position of the circle that defines nominal CR is moved up by 3 GeV, in both leading and sub-leading large-R jet mass.
-	\item Signal-depletion (Small) CR: the $X_{hh}$ cut that defines signal region is increased to $2.0$ from $1.6$. This variation only affect CR, while SR remains unchanged (i.e. signal region is still defined by $X_{hh}<1.6$, while CR is defined as $X_{hh}>2.0$ and $R_{hh}<33$).
-	\item High-mass SB: The signal region and control region remain unchanged, the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
-	\item Low-mass SB: The signal region and control region remain unchanged, the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
-	\item Large SB: The signal region and control region remain unchanged, while the SB is $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 61$. $\mu_{QCD}$ will change.
-	\item Small SB: The signal region and control region remain unchanged, while the SB is $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 55$. $\mu_{QCD}$ will change.
+	\item Signal-depletion CR (Small CR): the $X_{hh}$ cut that defines signal region is increased to $2.0$ from $1.6$. This variation only affect CR, while SR remains unchanged (i.e. signal region is still defined by $X_{hh}<1.6$, while CR is defined as $X_{hh}>2.0$ and $R_{hh}<33$).
+	\item High-mass SB: The signal region and control region remain unchanged, and the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
+	\item Low-mass SB: The signal region and control region remain unchanged, and the center position of the circle that defines nominal SB is moved up by 3 GeV in both leading and sub-leading large-R jet mass.
+	\item Large SB: The signal region and control region remain unchanged, and the sideband region is redefined as $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 61$. $\mu_{QCD}$ will change.
+	\item Small SB: The signal region and control region remain unchanged, and the sideband region is redefined as $33 < R_{hh}$ and $ R_{hh}^{\text{high}} < 55$. $\mu_{QCD}$ will change.
 \end{itemize}
 
 \paragraph{}
@@ -230,7 +236,7 @@ X_{TT} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{164 GeV}}{0.1 \left(m^{\
 \label{eq:boosted_Xtt}
 \end{equation}
 which is also illustrated in Figure \ref{CRSB:ZZIllustration}. 
-The analysis is repeated, using the same definition of sideband and control region as the nominal (but with events contained in ZZ signal region excluded) for normalization fit. 
+The analysis is repeated, using the same definition of sideband and control region as the nominal (but with events contained in the ZZ signal region excluded) for normalization fit. 
 Then the low mass signal region is unblinded. 
 This helps to validate the background estimation strategy, and the stability for other similar analysis.
 
@@ -245,7 +251,7 @@ This helps to validate the background estimation strategy, and the stability for
 
 \paragraph{}
 %The summary of background estimation for ZZ signal region can be found in Table \ref{CRSB:SummaryTable_ZZ_4b}, ~\ref{CRSB:SummaryTable_ZZ_3b} and ~\ref{CRSB:SummaryTable_ZZ_2b}. 
-The difference between data and prediction in ZZ signal region is summarized in Table \ref{CRSB:DataPred_ZZSR} for all the regions. T
+The difference between data and prediction in the ZZ signal region is summarized in Table \ref{CRSB:DataPred_ZZSR} for all the regions. T
 he discrepancy between data and prediction is either covered by statistical uncertainty of data or comparable with data statistical uncertainty in $4b$, $3b$ and $2bs$ ZZ SR respectively. 
 The kinematic distribution between data and prediction in ZZ SR are shown in Figure \ref{CRSB:ZZSR_Distribution}. 
 The data agrees with prediction well in general, though a few bins might not agree perfectly. 
@@ -254,14 +260,14 @@ But the statistical uncertainty in ZZ region (with yield 37) is much higher comp
 
 \paragraph{}
 %The summary of background estimation for TT signal region can be found in Table \ref{CRSB:SummaryTable_TT_4b}, ~\ref{CRSB:SummaryTable_TT_3b} and ~\ref{CRSB:SummaryTable_TT_2b}.
-The difference between data and prediction in TT signal region is summarized in Table \ref{CRSB:DataPred_TTSR} for all the regions. 
+The difference between data and prediction in the TT signal region is summarized in Table \ref{CRSB:DataPred_TTSR} for all the regions. 
 The discrepancy between data and prediction is either covered by statistical uncertainty of data or comparable with data statistical uncertainty in $4b$, $3b$ and $2bs$ TT SR respectively. 
 The kinematic distribution between data and prediction in TT SR are shown in Figure \ref{CRSB:TTSR_Distribution}. 
-The data agrees with prediction well in general, though a few bins might not agree perfectly. 
+The data agrees with prediction well. 
 
 \paragraph{}
 Based on all the variation tests, there is no need to introduce extra uncertainty on non-closure systematics. 
-Most of the data/prediction disagreements are well covered by the data statistical uncertainty.
+The disagreements in data/prediction are generally comparable to the statistical uncertainty.
 
 % \begin{table}[htbp!]
 % \begin{center}
@@ -312,7 +318,7 @@ Most of the data/prediction disagreements are well covered by the data statistic
 \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_mHH_l_1.pdf}
 \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
 \end{center}
-\caption{ZZ signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column) in low mass signal, for $4b$ (top row), $3b$(middle row) and $2b$ split (bottom row). The plots are with only statistical uncertainty.}
+\caption{ZZ signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column), for $4b$ (top row), $3b$ (middle row) and $2b$ split (bottom row). Only statistical uncertainties are shown.}
 \label{CRSB:ZZSR_Distribution}
 \end{figure}
 
@@ -350,7 +356,7 @@ Most of the data/prediction disagreements are well covered by the data statistic
 \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_mHH_l_1.pdf}
 \includegraphics[width=0.45\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
 \end{center}
-\caption{TT signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column) in low mass signal, for $4b$ (top row), $3b$(middle row) and $2b$ split (bottom row). The plots are with only statistical uncertainty.}
+\caption{TT signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column), for $4b$ (top row), $3b$ (middle row) and $2b$ split (bottom row). Only statistical uncertainties are shown.}
 \label{CRSB:TTSR_Distribution}
 \end{figure}
 
@@ -361,7 +367,7 @@ Most of the data/prediction disagreements are well covered by the data statistic
 \label{sec:unc-shape-ttbar-in-sr}
 
 \paragraph{}
-Because the $4/3b$ \ttbar\ \mtwoJ~ distribution is extremely statistically limited, the $2bs$ \ttbar\ \mtwoJ~ shape is used to predict the final \ttbar\ background shape in the $4/3b$ signal region.
+Because the $4/3b$ \ttbar\ \mtwoJ~ distribution is statistically limited, the $2bs$ \ttbar\ \mtwoJ~ shape is used to predict the final \ttbar\ background shape in the $4/3b$ signal region.
 In order to estimate the possible shape uncertainty, the $2bs$ and $3b$ sideband shapes are normalized and compared in Figure~\ref{fig:ttbar-shapes-signal}.  
 In order to avoid large statistical uncertainties, the distributions of the $3b$ and $2b$ are smoothed. 
 The ratio of the two smoothed distributions is taken as the shape systematic. 
@@ -372,7 +378,7 @@ This ratio is used to apply a bin-by-bin scaling of the \ttbar\ background predi
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_Smooth/TopShapeSRSysfitSmooth_sig33_comp22.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_Smooth/TopShapeSRSysfitSmooth_sig33_comp22_ratio.pdf}
 \caption{The shape of \ttbar~ \mtwoJ~ in the sideband region,
-comparing the $3b$ shape with that of the $2bs$, in order to asses the systematic effect of additional $b$-tags changing the dijet mass distribution.  The \mtwoJ~ distributions is shown on the left, and the ratio of $3b$ to $2bs$ distributions on the right.}
+comparing the $3b$ shape with that of the $2bs$, in order to assess the systematic effect of additional $b$-tags changing the dijet mass distribution.  The \mtwoJ~ distributions is shown on the left, and the ratio of $3b$ to $2bs$ distributions on the right.}
 \label{fig:ttbar-shapes-signal}
 \end{center}
 \end{figure}
@@ -382,8 +388,8 @@ comparing the $3b$ shape with that of the $2bs$, in order to asses the systemati
 \label{unc-shape-qcd-in-sr}
 
 \paragraph{}
-As shown in Figures~\ref{fig:boosted-cr-mjj}, the shape of the total predicted background distribution is found to be in good agreement with the $4b$, $3b$, and $2bs$ data in the control region. 
-However due to the low statistics in the high \mtwoJ mass bins, there are statistical fluctuations that cannot be ignored. 
+As shown in Figure~\ref{fig:boosted-cr-mjj}, the shape of the total predicted background distribution is found to be in good agreement with the $4b$, $3b$, and $2bs$ data in the control region. 
+However due to the low statistics in the high \mtwoJ~ mass bins, there are statistical fluctuations that cannot be ignored. 
 A comparison is performed by first smoothing the prediction and the data distribution in the control region. 
 The ratio of the smoothed QCD distributions to that of the smoothed $4/3/2bs$ data distributions is taken as the shape systematic. 
 This ratio is then used to apply a bin-by-bin scaling of the QCD background prediction in the signal region, maintaining the same normalization given by \muqcd.  
@@ -408,7 +414,7 @@ This uncertainty is applied for both the \mtwoJ, and the scaled \mtwoJ~ distribu
 \label{unc-smooth-qcd-in-sr}
 
 \paragraph{}
-A specific function has been used to fit the QCD background prediction in order to smooth the distribution and provide non-zero background estimates up to dijet masses beyond enough statistics.  
+A specific function has been used to fit the QCD background prediction in order to smooth the distribution and provide non-zero background estimates up to dijet masses.  
 While this distribution is observed to fit the predicted signal region \mtwoJ~ well, it does not have a concrete physical motivation, and in principle the high mass tail of the distribution could be larger than predicted.
 Two checks are performed, changing the boundaries where the fit is performed, and changing the fit function.
 The checks shows the smoothing function range and form variations are almost always smaller than the statistical uncertainties of the distributions.
@@ -438,7 +444,7 @@ Fits in which the fit $\chi^2$ probability was less than $0.001\%$, or in which 
 \end{figure}
 
 \paragraph{}
-The signal region QCD prediction is also fitted with a variety of other distributions which can show both power law behavior in the bulk of the distribution. 
+The signal region QCD prediction is also fit with a variety of other distributions which have power law behavior in the bulk of the distribution. 
 The set of additional functions examined (labeled MJ1-MJ7) can be found in Table~\ref{tab:fit_funcs}, where $x = m_{JJ} / \sqrt{s}$.
 
 \begin{table}[htbp!]
@@ -463,7 +469,7 @@ MJ8 & $f_{8}(x) = \frac{p_0}{x^2} (1-x)^{p_1 - p_2\ ln\ x}$ \\
 
 \paragraph{}
 Figure~\ref{fig:qcd_fit_funcs_sys} shows the fits to the QCD prediction in the $4/3/2bs$ signal regions, and the nominal dijet fit, as well as the ratios of the nominal fit to that of the additional functions.
-As before, poor fits are not used to estimate the uncertainty..
+As before, poor fits are not used to estimate the uncertainty.
 
 \begin{figure}[htbp!]
 \begin{center}
@@ -485,29 +491,29 @@ As before, poor fits are not used to estimate the uncertainty..
 \label{sec:boosted-systematics-numbers}
 
 \paragraph{}
-Table~\ref{tab:summary-systematics-4b} shows the percent impact of systematics used in the boosted analysis on the backgrounds yields and on the expected yields for RSG $c=1.0$ signals in the $4b$ signal region.
-The correspondent values are shown for the $3b$ signal region in Table ~\ref{tab:summary-systematics-3b}, and are shown for the $2bs$ signal region in Table ~\ref{tab:summary-systematics-2b}.
+Table~\ref{tab:summary-systematics-4b} shows the percent impact of systematics used in the boosted analysis on the predicted signal and background yields in the $4b$ signal region.
+The corresponding values are shown for the $3b$ signal region in Table ~\ref{tab:summary-systematics-3b}, and are shown for the $2bs$ signal region in Table ~\ref{tab:summary-systematics-2b}.
 The systematics that have no impact the yield are not listed. 
 These are uncertainties on the shape of the QCD and \ttbar~ backgrounds in the signal region.
 
 \paragraph{}
-The ``Background Normalization Fit'' uncertainty comes from summing in quadrature the independent uncertainty components calculated from the correlated statistical errors of \muqcd and \alphatt. 
-The ``QCD Non-Closure in CR'' systematic is derived as the maximum of the difference between the predicted and observed $4b/3b/2bs$ QCD yields in the control region, or the fractional change in SR predictions from varying the CR and SB definitions.
-Both options gave similar sized uncertainties, but the uncertainty from the CR/SB variations was found to be larger. 
+The background normalization fit' uncertainty comes from summing in quadrature the independent uncertainty components calculated from the correlated statistical errors of \muqcd~ and \alphatt. 
+The QCD non-closure uncertainty is derived as the maximum of the difference between the predicted and observed $4b/3b/2bs$ QCD yields in the control region, or the fractional change in SR predictions from varying the CR and SB definitions.
+Both options gave similar sized uncertainties. 
 All these uncertainties are summed in quadrature and shown in the ``Bkg Est'' row in the table.
 
 \paragraph{}
-The size of the Monte Carlo modeling systematics on the \Grav with $c=1.0$ yield as a function of the signal mass can be found in Figure~\ref{fig:signal_syst_summary}. 
+The size of the Monte Carlo modeling systematics on the \Grav~ with $c=1.0$ yield as a function of the signal mass can be found in Figure~\ref{fig:signal_syst_summary}. 
 These uncertainties have a similar impact on the other signals. 
 The largest uncertainty in the $4b$ and $2b$ signal region is from $b$-tagging, followed by the JMR uncertainty.
-In the $3b$ signal region, although $b$-tagging systematics is still one of the largest uncertainty, it has been much reduced compared to $4b$ region, as discussed in Section~\ref{sec:b-tagging-unc}. 
+In the $3b$ signal region, although $b$-tagging systematics is still one of the largest uncertainties, it is much reduced compared to $4b$ region, as discussed in Section~\ref{sec:b-tagging-unc}. 
 
 \begin{figure}[htbp!]
 \begin{center}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_MC/FourTag_RSG_syst.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_MC/ThreeTag_RSG_syst.pdf}
 \includegraphics[width=0.31\textwidth,angle=-90]{figures/boosted/Syst_MC/TwoTag_split_RSG_syst.pdf}
-\caption{Impact of each systematic on the signal prediction as a function of the signal mass, in the $4b$ (left) and $3b$ (middle) and $2bs$ signal regions.}
+\caption{Impact of each systematic on the signal prediction as a function of the signal mass, in the $4b$ (left) and $3b$ (middle) and $2bs$ (right) signal regions.}
 \label{fig:signal_syst_summary}
 \end{center}
 \end{figure}
@@ -516,7 +522,7 @@ In the $3b$ signal region, although $b$-tagging systematics is still one of the 
 \scriptsize
 \begin{center}
 \caption{Percent impact of the dominant systematics on the background acceptance
-         and on the signal acceptance of \Grav with $c=1.0$ in the $4b$ signal region.}
+         and on the signal acceptance of \Grav~ with $c=1.0$ in the $4b$ signal region.}
 \input{figures/boosted/tables/FourTag_fullsyst.tex}
 \label{tab:summary-systematics-4b}
 \end{center}
@@ -526,7 +532,7 @@ In the $3b$ signal region, although $b$-tagging systematics is still one of the 
 \scriptsize
 \begin{center}
 \caption{Percent impact of the dominant systematics on the background acceptance
-         and on the signal acceptance of \Grav with $c=1.0$ in the $3b$ signal region.}
+         and on the signal acceptance of \Grav~ with $c=1.0$ in the $3b$ signal region.}
 \input{figures/boosted/tables/ThreeTag_fullsyst.tex}
 \label{tab:summary-systematics-3b}
 \end{center}
@@ -536,7 +542,7 @@ In the $3b$ signal region, although $b$-tagging systematics is still one of the 
 \scriptsize
 \begin{center}
 \caption{Percent impact of the dominant systematics on the background acceptance
-         and on the signal acceptance of \Grav with $c=1.0$ in the $2bs$ signal region.}
+         and on the signal acceptance of \Grav~ with $c=1.0$ in the $2bs$ signal region.}
 \input{figures/boosted/tables/TwoTag_split_fullsyst.tex}
 \label{tab:summary-systematics-2b}
 \end{center}
