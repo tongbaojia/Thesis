@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  10 MAY 2018 16:25
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  10 MAY 2018 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1305,35 +1305,35 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
 
 ]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 207.
+(Font)              scaled to size 9.35316pt on input line 206.
 
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 207.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 206.
 
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 207.
+(Font)              scaled to size 8.0pt on input line 206.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 207.
+(Font)              scaled to size 6.0pt on input line 206.
 [5]
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/sc' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 264.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 263.
 
 
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 264.
+(Font)              scaled to size 10.25006pt on input line 263.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/sc' will be
-(Font)              scaled to size 10.25006pt on input line 264.
+(Font)              scaled to size 10.25006pt on input line 263.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 10.25006pt on input line 264.
+(Font)              scaled to size 10.25006pt on input line 263.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 264.
+(Font)              scaled to size 8.0pt on input line 263.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 6.0pt on input line 264.
+(Font)              scaled to size 6.0pt on input line 263.
 
-Overfull \hbox (11.92198pt too wide) in paragraph at lines 276--276
+Overfull \hbox (11.92198pt too wide) in paragraph at lines 275--275
  [][] [][]\EU1/EBGaramond(2)/m/sc/12 Appendix []Effects on yield prediction fro
 m variations of the sideband 
  []
@@ -4208,7 +4208,7 @@ Chapter 6.
 
 
 ] [64]
-Overfull \hbox (4.12326pt too wide) in paragraph at lines 74--78
+Overfull \hbox (4.12326pt too wide) in paragraph at lines 73--77
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 The definitions of the sideband region, c
 ontrol region, and signal region in the 2D $[][]$-$[][]$plane 
  []
@@ -4221,21 +4221,21 @@ File: figures/boosted/SigEff/region_2b_lst_Moriond_Efficiency_PreSel.pdf Graphi
 c file (type QTm)
 
 <use  "figures/boosted/SigEff/region_2b_lst_Moriond_Efficiency_PreSel.pdf" >
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 129--130
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 128--129
 [][] 
  []
 
 File: figures/boosted/SigEff/region_3b_lst_Moriond_Efficiency_PreSel.pdf Graphi
 c file (type QTm)
 <use  "figures/boosted/SigEff/region_3b_lst_Moriond_Efficiency_PreSel.pdf" >
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 135--136
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 134--135
 [][] 
  []
 
 File: figures/boosted/SigEff/region_4b_lst_Moriond_Efficiency_PreSel.pdf Graphi
 c file (type QTm)
 <use  "figures/boosted/SigEff/region_4b_lst_Moriond_Efficiency_PreSel.pdf" >
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 140--141
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 139--140
 [][] 
  []
 
@@ -4244,50 +4244,50 @@ aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/region_alltag_lst_Moriond_Efficiency_PreSel.pdf" 
 >
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 146--147
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 145--146
 [][] 
  []
 
 [67] [68]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 215.
+(hyperref)                removing `math shift' on input line 214.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathaccent' on input line 215.
+(hyperref)                removing `\mathaccent' on input line 214.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 215.
+(hyperref)                removing `math shift' on input line 214.
 
 [69]
 File: figures/boosted/Other/ttbar_compare_mHH_l.pdf Graphic file (type QTm)
  <use  "figures/boosted/Other/ttbar_compare_mHH_l.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 242--243
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 241--242
 [][] 
  []
 
 File: figures/boosted/Other/ttbar_compare_mHH_l_1.pdf Graphic file (type QTm)
 <use  "figures/boosted/Other/ttbar_compare_mHH_l_1.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 248--249
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 247--248
 [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 262.
+(hyperref)                removing `math shift' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathaccent' on input line 262.
+(hyperref)                removing `\mathaccent' on input line 261.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 262.
+(hyperref)                removing `math shift' on input line 261.
 
 [70]
-Overfull \hbox (3.07831pt too wide) in paragraph at lines 295--300
+Overfull \hbox (3.07831pt too wide) in paragraph at lines 294--299
 \EU1/EBGaramond(2)/bx/n/10.95 sharp fall around $[][][]$ GeV  are due to the si
 deband region mass cut on $[][]$. The dip in the $[][]$  dis- 
  []
@@ -4295,24 +4295,24 @@ deband region mass cut on $[][]$. The dip in the $[][]$  dis-
 [71]
 File: figures/boosted/Fit/fitNorm_i4.pdf Graphic file (type QTm)
  <use  "figures/boosted/Fit/fitNorm_i4.pdf" >
-Overfull \hbox (59.41103pt too wide) in paragraph at lines 306--307
+Overfull \hbox (59.41103pt too wide) in paragraph at lines 305--306
 [][] 
  []
 
 File: figures/boosted/Fit/fitNorm_i3.pdf Graphic file (type QTm)
 <use  "figures/boosted/Fit/fitNorm_i3.pdf" >
-Overfull \hbox (59.41103pt too wide) in paragraph at lines 312--313
+Overfull \hbox (59.41103pt too wide) in paragraph at lines 311--312
 [][] 
  []
 
 File: figures/boosted/Fit/fitNorm_i2s.pdf Graphic file (type QTm)
 <use  "figures/boosted/Fit/fitNorm_i2s.pdf" >
-Overfull \hbox (59.41103pt too wide) in paragraph at lines 319--320
+Overfull \hbox (59.41103pt too wide) in paragraph at lines 318--319
 [][] 
  []
 
 
-Overfull \hbox (6.18587pt too wide) in paragraph at lines 328--333
+Overfull \hbox (6.18587pt too wide) in paragraph at lines 327--332
 \EU1/EBGaramond(2)/bx/n/10.95 to be $[]$. Once the first fit is done, the QCD b
 ackground is re-estimated using the updated $[][][]$ $[][]$ value, 
  []
@@ -4323,7 +4323,7 @@ phic file (type QTm)
 
 <use  "figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk0_Pt_1.pdf" >
 
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 374--375
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 373--374
 [][] 
  []
 
@@ -4332,7 +4332,7 @@ phic file (type QTm)
 
 <use  "figures/boosted/Prereweight/2bs_directcompare_leadHCand_trk1_Pt_1.pdf" >
 
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 380--381
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 379--380
 [][] 
  []
 
@@ -4341,7 +4341,7 @@ phic file (type QTm)
 
 <use  "figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk0_Pt_1.pdf" >
 
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 385--386
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 384--385
 [][] 
  []
 
@@ -4350,7 +4350,7 @@ phic file (type QTm)
 
 <use  "figures/boosted/Prereweight/2bs_directcompare_sublHCand_trk1_Pt_1.pdf" >
 
-Overfull \hbox (5.1373pt too wide) in paragraph at lines 391--392
+Overfull \hbox (5.1373pt too wide) in paragraph at lines 390--391
 [][] 
  []
 
@@ -4362,13 +4362,13 @@ n;language=DFLT;!
  (./figures/boosted/tables/normfit.tex) [76]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 482.
+(hyperref)                removing `subscript' on input line 481.
 
 File: figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf Grap
 hic file (type QTm)
 
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Sideband_mHH_l_1.pdf" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 495--496
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 494--495
 [][] 
  []
 
@@ -4377,7 +4377,7 @@ phic file (type QTm)
 
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Sideband_mHH_l_1.pdf" >
 
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 501--502
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 500--501
 [][] 
  []
 
@@ -4386,7 +4386,7 @@ File: figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pdf
 
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Sideband_mHH_l_1.pd
 f" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 507--508
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 506--507
 [][] 
  []
 
@@ -4395,12 +4395,12 @@ Overfull \hbox (57.18149pt too wide) in paragraph at lines 507--508
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 522.
+(hyperref)                removing `subscript' on input line 521.
 
 File: figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Control_mHH_l_1.pdf Graph
 ic file (type QTm)
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_FourTag_Control_mHH_l_1.pdf" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 535--536
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 534--535
 [][] 
  []
 
@@ -4408,7 +4408,7 @@ File: figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Control_mHH_l_1.pdf Grap
 hic file (type QTm)
 
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_ThreeTag_Control_mHH_l_1.pdf" >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 541--542
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 540--541
 [][] 
  []
 
@@ -4417,13 +4417,13 @@ Graphic file (type QTm)
 
 <use  "figures/boosted/Paperplot/Moriond_bkg_9_TwoTag_split_Control_mHH_l_1.pdf
 " >
-Overfull \hbox (57.18149pt too wide) in paragraph at lines 547--548
+Overfull \hbox (57.18149pt too wide) in paragraph at lines 546--547
 [][] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 561.
+(hyperref)                removing `subscript' on input line 560.
 
 [78
 

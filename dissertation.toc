@@ -137,7 +137,6 @@
 \contentsline {paragraph}{}{63}{section.6.1}
 \contentsline {paragraph}{}{64}{section.6.1}
 \contentsline {paragraph}{}{64}{section.6.1}
-\contentsline {paragraph}{}{64}{section.6.1}
 \contentsline {section}{\numberline {6.2}Definition of the sideband and control regions}{65}{section.6.2}
 \contentsline {paragraph}{}{65}{section.6.2}
 \contentsline {paragraph}{}{65}{equation.6.2.1}
