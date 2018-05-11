@@ -1,5 +1,5 @@
-\contentsline {paragraph}{}{xxviii}{chapter*.5}
-\contentsline {paragraph}{}{xxviii}{chapter*.5}
+\contentsline {paragraph}{}{xxix}{chapter*.5}
+\contentsline {paragraph}{}{xxix}{chapter*.5}
 \contentsline {chapter}{\numberline {0}Introduction}{1}{chapter.0}
 \contentsline {paragraph}{}{1}{chapter.0}
 \contentsline {paragraph}{}{2}{chapter.0}
@@ -238,47 +238,47 @@
 \contentsline {chapter}{Appendix \numberline {A}Boosted sideband region kinematic distributions}{113}{Appendix.1.A}
 \contentsline {paragraph}{}{113}{Appendix.1.A}
 \contentsline {paragraph}{}{114}{Appendix.1.A}
-\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{126}{Appendix.1.B}
-\contentsline {paragraph}{}{126}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{127}{Appendix.1.B}
 \contentsline {paragraph}{}{127}{Appendix.1.B}
-\contentsline {chapter}{Appendix \numberline {C}Boosted signal region kinematic distributions}{139}{Appendix.1.C}
-\contentsline {paragraph}{}{139}{Appendix.1.C}
+\contentsline {paragraph}{}{128}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {C}Boosted signal region kinematic distributions}{140}{Appendix.1.C}
 \contentsline {paragraph}{}{140}{Appendix.1.C}
-\contentsline {paragraph}{}{140}{table.caption.133}
-\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{154}{Appendix.1.D}
-\contentsline {paragraph}{}{154}{Appendix.1.D}
-\contentsline {paragraph}{}{157}{figure.caption.150}
-\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{161}{Appendix.1.E}
-\contentsline {paragraph}{}{161}{Appendix.1.E}
+\contentsline {paragraph}{}{141}{Appendix.1.C}
+\contentsline {paragraph}{}{141}{table.caption.133}
+\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{155}{Appendix.1.D}
+\contentsline {paragraph}{}{155}{Appendix.1.D}
+\contentsline {paragraph}{}{156}{figure.caption.150}
+\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{162}{Appendix.1.E}
 \contentsline {paragraph}{}{162}{Appendix.1.E}
-\contentsline {paragraph}{}{162}{figure.caption.161}
-\contentsline {paragraph}{}{162}{figure.caption.167}
-\contentsline {paragraph}{}{175}{figure.caption.167}
-\contentsline {paragraph}{}{175}{figure.caption.167}
+\contentsline {paragraph}{}{163}{Appendix.1.E}
+\contentsline {paragraph}{}{163}{figure.caption.161}
+\contentsline {paragraph}{}{163}{figure.caption.167}
 \contentsline {paragraph}{}{176}{figure.caption.167}
-\contentsline {paragraph}{}{176}{figure.caption.171}
-\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{183}{Appendix.1.F}
-\contentsline {paragraph}{}{183}{Appendix.1.F}
+\contentsline {paragraph}{}{176}{figure.caption.167}
+\contentsline {paragraph}{}{177}{figure.caption.167}
+\contentsline {paragraph}{}{177}{figure.caption.171}
+\contentsline {chapter}{Appendix \numberline {F}Validations with low mass and high mass signal region}{184}{Appendix.1.F}
 \contentsline {paragraph}{}{184}{Appendix.1.F}
-\contentsline {paragraph}{}{184}{Appendix.1.F}
-\contentsline {paragraph}{}{185}{Appendix.1.F}
-\contentsline {paragraph}{}{189}{figure.caption.180}
-\contentsline {paragraph}{}{192}{table.caption.187}
-\contentsline {paragraph}{}{195}{table.caption.194}
-\contentsline {paragraph}{}{198}{table.caption.201}
-\contentsline {paragraph}{}{198}{table.caption.204}
-\contentsline {chapter}{Appendix \numberline {G}Discussions on systematic uncertainties}{202}{Appendix.1.G}
-\contentsline {section}{\numberline {G.1}Uncertainty on $t\mathaccent "7016\relax {t}$\nobreakspace {} generator}{202}{section.1.G.1}
-\contentsline {paragraph}{}{202}{section.1.G.1}
-\contentsline {section}{\numberline {G.2}Uncertainty on the shape of $t\mathaccent "7016\relax {t}$\nobreakspace {} \ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the $4/3b$ signal region}{203}{section.1.G.2}
-\contentsline {paragraph}{}{203}{section.1.G.2}
-\contentsline {section}{\numberline {G.3}Uncertainty on smoothing function in the signal region}{204}{section.1.G.3}
-\contentsline {paragraph}{}{204}{section.1.G.3}
-\contentsline {paragraph}{}{204}{section.1.G.3}
-\contentsline {paragraph}{}{205}{section.1.G.3}
-\contentsline {paragraph}{}{206}{figure.caption.209}
-\contentsline {paragraph}{}{206}{table.caption.210}
-\contentsline {chapter}{Appendix \numberline {H}Validations with low mass and high mass signal region}{208}{Appendix.1.H}
-\contentsline {paragraph}{}{208}{Appendix.1.H}
-\contentsline {paragraph}{}{210}{figure.caption.212}
-\contentsline {chapter}{References}{213}{figure.caption.216}
+\contentsline {paragraph}{}{186}{figure.caption.174}
+\contentsline {chapter}{Appendix \numberline {G}Discussion on systematic uncertainties}{189}{Appendix.1.G}
+\contentsline {section}{\numberline {G.1}Uncertainty on $t\mathaccent "7016\relax {t}$\nobreakspace {} generator}{189}{section.1.G.1}
+\contentsline {paragraph}{}{189}{section.1.G.1}
+\contentsline {section}{\numberline {G.2}Uncertainty on the shape of $t\mathaccent "7016\relax {t}$\nobreakspace {} \ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the $4/3b$ signal region}{190}{section.1.G.2}
+\contentsline {paragraph}{}{190}{section.1.G.2}
+\contentsline {section}{\numberline {G.3}Uncertainty on smoothing function in the signal region}{191}{section.1.G.3}
+\contentsline {paragraph}{}{191}{section.1.G.3}
+\contentsline {paragraph}{}{191}{section.1.G.3}
+\contentsline {paragraph}{}{192}{section.1.G.3}
+\contentsline {paragraph}{}{193}{figure.caption.181}
+\contentsline {paragraph}{}{193}{table.caption.182}
+\contentsline {chapter}{Appendix \numberline {H}Effects from variations in the sideband and control region definitions}{195}{Appendix.1.H}
+\contentsline {paragraph}{}{195}{Appendix.1.H}
+\contentsline {paragraph}{}{196}{Appendix.1.H}
+\contentsline {paragraph}{}{196}{Appendix.1.H}
+\contentsline {paragraph}{}{196}{Appendix.1.H}
+\contentsline {paragraph}{}{201}{figure.caption.190}
+\contentsline {paragraph}{}{204}{table.caption.197}
+\contentsline {paragraph}{}{207}{table.caption.204}
+\contentsline {paragraph}{}{210}{table.caption.211}
+\contentsline {paragraph}{}{210}{table.caption.214}
+\contentsline {chapter}{References}{214}{figure.caption.216}
