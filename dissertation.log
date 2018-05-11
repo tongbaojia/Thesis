@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  10 MAY 2018 21:45
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  11 MAY 2018 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1346,43 +1346,43 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 (./dissertation.toc
 
 LaTeX Font Warning: Font shape `EU1/EBGaramond(2)/bx/n' undefined
-(Font)              using `EU1/EBGaramond(2)/m/n' instead on input line 2.
+(Font)              using `EU1/EBGaramond(2)/m/n' instead on input line 3.
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
+(Font)              scaled to size 10.95pt on input line 3.
 [4
 
 ]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 206.
+(Font)              scaled to size 9.35316pt on input line 207.
 
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/it' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 206.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 207.
 
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 206.
+(Font)              scaled to size 8.0pt on input line 207.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 206.
+(Font)              scaled to size 6.0pt on input line 207.
 [5]
 
 LaTeX Font Warning: Font shape `EU1/SourceCodePro(0)/m/sc' undefined
-(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 264.
+(Font)              using `EU1/SourceCodePro(0)/m/n' instead on input line 265.
 
 
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 264.
+(Font)              scaled to size 10.25006pt on input line 265.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/sc' will be
-(Font)              scaled to size 10.25006pt on input line 264.
+(Font)              scaled to size 10.25006pt on input line 265.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 10.25006pt on input line 264.
+(Font)              scaled to size 10.25006pt on input line 265.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 264.
+(Font)              scaled to size 8.0pt on input line 265.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/sc' will be
-(Font)              scaled to size 6.0pt on input line 264.
+(Font)              scaled to size 6.0pt on input line 265.
 
-Overfull \hbox (11.92198pt too wide) in paragraph at lines 276--276
+Overfull \hbox (11.92198pt too wide) in paragraph at lines 277--277
  [][] [][]\EU1/EBGaramond(2)/m/sc/12 Appendix []Effects on yield prediction fro
 m variations of the sideband 
  []
@@ -3692,7 +3692,7 @@ the statistical uncertainty is shown. Mass
 
 
 ]
-Overfull \hbox (2.7698pt too wide) in paragraph at lines 19--20
+Overfull \hbox (2.7698pt too wide) in paragraph at lines 23--25
 []\EU1/EBGaramond(2)/m/sc/10.95 ATLAS di-Higgs to $[][]$ group\EU1/EBGaramond(2
 )/bx/n/10.95 . Thanks to Mel Shochet for his support. Thanks to Michael 
  []
@@ -3781,43 +3781,43 @@ Chapter 1.
 File: figures/theory/SM.png Graphic file (type QTm)
 <use  "figures/theory/SM.png" >
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 12.0pt on input line 22.
+(Font)              scaled to size 12.0pt on input line 23.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 9.5907pt on input line 22.
+(Font)              scaled to size 9.5907pt on input line 23.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 7.99225pt on input line 22.
+(Font)              scaled to size 7.99225pt on input line 23.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 9.71375pt on input line 22.
+(Font)              scaled to size 9.71375pt on input line 23.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.09479pt on input line 22.
+(Font)              scaled to size 8.09479pt on input line 23.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 5.66635pt on input line 22.
+(Font)              scaled to size 5.66635pt on input line 23.
  [4
 
 
 
 ] [5]
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/bx/n' will be
-(Font)              scaled to size 9.35316pt on input line 53.
+(Font)              scaled to size 9.35316pt on input line 54.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 53.
+(Font)              scaled to size 8.0pt on input line 54.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/bx/n' will be
-(Font)              scaled to size 6.0pt on input line 53.
+(Font)              scaled to size 6.0pt on input line 54.
 File: figures/theory/SM_HH_box.pdf Graphic file (type QTm)
  <use  "figures/theory/SM_HH_box.pdf" >
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/bx/n' will be
-(Font)              scaled to size 8.7515pt on input line 90.
+(Font)              scaled to size 8.7515pt on input line 91.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.86378pt on input line 90.
+(Font)              scaled to size 8.86378pt on input line 91.
 File: figures/theory/SM_HH_tri.pdf Graphic file (type QTm)
 
 <use  "figures/theory/SM_HH_tri.pdf" >
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 8.54172pt on input line 99.
+(Font)              scaled to size 8.54172pt on input line 100.
 LaTeX Font Info:    Font shape `EU1/SourceCodePro(0)/m/it' will be
-(Font)              scaled to size 8.54172pt on input line 99.
+(Font)              scaled to size 8.54172pt on input line 100.
 LaTeX Font Info:    Font shape `EU1/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 4.0474pt on input line 99.
+(Font)              scaled to size 4.0474pt on input line 100.
  [6]
 File: figures/theory/SM_HH_VBF.png Graphic file (type QTm)
 
@@ -3825,7 +3825,7 @@ File: figures/theory/SM_HH_VBF.png Graphic file (type QTm)
 File: figures/theory/HH_xsec.png Graphic file (type QTm)
  <use  "figures/theory/HH_xsec.png" >
 [7]
-Overfull \hbox (5.58705pt too wide) in paragraph at lines 144--146
+Overfull \hbox (5.58705pt too wide) in paragraph at lines 145--147
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 The SM has had many successful experiment
 al predictions, yet the Higgs boson mass at $[][][]$ GeV  re- 
  []
@@ -4004,26 +4004,26 @@ File: figures/resolved/extra_plots/trigEff_2015_NWS_passSignal_HLT.pdf Graphic
 file (type QTm)
 
 <use  "figures/resolved/extra_plots/trigEff_2015_NWS_passSignal_HLT.pdf" >
-Overfull \hbox (55.44446pt too wide) in paragraph at lines 36--37
+Overfull \hbox (55.44446pt too wide) in paragraph at lines 37--38
 [][] 
  []
 
 File: figures/resolved/extra_plots/trigEff_2016_NWS_passSignal_HLT.pdf Graphic 
 file (type QTm)
 <use  "figures/resolved/extra_plots/trigEff_2016_NWS_passSignal_HLT.pdf" >
-Overfull \hbox (55.44446pt too wide) in paragraph at lines 42--43
+Overfull \hbox (55.44446pt too wide) in paragraph at lines 43--44
 [][] 
  []
 
 [40]
-Overfull \hbox (4.75957pt too wide) in paragraph at lines 60--60
+Overfull \hbox (4.75957pt too wide) in paragraph at lines 61--61
 \EU1/EBGaramond(2)/bx/n/10.95 The ATLAS off-line software 20.7.8.7 derivation c
 ache is used, with version $[]$-tags \EU1/EBGaramond(2)/m/it/10.95 p2950\EU1/EB
 Garamond(2)/bx/n/10.95 . The boosted 
  []
 
 [41]
-Overfull \hbox (9.21205pt too wide) in paragraph at lines 101--107
+Overfull \hbox (9.21205pt too wide) in paragraph at lines 102--108
 [] [][] \EU1/EBGaramond(2)/bx/n/10.95 Signal 2HDM Scalar $\OMS/cmsy/m/n/10.95 !
   [][]  !  [][][][]$ \EU1/EBGaramond(2)/bx/n/10.95 events were generated at LO 
 in QCD with \EU1/SourceCodePro(0)/m/it/10.95 MG5_aMC@NLO \EU1/EBGaramond(2)/bx/
@@ -4031,7 +4031,7 @@ n/10.95 2.2.3
  []
 
 [42]
-Overfull \hbox (11.14565pt too wide) in paragraph at lines 117--123
+Overfull \hbox (11.14565pt too wide) in paragraph at lines 118--124
 \EU1/EBGaramond(2)/bx/n/10.95 both been generated with  \EU1/EBGaramond(2)/m/sc
 /10.95 Powheg-box \EU1/EBGaramond(2)/bx/n/10.95 v1$[]$ using the CT10 PDF set. 
 The parton shower, hadroniza- 
@@ -4041,6 +4041,11 @@ The parton shower, hadroniza-
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+[]\EU1/EBGaramond(2)/m/it/10 A finely crafted blade will never meet as many blo
+ws on
+ []
+
 Chapter 5.
 File: figures/theory/JiveXML_282712_595661746-YX-2018-04-16-20-50-34.png Graphi
 c file (type QTm)
@@ -4053,14 +4058,14 @@ c file (type QTm)
 File: figures/boosted/Trigger/app_trig_b77_Efficiency_PreSel.pdf Graphic file (
 type QTm)
  <use  "figures/boosted/Trigger/app_trig_b77_Efficiency_PreSel.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 50--51
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 51--52
 [][] 
  []
 
 File: figures/boosted/Trigger/app_trig_b77_Efficiency_All.pdf Graphic file (typ
 e QTm)
 <use  "figures/boosted/Trigger/app_trig_b77_Efficiency_All.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 56--57
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 57--58
 [][] 
  []
 
@@ -4068,14 +4073,14 @@ Overfull \hbox (5.78221pt too wide) in paragraph at lines 56--57
 File: figures/boosted/Trigger/trig_15_b77_pT_Efficiency.pdf Graphic file (type 
 QTm)
  <use  "figures/boosted/Trigger/trig_15_b77_pT_Efficiency.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 84--85
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
 File: figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf Graphic file (type 
 QTm)
 <use  "figures/boosted/Trigger/trig_16_b77_pT_Efficiency.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 90--91
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 91--92
 [][] 
  []
 
@@ -4130,47 +4135,47 @@ tex-text;+tnum;+smcp;"
 . 
 .................................................
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 106.
+(Font)              scaled to size 12.0pt on input line 107.
 [47]
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 124.
+(Font)              scaled to size 8.0pt on input line 125.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 124.
+(Font)              scaled to size 6.0pt on input line 125.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 124.
+(Font)              scaled to size 12.0pt on input line 125.
 File: figures/boosted/Truth/truth_higgs-matching.pdf Graphic file (type QTm)
  <use  "figures/boosted/Truth/truth_higgs-matching.pdf" >
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 140.
+(Font)              scaled to size 10.0pt on input line 141.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 150.
+(Font)              scaled to size 10.95pt on input line 151.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 150.
+(Font)              scaled to size 10.95pt on input line 151.
  [48] [49]
 File: figures/boosted/Truth/truth_hbdR.pdf Graphic file (type QTm)
 
 <use  "figures/boosted/Truth/truth_hbdR.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 159--160
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 160--161
 [][] 
  []
 
 File: figures/boosted/Truth/truth_hbdR2.pdf Graphic file (type QTm)
 <use  "figures/boosted/Truth/truth_hbdR2.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 165--166
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 166--167
 [][] 
  []
 
 [50]
 File: figures/boosted/Truth/truth_b-matching.pdf Graphic file (type QTm)
  <use  "figures/boosted/Truth/truth_b-matching.pdf" >
-Overfull \hbox (4.73143pt too wide) in paragraph at lines 191--192
+Overfull \hbox (4.73143pt too wide) in paragraph at lines 192--193
 [][] 
  []
 
 File: figures/boosted/Truth/truth_b-matching-sublead.pdf Graphic file (type QTm
 )
 <use  "figures/boosted/Truth/truth_b-matching-sublead.pdf" >
-Overfull \hbox (4.73143pt too wide) in paragraph at lines 197--198
+Overfull \hbox (4.73143pt too wide) in paragraph at lines 198--199
 [][] 
  []
 
@@ -4191,7 +4196,7 @@ File: figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth_
 <use  "figures/boosted/Other/AllTag_Signal_hCandDeta_F_c10-cb-no-deta-cut_truth
 _0.pdf" >
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 253.
+(Font)              scaled to size 10.0pt on input line 254.
  [53]
 File: figures/object/JiveXML_282631_530527390-YX-RZ-YZ-EventInfo-2016-02-29-15-
 48-39.png Graphic file (type QTm)
@@ -4207,32 +4212,32 @@ File: figures/boosted/Truth/Sig_1200_AllTag_Incl_mH0H1.pdf Graphic file (type Q
 Tm)
 
 <use  "figures/boosted/Truth/Sig_1200_AllTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 361--362
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 362--363
 [][] 
  []
 
 File: figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf Graphic file (type Q
 Tm)
 <use  "figures/boosted/Truth/Sig_2000_AllTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 367--368
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 368--369
 [][] 
  []
 
 [56] [57]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 402.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
+(hyperref)                removing `math shift' on input line 402.
 
 File: figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf Gr
 aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/region_lst_Moriond_Efficiency_AllTag_Signal.pdf" 
 >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 410--411
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 411--412
 [][] 
  []
 
@@ -4241,7 +4246,7 @@ aphic file (type QTm)
 
 <use  "figures/boosted/SigEff/detail_lst_Moriond_Efficiency_AllTag_Signal.pdf" 
 >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 416--417
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 417--418
 [][] 
  []
 
@@ -4250,14 +4255,14 @@ File: figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf Graphic file
 (type QTm)
 
 <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 465--466
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 466--467
 [][] 
  []
 
 File: figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel_rel.pdf Graphic f
 ile (type QTm)
 <use  "figures/boosted/SigEff/evtsel_Moriond_Efficiency_PreSel_rel.pdf" >
-Overfull \hbox (5.78221pt too wide) in paragraph at lines 471--472
+Overfull \hbox (5.78221pt too wide) in paragraph at lines 472--473
 [][] 
  []
 
@@ -4269,7 +4274,7 @@ Overfull \hbox (5.78221pt too wide) in paragraph at lines 471--472
 
 (./chapters/chapter6.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
-[]\EU1/EBGaramond(2)/m/it/10 Even in the darkest night. Stars and angels still 
+[]\EU1/EBGaramond(2)/m/it/10 Even in the darkest night, stars and angels still 
 shine
  []
 
@@ -5138,6 +5143,11 @@ Chapter 9.
 \openout2 = `chapters/appendixSB.aux'.
 
  (./chapters/appendixSB.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+[]\EU1/EBGaramond(2)/m/it/10 Have your dreams of a better society become an obs
+es-
+ []
+
 Appendix A.
 [123
 
@@ -5850,17 +5860,22 @@ File: figures/boosted/Signal/b77_TwoTag_split_Signal_hCandDphi.pdf Graphic file
 \openout2 = `chapters/appendixMuqcd.aux'.
 
  (./chapters/appendixMuqcd.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\EU1/EBGaramond(2)/m/it/10 The treasure in my mind is greater than any worldl
+y
+ []
+
 Appendix D.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 2.
+(hyperref)                removing `subscript' on input line 5.
 
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 2.
+(Font)              scaled to size 24.88pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(4)/m/it' will be
-(Font)              scaled to size 24.88pt on input line 2.
+(Font)              scaled to size 24.88pt on input line 5.
 LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 2.
+(Font)              scaled to size 20.74pt on input line 5.
 [164
 
 
@@ -5870,70 +5885,70 @@ LaTeX Font Info:    Font shape `EU1/EBGaramond(2)/m/n' will be
 File: figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1.pdf Graphic file (ty
 pe QTm)
  <use  "figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 20--21
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 23--24
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1_pull.pdf Graphic fil
 e (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/OneTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 26--27
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 29--30
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1.pdf Graphic file (ty
 pe QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 39--40
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 42--43
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1_pull.pdf Graphic fil
 e (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 45--46
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 48--49
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1.pdf Graphic fi
 le (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 58--59
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 61--62
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1_pull.pdf Graph
 ic file (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/TwoTag_split_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 64--65
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 67--68
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1.pdf Graphic file (
 type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 77--78
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1_pull.pdf Graphic f
 ile (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/ThreeTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 83--84
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1.pdf Graphic file (t
 ype QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 96--97
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 99--100
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1_pull.pdf Graphic fi
 le (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/FourTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 102--103
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
@@ -5942,35 +5957,35 @@ File: figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf Graphic file
  (type QTm)
 
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 121--122
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1_pull.pdf Graphic
  file (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_OneTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 127--128
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 130--131
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1.pdf Graphic file
  (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 140--141
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 143--144
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1_pull.pdf Graphic
  file (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 146--147
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 149--150
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1.pdf Graphi
 c file (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 159--160
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 162--163
 [][] 
  []
 
@@ -5979,35 +5994,35 @@ raphic file (type QTm)
 
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_TwoTag_split_Incl_mH0H1_pull.pdf"
  >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 165--166
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 168--169
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1.pdf Graphic fi
 le (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 178--179
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 181--182
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1_pull.pdf Graph
 ic file (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_ThreeTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 184--185
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 187--188
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1.pdf Graphic fil
 e (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 197--198
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 200--201
 [][] 
  []
 
 File: figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1_pull.pdf Graphi
 c file (type QTm)
 <use  "figures/boosted/AppendixMuqcdstudy/QCD_FourTag_Incl_mH0H1_pull.pdf" >
-Overfull \hbox (48.46255pt too wide) in paragraph at lines 203--204
+Overfull \hbox (48.46255pt too wide) in paragraph at lines 206--207
 [][] 
  []
 
@@ -6015,6 +6030,11 @@ Overfull \hbox (48.46255pt too wide) in paragraph at lines 203--204
 \openout2 = `chapters/appendixRW.aux'.
 
  (./chapters/appendixRW.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\EU1/EBGaramond(2)/m/it/10 Those who know only one path to victory can never 
+hope
+ []
+
 Appendix E.
 [171
 
@@ -6418,7 +6438,7 @@ Graphic file (type QTm)
 <use  "figures/boosted/Sideband/b77_TwoTag_split_Sideband_sublHCand_trk0_Pt.pdf
 " >
 
-LaTeX Warning: Float too large for page by 32.80444pt on input line 151.
+LaTeX Warning: Float too large for page by 32.80444pt on input line 154.
 
 File: figures/boosted/Prereweight/Moriond_ThreeTag_Sideband_mHH_l_1.pdf Graphic
  file (type QTm)
@@ -6455,7 +6475,7 @@ hic file (type QTm)
 
 <use  "figures/boosted/Sideband/b77_ThreeTag_Sideband_sublHCand_trk0_Pt.pdf" >
 
-LaTeX Warning: Float too large for page by 32.80444pt on input line 167.
+LaTeX Warning: Float too large for page by 32.80444pt on input line 170.
 
 File: figures/boosted/Prereweight/Moriond_FourTag_Sideband_mHH_l_1.pdf Graphic 
 file (type QTm)
@@ -6491,7 +6511,7 @@ ic file (type QTm)
 
 <use  "figures/boosted/Sideband/b77_FourTag_Sideband_sublHCand_trk0_Pt.pdf" >
 
-LaTeX Warning: Float too large for page by 32.80444pt on input line 183.
+LaTeX Warning: Float too large for page by 32.80444pt on input line 186.
 
 File: figures/boosted/Prereweight/Moriond_TwoTag_split_Control_mHH_l_1.pdf Grap
 hic file (type QTm)
@@ -6531,7 +6551,7 @@ aphic file (type QTm)
 <use  "figures/boosted/Control/b77_TwoTag_split_Control_sublHCand_trk0_Pt.pdf" 
 >
 
-LaTeX Warning: Float too large for page by 32.80444pt on input line 199.
+LaTeX Warning: Float too large for page by 32.80444pt on input line 202.
 
 File: figures/boosted/Prereweight/Moriond_ThreeTag_Control_mHH_l_1.pdf Graphic 
 file (type QTm)
@@ -6567,7 +6587,7 @@ c file (type QTm)
 
 <use  "figures/boosted/Control/b77_ThreeTag_Control_sublHCand_trk0_Pt.pdf" >
 
-LaTeX Warning: Float too large for page by 32.80444pt on input line 215.
+LaTeX Warning: Float too large for page by 32.80444pt on input line 218.
 
 File: figures/boosted/Prereweight/Moriond_FourTag_Control_mHH_l_1.pdf Graphic f
 ile (type QTm)
@@ -6603,7 +6623,7 @@ File: figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf Graphic
 
 <use  "figures/boosted/Control/b77_FourTag_Control_sublHCand_trk0_Pt.pdf" >
 
-LaTeX Warning: Float too large for page by 32.80444pt on input line 231.
+LaTeX Warning: Float too large for page by 32.80444pt on input line 234.
 
 [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183]
 [184] [185]
@@ -6868,7 +6888,7 @@ _1.pdf Graphic file (type QTm)
 <use  "figures/boosted/AppendixReweight/Compare/Dijet_Signal_directcompare_mHH_
 l_1.pdf" >
 
-LaTeX Warning: Float too large for page by 3.17877pt on input line 363.
+LaTeX Warning: Float too large for page by 3.17877pt on input line 366.
 
 [186] [187] [188] [189] [190] [191] [192])
 \openout2 = `chapters/appendixSysVar.aux'.
@@ -6876,13 +6896,13 @@ LaTeX Warning: Float too large for page by 3.17877pt on input line 363.
  (./chapters/appendixSysVar.tex
 Appendix F.
 
-Overfull \hbox (5.49321pt too wide) in paragraph at lines 6--9
+Overfull \hbox (5.49321pt too wide) in paragraph at lines 9--12
 \EU1/EBGaramond(2)/bx/n/10.95 different control region and sideband region is t
 ested. All these tests are done on the control/sideband 
  []
 
 
-Overfull \hbox (1.1059pt too wide) in paragraph at lines 6--9
+Overfull \hbox (1.1059pt too wide) in paragraph at lines 9--12
 \EU1/EBGaramond(2)/bx/n/10.95 regions after the full reweighting procedure as d
 escribed in [][]6.6[][], while applying the nominal reweight- 
  []
@@ -6897,117 +6917,117 @@ File: figures/boosted/Syst_CRSB/CR_Low_Sideband_OneTag_mH0H1.pdf Graphic file (
 type QTm)
 
 <use  "figures/boosted/Syst_CRSB/CR_Low_Sideband_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 40--41
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 43--44
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/CR_Low_Control_OneTag_mH0H1.pdf Graphic file (t
 ype QTm)
 <use  "figures/boosted/Syst_CRSB/CR_Low_Control_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 49--50
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
 <use  "figures/boosted/Syst_CRSB/CR_High_Sideband_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 59--60
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 62--63
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf Graphic file (
 type QTm)
 <use  "figures/boosted/Syst_CRSB/CR_High_Control_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 65--66
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 68--69
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/CR_Small_Sideband_OneTag_mH0H1.pdf Graphic file
  (type QTm)
 <use  "figures/boosted/Syst_CRSB/CR_Small_Sideband_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 77--78
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/CR_Small_Control_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
 <use  "figures/boosted/Syst_CRSB/CR_Small_Control_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 83--84
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 86--87
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_Low_Sideband_OneTag_mH0H1.pdf Graphic file (
 type QTm)
 <use  "figures/boosted/Syst_CRSB/SB_Low_Sideband_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 95--96
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 98--99
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_Low_Control_OneTag_mH0H1.pdf Graphic file (t
 ype QTm)
 <use  "figures/boosted/Syst_CRSB/SB_Low_Control_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 101--102
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 104--105
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
 <use  "figures/boosted/Syst_CRSB/SB_High_Sideband_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 114--115
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 117--118
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf Graphic file (
 type QTm)
 <use  "figures/boosted/Syst_CRSB/SB_High_Control_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 120--121
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_Small_Sideband_OneTag_mH0H1.pdf Graphic file
  (type QTm)
 <use  "figures/boosted/Syst_CRSB/SB_Small_Sideband_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 132--133
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 135--136
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_Small_Control_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
 <use  "figures/boosted/Syst_CRSB/SB_Small_Control_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 138--139
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 141--142
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf Graphic file
  (type QTm)
 <use  "figures/boosted/Syst_CRSB/SB_Large_Sideband_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 150--151
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 153--154
 [][] 
  []
 
 File: figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf Graphic file 
 (type QTm)
 <use  "figures/boosted/Syst_CRSB/SB_Large_Control_OneTag_mH0H1.pdf" >
-Overfull \hbox (5.00925pt too wide) in paragraph at lines 156--157
+Overfull \hbox (5.00925pt too wide) in paragraph at lines 159--160
 [][] 
  []
 
 [195] [196] [197] [198]
 
-Package caption Warning: \label without proper \caption on input line 174.
+Package caption Warning: \label without proper \caption on input line 177.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `CRSB:Tab_4b_CR_High' on page 199 undefined on input l
-ine 167.
+ine 170.
 
 
-Package caption Warning: \label without proper \caption on input line 182.
+Package caption Warning: \label without proper \caption on input line 185.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `CRSB:Tab_4b_CR_Low' on page 199 undefined on input li
-ne 167.
+ne 170.
 
 (./figures/boosted/tables/CR_High_FourTag_yield.tex)
 (./figures/boosted/tables/CR_Low_FourTag_yield.tex)
