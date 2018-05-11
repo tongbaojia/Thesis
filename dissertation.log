@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  11 MAY 2018 15:51
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  11 MAY 2018 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3349,9 +3349,9 @@ ons on the 2D $[][]$-$[][]$  plane. The white circle
  []
 
 
-Overfull \hbox (5.70483pt too wide) in paragraph at lines 156--156
+Overfull \hbox (7.80724pt too wide) in paragraph at lines 156--156
  \EU1/EBGaramond(2)/bx/n/10.95 column), for $[][]$ (top row), $[][]$ (middle ro
-w) and $[][]$ split (bottom row). Only statistical 
+w), and $[][][]$ (bottom row). Only statistical un- 
  []
 
 
@@ -3361,9 +3361,9 @@ Overfull \hbox (1.50656pt too wide) in paragraph at lines 157--157
  []
 
 
-Overfull \hbox (5.70483pt too wide) in paragraph at lines 157--157
+Overfull \hbox (7.80724pt too wide) in paragraph at lines 157--157
  \EU1/EBGaramond(2)/bx/n/10.95 column), for $[][]$ (top row), $[][]$ (middle ro
-w) and $[][]$ split (bottom row). Only statistical 
+w), and $[][][]$ (bottom row). Only statistical un- 
  []
 
 [21]
@@ -3421,9 +3421,9 @@ t results with different fit functions (right)
  []
 
 
-Overfull \hbox (7.44589pt too wide) in paragraph at lines 162--162
- \EU1/EBGaramond(2)/bx/n/10.95 for the $[][][]$ (top) $[][]$ (middle) and $[][]
-$ (bottom) samples. The additional fit functions are 
+Overfull \hbox (12.43909pt too wide) in paragraph at lines 162--162
+ \EU1/EBGaramond(2)/bx/n/10.95 for the $[][][]$ (top), $[][]$ (middle), and $[]
+[]$ (bottom) samples. The additional fit functions are 
  []
 
 
@@ -3457,9 +3457,9 @@ Overfull \hbox (3.8579pt too wide) in paragraph at lines 171--171
  []
 
 
-Overfull \hbox (3.6572pt too wide) in paragraph at lines 171--171
+Overfull \hbox (19.17334pt too wide) in paragraph at lines 171--171
  \EU1/EBGaramond(2)/bx/n/10.95 left column is for the $[][][]$ signal region. T
-he top row is for high CR variation, the mid- 
+he top row is for the high CR variation, the mid- 
  []
 
 
@@ -3487,15 +3487,15 @@ Overfull \hbox (3.8579pt too wide) in paragraph at lines 172--172
  []
 
 
-Overfull \hbox (9.4388pt too wide) in paragraph at lines 172--172
+Overfull \hbox (11.21269pt too wide) in paragraph at lines 172--172
  \EU1/EBGaramond(2)/bx/n/10.95 left column is for the $[][][]$ signal region. T
-he top row is for high SB variation, the second 
+he top row is for the high SB variation, the sec- 
  []
 
 
-Overfull \hbox (6.3217pt too wide) in paragraph at lines 172--172
- \EU1/EBGaramond(2)/bx/n/10.95 row is for the low SB variation, the third row i
-s for the small SB variation and the large 
+Overfull \hbox (3.39804pt too wide) in paragraph at lines 172--172
+ \EU1/EBGaramond(2)/bx/n/10.95 ond row is for the low SB variation, the third r
+ow is for the small SB variation and the 
  []
 
 )
@@ -3711,15 +3711,15 @@ the statistical uncertainty is shown. The
  []
 
 
-Overfull \hbox (23.91833pt too wide) in paragraph at lines 47--47
+Overfull \hbox (1.30658pt too wide) in paragraph at lines 47--47
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Observed data and background predicti
-ons in the ZZ signal regions in $[][]$, $[][]$ and $[][][]$ chan- 
+ons in the ZZ signal regions in $[][]$, $[][]$, and $[][][]$ 
  []
 
 
-Overfull \hbox (0.27728pt too wide) in paragraph at lines 48--48
+Overfull \hbox (2.77388pt too wide) in paragraph at lines 48--48
  [][] [][][]\EU1/EBGaramond(2)/bx/n/10.95 Observed data and background predicti
-ons in the TT signal regions in $[][]$, $[][]$ and $[][][]$ 
+ons in the TT signal regions in $[][]$, $[][]$, and $[][][]$ 
  []
 
 [26])
@@ -7248,7 +7248,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  28283 strings out of 493706
  562872 string characters out of 6145769
- 679859 words of memory out of 5000000
+ 679865 words of memory out of 5000000
  30386 multiletter control sequences out of 15000+600000
  19026 words of font info for 169 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
