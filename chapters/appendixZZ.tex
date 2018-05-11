@@ -1,0 +1,138 @@
+%!TEX root = ../dissertation.tex
+\begin{savequote}[75mm]
+A fruit must rot before its seed can sprout.   
+\end{savequote}
+\chapter{Validations with low mass and high mass signal region}
+\label{app:appendixZZ}
+
+\paragraph{}
+Another check is the the so-called ``low mass signal region'' (or ZZ region) and ``high mass signal region'' (or TT region). 
+On the \mleadJ-\msublJ~ 2D plane, a lower in center (ZZ) and higher in center (TT) signal region are defined: 
+\begin{equation}
+X_{ZZ} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{103 GeV}}{0.1 \left(m^{\rm lead}_{\rm J}\right)}\right)^2 + \left(\frac{m^{\rm subl}_{\rm J}- \text{96 GeV}}{0.1 \left(m^{\rm subl}_{\rm J}\right)}\right)^2}
+\label{eq:boosted_Xzz}
+\end{equation}
+\begin{equation}
+X_{TT} = \sqrt{\left(\frac{m^{\rm lead}_{\rm J} - \text{164 GeV}}{0.1 \left(m^{\rm lead}_{\rm J}\right)}\right)^2 + \left(\frac{m^{\rm subl}_{\rm J}- \text{155 GeV}}{0.1 \left(m^{\rm subl}_{\rm J}\right)}\right)^2}
+\label{eq:boosted_Xtt}
+\end{equation}
+They are shown in Figure~\ref{fig:ZZIllustration}. 
+The signal region background is estimated using the same sideband and control regions with events contained in the ZZ or TT signal region excluded. 
+Then these fake signal regions are unblinded and compared with the prediction. 
+This comparison validates the background estimation strategy in QCD and \ttbar~ enriched regions.
+
+\begin{figure}[htb!]
+\begin{center}
+\captionsetup{justification=centering}
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/ZZ/Compare_NoTag_mH0H1.pdf}
+        \caption{ZZ}
+        \label{fig:ZZIllustration-ZZ}
+    \end{subfigure}
+    \quad 
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\textwidth,angle=-90]{figures/boosted/TT/Compare_NoTag_mH0H1.pdf}
+        \caption{TT}
+        \label{fig:ZZIllustration-TT}
+    \end{subfigure}
+\end{center}
+\caption{Illustration of ZZ and TT signal regions on the 2D \mleadJ-\msublJ~ plane. The white circle in the middle is the blinded real signal region.}
+\label{fig:ZZIllustration}
+\end{figure}
+
+\paragraph{}
+%The summary of background estimation for ZZ signal region can be found in Table \ref{CRSB:SummaryTable_ZZ_4b}, ~\ref{CRSB:SummaryTable_ZZ_3b} and ~\ref{CRSB:SummaryTable_ZZ_2b}. 
+The differences between data and prediction in the ZZ and TT signal regions are summarized in Table~\ref{tab:DataPred_zzSR} and \ref{tab:DataPred_ttSR}. 
+The kinematic distribution of data and prediction in ZZ and TT signal region are shown in Figure~\ref{fig:ZZSR_Distribution} and ~\ref{fig:TTSR_Distribution}.
+The differences between data and prediction are comparable with data statistical uncertainties. 
+
+% \begin{table}[htb!]
+% \begin{center}
+% \input{figures/boosted/tables/Moriond_ZZ_FourTag_yield.tex}
+% \end{center}
+% \caption{Background prediction in SR/CR/SB for ZZ SR in $4b$-tag region. Uncertainties are stat only.}
+% \label{CRSB:SummaryTable_ZZ_4b}
+% \end{table}
+
+% \begin{table}[htb!]
+% \begin{center}
+% \input{figures/boosted/tables/Moriond_ZZ_ThreeTag_yield.tex}
+% \end{center}
+% \caption{Background prediction in SR/CR/SB for ZZ SR in $3b$-tag region. Uncertainties are stat only.}
+% \label{CRSB:SummaryTable_ZZ_3b}
+% \end{table}
+
+% \begin{table}[htb!]
+% \begin{center}
+% \input{figures/boosted/tables/Moriond_ZZ_TwoTag_split_yield.tex}
+% \end{center}
+% \caption{Background prediction in SR/CR/SB for ZZ SR in $2bs$-tag region. Uncertainties are stat only.}
+% \label{CRSB:SummaryTable_ZZ_2b}
+% \end{table}
+
+\begin{table}[htb!]
+\caption{Observed data and background predictions in the ZZ signal regions in $4b$, $3b$ and $2bs$ channels.}
+\begin{center}
+\input{figures/boosted/tables/ZZ_Signal_Region.tex}
+\label{tab:DataPred_zzSR}
+\end{center}
+\end{table}
+
+\begin{table}[htb!]
+\begin{center}
+\caption{Observed data and background predictions in the TT signal regions in $4b$, $3b$ and $2bs$ channels.}
+\input{figures/boosted/tables/TT_Signal_Region.tex}
+\label{tab:DataPred_ttSR}
+\end{center}
+\end{table}
+
+\begin{figure}[htb!]
+\begin{center}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_FourTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_ThreeTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/ZZ/Moriond_ZZ_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
+\end{center}
+\caption{ZZ signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column), for $4b$ (top row), $3b$ (middle row) and $2b$ split (bottom row). Only statistical uncertainties are shown.}
+\label{fig:ZZSR_Distribution}
+\end{figure}
+
+% \begin{table}[htb!]
+% \begin{center}
+% \input{figures/boosted/tables/Moriond_TT_FourTag_yield.tex}
+% \end{center}
+% \caption{Background prediction in SR/CR/SB for TT SR in $4b$-tag region. Uncertainties are stat only.}
+% \label{CRSB:SummaryTable_TT_4b}
+% \end{table}
+
+% \begin{table}[htb!]
+% \begin{center}
+% \input{figures/boosted/tables/Moriond_TT_ThreeTag_yield.tex}
+% \end{center}
+% \caption{Background prediction in SR/CR/SB for TT SR in $3b$-tag region. Uncertainties are stat only.}
+% \label{CRSB:SummaryTable_TT_3b}
+% \end{table}
+
+% \begin{table}[htb!]
+% \begin{center}
+% \input{figures/boosted/tables/Moriond_TT_TwoTag_split_yield.tex}
+% \end{center}
+% \caption{Background prediction in SR/CR/SB for TT SR in $2bs$-tag region. Uncertainties are stat only.}
+% \label{CRSB:SummaryTable_TT_2b}
+% \end{table}
+
+
+\begin{figure}[htb!]
+\begin{center}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_FourTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_FourTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_ThreeTag_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_ThreeTag_Signal_leadHCand_Mass_s.pdf}\\
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_mHH_l_1.pdf}
+\includegraphics[width=0.41\textwidth,angle=-90]{figures/boosted/TT/Moriond_TT_TwoTag_split_Signal_leadHCand_Mass_s.pdf}\\
+\end{center}
+\caption{TT signal region distribution of \mtwoJ~ (left column) and leading large-R jet mass (right column), for $4b$ (top row), $3b$ (middle row) and $2b$ split (bottom row). Only statistical uncertainties are shown.}
+\label{fig:TTSR_Distribution}
+\end{figure}
