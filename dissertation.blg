@@ -19,15 +19,14 @@ A level-1 auxiliary file: chapters/appendixRW.aux
 A level-1 auxiliary file: chapters/appendixSysVar.aux
 The style file: unsrtnat.bst
 Database file #1: references.bib
-Warning--I didn't find a database entry for "ATLAS-CONF-2014-004"
+Warning--empty note in LumiRatio
+Warning--empty note in Lumi_Run2
+Warning--there's a number but no volume in btaggingRun2
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Tully
 Warning--empty journal in LHCYellow
-Warning--empty note in LumiRatio
-Warning--empty note in Lumi_Run2
 Warning--empty author in ATLAS-CONF-2015-035
 Warning--empty author in ATL-PHYS-PUB-2017-020
-Warning--there's a number but no volume in btaggingRun2
 Warning--empty journal in MC12AU2
 Warning--empty journal in carvalho
 Warning--empty journal in Aaboud:2018knk
@@ -38,7 +37,7 @@ Warning--empty institution in ATL-COM-PHYS-2015-1323
 Warning--empty journal in Hawking:2018tcn
 You've used 83 entries,
             2481 wiz_defined-function locations,
-            1104 strings with 18348 characters,
+            1102 strings with 18310 characters,
 and the built_in function-call counts, 27886 in all, are:
 = -- 2490
 > -- 1083
@@ -77,4 +76,4 @@ warning$ -- 16
 while$ -- 219
 width$ -- 0
 write$ -- 1214
-(There were 17 warnings)
+(There were 16 warnings)

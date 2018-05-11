@@ -183,105 +183,103 @@
 \contentsline {paragraph}{}{85}{section.7.1}
 \contentsline {paragraph}{}{85}{section.7.1}
 \contentsline {paragraph}{}{86}{section.7.1}
-\contentsline {paragraph}{}{86}{equation.7.1.1}
-\contentsline {section}{\numberline {7.2}Theoretical uncertainties}{87}{section.7.2}
+\contentsline {paragraph}{}{86}{section.7.1}
+\contentsline {paragraph}{}{86}{section.7.1}
+\contentsline {paragraph}{}{86}{section.7.1}
+\contentsline {section}{\numberline {7.2}Theoretical uncertainties}{86}{section.7.2}
+\contentsline {paragraph}{}{86}{section.7.2}
 \contentsline {paragraph}{}{87}{section.7.2}
 \contentsline {paragraph}{}{87}{section.7.2}
 \contentsline {paragraph}{}{87}{section.7.2}
 \contentsline {paragraph}{}{87}{section.7.2}
-\contentsline {paragraph}{}{88}{section.7.2}
 \contentsline {section}{\numberline {7.3}Uncertainties on detector and reconstruction}{88}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Luminosity uncertainty}{88}{subsection.7.3.1}
 \contentsline {paragraph}{}{88}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Large-\ensuremath {R}\xspace jet resolution and scale uncertainties}{88}{subsection.7.3.2}
 \contentsline {paragraph}{}{88}{subsection.7.3.2}
 \contentsline {paragraph}{}{88}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}$b$-tagging uncertainties}{89}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.3}$b$-tagging uncertainties}{88}{subsection.7.3.3}
+\contentsline {paragraph}{}{88}{subsection.7.3.3}
 \contentsline {paragraph}{}{89}{subsection.7.3.3}
-\contentsline {paragraph}{}{89}{subsection.7.3.3}
-\contentsline {paragraph}{}{89}{subsection.7.3.3}
-\contentsline {paragraph}{}{90}{subsection.7.3.3}
+\contentsline {paragraph}{}{89}{equation.7.3.1}
 \contentsline {section}{\numberline {7.4}Uncertainty on $t\mathaccent "7016\relax {t}$\nobreakspace {} generator}{90}{section.7.4}
 \contentsline {paragraph}{}{90}{section.7.4}
-\contentsline {paragraph}{}{91}{section.7.4}
-\contentsline {section}{\numberline {7.5}Uncertainty on \ensuremath {{"μ}_{\mathrm {qcd}}}estimation}{91}{section.7.5}
+\contentsline {section}{\numberline {7.5}Uncertainty on \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} estimation}{91}{section.7.5}
 \contentsline {paragraph}{}{91}{section.7.5}
 \contentsline {paragraph}{}{92}{section.7.5}
-\contentsline {paragraph}{}{93}{section.7.5}
-\contentsline {section}{\numberline {7.6}Validation in low mass and high mass signal region}{94}{section.7.6}
+\contentsline {section}{\numberline {7.6}Validations with low mass and high mass signal region}{94}{section.7.6}
 \contentsline {paragraph}{}{94}{section.7.6}
 \contentsline {paragraph}{}{94}{figure.caption.79}
-\contentsline {paragraph}{}{95}{figure.caption.79}
-\contentsline {paragraph}{}{95}{figure.caption.79}
-\contentsline {section}{\numberline {7.7}Uncertainty on the shape of $t\mathaccent "7016\relax {t}$\ \ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the $4/3b$ signal region}{99}{section.7.7}
-\contentsline {paragraph}{}{99}{section.7.7}
-\contentsline {section}{\numberline {7.8}Uncertainty on the shape of the QCD distribution in the signal region}{99}{section.7.8}
-\contentsline {paragraph}{}{99}{section.7.8}
-\contentsline {section}{\numberline {7.9}Uncertainty on smoothing function in the signal region}{100}{section.7.9}
-\contentsline {paragraph}{}{100}{section.7.9}
-\contentsline {paragraph}{}{100}{section.7.9}
-\contentsline {paragraph}{}{101}{section.7.9}
-\contentsline {paragraph}{}{102}{figure.caption.86}
-\contentsline {paragraph}{}{103}{table.caption.87}
-\contentsline {section}{\numberline {7.10}Summary of systematics}{103}{section.7.10}
-\contentsline {paragraph}{}{103}{section.7.10}
-\contentsline {paragraph}{}{103}{section.7.10}
-\contentsline {paragraph}{}{104}{section.7.10}
-\contentsline {chapter}{\numberline {8}Result}{107}{chapter.8}
-\contentsline {paragraph}{}{107}{chapter.8}
-\contentsline {section}{\numberline {8.1}Boosted signal region}{107}{section.8.1}
-\contentsline {paragraph}{}{107}{section.8.1}
-\contentsline {section}{\numberline {8.2}Resolved signal region}{109}{section.8.2}
-\contentsline {paragraph}{}{109}{section.8.2}
-\contentsline {paragraph}{}{112}{table.caption.100}
-\contentsline {section}{\numberline {8.3}Statistical analysis}{112}{section.8.3}
-\contentsline {paragraph}{}{112}{section.8.3}
-\contentsline {paragraph}{}{113}{section.8.3}
-\contentsline {paragraph}{}{113}{equation.8.3.1}
-\contentsline {paragraph}{}{113}{equation.8.3.1}
-\contentsline {paragraph}{}{113}{figure.caption.102}
-\contentsline {paragraph}{}{114}{figure.caption.103}
-\contentsline {paragraph}{}{115}{figure.caption.104}
-\contentsline {section}{\numberline {8.4}Boosted and resolved combined limits}{115}{section.8.4}
-\contentsline {paragraph}{}{115}{section.8.4}
-\contentsline {paragraph}{}{116}{section.8.4}
-\contentsline {paragraph}{}{118}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusion}{121}{chapter.9}
-\contentsline {paragraph}{}{121}{chapter.9}
-\contentsline {paragraph}{}{122}{chapter.9}
-\contentsline {paragraph}{}{122}{chapter.9}
-\contentsline {paragraph}{}{122}{chapter.9}
-\contentsline {paragraph}{}{122}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}Boosted sideband region kinematic distributions}{123}{Appendix.1.A}
-\contentsline {paragraph}{}{123}{Appendix.1.A}
-\contentsline {paragraph}{}{124}{Appendix.1.A}
-\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{136}{Appendix.1.B}
-\contentsline {paragraph}{}{136}{Appendix.1.B}
-\contentsline {paragraph}{}{137}{Appendix.1.B}
-\contentsline {chapter}{Appendix \numberline {C}Boosted signal region kinematic distributions}{149}{Appendix.1.C}
-\contentsline {paragraph}{}{149}{Appendix.1.C}
-\contentsline {paragraph}{}{150}{Appendix.1.C}
-\contentsline {paragraph}{}{150}{table.caption.141}
-\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{164}{Appendix.1.D}
-\contentsline {paragraph}{}{164}{Appendix.1.D}
-\contentsline {paragraph}{}{167}{figure.caption.158}
-\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{171}{Appendix.1.E}
-\contentsline {paragraph}{}{171}{Appendix.1.E}
-\contentsline {paragraph}{}{172}{Appendix.1.E}
-\contentsline {paragraph}{}{172}{figure.caption.169}
-\contentsline {paragraph}{}{172}{figure.caption.175}
-\contentsline {paragraph}{}{185}{figure.caption.175}
-\contentsline {paragraph}{}{185}{figure.caption.175}
-\contentsline {paragraph}{}{186}{figure.caption.175}
-\contentsline {paragraph}{}{186}{figure.caption.179}
-\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{193}{Appendix.1.F}
-\contentsline {paragraph}{}{193}{Appendix.1.F}
-\contentsline {paragraph}{}{194}{Appendix.1.F}
-\contentsline {paragraph}{}{194}{Appendix.1.F}
-\contentsline {paragraph}{}{195}{Appendix.1.F}
-\contentsline {paragraph}{}{199}{figure.caption.188}
-\contentsline {paragraph}{}{202}{table.caption.195}
-\contentsline {paragraph}{}{205}{table.caption.202}
-\contentsline {paragraph}{}{208}{table.caption.209}
-\contentsline {paragraph}{}{208}{table.caption.212}
+\contentsline {section}{\numberline {7.7}Uncertainty on the shape of the QCD distribution in the signal region}{95}{section.7.7}
+\contentsline {paragraph}{}{95}{section.7.7}
+\contentsline {section}{\numberline {7.8}Summary of systematics}{96}{section.7.8}
+\contentsline {paragraph}{}{96}{section.7.8}
+\contentsline {paragraph}{}{96}{section.7.8}
+\contentsline {paragraph}{}{96}{figure.caption.85}
+\contentsline {chapter}{\numberline {8}Result}{102}{chapter.8}
+\contentsline {paragraph}{}{102}{chapter.8}
+\contentsline {section}{\numberline {8.1}Boosted signal region}{102}{section.8.1}
+\contentsline {paragraph}{}{102}{section.8.1}
+\contentsline {section}{\numberline {8.2}Resolved signal region}{104}{section.8.2}
+\contentsline {paragraph}{}{104}{section.8.2}
+\contentsline {paragraph}{}{107}{table.caption.96}
+\contentsline {section}{\numberline {8.3}Statistical analysis}{107}{section.8.3}
+\contentsline {paragraph}{}{107}{section.8.3}
+\contentsline {paragraph}{}{108}{section.8.3}
+\contentsline {paragraph}{}{108}{equation.8.3.1}
+\contentsline {paragraph}{}{108}{equation.8.3.1}
+\contentsline {paragraph}{}{108}{figure.caption.98}
+\contentsline {paragraph}{}{109}{figure.caption.99}
+\contentsline {paragraph}{}{110}{figure.caption.100}
+\contentsline {section}{\numberline {8.4}Boosted and resolved combined limits}{110}{section.8.4}
+\contentsline {paragraph}{}{110}{section.8.4}
+\contentsline {paragraph}{}{111}{section.8.4}
+\contentsline {paragraph}{}{113}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusion}{116}{chapter.9}
+\contentsline {paragraph}{}{116}{chapter.9}
+\contentsline {paragraph}{}{117}{chapter.9}
+\contentsline {paragraph}{}{117}{chapter.9}
+\contentsline {paragraph}{}{117}{chapter.9}
+\contentsline {paragraph}{}{117}{chapter.9}
+\contentsline {chapter}{Appendix \numberline {A}Boosted sideband region kinematic distributions}{118}{Appendix.1.A}
+\contentsline {paragraph}{}{118}{Appendix.1.A}
+\contentsline {paragraph}{}{119}{Appendix.1.A}
+\contentsline {chapter}{Appendix \numberline {B}Boosted control region kinematic distributions}{131}{Appendix.1.B}
+\contentsline {paragraph}{}{131}{Appendix.1.B}
+\contentsline {paragraph}{}{132}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {C}Boosted signal region kinematic distributions}{144}{Appendix.1.C}
+\contentsline {paragraph}{}{144}{Appendix.1.C}
+\contentsline {paragraph}{}{145}{Appendix.1.C}
+\contentsline {paragraph}{}{145}{table.caption.137}
+\contentsline {chapter}{Appendix \numberline {D}Constant \ensuremath {{"μ}_{\mathrm {qcd}}}\nobreakspace {} Validation}{159}{Appendix.1.D}
+\contentsline {paragraph}{}{159}{Appendix.1.D}
+\contentsline {paragraph}{}{162}{figure.caption.154}
+\contentsline {chapter}{Appendix \numberline {E}Reweighting Details}{166}{Appendix.1.E}
+\contentsline {paragraph}{}{166}{Appendix.1.E}
+\contentsline {paragraph}{}{167}{Appendix.1.E}
+\contentsline {paragraph}{}{167}{figure.caption.165}
+\contentsline {paragraph}{}{167}{figure.caption.171}
+\contentsline {paragraph}{}{180}{figure.caption.171}
+\contentsline {paragraph}{}{180}{figure.caption.171}
+\contentsline {paragraph}{}{181}{figure.caption.171}
+\contentsline {paragraph}{}{181}{figure.caption.175}
+\contentsline {chapter}{Appendix \numberline {F}Effects on yield prediction from variations of the sideband and control regions}{188}{Appendix.1.F}
+\contentsline {paragraph}{}{188}{Appendix.1.F}
+\contentsline {paragraph}{}{189}{Appendix.1.F}
+\contentsline {paragraph}{}{189}{Appendix.1.F}
+\contentsline {paragraph}{}{190}{Appendix.1.F}
+\contentsline {paragraph}{}{194}{figure.caption.184}
+\contentsline {paragraph}{}{197}{table.caption.191}
+\contentsline {paragraph}{}{200}{table.caption.198}
+\contentsline {paragraph}{}{203}{table.caption.205}
+\contentsline {paragraph}{}{203}{table.caption.208}
+\contentsline {chapter}{Appendix \numberline {G}Discussions on systematic uncertainties}{207}{Appendix.1.G}
+\contentsline {section}{\numberline {G.1}Uncertainty on the shape of $t\mathaccent "7016\relax {t}$\nobreakspace {} \ensuremath {m_{\mathrm {2J}}}\nobreakspace {} in the $4/3b$ signal region}{207}{section.1.G.1}
+\contentsline {paragraph}{}{207}{section.1.G.1}
+\contentsline {section}{\numberline {G.2}Uncertainty on smoothing function in the signal region}{208}{section.1.G.2}
+\contentsline {paragraph}{}{208}{section.1.G.2}
+\contentsline {paragraph}{}{208}{section.1.G.2}
+\contentsline {paragraph}{}{209}{section.1.G.2}
+\contentsline {paragraph}{}{209}{figure.caption.212}
+\contentsline {paragraph}{}{209}{table.caption.213}
 \contentsline {chapter}{References}{212}{figure.caption.214}
